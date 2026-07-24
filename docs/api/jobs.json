@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-24T18:20:48Z",
+ "generated_at": "2026-07-24T20:21:52Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 110,
+ "count": 108,
  "jobs": [
   {
    "id": "workday:coreandmain:/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804",
@@ -46,26 +46,6 @@
    "skills": [],
    "source": "oracle",
    "h1b_approvals": 149
-  },
-  {
-   "id": "smartrecruiters:BoschGroup:744000139639579",
-   "company": "Robert Bosch Venture Capital",
-   "title": "Powertrain Controls Software Engineering Intern",
-   "season": "Summer 2027",
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Farmington Hills, MI, United States",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000139639579",
-   "posted_at": "2026-07-24T15:19:25.785Z",
-   "first_seen_at": "2026-07-24T16:37:05Z",
-   "sponsorship": "no-sponsorship",
-   "salary": null,
-   "skills": [
-    "MATLAB",
-    "Linux"
-   ],
-   "source": "smartrecruiters",
-   "h1b_approvals": null
   },
   {
    "id": "smartrecruiters:BoschGroup:744000139649345",
@@ -231,23 +211,6 @@
    ],
    "source": "greenhouse",
    "h1b_approvals": 12
-  },
-  {
-   "id": "workday:sentara:/job/Virginia-Beach-VA/Cyber-Security-Compliance-Intern_JR-97927-1",
-   "company": "Sentara Health",
-   "title": "Cyber Security Compliance Intern",
-   "season": "Summer 2027",
-   "season_inferred": true,
-   "category": "Security",
-   "location": "Virginia Beach, VA",
-   "url": "https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Cyber-Security-Compliance-Intern_JR-97927-1",
-   "posted_at": "2026-07-23T00:00:00Z",
-   "first_seen_at": "2026-07-23T12:26:12Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [],
-   "source": "workday",
-   "h1b_approvals": null
   },
   {
    "id": "workday:hp:/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1",
@@ -1327,7 +1290,7 @@
   {
    "id": "greenhouse:lilasciences:4289387009",
    "company": "Lila Sciences",
-   "title": "Co-Op, LS AI, ML Scientist for Protein Engineering",
+   "title": "Co-Op, ML Scientist for Protein Engineering",
    "season": "Summer 2027",
    "season_inferred": true,
    "category": "Data & ML/AI",

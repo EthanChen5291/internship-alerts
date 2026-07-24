@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-24T18:20:48Z</updated>
+  <updated>2026-07-24T20:21:52Z</updated>
   <entry>
     <id>urn:intern-engine:workday:coreandmain:/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804</id>
     <title>Core &amp; Main: Intern - AI/ML Data Engineering  -  Onsite - St. Louis</title>
@@ -21,14 +21,6 @@
     <updated>2026-07-24T16:37:05Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Lake Success, Nassau, United States · H-1B track record: ~149 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000139639579</id>
-    <title>Robert Bosch Venture Capital: Powertrain Controls Software Engineering Intern 🛂</title>
-    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000139639579"/>
-    <updated>2026-07-24T16:37:05Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Farmington Hills, MI, United States · MATLAB, Linux · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:BoschGroup:744000139649345</id>
@@ -109,14 +101,6 @@
     <updated>2026-07-23T12:26:12Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, California, United States · Python, C#, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:sentara:/job/Virginia-Beach-VA/Cyber-Security-Compliance-Intern_JR-97927-1</id>
-    <title>Sentara Health: Cyber Security Compliance Intern</title>
-    <link href="https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Cyber-Security-Compliance-Intern_JR-97927-1"/>
-    <updated>2026-07-23T12:26:12Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Virginia Beach, VA</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1</id>
@@ -376,7 +360,7 @@
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:lilasciences:4289387009</id>
-    <title>Lila Sciences: Co-Op, LS AI, ML Scientist for Protein Engineering</title>
+    <title>Lila Sciences: Co-Op, ML Scientist for Protein Engineering</title>
     <link href="https://job-boards.greenhouse.io/lilasciences/jobs/4289387009"/>
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
@@ -405,5 +389,21 @@
     <updated>2026-07-16T07:39:11Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Chicago, Illinois, United States · Python, Docker, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:xpengmotors:8581353002</id>
+    <title>XPENG Motors: AI Infra Onboard Performance Intern</title>
+    <link href="https://job-boards.greenhouse.io/xpengmotors/jobs/8581353002"/>
+    <updated>2026-07-16T07:39:11Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CA · Python, C++, CUDA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:acds:41bee5e2-6477-428f-b359-34b4071d545f</id>
+    <title>Acds: AI Operations Intern - Naukr AI</title>
+    <link href="https://jobs.lever.co/acds/41bee5e2-6477-428f-b359-34b4071d545f"/>
+    <updated>2026-07-16T07:39:11Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Bentonville, AR · 15–15 USD / per hour wage · SQL, LLMs</summary>
   </entry>
 </feed>
