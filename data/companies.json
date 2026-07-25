@@ -1878,6 +1878,11 @@
     "site": "ascensuscareers"
   },
   {
+    "name": "Ascentt",
+    "slug": "ascentt",
+    "ats": "rippling"
+  },
+  {
     "name": "ASDA",
     "slug": "asda",
     "ats": "workday",
@@ -3967,6 +3972,11 @@
     "name": "Career Guidant",
     "slug": "CareerGuidant",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Carefeed",
+    "slug": "carefeed",
+    "ats": "greenhouse"
   },
   {
     "name": "CareSource",
@@ -6803,6 +6813,11 @@
     "name": "Elastic",
     "slug": "elastic",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Electrosonic",
+    "slug": "electrosonic-careers",
+    "ats": "rippling"
   },
   {
     "name": "Elekta",
@@ -12016,6 +12031,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Limble CMMS",
+    "slug": "limble",
+    "ats": "ashby"
+  },
+  {
     "name": "Linamar",
     "slug": "fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com",
     "ats": "oracle",
@@ -12192,6 +12212,11 @@
     "name": "Long Wall",
     "slug": "longwall",
     "ats": "lever"
+  },
+  {
+    "name": "Longevity Holdings",
+    "slug": "longevity-holdings",
+    "ats": "rippling"
   },
   {
     "name": "Lonza",
@@ -13293,6 +13318,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Middle East Institute",
+    "slug": "mei-employment",
+    "ats": "rippling"
+  },
+  {
     "name": "Midmark",
     "slug": "hcor.fa.us2.oraclecloud.com",
     "ats": "oracle",
@@ -13709,6 +13739,11 @@
     "site": "gbl"
   },
   {
+    "name": "MSM Inc.",
+    "slug": "msm",
+    "ats": "rippling"
+  },
+  {
     "name": "MSX International",
     "slug": "MSXInternational",
     "ats": "smartrecruiters"
@@ -13853,6 +13888,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "nrel"
+  },
+  {
+    "name": "National Water Services",
+    "slug": "nws",
+    "ats": "rippling"
   },
   {
     "name": "NationGraph",
@@ -14167,6 +14207,11 @@
     "name": "Nexthink",
     "slug": "Nexthink",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Nexxen",
+    "slug": "nexxen",
+    "ats": "ashby"
   },
   {
     "name": "ngrok",
@@ -15183,6 +15228,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "Oxford Quantum Circuits (OQC)",
+    "slug": "oxford-quantum-circuits-8",
+    "ats": "workable"
+  },
+  {
     "name": "PA Consulting",
     "slug": "PAConsulting",
     "ats": "smartrecruiters"
@@ -15409,6 +15459,11 @@
     "name": "PDI Technologies",
     "slug": "pditechnologies",
     "ats": "lever"
+  },
+  {
+    "name": "PDT Partners",
+    "slug": "pdtpartners",
+    "ats": "greenhouse"
   },
   {
     "name": "Peakhealth AI Inc",
@@ -17289,6 +17344,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "RugsUSA",
+    "slug": "rugsusa",
+    "ats": "rippling"
+  },
+  {
     "name": "Rundoo",
     "slug": "rundoo",
     "ats": "ashby"
@@ -19125,6 +19185,11 @@
     "site": "StrykerCareers"
   },
   {
+    "name": "Studycast",
+    "slug": "core-sound-imaging",
+    "ats": "rippling"
+  },
+  {
     "name": "STV",
     "slug": "stvinc",
     "ats": "workday",
@@ -19941,6 +20006,11 @@
     "name": "The Pokémon Company",
     "slug": "pokemoncareers",
     "ats": "greenhouse"
+  },
+  {
+    "name": "The Redesign Group",
+    "slug": "redesigncareers",
+    "ats": "rippling"
   },
   {
     "name": "The Scion Group",
@@ -22521,6 +22591,11 @@
     "ats": "workday",
     "wd": "wd503",
     "site": "zepinccareers"
+  },
+  {
+    "name": "ZeroMark",
+    "slug": "zeromark",
+    "ats": "ashby"
   },
   {
     "name": "Zettabyte",
