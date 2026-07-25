@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**102 open roles · 28 new this week · 3,889 companies tracked · updated Jul 24, 2026 at 22:05 UTC**
+**102 open roles · 28 new this week · 3,889 companies tracked · updated Jul 25, 2026 at 00:03 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -62,7 +62,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 🆕 | Quant | New York City | Jul 23, 2026 | [Apply](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96) |
 | Appian ✓ | Software Engineering Intern 🛂 🆕 | Software | McLean, Virginia | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/appian/jobs/8041237) |
 | Tenstorrent ✓ | Software Engineering Intern, Power Modeling & AI Tools ~ 🆕 | Data & ML/AI | Santa Clara, California, United States | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007) |
-| Hewlett Packard (HP) | Software Engineering Intern, Device Experiences ~ 🆕 | Software | San Francisco +2 more | Jul 22, 2026 | [Apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1) |
+| Hewlett Packard (HP) | Software Engineering Intern, Device Experiences ~ | Software | San Francisco +2 more | Jul 22, 2026 | [Apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1) |
 | Pony Dot Ai | Research Intern - Deep Learning ~ | Data & ML/AI | Fremont, California, United States | Jul 22, 2026 | [Apply](https://apply.workable.com/pony-dot-ai/j/4C1F53EF5D/) |
 | Pony Dot Ai | Software Engineer Intern - Generalist ~ | Software | Fremont, California, United States | Jul 22, 2026 | [Apply](https://apply.workable.com/pony-dot-ai/j/BA5FFDBC71/) |
 | Moog | Intern, Software Engineering ~ | Software | Buffalo, NY | Jul 22, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1) |
@@ -84,7 +84,6 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Akuna Capital ✓ | Software Engineer Intern - Python, Summer 2027 | Software | Chicago, IL | Jul 13, 2026 | [Apply](https://www.akunacapital.com/careers/job/8018853/?gh_jid=8018853) |
 | Akuna Capital ✓ | Platform Engineer Intern, Summer 2027 | Software | Chicago, IL | Jul 13, 2026 | [Apply](https://www.akunacapital.com/careers/job/8018856/?gh_jid=8018856) |
 | Hudson River Trading ✓ | Software Engineering Internship (C++ or Python) – Summer 2027 | Software | Austin +9 more | Jul 13, 2026 | [Apply](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083) |
-| Palantir ✓ | Forward Deployed Infrastructure Engineer, Internship - US Government ~ 🇺🇸 | Software | Washington, D.C. | Jul 10, 2026 | [Apply](https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9) |
 | Xsolla | AI-First Engineering Intern ~ | Data & ML/AI | Los Angeles, United States | Jul 10, 2026 | [Apply](https://jobs.lever.co/xsolla/1c0e5375-2352-4a2c-a816-48ddebbdd3d6) |
 | Manhattan Associates ✓ | A.I. Developer Co-Op (Boston, MA) ~ | Software | US - Home Office | Jul 10, 2026 | [Apply](https://manh.wd5.myworkdayjobs.com/campus/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_16931) |
 | Jump Trading | Campus AI Research Engineer (Intern) ~ | Data & ML/AI | Chicago; New York | Jul 08, 2026 | [Apply](https://www.jumptrading.com/hr/job?gh_jid=8052281) |
@@ -105,6 +104,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Veeda AI | Internship - Veeda AI Scientist ~ | Data & ML/AI | California | Jun 29, 2026 | [Apply](https://jobs.ashbyhq.com/veeda-labs/58cc42fb-1d6f-4e5f-860d-3b97bdccc6f4) |
 | Lila Sciences | Co-Op, ML Scientist for Protein Engineering ~ | Data & ML/AI | San Francisco, CA USA | Jun 29, 2026 | [Apply](https://job-boards.greenhouse.io/lilasciences/jobs/4289387009) |
 | Copart ✓ | Software Engineering Intern ~ | Software | Dallas, TX - Headquarters | Jun 26, 2026 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109672) |
+| Palantir ✓ | Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial ~ 🇺🇸 | Software | Chicago, IL | Jun 24, 2026 | [Apply](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3) |
 | Altasciences | Process Innovation - Software Engineering Intern ~ | Software | Overland Park, Kansas | Jun 24, 2026 | [Apply](https://altasciences.wd1.myworkdayjobs.com/Careers/job/Overland-Park-Kansas/Process-Innovation---Software-Engineering-Intern_R102750) |
 | RFCUNY | Data Analyst Intern ~ | Data & ML/AI | New York, NY | Jun 23, 2026 | [Apply](https://rfcuny.wd108.myworkdayjobs.com/RFCUNY/job/New-York-NY/Data-Analyst-Intern_JR2987) |
 | Centerfield ✓ | Data Science Intern ~ | Data & ML/AI | Los Angeles, California | Jun 22, 2026 | [Apply](https://jobs.ashbyhq.com/centerfield/916dcf42-d69a-4f00-875a-f8fe630e0f33) |
@@ -176,29 +176,29 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 
 | Company | Typical opening | Expected this cycle | Status |
 |---|---|---|---|
-| Citadel | ~Aug | ~Aug · in ~8d | ⏳ waiting |
-| Citadel Securities | ~Aug | ~Aug · in ~8d | ⏳ waiting |
-| Databricks | ~Aug | ~Aug · in ~8d | ⏳ waiting |
-| DoorDash | ~Aug | ~Aug · in ~8d | ⏳ waiting |
-| DRW | ~Aug | ~Aug · in ~8d | ⏳ waiting |
-| Google | ~Aug | ~Aug · in ~8d | ⏳ waiting |
-| Jane Street | ~Aug | ~Aug · in ~8d | ⏳ waiting |
-| Meta | ~Aug | ~Aug · in ~8d | ⏳ waiting |
-| Optiver | ~Aug | ~Aug · in ~8d | ⏳ waiting |
-| Pinterest | ~Aug | ~Aug · in ~8d | ⏳ waiting |
-| Salesforce | ~Aug | ~Aug · in ~8d | ⏳ waiting |
-| SIG | ~Aug | ~Aug · in ~8d | ⏳ waiting |
-| Snowflake | ~Aug | ~Aug · in ~8d | ⏳ waiting |
-| Uber | ~Aug | ~Aug · in ~8d | ⏳ waiting |
-| Adobe | ~Sep | ~Sep · in ~39d | ⏳ waiting |
-| Airbnb | ~Sep | ~Sep · in ~39d | ⏳ waiting |
-| Bloomberg | ~Sep | ~Sep · in ~39d | ⏳ waiting |
-| Dropbox | ~Sep | ~Sep · in ~39d | ⏳ waiting |
-| Plaid | ~Sep | ~Sep · in ~39d | ⏳ waiting |
-| Point72 | ~Sep | ~Sep · in ~39d | ⏳ waiting |
-| Robinhood | ~Sep | ~Sep · in ~39d | ⏳ waiting |
-| Roblox | ~Sep | ~Sep · in ~39d | ⏳ waiting |
-| Stripe | ~Sep | ~Sep · in ~39d | ⏳ waiting |
+| Citadel | ~Aug | ~Aug · in ~7d | ⏳ waiting |
+| Citadel Securities | ~Aug | ~Aug · in ~7d | ⏳ waiting |
+| Databricks | ~Aug | ~Aug · in ~7d | ⏳ waiting |
+| DoorDash | ~Aug | ~Aug · in ~7d | ⏳ waiting |
+| DRW | ~Aug | ~Aug · in ~7d | ⏳ waiting |
+| Google | ~Aug | ~Aug · in ~7d | ⏳ waiting |
+| Jane Street | ~Aug | ~Aug · in ~7d | ⏳ waiting |
+| Meta | ~Aug | ~Aug · in ~7d | ⏳ waiting |
+| Optiver | ~Aug | ~Aug · in ~7d | ⏳ waiting |
+| Pinterest | ~Aug | ~Aug · in ~7d | ⏳ waiting |
+| Salesforce | ~Aug | ~Aug · in ~7d | ⏳ waiting |
+| SIG | ~Aug | ~Aug · in ~7d | ⏳ waiting |
+| Snowflake | ~Aug | ~Aug · in ~7d | ⏳ waiting |
+| Uber | ~Aug | ~Aug · in ~7d | ⏳ waiting |
+| Adobe | ~Sep | ~Sep · in ~38d | ⏳ waiting |
+| Airbnb | ~Sep | ~Sep · in ~38d | ⏳ waiting |
+| Bloomberg | ~Sep | ~Sep · in ~38d | ⏳ waiting |
+| Dropbox | ~Sep | ~Sep · in ~38d | ⏳ waiting |
+| Plaid | ~Sep | ~Sep · in ~38d | ⏳ waiting |
+| Point72 | ~Sep | ~Sep · in ~38d | ⏳ waiting |
+| Robinhood | ~Sep | ~Sep · in ~38d | ⏳ waiting |
+| Roblox | ~Sep | ~Sep · in ~38d | ⏳ waiting |
+| Stripe | ~Sep | ~Sep · in ~38d | ⏳ waiting |
 | D.E. Shaw | ~Oct | ~Oct | ⏳ waiting |
 | Coinbase | ~Dec | ~Dec | ⏳ waiting |
 | Ramp | ~Dec | ~Dec | ⏳ waiting |
@@ -210,10 +210,12 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 _56 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **21** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 36 roles taken down in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 38 roles taken down in the last 14 days</summary>
 
 | Company | Role | Cycle | Closed |
 |---|---|---|---|
+| Amazon | Software Development Engineer Internship - Fall 2026 (US) | Fall 2026 | 2026-07-25 |
+| Palantir | Forward Deployed Infrastructure Engineer, Internship - US Government | Summer 2027 | 2026-07-25 |
 | Altera Corporation | AI Software Development Engineer - Intern | Summer 2027 | 2026-07-24 |
 | Robert Bosch Venture Capital | Powertrain Controls Software Engineering Intern | Summer 2027 | 2026-07-24 |
 | Sentara Health | Cyber Security Compliance Intern | Summer 2027 | 2026-07-24 |
@@ -268,7 +270,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,889 companies across 12 ATS platforms · 99% fetch success · completed in 253.9s · median detection latency 997 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,889 companies across 12 ATS platforms · 100% fetch success · completed in 260.0s · median detection latency 997 min · real posted dates on 100% of open roles._
 
 ## Contributing
 
