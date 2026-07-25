@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**102 open roles · 28 new this week · 3,889 companies tracked · updated Jul 25, 2026 at 09:02 UTC**
+**104 open roles · 29 new this week · 3,904 companies tracked · updated Jul 25, 2026 at 10:40 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -23,7 +23,7 @@ This is an engine, not a hand-kept list. It polls company career feeds several t
 - **Real posted dates on every role** - pulled from each job portal itself, so newest-first actually means newest.
 - **Skill tags + pay, extracted** - every posting's text is scanned for the stack it wants (Python, C++, PyTorch, ...) and the pay it states - searchable on the [dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/), included in the CSV and API.
 - **Alerts your way** - [email digests](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe), [RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml), or Discord - plus a [live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/) with search, filters, and an F-1 friendly toggle.
-- **An engine, not a spreadsheet** - 3,889 companies polled every hour across 12 job platforms, 175+ tests, full source in this repo.
+- **An engine, not a spreadsheet** - 3,904 companies polled every hour across 12 job platforms, 175+ tests, full source in this repo.
 
 ## Scope
 
@@ -50,10 +50,11 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 ---
 
-## Summer 2027  (71 open)
+## Summer 2027  (72 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| PDT Partners | Summer 2027 Software Engineering Intern 🆕 | Software | New York, NY | Jul 24, 2026 | [Apply](https://job-boards.greenhouse.io/pdtpartners/jobs/8077685) |
 | Core & Main | Intern - AI/ML Data Engineering  -  Onsite - St. Louis ~ 🆕 | Data & ML/AI | Saint Louis, MO 63146 | Jul 24, 2026 | [Apply](https://coreandmain.wd1.myworkdayjobs.com/coreandmain/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804) |
 | Northwell Health ✓ | Data Analytics / Data Science Intern ~ 🆕 | Data & ML/AI | Lake Success, Nassau, United States | Jul 24, 2026 | [Apply](https://eppr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/192734) |
 | Robert Bosch Venture Capital | Autonomous Driving – Internship in Machine Learning ~ 🆕 | Data & ML/AI | Sunnyvale, CA, United States | Jul 24, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000139649345) |
@@ -126,9 +127,9 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-_~ = the title doesn't state a year; bucketed here from its posting date (48 of 71)._
+_~ = the title doesn't state a year; bucketed here from its posting date (48 of 72)._
 
-## Fall 2026  (31 open)
+## Fall 2026  (32 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -163,8 +164,9 @@ _~ = the title doesn't state a year; bucketed here from its posting date (48 of 
 | Varda Space | Flight Software Internship - Fall 2026 🇺🇸 | Software | El Segundo, California, United States | Mar 23, 2026 | [Apply](https://job-boards.greenhouse.io/vardaspace/jobs/7676465003) |
 | Amazon ✓ | Robotics - Software Development Engineer Intern/Co-op - 2026 | Hardware | Westboro, Wisconsin, USA | Dec 03, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
+| MSM Inc. | AI Solutions Co-op (Fall 2026) 🆕 | Data & ML/AI | Webster, NY | — | [Apply](https://ats.rippling.com/msm/jobs/6326629b-5434-4a86-8fce-d0e28ec424d4) |
 
-_~ = the title doesn't state a year; bucketed here from its posting date (1 of 31)._
+_~ = the title doesn't state a year; bucketed here from its posting date (1 of 32)._
 
 <a id="drop-radar"></a>
 
@@ -207,7 +209,7 @@ Stop refreshing career pages. Every date here is **real or verified** — no thi
 | Datadog | rolling | year-round | ⏳ waiting |
 | Jump Trading | rolling | year-round | ⏳ waiting |
 
-_56 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **21** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
+_57 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **22** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
 <summary><strong>Recently closed</strong> — 38 roles taken down in the last 14 days</summary>
@@ -270,7 +272,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,889 companies across 12 ATS platforms · 97% fetch success · completed in 278.0s · median detection latency 997 min · real posted dates on 100% of open roles._
+_Engine (last run): 3,904 companies across 12 ATS platforms · 99% fetch success · completed in 253.3s · median detection latency 997 min · real posted dates on 99% of open roles._
 
 ## Contributing
 
