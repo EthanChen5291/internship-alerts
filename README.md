@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**104 open roles · 30 new this week · 3,904 companies tracked · updated Jul 26, 2026 at 08:29 UTC**
+**104 open roles · 30 new this week · 3,908 companies tracked · updated Jul 26, 2026 at 10:45 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -23,7 +23,7 @@ This is an engine, not a hand-kept list. It polls company career feeds several t
 - **Real posted dates on every role** - pulled from each job portal itself, so newest-first actually means newest.
 - **Skill tags + pay, extracted** - every posting's text is scanned for the stack it wants (Python, C++, PyTorch, ...) and the pay it states - searchable on the [dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/), included in the CSV and API.
 - **Alerts your way** - [email digests](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe), [RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml), or Discord - plus a [live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/) with search, filters, and an F-1 friendly toggle.
-- **An engine, not a spreadsheet** - 3,904 companies polled every hour across 12 job platforms, 175+ tests, full source in this repo.
+- **An engine, not a spreadsheet** - 3,908 companies polled every hour across 12 job platforms, 175+ tests, full source in this repo.
 
 ## Scope
 
@@ -273,7 +273,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,904 companies across 12 ATS platforms · 99% fetch success · completed in 269.5s · median detection latency 997 min · real posted dates on 99% of open roles._
+_Engine (last run): 3,908 companies across 12 ATS platforms · 99% fetch success · completed in 229.8s · median detection latency 997 min · real posted dates on 99% of open roles._
 
 ## Contributing
 
