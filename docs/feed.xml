@@ -5,7 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-26T06:01:20Z</updated>
+  <updated>2026-07-26T08:29:55Z</updated>
+  <entry>
+    <id>urn:intern-engine:workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109673</id>
+    <title>Copart: Software Engineering Intern</title>
+    <link href="https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109673"/>
+    <updated>2026-07-26T08:29:54Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Dallas, TX - Headquarters · Java, JavaScript, SQL, Angular, Spring · H-1B track record: ~83 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:pdtpartners:8077685</id>
     <title>PDT Partners: Summer 2027 Software Engineering Intern</title>
@@ -237,14 +245,6 @@
     <updated>2026-07-20T10:59:21Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Quant · Jupiter, FL · Python, C++, C#, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109672</id>
-    <title>Copart: Software Engineering Intern</title>
-    <link href="https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109672"/>
-    <updated>2026-07-18T09:40:05Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Dallas, TX - Headquarters · Java, JavaScript, SQL, Angular, Spring · H-1B track record: ~83 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:deepgram:dc8693b5-72ce-4ca3-ab15-9c8434d35da1</id>
