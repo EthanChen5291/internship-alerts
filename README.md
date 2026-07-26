@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**104 open roles · 30 new this week · 3,908 companies tracked · updated Jul 26, 2026 at 10:45 UTC**
+**104 open roles · 30 new this week · 3,908 companies tracked · updated Jul 26, 2026 at 12:03 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -60,7 +60,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Robert Bosch Venture Capital | Autonomous Driving – Internship in Machine Learning ~ 🆕 | Data & ML/AI | Sunnyvale, CA, United States | Jul 24, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000139649345) |
 | Magna International | R&D- Computer Vision Engineering Intern ~ 🆕 | Data & ML/AI | Troy, Michigan, US | Jul 24, 2026 | [Apply](https://magna.wd3.myworkdayjobs.com/Magna/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1) |
 | Quadrillion | Software Engineering Intern (Summer 2027) | Software | New York City | Jul 24, 2026 | [Apply](https://jobs.ashbyhq.com/quadrillion-labs/a4acc44c-31ce-41a0-ab44-2500487b4d05) |
-| Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 🆕 | Quant | New York City | Jul 23, 2026 | [Apply](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96) |
+| Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 | Quant | New York City | Jul 23, 2026 | [Apply](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96) |
 | Appian ✓ | Software Engineering Intern 🛂 | Software | McLean, Virginia | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/appian/jobs/8041237) |
 | Tenstorrent ✓ | Software Engineering Intern, Power Modeling & AI Tools ~ | Data & ML/AI | Santa Clara, California, United States | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007) |
 | Hewlett Packard (HP) | Software Engineering Intern, Device Experiences ~ | Software | San Francisco +2 more | Jul 22, 2026 | [Apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1) |
@@ -69,7 +69,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Moog | Intern, Software Engineering ~ | Software | Buffalo, NY | Jul 22, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1) |
 | Carnegie Mellon University ✓ | Research Intern - School of Computer Science - LTI ~ | Software | Pittsburgh, PA | Jul 22, 2026 | [Apply](https://cmu.wd5.myworkdayjobs.com/cmu/job/Pittsburgh-PA/Research-Intern---School-of-Computer-Science---LTI_2024870) |
 | Virtu Financial ✓ | 2027 Internship - Software Engineer | Software | Austin, TX; New York | Jul 21, 2026 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8624410002) |
-| Hyperlight | Software Engineer Intern ~ 🆕 | Software | Cambridge, Massachusetts, United States | Jul 20, 2026 | [Apply](https://apply.workable.com/hyperlight/j/5581EA0668/) |
+| Hyperlight | Software Engineer Intern ~ | Software | Cambridge, Massachusetts, United States | Jul 20, 2026 | [Apply](https://apply.workable.com/hyperlight/j/5581EA0668/) |
 | HireVue | Data Science Intern / Fully Remote US ~ | Data & ML/AI | Sandy, UT, United States (Remote) | Jul 20, 2026 | [Apply](https://jobs.smartrecruiters.com/HireVue/744000138728139) |
 | Western Digital ✓ | Summer 2027 - Software Engineering Internship | Software | San Jose, CA, United States | Jul 20, 2026 | [Apply](https://jobs.smartrecruiters.com/WesternDigital/744000138727213) |
 | AVEVA ✓ | Software Developer Intern- Drexel Co-op US ~ | Software | Philadelphia +2 more | Jul 20, 2026 | [Apply](https://aveva.wd3.myworkdayjobs.com/AVEVA_careers/job/Philadelphia-Pennsylvania-United-States-of-America/Software-Developer-Intern--Drexel-Co-op-US_R014478) |
@@ -273,7 +273,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,908 companies across 12 ATS platforms · 99% fetch success · completed in 229.8s · median detection latency 997 min · real posted dates on 99% of open roles._
+_Engine (last run): 3,908 companies across 12 ATS platforms · 99% fetch success · completed in 250.6s · median detection latency 997 min · real posted dates on 99% of open roles._
 
 ## Contributing
 
