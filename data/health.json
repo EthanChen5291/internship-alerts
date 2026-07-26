@@ -280,8 +280,8 @@
     "last_error": "HTTPStatusError: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/campusopportunities/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTT"
   },
   "greenhouse:capitalrx": {
-    "consecutive_failures": 8,
-    "last_attempt_at": "2026-07-23T00:06:03Z",
+    "consecutive_failures": 9,
+    "last_attempt_at": "2026-07-26T02:44:07Z",
     "last_error": "HTTPStatusError: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/capitalrx/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/4"
   },
   "greenhouse:cti": {
@@ -725,9 +725,9 @@
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://conagrabrands.wd1.myworkdayjobs.com/wday/cxs/conagrabrands/Careers_US/jobs'\nFor more information check: https://developer.mozilla"
   },
   "workday:condenast": {
-    "consecutive_failures": 3,
-    "last_attempt_at": "2026-07-25T19:06:17Z",
-    "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+    "consecutive_failures": 4,
+    "last_attempt_at": "2026-07-26T02:44:07Z",
+    "last_error": "HTTPStatusError: Client error '422 Unprocessable Entity' for url 'https://condenast.wd5.myworkdayjobs.com/wday/cxs/condenast/CondeCareers/jobs'\nFor more information check: https://developer.mozilla.or"
   },
   "workday:cooperstandard": {
     "consecutive_failures": 4,
@@ -798,11 +798,6 @@
     "consecutive_failures": 13,
     "last_attempt_at": "2026-07-25T12:03:43Z",
     "last_error": "HTTPStatusError: Client error '422 Unprocessable Entity' for url 'https://donaldson.wd5.myworkdayjobs.com/wday/cxs/donaldson/donaldsoncareers/jobs'\nFor more information check: https://developer.mozill"
-  },
-  "workday:dowjones": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-26T00:00:37Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://dowjones.wd1.myworkdayjobs.com/wday/cxs/dowjones/Dow_Jones_Career/jobs'\nFor more information check: https://developer.mozilla.org"
   },
   "workday:drivetime": {
     "consecutive_failures": 4,
