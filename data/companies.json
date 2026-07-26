@@ -4733,6 +4733,11 @@
     "site": "Clarivate_Careers"
   },
   {
+    "name": "Clasp",
+    "slug": "clasp-group",
+    "ats": "ashby"
+  },
+  {
     "name": "ClassPass",
     "slug": "classpass",
     "ats": "greenhouse"
@@ -5236,6 +5241,11 @@
     "name": "Concept Plus",
     "slug": "conceptplus",
     "ats": "rippling"
+  },
+  {
+    "name": "Concourse",
+    "slug": "concourse",
+    "ats": "ashby"
   },
   {
     "name": "Conde Nast",
@@ -8465,6 +8475,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "GAF_Careers"
+  },
+  {
+    "name": "Gaiia",
+    "slug": "gaiias-open-positions",
+    "ats": "rippling"
   },
   {
     "name": "Gain Theory",
@@ -14452,6 +14467,13 @@
     "name": "Northwood Space",
     "slug": "northwoodspace",
     "ats": "ashby"
+  },
+  {
+    "name": "Norton Rose Fulbright",
+    "slug": "nrf",
+    "ats": "workday",
+    "wd": "wd3",
+    "site": "External"
   },
   {
     "name": "Notability",
