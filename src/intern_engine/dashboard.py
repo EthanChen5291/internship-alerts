@@ -178,10 +178,14 @@ def _rows(open_jobs: list[dict]) -> str:
         ).lower()
         seasons = r.get("seasons") or [r.get("season", "")]
         if r.get("season_inferred"):
+            # Deliberately not a cycle. The old "~Summer 2027" here was a
+            # posting-date guess that the postings themselves confirmed 0/60
+            # times, so there is nothing honest to put in this cell but the
+            # absence of a claim.
             cycle_tag = (
-                "<span class='tag tag-guess' title='No cycle stated in this posting "
-                "— inferred from its posting date'>"
-                f"~{escape(r.get('season', ''))}</span>"
+                "<span class='tag tag-guess' title='This posting never states a "
+                "cycle — in its title or its text. We are not guessing one.'>"
+                "not stated</span>"
             )
         else:
             cycle_tag = "".join(
@@ -347,7 +351,13 @@ def generate(store_data: dict, stats: dict) -> None:
     else:
         region = "Worldwide"
 
-    cycles = sorted({r.get("season", "") for r in open_jobs if r.get("season")})
+    # Real cycles first, "Not stated" pinned last — it's the absence of a
+    # cycle, so alphabetical order (which drops it between Fall and Summer)
+    # would read as if it were one.
+    cycles = sorted(
+        {r.get("season", "") for r in open_jobs if r.get("season")},
+        key=lambda s: (s == filters.NOT_STATED, s),
+    )
     categories = sorted({r.get("category", "") for r in open_jobs if r.get("category")})
     repo = config.repo_slug()
     proven_roles = sum(
@@ -653,7 +663,7 @@ def generate(store_data: dict, stats: dict) -> None:
         <label class="chk"><input id="remote" type="checkbox"><span>🏠 remote only</span></label>
         <label class="chk"><input id="h1b" type="checkbox">
           <span>✓ proven H-1B sponsors only</span></label>
-        <label class="chk" title="Hide roles whose cycle we inferred from the posting date (marked ~)">
+        <label class="chk" title="Show only roles whose employer named the cycle themselves">
           <input id="stated" type="checkbox"><span>employer-stated cycle only</span></label>
         <button id="export" class="ghost" type="button" title="Download your saved roles as CSV">
           Export saved</button>
@@ -663,9 +673,9 @@ def generate(store_data: dict, stats: dict) -> None:
   </div>
   <p class="muted note">★ saves to <strong>this browser only</strong><span
   class="note-long"> — no account, no sign-in, nothing sent anywhere</span>.
-  <span class="tag tag-guess">~like this</span> = the posting never named a cycle,
-  so we inferred it from the posting date<span class="note-long">; a plain tag is
-  the cycle the employer stated</span>.</p>
+  <span class="tag tag-guess">not stated</span> = the posting names no cycle
+  anywhere, so we don't guess one<span class="note-long">; a plain tag is the
+  cycle the employer actually stated, in the title or the posting text</span>.</p>
   <div class="tscroll">
   <table><thead><tr><th class="c-save" title="Save"></th><th>Company</th><th>Role</th>
   <th>Cycle</th><th>Category</th>

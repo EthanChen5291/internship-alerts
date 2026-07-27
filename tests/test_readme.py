@@ -38,8 +38,9 @@ class TestEvidenceSplit:
         text = (outputs / "README.md").read_text(encoding="utf-8")
         assert "## Summer 2027  (1 employer-stated)" in text
         assert "Recently posted — cycle not stated  (1 roles)" in text
-        # The guess is marked in its own column, not silently in the heading.
-        assert "~Summer 2027" in text
+        # No guessed cycle anywhere: the lane states the absence, not a value.
+        assert "~Summer 2027" not in text
+        assert "Likely cycle" not in text
 
     def test_hero_reports_the_split(self, outputs):
         store = {

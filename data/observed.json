@@ -758,6 +758,20 @@
     }
    }
   },
+  "toshiba global commerce": {
+   "name": "Toshiba Global Commerce",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-07-26",
+     "role_ids": [
+      "greenhouse:toshibaglobalcommercesolutions:5177892007",
+      "greenhouse:toshibaglobalcommercesolutions:5190937007",
+      "greenhouse:toshibaglobalcommercesolutions:5192820007"
+     ],
+     "count": 3
+    }
+   }
+  },
   "tower research capital": {
    "name": "Tower Research Capital",
    "cycles": {
@@ -895,5 +909,5 @@
    }
   }
  },
- "updated_at": "2026-07-27T20:25:50Z"
+ "updated_at": "2026-07-27T20:26:09Z"
 }

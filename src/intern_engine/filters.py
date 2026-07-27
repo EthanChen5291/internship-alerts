@@ -225,52 +225,46 @@ def detect_season(title: str, cycles=("Summer 2027", "Fall 2026"), *_ignored) ->
 _TERM_ROLLOVER_MONTH = {"Summer": 4, "Fall": 8, "Spring": 2, "Winter": 10}
 
 
-def infer_season(title: str, posted_at: str | None,
-                 cycles=("Summer 2027", "Fall 2026"),
-                 max_age_days: int = 45,
-                 now: datetime | None = None) -> str | None:
-    """Best-effort cycle for a title with NO explicit year, from its posting date.
+NOT_STATED = "Not stated"
+"""Bucket for a real, recent role whose cycle nobody has actually stated.
 
-    `detect_season` stays strict (a stated year always wins and never lands
-    here). This handles the measured majority of real postings whose titles
-    just say "Software Engineer Intern": a role *posted recently* is recruiting
-    for the next upcoming cycle of its term (default term: Summer, the dominant
-    intern cycle). Recency is what makes the guess sound, so postings older
-    than `max_age_days` — evergreen/stale listings — are never inferred.
+Not a cycle and never rendered as one. It exists so these roles can stay on
+the list — they're genuine early drops — without the list claiming to know
+something it doesn't.
+"""
 
-    Returns a tracked cycle label, or None (leave the role dropped).
+
+def cycle_unstated_ok(title: str, posted_at: str | None,
+                      max_age_days: int = 45,
+                      now: datetime | None = None) -> bool:
+    """May a role with NO stated cycle stay on the list?
+
+    This used to be `infer_season`, which GUESSED a cycle from the posting
+    month — defaulting to Summer for any yearless title. Measured against the
+    live list, that guess was indefensible: of 60 roles carrying it, the
+    posting text confirmed 0, said nothing for 43, and flatly contradicted it
+    for the 3 that were checkable (Toshiba's postings open with "Fall 2026
+    Internship" and were all filed under Summer 2027). A label that is never
+    right when you can check it is not a label, so the guess is gone.
+
+    What survives is the useful half: the RECENCY test. A recently-posted tech
+    internship is worth showing even when nobody named its cycle — it just gets
+    shown as `NOT_STATED` instead of wearing a fabricated one. Stale evergreen
+    listings still fall off.
     """
     if states_explicit_year(title):
-        # The title states a year and detect_season still refused it — that's
-        # an explicit OFF-cycle role ("Summer 2026 Intern"). Guessing a cycle
-        # from the posting date would override what the company wrote.
-        return None
+        # The title names a year and detect_season refused it — an explicit
+        # OFF-cycle role ("Summer 2026 Intern"). It doesn't belong here.
+        return False
     if not posted_at:
-        return None  # no date -> nothing to reason from
+        return False  # no date -> can't establish recency
     try:
         posted = datetime.strptime(posted_at[:10], "%Y-%m-%d").replace(tzinfo=UTC)
     except ValueError:
-        return None
+        return False
     now = now or datetime.now(UTC)
     age_days = (now - posted).days
-    if not (-1 <= age_days <= max_age_days):  # -1 tolerates feed timezone skew
-        return None
-
-    t = title.lower()
-    if "summer" in t:
-        term = "Summer"
-    elif "fall" in t or "autumn" in t:
-        term = "Fall"
-    elif "spring" in t:
-        term = "Spring"
-    elif "winter" in t:
-        term = "Winter"
-    else:
-        term = "Summer"
-
-    year = posted.year if posted.month <= _TERM_ROLLOVER_MONTH[term] else posted.year + 1
-    label = f"{term} {year}"
-    return label if label in cycles else None
+    return -1 <= age_days <= max_age_days  # -1 tolerates feed timezone skew
 
 
 # --- season stated in posting TEXT (verifies date-inferred cycles) ------------
@@ -304,21 +298,42 @@ _NOT_CYCLE_BACK_RE = re.compile(
 )
 
 
+# "Expected program dates are September 14 – December 4, 2026": one program,
+# two months. The START month names the cycle (a Sept–Dec program is a Fall
+# program, not a Winter one), so a range is read from its first month and the
+# year is taken from whichever end states it.
+_TEXT_RANGE_RE = re.compile(
+    r"\b(" + "|".join(_MONTH_NUM) + r")\.?\s*(?:\d{1,2}(?:st|nd|rd|th)?)?"
+    r"\s*(?:-|–|—|to|through|thru|until|až)\s*"
+    r"(" + "|".join(_MONTH_NUM) + r")\.?\s*(?:\d{1,2}(?:st|nd|rd|th)?)?,?\s*(20\d\d)",
+    re.I,
+)
+
+
 def season_from_text(text: str, near: int = 90,
                      now: datetime | None = None) -> str | None:
     """The cycle a posting's own text states, or None.
 
-    Precision-first, mirroring detect_season's ethos. A mention counts only when
-    ALL of these hold, and a verdict is returned only when every counted mention
-    agrees — a posting listing several terms (grad-window boilerplate) never
-    overrides the date inference:
+    Precision-first, but ordered. Evidence comes in three strengths, and a
+    weaker tier may never contradict a stronger one:
 
-      - "<term> <year>" or "<month> [day,] <year>" (month mapped via calendar)
-      - internship-ish words within `near` characters (skips stray dates)
-      - the year is plausible for a live posting (this year .. +2), which kills
-        "founded in November 2014"-style company history
-      - the same sentence doesn't frame it as a graduation/company date
-        ("graduating in December 2027" is the candidate, not the cycle)
+      1. An explicit "<Term> <Year>" ("Fall 2026 Internship"). This is the
+         employer naming the cycle outright.
+      2. A program DATE RANGE ("September 14 – December 4, 2026"), read from
+         its start month — the term the program begins in.
+      3. A lone "<Month> <Year>".
+
+    The tiers exist because flattening them was actively wrong: Toshiba's
+    posting opens with "Fall 2026 Internship" and later gives dates ending
+    "December 4, 2026". December maps to Winter, so the set became
+    {Fall 2026, Winter 2026}, disagreed with itself, and returned None — and
+    the role stayed bucketed under a date-inferred *Summer 2027*. A stated
+    term now wins outright; months are only consulted when nothing is stated.
+
+    Within a tier, every counted mention must still agree. A mention counts
+    only when internship-ish words sit within `near` characters, the year is
+    plausible for a live posting (this year .. +2), and the same sentence
+    doesn't frame it as a graduation/company date.
     """
     if not text:
         return None
@@ -335,19 +350,38 @@ def season_from_text(text: str, near: int = 90,
             return None
         return label
 
-    labels = set()
+    def _verdict(labels: set[str]) -> str | None:
+        return labels.pop() if len(labels) == 1 else None
+
+    # Tier 1 — the employer names the term.
+    stated = set()
     for m in _TEXT_CYCLE_RE.finditer(text):
         term = m.group(1).capitalize()
         term = "Fall" if term == "Autumn" else term
         label = _counted(m, f"{term} {m.group(2)}", int(m.group(2)))
         if label:
-            labels.add(label)
+            stated.add(label)
+    if stated:
+        return _verdict(stated)
+
+    # Tier 2 — a program date range, keyed to the month it STARTS in.
+    ranges = set()
+    for m in _TEXT_RANGE_RE.finditer(text):
+        term = _MONTH_TERM[_MONTH_NUM[m.group(1).lower().rstrip(".")]]
+        label = _counted(m, f"{term} {m.group(3)}", int(m.group(3)))
+        if label:
+            ranges.add(label)
+    if ranges:
+        return _verdict(ranges)
+
+    # Tier 3 — a bare month + year.
+    months = set()
     for m in _TEXT_MONTH_RE.finditer(text):
         term = _MONTH_TERM[_MONTH_NUM[m.group(1).lower().rstrip(".")]]
         label = _counted(m, f"{term} {m.group(2)}", int(m.group(2)))
         if label:
-            labels.add(label)
-    return labels.pop() if len(labels) == 1 else None
+            months.add(label)
+    return _verdict(months)
 
 
 # --- location: US / Canada detection -----------------------------------------

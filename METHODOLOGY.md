@@ -41,7 +41,7 @@ This is the distinction the whole list is organized around.
 | Label | What it means |
 |---|---|
 | `Summer 2027` (plain) | The **employer stated it** — the cycle appears in the job title, or the posting's own text states a term+year. |
-| `~Summer 2027` | The posting **never named a cycle**. We inferred it from the posting date (a recent, yearless "Software Engineer Intern" is recruiting for the next upcoming summer). |
+| `not stated` | The posting **never names a cycle** - not in the title, not in the text. We do not guess one. Earlier versions printed `~Summer 2027` here, derived from the posting month; audited against the live postings that guess was confirmed 0 times out of 60 and contradicted every time it was checkable, so it was removed. These roles are still listed (they are recent and real) in their own section. |
 
 Inferred roles are listed in their own section, never mixed into a stated-cycle
 section, and are excluded from the "with a stated cycle" count. They're real,

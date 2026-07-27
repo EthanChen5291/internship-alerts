@@ -57,13 +57,28 @@ def main() -> None:
     for r in open_jobs:
         title = r.get("title") or ""
         season = r.get("season")
-        if season not in cycles:
+        unstated = season == filters.NOT_STATED
+        # NOT_STATED is a legitimate bucket, not a cycle: it means no employer
+        # named one. Anything else must be a cycle we actually track.
+        if season not in cycles and not unstated:
             flag(r, "untracked-season")
         stated = filters.detect_season(title, cycles)
-        if stated is not None and stated != season:
+        if stated is not None and stated != season and stated not in (
+                r.get("seasons") or []):
             flag(r, "title-season-mismatch")
         if stated is None and filters.states_explicit_year(title):
             flag(r, "off-cycle-year-in-title")
+        # The two halves of the evidence contract, checked both ways. These
+        # are what stop a fabricated cycle from ever reaching the list again:
+        #   - a role in a CYCLE section must not be flagged as unstated
+        #   - a role marked stated must actually carry a cycle, not NOT_STATED
+        if unstated and not r.get("season_inferred"):
+            flag(r, "unstated-but-marked-employer-stated")
+        if not unstated and r.get("season_inferred"):
+            flag(r, "cycle-claimed-without-employer-evidence")
+        # A title that names its cycle can never be filed as unstated.
+        if unstated and stated is not None:
+            flag(r, "unstated-despite-cycle-in-title")
         if config.restrict_region(cfg) and not config.include_international(cfg) and \
                 not filters.region_ok(r.get("location") or "",
                                       config.want_us(cfg), config.want_canada(cfg)):

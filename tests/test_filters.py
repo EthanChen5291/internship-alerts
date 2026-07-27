@@ -1,6 +1,6 @@
 from datetime import UTC, datetime
 
-from intern_engine import filters
+from intern_engine import filters, sponsorship
 
 CYCLES = ["Summer 2027", "Fall 2026"]
 
@@ -218,48 +218,54 @@ class TestCategory:
         assert filters.categorize("Cybersecurity Intern") == "Security"
 
 
-class TestInferSeason:
-    """Yearless titles bucketed from the posting date (detect_season stays strict)."""
+class TestCycleUnstatedOk:
+    """Recency gate for roles nobody stated a cycle for.
+
+    This replaced `infer_season`, which guessed a cycle (defaulting to Summer)
+    from the posting month. Measured against the live list that guess was
+    confirmed by the posting text 0 times out of 60 and contradicted every
+    time it was checkable, so the guess is gone. Only the recency test — the
+    part that was actually sound — remains.
+    """
 
     NOW = datetime(2026, 7, 15, tzinfo=UTC)
 
-    def _infer(self, title, posted, **kw):
-        return filters.infer_season(title, posted, CYCLES, now=self.NOW, **kw)
+    def _ok(self, title, posted, **kw):
+        return filters.cycle_unstated_ok(title, posted, now=self.NOW, **kw)
 
-    def test_plain_intern_posted_after_april_is_next_summer(self):
-        assert self._infer("Software Engineer Intern", "2026-07-10") == "Summer 2027"
+    def test_recent_yearless_role_is_kept(self):
+        assert self._ok("Software Engineer Intern", "2026-07-10")
 
-    def test_summer_word_without_year(self):
-        assert self._infer("Summer Intern - Backend", "2026-07-01") == "Summer 2027"
+    def test_term_word_alone_does_not_invent_a_cycle(self):
+        # "Summer Intern" names a term but no year. It used to become
+        # "Summer 2027"; now it is simply kept as cycle-unstated.
+        assert self._ok("Summer Intern - Backend", "2026-07-01")
+        assert self._ok("Fall Software Intern", "2026-07-01")
 
-    def test_fall_word_maps_to_same_year_until_august(self):
-        assert self._infer("Fall Software Intern", "2026-07-01") == "Fall 2026"
-
-    def test_stale_posting_is_never_inferred(self):
-        # 60 days old with a 45-day trust window -> evergreen sludge, drop.
-        assert self._infer("Software Engineer Intern", "2026-05-01") is None
+    def test_stale_posting_is_dropped(self):
+        # 60 days old with a 45-day trust window -> evergreen sludge.
+        assert not self._ok("Software Engineer Intern", "2026-05-01")
 
     def test_wider_window_accepts_older(self):
-        assert self._infer("Software Engineer Intern", "2026-05-01",
-                           max_age_days=90) == "Summer 2027"
+        assert self._ok("Software Engineer Intern", "2026-05-01", max_age_days=90)
 
-    def test_no_posted_date_is_never_inferred(self):
-        assert self._infer("Software Engineer Intern", None) is None
+    def test_no_posted_date_is_dropped(self):
+        assert not self._ok("Software Engineer Intern", None)
 
-    def test_explicit_offcycle_year_is_never_reinferred(self):
-        # "Summer 2026 Intern" was refused by detect_season for a reason —
-        # the posting date must not override the year the company wrote.
-        assert self._infer("Summer 2026 Intern: Cyber Security", "2026-07-10") is None
-        assert self._infer("Fall 2027 Software Intern", "2026-07-10") is None
+    def test_explicit_offcycle_year_is_refused(self):
+        # "Summer 2026 Intern" was refused by detect_season for a reason — it
+        # must not sneak back in through the unstated lane.
+        assert not self._ok("Summer 2026 Intern: Cyber Security", "2026-07-10")
+        assert not self._ok("Fall 2027 Software Intern", "2026-07-10")
 
-    def test_untracked_inferred_cycle_is_dropped(self):
-        # "Fall Intern" posted in October -> Fall 2027, which we don't track.
-        now = datetime(2026, 10, 20, tzinfo=UTC)
-        assert filters.infer_season("Fall Intern", "2026-10-15", CYCLES, now=now) is None
-
-    def test_explicit_year_never_reaches_inference(self):
+    def test_explicit_year_never_reaches_this_gate(self):
         # Belt and suspenders: detect_season handles dated titles first.
         assert filters.detect_season("Software Intern Summer 2027", CYCLES) == "Summer 2027"
+
+    def test_not_stated_is_not_a_cycle_label(self):
+        # Anything treating it as a cycle would re-introduce the fake claim.
+        assert not filters.is_cycle_label(filters.NOT_STATED)
+        assert filters.NOT_STATED not in CYCLES
 
 
 class TestTechScopeExclusions:
@@ -358,3 +364,75 @@ class TestSeasonFromText:
         assert self._stated(
             "Our internship program has run every summer since May 2019."
         ) is None
+
+
+class TestSeasonEvidencePriority:
+    """Stated terms outrank month arithmetic (the Toshiba regression).
+
+    Toshiba's postings open with "Fall 2026 Internship:" and later give
+    "Expected program dates are September 14 - December 4, 2026". December
+    maps to Winter, so the old flat resolver saw {Fall 2026, Winter 2026},
+    called it a disagreement, returned None — and all three roles sat under a
+    date-inferred "Summer 2027" instead of the Fall 2026 the employer wrote
+    in their first line.
+    """
+
+    NOW = datetime(2026, 7, 15, tzinfo=UTC)
+
+    def _stated(self, text):
+        return filters.season_from_text(text, now=self.NOW)
+
+    TOSHIBA = ("Fall 2026 Internship: This position is located at our HQ in "
+               "Durham, NC. Expected program dates are September 14 - "
+               "December 4, 2026. Anticipated working hours will be 20-30 "
+               "per week for this internship.")
+
+    def test_stated_term_beats_a_conflicting_month(self):
+        assert self._stated(self.TOSHIBA) == "Fall 2026"
+
+    def test_date_range_reads_from_its_start_month(self):
+        # No stated term: a Sept-Dec program is a Fall program, not a Winter
+        # one. Reading the END month was what poisoned the set above.
+        text = ("Internship program dates: September 8 - December 12, 2026. "
+                "Apply early.")
+        assert self._stated(text) == "Fall 2026"
+
+    def test_lone_month_still_works_when_nothing_is_stated(self):
+        assert self._stated("This internship starts in June 2027.") == "Summer 2027"
+
+    def test_genuinely_conflicting_stated_terms_still_abstain(self):
+        # Two different stated cycles = real ambiguity; abstain rather than
+        # pick one. (Multi-cycle titles are handled by detect_seasons.)
+        text = ("Summer 2027 internship. We also run a Winter 2027 internship "
+                "program on the same team.")
+        assert self._stated(text) is None
+
+    def test_no_internship_context_is_ignored(self):
+        assert self._stated("The company was founded in Fall 2026.") is None
+
+
+class TestStripHtmlOrdering:
+    """Entity-encoded markup has to be decoded before tags can be stripped.
+
+    Greenhouse returns `&lt;p&gt;Fall 2026...`. Stripping tags first found no
+    `<` to match, and the later unescape turned the entities back into live
+    tags — so every classifier downstream (season, skills, pay, sponsorship)
+    was reading angle brackets as if they were prose.
+    """
+
+    def test_entity_encoded_markup_is_stripped(self):
+        raw = "&lt;p&gt;&lt;strong&gt;Fall 2026 Internship:&lt;/strong&gt;Durham, NC.&lt;/p&gt;"
+        out = sponsorship.strip_html(raw)
+        assert "<" not in out and ">" not in out
+        assert out.startswith("Fall 2026 Internship:")
+
+    def test_plain_markup_is_still_stripped(self):
+        out = sponsorship.strip_html("<p><b>Summer 2027</b> internship</p>")
+        assert out == "Summer 2027 internship"
+
+    def test_season_survives_the_round_trip(self):
+        raw = ("&lt;p&gt;&lt;strong&gt;Fall 2026 Internship:&lt;/strong&gt; "
+               "Expected program dates are September 14 - December 4, 2026.&lt;/p&gt;")
+        text = sponsorship.strip_html(raw)
+        assert filters.season_from_text(
+            text, now=datetime(2026, 7, 15, tzinfo=UTC)) == "Fall 2026"

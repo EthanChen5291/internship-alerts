@@ -21,7 +21,7 @@ from html import unescape
 # re-reads a posting whose stored verdict came from an older version, so
 # classifier improvements propagate to the whole live list instead of only to
 # roles discovered after the change.
-VERSION = 2
+VERSION = 3
 
 # ITAR / export control and security clearances require citizenship (or at
 # minimum a green card), which excludes F-1/OPT candidates the same way.
@@ -81,10 +81,20 @@ FLAGS = {
 
 
 def strip_html(html: str | None) -> str:
-    """Plain text from an HTML blob — good enough for phrase matching."""
+    """Plain text from an HTML blob — good enough for phrase matching.
+
+    Unescape FIRST, then strip tags, then unescape again. Order matters: some
+    boards (Greenhouse) return entity-encoded markup — `&lt;p&gt;Fall 2026...`.
+    Stripping first finds no `<` to match, and the later unescape then turns
+    the entities back into live tags, so the "plain text" handed to the
+    classifiers was still full of markup. Every downstream reader (season,
+    skills, pay, sponsorship) was matching against angle brackets.
+    """
     if not html:
         return ""
-    return _WS_RE.sub(" ", unescape(_TAG_RE.sub(" ", html))).strip()
+    text = unescape(html)          # &lt;p&gt;  ->  <p>
+    text = _TAG_RE.sub(" ", text)  # now the tags are really there to remove
+    return _WS_RE.sub(" ", unescape(text)).strip()  # &amp;nbsp; -> spaces
 
 
 def classify(text: str | None) -> str:

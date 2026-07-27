@@ -135,10 +135,15 @@ def _row(record: dict, cycle: str | None = None) -> str:
 
 
 def _rolling_row(record: dict) -> str:
-    """A row in the cycle-not-stated lane: the guess gets its own column."""
+    """A row in the cycle-not-stated lane.
+
+    There is deliberately no "likely cycle" column any more. It used to print
+    `~Summer 2027`, which was a posting-date guess: checked against the live
+    postings it was confirmed 0 times out of 60 and contradicted every time it
+    could be checked. These rows now say what's true — nobody stated a cycle.
+    """
     company, title, category, location, posted, apply = _cells(record)
-    likely = f"~{_md_cell(record.get('season'))}"
-    return (f"| {company} | {title} | {likely} | {category} | {location} | "
+    return (f"| {company} | {title} | {category} | {location} | "
             f"{posted} | {apply} |")
 
 
@@ -327,10 +332,11 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         " (click to expand)</summary>",
         "",
         "- Roles are grouped by cycle below - **newest posting on top, oldest at the bottom.**",
-        "- A cycle section holds only roles whose **employer stated that cycle**. "
-        "Postings that don't name one are in *Recently posted — cycle not stated* "
-        "further down, with our guess marked `~`. Same quality bar, different "
-        "amount of evidence.",
+        "- A cycle section holds only roles whose **employer stated that cycle** - "
+        "in the title, or in the posting's own text. Postings that name no cycle "
+        "anywhere are in *Recently posted — cycle not stated* further down, with "
+        "**no cycle guessed for them**. Same quality bar, different amount of "
+        "evidence.",
         "- The **Posted** column is the date the company published the role.",
         "- **Flags:** 🇺🇸 = requires U.S. citizenship or a security clearance · "
         "🛂 = the posting says it won't sponsor a work visa · 🏠 = the location "
@@ -619,15 +625,16 @@ def generate(store_data: dict) -> dict:
         lines.extend([
             f"## Recently posted — cycle not stated  ({len(rolling_rows)} roles)",
             "",
-            "These postings don't name a cycle, so we won't pretend they did. "
-            "They're recent tech internships whose likely cycle (the ~ column) "
-            "is inferred from the posting date alone — often exactly the "
-            "early drops worth applying to first, just not *proven* to belong "
-            "to a cycle. When a posting's own text later states one, the role "
-            "moves up into that section.",
+            "These postings never name a cycle — not in the title, not in the "
+            "posting text — so neither do we. They're recent tech internships "
+            "(posted within the last few weeks), often exactly the early drops "
+            "worth applying to first; we just can't tell you which cycle "
+            "they're for, and we'd rather say so than guess. The moment a "
+            "posting's own text states a cycle, the role moves up into that "
+            "section automatically.",
             "",
-            "| Company | Role | Likely cycle | Category | Location | Posted | Apply |",
-            "|---|---|---|---|---|---|---|",
+            "| Company | Role | Category | Location | Posted | Apply |",
+            "|---|---|---|---|---|---|",
         ])
         lines.extend(_rolling_row(r) for r in rolling_rows)
         lines.append("")

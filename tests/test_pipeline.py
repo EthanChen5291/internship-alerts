@@ -1,5 +1,6 @@
 from datetime import UTC, datetime
 
+from intern_engine import filters
 from intern_engine.models import Fetch
 from intern_engine.pipeline import _detection_latency, _parse_iso
 
@@ -111,9 +112,13 @@ class TestStickySeasons:
         kept, *_ = _keep_matching(results, self.CFG, {}, existing)
         return kept
 
-    def test_fresh_undated_role_is_date_inferred(self):
+    def test_fresh_undated_role_is_kept_without_inventing_a_cycle(self):
+        # Used to become ("Summer 2027", True) from the posting month alone.
+        # That guess was measured wrong, so the role is kept under a label
+        # that asserts nothing.
         kept = self._keep(self._results(3), {})
-        assert [(j.season, j.season_inferred) for j in kept] == [("Summer 2027", True)]
+        assert [(j.season, j.season_inferred) for j in kept] == [
+            (filters.NOT_STATED, True)]
 
     def test_text_verified_season_on_record_beats_reinference(self):
         existing = {"greenhouse:acme:1": {"season": "Fall 2026", "season_inferred": False}}
@@ -152,12 +157,13 @@ class TestStickySeasons:
         existing = {"workday:stevens:1": {"season": "Summer 2027", "season_inferred": True}}
         assert self._keep(results, existing) == []
 
-    def test_legacy_unspecified_season_still_reinferred(self):
+    def test_legacy_unspecified_season_falls_through_to_unstated(self):
         # Only a real "<Term> <Year>" label is a verdict; junk labels fall
-        # through to inference as before.
+        # through as before — now landing in the unstated lane.
         existing = {"greenhouse:acme:1": {"season": "Unspecified"}}
         kept = self._keep(self._results(3), existing)
-        assert [(j.season, j.season_inferred) for j in kept] == [("Summer 2027", True)]
+        assert [(j.season, j.season_inferred) for j in kept] == [
+            (filters.NOT_STATED, True)]
 
 
 class TestAgeCutoff:
@@ -192,9 +198,10 @@ class TestAgeCutoff:
         # No stated cycle: recency was the ONLY evidence, and it's gone.
         assert self._keep("Software Engineer Intern", 300) == []
 
-    def test_recent_inferred_is_kept(self):
+    def test_recent_unstated_is_kept_without_a_cycle(self):
         kept = self._keep("Software Engineer Intern", 3)
-        assert [(j.season, j.season_inferred) for j in kept] == [("Summer 2027", True)]
+        assert [(j.season, j.season_inferred) for j in kept] == [
+            (filters.NOT_STATED, True)]
 
 
 class TestRegionConfig:
@@ -273,3 +280,46 @@ class TestOutOfScopeSweep:
         existing = {"a": {"is_open": True, "location": "Paris, France"}}
         assert _close_out_of_scope(existing, cfg) == 0
         assert existing["a"]["is_open"] is True
+
+
+class TestRetireGuessedCycles:
+    """Legacy records must lose cycle labels that came from the old guess."""
+
+    CFG = {"cycles": ["Summer 2027", "Fall 2026"]}
+
+    def _run(self, existing):
+        from intern_engine.pipeline import _retire_guessed_cycles
+        return _retire_guessed_cycles(existing, self.CFG), existing
+
+    def test_guessed_cycle_becomes_not_stated(self):
+        # The sticky-season path trusts any stored label that's in `cycles`,
+        # so without this the fabricated "Summer 2027" would live forever.
+        n, out = self._run({"a": {"season": "Summer 2027", "season_inferred": True,
+                                  "enriched_at": "2026-07-01T00:00:00Z",
+                                  "classifier_v": 2}})
+        assert n == 1
+        assert out["a"]["season"] == filters.NOT_STATED
+        # and it must be re-read, since the old text reader was tag-blind
+        assert "enriched_at" not in out["a"]
+        assert "classifier_v" not in out["a"]
+
+    def test_employer_stated_cycles_are_untouched(self):
+        existing = {"a": {"season": "Fall 2026", "season_inferred": False,
+                          "enriched_at": "2026-07-01T00:00:00Z"}}
+        n, out = self._run(existing)
+        assert n == 0
+        assert out["a"]["season"] == "Fall 2026"
+        assert out["a"]["enriched_at"] == "2026-07-01T00:00:00Z"
+
+    def test_offcycle_tombstones_are_untouched(self):
+        # "Summer 2026" isn't in cycles: it's a settled off-cycle verdict.
+        existing = {"a": {"season": "Summer 2026", "season_inferred": True}}
+        n, out = self._run(existing)
+        assert n == 0
+        assert out["a"]["season"] == "Summer 2026"
+
+    def test_multi_cycle_list_is_dropped_with_the_guess(self):
+        n, out = self._run({"a": {"season": "Summer 2027", "season_inferred": True,
+                                  "seasons": ["Summer 2027", "Fall 2026"]}})
+        assert n == 1
+        assert "seasons" not in out["a"]

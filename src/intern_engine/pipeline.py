@@ -271,13 +271,15 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
                     # is never re-inferred or re-enriched.
                     dropped_offcycle += 1
                     continue
-                elif infer:
-                    # The measured no-year pool dwarfed the explicit-year pool
-                    # (~13x), so recent undated roles are bucketed by posting
-                    # date, marked `~` everywhere they render, and checked
-                    # against the posting text at enrichment time.
-                    season = filters.infer_season(job.title, job.posted_at, cycles, infer_age)
-                    inferred = season is not None
+                elif infer and filters.cycle_unstated_ok(
+                        job.title, job.posted_at, infer_age):
+                    # Nobody stated a cycle. We used to guess one from the
+                    # posting month; that guess was measured wrong (see
+                    # filters.cycle_unstated_ok). The role is recent and real,
+                    # so it stays — under a label that claims nothing. If its
+                    # posting text names a cycle, enrichment promotes it.
+                    season = filters.NOT_STATED
+                    inferred = True
             if season is None:
                 dropped_no_year += 1
                 continue
@@ -327,6 +329,34 @@ def _migrate_date_sources(existing: dict) -> None:
             r["posted_at_source"] = models.date_source(r["posted_at"])
 
 
+def _retire_guessed_cycles(existing: dict, cfg: dict) -> int:
+    """Strip cycle labels that came from the retired posting-date guess.
+
+    Records written before `cycle_unstated_ok` carry a real cycle label with
+    `season_inferred=True` — e.g. "Summer 2027" derived from nothing but the
+    month the role was posted. The sticky-season path in `_keep_matching`
+    treats any stored label that's in `cycles` as authoritative, so without
+    this sweep those fabricated labels would survive forever and the fix would
+    only apply to roles discovered afterwards.
+
+    `season_inferred=True` is precisely the marker for "no employer said this"
+    — enrichment clears the flag the moment a posting's text confirms a cycle
+    — so every record still carrying it is reset to NOT_STATED and re-enriched.
+    """
+    cycles = set(config.cycles(cfg))
+    n = 0
+    for r in existing.values():
+        if r.get("season_inferred") and r.get("season") in cycles:
+            r["season"] = filters.NOT_STATED
+            r.pop("seasons", None)
+            # Force one re-read: the posting may well state a cycle that the
+            # old (tag-blind) text reader missed.
+            r.pop("enriched_at", None)
+            r.pop("classifier_v", None)
+            n += 1
+    return n
+
+
 def _close_out_of_scope(existing: dict, cfg: dict) -> int:
     """Close OPEN records whose stored location fails the region filter.
 
@@ -359,6 +389,7 @@ def run_update() -> tuple[dict, dict, list[str]]:
     companies = _load_companies()
     existing = store.load(paths.JOBS_PATH)
     _migrate_date_sources(existing)
+    _retire_guessed_cycles(existing, cfg)
     _close_out_of_scope(existing, cfg)
 
     health_data = health.load()
@@ -389,7 +420,10 @@ def run_update() -> tuple[dict, dict, list[str]]:
         offcycle = offcycle_sticky
         still = []
         for job in kept:
-            if job.season in cycles:
+            # NOT_STATED survives alongside the tracked cycles: it isn't a
+            # cycle claim, it's the absence of one, and those roles have their
+            # own section. Only a real OFF-cycle label ("Summer 2026") drops.
+            if job.season in cycles or job.season == filters.NOT_STATED:
                 still.append(job)
                 continue
             offcycle += 1
