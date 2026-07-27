@@ -104,22 +104,24 @@ def _cells(record: dict) -> tuple[str, str, str, str, str, str]:
     if h1b.badge(h1b.approvals_for(record.get("company") or "")):
         company += " ✓"
     title = _md_cell(record.get("title"))
+    is_open = record.get("is_open", True)
     badges = " ".join(
         b for b in (sponsorship.flag(record.get("sponsorship")),
                     "🏠" if filters.is_remote(record.get("location") or "",
                                               record.get("title") or "") else "",
-                    "🆕" if _is_new(record) else "")
+                    "🆕" if _is_new(record) and is_open else "")
         if b
     )
     if badges:
         title = f"{title} {badges}"
     url = record.get("url") or ""
+    apply = "Closed" if not is_open else (f"[Apply]({url})" if url else "—")
     return (
         company, title,
         _md_cell(record.get("category")),
         _short_location(record.get("location")),
         _pretty_date(record),
-        f"[Apply]({url})" if url else "—",
+        apply,
     )
 
 
@@ -613,6 +615,7 @@ def generate(store_data: dict) -> dict:
     lines = _header(cfg, len(open_jobs), endpoints,
                     _new_this_week(open_jobs), employers=employers,
                     shown=shown_total, stated=len(stated), inferred=len(inferred))
+    
     for heading, cycle, rows in sections:
         lines.append(f"## {heading}  ({len(rows)} employer-stated)")
         lines.append("")
@@ -658,6 +661,7 @@ def generate(store_data: dict) -> dict:
     _write_csv(sorted(open_jobs, key=lambda r: _date_str(r)[:10], reverse=True))
 
     return {"open": shown_total, "companies": employers}
+
 
 
 def _csv_safe(value):
