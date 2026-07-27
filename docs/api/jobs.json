@@ -1,9 +1,81 @@
 {
- "generated_at": "2026-07-27T00:04:02Z",
+ "generated_at": "2026-07-27T03:53:41Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 107,
+ "count": 110,
  "jobs": [
+  {
+   "id": "greenhouse:toshibaglobalcommercesolutions:5177892007",
+   "company": "Toshiba Global Commerce",
+   "title": "Agentic Software Engineering intern",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Durham, NC",
+   "url": "https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5177892007",
+   "posted_at": "2026-07-26T20:26:13-04:00",
+   "first_seen_at": "2026-07-27T03:53:40Z",
+   "sponsorship": "no-sponsorship",
+   "salary": null,
+   "skills": [
+    "Java",
+    "C++",
+    "JavaScript",
+    "SQL",
+    "LLMs",
+    "React",
+    "Angular",
+    "Vue"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 77
+  },
+  {
+   "id": "greenhouse:toshibaglobalcommercesolutions:5192820007",
+   "company": "Toshiba Global Commerce",
+   "title": "AI Engineering Intern",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Frisco, TX",
+   "url": "https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5192820007",
+   "posted_at": "2026-07-26T20:26:05-04:00",
+   "first_seen_at": "2026-07-27T03:53:40Z",
+   "sponsorship": "no-sponsorship",
+   "salary": null,
+   "skills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "LLMs",
+    "Azure",
+    "Docker",
+    "Git"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 77
+  },
+  {
+   "id": "greenhouse:toshibaglobalcommercesolutions:5190937007",
+   "company": "Toshiba Global Commerce",
+   "title": "Project Management & AI Automation Intern",
+   "season": "Summer 2027",
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Frisco, TX",
+   "url": "https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5190937007",
+   "posted_at": "2026-07-26T20:23:01-04:00",
+   "first_seen_at": "2026-07-27T03:53:40Z",
+   "sponsorship": "no-sponsorship",
+   "salary": null,
+   "skills": [
+    "Python",
+    "SQL",
+    "LLMs"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 77
+  },
   {
    "id": "greenhouse:pdtpartners:8077685",
    "company": "PDT Partners",

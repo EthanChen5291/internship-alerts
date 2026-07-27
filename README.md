@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**104 open roles · 30 new this week · 3,908 companies tracked · updated Jul 27, 2026 at 00:04 UTC**
+**107 open roles · 33 new this week · 3,908 companies tracked · updated Jul 27, 2026 at 03:53 UTC**
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -50,10 +50,13 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 ---
 
-## Summer 2027  (72 open)
+## Summer 2027  (75 open)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Toshiba Global Commerce ✓ | Agentic Software Engineering intern ~ 🛂 🆕 | Software | Durham, NC | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5177892007) |
+| Toshiba Global Commerce ✓ | AI Engineering Intern ~ 🛂 🆕 | Data & ML/AI | Frisco, TX | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5192820007) |
+| Toshiba Global Commerce ✓ | Project Management & AI Automation Intern ~ 🛂 🆕 | Data & ML/AI | Frisco, TX | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5190937007) |
 | PDT Partners | Summer 2027 Software Engineering Intern 🆕 | Software | New York, NY | Jul 24, 2026 | [Apply](https://job-boards.greenhouse.io/pdtpartners/jobs/8077685) |
 | Core & Main | Intern - AI/ML Data Engineering  -  Onsite - St. Louis ~ | Data & ML/AI | Saint Louis, MO 63146 | Jul 24, 2026 | [Apply](https://coreandmain.wd1.myworkdayjobs.com/coreandmain/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804) |
 | Northwell Health ✓ | Data Analytics / Data Science Intern ~ | Data & ML/AI | Lake Success, Nassau, United States | Jul 24, 2026 | [Apply](https://eppr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/192734) |
@@ -127,7 +130,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-_~ = the title doesn't state a year; bucketed here from its posting date (48 of 72)._
+_~ = the title doesn't state a year; bucketed here from its posting date (51 of 75)._
 
 ## Fall 2026  (32 open)
 
@@ -273,7 +276,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,908 companies across 12 ATS platforms · 99% fetch success · completed in 278.0s · median detection latency 997 min · real posted dates on 99% of open roles._
+_Engine (last run): 3,908 companies across 12 ATS platforms · 98% fetch success · completed in 290.8s · median detection latency 966 min · real posted dates on 99% of open roles._
 
 ## Contributing
 
