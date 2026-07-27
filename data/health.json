@@ -655,233 +655,178 @@
     "last_error": "HTTPStatusError: Client error '404 Not Found' for url 'https://api.rippling.com/platform/api/ats/v1/board/en-gb/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Stat"
   },
   "workable:advantmed": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/advantmed/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/"
   },
+  "workable:al-warren-oil-company-inc": {
+    "consecutive_failures": 1,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
+    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/al-warren-oil-company-inc/jobs'\nFor more information check: https://developer.mozilla.org/en-U"
+  },
+  "workable:altom-transport": {
+    "consecutive_failures": 1,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
+    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/altom-transport/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web"
+  },
   "workable:ascendis-pharma": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/ascendis-pharma/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web"
   },
   "workable:belmond-uk-ltd": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/belmond-uk-ltd/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/"
   },
-  "workable:charlotte-tilbury": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/charlotte-tilbury/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/W"
-  },
-  "workable:citylitics": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/citylitics/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP"
-  },
   "workable:coldquanta": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/coldquanta/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP"
   },
   "workable:connectprep": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/connectprep/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTT"
   },
   "workable:datavisor-jobs": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/datavisor-jobs/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/"
   },
-  "workable:double-eleven": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/double-eleven/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/H"
-  },
-  "workable:eluvio": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/eluvio/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-  },
-  "workable:enfos-inc": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/enfos-inc/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/"
-  },
-  "workable:evolv-technology": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/evolv-technology/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/We"
-  },
   "workable:futureplc": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/futureplc/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/"
   },
   "workable:getbits": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/getbits/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St"
   },
-  "workable:grayce": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/grayce/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-  },
-  "workable:halo-industries": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/halo-industries/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web"
-  },
-  "workable:huggingface": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/huggingface/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTT"
-  },
-  "workable:hyperlight": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/hyperlight/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP"
-  },
   "workable:innovaccer-analytics": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/innovaccer-analytics/jobs'\nFor more information check: https://developer.mozilla.org/en-US/doc"
   },
   "workable:joinblink": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/joinblink/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/"
   },
-  "workable:kestra-medical-technologies-inc": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/kestra-medical-technologies-inc/jobs'\nFor more information check: https://developer.mozilla.or"
-  },
-  "workable:leap-legal-software": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/leap-legal-software/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs"
-  },
-  "workable:mealsuite": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/mealsuite/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/"
-  },
   "workable:mlabs": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/mlabs/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Stat"
   },
   "workable:onlogic-inc": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/onlogic-inc/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTT"
   },
   "workable:optisigns-inc": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/optisigns-inc/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/H"
   },
-  "workable:oxford-quantum-circuits-8": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/oxford-quantum-circuits-8/jobs'\nFor more information check: https://developer.mozilla.org/en-U"
+  "workable:optitrack": {
+    "consecutive_failures": 1,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
+    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/optitrack/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/"
   },
   "workable:pony-dot-ai": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/pony-dot-ai/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTT"
   },
   "workable:qodeworld": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/qodeworld/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/"
   },
   "workable:quadric-dot-i-o-inc": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/quadric-dot-i-o-inc/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs"
   },
   "workable:quantexa": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/quantexa/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/S"
   },
   "workable:rokt": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/rokt/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Statu"
   },
   "workable:scitec": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/scitec/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
   },
   "workable:sigmadefense": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/sigmadefense/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HT"
   },
   "workable:softheon": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/softheon/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/S"
   },
   "workable:starling-bank": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/starling-bank/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/H"
   },
   "workable:terabase-energy": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/terabase-energy/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web"
   },
   "workable:thorlabs": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/thorlabs/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/S"
   },
   "workable:tickpick": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/tickpick/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/S"
   },
   "workable:tmeic-corporation-americas": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/tmeic-corporation-americas/jobs'\nFor more information check: https://developer.mozilla.org/en-"
   },
   "workable:tokamak-energy": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/tokamak-energy/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/"
   },
   "workable:trexquant": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/trexquant/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/"
   },
   "workable:twgai": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/twgai/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Stat"
   },
   "workable:twocircles": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/twocircles/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP"
   },
   "workable:valsoft-corp": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/valsoft-corp/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HT"
   },
   "workable:zego": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://apply.workable.com/api/v3/accounts/zego/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Statu"
   },
   "workday:activision": {
@@ -909,10 +854,30 @@
     "last_attempt_at": "2026-07-27T18:28:12Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://baltimorecity.wd1.myworkdayjobs.com/wday/cxs/baltimorecity/External/jobs'\nFor more information check: https://developer.mozilla.o"
   },
+  "workday:bbinsurance": {
+    "consecutive_failures": 1,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
+    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://bbinsurance.wd1.myworkdayjobs.com/wday/cxs/bbinsurance/careers/jobs'\nFor more information check: https://developer.mozilla.org/en"
+  },
   "workday:bmc": {
     "consecutive_failures": 4,
     "last_attempt_at": "2026-07-27T18:28:12Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://bmc.wd1.myworkdayjobs.com/wday/cxs/bmc/BMC/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St"
+  },
+  "workday:broadviewfcu": {
+    "consecutive_failures": 1,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
+    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://broadviewfcu.wd1.myworkdayjobs.com/wday/cxs/broadviewfcu/broadviewfcucareers/jobs'\nFor more information check: https://developer."
+  },
+  "workday:brooksauto": {
+    "consecutive_failures": 1,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
+    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://brooksauto.wd1.myworkdayjobs.com/wday/cxs/brooksauto/Brooks_External_Site/jobs'\nFor more information check: https://developer.moz"
+  },
+  "workday:brunswick": {
+    "consecutive_failures": 1,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
+    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://brunswick.wd1.myworkdayjobs.com/wday/cxs/brunswick/search/jobs'\nFor more information check: https://developer.mozilla.org/en-US/d"
   },
   "workday:caci": {
     "consecutive_failures": 4,
@@ -1029,11 +994,6 @@
     "last_attempt_at": "2026-07-27T16:20:26Z",
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://copeland.wd5.myworkdayjobs.com/wday/cxs/copeland/copeland_external_careers_page/jobs'\nFor more information check: https://develop"
   },
-  "workday:costar": {
-    "consecutive_failures": 1,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://costar.wd1.myworkdayjobs.com/wday/cxs/costar/Costar_Campus/jobs'\nFor more information check: https://developer.mozilla.org/en-US/"
-  },
   "workday:cvshealth": {
     "consecutive_failures": 6,
     "last_attempt_at": "2026-07-27T06:47:27Z",
@@ -1080,8 +1040,8 @@
     "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://elevancehealth.wd1.myworkdayjobs.com/wday/cxs/elevancehealth/ANT/jobs'\nFor more information check: https://developer.mozilla.org/"
   },
   "workday:evercommerce": {
-    "consecutive_failures": 2,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
+    "consecutive_failures": 3,
+    "last_attempt_at": "2026-07-27T20:41:58Z",
     "last_error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://evercommerce.wd1.myworkdayjobs.com/wday/cxs/evercommerce/evercommerce_careers/jobs'\nFor more information check: https://developer.mozilla"
   },
   "workday:evrazna": {
@@ -1098,11 +1058,6 @@
     "consecutive_failures": 13,
     "last_attempt_at": "2026-07-25T12:03:43Z",
     "last_error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://fugro.wd3.myworkdayjobs.com/wday/cxs/fugro/broadbean_external/jobs'\nFor more information check: https://developer.mozilla.org/en-US/docs/"
-  },
-  "workday:globusmedical": {
-    "consecutive_failures": 1,
-    "last_attempt_at": "2026-07-27T20:26:09Z",
-    "last_error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://globusmedical.wd5.myworkdayjobs.com/wday/cxs/globusmedical/GMED_Careers/jobs'\nFor more information check: https://developer.mozil"
   },
   "workday:gtsgbu": {
     "consecutive_failures": 8,
