@@ -100,6 +100,14 @@ def _is_new(record: dict, hours: int = 48) -> bool:
 
 
 def _cells(record: dict) -> tuple[str, str, str, str, str, str]:
+    """One table row's cells. Safe for ANY record, open or closed.
+
+    The cycle sections are built from open roles today, but this must not
+    depend on that: if a closed record ever reaches here it would otherwise
+    render a live "Apply" link to a dead posting and a "🆕" badge. Both are
+    guarded below. (Thanks to @meshhi13, PR #3, for spotting the class of bug.)
+    """
+    is_open = record.get("is_open", True)
     company = _md_cell(record.get("company"))
     if h1b.badge(h1b.approvals_for(record.get("company") or "")):
         company += " ✓"
@@ -108,18 +116,22 @@ def _cells(record: dict) -> tuple[str, str, str, str, str, str]:
         b for b in (sponsorship.flag(record.get("sponsorship")),
                     "🏠" if filters.is_remote(record.get("location") or "",
                                               record.get("title") or "") else "",
-                    "🆕" if _is_new(record) else "")
+                    "🆕" if is_open and _is_new(record) else "")
         if b
     )
     if badges:
         title = f"{title} {badges}"
     url = record.get("url") or ""
+    if not is_open:
+        apply_cell = "Closed"
+    else:
+        apply_cell = f"[Apply]({url})" if url else "—"
     return (
         company, title,
         _md_cell(record.get("category")),
         _short_location(record.get("location")),
         _pretty_date(record),
-        f"[Apply]({url})" if url else "—",
+        apply_cell,
     )
 
 
@@ -203,32 +215,48 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
 
     repo = config.repo_slug()
     stats_url = quote(f"{pages}/api/stats.json", safe="")
+    # The masthead is centered HTML: GitHub renders it, and it gives the page a
+    # real header block instead of a left-aligned pile of bold lines. Markdown
+    # inside needs the blank lines around it to keep parsing as markdown.
     return [
-        "# Summer 2027 Tech Internships",
+        '<div align="center">',
         "",
-        f"[![CI](https://github.com/{repo}/actions/workflows/ci.yml/badge.svg)]"
-        f"(https://github.com/{repo}/actions/workflows/ci.yml) "
-        f"![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles"
-        f"&query=open_total&url={stats_url}&color=2f81f7) "
-        "![Updates](https://img.shields.io/badge/updates-every%20hour-3fb950) "
-        f"[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22)]({pages}/feed.xml)",
+        "# 🎓 Summer 2027 Tech Internships",
         "",
-        "A self-updating engine that tracks tech internships so you don't have to. "
-        "Instead of refreshing a dozen career pages by hand, it reads company hiring "
-        "feeds directly and keeps one live list, newest roles on top, refreshed "
-        "automatically throughout the day.",
+        "**A self-updating engine that tracks tech internships so you don't have "
+        "to.**",
         "",
-        f"**{count_phrase} · {new_week} new this week · "
-        f"{(employers or companies):,} employers tracked · updated {_now_str()}**",
+        f"[![CI](https://img.shields.io/github/actions/workflow/status/{repo}/ci.yml"
+        f"?branch=main&label=tests&style=flat-square&color=3fb950)]"
+        f"(https://github.com/{repo}/actions/workflows/ci.yml)&nbsp;"
+        f"[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles"
+        f"&query=open_total&url={stats_url}&color=2f81f7&style=flat-square)]({pages}/)&nbsp;"
+        "![Updates](https://img.shields.io/badge/updates-every%20hour-3fb950"
+        "?style=flat-square)&nbsp;"
+        f"[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)]"
+        f"({pages}/feed.xml)",
+        "",
+        f"### {count_phrase} · {new_week} new this week",
+        "",
+        f"{(employers or companies):,} employers tracked · updated {_now_str()}",
         "",
         (f"_{stated} have a cycle the employer stated · {inferred} are recent "
          "postings whose cycle isn't stated (listed separately, never mixed in)._"
          if stated is not None and inferred else ""),
         "",
-        "**⭐Star this repo⭐** to save it and get updates when new roles are added.",
+        f"**[🖥️ Live dashboard]({pages}/)** · "
+        f"**[📡 RSS]({pages}/feed.xml)** · "
+        f"**[⚙️ JSON API]({pages}/api/jobs.json)** · "
+        f"**[✉️ Email alerts]({pages}/#subscribe)**",
         "",
-        f"**Live:** [dashboard]({pages}/) · [RSS feed]({pages}/feed.xml) "
-        f"(instant alerts in any RSS app) · [JSON API]({pages}/api/jobs.json)",
+        "</div>",
+        "",
+        "> [!TIP]",
+        "> **⭐ Star this repo** to save it and get updates when new roles are added.",
+        "",
+        "Instead of refreshing a dozen career pages by hand, it reads company hiring "
+        "feeds directly and keeps one live list, newest roles on top, refreshed "
+        "automatically throughout the day.",
         "",
         # Native signup posts into our own Supabase list (RLS: insert-only).
         # The Feedrabbit link is the zero-account fallback via the raw feed URL,
@@ -238,6 +266,8 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         f"unsubscribe from any email in two clicks. (Prefer RSS-to-email? "
         "[Feedrabbit works too]"
         f"({_email_subscribe_url()}).)",
+        "",
+        "---",
         "",
         "## What this is",
         "",
@@ -275,12 +305,15 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "",
         "## Scope",
         "",
-        "- **Roles:** Software Engineering, Data Science & Machine Learning "
-        "(and closely related technical internships)",
-        f"- **Region:** {region}"
+        "| | |",
+        "|---|---|",
+        "| **Roles** | Software Engineering, Data Science & Machine Learning "
+        "(and closely related technical internships) |",
+        f"| **Region** | {region}"
         + (" (primary), with a separate International section"
-           if config.include_international(cfg) else ""),
-        f"- **Cycles:** {cycles_phrase}",
+           if config.include_international(cfg) else "")
+        + " |",
+        f"| **Cycles** | {cycles_phrase} |",
         "",
         "## About",
         "",
@@ -298,6 +331,12 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "If it helps you, a star means a lot and tells me to keep going.",
         "",
         "## How to use",
+        "",
+        # Collapsed by default: it's a reference legend, and expanded it pushed
+        # the first actual role most of a screen further down.
+        "<details>",
+        "<summary><b>Reading the table — flags, dates, and the cycle split</b>"
+        " (click to expand)</summary>",
         "",
         "- Roles are grouped by cycle below - **newest posting on top, oldest at the bottom.**",
         "- A cycle section holds only roles whose **employer stated that cycle**. "
@@ -320,6 +359,8 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "(opens in Excel / Google Sheets).",
         "- Missing a company? Adding one takes a single line, see "
         "[CONTRIBUTING.md](CONTRIBUTING.md).",
+        "",
+        "</details>",
         "",
         "---",
         "",

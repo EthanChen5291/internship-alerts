@@ -370,26 +370,51 @@ def generate(store_data: dict, stats: dict) -> None:
 <meta name="twitter:card" content="summary">
 <link rel="alternate" type="application/atom+xml" title="New internships" href="feed.xml">
 <style>
-  :root {{ --bg:#0d1117; --card:#161b22; --raise:#1c2128; --line:#30363d;
-           --txt:#e6edf3; --muted:#8b949e; --accent:#2f81f7; --green:#3fb950;
-           --star:#e3b341; }}
+  :root {{ --bg:#0b0e14; --card:#141922; --raise:#1b212c; --line:#2a313d;
+           --line-soft:#222833;
+           --txt:#e8eef6; --muted:#8b96a8; --accent:#4d9dff; --accent-deep:#2f81f7;
+           --green:#3fb950; --star:#e3b341;
+           --r:14px; --r-sm:9px;
+           --shadow:0 1px 2px #0006, 0 8px 24px -12px #000a;
+           --shadow-lift:0 2px 4px #0007, 0 16px 32px -14px #000c;
+           --ease:cubic-bezier(.2,.7,.3,1); }}
   * {{ box-sizing:border-box; }}
   body {{ margin:0; background:var(--bg); color:var(--txt);
-          font:15px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-          -webkit-text-size-adjust:100%; }}
+          font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+          -webkit-text-size-adjust:100%; -webkit-font-smoothing:antialiased;
+          /* A single soft light source at the top so the page has a horizon
+             instead of reading as one flat slab of #0d1117. */
+          background-image:radial-gradient(1100px 420px at 50% -140px,#1b2534 0%,transparent 70%);
+          background-repeat:no-repeat; }}
   .wrap {{ max-width:1160px; margin:0 auto; padding:40px 20px 72px; }}
   .top {{ margin-bottom:22px; }}
-  h1 {{ font-size:31px; line-height:1.2; margin:0 0 6px; letter-spacing:-.02em; }}
-  .sub {{ color:var(--muted); margin:0 0 6px; max-width:62ch; }}
+  h1 {{ font-size:33px; line-height:1.15; margin:0 0 7px; letter-spacing:-.028em;
+        font-weight:760;
+        background:linear-gradient(180deg,#fff,#b9c6d8);
+        -webkit-background-clip:text; background-clip:text; color:transparent; }}
+  .sub {{ color:var(--muted); margin:0 0 8px; max-width:62ch; }}
   .links {{ margin:0; font-size:13.5px; color:var(--muted); }}
+  .links a {{ transition:color .15s var(--ease); }}
   /* Hero: four applicant-facing numbers. auto-fit with a 2-col floor keeps
      phones at 2x2 instead of a ragged orphan row. */
   .hero {{ display:grid; gap:12px; margin:0 0 34px;
            grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); }}
-  .hcard {{ background:linear-gradient(180deg,var(--raise),var(--card));
-            border:1px solid var(--line); border-radius:14px; padding:18px 18px 16px; }}
-  .hnum {{ font-size:34px; font-weight:750; line-height:1; letter-spacing:-.03em; }}
-  .hlbl {{ font-size:14px; font-weight:600; margin-top:7px; }}
+  .hcard {{ position:relative; overflow:hidden;
+            background:linear-gradient(180deg,var(--raise),var(--card));
+            border:1px solid var(--line); border-radius:var(--r);
+            padding:18px 18px 16px; box-shadow:var(--shadow);
+            transition:transform .2s var(--ease), box-shadow .2s var(--ease),
+                       border-color .2s var(--ease); }}
+  /* A 1px specular line along the top edge — the cheapest way to make a flat
+     card read as a lit surface rather than a rectangle. */
+  .hcard::before {{ content:""; position:absolute; inset:0 0 auto; height:1px;
+      background:linear-gradient(90deg,transparent,#ffffff26 30%,#ffffff26 70%,transparent); }}
+  .hcard:hover {{ transform:translateY(-2px); box-shadow:var(--shadow-lift);
+                  border-color:#3a4453; }}
+  .hnum {{ font-size:35px; font-weight:760; line-height:1; letter-spacing:-.035em;
+           background:linear-gradient(180deg,#fff,#c3cfdf);
+           -webkit-background-clip:text; background-clip:text; color:transparent; }}
+  .hlbl {{ font-size:14px; font-weight:600; margin-top:8px; letter-spacing:-.005em; }}
   .hsub {{ color:var(--muted); font-size:12.5px; margin-top:3px; line-height:1.45; }}
   @media(max-width:560px) {{
     h1 {{ font-size:25px; }}
@@ -425,17 +450,37 @@ def generate(store_data: dict, stats: dict) -> None:
      scrolling back to the top. */
   .filters {{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 4px;
       align-items:center; position:sticky; top:0; z-index:5;
-      background:var(--bg); padding:10px 0; border-bottom:1px solid var(--line); }}
+      background:color-mix(in srgb,var(--bg) 88%,transparent);
+      -webkit-backdrop-filter:blur(12px); backdrop-filter:blur(12px);
+      padding:10px 0; border-bottom:1px solid var(--line); }}
   .filters input[type=search], .filters select, .ghost {{
       background:var(--card); color:var(--txt); border:1px solid var(--line);
-      border-radius:8px; padding:8px 10px; font-size:13.5px; }}
+      border-radius:var(--r-sm); padding:8px 11px; font-size:13.5px;
+      transition:border-color .15s var(--ease), background .15s var(--ease),
+                 box-shadow .15s var(--ease), transform .12s var(--ease); }}
   .filters input[type=search] {{ flex:1 1 240px; min-width:180px; }}
-  .filters select:hover, .ghost:hover {{ border-color:var(--accent); }}
+  .filters select {{ cursor:pointer; }}
+  .filters select:hover, .ghost:hover, .filters input[type=search]:hover {{
+      border-color:#3f4a5a; background:var(--raise); }}
   .filters input[type=search]:focus, .filters select:focus, .ghost:focus-visible,
-  .star:focus-visible {{ outline:2px solid var(--accent); outline-offset:1px; }}
-  .ghost {{ cursor:pointer; color:var(--muted); }}
+  .star:focus-visible {{ outline:none; border-color:var(--accent);
+      box-shadow:0 0 0 3px #4d9dff33; }}
+  .star:focus-visible {{ outline:2px solid var(--accent); outline-offset:2px;
+      border-radius:6px; }}
+  /* Buttons get a real pressed state — a control that doesn't move on click
+     reads as broken on touch, where there's no hover to confirm the hit. */
+  .ghost {{ cursor:pointer; color:var(--muted); font-weight:500; }}
+  .ghost:hover {{ color:var(--txt); }}
+  .ghost:active {{ transform:translateY(1px); }}
   .filters label.chk {{ color:var(--muted); font-size:13px; display:flex;
-      align-items:center; gap:6px; cursor:pointer; white-space:nowrap; }}
+      align-items:center; gap:7px; cursor:pointer; white-space:nowrap;
+      padding:8px 11px; border:1px solid transparent; border-radius:var(--r-sm);
+      transition:color .15s var(--ease), background .15s var(--ease),
+                 border-color .15s var(--ease); }}
+  .filters label.chk:hover {{ color:var(--txt); background:var(--card);
+      border-color:var(--line); }}
+  .filters label.chk input {{ accent-color:var(--accent-deep); cursor:pointer;
+      width:15px; height:15px; margin:0; }}
   /* Secondary filters: a disclosure on phones, always-open and inline above it.
      `display:contents` lets the inner controls join the .filters flex row, so
      desktop looks like one continuous bar rather than a nested box.
@@ -443,34 +488,48 @@ def generate(store_data: dict, stats: dict) -> None:
      the UA stylesheet in a way `display:contents` can't override, so the
      desktop filters would silently vanish. A width check below collapses it
      on phones instead. */
+  /* `display:contents` was the original approach here and it silently does
+     NOT work on <details> in Chromium — the element keeps its own block box,
+     so every secondary control rendered full-width on its own line instead of
+     joining the bar. Making .fbody a flex row of its own gets the intended
+     layout without depending on that behaviour. */
+  .more {{ width:100%; }}
   .more > summary {{ display:none; }}
-  .more, .more > .fbody {{ display:contents; }}
+  .more > .fbody {{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; }}
   @media(max-width:680px) {{
-    .more {{ display:block; width:100%; }}
     .more > summary {{ display:list-item; cursor:pointer; color:var(--muted);
-        font-size:13px; padding:4px 0; }}
-    .more > .fbody {{ display:flex; flex-wrap:wrap; gap:8px; padding:8px 0 2px; }}
+        font-size:13px; padding:6px 0; list-style-position:inside; }}
+    .more > summary:hover {{ color:var(--txt); }}
+    .more > .fbody {{ padding:8px 0 2px; }}
     .more:not([open]) > .fbody {{ display:none; }}
   }}
   /* A wide table must scroll inside its OWN box. Without this the 9-column
      job table set the page width, so at 390px the document came out 731px
      wide and the whole dashboard scrolled sideways on a phone. */
   .tscroll {{ overflow-x:auto; -webkit-overflow-scrolling:touch; margin-top:8px;
-              border:1px solid var(--line); border-radius:12px; }}
+              border:1px solid var(--line); border-radius:var(--r);
+              box-shadow:var(--shadow); background:var(--card); }}
   table {{ width:100%; border-collapse:collapse; font-size:13.5px; }}
-  th,td {{ text-align:left; padding:10px 12px; border-bottom:1px solid var(--line);
-           vertical-align:top; }}
+  th,td {{ text-align:left; padding:11px 13px;
+           border-bottom:1px solid var(--line-soft); vertical-align:top; }}
   tbody tr:last-child td {{ border-bottom:0; }}
-  tbody tr:hover {{ background:#ffffff08; }}
-  thead th {{ position:sticky; top:0; background:var(--card); z-index:1; }}
+  tbody tr {{ transition:background .13s var(--ease); }}
+  tbody tr:hover {{ background:#ffffff0b; }}
+  thead th {{ position:sticky; top:0; z-index:1; background:var(--raise);
+              border-bottom:1px solid var(--line);
+              text-transform:uppercase; font-size:11px; letter-spacing:.05em; }}
   .rt {{ font-weight:600; }}
   .nowrap {{ white-space:nowrap; }}
   .c-save {{ width:34px; padding-right:0; }}
-  .star {{ background:none; border:0; color:var(--muted); font-size:17px;
-           cursor:pointer; padding:0 2px; line-height:1; }}
-  .star:hover {{ color:var(--star); }}
-  .star.on {{ color:var(--star); }}
-  tr.saved {{ background:#e3b3410f; }}
+  .star {{ background:none; border:0; color:#55606f; font-size:17px;
+           cursor:pointer; padding:0 2px; line-height:1;
+           transition:color .15s var(--ease), transform .15s var(--ease); }}
+  .star:hover {{ color:var(--star); transform:scale(1.22); }}
+  .star:active {{ transform:scale(.9); }}
+  .star.on {{ color:var(--star); text-shadow:0 0 12px #e3b34166; }}
+  /* Saved rows carry a gold edge instead of only a wash, so they're findable
+     while scrolling a long list. */
+  tr.saved {{ background:#e3b3410f; box-shadow:inset 2px 0 0 var(--star); }}
   .pill {{ display:inline-block; background:#2ea04322; color:var(--green);
            border-radius:20px; padding:0 7px; font-size:11px; margin-left:4px; }}
   @media(max-width:680px) {{
@@ -488,13 +547,17 @@ def generate(store_data: dict, stats: dict) -> None:
   th {{ color:var(--muted); font-weight:600; }}
   a {{ color:var(--accent); text-decoration:none; }}
   a:hover {{ text-decoration:underline; }}
-  .tag {{ display:inline-block; background:#1f6feb22; color:#79c0ff; padding:1px 7px;
+  .tag {{ display:inline-block; background:#1f6feb26; color:#8ecbff;
+          border:1px solid #1f6feb3d; padding:1px 8px;
           border-radius:20px; font-size:12px; margin:0 2px 2px 0; white-space:nowrap; }}
-  .tag-guess {{ background:#8b949e1f; color:var(--muted); border:1px dashed var(--line); }}
-  .engine {{ margin-top:38px; border:1px solid var(--line); border-radius:12px;
-             background:var(--card); padding:0 16px; }}
+  .tag-guess {{ background:#8b949e14; color:var(--muted); border:1px dashed #3a4453; }}
+  .engine {{ margin-top:38px; border:1px solid var(--line); border-radius:var(--r);
+             background:var(--card); padding:0 18px; box-shadow:var(--shadow);
+             transition:border-color .15s var(--ease); }}
+  .engine:hover {{ border-color:#3a4453; }}
   .engine[open] {{ padding-bottom:16px; }}
-  .engine summary {{ cursor:pointer; padding:14px 0; font-size:14.5px; }}
+  .engine summary {{ cursor:pointer; padding:15px 0; font-size:14.5px;
+                     font-weight:550; transition:color .15s var(--ease); }}
   .engine summary:hover {{ color:var(--accent); }}
   .kv th {{ width:200px; font-weight:600; color:var(--muted); }}
   .kv td {{ color:var(--txt); }}
@@ -502,26 +565,47 @@ def generate(store_data: dict, stats: dict) -> None:
   .sk {{ display:inline-block; background:#8b949e1a; color:var(--muted);
          border:1px solid var(--line); padding:0 6px; border-radius:10px;
          font-size:11px; margin:1px 3px 0 0; }}
-  .cf {{ padding:1px 8px; border-radius:20px; font-size:11.5px; white-space:nowrap; }}
-  .ics {{ display:inline-block; background:var(--accent); color:#fff; padding:6px 12px;
-      border-radius:8px; font-size:13px; font-weight:600; }}
-  .ics:hover {{ text-decoration:none; opacity:.9; }}
-  .cf-verified {{ background:#2ea04322; color:var(--green); }}
-  .cf-window {{ background:#1f6feb22; color:#79c0ff; }}
-  .cf-rolling {{ background:#8b949e22; color:var(--muted); }}
+  .cf {{ padding:2px 9px; border-radius:20px; font-size:11.5px; white-space:nowrap;
+         border:1px solid transparent; }}
+  .ics {{ display:inline-block; padding:9px 16px; font-size:13px; }}
+  .cf-verified {{ background:#2ea04322; color:var(--green); border-color:#2ea04340; }}
+  .cf-window {{ background:#1f6feb22; color:#8ecbff; border-color:#1f6feb40; }}
+  .cf-rolling {{ background:#8b949e1c; color:var(--muted); border-color:#8b949e33; }}
   .muted {{ color:var(--muted); }}
   .ok {{ color:var(--green); cursor:help; }}
-  .signup {{ background:var(--card); border:1px solid var(--line); border-radius:10px;
-             padding:18px; margin:26px 0 6px; }}
+  .signup {{ background:linear-gradient(180deg,var(--raise),var(--card));
+             border:1px solid var(--line); border-radius:var(--r);
+             padding:20px; margin:26px 0 6px; box-shadow:var(--shadow);
+             position:relative; overflow:hidden; }}
+  .signup::before {{ content:""; position:absolute; inset:0 0 auto; height:1px;
+      background:linear-gradient(90deg,transparent,#ffffff26 30%,#ffffff26 70%,transparent); }}
   .signup h2 {{ margin:0; }}
-  .signup form {{ display:flex; gap:8px; flex-wrap:wrap; }}
+  .signup form {{ display:flex; gap:9px; flex-wrap:wrap; }}
   .signup input[type=email] {{ flex:1; min-width:220px; background:var(--bg);
-      color:var(--txt); border:1px solid var(--line); border-radius:8px;
-      padding:9px 12px; font-size:14px; }}
-  .signup button {{ background:var(--accent); color:#fff; border:0; border-radius:8px;
-      padding:9px 18px; font-size:14px; font-weight:600; cursor:pointer; }}
-  .signup button:hover {{ filter:brightness(1.1); }}
+      color:var(--txt); border:1px solid var(--line); border-radius:var(--r-sm);
+      padding:10px 13px; font-size:14px;
+      transition:border-color .15s var(--ease), box-shadow .15s var(--ease); }}
+  .signup input[type=email]:focus {{ outline:none; border-color:var(--accent);
+      box-shadow:0 0 0 3px #4d9dff33; }}
+  /* Primary action: gradient + a lifted shadow in the accent's own hue, so it
+     reads as the one thing on the page you're meant to press. */
+  .signup button, .ics {{
+      background:linear-gradient(180deg,var(--accent),var(--accent-deep));
+      color:#fff; border:0; border-radius:var(--r-sm);
+      padding:10px 20px; font-size:14px; font-weight:650; cursor:pointer;
+      box-shadow:0 1px 2px #0006, 0 6px 16px -8px #2f81f7cc;
+      transition:transform .15s var(--ease), box-shadow .15s var(--ease),
+                 filter .15s var(--ease); }}
+  .signup button:hover, .ics:hover {{ transform:translateY(-1px); filter:brightness(1.08);
+      box-shadow:0 2px 4px #0007, 0 12px 22px -8px #2f81f7; text-decoration:none; }}
+  .signup button:active, .ics:active {{ transform:translateY(0); filter:brightness(.97);
+      box-shadow:0 1px 2px #0008; }}
   footer {{ color:var(--muted); font-size:12px; margin-top:36px; }}
+  /* Anyone who asked the OS to stop animations gets no transforms at all. */
+  @media (prefers-reduced-motion:reduce) {{
+    * {{ transition-duration:.01ms !important; animation-duration:.01ms !important; }}
+    .hcard:hover, .signup button:hover, .ics:hover {{ transform:none; }}
+  }}
 </style></head><body><div class="wrap">
   <header class="top">
     <h1>{escape(region)} tech internships</h1>

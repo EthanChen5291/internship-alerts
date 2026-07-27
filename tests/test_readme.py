@@ -1,6 +1,7 @@
 """README/CSV generation: honest counts and a CSV that can't execute."""
 
 import csv
+from datetime import UTC, datetime
 
 import pytest
 
@@ -145,3 +146,31 @@ class TestHeaderCounts:
         line = next(x for x in lines if "open roles" in x)
         assert "104 open roles" in line
         assert "listed below" not in line
+
+
+class TestClosedRecordCells:
+    """A closed record must never render as applyable (PR #3, @meshhi13)."""
+
+    def _rec(self, **extra):
+        r = {"id": "x", "company": "Acme", "title": "SWE Intern",
+             "category": "Software", "location": "Austin, TX",
+             "url": "https://acme.example/job/1", "season": "Summer 2027",
+             "first_seen_at": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")}
+        r.update(extra)
+        return r
+
+    def test_open_record_gets_an_apply_link(self):
+        assert readme._cells(self._rec(is_open=True))[5].startswith("[Apply](")
+
+    def test_closed_record_says_closed_not_a_link(self):
+        cell = readme._cells(self._rec(is_open=False))[5]
+        assert cell == "Closed"
+        assert "http" not in cell
+
+    def test_closed_record_never_shows_the_new_badge(self):
+        # first_seen_at is "now", so _is_new() is True — but it's closed.
+        assert "🆕" not in readme._cells(self._rec(is_open=False))[1]
+        assert "🆕" in readme._cells(self._rec(is_open=True))[1]
+
+    def test_missing_is_open_defaults_to_open(self):
+        assert readme._cells(self._rec())[5].startswith("[Apply](")
