@@ -540,12 +540,13 @@ def generate(store_data: dict) -> dict:
     per_company = config.max_per_company(cfg)
 
     open_jobs = [r for r in store_data.values() if r.get("is_open")]
-    stated_open = [r for r in open_jobs if not r.get("season_inferred")]
-    inferred_open = [r for r in open_jobs if r.get("season_inferred")]
-
-    all_jobs = list(store_data.values())
-    stated = [r for r in all_jobs if not r.get("season_inferred")]
-    inferred = [r for r in all_jobs if r.get("season_inferred")]
+    # The honesty split. A cycle section is a claim ("this role is for Summer
+    # 2027"), so it may only contain roles whose employer actually SAID so.
+    # Date-inferred roles are real, recent, worth applying to — but their cycle
+    # is our guess, and mixing them in presented 46% of the list with more
+    # certainty than the evidence supports. They get their own lane below.
+    stated = [r for r in open_jobs if not r.get("season_inferred")]
+    inferred = [r for r in open_jobs if r.get("season_inferred")]
 
     groups: dict[tuple[str, str], list[dict]] = {}
     for r in stated:
@@ -573,12 +574,13 @@ def generate(store_data: dict) -> dict:
                         displayed.append(r)
 
     rolling_rows = _select(inferred, None, per_company)
-    shown_open = sum(1 for r in displayed if r.get("is_open")) + sum(1 for r in rolling_rows if r.get("is_open"))
+    shown_total = len(displayed) + len(rolling_rows)
 
     endpoints, employers = _company_count()
     lines = _header(cfg, len(open_jobs), endpoints,
                     _new_this_week(open_jobs), employers=employers,
-                    shown=shown_open, stated=len(stated_open), inferred=len(inferred_open))
+                    shown=shown_total, stated=len(stated), inferred=len(inferred))
+    
     for heading, cycle, rows in sections:
         lines.append(f"## {heading}  ({len(rows)} employer-stated)")
         lines.append("")
@@ -622,7 +624,8 @@ def generate(store_data: dict) -> dict:
     # not just the rows that survived the README's per-company display cap.
     _write_csv(sorted(open_jobs, key=lambda r: _date_str(r)[:10], reverse=True))
 
-    return {"open": shown_open, "companies": employers}
+    return {"open": shown_total, "companies": employers}
+
 
 
 def _csv_safe(value):
