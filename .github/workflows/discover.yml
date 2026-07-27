@@ -21,10 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.11"
 
@@ -43,12 +43,18 @@ jobs:
           git add data/companies.json
           if git diff --staged --quiet; then
             echo "No new companies."
-          else
-            git commit -m "chore: discover new companies ($(date -u +'%Y-%m-%d'))"
-            # The hourly update workflow may push at the same time; rebase onto
-            # it (different file, auto-merges) and retry rather than fail.
-            for attempt in 1 2 3; do
-              git pull --rebase --autostash origin main && git push && break
-              echo "push race, retrying ($attempt)…"; sleep 5
-            done
+            exit 0
           fi
+          git commit -m "chore: discover new companies ($(date -u +'%Y-%m-%d'))"
+          # The hourly update workflow may push at the same time; rebase onto
+          # it (different file, auto-merges) and retry rather than fail.
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push; then
+              exit 0
+            fi
+            echo "push race, retrying ($attempt)…"
+            sleep 5
+          done
+          # `sleep` succeeding must not be what decides this step's exit code.
+          echo "::error::push failed after 3 attempts; discoveries not published"
+          exit 1

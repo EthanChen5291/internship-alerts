@@ -20,7 +20,7 @@ from __future__ import annotations
 import re
 from datetime import UTC, datetime, timedelta
 
-from ..models import Job
+from ..models import Fetch, Job, clean_listing
 from ..net import Net
 
 HEADERS = {
@@ -32,7 +32,10 @@ HEADERS = {
 _DAYS_AGO = re.compile(r"(\d+)\s*\+?\s*days?\s+ago", re.IGNORECASE)
 
 _PAGE_SIZE = 20   # hard server-side cap per request
-_MAX_JOBS = 100   # intern-search results beyond this are noise
+_MAX_JOBS = 200   # per search term; big tenants list hundreds of "intern" hits
+# Workday's searchText is literal enough that "intern" misses "Co-Op Engineer".
+# Our own classifier accepts co-ops, so we have to ask for them explicitly.
+_SEARCH_TERMS = ("intern", "co-op")
 
 
 def _resolve_posted(text: str | None) -> str | None:
@@ -69,19 +72,25 @@ def _urls(company: dict) -> tuple[str, str]:
     )
 
 
-async def fetch(company: dict, net: Net) -> list[Job]:
+async def fetch(company: dict, net: Net) -> Fetch:
     tenant = company["slug"]
     api_url, base = _urls(company)
 
-    jobs: list[Job] = []
-    for offset in range(0, _MAX_JOBS, _PAGE_SIZE):
-        body = {"appliedFacets": {}, "limit": _PAGE_SIZE, "offset": offset, "searchText": "intern"}
-        data = await net.post_json(api_url, json=body, headers=HEADERS)
-        postings = data.get("jobPostings", [])
-        for posting in postings:
-            path = posting.get("externalPath") or ""
-            jobs.append(
-                Job(
+    jobs: dict[str, Job] = {}  # keyed by job id: the two searches overlap
+    complete = True
+    for term in _SEARCH_TERMS:
+        exhausted = False
+        for offset in range(0, _MAX_JOBS, _PAGE_SIZE):
+            body = {"appliedFacets": {}, "limit": _PAGE_SIZE, "offset": offset,
+                    "searchText": term}
+            data = await net.post_json(api_url, json=body, headers=HEADERS)
+            postings = clean_listing(data, "jobPostings")
+            if postings is None:
+                break  # malformed 200 / error envelope: leave the fetch partial
+            for posting in postings:
+                path = posting.get("externalPath") or ""
+                posted = _resolve_posted(posting.get("postedOn"))
+                job = Job(
                     id=f"workday:{tenant}:{path or posting.get('title')}",
                     source="workday",
                     company=company["name"],
@@ -89,9 +98,21 @@ async def fetch(company: dict, net: Net) -> list[Job]:
                     title=(posting.get("title") or "").strip(),
                     location=(posting.get("locationsText") or "—").strip() or "—",
                     url=(base + path) if path else base,
-                    posted_at=_resolve_posted(posting.get("postedOn")),
+                    posted_at=posted,
+                    # "Posted 6 Days Ago" arithmetic, not a real date. Labeled
+                    # so the detail page's true date can supersede it later.
+                    posted_at_source="relative_derived" if posted else None,
                 )
-            )
-        if len(postings) < _PAGE_SIZE:
-            break
-    return jobs
+                jobs.setdefault(job.id, job)
+            if len(postings) < _PAGE_SIZE:
+                exhausted = True  # we reached the end of this term's results
+                break
+            # `total` is the server's own count for the search; trust it over
+            # our page cap when deciding whether anything was left behind.
+            total = data.get("total")
+            if isinstance(total, int) and offset + len(postings) >= total:
+                exhausted = True
+                break
+        if not exhausted:
+            complete = False  # we stopped at _MAX_JOBS with results still pending
+    return Fetch(list(jobs.values()), complete=complete)

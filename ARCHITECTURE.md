@@ -22,9 +22,9 @@ public datasets + README mines          data/candidates.json (curated slugs)
                                         │  python run.py update
                                         ▼
     health.py ──skips quarantined──►  pipeline.py ──concurrent fetch──►  connectors/*.py
-    (circuit breaker,                   │                                (11 sources, one
-     data/health.json)                  │  keep: internship? scope?       normalized Job[])
-                                        │        target cycle? region?
+    (circuit breaker,                   │                                (12 sources, each
+     data/health.json)                  │  keep: internship? scope?       returning a Fetch:
+                                        │        target cycle? region?    Job[] + complete?)
                                         ▼
                                     enrich.py ──posting text──► sponsorship.py
                                         │       (detail fetch only        (citizens-only /
@@ -32,25 +32,73 @@ public datasets + README mines          data/candidates.json (curated slugs)
                                         ▼                                  offers / unknown)
                                      store.py ──► data/jobs.json
                                         │         (dedup · first-seen · open/closed
-                                        │          · closed_at · retention purge)
+                                        │          · closed_reason · retention purge)
         ┌───────────────┬───────────────┼────────────────┬──────────────┐
         ▼               ▼               ▼                ▼              ▼
-    readme.py      dashboard.py     publish.py       notify.py       db.py
-    README.md +    docs/index.html  docs/feed.xml    Discord         Postgres
-    internships.csv (search/filter/ + docs/api/*.json webhook        (optional)
-                    sparkline)      (RSS + JSON API)  (optional)
+    readme.py      dashboard.py     publish.py       db.py         outbox.py
+    README.md +    docs/index.html  docs/feed.xml    Postgres       data/outbox.json
+    internships.csv (search/filter/ + docs/api/*.json (optional)     (roles awaiting
+                    sparkline)      (RSS + JSON API)                  an alert)
+                                        │
+                                 git commit && push   ← the publish boundary
+                                        │
+                                        ▼  python run.py notify
+                                notify.py + mailer.py
+                                Discord      email digest
 ```
+
+### Why alerts are a separate command
+
+An alert says "this role is on the list", so it may only go out once the run's
+data is actually published. `update` therefore queues new roles in
+`data/outbox.json`; the workflow commits and pushes; only then does `notify`
+drain the queue and send. A failed push leaves the queue full, so those roles
+go out with the next successful publish — exactly once.
+
+### Evidence, not just data
+
+Three fields exist purely so the output can say how much it actually knows.
+They're what separate this from a list that asserts everything with equal
+confidence:
+
+| Field | Question it answers |
+|---|---|
+| `season_inferred` | Did the **employer** name this cycle, or did we infer it from the posting date? Inferred roles render in their own README section and are excluded from the "stated cycle" count. |
+| `posted_at_source` | `exact` / `date_only` / `relative_derived`. Drives which dates may supersede which, and which are eligible for the latency metric. |
+| `closed_reason` | `gone-from-feed` (evidence from a complete snapshot) vs `out-of-scope` (our own verdict). |
+
+Plus `classifier_v`: a stored sponsorship verdict is only trusted while the
+classifier that produced it is current. Bump `sponsorship.VERSION` and every
+stale record is re-read from posting text on the next run, so a rule fix reaches
+the whole live list instead of only roles found afterwards.
+
+`seasons` holds every cycle a title states, for the postings that name two.
+
+### Two reasons a role leaves the list
+
+`store.upsert` distinguishes them, because they need different evidence:
+
+| `closed_reason` | Meaning | Evidence required |
+|---|---|---|
+| `gone-from-feed` | **Two consecutive** complete reads no longer return it | `Fetch.complete` true on both runs; one miss only arms the closure |
+| `out-of-scope` | It's still posted, but fails our filters (wrong country, off-cycle, not tech) | none — our own verdict |
+
+Several ATS cap search results (Workday/Oracle at 200 per term, Amazon at
+1,000, SmartRecruiters/Eightfold at 300). A capped page looks exactly like "no
+more roles", so connectors report `complete=False` when they may have been cut
+off, and a partial snapshot is never allowed to close anything. Roughly 90 of
+~3,450 boards hit a cap on a typical run.
 
 ## Files
 
 | File | Responsibility |
 |---|---|
-| `run.py` | CLI entrypoint: `harvest` \| `discover` \| `update` \| `all`. Puts `src/` on the path. |
-| `src/intern_engine/models.py` | The `Job` dataclass — the one shape every connector returns. |
+| `run.py` | CLI entrypoint: `harvest` \| `discover` \| `update` \| `render` \| `notify` \| `all`. Puts `src/` on the path. |
+| `src/intern_engine/models.py` | The `Job` dataclass, and `Fetch` (a connector's jobs + whether its snapshot was complete). |
 | `src/intern_engine/paths.py` | All file paths, computed from the repo root (CI-safe). |
 | `src/intern_engine/config.py` | Loads `data/config.json`; derives the repo/Pages URLs. |
 | `src/intern_engine/net.py` | Async HTTP with retry/backoff + per-host concurrency limits. |
-| `src/intern_engine/connectors/` | One module per ATS: Greenhouse, Lever, Ashby, SmartRecruiters, Workday, Oracle, Amazon, Rippling, Workable, Breezy, Recruitee. |
+| `src/intern_engine/connectors/` | One module per ATS: Greenhouse, Lever, Ashby, SmartRecruiters, Workday, Oracle, Amazon, Rippling, Workable, Breezy, Recruitee, Eightfold. |
 | `src/intern_engine/filters.py` | Classification: internship? tech? season/year? US/Canada? category. |
 | `src/intern_engine/sponsorship.py` | Phrase-anchored visa/citizenship classifier + display flags. |
 | `src/intern_engine/h1b.py` | Joins companies against the USCIS H-1B employer index (✓ badge). |
@@ -69,17 +117,24 @@ public datasets + README mines          data/candidates.json (curated slugs)
 | `src/intern_engine/dashboard.py` | Renders the self-contained GitHub Pages dashboard. |
 | `src/intern_engine/publish.py` | Renders the Atom feed + static JSON API under `docs/`. |
 | `src/intern_engine/notify.py` | Optional Discord webhook alerts for newly spotted roles. |
-| `src/intern_engine/db.py` | Optional Postgres (Supabase) mirror of jobs/companies/runs. |
-| `.github/workflows/update.yml` | Scheduled CI (every 2h): run update, commit changes. |
-| `.github/workflows/discover.yml` | Weekly CI: grow `data/companies.json` automatically. |
+| `src/intern_engine/outbox.py` | Queue of roles awaiting an alert; drained only after a successful publish. |
+| `src/intern_engine/observe.py` | The engine's own record of real posting dates, by company and cycle. |
+| `src/intern_engine/names.py` | Employer display names: override map + slug-artifact cleanup. |
+| `src/intern_engine/db.py` | Optional Postgres (Supabase) mirror of jobs/companies/runs. Runs in `notify`, after the accuracy gate and the push. |
+| `.github/workflows/update.yml` | Scheduled CI (hourly): run update, commit, push, then send alerts. |
+| `.github/workflows/discover.yml` | Daily CI: grow `data/companies.json` automatically. |
 | `data/config.json` | Tunable settings (see below). |
 | `data/companies.json` | Validated companies the pipeline reads. |
+| `data/company_names.json` | Display-name overrides for slug-derived employer names. |
+| `data/outbox.json` | Roles queued for an alert, drained only after a successful publish. |
+| `db/schema.sql` | Supabase tables, RLS policies, and the unsubscribe RPC. |
 | `data/jobs.json` | The persistent job state (source of truth for the README). |
 | `data/health.json` | Circuit-breaker state (auditable in git like everything else). |
 | `data/history.jsonl` | One line of run metrics per run (feeds the dashboard chart). |
 | `data/h1b.json` | Compact USCIS employer→approvals index (built by `tools/build_h1b.py`). |
 | `tools/build_h1b.py` | Offline builder: USCIS Data Hub CSVs → `data/h1b.json` (run yearly). |
 | `tools/audit_seasons.py` | Audit date-inferred cycles against posting text; `--apply` repairs the store. |
+| `tools/verify_accuracy.py` | Every open role vs every invariant, plus publish gates. Runs in CI before publishing. |
 
 ## Configuration (`data/config.json`)
 
@@ -124,7 +179,7 @@ keeps the list free of junk/no-name companies.
 - `section_limits` — max rows per section; over the cap, the most sought-after companies win.
 
 Run `python run.py discover` to mine public datasets for company tokens and grow
-`data/companies.json` — we then poll those feeds directly. A weekly workflow does
+`data/companies.json` — we then poll those feeds directly. A daily workflow does
 this automatically.
 
 ## Design choices
@@ -154,7 +209,10 @@ using phrase-anchored patterns of what employers actually write ("unable to
 sponsor", "must be a U.S. citizen", ...). Precision is deliberately favored
 over recall: EEO boilerplate that merely mentions "citizenship status" does not
 trigger. The README shows 🇺🇸 / 🛂 flags; the CSV, API, feed, and dashboard
-carry the raw value; the dashboard has a one-click "F-1 friendly" filter.
+carry the raw value; the dashboard filter names each verdict separately
+(explicitly offers / no explicit restriction / not stated / explicitly
+restricted) rather than collapsing them into one "F-1 friendly" toggle, which
+only hid the negatives and presented ~97% unknowns as if they'd been checked.
 
 That covers what a posting *says*. `h1b.py` adds what the company has *done*:
 `tools/build_h1b.py` aggregates the official USCIS H-1B Employer Data Hub
@@ -208,12 +266,14 @@ remain exported views, so the presentation layer is decoupled from the data laye
 
 ## Drop Radar
 
-Every list shows what's open; the radar shows **what's coming**. Offline,
-`tools/build_seasons.py` mines last cycle's public listing datasets for each
-company's earliest SWE/DS/Quant intern posting date. At render time `radar.py`
-projects that date one year forward, checks it against the live store (has the
+Every list shows what's open; the radar shows **what's coming**. `observe.py`
+records, per company and cycle, the earliest posting date the engine saw itself
+along with the **distinct role ids** behind it (the count used to be bumped once
+per role per run, which an hourly schedule inflated without limit). At render
+time `radar.py` projects last cycle's observed date one year forward, checks it against the live store (has the
 company posted this cycle in our feeds?), and renders a countdown table:
-README shows the next 20, the dashboard has all ~870 searchable, and
+README shows the forecast plus recent drops, the dashboard has every row
+searchable (currently ~54 — only companies we can say something real about), and
 `docs/api/radar.json` serves the raw data. Honesty rules: dates inside the
 reference dataset's backfill window render as "by <date>" (a latest bound, not
 a drop day), and "waiting" means "not seen in our tracked feeds", never "not
@@ -233,5 +293,6 @@ python -m venv .venv
 .\.venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 python run.py all               # discover + harvest + update
-python -m pytest                # 93 tests, no network
+python -m pytest                # 266 tests, no network
+python tools/verify_accuracy.py # every open role vs every invariant
 ```

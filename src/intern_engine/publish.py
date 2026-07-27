@@ -15,9 +15,11 @@ import os
 from datetime import UTC, datetime, timedelta
 from xml.sax.saxutils import escape
 
-from . import config, h1b, paths, radar, sponsorship
+from . import config, filters, h1b, paths, radar, sponsorship
 
-_FEED_LIMIT = 50
+# Big enough that a burst day (or a role that opened and closed between two
+# reader polls) still fits; 50 could drop roles from the feed unseen.
+_FEED_LIMIT = 100
 
 
 def _first_seen(record: dict) -> str:
@@ -79,6 +81,10 @@ def write_feed(store_data: dict) -> int:
         f'  <link href="{escape(base)}/feed.xml" rel="self"/>\n',
         f'  <link href="https://github.com/{escape(config.repo_slug())}"/>\n',
         f"  <updated>{now}</updated>\n",
+        # RFC 4287 requires a feed-level author unless every entry carries one.
+        # Validators flag its absence, and some readers drop the feed entirely.
+        "  <author><name>Internship Engine</name>"
+        f"<uri>https://github.com/{escape(config.repo_slug())}</uri></author>\n",
     ]
     xml.extend(_entry(r, base) for r in entries)
     xml.append("</feed>\n")
@@ -135,8 +141,9 @@ def write_radar_ics(store_data: dict, cycle: str | None = None) -> int:
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
         f"X-WR-CALNAME:Internship Drop Radar ({_ics_escape(cycle)})",
-        "X-WR-CALDESC:Expected opening dates for tech internships. "
-        "Verified from live career-page data + hand-checked windows.",
+        "X-WR-CALDESC:Expected opening dates for tech internships. Dates come "
+        "from employers' own career APIs or hand-checked opening months; treat "
+        "them as when to start watching.",
         "REFRESH-INTERVAL;VALUE=DURATION:PT12H",
         "X-PUBLISHED-TTL:PT12H",
     ]
@@ -150,8 +157,9 @@ def write_radar_ics(store_data: dict, cycle: str | None = None) -> int:
         mark = "🎯 " if verified else ""
         when = "expected to open" if precise else "typically opens"
         summary = f"{mark}{r['company']} — {when} ({cycle})"
-        trust = ("date verified from our own live career-page observations"
-                 if verified else "hand-verified typical opening month (month-level)")
+        trust = ("the employer's own posted date, read from their careers API"
+                 if verified else
+                 "hand-checked typical opening month (month-level, not a day)")
         desc_bits = [f"{r['company']} {when} around this date.", trust]
         if r.get("note"):
             desc_bits.append(r["note"])
@@ -181,9 +189,9 @@ def write_radar_ics(store_data: dict, cycle: str | None = None) -> int:
 
 
 _API_FIELDS = (
-    "id", "company", "title", "season", "season_inferred", "category",
-    "location", "url", "posted_at", "first_seen_at", "sponsorship", "salary",
-    "skills", "source",
+    "id", "company", "title", "season", "seasons", "season_inferred", "category",
+    "location", "url", "posted_at", "posted_at_source", "first_seen_at",
+    "sponsorship", "salary", "skills", "source",
 )
 
 
@@ -196,6 +204,8 @@ def write_api(store_data: dict, stats: dict) -> int:
     def _job(r: dict) -> dict:
         row = {k: r.get(k) for k in _API_FIELDS}
         row["h1b_approvals"] = h1b.approvals_for(r.get("company") or "")
+        row["program"] = filters.program_type(r.get("title") or "")
+        row["remote"] = filters.is_remote(r.get("location") or "", r.get("title") or "")
         return row
 
     payload = {

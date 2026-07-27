@@ -17,77 +17,138 @@ import json
 import os
 from datetime import UTC, datetime, timedelta
 
+from .models import DATE_PRECISION
+
 
 def now_iso() -> str:
     return datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+class StateCorrupt(RuntimeError):
+    """The store exists but couldn't be read as a job store.
+
+    Deliberately fatal. Swallowing this and starting from `{}` is the worst
+    possible failure mode: every job reads as brand new (re-alerting the whole
+    list), every first_seen_at resets, the closed-role history vanishes — and
+    the very next `save` writes the empty result over the only copy of the
+    evidence. Better to stop the run with the file intact.
+    """
+
+
 def load(path: str) -> dict:
+    """The job store, or {} when it genuinely doesn't exist yet.
+
+    Raises StateCorrupt if the file exists but isn't a readable job store.
+    """
     if not os.path.exists(path):
         return {}
     try:
         with open(path, encoding="utf-8") as f:
-            return json.load(f)
-    except (json.JSONDecodeError, OSError):
-        return {}
+            data = json.load(f)
+    except (json.JSONDecodeError, OSError) as exc:
+        raise StateCorrupt(f"{path} is unreadable: {exc}") from exc
+    if not isinstance(data, dict):
+        raise StateCorrupt(f"{path} is a {type(data).__name__}, expected an object")
+    if not all(isinstance(v, dict) for v in data.values()):
+        raise StateCorrupt(f"{path} has non-object records")
+    return data
 
 
 def save(path: str, data: dict) -> None:
+    """Write the store atomically.
+
+    Write-to-temp + os.replace means a crash (or a cancelled Actions run) mid
+    write leaves the previous store fully intact rather than a truncated file
+    that the next run would have to reject.
+    """
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
+    tmp = f"{path}.tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         # sort_keys keeps the file order stable so git diffs stay small.
         json.dump(data, f, indent=2, ensure_ascii=False, sort_keys=True)
+        f.flush()
+        os.fsync(f.fileno())
+    os.replace(tmp, path)  # atomic on POSIX and Windows
 
 
 # Fields we refresh on every run for jobs we've seen before.
 # NOTE: posted_at is deliberately NOT here — we freeze the published date the
 # first time we see a role so the "Posted" column never shifts on later runs
 # (the report behaves like a ladder: old roles sink, new ones land on top).
+# The one exception is precision: a HIGHER-precision date for the same role
+# (the Workday detail page correcting a "days ago" approximation) replaces a
+# lower one — see the DATE_PRECISION comparison in upsert.
 # sponsorship/salary/enriched_at are handled specially below: a settled verdict
 # must never be clobbered by a run that didn't re-enrich.
 _REFRESH_FIELDS = (
     "title", "location", "url",
-    "season", "season_inferred", "category", "company", "source", "company_slug",
+    "season", "season_inferred", "seasons", "category", "company", "source",
+    "company_slug",
 )
 
 
-def upsert(existing: dict, jobs: list[dict], succeeded_keys: set[str],
-           enriched_ids: set[str] | None = None) -> list[str]:
+def upsert(existing: dict, jobs: list[dict], complete_keys: set[str],
+           enriched_ids: set[str] | None = None,
+           seen_ids: set[str] | None = None,
+           classifier_version: int | None = None) -> list[str]:
     """Merge freshly-fetched jobs into the existing store.
 
     Returns the list of NEWLY-seen job ids (this is the "Spotter" result).
 
-    `succeeded_keys` is the set of "<source>:<slug>" we fetched successfully this
-    run. We only mark a job closed if its company was fetched successfully but
-    the job wasn't in the results — so a network blip never wrongly closes jobs.
+    A role leaves the list for one of two reasons, and they need different
+    evidence:
+
+    `complete_keys` is the set of "<source>:<slug>" whose fetch returned the
+    company's COMPLETE list this run (see models.Fetch). A job is closed only
+    after it's missing from TWO consecutive complete snapshots — so neither a
+    network blip, nor a result cap that hid page 2, nor a one-run ATS indexing
+    gap can mark a live role "taken down".
+
+    `seen_ids` is every job a successful fetch returned, in scope or not. A
+    stored role that came back but no longer passes our filters (wrong country,
+    off-cycle, not a tech internship) is closed as out-of-scope no matter how
+    complete the snapshot was: that verdict is ours to make, and it needs no
+    evidence from the employer.
 
     `enriched_ids` are jobs whose sponsorship verdict came from posting text
     THIS run; those get an enriched_at stamp so enrichment never repeats.
     """
     ts = now_iso()
     enriched_ids = enriched_ids or set()
-    seen_ids: set[str] = set()
+    fetched_ids = seen_ids or set()  # everything a fetch returned, kept or not
+    kept_ids: set[str] = set()       # the subset that passed our filters
     new_ids: list[str] = []
 
     for job in jobs:
         jid = job["id"]
-        seen_ids.add(jid)
+        kept_ids.add(jid)
         if jid in existing:
             record = existing[jid]
             for key in _REFRESH_FIELDS:
                 if key in job:
                     record[key] = job[key]
-            # Backfill-only fields: fill blanks, never overwrite real data.
-            if not record.get("posted_at") and job.get("posted_at"):
-                record["posted_at"] = job["posted_at"]
+            # posted_at: fill blanks, and upgrade precision — never downgrade.
+            # An exact/detail-page date replaces a "days ago" approximation for
+            # the same role, but a fresh approximation can't shift a real date.
+            if job.get("posted_at"):
+                old_rank = DATE_PRECISION.get(record.get("posted_at_source"), 0)
+                new_rank = DATE_PRECISION.get(job.get("posted_at_source"), 0)
+                if not record.get("posted_at") or new_rank > old_rank:
+                    record["posted_at"] = job["posted_at"]
+                    record["posted_at_source"] = job.get("posted_at_source")
             if job.get("salary"):
                 record["salary"] = job["salary"]
             if job.get("skills") is not None:
                 record["skills"] = job["skills"]
-            if job.get("sponsorship", "unknown") != "unknown":
-                record["sponsorship"] = job["sponsorship"]
+            # A verdict from fresh text this run always lands — including a
+            # downgrade to "unknown", which is how a re-versioned classifier
+            # retracts an old false positive. Otherwise unknown never clobbers.
+            if jid in enriched_ids or job.get("sponsorship", "unknown") != "unknown":
+                record["sponsorship"] = job.get("sponsorship", "unknown")
             if record.get("closed_at"):
                 del record["closed_at"]  # the role came back
+                record.pop("closed_reason", None)
+            record.pop("missing_streak", None)  # seen again -> closure disarmed
             record["last_seen_at"] = ts
             record["is_open"] = True
         else:
@@ -99,22 +160,48 @@ def upsert(existing: dict, jobs: list[dict], succeeded_keys: set[str],
             new_ids.append(jid)
         if jid in enriched_ids:
             existing[jid]["enriched_at"] = ts
+            if classifier_version is not None:
+                existing[jid]["classifier_v"] = classifier_version
 
-    # Close jobs that belong to a successfully-fetched company but didn't appear.
     for jid, record in existing.items():
+        if not record.get("is_open") or jid in kept_ids:
+            continue
         company_key = f"{record.get('source')}:{record.get('company_slug')}"
-        if company_key in succeeded_keys and jid not in seen_ids and record.get("is_open"):
-            record["is_open"] = False
-            record["closed_at"] = ts
+        if jid in fetched_ids:
+            # The employer still lists it; WE decided it doesn't belong. Our
+            # own verdict is deterministic — no second opinion needed.
+            reason = "out-of-scope"
+        elif company_key in complete_keys:
+            # Missing from a complete read. ATS search indexes have transient
+            # gaps — a role mid-edit can vanish from one query and be back the
+            # next — so a single miss only ARMS the closure; the second
+            # consecutive complete miss fires it. Reappearing in between
+            # disarms (the kept loop above clears the streak). Costs at most
+            # one extra run (~an hour) of a genuinely dead role staying listed,
+            # in exchange for never closing a live one on an index blip.
+            streak = int(record.get("missing_streak") or 0) + 1
+            if streak < 2:
+                record["missing_streak"] = streak
+                continue
+            reason = "gone-from-feed"
+        else:
+            continue  # no evidence either way — leave it open
+        record.pop("missing_streak", None)
+        record["is_open"] = False
+        record["closed_at"] = ts
+        record["closed_reason"] = reason
 
     return new_ids
 
 
-def purge(existing: dict, keep_closed_days: int = 60) -> int:
+def purge(existing: dict, keep_closed_days: int = 120) -> int:
     """Drop records that closed more than `keep_closed_days` ago.
 
     Keeps the store (and its git diffs) bounded while preserving enough closed
-    history for the "recently closed" section and lifetime analytics.
+    history for the "recently closed" section and lifetime analytics. 120 days
+    on purpose: the trends chart spans 16 weeks (112 days), and the old 60-day
+    purge was quietly deleting a third of the history that chart claimed to
+    show.
     """
     cutoff = (datetime.now(UTC) - timedelta(days=keep_closed_days)).strftime("%Y-%m-%dT%H:%M:%SZ")
     stale = [

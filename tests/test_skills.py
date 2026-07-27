@@ -24,6 +24,26 @@ def test_extract_whole_words_only():
     assert skills.extract(text) == []
 
 
+def test_english_words_are_not_mistaken_for_stacks():
+    # Real false positives from live postings: ordinary prose was tagging
+    # roles with React/Rust/Swift/Angular. Names that are also English words
+    # only match capitalized, which is how tech stacks are actually written.
+    prose = (
+        "You will react quickly to incidents, help with reducing rust on "
+        "legacy code, give a swift response to customers, and understand "
+        "angular momentum in our simulations. We go to market fast."
+    )
+    assert skills.extract(prose) == []
+
+
+def test_capitalized_stack_names_still_match():
+    text = ("Experience with React Native, Rust, SwiftUI, AngularJS and Vue.js. "
+            "Familiarity with Go programming is a plus.")
+    found = skills.extract(text)
+    for want in ("React", "Rust", "Swift", "Angular", "Vue", "Go"):
+        assert want in found, f"{want} missing from {found}"
+
+
 def test_extract_java_vs_javascript():
     assert skills.extract("We use JavaScript heavily.") == ["JavaScript"]
     got = skills.extract("Java and JavaScript are both used.")

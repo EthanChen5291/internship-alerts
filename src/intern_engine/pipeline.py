@@ -22,7 +22,20 @@ from datetime import UTC, datetime, timedelta
 
 import httpx
 
-from . import config, enrich, filters, health, models, observe, paths, quality, store, trends
+from . import (
+    config,
+    enrich,
+    filters,
+    health,
+    models,
+    names,
+    observe,
+    paths,
+    quality,
+    sponsorship,
+    store,
+    trends,
+)
 from .connectors import (
     amazon,
     ashby,
@@ -65,14 +78,20 @@ def _load_companies() -> list[dict]:
 
 
 async def _fetch_one(company: dict, net: Net):
-    """Return (company, jobs, error); never raises (failures are isolated)."""
+    """Return (company, Fetch, error); never raises (failures are isolated).
+
+    A connector may return a bare list (a whole-board read, always complete) or
+    a `models.Fetch` carrying its own completeness verdict — `Fetch.of` unifies
+    them. On error the result is an EMPTY, INCOMPLETE fetch, which is what stops
+    a failed request from reading as "this company has no roles any more".
+    """
     fetch = CONNECTORS.get(company.get("ats"))
     if fetch is None:
-        return company, [], f"no connector for {company.get('ats')}"
+        return company, models.Fetch(complete=False), f"no connector for {company.get('ats')}"
     try:
-        return company, await fetch(company, net), None
+        return company, models.Fetch.of(await fetch(company, net)), None
     except Exception as exc:  # noqa: BLE001 — one bad endpoint must not stop the run
-        return company, [], f"{type(exc).__name__}: {exc}"
+        return company, models.Fetch(complete=False), f"{type(exc).__name__}: {exc}"
 
 
 async def _fetch_all(companies: list[dict], enrich_after):
@@ -108,27 +127,75 @@ async def _fetch_all(companies: list[dict], enrich_after):
                 await workday_client.aclose()
 
 
-def _dedup(jobs: list) -> list:
-    """Collapse the same role seen more than once (e.g. via two ATS).
+def _norm_location(location: str) -> str:
+    """A location reduced to its comparable core, for dedup only.
 
-    Keyed by company + normalized title; a posting that carries a real date wins
-    over one that doesn't.
+    Punctuation and casing are noise. Work mode is NOT: an employer that posts
+    "Austin, TX" and "Austin, TX (Remote)" is offering two different jobs, and
+    stripping the remote/hybrid marker merged them. Keeping the mode in the key
+    means two postings only match when they really describe the same place on
+    the same terms.
     """
-    jobs = sorted(jobs, key=lambda j: (j.posted_at is None,))
-    seen: set[tuple[str, str]] = set()
-    unique = []
+    low = (location or "").lower()
+    mode = ""
+    if re.search(r"\bremote\b", low):
+        mode = " remote"
+    elif re.search(r"\bhybrid\b", low):
+        mode = " hybrid"
+    low = re.sub(r"\(remote\)|\bremote\b|\bhybrid\b|\bon[\s-]?site\b", " ", low)
+    return re.sub(r"[^a-z0-9]+", " ", low).strip() + mode
+
+
+def _dedup(jobs: list) -> list:
+    """Collapse the same role seen more than once, across DIFFERENT sources.
+
+    The only duplicate we can actually prove is one posting syndicated to two
+    ATS: same company, same title, same place, two boards. That collapses, and
+    the copy carrying a real posted date wins.
+
+    Two requisitions on the SAME board are never merged, even when title and
+    location match. Copart really did open JR109672 and JR109673 — "Software
+    Engineering Intern, Dallas" twice — and an employer that opens two reqs is
+    offering two jobs. The board already told us they're distinct by giving
+    them distinct ids; second-guessing that deletes a real opening.
+    """
+    def key_of(job):
+        return (
+            job.company.lower().strip(),
+            re.sub(r"[^a-z0-9]+", "", job.title.lower()),
+            _norm_location(job.location),
+        )
+
+    # Group first, then decide. Only ONE pattern is provably a duplicate:
+    # every source holds exactly one requisition for the key — the classic
+    # single posting syndicated across boards. That collapses to the best copy
+    # (a real posting date wins). The moment ANY source lists two or more reqs
+    # under the key, identity is ambiguous — we can't tell which copy on the
+    # other board mirrors which req — and deleting a real opening is worse
+    # than showing a possible duplicate, so everything is kept.
+    groups: dict[tuple[str, str, str], dict[str, list]] = {}
     for job in jobs:
-        key = (job.company.lower().strip(), re.sub(r"[^a-z0-9]+", "", job.title.lower()))
-        if key in seen:
-            continue
-        seen.add(key)
-        unique.append(job)
+        groups.setdefault(key_of(job), {}).setdefault(job.source, []).append(job)
+
+    unique = []
+    for by_source in groups.values():
+        if len(by_source) > 1 and all(len(g) == 1 for g in by_source.values()):
+            best = max(by_source.values(),
+                       key=lambda g: any(j.posted_at for j in g))
+            unique.extend(best)
+        else:
+            for group in by_source.values():
+                unique.extend(group)
     return unique
 
 
 def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[str], int, Counter]:
-    """Apply every scope filter; return (kept jobs, succeeded keys, errors,
-    errors by ats, dropped-no-year count, dropped-off-cycle count).
+    """Apply every scope filter; return (kept jobs, succeeded keys, complete
+    keys, errors, errors by ats, dropped-no-year count, dropped-off-cycle count).
+
+    `succeeded` is every company we got a usable response from (the fetch-health
+    stat). `complete` is the subset whose response was provably the WHOLE list —
+    only those may close roles. See `models.Fetch`.
 
     `existing` (the store) makes cycle assignment sticky for yearless titles: a
     season already on record — set by an earlier inference or verified from the
@@ -154,21 +221,32 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
     existing = existing or {}
     kept = []
     succeeded: set[str] = set()
+    complete: set[str] = set()
+    # Every job id a successful fetch returned, in scope or not. A role we saw
+    # and REJECTED (wrong country, wrong cycle, not tech) must leave the list
+    # even when the snapshot was capped: "we shouldn't have listed this" is a
+    # verdict we can reach on our own, unlike "the employer took it down".
+    seen_ids: set[str] = set()
     errors = 0
     errors_by_ats: Counter = Counter()
     dropped_no_year = 0  # tech internships we skip only because the title has no year
     dropped_offcycle = 0  # roles whose recorded season is a verified off-cycle label
-    for company, jobs, error in results:
+    for company, result, error in results:
+        jobs = result.jobs
         if error is not None:
             errors += 1
             errors_by_ats[company.get("ats", "?")] += 1
             continue
-        succeeded.add(f"{company['ats']}:{company['slug']}")
+        key = f"{company['ats']}:{company['slug']}"
+        succeeded.add(key)
+        if result.complete:
+            complete.add(key)
         if quality.is_blocked(company["name"], blocklist):
             continue
         if allowlist_only and not quality.is_recognized(company["name"]):
             continue
         for job in jobs:
+            seen_ids.add(job.id)
             if not filters.is_internship(job.title):
                 continue
             if tech_only and not filters.is_tech(job.title):
@@ -210,13 +288,69 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
             if not in_region and (not loc or loc == "—"):
                 continue  # out-of-region roles need a real location
             posted_day = (job.posted_at or "")[:10]
-            if cutoff and posted_day and posted_day < cutoff:
+            # The age cutoff exists to drop stale evergreen listings whose
+            # recency was the ONLY evidence for their cycle. When the employer
+            # stated the cycle themselves, age proves nothing — Amazon's
+            # "Software Development Engineer Internship - Fall 2026 (US)" was
+            # posted early and is still open and still for Fall 2026. Closing it
+            # for being old was us overriding what the company wrote.
+            if cutoff and posted_day and posted_day < cutoff and inferred:
                 continue
             job.season = season
             job.season_inferred = inferred
+            if not inferred:
+                # A title can state MORE than one tracked cycle ("Fall 2026/
+                # Summer 2027"); keep the full set so neither cycle loses it.
+                stated_all = filters.detect_seasons(job.title, cycles)
+                if len(stated_all) > 1:
+                    job.seasons = stated_all
             job.category = filters.categorize(job.title)
+            job.company = names.display(job.company, job.company_slug)
+            if job.posted_at and not job.posted_at_source:
+                job.posted_at_source = models.date_source(job.posted_at)
             kept.append(job)
-    return kept, succeeded, errors, errors_by_ats, dropped_no_year, dropped_offcycle
+    return (kept, succeeded, complete, seen_ids, errors, errors_by_ats,
+            dropped_no_year, dropped_offcycle)
+
+
+def _migrate_date_sources(existing: dict) -> None:
+    """Stamp legacy records' date precision from the value's shape.
+
+    Records written before posted_at_source existed rank as precision 0, so ANY
+    labeled incoming date would "upgrade" over them and shift a frozen Posted
+    date. Deriving the label once from the stored value gives real timestamps
+    exact rank and date-only ones their own — after which the normal
+    only-upgrade rule protects them.
+    """
+    for r in existing.values():
+        if r.get("posted_at") and not r.get("posted_at_source"):
+            r["posted_at_source"] = models.date_source(r["posted_at"])
+
+
+def _close_out_of_scope(existing: dict, cfg: dict) -> int:
+    """Close OPEN records whose stored location fails the region filter.
+
+    Scope is our own verdict — it needs no fetch evidence. Without this sweep,
+    a foreign role admitted under an older filter could hide forever on a
+    capped board: never re-fetched (beyond the result cap), so never in
+    seen_ids, so never closable. Medtronic's Lausanne role did exactly that.
+    Region only, deliberately: it's the one check that's deterministic from
+    the record alone.
+    """
+    if not config.restrict_region(cfg) or config.include_international(cfg):
+        return 0
+    ts = store.now_iso()
+    wants_us, wants_canada = config.want_us(cfg), config.want_canada(cfg)
+    n = 0
+    for r in existing.values():
+        if not r.get("is_open"):
+            continue
+        loc = (r.get("location") or "").strip()
+        if loc and loc != "—" and not filters.region_ok(loc, wants_us, wants_canada):
+            r.update(is_open=False, closed_at=ts, closed_reason="out-of-scope")
+            r.pop("missing_streak", None)
+            n += 1
+    return n
 
 
 def run_update() -> tuple[dict, dict, list[str]]:
@@ -224,6 +358,8 @@ def run_update() -> tuple[dict, dict, list[str]]:
     blocklist = quality.load_blocklist()
     companies = _load_companies()
     existing = store.load(paths.JOBS_PATH)
+    _migrate_date_sources(existing)
+    _close_out_of_scope(existing, cfg)
 
     health_data = health.load()
     active, benched = health.partition(companies, health_data)
@@ -236,9 +372,8 @@ def run_update() -> tuple[dict, dict, list[str]]:
     async def _enrich_stage(results, net, workday_net):
         """Filter first (cheap, sync), then enrich only the keepers."""
         nonlocal kept
-        kept, succeeded, errors, errors_by_ats, no_year, offcycle_sticky = _keep_matching(
-            results, cfg, blocklist, existing
-        )
+        (kept, succeeded, complete, seen_ids, errors, errors_by_ats, no_year,
+         offcycle_sticky) = _keep_matching(results, cfg, blocklist, existing)
         kept = _dedup(kept)
         # Workday/Oracle enrichment goes through the same proxied client as fetch.
         wd_jobs = [j for j in kept if j.source in ("workday", "oracle")]
@@ -272,12 +407,15 @@ def run_update() -> tuple[dict, dict, list[str]]:
                 record["season_inferred"] = False
             record["enriched_at"] = ts  # settled: never fetch this posting again
         kept = still
-        return succeeded, errors, errors_by_ats, ids_a | ids_b, n_a + n_b, no_year, offcycle
+        return (succeeded, complete, seen_ids, errors, errors_by_ats,
+                ids_a | ids_b, n_a + n_b, no_year, offcycle)
 
-    results, (succeeded, errors, errors_by_ats, enriched_ids, detail_fetches, no_year,
-              offcycle) = asyncio.run(_fetch_all(active, _enrich_stage))
+    results, (succeeded, complete_keys, seen_ids, errors, errors_by_ats,
+              enriched_ids, detail_fetches, no_year, offcycle) = asyncio.run(
+        _fetch_all(active, _enrich_stage)
+    )
 
-    for company, _jobs, error in results:
+    for company, _result, error in results:
         health.record(health_data, company, error)
     health.save(health_data)
 
@@ -288,7 +426,11 @@ def run_update() -> tuple[dict, dict, list[str]]:
             row.pop(field, None)
         rows.append(row)
 
-    new_ids = store.upsert(existing, rows, succeeded, enriched_ids)
+    # Closure uses `complete_keys`, not `succeeded`: a capped or truncated
+    # response is a successful fetch that still doesn't prove a role is gone.
+    new_ids = store.upsert(existing, rows, complete_keys, enriched_ids,
+                           seen_ids=seen_ids,
+                           classifier_version=sponsorship.VERSION)
     purged = store.purge(existing)
     store.save(paths.JOBS_PATH, existing)
 
@@ -298,9 +440,9 @@ def run_update() -> tuple[dict, dict, list[str]]:
     observe.record_run(existing)
 
     stats = _build_stats(
-        companies, benched, succeeded, errors, errors_by_ats, kept, existing, new_ids,
-        len(enriched_ids), detail_fetches, purged, round(time.monotonic() - started, 1),
-        no_year, offcycle,
+        companies, benched, succeeded, complete_keys, errors, errors_by_ats, kept,
+        existing, new_ids, len(enriched_ids), detail_fetches, purged,
+        round(time.monotonic() - started, 1), no_year, offcycle,
     )
     _write_stats(stats)
     _append_history(stats)
@@ -318,33 +460,66 @@ def _parse_iso(value: str) -> datetime | None:
     return dt.replace(tzinfo=UTC) if dt.tzinfo is None else dt.astimezone(UTC)
 
 
-def _detection_latency(existing: dict, window_days: int = 7) -> dict:
-    """Median minutes between a role being published and us first seeing it.
+def _is_exact_timestamp(value: str) -> bool:
+    """True when a posted_at carries a real clock time, not just a date.
 
-    Only counts roles caught within `window_days` of their posting, so the figure
-    reflects real-time detection rather than the one-off backfill of old roles.
+    Most ATS feeds give a bare date (or a relative "3 days ago" we resolve to
+    midnight). Measuring pickup speed in MINUTES against an assumed midnight
+    invents up to 24 hours of latency that never happened, so those roles are
+    excluded from the metric rather than silently inflating it.
     """
-    window_minutes = window_days * 24 * 60
+    dt = _parse_iso(value)
+    if dt is None:
+        return False
+    if len(value) <= 10:  # "2026-07-15" — a date, no time at all
+        return False
+    return not (dt.hour == 0 and dt.minute == 0 and dt.second == 0)
+
+
+def _detection_latency(existing: dict, window_days: int = 7,
+                       now: datetime | None = None) -> dict:
+    """How fast we pick up newly published roles, in minutes.
+
+    Two things this deliberately does NOT do, because the earlier version did
+    both and reported a ~997-minute median off an hourly schedule:
+
+      - `window_days` bounds how recently the role was PUBLISHED, not how big
+        a delay we're willing to count. Bounding the delay instead meant every
+        historical backfill under the ceiling counted as a live detection.
+      - Date-only timestamps are excluded entirely (see _is_exact_timestamp);
+        against an assumed midnight they contribute fake hours.
+
+    The result is a smaller sample measuring one honest thing. p95 ships next to
+    p50 because a median alone hides the tail that actually costs applicants.
+    """
+    now = now or datetime.now(UTC)
+    published_after = now - timedelta(days=window_days)
     deltas = []
     for record in existing.values():
         posted, seen = record.get("posted_at"), record.get("first_seen_at")
-        if not posted or not seen:
+        if not posted or not seen or not _is_exact_timestamp(posted):
             continue
         posted_dt, seen_dt = _parse_iso(posted), _parse_iso(seen)
-        if not posted_dt or not seen_dt:
+        if not posted_dt or not seen_dt or posted_dt < published_after:
             continue
         minutes = (seen_dt - posted_dt).total_seconds() / 60
-        if 0 <= minutes <= window_minutes:
+        if minutes >= 0:
             deltas.append(minutes)
+    deltas.sort()
     return {
         "median_minutes": round(statistics.median(deltas), 1) if deltas else None,
+        "p95_minutes": (
+            round(deltas[min(int(len(deltas) * 0.95), len(deltas) - 1)], 1)
+            if deltas else None
+        ),
         "sample_size": len(deltas),
         "window_days": window_days,
+        "basis": "roles published in the window with an exact source timestamp",
     }
 
 
-def _build_stats(companies, benched, succeeded, errors, errors_by_ats, kept, existing,
-                 new_ids, enriched, detail_fetches, purged, duration,
+def _build_stats(companies, benched, succeeded, complete_keys, errors, errors_by_ats,
+                 kept, existing, new_ids, enriched, detail_fetches, purged, duration,
                  dropped_no_year=0, dropped_offcycle=0) -> dict:
     open_records = [r for r in existing.values() if r.get("is_open")]
     attempted = len(companies) - len(benched)
@@ -358,15 +533,34 @@ def _build_stats(companies, benched, succeeded, errors, errors_by_ats, kept, exi
         "fetched_ok": len(succeeded),
         "fetch_errors": errors,
         "errors_by_source": dict(errors_by_ats),
+        # Two rates, because they answer different questions and only quoting
+        # the first one overstates coverage: "of the boards we attempted this
+        # run" vs "of every board on the registry" (quarantined ones included).
         "fetch_success_rate": round(len(succeeded) / max(attempted, 1), 3),
+        "fetch_success_rate_registry": round(len(succeeded) / max(len(companies), 1), 3),
+        # Boards whose response was provably the complete list. Only these are
+        # allowed to close a role; the rest may have been truncated.
+        "snapshots_complete": len(complete_keys),
+        "snapshots_partial": len(succeeded) - len(complete_keys),
+        # `roles_matched` is a FETCH number: what this run's responses yielded.
+        # Everything below it describes the STORE — the roles actually open and
+        # published. The two differ whenever a capped snapshot kept a role we
+        # didn't re-see, so they must not be mixed: breaking down `open_total`
+        # by a fetch-time count made Summer read 77 against a published 78.
         "roles_matched": len(kept),
-        "roles_cycle_inferred": sum(1 for j in kept if j.season_inferred),
         "dropped_no_year_in_title": dropped_no_year,
         "dropped_offcycle_by_text": dropped_offcycle,
-        "roles_by_source": dict(Counter(j.source for j in kept)),
-        "roles_by_cycle": dict(Counter(j.season for j in kept)),
+        "roles_cycle_inferred": sum(1 for r in open_records if r.get("season_inferred")),
+        "roles_by_source": dict(Counter(r.get("source") for r in open_records)),
+        # Multi-cycle postings count once per cycle they state, matching how
+        # they render — the primary-season-only count under-reported them.
+        "roles_by_cycle": dict(Counter(
+            cyc for r in open_records
+            for cyc in (r.get("seasons") or [r.get("season")]) if cyc
+        )),
         "roles_by_region": dict(Counter(
-            "US" if filters.is_united_states(j.location) else "International" for j in kept
+            "US" if filters.is_united_states(r.get("location") or "") else "International"
+            for r in open_records
         )),
         "sponsorship_counts": dict(Counter(
             r.get("sponsorship", "unknown") for r in open_records
@@ -383,6 +577,48 @@ def _build_stats(companies, benched, succeeded, errors, errors_by_ats, kept, exi
             strict=True,
         )),
     }
+
+
+def restat(existing: dict, stats: dict) -> dict:
+    """Recompute the store-derived counts in `stats` from the current store.
+
+    Two things produce numbers here: this run's FETCH (roles matched, per-source
+    hit counts, error rates) and the resulting STORE (what's open, by cycle, by
+    sponsorship). Only the store half can be recalculated later, and it has to
+    be — after `run.py render` rewrites cycles, the published stats otherwise
+    still describe the dataset from before the audit.
+
+    Fetch metrics are deliberately left alone; inventing them would be worse
+    than showing the last real run's.
+    """
+    stats = dict(stats)
+    open_records = [r for r in existing.values() if r.get("is_open")]
+    dated = sum(1 for r in open_records if r.get("posted_at"))
+    stats.update({
+        "open_total": len(open_records),
+        "roles_by_cycle": dict(Counter(
+            cyc for r in open_records
+            for cyc in (r.get("seasons") or [r.get("season")]) if cyc
+        )),
+        "roles_cycle_inferred": sum(1 for r in open_records if r.get("season_inferred")),
+        "roles_by_source": dict(Counter(r.get("source") for r in open_records)),
+        "roles_by_region": dict(Counter(
+            "US" if filters.is_united_states(r.get("location") or "") else "International"
+            for r in open_records
+        )),
+        "sponsorship_counts": dict(Counter(
+            r.get("sponsorship", "unknown") for r in open_records
+        )),
+        "posted_date_coverage": round(dated / max(len(open_records), 1), 3),
+        "detection_latency": _detection_latency(existing),
+        "posting_lifetime": dict(zip(
+            ("median_days", "sample_size"), trends.median_days_open(existing),
+            strict=True,
+        )),
+        "stats_basis": "counts recomputed from the store; fetch metrics from the last run",
+    })
+    _write_stats(stats)
+    return stats
 
 
 def _write_stats(stats: dict) -> None:

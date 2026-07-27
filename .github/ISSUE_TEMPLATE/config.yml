@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📖 How the list is built
+    url: https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/blob/main/METHODOLOGY.md
+    about: What "stated cycle", the ✓ badge, and each sponsorship verdict actually claim.
+  - name: 🔒 Report a security issue
+    url: https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/security/advisories/new
+    about: Please report privately, not as a public issue.

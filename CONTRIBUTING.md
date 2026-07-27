@@ -21,6 +21,7 @@ The fastest way to help: **add companies.** More companies = more internships.
 
 The harvester auto-detects the ATS (Greenhouse, Lever, Ashby, SmartRecruiters,
 Rippling, Workable, Breezy, Recruitee), so you only need the name + slug.
+Prefer not to run anything? [Open a company request](../../issues/new?template=add-company.yml) and paste the board URL.
 Workday/Oracle tenants need a `wd`/`site` (or `host`/`site`) pair — easiest is
 to run `python run.py discover` (it mines them from public datasets), or copy
 the shape of an existing entry in `data/companies.json`.

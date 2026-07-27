@@ -16,6 +16,52 @@ def test_records_earliest_real_date_per_company_and_cycle():
     assert cycles["Fall 2026"]["first_posted"] == "2026-03-01"
 
 
+def test_count_is_distinct_roles_not_runs():
+    # The radar bug: count was bumped once per role per RUN, so an hourly
+    # schedule inflated it forever (Amazon showed 1,197 "roles" for one cycle).
+    # Re-running over an unchanged store must not move the number.
+    store = {
+        "gh:nvidia:1": {"company": "NVIDIA", "season": "Summer 2027",
+                        "posted_at": "2026-09-03T00:00:00Z"},
+        "gh:nvidia:2": {"company": "NVIDIA", "season": "Summer 2027",
+                        "posted_at": "2026-09-10T00:00:00Z"},
+    }
+    out = {"companies": {}}
+    for _ in range(10):
+        out = observe.update_from_store(store, out)
+    cycle = out["companies"]["nvidia"]["cycles"]["Summer 2027"]
+    assert cycle["count"] == 2
+    assert cycle["role_ids"] == ["gh:nvidia:1", "gh:nvidia:2"]  # auditable
+
+
+def test_legacy_inflated_count_is_replaced_by_real_ids():
+    prior = {"companies": {"amazon": {"name": "Amazon", "cycles": {
+        "Fall 2026": {"first_posted": "2026-03-25", "count": 1197},
+    }}}}
+    store = {"amazon:amazon:1": {"company": "Amazon", "season": "Fall 2026",
+                                 "posted_at": "2026-03-25T00:00:00Z"}}
+    out = observe.update_from_store(store, prior)
+    cycle = out["companies"]["amazon"]["cycles"]["Fall 2026"]
+    assert cycle["count"] == 1
+    assert cycle["first_posted"] == "2026-03-25"  # the real date survives
+
+
+def test_multi_cycle_roles_contribute_to_every_stated_cycle():
+    # Deepgram states Fall 2026 AND Summer 2027. Reading only the primary
+    # season lost its Fall history — next cycle's Fall forecast had no idea
+    # the company had ever dropped in Fall.
+    store = {"ashby:deepgram:1": {
+        "company": "Deepgram", "season": "Summer 2027",
+        "seasons": ["Summer 2027", "Fall 2026"],
+        "posted_at": "2026-07-17T00:00:00Z",
+    }}
+    out = observe.update_from_store(store, {"companies": {}},
+                                    ["Summer 2027", "Fall 2026"])
+    cycles = out["companies"]["deepgram"]["cycles"]
+    assert set(cycles) == {"Summer 2027", "Fall 2026"}
+    assert cycles["Fall 2026"]["first_posted"] == "2026-07-17"
+
+
 def test_ignores_records_without_posted_date_or_cycle():
     store = {
         "1": {"company": "Foo", "season": "Summer 2027"},                # no posted_at

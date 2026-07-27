@@ -7,18 +7,19 @@ list payload — the enrichment stage fetches those per matched role.
 
 from __future__ import annotations
 
-from ..models import Job
+from ..models import Fetch, Job, clean_listing
 from ..net import Net
 
 URL = "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs"
 
 
-async def fetch(company: dict, net: Net) -> list[Job]:
+async def fetch(company: dict, net: Net) -> Fetch:
     slug = company["slug"]
     data = await net.get_json(URL.format(slug=slug))
+    listing = clean_listing(data, "jobs")
 
     jobs = []
-    for posting in data.get("jobs", []):
+    for posting in (listing or []):
         location = posting.get("location") or {}
         name = location.get("name") if isinstance(location, dict) else None
         jobs.append(
@@ -33,4 +34,4 @@ async def fetch(company: dict, net: Net) -> list[Job]:
                 posted_at=posting.get("first_published"),
             )
         )
-    return jobs
+    return Fetch.board(jobs, isinstance(listing, list))

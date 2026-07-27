@@ -13,39 +13,87 @@ import os
 from datetime import UTC, datetime
 from html import escape
 
-from . import config, h1b, paths, radar, sponsorship, trends
+from . import config, filters, h1b, paths, radar, sponsorship, trends
 
 
-def _cards(stats: dict, proven_roles: int) -> str:
+def _hero(stats: dict, open_jobs: list[dict], proven_roles: int) -> str:
+    """The four numbers an applicant actually needs, and nothing else.
+
+    This used to be ten equal-weight tiles where "Last run: 402.0s" sat beside
+    "Open roles" — engine telemetry competing with the thing people came for.
+    Operator metrics moved to a collapsed panel at the bottom of the page.
+    """
+    stated = sum(1 for r in open_jobs if not r.get("season_inferred"))
+    remote = sum(1 for r in open_jobs
+                 if filters.is_remote(r.get("location") or "", r.get("title") or ""))
+    items = [
+        (str(len(open_jobs)), "open roles", "every one linked to the employer"),
+        (str(stated), "with a stated cycle", "the employer named it, we didn't guess"),
+        (str(proven_roles), "at proven H-1B sponsors",
+         f"USCIS approved {h1b.BADGE_THRESHOLD}+ petitions"),
+        (str(remote), "remote", "the posting's own words say so"),
+    ]
+    return "".join(
+        f'<div class="hcard"><div class="hnum">{escape(v)}</div>'
+        f'<div class="hlbl">{escape(label)}</div>'
+        f'<div class="hsub">{escape(note)}</div></div>'
+        for v, label, note in items
+    )
+
+
+def _engine_panel(stats: dict, by_category: dict, history: list[dict]) -> str:
+    """Operator metrics, deliberately collapsed and last.
+
+    Real and worth publishing — they're the evidence the pipeline works — but
+    they answer "is the engine healthy", not "where do I apply".
+    """
     latency = stats.get("detection_latency") or {}
     lat = (
-        f"{latency['median_minutes']:.0f} min"
+        f"{latency['median_minutes']:.0f} min median"
+        + (f" · {latency['p95_minutes']:.0f} min p95" if latency.get("p95_minutes") else "")
+        + f" (n={latency.get('sample_size', 0)})"
         if latency.get("median_minutes") is not None and latency.get("sample_size", 0) >= 5
-        else "calibrating"
+        else "calibrating — needs more roles with exact source timestamps"
     )
     life = stats.get("posting_lifetime") or {}
     lifetime = (
-        f"{life['median_days']:.0f} days"
+        f"{life['median_days']:.0f} days (n={life.get('sample_size', 0)})"
         if life.get("median_days") is not None and life.get("sample_size", 0) >= 5
         else "calibrating"
     )
-    items = [
-        ("Open roles", stats.get("open_total", 0)),
-        ("At proven H-1B sponsors ✓", proven_roles),
-        ("Companies tracked", f"{stats.get('companies_total', 0):,}"),
-        ("ATS sources", len(stats.get("companies_by_source", {}))),
-        ("Fetch success", f"{int(stats.get('fetch_success_rate', 0) * 100)}%"),
-        ("Quarantined boards", stats.get("quarantined", 0)),
-        ("New this run", stats.get("new_this_run", 0)),
+    partial = stats.get("snapshots_partial") or 0
+    facts = [
+        ("Boards polled",
+         f"{stats.get('fetched_ok', 0):,} of {stats.get('companies_total', 0):,} returned "
+         f"successfully ({int(stats.get('fetch_success_rate', 0) * 100)}% of those "
+         f"attempted, {int(stats.get('fetch_success_rate_registry', 0) * 100)}% of the "
+         "full registry)"),
+        ("Complete snapshots",
+         f"{stats.get('snapshots_complete', 0):,} boards returned a provably complete "
+         f"list; {partial} were capped by the ATS and so were not allowed to close "
+         "any role this run"),
         ("Detection latency", lat),
         ("Median posting lifetime", lifetime),
-        ("Last run", f"{stats.get('duration_seconds', 0)}s"),
+        ("Quarantined boards", str(stats.get("quarantined", 0))),
+        ("New this run", str(stats.get("new_this_run", 0))),
+        ("Run duration", f"{stats.get('duration_seconds', 0)}s"),
     ]
-    return "".join(
-        f'<div class="card"><div class="num">{escape(str(v))}</div>'
-        f'<div class="lbl">{escape(label)}</div></div>'
-        for label, v in items
+    rows = "".join(
+        f"<tr><th>{escape(k)}</th><td>{escape(v)}</td></tr>" for k, v in facts
     )
+    return f"""
+  <details class="engine" id="engine">
+    <summary><strong>Engine health</strong> — how this list was actually built</summary>
+    <div class="tscroll"><table class="kv">{rows}</table></div>
+    <div class="panels">
+      <div><h3>Roles by source</h3>{_bars(stats.get("roles_by_source", {}))}</div>
+      <div><h3>Roles by cycle</h3>{_bars(stats.get("roles_by_cycle", {}))}</div>
+      <div><h3>Roles by category</h3>{_bars(by_category)}</div>
+      <div><h3>Sponsorship verdicts</h3>{_bars(stats.get("sponsorship_counts", {}))}</div>
+    </div>
+    {_sparkline(history)}
+  </details>
+"""
 
 
 def _bars(counter: dict) -> str:
@@ -128,27 +176,48 @@ def _rows(open_jobs: list[dict]) -> str:
              ("company", "title", "location", "category", "season", "salary")]
             + skills
         ).lower()
-        cycle_tag = (
-            "<span class='tag' title='cycle inferred from the posting date'>"
-            f"{escape(r.get('season', ''))} ~</span>"
-            if r.get("season_inferred")
-            else f"<span class='tag'>{escape(r.get('season', ''))}</span>"
-        )
+        seasons = r.get("seasons") or [r.get("season", "")]
+        if r.get("season_inferred"):
+            cycle_tag = (
+                "<span class='tag tag-guess' title='No cycle stated in this posting "
+                "— inferred from its posting date'>"
+                f"~{escape(r.get('season', ''))}</span>"
+            )
+        else:
+            cycle_tag = "".join(
+                f"<span class='tag' title='Stated by the employer'>{escape(s)}</span>"
+                for s in seasons
+            )
+        remote = "1" if filters.is_remote(r.get("location") or "",
+                                          r.get("title") or "") else "0"
+        program = filters.program_type(r.get("title") or "")
+        jid = r.get("id") or ""
+        # No account, no server: the star writes to this browser's localStorage.
+        save = (f'<button class="star" type="button" data-id="{escape(jid)}" '
+                f'aria-label="Save this role" title="Save to your list">☆</button>')
+        loc = escape((r.get("location") or "")[:48])
+        if remote == "1":
+            loc = f"{loc} <span class='pill'>remote</span>"
         rows.append(
-            f'<tr data-cycle="{escape(r.get("season", ""))}" '
+            f'<tr data-id="{escape(jid)}" '
+            f'data-cycle="{escape(r.get("season", ""))}" '
+            f'data-cycles="{escape("|".join(seasons))}" '
             f'data-category="{escape(r.get("category", ""))}" '
             f'data-sponsor="{escape(sponsor)}" '
             f'data-h1b="{proven}" '
+            f'data-remote="{remote}" '
+            f'data-program="{escape(program)}" '
             f'data-posted="{escape(posted if posted != "—" else "")}" '
             f'data-inferred="{"1" if r.get("season_inferred") else "0"}" '
             f'data-text="{escape(haystack)}">'
+            f"<td class='c-save'>{save}</td>"
             f"<td>{escape(r.get('company', ''))}{check}</td>"
-            f"<td>{escape(r.get('title', ''))} {flag}{chips}</td>"
+            f"<td><span class='rt'>{escape(r.get('title', ''))}</span> {flag}{chips}</td>"
             f"<td>{cycle_tag}</td>"
             f"<td>{escape(r.get('category', ''))}</td>"
-            f"<td>{escape((r.get('location') or '')[:48])}</td>"
+            f"<td>{loc}</td>"
             f"<td class='muted'>{escape(salary[:36])}</td>"
-            f"<td>{escape(posted)}</td>"
+            f"<td class='nowrap'>{escape(posted)}</td>"
             f"<td>{apply}</td>"
             "</tr>"
         )
@@ -160,7 +229,7 @@ def _options(values: list[str]) -> str:
 
 
 _CF_TITLE = {
-    "verified": "We saw this date ourselves, straight from the company's careers API.",
+    "verified": "The employer's own posted date, read from their careers API. We may have discovered the role after it went live — the date is theirs, not our discovery time.",
     "window": "Hand-verified typical opening month for this company (month-level, not a promise of the day).",
     "rolling": "This company posts year-round / on a rolling basis — worth checking anytime.",
 }
@@ -200,9 +269,9 @@ def _radar_section(store_data: dict, cfg: dict) -> str:
   <h2 id="radar">📅 Drop Radar — when companies usually post
     (<span id="rcount">{len(rows)}</span>)</h2>
   <p class="muted" style="margin:0 0 8px">When each company usually opens — every
-  date real or verified, no third-party list.
-  <span class="cf cf-verified">verified</span> = we saw the drop ourselves via the
-  company's careers API (🎯); <span class="cf cf-window">typical window</span> =
+  date either read from the employer's own API or hand-checked.
+  <span class="cf cf-verified">from the API</span> = the employer's own
+  posted date, read from their careers API (🎯); <span class="cf cf-window">typical window</span> =
   hand-checked opening month for a marquee name;
   <span class="cf cf-rolling">rolling</span> = posts year-round.
   "waiting" = not seen in our tracked feeds yet.</p>
@@ -211,9 +280,11 @@ def _radar_section(store_data: dict, cfg: dict) -> str:
     drop date to Google/Apple Calendar and get a reminder a week before.</span></p>
   <div class="filters"><input id="rq" type="search"
     placeholder="Search the radar — is your target company on it?" autocomplete="off"></div>
+  <div class="tscroll">
   <table><thead><tr><th>Company</th><th>Typical opening</th><th>Expected</th>
   <th>Confidence</th><th>Status</th>
   </tr></thead><tbody id="rrows">{_radar_rows(rows)}</tbody></table>
+  </div>
 """
 
 
@@ -228,7 +299,7 @@ def _signup_section(cfg: dict) -> str:
   <div class="signup" id="subscribe">
     <h2>📬 Daily email alerts</h2>
     <p class="muted" style="margin:4px 0 10px">One email a day, only when new
-    internships actually appeared. Unsubscribe with one click, address never shared.</p>
+    internships actually appeared. Unsubscribe from any email, address never shared.</p>
     <form id="subform">
       <input id="subemail" type="email" required placeholder="you@school.edu" autocomplete="email">
       <button type="submit">Subscribe</button>
@@ -299,22 +370,38 @@ def generate(store_data: dict, stats: dict) -> None:
 <meta name="twitter:card" content="summary">
 <link rel="alternate" type="application/atom+xml" title="New internships" href="feed.xml">
 <style>
-  :root {{ --bg:#0d1117; --card:#161b22; --line:#30363d; --txt:#e6edf3;
-           --muted:#8b949e; --accent:#2f81f7; --green:#3fb950; }}
+  :root {{ --bg:#0d1117; --card:#161b22; --raise:#1c2128; --line:#30363d;
+           --txt:#e6edf3; --muted:#8b949e; --accent:#2f81f7; --green:#3fb950;
+           --star:#e3b341; }}
   * {{ box-sizing:border-box; }}
   body {{ margin:0; background:var(--bg); color:var(--txt);
-          font:15px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }}
-  .wrap {{ max-width:1100px; margin:0 auto; padding:32px 20px 64px; }}
-  h1 {{ font-size:26px; margin:0 0 4px; }}
-  .sub {{ color:var(--muted); margin:0 0 24px; }}
-  .sub a {{ color:var(--accent); }}
-  .grid {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
-           gap:12px; margin-bottom:28px; }}
-  .card {{ background:var(--card); border:1px solid var(--line); border-radius:10px;
-           padding:16px; }}
-  .num {{ font-size:24px; font-weight:700; }}
-  .lbl {{ color:var(--muted); font-size:13px; margin-top:2px; }}
-  h2 {{ font-size:16px; margin:26px 0 10px; }}
+          font:15px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+          -webkit-text-size-adjust:100%; }}
+  .wrap {{ max-width:1160px; margin:0 auto; padding:40px 20px 72px; }}
+  .top {{ margin-bottom:22px; }}
+  h1 {{ font-size:31px; line-height:1.2; margin:0 0 6px; letter-spacing:-.02em; }}
+  .sub {{ color:var(--muted); margin:0 0 6px; max-width:62ch; }}
+  .links {{ margin:0; font-size:13.5px; color:var(--muted); }}
+  /* Hero: four applicant-facing numbers. auto-fit with a 2-col floor keeps
+     phones at 2x2 instead of a ragged orphan row. */
+  .hero {{ display:grid; gap:12px; margin:0 0 34px;
+           grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); }}
+  .hcard {{ background:linear-gradient(180deg,var(--raise),var(--card));
+            border:1px solid var(--line); border-radius:14px; padding:18px 18px 16px; }}
+  .hnum {{ font-size:34px; font-weight:750; line-height:1; letter-spacing:-.03em; }}
+  .hlbl {{ font-size:14px; font-weight:600; margin-top:7px; }}
+  .hsub {{ color:var(--muted); font-size:12.5px; margin-top:3px; line-height:1.45; }}
+  @media(max-width:560px) {{
+    h1 {{ font-size:25px; }}
+    .hero {{ grid-template-columns:1fr 1fr; gap:9px; }}
+    .hcard {{ padding:13px; border-radius:11px; }}
+    .hnum {{ font-size:26px; }}
+    .hsub {{ display:none; }}   /* the label carries it at this width */
+  }}
+  h2 {{ font-size:19px; margin:34px 0 10px; letter-spacing:-.01em; }}
+  h3 {{ font-size:14px; margin:16px 0 6px; color:var(--txt); }}
+  .note {{ font-size:12.5px; margin:8px 0 0; max-width:76ch; }}
+  .empty {{ margin:20px 0; }}
   .panels {{ display:grid; grid-template-columns:1fr 1fr; gap:20px; }}
   @media(max-width:680px) {{ .panels {{ grid-template-columns:1fr; }} }}
   .bar {{ display:flex; align-items:center; gap:10px; margin:6px 0; font-size:13px; }}
@@ -334,20 +421,83 @@ def generate(store_data: dict, stats: dict) -> None:
   #tip {{ position:fixed; display:none; background:#1c2128; color:var(--txt);
           border:1px solid var(--line); border-radius:6px; padding:4px 9px;
           font-size:12px; pointer-events:none; z-index:10; white-space:nowrap; }}
-  .filters {{ display:flex; flex-wrap:wrap; gap:10px; margin:10px 0 4px; align-items:center; }}
-  .filters input[type=search], .filters select {{
+  /* The filter bar sticks: on a long list you can retarget the search without
+     scrolling back to the top. */
+  .filters {{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 4px;
+      align-items:center; position:sticky; top:0; z-index:5;
+      background:var(--bg); padding:10px 0; border-bottom:1px solid var(--line); }}
+  .filters input[type=search], .filters select, .ghost {{
       background:var(--card); color:var(--txt); border:1px solid var(--line);
-      border-radius:8px; padding:7px 10px; font-size:13.5px; }}
-  .filters input[type=search] {{ flex:1; min-width:180px; }}
+      border-radius:8px; padding:8px 10px; font-size:13.5px; }}
+  .filters input[type=search] {{ flex:1 1 240px; min-width:180px; }}
+  .filters select:hover, .ghost:hover {{ border-color:var(--accent); }}
+  .filters input[type=search]:focus, .filters select:focus, .ghost:focus-visible,
+  .star:focus-visible {{ outline:2px solid var(--accent); outline-offset:1px; }}
+  .ghost {{ cursor:pointer; color:var(--muted); }}
   .filters label.chk {{ color:var(--muted); font-size:13px; display:flex;
-      align-items:center; gap:6px; cursor:pointer; }}
-  table {{ width:100%; border-collapse:collapse; margin-top:8px; font-size:13.5px; }}
-  th,td {{ text-align:left; padding:8px 10px; border-bottom:1px solid var(--line);
+      align-items:center; gap:6px; cursor:pointer; white-space:nowrap; }}
+  /* Secondary filters: a disclosure on phones, always-open and inline above it.
+     `display:contents` lets the inner controls join the .filters flex row, so
+     desktop looks like one continuous bar rather than a nested box.
+     The element ships `open` — a CLOSED <details> hides its children through
+     the UA stylesheet in a way `display:contents` can't override, so the
+     desktop filters would silently vanish. A width check below collapses it
+     on phones instead. */
+  .more > summary {{ display:none; }}
+  .more, .more > .fbody {{ display:contents; }}
+  @media(max-width:680px) {{
+    .more {{ display:block; width:100%; }}
+    .more > summary {{ display:list-item; cursor:pointer; color:var(--muted);
+        font-size:13px; padding:4px 0; }}
+    .more > .fbody {{ display:flex; flex-wrap:wrap; gap:8px; padding:8px 0 2px; }}
+    .more:not([open]) > .fbody {{ display:none; }}
+  }}
+  /* A wide table must scroll inside its OWN box. Without this the 9-column
+     job table set the page width, so at 390px the document came out 731px
+     wide and the whole dashboard scrolled sideways on a phone. */
+  .tscroll {{ overflow-x:auto; -webkit-overflow-scrolling:touch; margin-top:8px;
+              border:1px solid var(--line); border-radius:12px; }}
+  table {{ width:100%; border-collapse:collapse; font-size:13.5px; }}
+  th,td {{ text-align:left; padding:10px 12px; border-bottom:1px solid var(--line);
            vertical-align:top; }}
+  tbody tr:last-child td {{ border-bottom:0; }}
+  tbody tr:hover {{ background:#ffffff08; }}
+  thead th {{ position:sticky; top:0; background:var(--card); z-index:1; }}
+  .rt {{ font-weight:600; }}
+  .nowrap {{ white-space:nowrap; }}
+  .c-save {{ width:34px; padding-right:0; }}
+  .star {{ background:none; border:0; color:var(--muted); font-size:17px;
+           cursor:pointer; padding:0 2px; line-height:1; }}
+  .star:hover {{ color:var(--star); }}
+  .star.on {{ color:var(--star); }}
+  tr.saved {{ background:#e3b3410f; }}
+  .pill {{ display:inline-block; background:#2ea04322; color:var(--green);
+           border-radius:20px; padding:0 7px; font-size:11px; margin-left:4px; }}
+  @media(max-width:680px) {{
+    /* Give the columns room to be readable while scrolling, rather than
+       squeezing nine of them into 390px and wrapping every title to four
+       lines. The box scrolls; the page never does. */
+    .tscroll table {{ min-width:940px; }}
+    .tscroll td:nth-child(2) {{ min-width:150px; }}  /* company */
+    .tscroll td:nth-child(3) {{ min-width:230px; }}  /* role */
+    .filters {{ position:static; }}   /* a sticky bar this tall eats the screen */
+    /* Every line before the first job is a line the reader has to scroll past. */
+    .note-long {{ display:none; }}
+    .wrap {{ padding-top:26px; }}
+  }}
   th {{ color:var(--muted); font-weight:600; }}
   a {{ color:var(--accent); text-decoration:none; }}
   a:hover {{ text-decoration:underline; }}
-  .tag {{ background:#1f6feb22; color:#79c0ff; padding:1px 7px; border-radius:20px; font-size:12px; }}
+  .tag {{ display:inline-block; background:#1f6feb22; color:#79c0ff; padding:1px 7px;
+          border-radius:20px; font-size:12px; margin:0 2px 2px 0; white-space:nowrap; }}
+  .tag-guess {{ background:#8b949e1f; color:var(--muted); border:1px dashed var(--line); }}
+  .engine {{ margin-top:38px; border:1px solid var(--line); border-radius:12px;
+             background:var(--card); padding:0 16px; }}
+  .engine[open] {{ padding-bottom:16px; }}
+  .engine summary {{ cursor:pointer; padding:14px 0; font-size:14.5px; }}
+  .engine summary:hover {{ color:var(--accent); }}
+  .kv th {{ width:200px; font-weight:600; color:var(--muted); }}
+  .kv td {{ color:var(--txt); }}
   .sks {{ display:block; margin-top:3px; }}
   .sk {{ display:inline-block; background:#8b949e1a; color:var(--muted);
          border:1px solid var(--line); padding:0 6px; border-radius:10px;
@@ -373,88 +523,233 @@ def generate(store_data: dict, stats: dict) -> None:
   .signup button:hover {{ filter:brightness(1.1); }}
   footer {{ color:var(--muted); font-size:12px; margin-top:36px; }}
 </style></head><body><div class="wrap">
-  <h1>Internship Engine - Live Dashboard</h1>
-  <p class="sub">{region} tech internships, refreshed automatically. Updated {escape(updated)}.
-  <a href="feed.xml">RSS feed</a> · <a href="api/jobs.json">JSON API</a> ·
-  <a href="https://github.com/{escape(repo)}">GitHub</a></p>
-  <div class="grid">{_cards(stats, proven_roles)}</div>
-  {_sparkline(_history_points())}
+  <header class="top">
+    <h1>{escape(region)} tech internships</h1>
+    <p class="sub">Read straight from {stats.get('companies_total', 0):,} employer
+    job boards, rebuilt every hour. Updated {escape(updated)}.</p>
+    <p class="links"><a href="feed.xml">RSS</a> · <a href="api/jobs.json">JSON API</a>
+    · <a href="internships.csv">CSV</a> ·
+    <a href="https://github.com/{escape(repo)}">source</a> ·
+    <a href="https://github.com/{escape(repo)}/blob/main/METHODOLOGY.md">methodology</a></p>
+  </header>
+  <div class="hero">{_hero(stats, open_jobs, proven_roles)}</div>
+
+  <h2 id="roles">Open roles <span class="muted">(<span id="count">{len(open_jobs)}</span>
+    showing)</span></h2>
+  <div class="filters" id="filters">
+    <input id="q" type="search" placeholder="Search company, role, location, or skill (try “Python”)…" autocomplete="off">
+    <select id="cycle"><option value="">All cycles</option>{_options(cycles)}</select>
+    <label class="chk" title="Show only the roles you've starred (stored in this browser)">
+      <input id="savedonly" type="checkbox"><span>★ saved (<span id="savedn">0</span>)</span></label>
+    <!-- Secondary filters. A real <details> so phones get a one-tap disclosure
+         instead of seven stacked rows between the hero and the first job; CSS
+         forces it open (and hides the summary) from 681px up. -->
+    <details class="more" open>
+      <summary>More filters</summary>
+      <div class="fbody">
+        <select id="cat"><option value="">All categories</option>{_options(categories)}</select>
+        <select id="age">
+          <option value="">Posted anytime</option>
+          <option value="2">Last 48 hours</option>
+          <option value="7">Last 7 days</option>
+          <option value="30">Last 30 days</option>
+        </select>
+        <select id="spon" title="What the posting itself says about visa sponsorship">
+          <option value="">Any sponsorship status</option>
+          <option value="no-restriction">No explicit restriction found</option>
+          <option value="offers">Explicitly offers sponsorship</option>
+          <option value="unknown">Sponsorship not stated</option>
+          <option value="restricted">Explicitly restricted (🇺🇸 / 🛂)</option>
+        </select>
+        <select id="program">
+          <option value="">Internships &amp; co-ops</option>
+          <option value="Internship">Internships</option>
+          <option value="Co-op">Co-ops</option>
+        </select>
+        <label class="chk"><input id="remote" type="checkbox"><span>🏠 remote only</span></label>
+        <label class="chk"><input id="h1b" type="checkbox">
+          <span>✓ proven H-1B sponsors only</span></label>
+        <label class="chk" title="Hide roles whose cycle we inferred from the posting date (marked ~)">
+          <input id="stated" type="checkbox"><span>employer-stated cycle only</span></label>
+        <button id="export" class="ghost" type="button" title="Download your saved roles as CSV">
+          Export saved</button>
+        <button id="reset" class="ghost" type="button">Clear filters</button>
+      </div>
+    </details>
+  </div>
+  <p class="muted note">★ saves to <strong>this browser only</strong><span
+  class="note-long"> — no account, no sign-in, nothing sent anywhere</span>.
+  <span class="tag tag-guess">~like this</span> = the posting never named a cycle,
+  so we inferred it from the posting date<span class="note-long">; a plain tag is
+  the cycle the employer stated</span>.</p>
+  <div class="tscroll">
+  <table><thead><tr><th class="c-save" title="Save"></th><th>Company</th><th>Role</th>
+  <th>Cycle</th><th>Category</th>
+  <th>Location</th><th>Salary</th><th>Posted</th><th></th></tr></thead>
+  <tbody id="rows">{_rows(open_jobs)}</tbody></table>
+  </div>
+  <p id="empty" class="muted empty" hidden>No roles match those filters.
+    <button class="ghost" type="button" id="reset2">Clear filters</button></p>
+
   {_signup_section(cfg)}
+  {_radar_section(store_data, cfg)}
+
   <h2>Internships posted per week</h2>
   <p class="muted" style="margin:0 0 8px">Real published dates across every role the
   engine has tracked — watch this spike when {escape(config.cycles(cfg)[0])}
   recruiting opens up.</p>
   {trends.svg_bar_chart(trends.weekly_postings(store_data))}
-  <div class="panels">
-    <div><h2>Roles by source</h2>{_bars(stats.get("roles_by_source", {}))}</div>
-    <div><h2>Roles by cycle</h2>{_bars(stats.get("roles_by_cycle", {}))}</div>
-    <div><h2>Roles by category</h2>{_bars(by_category)}</div>
-    <div><h2>Sponsorship verdicts</h2>{_bars(stats.get("sponsorship_counts", {}))}</div>
-  </div>
-  <h2>Open roles (<span id="count">{len(open_jobs)}</span>)</h2>
-  <div class="filters">
-    <input id="q" type="search" placeholder="Search company, role, location, or skill (try “Python”)…" autocomplete="off">
-    <select id="cycle"><option value="">All cycles</option>{_options(cycles)}</select>
-    <select id="cat"><option value="">All categories</option>{_options(categories)}</select>
-    <select id="age">
-      <option value="">Posted anytime</option>
-      <option value="2">Last 48 hours</option>
-      <option value="7">Last 7 days</option>
-      <option value="30">Last 30 days</option>
-    </select>
-    <label class="chk"><input id="f1" type="checkbox">
-      F-1 friendly only (hide 🇺🇸 citizens-only and 🛂 no-sponsorship)</label>
-    <label class="chk"><input id="h1b" type="checkbox">
-      ✓ proven H-1B sponsors only</label>
-    <label class="chk" title="Hide roles whose cycle was inferred from the posting date (marked ~)">
-      <input id="stated" type="checkbox"> stated cycle only (hide ~)</label>
-  </div>
-  <table><thead><tr><th>Company</th><th>Role</th><th>Cycle</th><th>Category</th>
-  <th>Location</th><th>Salary</th><th>Posted</th><th></th></tr></thead>
-  <tbody id="rows">{_rows(open_jobs)}</tbody></table>
-  {_radar_section(store_data, cfg)}
-  <footer>Generated by the engine on each run. Companies polled across
+
+  {_engine_panel(stats, by_category, _history_points())}
+
+  <footer>Generated by the engine on each run across
   {len(stats.get("companies_by_source", {}))} ATS platforms. Sponsorship flags are
-  auto-detected from posting text — verify on the posting itself.
-  ✓ = USCIS approved {h1b.BADGE_THRESHOLD}+ H-1B petitions for that employer
-  ({escape(h1b.window_label() or "recent years")}, per the public
+  auto-detected from posting text — treat them as a strong hint and verify on the
+  posting itself. ✓ = USCIS approved {h1b.BADGE_THRESHOLD}+ H-1B petitions for that
+  employer ({escape(h1b.window_label() or "recent years")}, per the public
   <a href="https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub">
-  Employer Data Hub</a>); no ✓ only means no confident match.</footer>
+  Employer Data Hub</a>) — a history, not a promise; no ✓ only means no confident
+  match. Roles can close at any time; always confirm on the company's own site.</footer>
 </div>
 <script>
 (function () {{
   var q = document.getElementById('q'), cycle = document.getElementById('cycle'),
-      cat = document.getElementById('cat'), f1 = document.getElementById('f1'),
+      cat = document.getElementById('cat'), spon = document.getElementById('spon'),
       h1b = document.getElementById('h1b'), age = document.getElementById('age'),
       stated = document.getElementById('stated'),
+      program = document.getElementById('program'),
+      remote = document.getElementById('remote'),
+      savedonly = document.getElementById('savedonly'),
+      savedn = document.getElementById('savedn'),
+      empty = document.getElementById('empty'),
       rows = Array.prototype.slice.call(document.getElementById('rows').rows),
       count = document.getElementById('count');
+
+  // --- saved roles -----------------------------------------------------------
+  // Deliberately localStorage and nothing else: a tracker that needs an account
+  // is a tracker most people bounce off, and we have no business holding anyone's
+  // application list on a server. Everything here stays in this browser.
+  var KEY = 'ie.saved.v1', saved = {{}};
+  try {{ saved = JSON.parse(localStorage.getItem(KEY) || '{{}}') || {{}}; }} catch (e) {{ saved = {{}}; }}
+  function persist() {{
+    try {{ localStorage.setItem(KEY, JSON.stringify(saved)); }} catch (e) {{ /* private mode */ }}
+  }}
+  function savedCount() {{ return Object.keys(saved).length; }}
+  function paintRow(tr) {{
+    var on = !!saved[tr.dataset.id], btn = tr.querySelector('.star');
+    if (btn) {{
+      btn.textContent = on ? '★' : '☆';
+      btn.classList.toggle('on', on);
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    }}
+    tr.classList.toggle('saved', on);
+  }}
+  function paintAll() {{ rows.forEach(paintRow); savedn.textContent = savedCount(); }}
+
+  document.getElementById('rows').addEventListener('click', function (ev) {{
+    var btn = ev.target.closest ? ev.target.closest('.star') : null;
+    if (!btn) return;
+    var tr = btn.closest('tr'), id = tr.dataset.id;
+    if (saved[id]) {{ delete saved[id]; }} else {{ saved[id] = Date.now(); }}
+    persist(); paintRow(tr); savedn.textContent = savedCount();
+    if (savedonly.checked) apply();
+  }});
+
+  // Same formula-injection guard the server-side CSV uses: Excel/Sheets execute
+  // a cell starting with = + - or @, and these cells are third-party job text.
+  // Quoting alone doesn't stop it — the leading apostrophe does.
+  function csvCell(v) {{
+    var s = String(v == null ? '' : v);
+    if (/^[=+\\-@\\t\\r]/.test(s)) s = "'" + s;
+    return '"' + s.replace(/"/g, '""') + '"';
+  }}
+  document.getElementById('export').addEventListener('click', function () {{
+    var head = ['company', 'role', 'cycle', 'category', 'location', 'salary', 'posted', 'url'],
+        lines = [head.join(',')];
+    rows.forEach(function (tr) {{
+      if (!saved[tr.dataset.id]) return;
+      var td = tr.cells, link = tr.querySelector('a[href]');
+      lines.push([td[1], td[2], td[3], td[4], td[5], td[6], td[7]]
+        .map(function (c) {{ return csvCell(c.innerText.trim()); }})
+        .concat(csvCell(link ? link.href : '')).join(','));
+    }});
+    if (lines.length === 1) {{ alert('Star a few roles first — then this exports them.'); return; }}
+    var blob = new Blob([lines.join('\\n')], {{ type: 'text/csv;charset=utf-8' }}),
+        a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'my-saved-internships.csv';
+    a.click(); URL.revokeObjectURL(a.href);
+  }});
+
   function cutoffISO(days) {{
     var d = new Date(Date.now() - days * 86400000);
     return d.toISOString().slice(0, 10);
   }}
+  // What each sponsorship option actually means. The old single "F-1 friendly"
+  // checkbox only HID the explicit negatives, so ~97% of what it returned was
+  // simply postings that never mention sponsorship — shown to students as if
+  // it had been checked. Each verdict is now nameable on its own.
+  function sponsorOK(mode, value) {{
+    var restricted = (value === 'citizens-only' || value === 'no-sponsorship');
+    if (mode === 'no-restriction') return !restricted;
+    if (mode === 'offers') return value === 'offers';
+    if (mode === 'unknown') return value === 'unknown' || !value;
+    if (mode === 'restricted') return restricted;
+    return true;
+  }}
   function apply() {{
     var text = q.value.trim().toLowerCase(), cy = cycle.value, ca = cat.value,
-        safe = f1.checked, proven = h1b.checked, shown = 0,
+        sp = spon.value, proven = h1b.checked, shown = 0,
         minPosted = age.value ? cutoffISO(parseInt(age.value, 10)) : '',
-        statedOnly = stated.checked;
+        statedOnly = stated.checked, prog = program.value,
+        remoteOnly = remote.checked, onlySaved = savedonly.checked;
     rows.forEach(function (tr) {{
+      // A multi-cycle posting matches EVERY cycle it states, so filtering to
+      // "Fall 2026" still finds a "Fall 2026/Summer 2027" requisition.
+      var cycles = (tr.dataset.cycles || tr.dataset.cycle || '').split('|');
       var ok = (!text || tr.dataset.text.indexOf(text) !== -1)
-        && (!cy || tr.dataset.cycle === cy)
+        && (!cy || cycles.indexOf(cy) !== -1)
         && (!ca || tr.dataset.category === ca)
-        && (!safe || (tr.dataset.sponsor !== 'citizens-only'
-                      && tr.dataset.sponsor !== 'no-sponsorship'))
+        && sponsorOK(sp, tr.dataset.sponsor)
         && (!proven || tr.dataset.h1b === '1')
+        // "Internship / Co-op" satisfies either filter — the employer said both.
+        && (!prog || tr.dataset.program.indexOf(prog) !== -1)
+        && (!remoteOnly || tr.dataset.remote === '1')
+        && (!onlySaved || !!saved[tr.dataset.id])
         && (!minPosted || (tr.dataset.posted && tr.dataset.posted >= minPosted))
         && (!statedOnly || tr.dataset.inferred === '0');
       tr.style.display = ok ? '' : 'none';
       if (ok) shown++;
     }});
     count.textContent = shown;
+    empty.hidden = shown !== 0;
   }}
-  [q, cycle, cat, age, f1, h1b, stated].forEach(function (el) {{
+  var controls = [q, cycle, cat, age, spon, program, remote, h1b, stated, savedonly];
+  controls.forEach(function (el) {{
     el.addEventListener('input', apply); el.addEventListener('change', apply);
   }});
+  function reset() {{
+    controls.forEach(function (el) {{
+      if (el.type === 'checkbox') el.checked = false; else el.value = '';
+    }});
+    apply();
+  }}
+  document.getElementById('reset').addEventListener('click', reset);
+  document.getElementById('reset2').addEventListener('click', reset);
+
+  // The secondary-filter disclosure ships open so desktop (where its summary is
+  // hidden) always shows every control, even with JS off. Phones get it
+  // collapsed — but only if the reader hasn't already opened it themselves.
+  var more = document.querySelector('.more'), touched = false;
+  if (more) {{
+    more.addEventListener('toggle', function () {{ touched = true; }});
+    var fit = window.matchMedia('(max-width: 680px)');
+    function sync() {{ if (!touched) more.open = !fit.matches; }}
+    sync();
+    (fit.addEventListener ? fit.addEventListener('change', sync)
+                          : fit.addListener(sync));
+  }}
+  paintAll();
   // Radar search (separate list, separate box).
   var rq = document.getElementById('rq');
   if (rq) {{
@@ -491,10 +786,16 @@ def generate(store_data: dict, stats: dict) -> None:
 
 
 def _write_unsubscribe(cfg: dict) -> None:
-    """One-click unsubscribe target for digest emails (?t=<secret token>).
+    """Unsubscribe target for digest emails (?t=<secret token>).
 
     Calls the security-definer RPC in Supabase: the token is the only
     credential, so the page needs nothing but the public key.
+
+    The RPC fires on a CLICK, never on page load. Corporate mail security
+    scanners fetch every link in an incoming email to check it — a page that
+    unsubscribed on load meant those subscribers were silently removed by their
+    own employer's spam filter, having never opened the mail. Requiring a real
+    click is what keeps an automated fetch from being a destructive action.
     """
     endpoint = config.signup_endpoint(cfg)
     if not endpoint:
@@ -510,25 +811,55 @@ def _write_unsubscribe(cfg: dict) -> None:
   .box {{ max-width:520px; margin:18vh auto 0; padding:32px 24px; background:#161b22;
           border:1px solid #30363d; border-radius:12px; text-align:center; }}
   a {{ color:#2f81f7; }}
+  button {{ background:#2f81f7; color:#fff; border:0; border-radius:8px;
+            padding:11px 22px; font-size:15px; font-weight:600; cursor:pointer;
+            margin-top:8px; }}
+  button:hover {{ filter:brightness(1.1); }}
+  button[disabled] {{ opacity:.6; cursor:default; }}
 </style></head><body>
-<div class="box"><h1 id="h">Unsubscribing…</h1><p id="p">One moment.</p></div>
+<div class="box">
+  <h1 id="h">Unsubscribe?</h1>
+  <p id="p">Confirm below and you'll stop receiving the daily digest.</p>
+  <button id="go">Yes, unsubscribe me</button>
+</div>
 <script>
 (function () {{
-  var h = document.getElementById('h'), p = document.getElementById('p');
+  var h = document.getElementById('h'), p = document.getElementById('p'),
+      go = document.getElementById('go');
   var token = new URLSearchParams(location.search).get('t');
-  if (!token) {{ h.textContent = 'Missing link token'; p.textContent =
-    'Use the unsubscribe link from one of our emails.'; return; }}
-  fetch({json.dumps(url)} + '/rest/v1/rpc/unsubscribe_email', {{
-    method: 'POST',
-    headers: {{ 'apikey': {json.dumps(key)}, 'Content-Type': 'application/json' }},
-    body: JSON.stringify({{ token: token }})
-  }}).then(function (r) {{
-    if (r.ok) {{ h.textContent = "You're unsubscribed"; p.textContent =
-      'No more emails. You can re-subscribe on the dashboard anytime.'; }}
-    else {{ h.textContent = 'Something went wrong'; p.textContent =
-      'Try the link again in a minute.'; }}
-  }}).catch(function () {{ h.textContent = 'Network error'; p.textContent =
-    'Try the link again in a minute.'; }});
+  if (!token) {{
+    h.textContent = 'Missing link token';
+    p.textContent = 'Use the unsubscribe link from one of our emails.';
+    go.style.display = 'none';
+    return;
+  }}
+  // Deliberately click-gated: mail security scanners fetch every link in an
+  // email, and unsubscribing on page load let those scanners remove real
+  // subscribers who never even opened the message.
+  go.addEventListener('click', function () {{
+    go.disabled = true;
+    h.textContent = 'Unsubscribing…';
+    p.textContent = 'One moment.';
+    fetch({json.dumps(url)} + '/rest/v1/rpc/unsubscribe_email', {{
+      method: 'POST',
+      headers: {{ 'apikey': {json.dumps(key)}, 'Content-Type': 'application/json' }},
+      body: JSON.stringify({{ token: token }})
+    }}).then(function (r) {{
+      go.style.display = 'none';
+      if (r.ok) {{
+        h.textContent = "You're unsubscribed";
+        p.textContent = 'No more emails. You can re-subscribe on the dashboard anytime.';
+      }} else {{
+        h.textContent = 'Something went wrong';
+        p.textContent = 'Try the link again in a minute.';
+        go.style.display = ''; go.disabled = false;
+      }}
+    }}).catch(function () {{
+      h.textContent = 'Network error';
+      p.textContent = 'Try the link again in a minute.';
+      go.disabled = false;
+    }});
+  }});
 }})();
 </script>
 </body></html>"""

@@ -16,6 +16,7 @@ Env: BREVO_API_KEY, MAIL_FROM (verified sender, "Name <addr>" or bare),
 
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -28,7 +29,11 @@ import httpx
 from . import config, h1b, paths, sponsorship
 
 _MIN_HOURS_BETWEEN = 22          # "daily", tolerant of cron jitter
-_NEW_WINDOW_HOURS = 26           # a role counts as news if first seen in this window
+# How far back a role counts as news. This is generous on purpose now that
+# `sent_role_ids` guarantees a role is only ever listed once: the window's job
+# is to make sure nothing is MISSED (a run that failed, a role that overflowed
+# the body cap), and duplicate protection no longer depends on it being tight.
+_NEW_WINDOW_HOURS = 48
 _MAX_ROLES = 30                  # cap the digest body
 _MAX_SENDS = 250                 # stay under Brevo's free 300/day
 _BREVO_URL = "https://api.brevo.com/v3/smtp/email"
@@ -56,17 +61,30 @@ def _parse_ts(value: str | None) -> datetime | None:
         return None
 
 
-def new_roles(store_data: dict, now: datetime | None = None) -> list[dict]:
-    """ALL open roles first seen within the news window, newest first.
+_SENT_MEMORY = 2000  # ids we remember; ~2 months of digests at current volume
+
+
+def new_roles(store_data: dict, now: datetime | None = None,
+              already_sent: set[str] | None = None) -> list[dict]:
+    """Open roles first seen within the news window that we haven't sent yet.
+
+    The window (26h) is deliberately wider than the send interval (22h) so cron
+    jitter can't skip a role — but that overlap means a role can fall inside two
+    consecutive windows. Without `already_sent`, it got mailed twice; on
+    2026-07-17, 26 of the 30 roles in the digest had gone out the day before.
+    Membership in the previous digest, not the clock, is what settles it.
 
     No cap here — the subject line reports the true count; the HTML body caps
     what it lists (and says "+N more") at composition time.
     """
     now = now or datetime.now(UTC)
+    already_sent = already_sent or set()
     cutoff = now - timedelta(hours=_NEW_WINDOW_HOURS)
     fresh = [
         r for r in store_data.values()
-        if r.get("is_open") and (_parse_ts(r.get("first_seen_at")) or cutoff) > cutoff
+        if r.get("is_open")
+        and (_parse_ts(r.get("first_seen_at")) or cutoff) > cutoff
+        and r.get("id") not in already_sent
     ]
     fresh.sort(key=lambda r: r.get("first_seen_at") or "", reverse=True)
     return fresh
@@ -155,6 +173,42 @@ def _subscribers(base_url: str, service_key: str) -> list[dict]:
     return resp.json()
 
 
+def _recipients(subscribers: list[dict], cursor: int) -> tuple[list[dict], int]:
+    """Today's slice of the list, and where the next digest should resume.
+
+    The daily quota (_MAX_SENDS) is smaller than the list will eventually be.
+    Always mailing `subscribers[:250]` meant everyone past that point silently
+    never received a digest — and they'd have no way to tell. Rotating the
+    start point instead means a list of any size gets served in turn, so the
+    failure mode degrades from "starved forever" to "hears from us less often".
+    """
+    total = len(subscribers)
+    if total <= _MAX_SENDS:
+        return subscribers, 0
+    start = cursor % total
+    ordered = subscribers[start:] + subscribers[:start]
+    return ordered[:_MAX_SENDS], (start + _MAX_SENDS) % total
+
+
+def _addr_hash(address: str) -> str:
+    """A short stable fingerprint of an email address.
+
+    mail_state.json is COMMITTED to a public repo, so the retry list must never
+    contain the addresses themselves — only enough to recognize them next run.
+    """
+    return hashlib.sha256(address.strip().lower().encode()).hexdigest()[:16]
+
+
+def _order_with_retries(recipients: list[dict], retry: set[str]) -> list[dict]:
+    """Yesterday's failed recipients go first, so a transient provider error
+    costs them one day, not their place in line."""
+    if not retry:
+        return recipients
+    front = [s for s in recipients if _addr_hash(s.get("email") or "") in retry]
+    rest = [s for s in recipients if _addr_hash(s.get("email") or "") not in retry]
+    return front + rest
+
+
 # --- sending -------------------------------------------------------------------
 
 def send_digest(store_data: dict) -> int:
@@ -167,7 +221,8 @@ def send_digest(store_data: dict) -> int:
         return 0
 
     state = _load_state()
-    fresh = new_roles(store_data)
+    already_sent = set(state.get("sent_role_ids") or ())
+    fresh = new_roles(store_data, already_sent=already_sent)
     if not should_send(state, len(fresh)):
         return 0
 
@@ -182,15 +237,21 @@ def send_digest(store_data: dict) -> int:
     subject = f"{len(fresh)} new internship{'s' if len(fresh) != 1 else ''} · {today}"
     body = build_digest_html(fresh)
     unsub_base = f"{config.pages_base()}/unsubscribe.html"
+    recipients, cursor = _recipients(subscribers, int(state.get("send_cursor") or 0))
+    recipients = _order_with_retries(
+        recipients, {str(a) for a in state.get("retry_emails") or ()}
+    )
 
     sent = 0
+    failed_addrs: list[str] = []
     with httpx.Client(timeout=20) as client:
-        for sub in subscribers[:_MAX_SENDS]:
+        for sub in recipients:
             address = (sub.get("email") or "").strip()
             token = sub.get("unsub_token") or ""
             if not address or not token:
                 continue  # never send without a working unsubscribe link
-            html = body.replace("{{UNSUB_URL}}", f"{unsub_base}?t={token}")
+            unsub_url = f"{unsub_base}?t={token}"
+            html = body.replace("{{UNSUB_URL}}", unsub_url)
             try:
                 client.post(
                     _BREVO_URL,
@@ -200,10 +261,21 @@ def send_digest(store_data: dict) -> int:
                         "to": [{"email": address}],
                         "subject": subject,
                         "htmlContent": html,
+                        # List-Unsubscribe gives every mail client its native
+                        # "unsubscribe" button, pointing at our confirmation
+                        # page. List-Unsubscribe-Post is deliberately NOT sent:
+                        # RFC 8058 one-click requires an endpoint that handles
+                        # a POST, and a static Pages file can't. Advertising it
+                        # would make providers POST into a 405 and count the
+                        # unsubscribe as failed.
+                        "headers": {
+                            "List-Unsubscribe": f"<{unsub_url}>",
+                        },
                     },
                 ).raise_for_status()
                 sent += 1
             except Exception:  # noqa: BLE001 — skip the bad address, keep going
+                failed_addrs.append(_addr_hash(address))
                 continue
             time.sleep(0.12)  # stay well under Brevo's request rate
 
@@ -211,5 +283,18 @@ def send_digest(store_data: dict) -> int:
         state["last_digest_at"] = datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
         state["last_digest_roles"] = len(fresh)
         state["last_digest_sent"] = sent
+        # Surfaced in state so a quietly failing provider is visible in the
+        # committed diff instead of only in a swallowed exception; the
+        # addresses themselves jump the queue on the next digest.
+        state["last_digest_failed"] = len(failed_addrs)
+        state["retry_emails"] = failed_addrs[:100]
+        state["subscribers_total"] = len(subscribers)
+        state["send_cursor"] = cursor
+        # Only the roles the body actually LISTED count as sent. Anything past
+        # the cap was a "+N more" pointer, so it stays eligible and gets its own
+        # line in the next digest instead of being silently swallowed.
+        listed = [r["id"] for r in fresh[:_MAX_ROLES] if r.get("id")]
+        remembered = list(state.get("sent_role_ids") or ()) + listed
+        state["sent_role_ids"] = remembered[-_SENT_MEMORY:]  # oldest drop off
         _save_state(state)
     return sent

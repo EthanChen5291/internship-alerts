@@ -21,11 +21,48 @@ def _record(hours_ago: float, **extra) -> dict:
 def test_new_roles_window():
     store = {
         "a": _record(2),
-        "b": _record(30),               # too old
+        "b": _record(80),               # too old
         "c": _record(1, is_open=False),  # closed
     }
     fresh = mailer.new_roles(store)
-    assert [r["id"] for r in fresh] == ["a:2"] or len(fresh) == 1
+    assert [r["id"] for r in fresh] == ["x:2"]
+
+
+def test_already_sent_roles_are_never_repeated():
+    # The duplicate-digest bug: the news window (48h) is wider than the send
+    # interval (22h), so a role sits in two consecutive windows. Membership in
+    # a previous digest — not the clock — is what keeps it out the second time.
+    store = {"a": _record(2), "b": _record(20)}
+    assert len(mailer.new_roles(store)) == 2
+    fresh = mailer.new_roles(store, already_sent={"x:20"})
+    assert [r["id"] for r in fresh] == ["x:2"]
+    assert mailer.new_roles(store, already_sent={"x:2", "x:20"}) == []
+
+
+class TestRecipientRotation:
+    """Everyone gets served in turn once the list outgrows the daily quota."""
+
+    def _subs(self, n):
+        return [{"email": f"u{i}@x.com", "unsub_token": f"t{i}"} for i in range(n)]
+
+    def test_small_list_is_sent_whole(self):
+        subs = self._subs(10)
+        got, cursor = mailer._recipients(subs, cursor=0)
+        assert got == subs
+        assert cursor == 0
+
+    def test_oversized_list_rotates_instead_of_starving_the_tail(self):
+        total = mailer._MAX_SENDS + 40
+        subs = self._subs(total)
+        first, cursor = mailer._recipients(subs, cursor=0)
+        assert len(first) == mailer._MAX_SENDS
+        second, _ = mailer._recipients(subs, cursor)
+        # The 40 who were cut off last time lead the next digest.
+        assert second[0]["email"] == f"u{mailer._MAX_SENDS}@x.com"
+        # Two rounds cover everyone.
+        assert {s["email"] for s in first} | {s["email"] for s in second} == {
+            s["email"] for s in subs
+        }
 
 
 def test_new_roles_newest_first_and_uncapped():

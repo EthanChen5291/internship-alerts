@@ -98,7 +98,11 @@ def _open_this_cycle(store_data: dict, cycle: str) -> dict[str, dict]:
     """
     seen: dict[str, dict] = {}
     for r in store_data.values():
-        if not r.get("is_open") or r.get("season") != cycle:
+        # A posting that states two cycles counts for BOTH — reading only the
+        # primary `season` hid a company that had demonstrably dropped for this
+        # cycle, which is exactly the signal the radar exists to report.
+        stated = r.get("seasons") or [r.get("season")]
+        if not r.get("is_open") or cycle not in stated:
             continue
         if r.get("season_inferred"):
             continue  # a guessed cycle can't confirm a radar drop (see docstring)
