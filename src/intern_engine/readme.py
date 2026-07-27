@@ -95,8 +95,9 @@ def _row(record: dict) -> str:
     title = _md_cell(record.get("title"))
     if record.get("season_inferred"):
         title += " ~"
+    is_open = record.get("is_open", True)
     badges = " ".join(
-        b for b in (sponsorship.flag(record.get("sponsorship")), "🆕" if _is_new(record) else "")
+        b for b in (sponsorship.flag(record.get("sponsorship")), "🆕" if _is_new(record) and is_open else "")
         if b
     )
     if badges:
@@ -104,8 +105,11 @@ def _row(record: dict) -> str:
     location = _short_location(record.get("location"))
     category = _md_cell(record.get("category"))
     posted = _pretty_date(record)
-    url = record.get("url") or ""
-    apply = f"[Apply]({url})" if url else "—"
+    if not is_open:
+        apply = "Closed"
+    else:
+        url = record.get("url") or ""
+        apply = f"[Apply]({url})" if url else "—"
     return f"| {company} | {title} | {category} | {location} | {posted} | {apply} |"
 
 
@@ -430,8 +434,9 @@ def generate(store_data: dict) -> dict:
     per_company = config.max_per_company(cfg)
 
     open_jobs = [r for r in store_data.values() if r.get("is_open")]
+    all_jobs = list(store_data.values())
     groups: dict[tuple[str, str], list[dict]] = {}
-    for r in open_jobs:
+    for r in all_jobs:
         groups.setdefault((_region_of(r), r.get("season", "")), []).append(r)
 
     sections: list[tuple[str, list[dict]]] = []
@@ -448,9 +453,11 @@ def generate(store_data: dict) -> dict:
                 sections.append((heading, rows))
                 displayed.extend(rows)
 
-    lines = _header(cfg, len(displayed), _company_count(), _new_this_week(open_jobs))
+    total_open = sum(1 for r in displayed if r.get("is_open"))
+    lines = _header(cfg, total_open, _company_count(), _new_this_week(open_jobs))
     for heading, rows in sections:
-        lines.append(f"## {heading}  ({len(rows)} open)")
+        n_open = sum(1 for r in rows if r.get("is_open"))
+        lines.append(f"## {heading}  ({n_open} open)")
         lines.append("")
         lines.append("| Company | Role | Category | Location | Posted | Apply |")
         lines.append("|---|---|---|---|---|---|")
@@ -478,9 +485,9 @@ def generate(store_data: dict) -> dict:
     with open(paths.README_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
-    _write_csv(displayed)
+    _write_csv([r for r in displayed if r.get("is_open")])
 
-    return {"open": len(displayed), "companies": _company_count()}
+    return {"open": total_open, "companies": _company_count()}
 
 
 def _write_csv(open_jobs: list[dict]) -> None:
