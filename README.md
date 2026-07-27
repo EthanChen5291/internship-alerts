@@ -4,9 +4,9 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**119 open roles (109 listed below) · 38 new this week · 3,821 employers tracked · updated Jul 27, 2026 at 06:47 UTC**
+**118 open roles (108 listed below) · 37 new this week · 3,821 employers tracked · updated Jul 27, 2026 at 07:05 UTC**
 
-_59 have a cycle the employer stated · 60 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_59 have a cycle the employer stated · 59 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -118,7 +118,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 | MSM Inc. | AI Solutions Co-op (Fall 2026) 🆕 | Data & ML/AI | Webster, NY | — | [Apply](https://ats.rippling.com/msm/jobs/6326629b-5434-4a86-8fce-d0e28ec424d4) |
 
-## Recently posted — cycle not stated  (55 roles)
+## Recently posted — cycle not stated  (54 roles)
 
 These postings don't name a cycle, so we won't pretend they did. They're recent tech internships whose likely cycle (the ~ column) is inferred from the posting date alone — often exactly the early drops worth applying to first, just not *proven* to belong to a cycle. When a posting's own text later states one, the role moves up into that section.
 
@@ -128,7 +128,6 @@ These postings don't name a cycle, so we won't pretend they did. They're recent 
 | Toshiba Global Commerce ✓ | Project Management & AI Automation Intern 🛂 🆕 | ~Summer 2027 | Data & ML/AI | Frisco, TX | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5190937007) |
 | Toshiba Global Commerce ✓ | AI Engineering Intern 🛂 🆕 | ~Summer 2027 | Data & ML/AI | Frisco, TX | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5192820007) |
 | Core & Main | Intern - AI/ML Data Engineering  -  Onsite - St. Louis | ~Summer 2027 | Data & ML/AI | Saint Louis, MO 63146 | Jul 24, 2026 | [Apply](https://coreandmain.wd1.myworkdayjobs.com/coreandmain/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804) |
-| Northwell Health ✓ | Data Analytics / Data Science Intern | ~Summer 2027 | Data & ML/AI | Lake Success, Nassau, United States | Jul 24, 2026 | [Apply](https://eppr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/192734) |
 | Bosch | Autonomous Driving – Internship in Machine Learning | ~Summer 2027 | Data & ML/AI | Sunnyvale, CA, United States | Jul 24, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000139649345) |
 | Magna International | R&D- Computer Vision Engineering Intern | ~Summer 2027 | Data & ML/AI | Troy, Michigan, US | Jul 24, 2026 | [Apply](https://magna.wd3.myworkdayjobs.com/Magna/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1) |
 | Tenstorrent ✓ | Software Engineering Intern, Power Modeling & AI Tools | ~Summer 2027 | Data & ML/AI | Santa Clara, California, United States | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007) |
@@ -224,12 +223,13 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 _57 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **22** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 37 roles that left the list in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 38 roles that left the list in the last 14 days</summary>
 
 _Why each one left is in the last column, because the two reasons carry different evidence. **Gone from feed** = two consecutive complete reads of the employer's board no longer returned it (strong, but not the employer telling us directly). **Out of scope** = still posted, but it no longer passes our filters — our call, not theirs. **Not recorded** = closed before we started tracking the reason._
 
 | Company | Role | Cycle | Closed | Why |
 |---|---|---|---|---|
+| Northwell Health | Data Analytics / Data Science Intern | Summer 2027 | 2026-07-27 | gone from feed |
 | Medtronic | Intern AI Vision for Equipment Development | Fall 2026 | 2026-07-27 | out of scope |
 | Palantir | Forward Deployed Infrastructure Engineer, Internship - US Government | Summer 2027 | 2026-07-25 | not recorded |
 | Altera Corporation | AI Software Development Engineer - Intern | Summer 2027 | 2026-07-24 | not recorded |
@@ -285,7 +285,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,647 of 3,908 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 93% of the full registry) · completed in 380.0s · 98 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 3,663 of 3,908 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 93% of the full registry) · completed in 421.4s · 102 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 
