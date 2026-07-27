@@ -4,9 +4,9 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**118 open roles (108 listed below) · 37 new this week · 3,821 employers tracked · updated Jul 27, 2026 at 10:54 UTC**
+**118 open roles (108 listed below) · 35 new this week · 3,826 employers tracked · updated Jul 27, 2026 at 13:43 UTC**
 
-_59 have a cycle the employer stated · 59 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_60 have a cycle the employer stated · 58 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -25,7 +25,7 @@ This is an engine, not a hand-kept list. It polls company career feeds several t
 - **A date on nearly every role** - taken from the job portal itself where the portal states one, so newest-first actually means newest. The exact coverage figure is printed at the bottom of this page every run.
 - **Skill tags + pay, extracted** - every posting's text is scanned for the stack it wants (Python, C++, PyTorch, ...) and the pay it states - searchable on the [dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/), included in the CSV and API.
 - **Alerts your way** - [email digests](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe) or [RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml) (point any reader, or a Slack/Discord RSS integration, at it) - plus a [live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/) with search, filters, and a saved-roles list that never leaves your browser.
-- **An engine, not a spreadsheet** - 3,908 job-board endpoints (3,821 distinct employers; some run more than one board) polled every hour across 12 ATS platforms, full source and tests in this repo.
+- **An engine, not a spreadsheet** - 3,914 job-board endpoints (3,826 distinct employers; some run more than one board) polled every hour across 12 ATS platforms, full source and tests in this repo.
 
 ## Scope
 
@@ -82,10 +82,11 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-## Fall 2026  (31 employer-stated)
+## Fall 2026  (32 employer-stated)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Mosaic | Informational Technology Cybersecurity Co-Op/Intern - Fall 2026 🆕 | Security | US - Tampa, FL (Lithia area) | Jul 27, 2026 | [Apply](https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1) |
 | Sentara Health | Data & AI Finance Strategy Intern - Fall 2026 Internship Remote 🏠 | Data & ML/AI | Virginia Beach, VA | Jul 24, 2026 | [Apply](https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Data---AI-Finance-Strategy-Intern---Fall-2026-Internship-Remote_JR-103073) |
 | Astranis | Software Engineer Intern - Enterprise Systems (Fall 2026) 🇺🇸 | Software | San Francisco, CA | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
 | Deepgram | Software Engineering- Internship (Fall 2026/Summer 2027) 🏠 _(also open for Summer 2027)_ | Software | USA / Remote | Jul 17, 2026 | [Apply](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
@@ -118,7 +119,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 | MSM Inc. | AI Solutions Co-op (Fall 2026) | Data & ML/AI | Webster, NY | — | [Apply](https://ats.rippling.com/msm/jobs/6326629b-5434-4a86-8fce-d0e28ec424d4) |
 
-## Recently posted — cycle not stated  (54 roles)
+## Recently posted — cycle not stated  (53 roles)
 
 These postings don't name a cycle, so we won't pretend they did. They're recent tech internships whose likely cycle (the ~ column) is inferred from the posting date alone — often exactly the early drops worth applying to first, just not *proven* to belong to a cycle. When a posting's own text later states one, the role moves up into that section.
 
@@ -131,7 +132,6 @@ These postings don't name a cycle, so we won't pretend they did. They're recent 
 | Bosch | Autonomous Driving – Internship in Machine Learning | ~Summer 2027 | Data & ML/AI | Sunnyvale, CA, United States | Jul 24, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000139649345) |
 | Magna International | R&D- Computer Vision Engineering Intern | ~Summer 2027 | Data & ML/AI | Troy, Michigan, US | Jul 24, 2026 | [Apply](https://magna.wd3.myworkdayjobs.com/Magna/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1) |
 | Tenstorrent ✓ | Software Engineering Intern, Power Modeling & AI Tools | ~Summer 2027 | Data & ML/AI | Santa Clara, California, United States | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007) |
-| Hewlett Packard (HP) | Software Engineering Intern, Device Experiences | ~Summer 2027 | Software | San Francisco +2 more | Jul 22, 2026 | [Apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1) |
 | Pony.ai ✓ | Research Intern - Deep Learning | ~Summer 2027 | Data & ML/AI | Fremont, California, United States | Jul 22, 2026 | [Apply](https://apply.workable.com/pony-dot-ai/j/4C1F53EF5D/) |
 | Pony.ai ✓ | Software Engineer Intern - Generalist | ~Summer 2027 | Software | Fremont, California, United States | Jul 22, 2026 | [Apply](https://apply.workable.com/pony-dot-ai/j/BA5FFDBC71/) |
 | Moog | Intern, Software Engineering | ~Summer 2027 | Software | Buffalo, NY | Jul 22, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1) |
@@ -223,12 +223,13 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 _57 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **22** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 38 roles that left the list in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 39 roles that left the list in the last 14 days</summary>
 
 _Why each one left is in the last column, because the two reasons carry different evidence. **Gone from feed** = two consecutive complete reads of the employer's board no longer returned it (strong, but not the employer telling us directly). **Out of scope** = still posted, but it no longer passes our filters — our call, not theirs. **Not recorded** = closed before we started tracking the reason._
 
 | Company | Role | Cycle | Closed | Why |
 |---|---|---|---|---|
+| Hewlett Packard (HP) | Software Engineering Intern, Device Experiences | Summer 2027 | 2026-07-27 | gone from feed |
 | Northwell Health | Data Analytics / Data Science Intern | Summer 2027 | 2026-07-27 | gone from feed |
 | Medtronic | Intern AI Vision for Equipment Development | Fall 2026 | 2026-07-27 | out of scope |
 | Palantir | Forward Deployed Infrastructure Engineer, Internship - US Government | Summer 2027 | 2026-07-25 | not recorded |
@@ -285,7 +286,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,610 of 3,908 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 92% of the full registry) · completed in 396.6s · 96 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 3,675 of 3,914 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 405.6s · 118 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 

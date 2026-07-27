@@ -461,6 +461,18 @@
     }
    }
   },
+  "mosaic": {
+   "name": "Mosaic",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-07-27",
+     "role_ids": [
+      "workday:mosaic:/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1"
+     ],
+     "count": 1
+    }
+   }
+  },
   "motorola": {
    "name": "Motorola",
    "cycles": {
@@ -881,5 +893,5 @@
    }
   }
  },
- "updated_at": "2026-07-27T10:54:40Z"
+ "updated_at": "2026-07-27T13:43:22Z"
 }

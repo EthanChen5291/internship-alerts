@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-27T10:54:40Z</updated>
+  <updated>2026-07-27T13:43:22Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:mosaic:/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1</id>
+    <title>Mosaic: Informational Technology Cybersecurity Co-Op/Intern - Fall 2026</title>
+    <link href="https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1"/>
+    <updated>2026-07-27T13:43:22Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Security · US - Tampa, FL (Lithia area)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:breezy:vetsez:45cb34b38e8301</id>
     <title>VetsEZ: Full Stack Developer Intern (Remote Opportunity)</title>
@@ -190,14 +198,6 @@
     <updated>2026-07-23T12:26:12Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, California, United States · Python, C#, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1</id>
-    <title>Hewlett Packard (HP): Software Engineering Intern, Device Experiences</title>
-    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences_3164166-1"/>
-    <updated>2026-07-22T23:01:40Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, California, United States of America</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workable:pony-dot-ai:4C1F53EF5D</id>
