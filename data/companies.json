@@ -6246,6 +6246,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "DGR Systems",
+    "slug": "dgrsystems",
+    "ats": "rippling"
+  },
+  {
     "name": "DH Pace",
     "slug": "dhpace",
     "ats": "greenhouse"
@@ -7553,6 +7558,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "fabletics"
+  },
+  {
+    "name": "Face Reality",
+    "slug": "facereality",
+    "ats": "rippling"
   },
   {
     "name": "FactSet",
@@ -12073,6 +12083,11 @@
     "name": "Linear",
     "slug": "linear",
     "ats": "ashby"
+  },
+  {
+    "name": "LinenMaster",
+    "slug": "linenmaster",
+    "ats": "rippling"
   },
   {
     "name": "Link",
@@ -16968,6 +16983,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "Retell AI",
+    "slug": "retell-ai",
+    "ats": "ashby"
+  },
+  {
     "name": "Revantage Corporate Services",
     "slug": "revantage",
     "ats": "workday",
@@ -17318,6 +17338,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "ExternalCareers"
+  },
+  {
+    "name": "Routeware",
+    "slug": "routeware-careers",
+    "ats": "rippling"
   },
   {
     "name": "Rover",
@@ -22133,6 +22158,11 @@
     "name": "Whoop",
     "slug": "whoop",
     "ats": "lever"
+  },
+  {
+    "name": "Whoop",
+    "slug": "whoop",
+    "ats": "ashby"
   },
   {
     "name": "Wilbur-Ellis",
