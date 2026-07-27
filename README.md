@@ -8,7 +8,7 @@
 
 ### 123 open roles (113 listed below) · 37 new this week
 
-3,826 employers tracked · updated Jul 27, 2026 at 19:45 UTC
+3,826 employers tracked · updated Jul 27, 2026 at 19:58 UTC
 
 _63 have a cycle the employer stated · 60 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 

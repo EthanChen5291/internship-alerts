@@ -100,14 +100,6 @@ def _is_new(record: dict, hours: int = 48) -> bool:
 
 
 def _cells(record: dict) -> tuple[str, str, str, str, str, str]:
-    """One table row's cells. Safe for ANY record, open or closed.
-
-    The cycle sections are built from open roles today, but this must not
-    depend on that: if a closed record ever reaches here it would otherwise
-    render a live "Apply" link to a dead posting and a "🆕" badge. Both are
-    guarded below. (Thanks to @meshhi13, PR #3, for spotting the class of bug.)
-    """
-    is_open = record.get("is_open", True)
     company = _md_cell(record.get("company"))
     if h1b.badge(h1b.approvals_for(record.get("company") or "")):
         company += " ✓"
@@ -116,22 +108,18 @@ def _cells(record: dict) -> tuple[str, str, str, str, str, str]:
         b for b in (sponsorship.flag(record.get("sponsorship")),
                     "🏠" if filters.is_remote(record.get("location") or "",
                                               record.get("title") or "") else "",
-                    "🆕" if is_open and _is_new(record) else "")
+                    "🆕" if _is_new(record) else "")
         if b
     )
     if badges:
         title = f"{title} {badges}"
     url = record.get("url") or ""
-    if not is_open:
-        apply_cell = "Closed"
-    else:
-        apply_cell = f"[Apply]({url})" if url else "—"
     return (
         company, title,
         _md_cell(record.get("category")),
         _short_location(record.get("location")),
         _pretty_date(record),
-        apply_cell,
+        f"[Apply]({url})" if url else "—",
     )
 
 
