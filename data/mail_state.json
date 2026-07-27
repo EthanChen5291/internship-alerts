@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-07-26T08:30:39Z",
-  "last_digest_roles": 3,
-  "last_digest_sent": 160,
+  "last_digest_at": "2026-07-27T06:48:15Z",
+  "last_digest_roles": 6,
+  "last_digest_sent": 164,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -15,6 +15,16 @@
     "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109673",
     "workday:coreandmain:/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804",
     "workday:magna:/job/Troy-Michigan-US/R-D--Computer-Vision-Engineering-Intern_R00253444-1",
-    "workday:sentara:/job/Virginia-Beach-VA/Data---AI-Finance-Strategy-Intern---Fall-2026-Internship-Remote_JR-103073"
-  ]
+    "workday:sentara:/job/Virginia-Beach-VA/Data---AI-Finance-Strategy-Intern---Fall-2026-Internship-Remote_JR-103073",
+    "breezy:vetsez:45cb34b38e8301",
+    "lever:xsolla:5d5fd6b3-d82f-437a-b251-abf4674ac874",
+    "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109689",
+    "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109897",
+    "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110011",
+    "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079"
+  ],
+  "last_digest_failed": 0,
+  "retry_emails": [],
+  "subscribers_total": 164,
+  "send_cursor": 0
 }
