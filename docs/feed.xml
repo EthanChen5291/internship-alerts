@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-27T16:20:27Z</updated>
+  <updated>2026-07-27T18:28:13Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:intel:/job/US-Oregon-Hillsboro/AI-Applied-intern_JR0285916</id>
+    <title>Intel: AI Applied intern</title>
+    <link href="https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-Applied-intern_JR0285916"/>
+    <updated>2026-07-27T18:28:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · US, Oregon, Hillsboro · Python, Computer Vision · H-1B track record: ~4.8k approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:appian:8088496</id>
     <title>Appian: Information Security Engineer Intern 🛂</title>
@@ -16,20 +24,20 @@
     <summary>Summer 2027 · Security · McLean, Virginia · LLMs · sponsorship: no-sponsorship · H-1B track record: ~44 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:nelnet:/job/Lincoln-NE/Intern-Program---Agentic-AI_R22904</id>
-    <title>Nelnet: Intern Program - Agentic AI</title>
-    <link href="https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern-Program---Agentic-AI_R22904"/>
-    <updated>2026-07-27T16:20:26Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Lincoln, NE · Python, Java, PyTorch, TensorFlow, Pandas · H-1B track record: ~18 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:36722</id>
     <title>Nokia: Architecture AI Co-op 🛂</title>
     <link href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36722"/>
     <updated>2026-07-27T16:20:26Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · United States · Python, TypeScript, SQL, LLMs, React · sponsorship: no-sponsorship · H-1B track record: ~321 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:nelnet:/job/Lincoln-NE/Intern-Program---Agentic-AI_R22904</id>
+    <title>Nelnet: Intern Program - Agentic AI</title>
+    <link href="https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern-Program---Agentic-AI_R22904"/>
+    <updated>2026-07-27T16:20:26Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Lincoln, NE · Python, Java, PyTorch, TensorFlow, Pandas · H-1B track record: ~18 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378</id>
@@ -182,14 +190,6 @@
     <updated>2026-07-24T11:11:07Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Quant · New York City · $1.8K – $2K per week · Python, C++, Rust, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workable:hyperlight:5581EA0668</id>
-    <title>Hyperlight: Software Engineer Intern</title>
-    <link href="https://apply.workable.com/hyperlight/j/5581EA0668/"/>
-    <updated>2026-07-24T11:11:07Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Cambridge, Massachusetts, United States · $25–$32/hr · Python, SQL, scikit-learn, Pandas</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:quadrillion-labs:a4acc44c-31ce-41a0-ab44-2500487b4d05</id>

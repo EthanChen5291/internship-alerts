@@ -4,7 +4,7 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**123 open roles (113 listed below) · 39 new this week · 3,826 employers tracked · updated Jul 27, 2026 at 16:20 UTC**
+**123 open roles (113 listed below) · 37 new this week · 3,826 employers tracked · updated Jul 27, 2026 at 18:28 UTC**
 
 _63 have a cycle the employer stated · 60 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -128,8 +128,9 @@ These postings don't name a cycle, so we won't pretend they did. They're recent 
 
 | Company | Role | Likely cycle | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Nelnet ✓ | Intern Program - Agentic AI 🆕 | ~Summer 2027 | Data & ML/AI | Lincoln, NE | Jul 27, 2026 | [Apply](https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern-Program---Agentic-AI_R22904) |
+| Intel ✓ | AI Applied intern 🆕 | ~Summer 2027 | Data & ML/AI | US, Oregon, Hillsboro | Jul 27, 2026 | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-Applied-intern_JR0285916) |
 | Nokia ✓ | Architecture AI Co-op 🛂 🆕 | ~Summer 2027 | Data & ML/AI | United States | Jul 27, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36722) |
+| Nelnet ✓ | Intern Program - Agentic AI 🆕 | ~Summer 2027 | Data & ML/AI | Lincoln, NE | Jul 27, 2026 | [Apply](https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern-Program---Agentic-AI_R22904) |
 | Toshiba Global Commerce ✓ | Agentic Software Engineering intern 🛂 🆕 | ~Summer 2027 | Software | Durham, NC | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5177892007) |
 | Toshiba Global Commerce ✓ | Project Management & AI Automation Intern 🛂 🆕 | ~Summer 2027 | Data & ML/AI | Frisco, TX | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5190937007) |
 | Toshiba Global Commerce ✓ | AI Engineering Intern 🛂 🆕 | ~Summer 2027 | Data & ML/AI | Frisco, TX | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5192820007) |
@@ -143,7 +144,6 @@ These postings don't name a cycle, so we won't pretend they did. They're recent 
 | Carnegie Mellon University ✓ | Research Intern - School of Computer Science - LTI | ~Summer 2027 | Software | Pittsburgh, PA | Jul 22, 2026 | [Apply](https://cmu.wd5.myworkdayjobs.com/cmu/job/Pittsburgh-PA/Research-Intern---School-of-Computer-Science---LTI_2024870) |
 | Copart ✓ | Software Engineering Intern 🆕 | ~Summer 2027 | Software | Dallas, TX - Headquarters | Jul 21, 2026 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110011) |
 | Copart ✓ | Software Engineering Intern 🆕 | ~Summer 2027 | Software | Dallas, TX - Headquarters | Jul 20, 2026 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079) |
-| Hyperlight | Software Engineer Intern | ~Summer 2027 | Software | Cambridge, Massachusetts, United States | Jul 20, 2026 | [Apply](https://apply.workable.com/hyperlight/j/5581EA0668/) |
 | HireVue | Data Science Intern / Fully Remote US 🏠 | ~Summer 2027 | Data & ML/AI | Sandy, UT, United States (Remote) | Jul 20, 2026 | [Apply](https://jobs.smartrecruiters.com/HireVue/744000138728139) |
 | AVEVA ✓ | Software Developer Intern- Drexel Co-op US | ~Summer 2027 | Software | Philadelphia +2 more | Jul 20, 2026 | [Apply](https://aveva.wd3.myworkdayjobs.com/AVEVA_careers/job/Philadelphia-Pennsylvania-United-States-of-America/Software-Developer-Intern--Drexel-Co-op-US_R014478) |
 | ACDS | AI Operations Intern-Caddell Reynolds | ~Summer 2027 | Data & ML/AI | Fort Smith, AR | Jul 20, 2026 | [Apply](https://jobs.lever.co/acds/01fdf41b-a835-4e00-8d01-0275677a8f08) |
@@ -228,12 +228,13 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 _57 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **22** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 37 roles that left the list in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 38 roles that left the list in the last 14 days</summary>
 
 _Why each one left is in the last column, because the two reasons carry different evidence. **Gone from feed** = two consecutive complete reads of the employer's board no longer returned it (strong, but not the employer telling us directly). **Out of scope** = still posted, but it no longer passes our filters — our call, not theirs. **Not recorded** = closed before we started tracking the reason._
 
 | Company | Role | Cycle | Closed | Why |
 |---|---|---|---|---|
+| Hyperlight | Software Engineer Intern | Summer 2027 | 2026-07-27 | gone from feed |
 | Hewlett Packard (HP) | Software Engineering Intern, Device Experiences | Summer 2027 | 2026-07-27 | gone from feed |
 | Northwell Health | Data Analytics / Data Science Intern | Summer 2027 | 2026-07-27 | gone from feed |
 | Medtronic | Intern AI Vision for Equipment Development | Fall 2026 | 2026-07-27 | out of scope |
@@ -289,7 +290,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,674 of 3,914 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 409.3s · 114 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 3,661 of 3,914 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 93% of the full registry) · completed in 390.8s · 101 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 
