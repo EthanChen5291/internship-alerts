@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-27T19:58:39Z</updated>
+  <updated>2026-07-27T20:25:51Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:apptronik:6128057004</id>
+    <title>Apptronik: Software Engineer Intern - ML Systems</title>
+    <link href="https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004"/>
+    <updated>2026-07-27T20:25:50Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Onsite - Austin, TX · Python, PyTorch, Kubernetes, Docker, Linux</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:intel:/job/US-Oregon-Hillsboro/AI-Applied-intern_JR0285916</id>
     <title>Intel: AI Applied intern</title>
@@ -798,13 +806,5 @@
     <updated>2026-07-01T20:55:33Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Software · Irvine, CA · sponsorship: citizens-only · H-1B track record: ~191 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:amazon:amazon:10412530</id>
-    <title>Amazon: Software Development Engineer Intern, AWS Data Services - Fall 2026 (US)</title>
-    <link href="https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us"/>
-    <updated>2026-06-30T17:50:48Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Seattle, Washington, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
   </entry>
 </feed>

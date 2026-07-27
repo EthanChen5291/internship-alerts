@@ -1,9 +1,37 @@
 {
- "generated_at": "2026-07-27T19:58:39Z",
+ "generated_at": "2026-07-27T20:25:51Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 123,
+ "count": 124,
  "jobs": [
+  {
+   "id": "greenhouse:apptronik:6128057004",
+   "company": "Apptronik",
+   "title": "Software Engineer Intern - ML Systems",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Onsite - Austin, TX",
+   "url": "https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004",
+   "posted_at": "2026-07-27T15:36:53-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-07-27T20:25:50Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "PyTorch",
+    "Kubernetes",
+    "Docker",
+    "Linux",
+    "Git"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "workday:intel:/job/US-Oregon-Hillsboro/AI-Applied-intern_JR0285916",
    "company": "Intel",

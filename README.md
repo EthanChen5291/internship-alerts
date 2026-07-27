@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%20hour-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 123 open roles (113 listed below) · 37 new this week
+### 124 open roles (114 listed below) · 38 new this week
 
-3,826 employers tracked · updated Jul 27, 2026 at 19:58 UTC
+3,826 employers tracked · updated Jul 27, 2026 at 20:25 UTC
 
-_63 have a cycle the employer stated · 60 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_63 have a cycle the employer stated · 61 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -140,12 +140,13 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 | MSM Inc. | AI Solutions Co-op (Fall 2026) | Data & ML/AI | Webster, NY | — | [Apply](https://ats.rippling.com/msm/jobs/6326629b-5434-4a86-8fce-d0e28ec424d4) |
 
-## Recently posted — cycle not stated  (55 roles)
+## Recently posted — cycle not stated  (56 roles)
 
 These postings don't name a cycle, so we won't pretend they did. They're recent tech internships whose likely cycle (the ~ column) is inferred from the posting date alone — often exactly the early drops worth applying to first, just not *proven* to belong to a cycle. When a posting's own text later states one, the role moves up into that section.
 
 | Company | Role | Likely cycle | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
+| Apptronik | Software Engineer Intern - ML Systems 🆕 | ~Summer 2027 | Data & ML/AI | Onsite - Austin, TX | Jul 27, 2026 | [Apply](https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004) |
 | Intel ✓ | AI Applied intern 🆕 | ~Summer 2027 | Data & ML/AI | US, Oregon, Hillsboro | Jul 27, 2026 | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-Applied-intern_JR0285916) |
 | Nokia ✓ | Architecture AI Co-op 🛂 🆕 | ~Summer 2027 | Data & ML/AI | United States | Jul 27, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36722) |
 | Nelnet ✓ | Intern Program - Agentic AI 🆕 | ~Summer 2027 | Data & ML/AI | Lincoln, NE | Jul 27, 2026 | [Apply](https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern-Program---Agentic-AI_R22904) |
@@ -307,7 +308,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,661 of 3,914 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 93% of the full registry) · completed in 390.8s · 101 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 3,669 of 3,914 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 93% of the full registry) · completed in 394.2s · 105 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 
