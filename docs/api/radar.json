@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-27T13:43:22Z",
+ "generated_at": "2026-07-27T16:20:27Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -100,6 +100,20 @@
    "status": "open",
    "url": "https://www.tower-research.com/open-positions/?gh_jid=8044334",
    "note": "opens ~Aug-Sep"
+  },
+  {
+   "company": "Northrop Grumman",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-08",
+   "days_until": -19,
+   "status": "open",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378",
+   "note": ""
   },
   {
    "company": "Akuna Capital",
@@ -772,20 +786,6 @@
    "status": "dropped",
    "url": "",
    "note": "rolling from mid-summer, very early"
-  },
-  {
-   "company": "Northrop Grumman",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-08",
-   "days_until": -19,
-   "status": "dropped",
-   "url": "",
-   "note": ""
   },
   {
    "company": "Axon",

@@ -4,9 +4,9 @@
 
 A self-updating engine that tracks tech internships so you don't have to. Instead of refreshing a dozen career pages by hand, it reads company hiring feeds directly and keeps one live list, newest roles on top, refreshed automatically throughout the day.
 
-**118 open roles (108 listed below) · 35 new this week · 3,826 employers tracked · updated Jul 27, 2026 at 13:43 UTC**
+**123 open roles (113 listed below) · 39 new this week · 3,826 employers tracked · updated Jul 27, 2026 at 16:20 UTC**
 
-_60 have a cycle the employer stated · 58 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_63 have a cycle the employer stated · 60 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **⭐Star this repo⭐** to save it and get updates when new roles are added.
 
@@ -53,10 +53,12 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 
 ---
 
-## Summer 2027  (24 employer-stated)
+## Summer 2027  (26 employer-stated)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Appian ✓ | Information Security Engineer Intern 🛂 🆕 | Security | McLean, Virginia | Jul 27, 2026 | [Apply](https://job-boards.greenhouse.io/appian/jobs/8088496) |
+| Northrop Grumman | 2027 Returning Intern Software Engineer 🇺🇸 🆕 | Software | United States-Florida-Melbourne | Jul 27, 2026 | [Apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378) |
 | PDT Partners | Summer 2027 Software Engineering Intern | Software | New York, NY | Jul 24, 2026 | [Apply](https://job-boards.greenhouse.io/pdtpartners/jobs/8077685) |
 | Quadrillion | Software Engineering Intern (Summer 2027) | Software | New York City | Jul 24, 2026 | [Apply](https://jobs.ashbyhq.com/quadrillion-labs/a4acc44c-31ce-41a0-ab44-2500487b4d05) |
 | Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 | Quant | New York City | Jul 23, 2026 | [Apply](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96) |
@@ -82,7 +84,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-## Fall 2026  (32 employer-stated)
+## Fall 2026  (33 employer-stated)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
@@ -91,6 +93,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Astranis | Software Engineer Intern - Enterprise Systems (Fall 2026) 🇺🇸 | Software | San Francisco, CA | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
 | Deepgram | Software Engineering- Internship (Fall 2026/Summer 2027) 🏠 _(also open for Summer 2027)_ | Software | USA / Remote | Jul 17, 2026 | [Apply](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
 | Moog | Intern, IT Computer Science - Data Analytics | Data & ML/AI | Buffalo, NY | Jul 16, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145) |
+| Sentara Health | Enterprise Data & AI Intern- Fall 2026 Internship | Data & ML/AI | Virginia Beach, VA | Jul 15, 2026 | [Apply](https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Enterprise-Data---AI-Intern--Fall-2026-Internship_JR-102685) |
 | NVIDIA ✓ | Performance Engineer Intern, Systems Software-  Fall 2026 | Software | US, MO, St. Louis | Jul 06, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779) |
 | Saronic | Enterprise Technology Intern - AI and Automation (Fall 2026) 🇺🇸 | Data & ML/AI | Austin, TX | Jul 02, 2026 | [Apply](https://jobs.ashbyhq.com/saronic/c95c2e3a-4c67-47b0-a03d-0e0317ac11a3) |
 | NVIDIA ✓ | Applied Research Intern, NLP - Fall 2026 | Data & ML/AI | US, CA, Santa Clara | Jul 01, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488) |
@@ -119,12 +122,14 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 | MSM Inc. | AI Solutions Co-op (Fall 2026) | Data & ML/AI | Webster, NY | — | [Apply](https://ats.rippling.com/msm/jobs/6326629b-5434-4a86-8fce-d0e28ec424d4) |
 
-## Recently posted — cycle not stated  (53 roles)
+## Recently posted — cycle not stated  (55 roles)
 
 These postings don't name a cycle, so we won't pretend they did. They're recent tech internships whose likely cycle (the ~ column) is inferred from the posting date alone — often exactly the early drops worth applying to first, just not *proven* to belong to a cycle. When a posting's own text later states one, the role moves up into that section.
 
 | Company | Role | Likely cycle | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|---|
+| Nelnet ✓ | Intern Program - Agentic AI 🆕 | ~Summer 2027 | Data & ML/AI | Lincoln, NE | Jul 27, 2026 | [Apply](https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern-Program---Agentic-AI_R22904) |
+| Nokia ✓ | Architecture AI Co-op 🛂 🆕 | ~Summer 2027 | Data & ML/AI | United States | Jul 27, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36722) |
 | Toshiba Global Commerce ✓ | Agentic Software Engineering intern 🛂 🆕 | ~Summer 2027 | Software | Durham, NC | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5177892007) |
 | Toshiba Global Commerce ✓ | Project Management & AI Automation Intern 🛂 🆕 | ~Summer 2027 | Data & ML/AI | Frisco, TX | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5190937007) |
 | Toshiba Global Commerce ✓ | AI Engineering Intern 🛂 🆕 | ~Summer 2027 | Data & ML/AI | Frisco, TX | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5192820007) |
@@ -223,7 +228,7 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 _57 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **22** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 39 roles that left the list in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 37 roles that left the list in the last 14 days</summary>
 
 _Why each one left is in the last column, because the two reasons carry different evidence. **Gone from feed** = two consecutive complete reads of the employer's board no longer returned it (strong, but not the employer telling us directly). **Out of scope** = still posted, but it no longer passes our filters — our call, not theirs. **Not recorded** = closed before we started tracking the reason._
 
@@ -241,7 +246,6 @@ _Why each one left is in the last column, because the two reasons carry differen
 | Exowatt | Software Engineering Intern  - Inventory Automation & IoT/Robotics | Summer 2027 | 2026-07-23 | not recorded |
 | Intel | AI Software Engineering Intern | Summer 2027 | 2026-07-23 | not recorded |
 | Lila Sciences | Co-Op, AI Security | Summer 2027 | 2026-07-23 | not recorded |
-| Sentara Health | Enterprise Data & AI Intern- Fall 2026 Internship | Fall 2026 | 2026-07-23 | not recorded |
 | SS&C | Healthcare AI & Automation Intern | Summer 2027 | 2026-07-23 | not recorded |
 | Nokia | AI R&D Engineer Co-op | Summer 2027 | 2026-07-23 | not recorded |
 | GenBio AI | Software Engineering Intern | Summer 2027 | 2026-07-22 | not recorded |
@@ -267,7 +271,6 @@ _Why each one left is in the last column, because the two reasons carry differen
 | NVIDIA | Quantum Research Scientist Intern - Fall 2026 | Fall 2026 | 2026-07-13 | not recorded |
 | NVIDIA | Software Engineering Intern, JAX - Fall 2026 | Fall 2026 | 2026-07-13 | not recorded |
 | Skydio | Middleware Software Engineer Intern - Fall 2026 | Fall 2026 | 2026-07-13 | not recorded |
-| CACI | Software Engineering Intern - Fall 2026 | Fall 2026 | 2026-07-13 | not recorded |
 
 </details>
 
@@ -286,7 +289,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,675 of 3,914 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 405.6s · 118 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 3,674 of 3,914 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 409.3s · 114 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 

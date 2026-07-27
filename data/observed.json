@@ -121,9 +121,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-23",
-     "count": 1,
+     "count": 2,
      "role_ids": [
-      "greenhouse:appian:8041237"
+      "greenhouse:appian:8041237",
+      "greenhouse:appian:8088496"
      ]
     }
    }
@@ -491,9 +492,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 1,
+     "count": 2,
      "role_ids": [
-      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275"
+      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275",
+      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378"
      ]
     }
    }
@@ -893,5 +895,5 @@
    }
   }
  },
- "updated_at": "2026-07-27T13:43:22Z"
+ "updated_at": "2026-07-27T16:20:26Z"
 }
