@@ -20,6 +20,7 @@ from intern_engine.connectors import (
     workable,
     workday,
 )
+from intern_engine.models import Fetch
 
 
 class FakeNet:
@@ -39,7 +40,17 @@ class FakeNet:
 
 
 def _run(coro):
-    return asyncio.run(coro)
+    """Run a connector and return its jobs.
+
+    Connectors may return a bare list or a models.Fetch (jobs + completeness);
+    these tests care about the parsing, so normalize to the job list. Tests that
+    assert on completeness use `_fetch` instead.
+    """
+    return _fetch(coro).jobs
+
+
+def _fetch(coro) -> Fetch:
+    return Fetch.of(asyncio.run(coro))
 
 
 def test_greenhouse():
@@ -73,7 +84,7 @@ def test_lever():
     assert jobs[0].location == "San Francisco"
     assert jobs[0].posted_at and jobs[0].posted_at.startswith("2024")
     assert "unable to sponsor" in jobs[0].description  # free text for the classifier
-    assert jobs[0].salary == "40,000–60,000 USD / per year salary"
+    assert jobs[0].salary == "40,000–60,000 USD/yr"
 
 
 def test_ashby_skips_unlisted():
@@ -130,12 +141,18 @@ def test_workday_relative_dates():
     ]}
     company = {"name": "Acme", "slug": "acme", "wd": "wd5", "site": "Careers"}
     net = FakeNet(payload)
-    jobs = _run(workday.fetch(company, net))
+    result = _fetch(workday.fetch(company, net))
+    jobs = result.jobs
     assert jobs[0].posted_at is not None        # "3 Days Ago" resolves to a date
     assert jobs[1].posted_at is None            # "30+ Days Ago" is too vague
     assert jobs[0].url.endswith("/Careers/job/1")
-    # 2 postings < page size -> exactly one request, no useless pagination.
-    assert len(net.urls) == 1
+    # Both searches ran to exhaustion, so this is the company's whole list.
+    assert result.complete
+    # The two search terms return the same postings here; identity is the job
+    # id, so the overlap collapses instead of double-listing every role.
+    assert len(jobs) == 2
+    # 2 postings < page size -> one request per term, no useless pagination.
+    assert len(net.urls) == 2
     assert net.urls[0] == "https://acme.wd5.myworkdayjobs.com/wday/cxs/acme/Careers/jobs"
 
 
@@ -175,6 +192,91 @@ def test_breezy():
     assert jobs[0].location == "Provo, UT"
     assert jobs[0].salary == "$25/hr"
     assert jobs[0].posted_at.startswith("2026-06-15")
+
+
+class TestSnapshotCompleteness:
+    """A capped response must say so, or the store closes live roles.
+
+    Every source here caps its result count. A capped page is indistinguishable
+    from "this company has no more roles" unless the connector reports it — and
+    the store closes anything a complete fetch didn't return.
+    """
+
+    def test_full_page_with_more_pending_is_incomplete(self):
+        # A full page and a server total far above it: the rest was cut off.
+        posting = {"title": "SWE Intern", "externalPath": "/job/1",
+                   "locationsText": "Austin, TX"}
+        payload = {"total": 5000, "jobPostings": [posting] * 20}
+        company = {"name": "Medtronic", "slug": "medtronic", "wd": "wd1",
+                   "site": "MedtronicCareers"}
+        result = _fetch(workday.fetch(company, FakeNet(payload)))
+        assert result.complete is False
+
+    def test_short_page_is_complete(self):
+        payload = {"total": 1, "jobPostings": [
+            {"title": "SWE Intern", "externalPath": "/job/1", "locationsText": "TX"},
+        ]}
+        company = {"name": "Acme", "slug": "acme", "wd": "wd5", "site": "Careers"}
+        assert _fetch(workday.fetch(company, FakeNet(payload))).complete is True
+
+    def test_amazon_reports_truncation(self):
+        job = {"title": "SDE Intern", "job_path": "/en/jobs/1/sde",
+               "normalized_location": "Seattle, WA", "id_icims": "1"}
+        capped = {"hits": 9000, "jobs": [job] * 100}
+        assert _fetch(amazon.fetch({}, FakeNet(capped))).complete is False
+        whole = {"hits": 1, "jobs": [job]}
+        assert _fetch(amazon.fetch({}, FakeNet(whole))).complete is True
+
+    def test_smartrecruiters_reports_truncation(self):
+        posting = {"id": "p1", "name": "Data Science Intern",
+                   "location": {"city": "Austin", "region": "TX", "country": "us"}}
+        company = {"name": "Acme", "slug": "Acme"}
+        capped = {"totalFound": 900, "content": [posting] * 100}
+        assert _fetch(smartrecruiters.fetch(company, FakeNet(capped))).complete is False
+        whole = {"totalFound": 1, "content": [posting]}
+        assert _fetch(smartrecruiters.fetch(company, FakeNet(whole))).complete is True
+
+    def test_whole_board_connectors_are_complete_when_well_formed(self):
+        # Greenhouse reads the entire board in one call — nothing to truncate.
+        payload = {"jobs": [{"id": 1, "title": "SWE Intern",
+                             "location": {"name": "NY"}, "absolute_url": "u"}]}
+        result = _fetch(greenhouse.fetch({"name": "Acme", "slug": "acme"},
+                                         FakeNet(payload)))
+        assert result.complete is True
+
+    def test_an_empty_board_is_still_complete(self):
+        # A real board with zero openings must be able to close its old roles.
+        result = _fetch(greenhouse.fetch({"name": "Acme", "slug": "acme"},
+                                         FakeNet({"jobs": []})))
+        assert result.jobs == []
+        assert result.complete is True
+
+    def test_malformed_200_is_not_an_empty_board(self):
+        # The dangerous case: an API answering `{}` or an error object parses
+        # fine and yields zero jobs, which is indistinguishable from "no
+        # openings" — and would close EVERY role that employer has.
+        company = {"name": "Acme", "slug": "acme"}
+        for payload in ({}, {"error": "rate limited"}, {"jobs": None}, []):
+            result = _fetch(greenhouse.fetch(company, FakeNet(payload)))
+            assert result.jobs == []
+            assert result.complete is False, payload
+
+    def test_every_whole_board_connector_rejects_garbage(self):
+        garbage = {"unexpected": "shape"}
+        company = {"name": "Acme", "slug": "acme", "host": "h", "domain": "d"}
+        for mod in (greenhouse, lever, ashby, breezy, recruitee, rippling):
+            result = _fetch(mod.fetch(company, FakeNet(garbage)))
+            assert result.complete is False, mod.__name__
+
+    def test_eightfold_full_page_without_a_total_is_incomplete(self):
+        # `int(data.get("count") or 0)` made a missing count read as 0, so
+        # `start >= 0` was trivially true and a truncated page looked complete.
+        position = {"id": 1, "name": "SWE Intern", "locations": ["NY"],
+                    "t_create": 1782086400}
+        company = {"name": "Netflix", "slug": "netflix", "ats": "eightfold",
+                   "host": "explore.jobs.netflix.net", "domain": "netflix.com"}
+        full = {"positions": [position] * 100}  # a full page, no count field
+        assert _fetch(eightfold.fetch(company, FakeNet(full))).complete is False
 
 
 def test_recruitee():
@@ -230,3 +332,113 @@ def test_eightfold_no_positions():
                "host": "explore.jobs.netflix.net", "domain": "netflix.com"}
     jobs = _run(eightfold.fetch(company, FakeNet({"count": 0, "positions": []})))
     assert jobs == []
+
+
+class TestMalformedResponses:
+    """A malformed HTTP 200 is not an empty board — for EVERY connector.
+
+    Six whole-board connectors were fixed first; the five paginated ones still
+    read `{}` as "short page, therefore exhausted" and reported complete, which
+    lets one bad response close an entire employer's roles.
+    """
+
+    COMPANY = {"name": "Acme", "slug": "acme", "wd": "wd5", "site": "S",
+               "host": "h.oraclecloud.com", "domain": "d"}
+    MODULES = (greenhouse, lever, ashby, breezy, recruitee, rippling,
+               amazon, eightfold, oracle, smartrecruiters, workable, workday)
+
+    def test_no_connector_reports_complete_on_an_empty_object(self):
+        for mod in self.MODULES:
+            result = _fetch(mod.fetch(self.COMPANY, FakeNet({})))
+            assert result.complete is False, mod.__name__
+
+    def test_no_connector_reports_complete_on_an_error_payload(self):
+        for mod in self.MODULES:
+            result = _fetch(mod.fetch(self.COMPANY,
+                                      FakeNet({"error": "rate limited"})))
+            assert result.jobs == [], mod.__name__
+            assert result.complete is False, mod.__name__
+
+
+class TestAmazonLocation:
+    """Amazon's search is worldwide, so the country half has to be right."""
+
+    def _loc(self, **fields):
+        return amazon._location(fields)
+
+    def test_us_roles_expand_the_state(self):
+        # normalized_location said "Westboro, Wisconsin"; city/state say MA.
+        assert self._loc(city="Westboro", state="MA", country_code="US",
+                         normalized_location="Westboro, Wisconsin, USA") == \
+            "Westboro, Massachusetts, USA"
+
+    def test_foreign_roles_are_named_not_state_coded(self):
+        from intern_engine import filters
+        # "Toronto, ON, CA" handed the region filter California; "Bangalore,
+        # KA, IN" handed it Indiana. Both then passed as US.
+        for fields, country in (
+            (dict(city="Toronto", state="ON", country_code="CA"), "Canada"),
+            (dict(city="Bangalore", state="KA", country_code="IN"), "India"),
+            (dict(city="Munich", state="BY", country_code="DE"), "Germany"),
+        ):
+            loc = self._loc(**fields)
+            assert loc.endswith(country), loc
+            assert not filters.is_united_states(loc), loc
+
+    def test_unknown_country_is_not_guessed_as_us(self):
+        from intern_engine import filters
+        loc = self._loc(city="Somewhere", state="ZZ", country_code="ZZ")
+        assert not filters.is_united_states(loc), loc
+
+    def test_missing_country_only_reads_us_for_a_real_state_code(self):
+        from intern_engine import filters
+        assert filters.is_united_states(self._loc(city="Austin", state="TX"))
+        # "BC" is not a US state — don't silently default the country to US.
+        assert not filters.is_united_states(self._loc(city="Vancouver", state="BC"))
+
+
+class TestErrorEnvelopes:
+    """An error wearing an empty board's clothes must not read as complete.
+
+    `{"error": "rate limited", "jobs": []}` passed the earlier shape check —
+    the container IS a list — and closed every role that employer had. Only a
+    TRUTHY error disqualifies: Amazon ships `"error": null` on healthy pages.
+    """
+
+    COMPANY = {"name": "Acme", "slug": "acme", "wd": "wd5", "site": "S",
+               "host": "h.oraclecloud.com", "domain": "d"}
+    ENVELOPES = {
+        greenhouse: {"error": "rate limited", "jobs": []},
+        ashby: {"error": "rate limited", "jobs": []},
+        recruitee: {"error": "x", "offers": []},
+        workable: {"error": "x", "results": []},
+        smartrecruiters: {"error": "x", "content": []},
+        workday: {"error": "x", "jobPostings": []},
+        eightfold: {"error": "x", "positions": []},
+        amazon: {"error": "throttled", "jobs": [], "hits": 0},
+        oracle: {"error": "x", "items": []},
+    }
+
+    def test_error_with_a_wellformed_empty_container_is_incomplete(self):
+        for mod, payload in self.ENVELOPES.items():
+            result = _fetch(mod.fetch(self.COMPANY, FakeNet(payload)))
+            assert result.jobs == [], mod.__name__
+            assert result.complete is False, mod.__name__
+
+    def test_amazon_null_error_field_is_a_healthy_response(self):
+        payload = {"error": None, "hits": 1, "jobs": [{
+            "title": "SDE Intern", "job_path": "/j/1", "id_icims": "1",
+            "city": "Seattle", "state": "WA", "country_code": "US",
+        }]}
+        result = _fetch(amazon.fetch({}, FakeNet(payload)))
+        assert result.complete is True
+        assert len(result.jobs) == 1
+
+    def test_junk_list_members_poison_completeness(self):
+        # `[{}]` parses as a list of dicts but yields id ":None" rows. Those
+        # are dropped, and their presence means the listing can't be trusted
+        # to close anything.
+        result = _fetch(greenhouse.fetch({"name": "Acme", "slug": "acme"},
+                                         FakeNet({"jobs": [{}]})))
+        assert result.jobs == []
+        assert result.complete is False

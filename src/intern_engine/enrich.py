@@ -67,11 +67,16 @@ async def _workday(job: Job, net: Net) -> str | None:
         f"https://{host}/wday/cxs/{tenant}/{site}{path}", headers=_BROWSER_HEADERS
     )
     info = data.get("jobPostingInfo") or {}
-    # The detail API knows the exact go-live date; the list API only said
-    # "N days ago". Backfill so more rows get a real Posted date.
+    # The detail API knows the real go-live date; the list API only said
+    # "N days ago". The detail date fills blanks AND corrects approximations —
+    # the old `if not job.posted_at` guard meant a derived guess, once present,
+    # blocked the true date from ever landing.
     start = info.get("startDate")
-    if not job.posted_at and isinstance(start, str) and len(start) == 10:
+    if isinstance(start, str) and len(start) == 10 and (
+        not job.posted_at or job.posted_at_source == "relative_derived"
+    ):
         job.posted_at = f"{start}T00:00:00Z"
+        job.posted_at_source = "date_only"
     return info.get("jobDescription")
 
 
@@ -125,7 +130,12 @@ async def enrich_jobs(jobs: list[Job], existing: dict, net: Net) -> tuple[set[st
     async def _resolve(job: Job) -> str | None:
         nonlocal fetched
         prior = existing.get(job.id) or {}
-        settled = bool(
+        # A verdict is settled only while the classifier that produced it is
+        # still current. Records stamped with an older classifier_v (or none)
+        # are re-read once, so rule improvements reach the WHOLE live list
+        # instead of only roles discovered after the change.
+        current = prior.get("classifier_v") == sponsorship.VERSION
+        settled = current and bool(
             prior.get("enriched_at") or prior.get("sponsorship", "unknown") != "unknown"
         )
         if settled and prior.get("skills") is not None:
@@ -141,6 +151,14 @@ async def enrich_jobs(jobs: list[Job], existing: dict, net: Net) -> tuple[set[st
                     fetched += 1
                 except Exception:  # noqa: BLE001 — a dead detail page must not kill the run
                     return None  # no enriched_at -> retried on the next run
+        if job.source in _FETCHERS:
+            # A 200 whose body carries no text is absence of evidence, not
+            # evidence of absence. Stamping it enriched_at froze an "unknown"
+            # verdict forever off an empty page; leaving it unstamped costs one
+            # detail fetch per run for the handful of boards that do this.
+            evidence = sponsorship.strip_html(job.description) if job.description else ""
+            if not evidence.strip():
+                return None
         if settled:
             job.sponsorship = prior.get("sponsorship", "unknown")  # never flip a verdict
         else:

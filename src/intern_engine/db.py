@@ -62,11 +62,21 @@ def _job_rows(store_data: dict) -> list[dict]:
             "url": r.get("url"),
             "category": r.get("category"),
             "season": r.get("season"),
+            "seasons": r.get("seasons") or None,
+            # The evidence columns. Without these the mirror can't tell a
+            # stated cycle from a guess, or a real date from a derived one —
+            # which is most of what makes this dataset worth querying.
+            "season_inferred": bool(r.get("season_inferred")),
             "region": "US" if filters.is_united_states(location) else "International",
             "sponsorship": r.get("sponsorship", "unknown"),
+            "salary": r.get("salary"),
+            "skills": r.get("skills") or None,
             "posted_at": r.get("posted_at"),
+            "posted_at_source": r.get("posted_at_source"),
             "first_seen_at": r.get("first_seen_at"),
             "last_seen_at": r.get("last_seen_at"),
+            "closed_at": r.get("closed_at"),
+            "closed_reason": r.get("closed_reason"),
             "is_open": bool(r.get("is_open")),
         })
     return rows
@@ -101,5 +111,11 @@ def sync(store_data: dict, stats: dict) -> bool:
         client.table("scrape_runs").insert(_run_row(stats)).execute()
         return True
     except Exception as exc:  # noqa: BLE001 - DB is a mirror; never break the run
-        print(f"  (Postgres sync skipped: {type(exc).__name__}: {exc})")
+        # Loud on purpose. The usual cause is a schema older than the writer
+        # (db/schema.sql has `alter table ... add column if not exists` for
+        # exactly this) — and a silently-skipped mirror looks identical to a
+        # working one from the outside.
+        print(f"  (Postgres sync FAILED: {type(exc).__name__}: {exc})")
+        print("   If this mentions an unknown column, re-run db/schema.sql —"
+              " it migrates existing tables.")
         return False

@@ -112,6 +112,104 @@ class TestRegion:
         assert filters.is_united_states("Ontario, California")
         assert filters.is_united_states("Ontario, California, United States")
 
+    def test_city_names_containing_usa_are_not_us(self):
+        # The Medtronic leak: "usa" was matched as a SUBSTRING, so every city
+        # spelling those three letters in a row read as the United States and
+        # foreign roles landed in a US-only list.
+        assert not filters.is_united_states("Lausanne, Vaud, Switzerland")
+        assert not filters.is_united_states("Jerusalem, Israel")
+        assert not filters.is_united_states("Busan, South Korea")
+        assert not filters.is_united_states("Syracuse, Sicily, Italy")
+        # …while the same letters as a real token still count, and a US city
+        # that merely contains them keeps its state code.
+        assert filters.is_united_states("Sausalito, CA")
+        assert filters.is_united_states("Syracuse, New York")
+
+    def test_us_country_token_spellings(self):
+        for loc in ("United States", "United States of America", "USA",
+                    "U.S.A.", "U.S.", "Remote - US", "New York, NY, USA"):
+            assert filters.is_united_states(loc), loc
+
+    def test_more_foreign_countries_are_excluded(self):
+        for loc in ("London, England", "Edinburgh, Scotland", "Kyiv, Ukraine",
+                    "Vilnius, Lithuania", "Zagreb, Croatia", "Amman, Jordan",
+                    "Quito, Ecuador", "Kathmandu, Nepal"):
+            assert not filters.is_united_states(loc), loc
+
+    def test_new_england_is_not_read_as_foreign(self):
+        # "England" hides inside "New England" — a US region.
+        assert filters.is_united_states("Cambridge, MA (New England)")
+
+
+class TestMultiCycle:
+    """One requisition can genuinely hire for two cycles."""
+
+    CYCLES = ("Summer 2027", "Fall 2026")
+
+    def test_both_stated_cycles_are_returned(self):
+        # The Deepgram case: stored as Summer 2027 only, so the Fall 2026
+        # section never showed a role that literally says Fall 2026.
+        title = "Software Engineering Internship (Fall 2026/Summer 2027)"
+        assert filters.detect_seasons(title, self.CYCLES) == [
+            "Summer 2027", "Fall 2026",
+        ]
+
+    def test_single_cycle_returns_one(self):
+        assert filters.detect_seasons(
+            "SWE Intern, Summer 2027", self.CYCLES) == ["Summer 2027"]
+
+    def test_untracked_cycles_are_not_returned(self):
+        assert filters.detect_seasons("Intern, Spring 2028", self.CYCLES) == []
+
+    def test_yearless_title_returns_nothing(self):
+        # detect_seasons never infers — that's infer_season's job.
+        assert filters.detect_seasons("Software Engineer Intern", self.CYCLES) == []
+
+    def test_tracked_cycle_survives_an_untracked_neighbour(self):
+        # "Fall 2026 / Summer 2028": the year scan found {2026, 2028} and the
+        # term scan picked Summer, so nothing matched and a title literally
+        # stating a tracked cycle was dropped as off-cycle.
+        assert filters.detect_season(
+            "Fall 2026 / Summer 2028 Software Intern", self.CYCLES) == "Fall 2026"
+
+
+
+class TestProgramType:
+    def test_coop_titles(self):
+        for title in ("Software Co-op", "Engineering CO-OP (Fall)",
+                      "Data Coop Student"):
+            assert filters.program_type(title) == "Co-op", title
+
+    def test_internship_titles(self):
+        for title in ("Software Engineer Intern", "SWE Internship Summer 2027"):
+            assert filters.program_type(title) == "Internship", title
+
+    def test_titles_offering_both_are_labelled_both(self):
+        # Real titles: filing these under one label hid them from students
+        # filtering for the other, even though the employer offers either.
+        for title in ("Software Engineer Intern/Co-Op - Fall 2026",
+                      "Robotics - Software Development Engineer Intern/Co-op",
+                      "Backend Co op Intern"):
+            assert filters.program_type(title) == "Internship / Co-op", title
+
+    def test_cooperative_is_not_a_coop(self):
+        # "Cooperative" the adjective must not read as the co-op program type.
+        assert filters.program_type("Cooperative Robotics Intern") == "Internship"
+
+
+class TestRemote:
+    def test_remote_locations(self):
+        for loc in ("Remote", "Remote - US", "Austin, TX (Remote)", "US Remote"):
+            assert filters.is_remote(loc), loc
+
+    def test_onsite_locations(self):
+        for loc in ("New York, NY", "Austin, TX", "", "Seattle, Washington"):
+            assert not filters.is_remote(loc), loc
+
+    def test_remote_sensing_is_a_field_of_study_not_a_work_mode(self):
+        assert not filters.is_remote("Pasadena, CA", "Remote Sensing Software Intern")
+        assert filters.is_remote("Pasadena, CA", "Software Intern (Remote)")
+
 
 class TestCategory:
     def test_categories(self):

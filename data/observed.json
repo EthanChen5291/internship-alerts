@@ -5,7 +5,11 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-09",
-     "count": 60
+     "count": 2,
+     "role_ids": [
+      "ashby:1password:8f8774dc-e400-48b1-8100-c6840b8eaed1",
+      "ashby:1password:b6b8c8ed-ff1c-4bc2-9dbe-5122207ea3a2"
+     ]
     }
    }
   },
@@ -14,7 +18,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-18",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "workday:abb:/job/USA-NC-Cary/AI---Data-Scientist-AI-Intern---Fall-2026_JR00036225"
+     ]
     }
    }
   },
@@ -23,7 +30,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-20",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "lever:achievers:6a348eef-0078-4d6a-bc90-f2d7077d2987"
+     ]
     }
    }
   },
@@ -32,7 +42,14 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-13",
-     "count": 150
+     "count": 5,
+     "role_ids": [
+      "greenhouse:akunacapital:8018847",
+      "greenhouse:akunacapital:8018853",
+      "greenhouse:akunacapital:8018856",
+      "greenhouse:akunacapital:8018886",
+      "greenhouse:akunacapital:8018893"
+     ]
     }
    }
   },
@@ -41,11 +58,37 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2025-10-08",
-     "count": 570
+     "count": 19,
+     "role_ids": [
+      "amazon:amazon:10375983",
+      "amazon:amazon:10375998",
+      "amazon:amazon:10376009",
+      "amazon:amazon:10376731",
+      "amazon:amazon:10376736",
+      "amazon:amazon:10376947",
+      "amazon:amazon:10377010",
+      "amazon:amazon:10377042",
+      "amazon:amazon:10394507",
+      "amazon:amazon:10395459",
+      "amazon:amazon:10412530",
+      "amazon:amazon:3104589",
+      "amazon:amazon:3116030",
+      "amazon:amazon:3122111",
+      "amazon:amazon:3132414",
+      "amazon:amazon:3136266",
+      "amazon:amazon:3147202",
+      "amazon:amazon:3149133",
+      "amazon:amazon:3204846"
+     ]
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 90
+     "count": 3,
+     "role_ids": [
+      "amazon:amazon:10418355",
+      "amazon:amazon:10456239",
+      "amazon:amazon:10459543"
+     ]
     }
    }
   },
@@ -54,7 +97,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-10",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:andurilindustries:5148079007"
+     ]
     }
    }
   },
@@ -63,7 +109,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-23",
-     "count": 3
+     "count": 1,
+     "role_ids": [
+      "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96"
+     ]
     }
    }
   },
@@ -72,7 +121,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-23",
-     "count": 10
+     "count": 1,
+     "role_ids": [
+      "greenhouse:appian:8041237"
+     ]
     }
    }
   },
@@ -81,7 +133,11 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-13",
-     "count": 38
+     "count": 2,
+     "role_ids": [
+      "greenhouse:astranis:4681183006",
+      "greenhouse:astranis:4699071006"
+     ]
     }
    }
   },
@@ -90,7 +146,23 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-20",
-     "count": 60
+     "count": 2,
+     "role_ids": [
+      "greenhouse:axontalentcommunity:7800617003",
+      "greenhouse:axontalentcommunity:7800628003"
+     ]
+    }
+   }
+  },
+  "beacon software": {
+   "name": "Beacon Software",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-02",
+     "role_ids": [
+      "ashby:beaconsoftware:2452d342-a069-4eda-adbe-9df296808ca1"
+     ],
+     "count": 1
     }
    }
   },
@@ -99,7 +171,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-02",
-     "count": 30
+     "count": 0
     }
    }
   },
@@ -108,7 +180,12 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-30",
-     "count": 90
+     "count": 3,
+     "role_ids": [
+      "workday:caci:/job/Jessup-MD-US/Software-Engineering-Intern---Fall-2026_328740",
+      "workday:caci:/job/King-of-Prussia-PA-US/AI-ML-Engineering-Co-op---Fall-2026_327839",
+      "workday:caci:/job/King-of-Prussia-PA-US/AI-ML-Engineering-Co-op---Fall-2026_328403"
+     ]
     }
    }
   },
@@ -117,7 +194,22 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-03-05",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "lever:aisafety:e011814b-9a80-43d6-bb0c-cc153ea4bec4"
+     ]
+    }
+   }
+  },
+  "charles river analytics": {
+   "name": "Charles River Analytics",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-06-29",
+     "role_ids": [
+      "greenhouse:charlesriveranalytics90:8035563"
+     ],
+     "count": 1
     }
    }
   },
@@ -126,7 +218,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-29",
-     "count": 30
+     "count": 0
     }
    }
   },
@@ -135,7 +227,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-16",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "workday:chevron:/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1"
+     ]
     }
    }
   },
@@ -144,7 +239,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-20",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:ctccampusboard:4708230005"
+     ]
     }
    }
   },
@@ -153,7 +251,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-03-18",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "ashby:creatify:75a1f1ad-13d2-4513-952c-71b6dfcaa84f"
+     ]
     }
    }
   },
@@ -162,7 +263,17 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-17",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "ashby:deepgram:dc8693b5-72ce-4ca3-ab15-9c8434d35da1"
+     ]
+    },
+    "Fall 2026": {
+     "first_posted": "2026-07-17",
+     "role_ids": [
+      "ashby:deepgram:dc8693b5-72ce-4ca3-ab15-9c8434d35da1"
+     ],
+     "count": 1
     }
    }
   },
@@ -171,7 +282,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-27",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "workday:dmainc:/job/Fort-Wayne-IN/Software-Development-Intern_REQ460"
+     ]
     }
    }
   },
@@ -180,7 +294,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-03-26",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "ashby:ellipsislabs:02136b22-35b1-4b3d-8bef-567c3380a849"
+     ]
     }
    }
   },
@@ -189,7 +306,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-22",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:figureai:4691070006"
+     ]
     }
    }
   },
@@ -198,7 +318,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-14",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:fiveringsllc:5349707008"
+     ]
     }
    }
   },
@@ -207,7 +330,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-02",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:fourhands:4267718009"
+     ]
     }
    }
   },
@@ -216,7 +342,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-01",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:gemini:7875125"
+     ]
     }
    }
   },
@@ -225,7 +354,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-12",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2026-Fall-Intern---Research---Development--AI-ML_JR-202612795"
+     ]
     }
    }
   },
@@ -234,7 +366,13 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-03-04",
-     "count": 120
+     "count": 4,
+     "role_ids": [
+      "lever:hermeus:10d69ef6-a754-42ab-833c-76adf01367bf",
+      "lever:hermeus:49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
+      "lever:hermeus:51378fa0-0327-45fd-9420-b6e7d8b56440",
+      "lever:hermeus:a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67"
+     ]
     }
    }
   },
@@ -243,7 +381,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-13",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:wehrtyou:8052083"
+     ]
     }
    }
   },
@@ -252,7 +393,11 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-01",
-     "count": 60
+     "count": 2,
+     "role_ids": [
+      "greenhouse:imc:4823924101",
+      "greenhouse:imc:4907430101"
+     ]
     }
    }
   },
@@ -261,7 +406,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-22",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "smartrecruiters:Intuitive:744000133458290"
+     ]
     }
    }
   },
@@ -270,7 +418,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-30",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "ashby:junior:23ee686b-d305-4ac9-860d-16c99ddb4891"
+     ]
     }
    }
   },
@@ -279,7 +430,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-20",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "workday:lego:/job/Boston-Hub/Firmware-Engineering-Intern_0000031568"
+     ]
     }
    }
   },
@@ -288,7 +442,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-20",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "workday:medtronic:/job/Lausanne-Vaud-Switzerland/Intern-AI-Vision-for-Equipment-Development_R72173"
+     ]
     }
    }
   },
@@ -297,7 +454,22 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-16",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "workday:moog:/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145"
+     ]
+    }
+   }
+  },
+  "mosaic": {
+   "name": "Mosaic",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-07-27",
+     "role_ids": [
+      "workday:mosaic:/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1"
+     ],
+     "count": 1
     }
    }
   },
@@ -306,7 +478,11 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-03-30",
-     "count": 60
+     "count": 2,
+     "role_ids": [
+      "workday:motorolasolutions:/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372",
+      "workday:motorolasolutions:/job/Los-Angeles-CA/Intern---Web-Interface-Software-Engineer--2026-_R64590"
+     ]
     }
    }
   },
@@ -315,7 +491,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275"
+     ]
     }
    }
   },
@@ -324,7 +503,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-06",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "ashby:notion:5b15697c-fa91-4511-9482-c98a6ff29f90"
+     ]
     }
    }
   },
@@ -333,7 +515,17 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-24",
-     "count": 240
+     "count": 8,
+     "role_ids": [
+      "workday:nvidia:/job/China-Beijing/Solution-Architecture-Intern--AI-Infra---2026_JR2019909",
+      "workday:nvidia:/job/China-Beijing/Solution-Architecture-Intern--AI-in-Industry---2026_JR2014186",
+      "workday:nvidia:/job/China-Shanghai/Machine-Learning-Intern--Humanoid-Robotics---2026_JR2018845",
+      "workday:nvidia:/job/US-CA-Remote/Quantum-Error-Correction-Research-Scientist-Intern---Fall-2026_JR2018628",
+      "workday:nvidia:/job/US-CA-Remote/Quantum-Research-Scientist-Intern---Fall-2026_JR2018244",
+      "workday:nvidia:/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
+      "workday:nvidia:/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745",
+      "workday:nvidia:/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779"
+     ]
     }
    }
   },
@@ -342,7 +534,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-12",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "workday:omers:/job/New-York-New-York/Student--AI-Enablement---Adoption-Specialist--Fall-2026--4-Months----New-York_JR-8159"
+     ]
     }
    }
   },
@@ -351,7 +546,22 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-15",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "oracle:hctz.fa.us2.oraclecloud.com:2505878"
+     ]
+    }
+   }
+  },
+  "pdt partners": {
+   "name": "PDT Partners",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-07-24",
+     "count": 1,
+     "role_ids": [
+      "greenhouse:pdtpartners:8077685"
+     ]
     }
    }
   },
@@ -360,7 +570,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-24",
-     "count": 5
+     "count": 1,
+     "role_ids": [
+      "ashby:quadrillion-labs:a4acc44c-31ce-41a0-ab44-2500487b4d05"
+     ]
     }
    }
   },
@@ -369,7 +582,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-13",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "ashby:reliable-robotics:c4968e8a-a901-4ec1-9a9d-bb5cd96efc4f"
+     ]
     }
    }
   },
@@ -378,7 +594,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-21",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:rocketlab:7736776003"
+     ]
     }
    }
   },
@@ -387,7 +606,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-24",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "workday:salesforce:/job/France---Paris/Sales-Business-Analyst-6-months-Interns---September-2026_JR340530-3"
+     ]
     }
    }
   },
@@ -396,7 +618,11 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-08",
-     "count": 60
+     "count": 2,
+     "role_ids": [
+      "greenhouse:samsungresearchamericainternship:8541339002",
+      "greenhouse:samsungresearchamericainternship:8560657002"
+     ]
     }
    }
   },
@@ -405,7 +631,11 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-18",
-     "count": 60
+     "count": 2,
+     "role_ids": [
+      "ashby:saronic:1c74957f-0895-415b-9324-08b0994747d7",
+      "ashby:saronic:c95c2e3a-4c67-47b0-a03d-0e0317ac11a3"
+     ]
     }
    }
   },
@@ -414,7 +644,11 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-15",
-     "count": 30
+     "count": 2,
+     "role_ids": [
+      "workday:sentara:/job/Virginia-Beach-VA/Data---AI-Finance-Strategy-Intern---Fall-2026-Internship-Remote_JR-103073",
+      "workday:sentara:/job/Virginia-Beach-VA/Enterprise-Data---AI-Intern--Fall-2026-Internship_JR-102685"
+     ]
     }
    }
   },
@@ -423,7 +657,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-02",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:sharkninjaoperatingllc:4669676006"
+     ]
     }
    }
   },
@@ -432,7 +669,11 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-05",
-     "count": 60
+     "count": 2,
+     "role_ids": [
+      "ashby:skydio:7d9dbb60-4ca1-4ba8-8bae-5ebfded4a915",
+      "ashby:skydio:f6320e9b-4eed-408d-8d37-d509fb0406ee"
+     ]
     }
    }
   },
@@ -441,7 +682,13 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-05-12",
-     "count": 120
+     "count": 4,
+     "role_ids": [
+      "ashby:snowflake:26a0ae52-97a6-4a46-9216-3c382570d89b",
+      "ashby:snowflake:41e65c6c-a01e-4f40-af14-ae75d3b95e27",
+      "ashby:snowflake:897e1850-c590-4462-b187-0516b65b2034",
+      "ashby:snowflake:e2412cd5-19dd-44f8-addd-c9ef3c99ff82"
+     ]
     }
    }
   },
@@ -450,7 +697,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-16",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "lever:solopulseco:00fbde18-a387-4c9f-97d4-77059aec7b56"
+     ]
     }
    }
   },
@@ -459,7 +709,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-08",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "workday:statestreet:/job/Quincy-Massachusetts/BestX-AI-Engineer--Full-time-Internship--July---Dec-2026-_R-784548"
+     ]
     }
    }
   },
@@ -468,7 +721,12 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-18",
-     "count": 90
+     "count": 3,
+     "role_ids": [
+      "workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2026-Fall-Co-op---Global-Technology---Solutions---Cyber-Security_R_1495397",
+      "workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2026-Fall-Co-op---Global-Technology-Solutions---Data-Engineer_R_1495653",
+      "workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2026-Fall-Co-op---Global-Technology-Solutions---Software-Engineer--SWE-_R_1495659"
+     ]
     }
    }
   },
@@ -477,7 +735,12 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-14",
-     "count": 90
+     "count": 3,
+     "role_ids": [
+      "ashby:telus-digital:85eb53c0-2457-4e07-85c9-36ef7f0c50d0",
+      "ashby:telus-digital:8c55d9eb-4e10-44e8-b323-cbc2146b620f",
+      "ashby:telus-digital:d3c383b5-6a56-46b6-8c4e-186188b19e1a"
+     ]
     }
    }
   },
@@ -486,7 +749,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-24",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "workable:tmeic-corporation-americas:FD4C9770FF"
+     ]
     }
    }
   },
@@ -495,7 +761,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-05",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:towerresearchcapital:8044334"
+     ]
     }
    }
   },
@@ -504,7 +773,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-15",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:thetradedesk:5187605007"
+     ]
     }
    }
   },
@@ -513,7 +785,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-09",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:uberfreight:5194491008"
+     ]
     }
    }
   },
@@ -522,7 +797,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-03-23",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:vardaspace:7676465003"
+     ]
     }
    }
   },
@@ -531,7 +809,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-06",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:verkada:5099422007"
+     ]
     }
    }
   },
@@ -540,7 +821,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-09",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "workday:vrtx:/job/Boston-MA/Vertex-Fall-Co-op-2026--AI-and-Governance_REQ-28615-1"
+     ]
     }
    }
   },
@@ -549,7 +833,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-21",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:virtu:8624410002"
+     ]
     }
    }
   },
@@ -558,7 +845,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-11",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "greenhouse:voloridgeinvestmentmanagement:4224862009"
+     ]
     }
    }
   },
@@ -567,7 +857,12 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-01",
-     "count": 90
+     "count": 3,
+     "role_ids": [
+      "greenhouse:walleyecapital-external-students:4676587006",
+      "greenhouse:walleyecapital-external-students:4679168006",
+      "greenhouse:walleyecapital-external-students:4679434006"
+     ]
     }
    }
   },
@@ -576,7 +871,12 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-28",
-     "count": 90
+     "count": 3,
+     "role_ids": [
+      "smartrecruiters:WesternDigital:744000134646158",
+      "smartrecruiters:WesternDigital:744000134646354",
+      "smartrecruiters:WesternDigital:744000138727213"
+     ]
     }
    }
   },
@@ -585,10 +885,13 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-09",
-     "count": 30
+     "count": 1,
+     "role_ids": [
+      "ashby:zip:caa5ba75-3b38-4d29-88cd-69a90b01fd6f"
+     ]
     }
    }
   }
  },
- "updated_at": "2026-07-24T14:55:56Z"
+ "updated_at": "2026-07-27T13:43:22Z"
 }

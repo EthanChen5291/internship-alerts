@@ -14,17 +14,23 @@ import re
 # Canonical display name -> match pattern. Order = display priority when a
 # posting matches more than MAX_SKILLS. Languages first (the strongest filter
 # signal), then ML, then infra/web.
+#
+# Patterns are case-insensitive by default. Names that are also ordinary
+# English words ("react quickly", "reducing rust", "a swift response") match
+# case-SENSITIVELY on the capitalized form instead — prose writes them
+# lowercase, tech stacks write them capitalized. (?-i:...) scopes that per
+# pattern (Python 3.11+).
 _VOCAB: list[tuple[str, str]] = [
     ("Python", r"python"),
     ("Java", r"java(?!\s*script)"),
     ("C++", r"c\+\+"),
     ("C#", r"c#|c\-sharp"),
     ("Go", r"golang|go\s+programming"),
-    ("Rust", r"rust"),
+    ("Rust", r"(?-i:Rust)"),
     ("TypeScript", r"typescript"),
     ("JavaScript", r"javascript|ecmascript"),
     ("SQL", r"sql"),
-    ("Swift", r"swift(?:ui)?"),
+    ("Swift", r"(?-i:Swift(?:UI)?)"),
     ("Kotlin", r"kotlin"),
     ("Scala", r"scala"),
     ("MATLAB", r"matlab"),
@@ -35,10 +41,10 @@ _VOCAB: list[tuple[str, str]] = [
     ("LLMs", r"llms?|large\s+language\s+models?|gen(?:erative)?\s*ai"),
     ("Computer Vision", r"computer\s+vision|opencv"),
     ("CUDA", r"cuda"),
-    ("React", r"react(?:\.?js)?(?:\s+native)?"),
+    ("React", r"(?-i:React(?:\.?[jJ]s)?(?:\s+Native)?)"),
     ("Node.js", r"node\.?js"),
-    ("Angular", r"angular(?:js)?"),
-    ("Vue", r"vue(?:\.?js)?"),
+    ("Angular", r"(?-i:Angular(?:JS)?)"),
+    ("Vue", r"vue\.?js|(?-i:Vue)"),
     ("Django", r"django"),
     ("Flask", r"flask"),
     ("Spring", r"spring\s+boot"),

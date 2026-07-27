@@ -18,8 +18,10 @@ Structure:
         "<normalized name>": {
           "name": "NVIDIA",
           "cycles": {
-            "Summer 2027": {"first_posted": "2026-09-03", "count": 4},
-            "Fall 2026":   {"first_posted": "2026-03-25", "count": 2}
+            "Summer 2027": {"first_posted": "2026-09-03", "count": 4,
+                            "role_ids": ["greenhouse:nvidia:1", ...]},
+            "Fall 2026":   {"first_posted": "2026-03-25", "count": 2,
+                            "role_ids": [...]}
           }
         }
       }
@@ -58,8 +60,14 @@ def update_from_store(store_data: dict, observed: dict | None = None,
     """Fold the store's real posted dates into the observed record.
 
     Keeps, per company and cycle, the EARLIEST posted date we have ever seen and
-    a running count of distinct roles. Monotonic: a role closing and being purged
-    from the store never erases the date we learned from it.
+    the set of distinct role ids behind it. Monotonic: a role closing and being
+    purged from the store never erases the date (or the id) we learned from it.
+
+    The ids are what make `count` mean something. It used to be a counter bumped
+    once per role per RUN, so an hourly schedule inflated it without limit —
+    Amazon showed 1,197 "roles" for a cycle it had posted a few dozen times.
+    Recording the ids makes the number both correct and auditable: anyone can
+    count the list themselves.
 
     Two guards keep the radar honest — a record is recorded only when BOTH hold:
 
@@ -78,28 +86,45 @@ def update_from_store(store_data: dict, observed: dict | None = None,
     companies = observed.setdefault("companies", {})
     tracked = set(cycles if cycles is not None else config.cycles(config.load_config()))
 
-    for record in store_data.values():
+    for role_id, record in store_data.items():
         if record.get("season_inferred"):
             continue  # a guessed cycle is not a real observation (see docstring)
-        cycle = record.get("season")
         day = _posted_day(record)
-        if not cycle or not day or cycle not in tracked:
-            continue  # only real, tracked-cycle drops become observations
+        if not day:
+            continue
         name = (record.get("company") or "").strip()
         key = h1b.normalize(name)
         if not key:
             continue
 
-        entry = companies.setdefault(key, {"name": name, "cycles": {}})
-        if name and (entry.get("name") in (None, "", key)):
-            entry["name"] = name
-        cyc = entry["cycles"].get(cycle)
-        if cyc is None:
-            entry["cycles"][cycle] = {"first_posted": day, "count": 1}
-        else:
-            cyc["count"] = cyc.get("count", 0) + 1
+        # A multi-cycle posting is a real drop in EVERY cycle it states —
+        # reading only the primary season lost Deepgram's Fall history.
+        for cycle in (record.get("seasons") or [record.get("season")]):
+            if not cycle or cycle not in tracked:
+                continue  # only real, tracked-cycle drops become observations
+            entry = companies.setdefault(key, {"name": name, "cycles": {}})
+            if name and (entry.get("name") in (None, "", key)):
+                entry["name"] = name
+            cyc = entry["cycles"].get(cycle)
+            if cyc is None:
+                cyc = entry["cycles"][cycle] = {"first_posted": day, "role_ids": []}
+            # Files written before ids were tracked carry an inflated `count`
+            # and no list; seeding from what we can see now replaces the bad
+            # number with a real one, and it grows correctly from here.
+            ids = set(cyc.get("role_ids") or ())
+            ids.add(str(role_id))
+            cyc["role_ids"] = sorted(ids)
+            cyc["count"] = len(ids)
             if day < cyc["first_posted"]:
                 cyc["first_posted"] = day
+
+    # Every count is derived, never accumulated. This also retires any inflated
+    # legacy number whose roles have since been purged from the store: those
+    # cycles keep their (still valid) first_posted date and drop to a count we
+    # can actually back with ids.
+    for entry in companies.values():
+        for cyc in (entry.get("cycles") or {}).values():
+            cyc["count"] = len(cyc.get("role_ids") or ())
 
     observed["updated_at"] = datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
     observed["companies"] = dict(sorted(companies.items()))

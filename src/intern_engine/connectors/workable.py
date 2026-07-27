@@ -7,7 +7,7 @@ v2 detail endpoint — the enrichment stage fetches those per matched role.
 
 from __future__ import annotations
 
-from ..models import Job
+from ..models import Fetch, Job, clean_listing
 from ..net import Net
 
 URL = "https://apply.workable.com/api/v3/accounts/{slug}/jobs"
@@ -25,10 +25,11 @@ def _location(job: dict) -> str:
     return text or "—"
 
 
-async def fetch(company: dict, net: Net) -> list[Job]:
+async def fetch(company: dict, net: Net) -> Fetch:
     slug = company["slug"]
 
     jobs: list[Job] = []
+    complete = False
     token = None
     for _ in range(_MAX_PAGES):
         body: dict = {"query": "intern", "location": [], "department": [],
@@ -36,7 +37,10 @@ async def fetch(company: dict, net: Net) -> list[Job]:
         if token:
             body["token"] = token
         data = await net.post_json(URL.format(slug=slug), json=body)
-        for j in data.get("results", []):
+        listing = clean_listing(data, "results")
+        if listing is None:
+            break  # malformed 200 / error envelope: not an empty account
+        for j in listing:
             shortcode = j.get("shortcode")
             jobs.append(
                 Job(
@@ -52,5 +56,6 @@ async def fetch(company: dict, net: Net) -> list[Job]:
             )
         token = data.get("nextPage")
         if not token:
+            complete = True  # no next page: we read the whole account
             break
-    return jobs
+    return Fetch(jobs, complete=complete)

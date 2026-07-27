@@ -5,7 +5,7 @@ Small-company ATS; the list includes real publish dates and salary text.
 
 from __future__ import annotations
 
-from ..models import Job
+from ..models import Fetch, Job, clean_list
 from ..net import Net
 
 URL = "https://{slug}.breezy.hr/json"
@@ -18,14 +18,13 @@ def _location(p: dict) -> str:
     return (str(loc).strip() or "—") if loc else "—"
 
 
-async def fetch(company: dict, net: Net) -> list[Job]:
+async def fetch(company: dict, net: Net) -> Fetch:
     slug = company["slug"]
-    postings = await net.get_json(URL.format(slug=slug))
-    if not isinstance(postings, list):
-        return []
+    postings = clean_list(await net.get_json(URL.format(slug=slug)))
+    ok = postings is not None
 
     jobs = []
-    for p in postings:
+    for p in (postings or []):
         salary = (p.get("salary") or "").strip() if isinstance(p.get("salary"), str) else None
         jobs.append(
             Job(
@@ -40,4 +39,4 @@ async def fetch(company: dict, net: Net) -> list[Job]:
                 salary=salary or None,
             )
         )
-    return jobs
+    return Fetch.board(jobs, ok)

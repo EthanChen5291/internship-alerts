@@ -15,6 +15,7 @@ CONFIG_PATH = os.path.join(DATA_DIR, "config.json")          # tunable settings
 BLOCKLIST_PATH = os.path.join(DATA_DIR, "blocklist.json")    # companies to exclude
 CANDIDATES_PATH = os.path.join(DATA_DIR, "candidates.json")  # raw slugs to probe
 COMPANIES_PATH = os.path.join(DATA_DIR, "companies.json")    # validated companies
+COMPANY_NAMES_PATH = os.path.join(DATA_DIR, "company_names.json")  # display-name overrides
 JOBS_PATH = os.path.join(DATA_DIR, "jobs.json")              # persistent job state
 CSV_PATH = os.path.join(DATA_DIR, "internships.csv")         # downloadable tracker
 STATS_PATH = os.path.join(DATA_DIR, "stats.json")            # last-run metrics
@@ -22,6 +23,7 @@ HEALTH_PATH = os.path.join(DATA_DIR, "health.json")          # circuit-breaker s
 HISTORY_PATH = os.path.join(DATA_DIR, "history.jsonl")       # one line of metrics per run
 H1B_PATH = os.path.join(DATA_DIR, "h1b.json")                # USCIS employer -> approvals index
 MAIL_STATE_PATH = os.path.join(DATA_DIR, "mail_state.json")  # when the last digest went out
+OUTBOX_PATH = os.path.join(DATA_DIR, "outbox.json")          # roles awaiting an alert, drained only after a successful publish
 OBSERVED_PATH = os.path.join(DATA_DIR, "observed.json")      # real posted dates the engine itself has seen (ground truth)
 KNOWN_WINDOWS_PATH = os.path.join(DATA_DIR, "known_windows.json")  # hand-verified typical opening months for marquee names
 

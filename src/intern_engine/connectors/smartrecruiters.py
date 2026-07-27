@@ -8,7 +8,7 @@ offset for the enterprise tenants that post 100+ intern reqs.
 
 from __future__ import annotations
 
-from ..models import Job
+from ..models import Fetch, Job, clean_listing
 from ..net import Net
 
 URL = "https://api.smartrecruiters.com/v1/companies/{slug}/postings"
@@ -32,14 +32,17 @@ def _location(loc) -> str:
     return text or "—"
 
 
-async def fetch(company: dict, net: Net) -> list[Job]:
+async def fetch(company: dict, net: Net) -> Fetch:
     slug = company["slug"]
 
     jobs: list[Job] = []
+    complete = False
     for offset in range(0, _MAX_JOBS, _PAGE_SIZE):
         params = {"limit": _PAGE_SIZE, "offset": offset, "q": "intern"}
         data = await net.get_json(URL.format(slug=slug), params=params)
-        postings = data.get("content", [])
+        postings = clean_listing(data, "content")
+        if postings is None:
+            break  # malformed 200 / error envelope: not an empty board
         for posting in postings:
             pid = posting.get("id")
             jobs.append(
@@ -54,6 +57,10 @@ async def fetch(company: dict, net: Net) -> list[Job]:
                     posted_at=posting.get("releasedDate"),
                 )
             )
-        if len(postings) < _PAGE_SIZE:
+        total = data.get("totalFound")
+        if len(postings) < _PAGE_SIZE or (
+            isinstance(total, int) and offset + len(postings) >= total
+        ):
+            complete = True
             break
-    return jobs
+    return Fetch(jobs, complete=complete)

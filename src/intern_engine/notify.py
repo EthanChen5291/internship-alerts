@@ -13,7 +13,8 @@ import httpx
 
 from . import config, sponsorship
 
-_MAX_EMBEDS = 10  # Discord's cap per message
+_MAX_EMBEDS = 10   # Discord's cap per message
+_MAX_MESSAGES = 5  # up to 50 roles per run; beyond that the channel is spam
 
 # One color per configured cycle, in order (green, orange, purple, blue);
 # anything else gets Discord blurple.
@@ -41,30 +42,57 @@ def _embed(record: dict, colors: dict[str, int]) -> dict:
     }
 
 
-def send_new_roles(store_data: dict, new_ids: list[str]) -> bool:
-    """Post this run's new roles to Discord. Returns True when a message went out."""
+def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
+    """Post new roles to Discord. Returns the ids that no longer need announcing.
+
+    The return value is what the caller drains from the outbox, so it has to be
+    exact. Three cases are all "done" without a message going out: no webhook
+    configured, an id that's no longer in the store, and a role that has since
+    closed — none of those will ever be announceable, so holding them forever
+    would just grow the queue.
+
+    A role we MEANT to announce but didn't (a failed chunk, or an overflow past
+    the per-run ceiling) is deliberately NOT returned: it stays queued and goes
+    out on the next run rather than being silently dropped.
+    """
     webhook = os.environ.get("DISCORD_WEBHOOK_URL")
-    if not webhook or not new_ids:
-        return False
+    if not webhook:
+        return list(new_ids)  # nothing to deliver to; don't accumulate
+    if not new_ids:
+        return []
 
-    records = [store_data[jid] for jid in new_ids if jid in store_data]
-    records = [r for r in records if r.get("is_open")]
+    live = [(jid, store_data[jid]) for jid in new_ids if jid in store_data]
+    settled = [jid for jid in new_ids if jid not in store_data]
+    settled += [jid for jid, r in live if not r.get("is_open")]
+    records = [(jid, r) for jid, r in live if r.get("is_open")]
     if not records:
-        return False
-
-    extra = len(records) - _MAX_EMBEDS
-    content = f"**{len(records)} new internship{'s' if len(records) != 1 else ''} spotted**"
-    if extra > 0:
-        content += f" (showing {_MAX_EMBEDS}, +{extra} more on the list)"
+        return settled
 
     colors = _cycle_colors()
+    # Discord caps a message at 10 embeds. One message meant role 11+ of a big
+    # drop day silently never reached the channel — chunk instead, up to a
+    # sane per-run ceiling; the remainder stays queued for the next run.
+    shown = records[:_MAX_EMBEDS * _MAX_MESSAGES]
+    held = len(records) - len(shown)
+    chunks = [shown[i:i + _MAX_EMBEDS] for i in range(0, len(shown), _MAX_EMBEDS)]
+
+    announced: list[str] = []
     try:
-        httpx.post(
-            webhook,
-            json={"content": content,
-                  "embeds": [_embed(r, colors) for r in records[:_MAX_EMBEDS]]},
-            timeout=10,
-        ).raise_for_status()
-        return True
+        for i, chunk in enumerate(chunks):
+            if i == 0:
+                content = (f"**{len(records)} new internship"
+                           f"{'s' if len(records) != 1 else ''} spotted**")
+                if held > 0:
+                    content += f" (showing {len(shown)}, {held} in the next batch)"
+            else:
+                content = f"…continued ({i + 1}/{len(chunks)})"
+            httpx.post(
+                webhook,
+                json={"content": content,
+                      "embeds": [_embed(r, colors) for _jid, r in chunk]},
+                timeout=10,
+            ).raise_for_status()
+            announced += [jid for jid, _r in chunk]  # only after it landed
     except Exception:  # noqa: BLE001 — alerting is a side channel, never fatal
-        return False
+        pass
+    return settled + announced

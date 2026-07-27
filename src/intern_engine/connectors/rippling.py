@@ -2,18 +2,19 @@
 
 from __future__ import annotations
 
-from ..models import Job
+from ..models import Fetch, Job, clean_list
 from ..net import Net
 
 URL = "https://api.rippling.com/platform/api/ats/v1/board/{slug}/jobs"
 
 
-async def fetch(company: dict, net: Net) -> list[Job]:
+async def fetch(company: dict, net: Net) -> Fetch:
     slug = company["slug"]
-    postings = await net.get_json(URL.format(slug=slug))
+    postings = clean_list(await net.get_json(URL.format(slug=slug)))
+    ok = postings is not None
 
     jobs = []
-    for p in postings:
+    for p in (postings or []):
         location = p.get("workLocation") or {}
         label = location.get("label") if isinstance(location, dict) else None
         jobs.append(
@@ -28,4 +29,4 @@ async def fetch(company: dict, net: Net) -> list[Job]:
                 posted_at=None,  # board API exposes no posting date
             )
         )
-    return jobs
+    return Fetch.board(jobs, ok)

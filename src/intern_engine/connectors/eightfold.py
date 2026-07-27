@@ -14,7 +14,7 @@ from __future__ import annotations
 
 from datetime import UTC, datetime
 
-from ..models import Job
+from ..models import Fetch, Job, clean_listing
 from ..net import Net
 
 _PAGE = 100
@@ -44,12 +44,13 @@ def _location(position: dict) -> str:
     return str(position.get("location") or "—").replace(",", ", ") or "—"
 
 
-async def fetch(company: dict, net: Net) -> list[Job]:
+async def fetch(company: dict, net: Net) -> Fetch:
     slug = company["slug"]
     host = company["host"]
     url = f"https://{host}/api/apply/v2/jobs"
 
     jobs: list[Job] = []
+    complete = False
     start = 0
     while start < _MAX:
         params = {
@@ -60,7 +61,9 @@ async def fetch(company: dict, net: Net) -> list[Job]:
             "sort_by": "timestamp",
         }
         data = await net.get_json(url, params=params, headers=_BROWSER_HEADERS)
-        positions = data.get("positions") or []
+        positions = clean_listing(data, "positions")
+        if positions is None:
+            break  # malformed 200 / error envelope: not an empty tenant
         for p in positions:
             external = p.get("id") or p.get("ats_job_id") or p.get("display_job_id")
             job_url = p.get("canonicalPositionUrl") or f"https://{host}/careers"
@@ -78,6 +81,15 @@ async def fetch(company: dict, net: Net) -> list[Job]:
                 )
             )
         start += _PAGE
-        if len(positions) < _PAGE or start >= int(data.get("count") or 0):
+        if len(positions) < _PAGE:
+            complete = True  # a short page is the end of the list
             break
-    return jobs
+        # A FULL page only proves the end when the server's own total says so.
+        # `int(data.get("count") or 0)` used to make a missing count read as 0,
+        # so `start >= 0` was trivially true and a truncated response looked
+        # complete — which is what lets a capped page close live roles.
+        total = data.get("count")
+        if isinstance(total, int) and start >= total:
+            complete = True
+            break
+    return Fetch(jobs, complete=complete)

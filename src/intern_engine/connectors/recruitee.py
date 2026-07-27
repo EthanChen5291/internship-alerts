@@ -6,7 +6,7 @@ free for this source.
 
 from __future__ import annotations
 
-from ..models import Job
+from ..models import Fetch, Job, clean_listing
 from ..net import Net
 
 URL = "https://{slug}.recruitee.com/api/offers/"
@@ -20,12 +20,13 @@ def _location(offer: dict) -> str:
     return ", ".join(parts) or "—"
 
 
-async def fetch(company: dict, net: Net) -> list[Job]:
+async def fetch(company: dict, net: Net) -> Fetch:
     slug = company["slug"]
     data = await net.get_json(URL.format(slug=slug))
+    listing = clean_listing(data, "offers")
 
     jobs = []
-    for offer in data.get("offers", []):
+    for offer in (listing or []):
         jobs.append(
             Job(
                 id=f"recruitee:{slug}:{offer.get('id')}",
@@ -39,4 +40,4 @@ async def fetch(company: dict, net: Net) -> list[Job]:
                 description=offer.get("description"),
             )
         )
-    return jobs
+    return Fetch.board(jobs, isinstance(listing, list))

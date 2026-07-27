@@ -3,7 +3,7 @@ carried over without refetching, and detail fetches backfill what they can."""
 
 import asyncio
 
-from intern_engine import enrich
+from intern_engine import enrich, sponsorship
 from intern_engine.models import Job
 
 
@@ -44,6 +44,7 @@ class TestEnrich:
         job = _job(jid="greenhouse:acme:9", source="greenhouse")
         existing = {"greenhouse:acme:9": {
             "sponsorship": "citizens-only", "enriched_at": "x", "skills": ["Python"],
+            "classifier_v": sponsorship.VERSION,
         }}
         enriched, fetched = _run(enrich.enrich_jobs([job], existing, net))
         assert job.sponsorship == "citizens-only"
@@ -54,11 +55,47 @@ class TestEnrich:
         # sponsorship verdict must never flip even if the text now reads differently.
         net = FakeNet({"content": "Uses Python daily. Visa sponsorship is available."})
         job = _job(jid="greenhouse:acme:9", source="greenhouse")
-        existing = {"greenhouse:acme:9": {"sponsorship": "citizens-only", "enriched_at": "x"}}
+        existing = {"greenhouse:acme:9": {
+            "sponsorship": "citizens-only", "enriched_at": "x",
+            "classifier_v": sponsorship.VERSION,
+        }}
         enriched, fetched = _run(enrich.enrich_jobs([job], existing, net))
         assert job.sponsorship == "citizens-only"  # verdict kept, not re-classified
         assert job.skills == ["Python"]
         assert enriched == {job.id} and fetched == 1
+
+    def test_stale_classifier_version_forces_reclassification(self):
+        # A record classified by an OLDER ruleset is re-read once, so classifier
+        # improvements reach the whole live list — not just roles found after
+        # the change. Without this, enrichment was one-time and permanent.
+        net = FakeNet({"content": "Visa sponsorship is available for this role."})
+        job = _job(jid="greenhouse:acme:9", source="greenhouse")
+        existing = {"greenhouse:acme:9": {
+            "sponsorship": "unknown", "enriched_at": "x", "skills": [],
+            "classifier_v": sponsorship.VERSION - 1,
+        }}
+        enriched, fetched = _run(enrich.enrich_jobs([job], existing, net))
+        assert job.sponsorship == "offers"   # re-derived under the new rules
+        assert enriched == {job.id} and fetched == 1
+
+    def test_record_with_no_classifier_version_is_reclassified(self):
+        net = FakeNet({"content": "Visa sponsorship is available for this role."})
+        job = _job(jid="greenhouse:acme:9", source="greenhouse")
+        existing = {"greenhouse:acme:9": {
+            "sponsorship": "unknown", "enriched_at": "x", "skills": [],
+        }}
+        enriched, fetched = _run(enrich.enrich_jobs([job], existing, net))
+        assert job.sponsorship == "offers"
+        assert fetched == 1
+
+    def test_empty_detail_response_is_retried_not_settled(self):
+        # A 200 whose body has no text is absence of evidence. Stamping it
+        # enriched_at froze an "unknown" verdict forever off an empty page.
+        net = FakeNet({"content": ""})
+        job = _job(jid="greenhouse:acme:9", source="greenhouse")
+        enriched, fetched = _run(enrich.enrich_jobs([job], {}, net))
+        assert enriched == set()   # no stamp -> retried next run
+        assert fetched == 1
 
     def test_greenhouse_detail_fetch(self):
         net = FakeNet({"content": "U.S. citizenship is required for this position."})

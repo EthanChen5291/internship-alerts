@@ -17,6 +17,12 @@ from __future__ import annotations
 import re
 from html import unescape
 
+# Bump when the classification rules change. Stored per record; enrichment
+# re-reads a posting whose stored verdict came from an older version, so
+# classifier improvements propagate to the whole live list instead of only to
+# roles discovered after the change.
+VERSION = 2
+
 # ITAR / export control and security clearances require citizenship (or at
 # minimum a green card), which excludes F-1/OPT candidates the same way.
 _CITIZENS_RE = re.compile(

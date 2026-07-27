@@ -8,8 +8,11 @@ on:
       - "src/**"
       - "tests/**"
       - "run.py"
+      - "tools/**"
       - "requirements*.txt"
-      - "ruff.toml"
+      # The lint config lives in pyproject.toml; watching a ruff.toml that
+      # doesn't exist meant config changes never triggered CI.
+      - "pyproject.toml"
       - ".github/workflows/ci.yml"
   pull_request:
 
@@ -20,13 +23,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.11"
       - name: Install dependencies
         run: pip install -r requirements-dev.txt
       - name: Lint (ruff)
-        run: ruff check src tests run.py
+        run: ruff check src tests tools run.py
       - name: Tests (pytest)
         run: python -m pytest -q

@@ -3,9 +3,16 @@
     python run.py harvest    # probe curated candidates -> data/companies.json
     python run.py discover   # mine public datasets for company tokens (big scale-up)
     python run.py update     # fetch -> filter -> enrich -> store -> publish everything
+    python run.py render     # rebuild published artifacts from the store (no fetch)
+    python run.py notify     # announce what `update` queued (run AFTER the push)
     python run.py all        # discover + harvest + update
+
+`update` and `notify` are separate on purpose. Alerts promise a role is on the
+list, so they may only go out once the run's data is actually published — see
+intern_engine/outbox.py.
 """
 
+import json
 import os
 import sys
 
@@ -19,9 +26,12 @@ from intern_engine import (  # noqa: E402
     harvester,
     mailer,
     notify,
+    outbox,
+    paths,
     pipeline,
     publish,
     readme,
+    store,
     trends,
 )
 
@@ -47,30 +57,97 @@ def cmd_discover() -> None:
         print(f"  {ats:<12} {n}")
 
 
-def cmd_update() -> None:
-    if not os.path.exists(os.path.join("data", "companies.json")):
-        print("No data/companies.json yet — run `python run.py harvest` first.")
-        sys.exit(1)
-    stats, store_data, new_ids = pipeline.run_update()
+def _render(store_data: dict, stats: dict):
+    """Regenerate every published artifact from the store. Returns (readme
+    summary, feed entry count, calendar event count)."""
     trends.write_readme_charts(store_data)
     summary = readme.generate(store_data)
     dashboard.generate(store_data, stats)
     feed_entries = publish.write_feed(store_data)
     publish.write_api(store_data, stats)
-    ics_events = publish.write_radar_ics(store_data)
-    if db.sync(store_data, stats):
-        print("  synced to Postgres   yes")
-    if notify.send_new_roles(store_data, new_ids):
-        print(f"  Discord alert        {len(new_ids)} new roles")
-    sent = mailer.send_digest(store_data)
-    if sent:
-        print(f"  email digest         sent to {sent} subscribers")
+    return summary, feed_entries, publish.write_radar_ics(store_data)
+
+
+def cmd_render() -> None:
+    """Rebuild the published artifacts from the store, without fetching.
+
+    Used by the weekly season audit, which rewrites cycles in the store: the
+    README/CSV/API/dashboard are stale the moment it does, and committing only
+    the store left the public pages disagreeing with the data.
+    """
+    store_data = store.load(paths.JOBS_PATH)
+    try:
+        with open(paths.STATS_PATH, encoding="utf-8") as f:
+            stats = json.load(f)
+    except (OSError, ValueError):
+        stats = {}
+    # The store just changed, so the fetch-time counts in stats.json describe a
+    # different dataset. Recompute the ones derived from the store; leave the
+    # fetch metrics (which only a real run can produce) as the last run's.
+    stats = pipeline.restat(store_data, stats)
+    summary, feed_entries, ics_events = _render(store_data, stats)
+    print("Rendered from the existing store:")
+    print(f"  README open roles      {summary['open']}")
+    print(f"  feed entries           {feed_entries}")
+    print(f"  radar calendar events  {ics_events}")
+
+
+def cmd_update() -> None:
+    # paths.COMPANIES_PATH is absolute; checking a CWD-relative path here made
+    # `run.py` work only from the repo root, contradicting what paths.py promises.
+    if not os.path.exists(paths.COMPANIES_PATH):
+        print("No data/companies.json yet — run `python run.py harvest` first.")
+        sys.exit(1)
+    stats, store_data, new_ids = pipeline.run_update()
+    summary, feed_entries, ics_events = _render(store_data, stats)
+    # NOTE: no db.sync here. The Postgres mirror updates in `notify`, which the
+    # workflow runs only after the accuracy gate passed and the push landed —
+    # otherwise a run the gate would reject could still reach the mirror.
+    # Queue, don't send: these roles aren't published until the workflow's
+    # commit lands, and an alert for an unpublished role is a broken promise.
+    pending = outbox.queue(new_ids)
     print("Update complete:")
     for k, v in stats.items():
         print(f"  {k:<24} {v}")
     print(f"  README open roles      {summary['open']}")
     print(f"  feed entries           {feed_entries}")
     print(f"  radar calendar events  {ics_events}")
+    print(f"  queued for alerts      {len(pending)}")
+
+
+def cmd_notify() -> None:
+    """Announce what's been published. Run only after a successful push.
+
+    The two channels are independent. Discord announces the outbox (this run's
+    newly-found roles); the daily email digest is driven by the store's own
+    news window and its per-role sent list, so it must be attempted even when
+    the outbox is empty — an empty outbox means "no new roles since the last
+    run", not "no digest is due".
+    """
+    store_data = store.load(paths.JOBS_PATH)
+    pending = outbox.load()
+
+    if pending:
+        done = notify.send_new_roles(store_data, pending)
+        # Only what actually went out (or can never go out) leaves the queue;
+        # anything held back is announced on the next run instead of lost.
+        still = outbox.drain(done)
+        print(f"  Discord alert        {len(done)} handled, {len(still)} still queued")
+    else:
+        print("  Discord alert        nothing queued")
+
+    sent = mailer.send_digest(store_data)
+    print(f"  email digest         {f'sent to {sent} subscribers' if sent else 'not due'}")
+
+    # The mirror syncs here — after the gate and the push — so data the gate
+    # would have rejected can never reach it.
+    try:
+        with open(paths.STATS_PATH, encoding="utf-8") as f:
+            stats = json.load(f)
+    except (OSError, ValueError):
+        stats = {}
+    if db.sync(store_data, stats):
+        print("  Postgres mirror      synced")
 
 
 def main() -> None:
@@ -81,6 +158,10 @@ def main() -> None:
         cmd_discover()
     elif cmd == "update":
         cmd_update()
+    elif cmd == "render":
+        cmd_render()
+    elif cmd == "notify":
+        cmd_notify()
     elif cmd == "all":
         cmd_discover()
         cmd_harvest()

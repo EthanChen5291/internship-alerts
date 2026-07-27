@@ -46,7 +46,12 @@ _EXCLUDE_RE = re.compile(
     r"hardware|physical design|silicon|semiconductor|vlsi|rtl|"
     r"recruit|recruiting|recruiter|sales|account executive|account manager|"
     r"account management|marketing|marketer|unpaid|"
-    r"legal|counsel|accounting|human resources|people operations|people team|talent|"
+    r"legal|counsel|accounting|human resources|people operations|people team|"
+    # "talent" alone was here and dropped real roles: an "Emerging Talent
+    # Software Engineer Intern" is a named early-career PROGRAM, not HR. Only
+    # the recruiting senses of the word exclude.
+    r"talent acquisition|talent management|talent partner|talent sourcing|"
+    r"talent operations|talent development|"
     r"communications|supply chain|business development|product design|product designer|"
     r"product manager|product management|ux design|graphic design|industrial design|"
     r"phd|ph\.d|doctoral"
@@ -79,10 +84,65 @@ def is_tech(title: str) -> bool:
 
 _CYCLE_RE = re.compile(r"(Summer|Fall|Spring|Winter)\s+(\d{4})", re.IGNORECASE)
 
+_COOP_RE = re.compile(r"\bco[\s-]?op\b", re.IGNORECASE)
+# "Remote Sensing" is a field of study (satellites), not a work mode — a
+# "Remote Sensing Software Intern" in Pasadena is an on-site job.
+_REMOTE_RE = re.compile(r"\bremote\b(?!\s+sensing)", re.IGNORECASE)
+
+
+def program_type(title: str) -> str:
+    """"Internship", "Co-op", or "Internship / Co-op" — the title's own words.
+
+    Reddit feedback was blunt about this: co-ops run on different calendars and
+    credit requirements, and burying them under the same label as summer
+    internships made both harder to trust.
+
+    A title saying BOTH ("Software Engineer Intern/Co-Op") is genuinely open to
+    either, so it gets its own value rather than being filed under one and
+    hidden from students filtering for the other.
+    """
+    coop = bool(_COOP_RE.search(title or ""))
+    intern = bool(re.search(r"\bintern(?:ship)?s?\b", title or "", re.IGNORECASE))
+    if coop and intern:
+        return "Internship / Co-op"
+    return "Co-op" if coop else "Internship"
+
+
+def is_remote(location: str, title: str = "") -> bool:
+    """True when the posting itself says remote — in the location OR the title.
+
+    Employers put it in either place: VetsEZ writes "Full Stack Developer Intern
+    (Remote Opportunity)" with a city in the location field, so reading only the
+    location marked genuinely remote roles as on-site. Still no inference beyond
+    the employer's own words.
+    """
+    return bool(_REMOTE_RE.search(location or "")) or bool(_REMOTE_RE.search(title or ""))
+
 
 def is_cycle_label(value) -> bool:
     """True for a well-formed "<Term> <Year>" label (tracked or not)."""
     return bool(value) and bool(_CYCLE_RE.fullmatch(str(value).strip()))
+
+
+def detect_seasons(title: str, cycles=("Summer 2027", "Fall 2026")) -> list[str]:
+    """EVERY tracked cycle the title states verbatim, in `cycles` order.
+
+    Deepgram posts "Software Engineering Internship (Fall 2026/Summer 2027)" —
+    one requisition genuinely hiring for two cycles. A single-value season field
+    can only keep one, so the other silently vanished from its own cycle's
+    section. This collects the full set; `detect_season` still picks the
+    primary. Only explicit "<Term> <Year>" phrases count — no inference here.
+    """
+    found = []
+    stated = {
+        f"{m.group(1).capitalize()} {m.group(2)}"
+        for m in _CYCLE_RE.finditer(title)
+    }
+    for label in cycles:
+        m = _CYCLE_RE.match(label.strip())
+        if m and f"{m.group(1).capitalize()} {m.group(2)}" in stated:
+            found.append(label)
+    return found
 
 
 def states_explicit_year(title: str) -> bool:
@@ -112,6 +172,15 @@ def detect_season(title: str, cycles=("Summer 2027", "Fall 2026"), *_ignored) ->
       "Summer 2026 Intern"                     -> None  (past -> drop)
       "Fall 2027 Intern"                       -> None  (cycle not tracked)
     """
+    # An exact "<Term> <Year>" phrase for a tracked cycle wins outright.
+    # Without this, "Fall 2026 / Summer 2028 Intern" was dropped: the year scan
+    # found {2026, 2028} but the term scan picked "Summer" (checked first), and
+    # neither Summer 2026 nor Summer 2028 is tracked — even though the title
+    # literally states a tracked cycle.
+    stated = detect_seasons(title, cycles)
+    if stated:
+        return stated[0]
+
     parsed = []  # (term, year, label)
     for label in cycles:
         m = _CYCLE_RE.match(label.strip())
@@ -311,7 +380,20 @@ _US_CODES = [
 ]
 _CA_CODES = ["ON", "QC", "BC", "AB", "MB", "SK", "NS", "NB", "NL", "PE", "YT", "NT", "NU"]
 
-_US_COUNTRY = ("united states", "u.s.a", "u.s.", "u.s", "usa", "america")
+# US country tokens. These MUST be matched as whole tokens, never as substrings:
+# "usa" hides inside Lausanne, Jerusalem, Busan, Sausalito and dozens of other
+# real ATS locations, and a substring test made every one of them read as the
+# US. The lookarounds (rather than \b) are what let "U.S." keep its periods.
+_US_COUNTRY_RE = re.compile(
+    r"(?<![a-z0-9])(?:"
+    r"united\s+states(?:\s+of\s+america)?"
+    r"|u\.\s?s\.?\s?a\.?"
+    r"|u\.\s?s\.?"
+    r"|usa"
+    r"|america"
+    r")(?![a-z0-9])",
+    re.IGNORECASE,
+)
 _CA_COUNTRY = ("canada", "canadian")
 # "Latin America" / "South America" must not read as the US ("america" token).
 _AMERICA_NOT_US_RE = re.compile(r"\b(?:south|latin|central)\s+america")
@@ -319,20 +401,36 @@ _AMERICA_NOT_US_RE = re.compile(r"\b(?:south|latin|central)\s+america")
 # Countries that appear in ATS location strings and must never read as US, even
 # when a state-code lookalike sits next to them ("IN - Bangalore, India" is not
 # Indiana). An explicit US token still wins for multi-country strings.
+# NOTE on omissions: "georgia" is a US state as well as a country, and
+# "england" hides inside "New England" — both are handled below rather than
+# listed here, so a US location never loses to a name collision.
 _NON_US_COUNTRIES = (
-    "india", "united kingdom", "germany", "france", "poland", "ireland",
+    "india", "united kingdom", "great britain", "scotland", "wales",
+    "northern ireland", "ireland", "germany", "france", "poland",
     "netherlands", "spain", "italy", "portugal", "romania", "hungary",
-    "czech", "slovakia", "sweden", "switzerland", "belgium", "austria",
-    "denmark", "norway", "finland", "greece", "turkey", "israel",
-    "united arab emirates", "saudi arabia", "qatar", "egypt", "nigeria",
-    "kenya", "south africa", "brazil", "mexico", "argentina", "colombia",
-    "chile", "peru", "costa rica", "japan", "china", "singapore", "korea",
-    "taiwan", "hong kong", "philippines", "indonesia", "vietnam", "thailand",
-    "malaysia", "pakistan", "bangladesh", "sri lanka", "australia",
-    "new zealand",
+    "bulgaria", "croatia", "serbia", "slovenia", "bosnia", "albania",
+    "montenegro", "macedonia", "ukraine", "belarus", "russia", "moldova",
+    "lithuania", "latvia", "estonia", "luxembourg", "iceland", "cyprus",
+    "malta", "czech", "slovakia", "sweden", "switzerland", "belgium",
+    "austria", "denmark", "norway", "finland", "greece", "turkey", "israel",
+    "united arab emirates", "saudi arabia", "qatar", "kuwait", "bahrain",
+    "oman", "jordan", "lebanon", "iraq", "iran", "afghanistan", "egypt",
+    "morocco", "tunisia", "algeria", "nigeria", "ghana", "senegal",
+    "ethiopia", "kenya", "tanzania", "uganda", "zimbabwe", "botswana",
+    "namibia", "south africa", "brazil", "mexico", "argentina", "colombia",
+    "chile", "peru", "bolivia", "paraguay", "uruguay", "venezuela",
+    "ecuador", "panama", "costa rica", "guatemala", "honduras", "nicaragua",
+    "el salvador", "belize", "dominican republic", "jamaica", "trinidad",
+    "japan", "china", "singapore", "korea", "taiwan", "hong kong", "macau",
+    "philippines", "indonesia", "vietnam", "thailand", "cambodia",
+    "myanmar", "malaysia", "pakistan", "bangladesh", "sri lanka", "nepal",
+    "mongolia", "kazakhstan", "uzbekistan", "azerbaijan", "armenia",
+    "australia", "new zealand", "fiji",
 )
 _NON_US_RE = re.compile(
     r"\b(" + "|".join(re.escape(c) for c in _NON_US_COUNTRIES) + r")\b"
+    # "England" is a foreign country only when it isn't "New England".
+    r"|(?<!new\s)\bengland\b"
 )
 
 _US_NAME_RE = re.compile(
@@ -352,7 +450,7 @@ def is_united_states(location: str) -> bool:
         return False
     low = location.lower()
     stripped = _AMERICA_NOT_US_RE.sub(" ", low)
-    if any(token in stripped for token in _US_COUNTRY):
+    if _US_COUNTRY_RE.search(stripped):
         return True
     if _NON_US_RE.search(low):
         return False  # a named foreign country outranks state-name/code guesses

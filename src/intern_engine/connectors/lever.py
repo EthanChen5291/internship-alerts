@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from datetime import UTC, datetime
 
-from ..models import Job
+from ..models import Fetch, Job, clean_list
 from ..net import Net
 
 URL = "https://api.lever.co/v0/postings/{slug}?mode=json"
@@ -40,17 +40,29 @@ def _salary(posting: dict) -> str | None:
     if isinstance(rng, dict) and rng.get("min") and rng.get("max"):
         currency = rng.get("currency") or "USD"
         interval = (rng.get("interval") or "").replace("-", " ").lower()
-        text = f"{int(rng['min']):,}–{int(rng['max']):,} {currency}"
-        return f"{text} / {interval}" if interval else text
+        # Compact the display: "per hour wage" -> "/hr", "per year salary" ->
+        # "/yr", and a min==max band is one number, not "15–15".
+        if "hour" in interval:
+            unit = "/hr"
+        elif "year" in interval or "annum" in interval:
+            unit = "/yr"
+        elif "month" in interval:
+            unit = "/mo"
+        else:
+            unit = f" / {interval}" if interval else ""
+        lo, hi = int(rng["min"]), int(rng["max"])
+        band = f"{lo:,}" if lo == hi else f"{lo:,}–{hi:,}"
+        return f"{band} {currency}{unit}"
     return None
 
 
-async def fetch(company: dict, net: Net) -> list[Job]:
+async def fetch(company: dict, net: Net) -> Fetch:
     slug = company["slug"]
-    postings = await net.get_json(URL.format(slug=slug))
+    postings = clean_list(await net.get_json(URL.format(slug=slug)))
+    ok = postings is not None
 
     jobs = []
-    for posting in postings:
+    for posting in (postings or []):
         categories = posting.get("categories") or {}
         jobs.append(
             Job(
@@ -66,4 +78,4 @@ async def fetch(company: dict, net: Net) -> list[Job]:
                 description=_description(posting) or None,
             )
         )
-    return jobs
+    return Fetch.board(jobs, ok)
