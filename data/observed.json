@@ -290,6 +290,18 @@
     }
    }
   },
+  "draper": {
+   "name": "Draper",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-07-28",
+     "role_ids": [
+      "workday:draper:/job/Cambridge-MA/Electronics---Embedded-Systems-Intern--Summer-2027-_JR002735"
+     ],
+     "count": 1
+    }
+   }
+  },
   "ellipsis labs": {
    "name": "Ellipsis Labs",
    "cycles": {
@@ -909,5 +921,5 @@
    }
   }
  },
- "updated_at": "2026-07-28T20:19:57Z"
+ "updated_at": "2026-07-28T22:05:55Z"
 }
