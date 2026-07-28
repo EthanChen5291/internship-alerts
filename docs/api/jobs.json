@@ -1,9 +1,34 @@
 {
- "generated_at": "2026-07-28T16:09:43Z",
+ "generated_at": "2026-07-28T18:17:40Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 110,
+ "count": 111,
  "jobs": [
+  {
+   "id": "smartrecruiters:BoschGroup:744000140317669",
+   "company": "Bosch",
+   "title": "ADAS Software Engineering Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Plymouth, MI, United States",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000140317669",
+   "posted_at": "2026-07-28T18:08:13.470Z",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-07-28T18:17:40Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "Computer Vision"
+   ],
+   "source": "smartrecruiters",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "smartrecruiters:BoschGroup:744000140089589",
    "company": "Bosch",
