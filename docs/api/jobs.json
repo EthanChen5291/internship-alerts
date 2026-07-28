@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-28T14:02:01Z",
+ "generated_at": "2026-07-28T16:09:43Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 111,
+ "count": 110,
  "jobs": [
   {
    "id": "smartrecruiters:BoschGroup:744000140089589",
@@ -2818,27 +2818,6 @@
    "source": "amazon",
    "h1b_approvals": 23139,
    "program": "Internship / Co-op",
-   "remote": false
-  },
-  {
-   "id": "rippling:msm:6326629b-5434-4a86-8fce-d0e28ec424d4",
-   "company": "MSM Inc.",
-   "title": "AI Solutions Co-op (Fall 2026)",
-   "season": "Fall 2026",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Webster, NY",
-   "url": "https://ats.rippling.com/msm/jobs/6326629b-5434-4a86-8fce-d0e28ec424d4",
-   "posted_at": null,
-   "posted_at_source": null,
-   "first_seen_at": "2026-07-25T10:40:34Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [],
-   "source": "rippling",
-   "h1b_approvals": null,
-   "program": "Co-op",
    "remote": false
   }
  ]

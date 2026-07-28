@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-28T14:02:01Z</updated>
+  <updated>2026-07-28T16:09:43Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
     <id>urn:intern-engine:smartrecruiters:BoschGroup:744000140089589</id>
@@ -150,14 +150,6 @@
     <updated>2026-07-25T10:40:34Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · New York, NY</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:msm:6326629b-5434-4a86-8fce-d0e28ec424d4</id>
-    <title>MSM Inc.: AI Solutions Co-op (Fall 2026)</title>
-    <link href="https://ats.rippling.com/msm/jobs/6326629b-5434-4a86-8fce-d0e28ec424d4"/>
-    <updated>2026-07-25T10:40:34Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Webster, NY</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:coreandmain:/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804</id>
@@ -806,5 +798,13 @@
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Data &amp; ML/AI · 665 Clyde Avenue, Mountain View,  CA, USA · PyTorch, TensorFlow, LLMs · H-1B track record: ~98 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:sharkninjaoperatingllc:4669676006</id>
+    <title>SharkNinja: Fall 2026: SharkByte Applied AI &amp; Analytics Co-op (July/August to December)</title>
+    <link href="https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006"/>
+    <updated>2026-06-30T12:14:22Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Miami, Florida, United States; Needham, MA, United States; New York, New York, United States · Python, SQL, LLMs, AWS, Tableau · H-1B track record: ~23 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
