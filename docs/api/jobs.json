@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-27T22:08:31Z",
+ "generated_at": "2026-07-28T00:05:14Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 113,
+ "count": 112,
  "jobs": [
   {
    "id": "smartrecruiters:BoschGroup:744000140089589",
@@ -2148,27 +2148,6 @@
    "source": "lever",
    "h1b_approvals": null,
    "program": "Internship / Co-op",
-   "remote": false
-  },
-  {
-   "id": "lever:ifm-us:3eec355c-6dde-4a3e-8cdf-b2a8930d5678",
-   "company": "Institute of Foundation Models",
-   "title": "AI Research Internship - WM",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "Sunnyvale, CA",
-   "url": "https://jobs.lever.co/ifm-us/3eec355c-6dde-4a3e-8cdf-b2a8930d5678",
-   "posted_at": "2026-06-12T18:24:33Z",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-07-16T07:39:11Z",
-   "sponsorship": "unknown",
-   "salary": "100,000–140,000 USD/yr",
-   "skills": [],
-   "source": "lever",
-   "h1b_approvals": null,
-   "program": "Internship",
    "remote": false
   },
   {
