@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-07-27T06:48:15Z",
-  "last_digest_roles": 6,
-  "last_digest_sent": 164,
+  "last_digest_at": "2026-07-28T05:53:18Z",
+  "last_digest_roles": 9,
+  "last_digest_sent": 170,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -21,10 +21,19 @@
     "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109689",
     "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109897",
     "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110011",
-    "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079"
+    "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079",
+    "smartrecruiters:BoschGroup:744000140089589",
+    "workday:cccis:/job/Chicago-Green-St-IL/Applied-AI-Engineering-Intern_0014827",
+    "greenhouse:apptronik:6128057004",
+    "workday:intel:/job/US-Oregon-Hillsboro/AI-Applied-intern_JR0285916",
+    "greenhouse:appian:8088496",
+    "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:36722",
+    "workday:nelnet:/job/Lincoln-NE/Intern-Program---Agentic-AI_R22904",
+    "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378",
+    "workday:mosaic:/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1"
   ],
   "last_digest_failed": 0,
   "retry_emails": [],
-  "subscribers_total": 164,
+  "subscribers_total": 170,
   "send_cursor": 0
 }
