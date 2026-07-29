@@ -47,6 +47,13 @@
     "site": "external_careers"
   },
   {
+    "name": "23andMe",
+    "slug": "23andme",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "23"
+  },
+  {
     "name": "2K",
     "slug": "2k",
     "ats": "greenhouse"
@@ -540,6 +547,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "AffirmedRx",
+    "slug": "affirmedrxpbc",
+    "ats": "greenhouse"
+  },
+  {
     "name": "AfterQuery",
     "slug": "afterquery",
     "ats": "ashby"
@@ -978,6 +990,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "ExternalCareer"
+  },
+  {
+    "name": "Alta Ares",
+    "slug": "alta-ares",
+    "ats": "ashby"
   },
   {
     "name": "Alta Resource Technologies",
@@ -2178,6 +2195,14 @@
     "ats": "ashby"
   },
   {
+    "name": "Augusta National Golf Club",
+    "slug": "angc",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "ANGC",
+    "host": "wd5.myworkdaysite.com"
+  },
+  {
     "name": "Aurelian",
     "slug": "aurelian",
     "ats": "ashby"
@@ -2384,6 +2409,13 @@
     "name": "Axis Automation",
     "slug": "axiscompany",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Axis Capital",
+    "slug": "axiscapital",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "axiscareers"
   },
   {
     "name": "Axis Communications AB",
@@ -6930,6 +6962,11 @@
     "ats": "lever"
   },
   {
+    "name": "Eliza",
+    "slug": "eliza",
+    "ats": "ashby"
+  },
+  {
     "name": "Ellipsis Labs",
     "slug": "ellipsislabs",
     "ats": "ashby"
@@ -6978,6 +7015,11 @@
   {
     "name": "Empire State Realty Trust",
     "slug": "esrtreit",
+    "ats": "lever"
+  },
+  {
+    "name": "Employ",
+    "slug": "employ",
     "ats": "lever"
   },
   {
@@ -7638,6 +7680,11 @@
     "ats": "oracle",
     "host": "fa-exki-saasfaprod1.fa.ocs.oraclecloud.com",
     "site": "CX_1"
+  },
+  {
+    "name": "Fanatics",
+    "slug": "fanaticscollectibles",
+    "ats": "greenhouse"
   },
   {
     "name": "Fannie Mae",
@@ -8434,6 +8481,13 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "External"
+  },
+  {
+    "name": "FTI Consulting",
+    "slug": "fticonsulting",
+    "ats": "workday",
+    "wd": "wd108",
+    "site": "FTIConsultingCareersPrivate"
   },
   {
     "name": "Fugro",
@@ -14959,6 +15013,13 @@
     "ats": "ashby"
   },
   {
+    "name": "Ontic",
+    "slug": "ontic",
+    "ats": "workday",
+    "wd": "wd103",
+    "site": "OnticCareers"
+  },
+  {
     "name": "Onto Innovation",
     "slug": "onto",
     "ats": "workday",
@@ -16249,6 +16310,13 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Procore Technologies",
+    "slug": "procore",
+    "ats": "workday",
+    "wd": "wd12",
+    "site": "Procore_External_Careers"
+  },
+  {
     "name": "Procter & Gamble (P&G)",
     "slug": "pg",
     "ats": "workday",
@@ -16940,6 +17008,11 @@
     "site": "ReliaQuest_Careers"
   },
   {
+    "name": "Reltio",
+    "slug": "reltio",
+    "ats": "greenhouse"
+  },
+  {
     "name": "Remarcable",
     "slug": "remarcable-inc",
     "ats": "ashby"
@@ -16975,6 +17048,11 @@
     "name": "Render",
     "slug": "render",
     "ats": "ashby"
+  },
+  {
+    "name": "Rendezvous Robotics",
+    "slug": "rendezvousrobotics",
+    "ats": "greenhouse"
   },
   {
     "name": "Replit",
@@ -17144,6 +17222,13 @@
     "ats": "workday",
     "wd": "wd3",
     "site": "richardson_our_careers"
+  },
+  {
+    "name": "Richemont",
+    "slug": "richemont",
+    "ats": "workday",
+    "wd": "wd3",
+    "site": "richemont"
   },
   {
     "name": "Rigetti",
@@ -19086,6 +19171,11 @@
     "site": "careers"
   },
   {
+    "name": "StarTree",
+    "slug": "startree",
+    "ats": "greenhouse"
+  },
+  {
     "name": "Starz",
     "slug": "starz",
     "ats": "workday",
@@ -19923,6 +20013,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "Rangers"
+  },
+  {
+    "name": "Texas Sports Academy",
+    "slug": "texas-sports-academy-main",
+    "ats": "workable"
   },
   {
     "name": "Texas Water Development Board",
@@ -21518,6 +21613,13 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Verdantas",
+    "slug": "verdantas",
+    "ats": "workday",
+    "wd": "wd108",
+    "site": "Verdantas"
+  },
+  {
     "name": "Verisign",
     "slug": "verisign",
     "ats": "greenhouse"
@@ -22581,6 +22683,11 @@
     "name": "Xsolla",
     "slug": "xsolla",
     "ats": "lever"
+  },
+  {
+    "name": "XTX Markets",
+    "slug": "xtxmarketstechnologies",
+    "ats": "greenhouse"
   },
   {
     "name": "Xylem",
