@@ -450,6 +450,18 @@
     }
    }
   },
+  "leidos": {
+   "name": "Leidos",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-07-29",
+     "role_ids": [
+      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311"
+     ],
+     "count": 1
+    }
+   }
+  },
   "medtronic": {
    "name": "Medtronic",
    "cycles": {
@@ -933,5 +945,5 @@
    }
   }
  },
- "updated_at": "2026-07-29T11:28:56Z"
+ "updated_at": "2026-07-29T14:07:26Z"
 }
