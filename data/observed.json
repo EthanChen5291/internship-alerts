@@ -897,9 +897,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-21",
-     "count": 1,
+     "count": 2,
      "role_ids": [
-      "greenhouse:virtu:8624410002"
+      "greenhouse:virtu:8624410002",
+      "greenhouse:virtu:8657500002"
      ]
     }
    }
@@ -957,5 +958,5 @@
    }
   }
  },
- "updated_at": "2026-07-29T20:57:42Z"
+ "updated_at": "2026-07-29T22:03:03Z"
 }
