@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%20hour-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 118 open roles (109 listed below) · 41 new this week
+### 119 open roles (111 listed below) · 42 new this week
 
-3,854 employers tracked · updated Jul 29, 2026 at 14:07 UTC
+3,854 employers tracked · updated Jul 29, 2026 at 15:59 UTC
 
-_68 have a cycle the employer stated · 50 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_67 have a cycle the employer stated · 52 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -113,7 +113,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Mosaic | Informational Technology Cybersecurity Co-Op/Intern - Fall 2026 | Security | US - Tampa, FL (Lithia area) | Jul 27, 2026 | [Apply](https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1) |
 | Toshiba Global Commerce ✓ | Agentic Software Engineering intern 🛂 | Software | Durham, NC | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5177892007) |
 | Toshiba Global Commerce ✓ | Project Management & AI Automation Intern 🛂 | Data & ML/AI | Frisco, TX | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5190937007) |
-| Toshiba Global Commerce ✓ | AI Engineering Intern 🛂 | Data & ML/AI | Frisco, TX | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5192820007) |
+| Toshiba Global Commerce ✓ | AI Engineering Intern 🛂 | Data & ML/AI | Durham, NC; Frisco, TX | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5192820007) |
 | Sentara Health | Data & AI Finance Strategy Intern - Fall 2026 Internship Remote 🏠 | Data & ML/AI | Virginia Beach, VA | Jul 24, 2026 | [Apply](https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Data---AI-Finance-Strategy-Intern---Fall-2026-Internship-Remote_JR-103073) |
 | Astranis | Software Engineer Intern - Enterprise Systems (Fall 2026) 🇺🇸 | Software | San Francisco, CA | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
 | Rendezvous Robotics | Software Engineering Intern (Fall 2026) 🇺🇸 🆕 | Software | Golden, CO | Jul 22, 2026 | [Apply](https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4328555009) |
@@ -136,21 +136,23 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | TMEIC ✓ | Intern - Applications, AI and Machine Learning (Fall 2026) (ET26021) 🛂 | Data & ML/AI | Roanoke, Virginia, United States | Apr 24, 2026 | [Apply](https://apply.workable.com/tmeic-corporation-americas/j/FD4C9770FF/) |
 | Lego | Firmware Engineering Co-Op - Fall 2026 | Hardware | United States of America | Apr 20, 2026 | [Apply](https://lego.wd103.myworkdayjobs.com/lego_executive/job/Boston-Hub/Firmware-Engineering-Intern_0000031568) |
 | Hermeus | Software Engineering Intern (HIL) - Fall 2026 🇺🇸 | Software | Atlanta, GA | Apr 17, 2026 | [Apply](https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf) |
-| Hermeus | Software Engineering Intern (Modeling & Simulation) - Fall 2026 🇺🇸 | Software | Los Angeles, CA | Apr 17, 2026 | [Apply](https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d) |
 | Notion ✓ | Software Engineer Intern (Fall 2026) | Software | San Francisco, California | Apr 06, 2026 | [Apply](https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90) |
 | SharkNinja ✓ | Fall 2026: SharkByte Applied AI & Analytics Co-op (July/August to December) | Data & ML/AI | Miami +8 more | Apr 02, 2026 | [Apply](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006) |
 | Hermeus | Software Engineering Intern (HMI) - Fall 2026 🇺🇸 | Software | Atlanta, GA | Apr 01, 2026 | [Apply](https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67) |
 | Motorola ✓ | Intern - Embedded Software, System, and Test Engineer - 2026 🇺🇸 | Software | Irvine, CA | Mar 30, 2026 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372) |
 | Varda Space | Flight Software Internship - Fall 2026 🇺🇸 | Software | El Segundo, California, United States | Mar 23, 2026 | [Apply](https://job-boards.greenhouse.io/vardaspace/jobs/7676465003) |
+| Hermeus | Flight Software Engineering Intern - Fall 2026 🇺🇸 | Software | Atlanta, GA | Mar 04, 2026 | [Apply](https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440) |
 | Amazon ✓ | Robotics - Software Development Engineer Intern/Co-op - 2026 | Hardware | Westboro, Massachusetts, USA | Dec 03, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 
-## Recently posted — cycle not stated  (46 roles)
+## Recently posted — cycle not stated  (48 roles)
 
 These postings never name a cycle — not in the title, not in the posting text — so neither do we. They're recent tech internships (posted within the last few weeks), often exactly the early drops worth applying to first; we just can't tell you which cycle they're for, and we'd rather say so than guess. The moment a posting's own text states a cycle, the role moves up into that section automatically.
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Motorola ✓ | Software Engineering, Co-Op 🛂 🆕 | Software | Massachusetts, US Offsite, More... | Jul 29, 2026 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Massachusetts-US-Offsite/Software-Engineering--Co-Op_R66728) |
+| Rockwell Automation ✓ | Intern, Applied AI 🆕 | Data & ML/AI | Austin, Texas, United States | Jul 29, 2026 | [Apply](https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Austin-Texas-United-States/Intern--Applied-AI_R26-5631-2) |
 | Bosch | Autonomous Driving – Internship in Machine Learning 🆕 | Data & ML/AI | Sunnyvale, CA, United States | Jul 29, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000140462550) |
 | Brunswick ✓ | Software Engineer Intern 🛂 🆕 | Software | Champaign, IL | Jul 28, 2026 | [Apply](https://brunswick.wd1.myworkdayjobs.com/search/job/Champaign-IL/Software-Engineer-Intern_JR-050991) |
 | Modal | ML Research Intern 🆕 | Data & ML/AI | New York | Jul 28, 2026 | [Apply](https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a) |
@@ -248,6 +250,7 @@ _Why each one left is in the last column, because the two reasons carry differen
 
 | Company | Role | Cycle | Closed | Why |
 |---|---|---|---|---|
+| Hermeus | Software Engineering Intern (Modeling & Simulation) - Fall 2026 | Fall 2026 | 2026-07-29 | gone from feed |
 | Charles River Analytics | Software QA Tester Intern/Co-op | Fall 2026 | 2026-07-29 | gone from feed |
 | Four Hands | Cybersecurity Intern | Fall 2026 | 2026-07-28 | gone from feed |
 | MSM Inc. | AI Solutions Co-op (Fall 2026) | Fall 2026 | 2026-07-28 | gone from feed |
@@ -258,7 +261,6 @@ _Why each one left is in the last column, because the two reasons carry differen
 | Reliable Robotics | Flight Software Engineering Intern (Fall 2026 Internship) | Fall 2026 | 2026-07-20 | not recorded |
 | Motorola | Intern – Web Interface Software Engineer (2026) | Fall 2026 | 2026-07-20 | not recorded |
 | onsemi | Fall 2026 - AI & Data Analytics Intern | Fall 2026 | 2026-07-17 | not recorded |
-| Uber Freight | Data Scientist Intern - Fall 2026 | Fall 2026 | 2026-07-15 | not recorded |
 
 </details>
 
@@ -277,7 +279,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,698 of 3,945 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 460.5s · 116 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,729 of 3,945 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 94% of the full registry) · completed in 336.4s · 108 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
