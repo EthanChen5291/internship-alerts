@@ -1,9 +1,36 @@
 {
- "generated_at": "2026-07-28T23:15:18Z",
+ "generated_at": "2026-07-29T02:16:07Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 114,
+ "count": 115,
  "jobs": [
+  {
+   "id": "workday:brunswick:/job/Champaign-IL/Software-Engineer-Intern_JR-050991",
+   "company": "Brunswick",
+   "title": "Software Engineer Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Champaign, IL",
+   "url": "https://brunswick.wd1.myworkdayjobs.com/search/job/Champaign-IL/Software-Engineer-Intern_JR-050991",
+   "posted_at": "2026-07-28T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-07-29T02:16:06Z",
+   "sponsorship": "no-sponsorship",
+   "salary": "$26/hr",
+   "skills": [
+    "Python",
+    "Rust",
+    "TypeScript",
+    "Azure",
+    "Git"
+   ],
+   "source": "workday",
+   "h1b_approvals": 54,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "ashby:modal:38888294-6bc7-4dab-b072-6d0f0c2ed79a",
    "company": "Modal",
@@ -18,7 +45,7 @@
    "posted_at_source": "exact",
    "first_seen_at": "2026-07-28T23:15:17Z",
    "sponsorship": "unknown",
-   "salary": "$14K per month",
+   "salary": "$15K per month",
    "skills": [
     "Git"
    ],

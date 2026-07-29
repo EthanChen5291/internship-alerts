@@ -5,15 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-28T23:15:18Z</updated>
+  <updated>2026-07-29T02:16:07Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:brunswick:/job/Champaign-IL/Software-Engineer-Intern_JR-050991</id>
+    <title>Brunswick: Software Engineer Intern 🛂</title>
+    <link href="https://brunswick.wd1.myworkdayjobs.com/search/job/Champaign-IL/Software-Engineer-Intern_JR-050991"/>
+    <updated>2026-07-29T02:16:06Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Champaign, IL · $26/hr · Python, Rust, TypeScript, Azure, Git · sponsorship: no-sponsorship · H-1B track record: ~54 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:modal:38888294-6bc7-4dab-b072-6d0f0c2ed79a</id>
     <title>Modal: ML Research Intern</title>
     <link href="https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a"/>
     <updated>2026-07-28T23:15:17Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · New York · $14K per month · Git</summary>
+    <summary>Not stated · Data &amp; ML/AI · New York · $15K per month · Git</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:ewvl.fa.us8.oraclecloud.com:2164</id>
@@ -798,13 +806,5 @@
     <updated>2026-06-30T12:14:22Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Software · Austin, TX · Python, C++, Rust, TypeScript, JavaScript · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:astranis:4681183006</id>
-    <title>Astranis: Software Engineer- Backend Intern (Fall 2026) 🇺🇸</title>
-    <link href="https://job-boards.greenhouse.io/astranis/jobs/4681183006"/>
-    <updated>2026-06-30T12:14:22Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · San Francisco, CA · $29/hr · Python, Kubernetes, PostgreSQL · sponsorship: citizens-only</summary>
   </entry>
 </feed>
