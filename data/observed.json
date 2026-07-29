@@ -603,6 +603,18 @@
     }
    }
   },
+  "rendezvous robotics": {
+   "name": "Rendezvous Robotics",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-07-22",
+     "role_ids": [
+      "greenhouse:rendezvousrobotics:4328555009"
+     ],
+     "count": 1
+    }
+   }
+  },
   "rocket lab": {
    "name": "Rocket Lab",
    "cycles": {
@@ -921,5 +933,5 @@
    }
   }
  },
- "updated_at": "2026-07-29T08:39:05Z"
+ "updated_at": "2026-07-29T11:28:56Z"
 }
