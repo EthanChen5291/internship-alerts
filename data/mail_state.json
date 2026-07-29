@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-07-28T05:53:18Z",
-  "last_digest_roles": 9,
-  "last_digest_sent": 170,
+  "last_digest_at": "2026-07-29T05:54:27Z",
+  "last_digest_roles": 6,
+  "last_digest_sent": 173,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -30,10 +30,16 @@
     "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:36722",
     "workday:nelnet:/job/Lincoln-NE/Intern-Program---Agentic-AI_R22904",
     "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378",
-    "workday:mosaic:/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1"
+    "workday:mosaic:/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1",
+    "workday:brunswick:/job/Champaign-IL/Software-Engineer-Intern_JR-050991",
+    "ashby:modal:38888294-6bc7-4dab-b072-6d0f0c2ed79a",
+    "oracle:ewvl.fa.us8.oraclecloud.com:2164",
+    "workday:draper:/job/Cambridge-MA/Electronics---Embedded-Systems-Intern--Summer-2027-_JR002735",
+    "workday:assurant:/job/Atlanta-GA/Digital---AI-Transformation-Intern_R-114103-3",
+    "smartrecruiters:BoschGroup:744000140317669"
   ],
   "last_digest_failed": 0,
   "retry_emails": [],
-  "subscribers_total": 170,
+  "subscribers_total": 173,
   "send_cursor": 0
 }
