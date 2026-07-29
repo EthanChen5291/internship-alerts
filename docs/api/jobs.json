@@ -1,9 +1,39 @@
 {
- "generated_at": "2026-07-29T17:17:49Z",
+ "generated_at": "2026-07-29T19:13:50Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 119,
+ "count": 120,
  "jobs": [
+  {
+   "id": "workday:leidos:/job/Indianapolis-IN/Application-Developer-Intern_R-00188193-1",
+   "company": "Leidos",
+   "title": "Application Developer Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Indianapolis, IN",
+   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Indianapolis-IN/Application-Developer-Intern_R-00188193-1",
+   "posted_at": "2026-07-29T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-07-29T19:13:50Z",
+   "sponsorship": "citizens-only",
+   "salary": null,
+   "skills": [
+    "Python",
+    "JavaScript",
+    "SQL",
+    "React",
+    "Flask",
+    "AWS",
+    "Azure",
+    "Docker"
+   ],
+   "source": "workday",
+   "h1b_approvals": 79,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "workday:borgwarner:/job/Auburn-Hills---Michigan---USA/Software-Application-Engineering-Intern--Year-Round-_R2026-1645",
    "company": "BorgWarner",
