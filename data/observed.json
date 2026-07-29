@@ -603,6 +603,18 @@
     }
    }
   },
+  "redwood materials": {
+   "name": "Redwood Materials",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-07-29",
+     "role_ids": [
+      "greenhouse:redwoodmaterials:6126784004"
+     ],
+     "count": 1
+    }
+   }
+  },
   "reliable robotics": {
    "name": "Reliable Robotics",
    "cycles": {
@@ -945,5 +957,5 @@
    }
   }
  },
- "updated_at": "2026-07-29T19:13:50Z"
+ "updated_at": "2026-07-29T20:57:42Z"
 }

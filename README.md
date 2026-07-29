@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%20hour-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 120 open roles (112 listed below) · 43 new this week
+### 122 open roles (114 listed below) · 45 new this week
 
-3,854 employers tracked · updated Jul 29, 2026 at 19:13 UTC
+3,854 employers tracked · updated Jul 29, 2026 at 20:57 UTC
 
-_67 have a cycle the employer stated · 53 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_68 have a cycle the employer stated · 54 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -106,10 +106,11 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Quant | New York, New York | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679434006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-## Fall 2026  (34 employer-stated)
+## Fall 2026  (35 employer-stated)
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Redwood Materials | Embedded Software Engineer Intern - Fall 2026 🆕 | Software | San Francisco, California, United States | Jul 29, 2026 | [Apply](https://boards.greenhouse.io/redwoodmaterials/jobs/6126784004?gh_jid=6126784004) |
 | Mosaic | Informational Technology Cybersecurity Co-Op/Intern - Fall 2026 | Security | US - Tampa, FL (Lithia area) | Jul 27, 2026 | [Apply](https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1) |
 | Toshiba Global Commerce ✓ | Agentic Software Engineering intern 🛂 | Software | Durham, NC | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5177892007) |
 | Toshiba Global Commerce ✓ | Project Management & AI Automation Intern 🛂 | Data & ML/AI | Frisco, TX | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5190937007) |
@@ -145,12 +146,13 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Amazon ✓ | Robotics - Software Development Engineer Intern/Co-op - 2026 | Hardware | Westboro, Massachusetts, USA | Dec 03, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 
-## Recently posted — cycle not stated  (49 roles)
+## Recently posted — cycle not stated  (50 roles)
 
 These postings never name a cycle — not in the title, not in the posting text — so neither do we. They're recent tech internships (posted within the last few weeks), often exactly the early drops worth applying to first; we just can't tell you which cycle they're for, and we'd rather say so than guess. The moment a posting's own text states a cycle, the role moves up into that section automatically.
 
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
+| Leidos ✓ | Data Science Intern 🇺🇸 🆕 | Data & ML/AI | San Diego, CA | Jul 29, 2026 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/San-Diego-CA/Data-Science-Intern_R-00188405) |
 | Leidos ✓ | Application Developer Intern 🇺🇸 🆕 | Software | Indianapolis, IN | Jul 29, 2026 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Indianapolis-IN/Application-Developer-Intern_R-00188193-1) |
 | BorgWarner | Software Application Engineering Intern (Year Round) 🆕 | Software | Auburn Hills - Michigan - USA | Jul 29, 2026 | [Apply](https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Auburn-Hills---Michigan---USA/Software-Application-Engineering-Intern--Year-Round-_R2026-1645) |
 | Motorola ✓ | Software Engineering, Co-Op 🛂 🆕 | Software | Massachusetts, US Offsite, More... | Jul 29, 2026 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Massachusetts-US-Offsite/Software-Engineering--Co-Op_R66728) |
@@ -161,9 +163,9 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Savannah River National Laboratory | ASPIRE Software Developer Undergraduate Intern 🇺🇸 🆕 | Software | Aiken, SC, United States | Jul 28, 2026 | [Apply](https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2164) |
 | Assurant | Digital & AI Transformation Intern 🆕 | Data & ML/AI | Atlanta, GA | Jul 28, 2026 | [Apply](https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/Atlanta-GA/Digital---AI-Transformation-Intern_R-114103-3) |
 | Bosch | ADAS Software Engineering Intern 🆕 | Software | Plymouth, MI, United States | Jul 28, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000140317669) |
-| Bosch | Powertrain Controls Software Engineering Intern (6-Months) 🆕 | Software | Farmington Hills, MI, United States | Jul 27, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000140089589) |
-| CCC Intelligent Solutions ✓ | Applied AI Engineering Intern 🆕 | Data & ML/AI | Chicago (Green St), IL | Jul 27, 2026 | [Apply](https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Applied-AI-Engineering-Intern_0014827) |
-| Apptronik | Software Engineer Intern - ML Systems 🆕 | Data & ML/AI | Onsite - Austin, TX | Jul 27, 2026 | [Apply](https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004) |
+| Bosch | Powertrain Controls Software Engineering Intern (6-Months) | Software | Farmington Hills, MI, United States | Jul 27, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000140089589) |
+| CCC Intelligent Solutions ✓ | Applied AI Engineering Intern | Data & ML/AI | Chicago (Green St), IL | Jul 27, 2026 | [Apply](https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Applied-AI-Engineering-Intern_0014827) |
+| Apptronik | Software Engineer Intern - ML Systems | Data & ML/AI | Onsite - Austin, TX | Jul 27, 2026 | [Apply](https://boards.greenhouse.io/apptronik/jobs/6128057004?gh_jid=6128057004) |
 | Nokia ✓ | Architecture AI Co-op 🛂 | Data & ML/AI | United States | Jul 27, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36722) |
 | Nelnet ✓ | Intern Program - Agentic AI | Data & ML/AI | Lincoln, NE | Jul 27, 2026 | [Apply](https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern-Program---Agentic-AI_R22904) |
 | Core & Main | Intern - AI/ML Data Engineering  -  Onsite - St. Louis | Data & ML/AI | Saint Louis, MO 63146 | Jul 24, 2026 | [Apply](https://coreandmain.wd1.myworkdayjobs.com/coreandmain/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804) |
@@ -280,7 +282,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,678 of 3,945 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 93% of the full registry) · completed in 367.6s · 111 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,661 of 3,945 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 92% of the full registry) · completed in 393.4s · 105 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
