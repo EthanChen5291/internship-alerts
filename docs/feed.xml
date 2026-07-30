@@ -5,12 +5,20 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-30T11:54:01Z</updated>
+  <updated>2026-07-30T13:54:27Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
     <id>urn:intern-engine:lever:tevora:1be28747-e28c-43af-b38c-087452263f96</id>
     <title>Tevora: Cybersecurity Internship Fall 2026 - Enterprise Risk Management</title>
     <link href="https://jobs.lever.co/tevora/1be28747-e28c-43af-b38c-087452263f96"/>
+    <updated>2026-07-30T11:54:00Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Security · Irvine, CA · 27 USD/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:tevora:23fb4ead-6204-4f9b-9a60-9c28b7d1d3dc</id>
+    <title>Tevora: Cybersecurity Internship Fall 2026 - Solutions</title>
+    <link href="https://jobs.lever.co/tevora/23fb4ead-6204-4f9b-9a60-9c28b7d1d3dc"/>
     <updated>2026-07-30T11:54:00Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Security · Irvine, CA · 27 USD/hr</summary>
@@ -24,17 +32,9 @@
     <summary>Fall 2026 · Security · Fairfax, VA · 27 USD/hr</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:lever:tevora:f3d10f98-0ee6-4ad7-a1a0-6863ff008adf</id>
-    <title>Tevora: Cybersecurity Internship Fall 2026 - Healthcare</title>
-    <link href="https://jobs.lever.co/tevora/f3d10f98-0ee6-4ad7-a1a0-6863ff008adf"/>
-    <updated>2026-07-30T11:54:00Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Security · Irvine, CA · 27 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:tevora:dd7cd048-9997-425d-b1f4-d13f37c66df0</id>
-    <title>Tevora: Cybersecurity Internship Fall 2026 - International Organization for Standardization (ISO)</title>
-    <link href="https://jobs.lever.co/tevora/dd7cd048-9997-425d-b1f4-d13f37c66df0"/>
+    <id>urn:intern-engine:lever:tevora:5bec7454-0bde-4db3-85ec-f0af7a0a1733</id>
+    <title>Tevora: Cybersecurity Internship Fall 2026 - Threat</title>
+    <link href="https://jobs.lever.co/tevora/5bec7454-0bde-4db3-85ec-f0af7a0a1733"/>
     <updated>2026-07-30T11:54:00Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Security · Irvine, CA · 27 USD/hr</summary>
@@ -48,9 +48,17 @@
     <summary>Fall 2026 · Security · Fairfax, VA · 27 USD/hr</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:lever:tevora:23fb4ead-6204-4f9b-9a60-9c28b7d1d3dc</id>
-    <title>Tevora: Cybersecurity Internship Fall 2026 - Solutions</title>
-    <link href="https://jobs.lever.co/tevora/23fb4ead-6204-4f9b-9a60-9c28b7d1d3dc"/>
+    <id>urn:intern-engine:lever:tevora:dd7cd048-9997-425d-b1f4-d13f37c66df0</id>
+    <title>Tevora: Cybersecurity Internship Fall 2026 - International Organization for Standardization (ISO)</title>
+    <link href="https://jobs.lever.co/tevora/dd7cd048-9997-425d-b1f4-d13f37c66df0"/>
+    <updated>2026-07-30T11:54:00Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Security · Irvine, CA · 27 USD/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:tevora:f3d10f98-0ee6-4ad7-a1a0-6863ff008adf</id>
+    <title>Tevora: Cybersecurity Internship Fall 2026 - Healthcare</title>
+    <link href="https://jobs.lever.co/tevora/f3d10f98-0ee6-4ad7-a1a0-6863ff008adf"/>
     <updated>2026-07-30T11:54:00Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Security · Irvine, CA · 27 USD/hr</summary>
@@ -59,14 +67,6 @@
     <id>urn:intern-engine:lever:tevora:fe730e76-b19c-4026-97d6-f4b6120b299e</id>
     <title>Tevora: Cybersecurity Internship Fall 2026 - Systems and Organizations Controls (SOC)</title>
     <link href="https://jobs.lever.co/tevora/fe730e76-b19c-4026-97d6-f4b6120b299e"/>
-    <updated>2026-07-30T11:54:00Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Security · Irvine, CA · 27 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:tevora:5bec7454-0bde-4db3-85ec-f0af7a0a1733</id>
-    <title>Tevora: Cybersecurity Internship Fall 2026 - Threat</title>
-    <link href="https://jobs.lever.co/tevora/5bec7454-0bde-4db3-85ec-f0af7a0a1733"/>
     <updated>2026-07-30T11:54:00Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Security · Irvine, CA · 27 USD/hr</summary>

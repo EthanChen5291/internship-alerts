@@ -6,9 +6,9 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%20hour-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 127 open roles (114 listed below) · 51 new this week
+### 127 open roles (114 listed below) · 50 new this week
 
-3,869 employers tracked · updated Jul 30, 2026 at 11:54 UTC
+3,869 employers tracked · updated Jul 30, 2026 at 13:54 UTC
 
 _77 have a cycle the employer stated · 50 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -131,8 +131,8 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Intuitive Surgical ✓ | Computer Vision Engineering Intern - Fall 2026 | Data & ML/AI | Sunnyvale, CA, United States | Jun 22, 2026 | [Apply](https://jobs.smartrecruiters.com/Intuitive/744000133458290) |
 | SoloPulse | Software Engineer Intern/Co-Op - Fall 2026 | Software | Peachtree Corners, GA | Jun 16, 2026 | [Apply](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56) |
 | Tevora | Cybersecurity Internship Fall 2026 - Enterprise Risk Management 🆕 | Security | Irvine, CA | Jun 05, 2026 | [Apply](https://jobs.lever.co/tevora/1be28747-e28c-43af-b38c-087452263f96) |
+| Tevora | Cybersecurity Internship Fall 2026 - Solutions 🆕 | Security | Irvine, CA | Jun 05, 2026 | [Apply](https://jobs.lever.co/tevora/23fb4ead-6204-4f9b-9a60-9c28b7d1d3dc) |
 | Tevora | Cybersecurity Internship Fall 2026 - Federal 🆕 | Security | Fairfax, VA | Jun 05, 2026 | [Apply](https://jobs.lever.co/tevora/335ec3e2-c7ee-4e4c-b4a9-04428999e954) |
-| Tevora | Cybersecurity Internship Fall 2026 - Healthcare 🆕 | Security | Irvine, CA | Jun 05, 2026 | [Apply](https://jobs.lever.co/tevora/f3d10f98-0ee6-4ad7-a1a0-6863ff008adf) |
 | Beacon Software | Software Engineering Intern | Software | San Francisco, CA | Jun 02, 2026 | [Apply](https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1) |
 | Saronic | Software Engineer Intern (Fall 2026) 🇺🇸 | Software | Austin, TX | May 18, 2026 | [Apply](https://jobs.ashbyhq.com/saronic/1c74957f-0895-415b-9324-08b0994747d7) |
 | Astranis | Software Engineer- Backend Intern (Fall 2026) 🇺🇸 | Software | San Francisco, CA | May 13, 2026 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4681183006) |
@@ -283,7 +283,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,752 of 3,961 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 94% of the full registry) · completed in 335.2s · 104 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,740 of 3,961 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 94% of the full registry) · completed in 324.5s · 118 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
