@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-07-29T05:54:27Z",
-  "last_digest_roles": 6,
-  "last_digest_sent": 173,
+  "last_digest_at": "2026-07-30T04:00:52Z",
+  "last_digest_roles": 10,
+  "last_digest_sent": 178,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -36,10 +36,20 @@
     "oracle:ewvl.fa.us8.oraclecloud.com:2164",
     "workday:draper:/job/Cambridge-MA/Electronics---Embedded-Systems-Intern--Summer-2027-_JR002735",
     "workday:assurant:/job/Atlanta-GA/Digital---AI-Transformation-Intern_R-114103-3",
-    "smartrecruiters:BoschGroup:744000140317669"
+    "smartrecruiters:BoschGroup:744000140317669",
+    "workday:spe:/job/Culver-City-California/Current-Programming-Intern--Sony-Pictures-Television---Fall-2026_JR113893",
+    "greenhouse:virtu:8657500002",
+    "greenhouse:redwoodmaterials:6126784004",
+    "workday:leidos:/job/San-Diego-CA/Data-Science-Intern_R-00188405",
+    "workday:leidos:/job/Indianapolis-IN/Application-Developer-Intern_R-00188193-1",
+    "workday:motorolasolutions:/job/Massachusetts-US-Offsite/Software-Engineering--Co-Op_R66728",
+    "workday:rockwellautomation:/job/Austin-Texas-United-States/Intern--Applied-AI_R26-5631-2",
+    "smartrecruiters:BoschGroup:744000140462550",
+    "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311",
+    "greenhouse:rendezvousrobotics:4328555009"
   ],
   "last_digest_failed": 0,
   "retry_emails": [],
-  "subscribers_total": 173,
+  "subscribers_total": 178,
   "send_cursor": 0
 }
