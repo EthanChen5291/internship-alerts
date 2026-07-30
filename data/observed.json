@@ -754,6 +754,18 @@
     }
    }
   },
+  "sony pictures entertainment": {
+   "name": "Sony Pictures Entertainment",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-07-29",
+     "role_ids": [
+      "workday:spe:/job/Culver-City-California/Current-Programming-Intern--Sony-Pictures-Television---Fall-2026_JR113893"
+     ],
+     "count": 1
+    }
+   }
+  },
   "state street": {
    "name": "State Street",
    "cycles": {
@@ -958,5 +970,5 @@
    }
   }
  },
- "updated_at": "2026-07-29T23:04:57Z"
+ "updated_at": "2026-07-30T00:09:49Z"
 }

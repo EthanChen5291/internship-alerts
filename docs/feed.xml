@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-29T23:04:57Z</updated>
+  <updated>2026-07-30T00:09:50Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:spe:/job/Culver-City-California/Current-Programming-Intern--Sony-Pictures-Television---Fall-2026_JR113893</id>
+    <title>Sony Pictures Entertainment: Current Programming Intern, Sony Pictures Television – Fall 2026</title>
+    <link href="https://spe.wd1.myworkdayjobs.com/SonyPicturesEntertainment/job/Culver-City-California/Current-Programming-Intern--Sony-Pictures-Television---Fall-2026_JR113893"/>
+    <updated>2026-07-30T00:09:49Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Culver City, California · $19/hr · H-1B track record: ~29 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:virtu:8657500002</id>
     <title>Virtu Financial: 2027 Internship - Frontend &amp; User Experience</title>
@@ -798,13 +806,5 @@
     <updated>2026-07-01T20:55:33Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Software · Irvine, CA · sponsorship: citizens-only · H-1B track record: ~191 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:amazon:amazon:10412530</id>
-    <title>Amazon: Software Development Engineer Intern, AWS Data Services - Fall 2026 (US)</title>
-    <link href="https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us"/>
-    <updated>2026-06-30T17:50:48Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Seattle, Washington, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
   </entry>
 </feed>
