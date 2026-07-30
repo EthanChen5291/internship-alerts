@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-30T19:25:20Z",
+ "generated_at": "2026-07-30T21:10:09Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 126,
+ "count": 125,
  "jobs": [
   {
    "id": "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109964",
@@ -433,36 +433,6 @@
    ],
    "source": "smartrecruiters",
    "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:cccis:/job/Chicago-Green-St-IL/Applied-AI-Engineering-Intern_0014827",
-   "company": "CCC Intelligent Solutions",
-   "title": "Applied AI Engineering Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "Chicago (Green St), IL",
-   "url": "https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Applied-AI-Engineering-Intern_0014827",
-   "posted_at": "2026-07-27T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-07-27T20:26:09Z",
-   "sponsorship": "unknown",
-   "salary": "$20–$43/hr",
-   "skills": [
-    "Python",
-    "TypeScript",
-    "JavaScript",
-    "LLMs",
-    "React",
-    "AWS",
-    "GCP",
-    "Azure"
-   ],
-   "source": "workday",
-   "h1b_approvals": 101,
    "program": "Internship",
    "remote": false
   },
