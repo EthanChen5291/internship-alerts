@@ -1694,6 +1694,11 @@
     "site": "External"
   },
   {
+    "name": "Arevon",
+    "slug": "arevonenergyimpltest",
+    "ats": "greenhouse"
+  },
+  {
     "name": "Argmax",
     "slug": "argmax",
     "ats": "greenhouse"
@@ -6482,6 +6487,11 @@
     "site": "donaldsoncareers"
   },
   {
+    "name": "DOOR",
+    "slug": "door",
+    "ats": "rippling"
+  },
+  {
     "name": "DoorDash",
     "slug": "doordashusa",
     "ats": "greenhouse"
@@ -8317,6 +8327,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "Fortrea"
+  },
+  {
+    "name": "Forus",
+    "slug": "forus",
+    "ats": "ashby"
   },
   {
     "name": "Forward Networks",
@@ -12293,6 +12308,11 @@
     "site": "US_Corporate_Jobs"
   },
   {
+    "name": "Logicbroker, Inc.",
+    "slug": "logicbroker-inc",
+    "ats": "rippling"
+  },
+  {
     "name": "LogicGate",
     "slug": "logicgate",
     "ats": "greenhouse"
@@ -12509,6 +12529,13 @@
     "name": "Lyra Health",
     "slug": "lyrahealth",
     "ats": "lever"
+  },
+  {
+    "name": "Lyten",
+    "slug": "lyten",
+    "ats": "workday",
+    "wd": "wd503",
+    "site": "Lyten_External_Career_Site"
   },
   {
     "name": "Lytx Careers",
@@ -13456,6 +13483,11 @@
     "ats": "rippling"
   },
   {
+    "name": "MILE MARKER",
+    "slug": "mile-marker",
+    "ats": "rippling"
+  },
+  {
     "name": "Millennium Space Systems",
     "slug": "millenniumspacesystems",
     "ats": "greenhouse"
@@ -14166,6 +14198,11 @@
     "ats": "rippling"
   },
   {
+    "name": "nesto",
+    "slug": "nesto",
+    "ats": "rippling"
+  },
+  {
     "name": "Netcompany",
     "slug": "Netcompany1",
     "ats": "smartrecruiters"
@@ -14471,6 +14508,11 @@
     "name": "Nooks",
     "slug": "nooks",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Nooks",
+    "slug": "nooks",
+    "ats": "ashby"
   },
   {
     "name": "Nordic",
@@ -15606,6 +15648,11 @@
     "site": "PBSCareers"
   },
   {
+    "name": "PCMI",
+    "slug": "pcmi",
+    "ats": "rippling"
+  },
+  {
     "name": "PDI Technologies",
     "slug": "pditechnologies",
     "ats": "lever"
@@ -16004,6 +16051,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Planet Technologies",
+    "slug": "planettechnologies",
+    "ats": "lever"
+  },
+  {
     "name": "PlanetScale",
     "slug": "planetscale",
     "ats": "greenhouse"
@@ -16191,6 +16243,11 @@
     "name": "Practising Law Institute",
     "slug": "practisinglawinstitute",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Praos Smart Security",
+    "slug": "praos-smart-security",
+    "ats": "rippling"
   },
   {
     "name": "Praxent",
@@ -16768,6 +16825,11 @@
     "name": "Randstad",
     "slug": "Randstad4",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "RapDev",
+    "slug": "rapdev",
+    "ats": "ashby"
   },
   {
     "name": "Rapid7",
@@ -19980,6 +20042,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Tevora",
+    "slug": "tevora",
+    "ats": "lever"
+  },
+  {
     "name": "Texas A&M International University",
     "slug": "tamus",
     "ats": "workday",
@@ -21285,6 +21352,11 @@
     "site": "uvastudentjobs"
   },
   {
+    "name": "University of Virginia Investment Management Company (UVIMCO)",
+    "slug": "uvimco",
+    "ats": "greenhouse"
+  },
+  {
     "name": "University of Wisconsin-Madison",
     "slug": "wisconsin",
     "ats": "workday",
@@ -21390,6 +21462,11 @@
     "name": "USM Business Systems",
     "slug": "USM2",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Usul",
+    "slug": "usul",
+    "ats": "ashby"
   },
   {
     "name": "UTHealth Houston",
@@ -21751,6 +21828,13 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "careers"
+  },
+  {
+    "name": "Vibrant Emotional Health",
+    "slug": "vibrant",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "VEH_EXTERNAL_CAREER_SITE"
   },
   {
     "name": "Viget",
