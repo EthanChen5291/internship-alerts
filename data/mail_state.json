@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-07-30T04:00:52Z",
+  "last_digest_at": "2026-07-31T02:31:48Z",
   "last_digest_roles": 10,
-  "last_digest_sent": 178,
+  "last_digest_sent": 183,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -46,10 +46,20 @@
     "workday:rockwellautomation:/job/Austin-Texas-United-States/Intern--Applied-AI_R26-5631-2",
     "smartrecruiters:BoschGroup:744000140462550",
     "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311",
-    "greenhouse:rendezvousrobotics:4328555009"
+    "greenhouse:rendezvousrobotics:4328555009",
+    "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109964",
+    "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109965",
+    "lever:tevora:1be28747-e28c-43af-b38c-087452263f96",
+    "lever:tevora:23fb4ead-6204-4f9b-9a60-9c28b7d1d3dc",
+    "lever:tevora:335ec3e2-c7ee-4e4c-b4a9-04428999e954",
+    "lever:tevora:5bec7454-0bde-4db3-85ec-f0af7a0a1733",
+    "lever:tevora:c0af26d1-51b0-41ba-9916-a208c1cafc29",
+    "lever:tevora:dd7cd048-9997-425d-b1f4-d13f37c66df0",
+    "lever:tevora:f3d10f98-0ee6-4ad7-a1a0-6863ff008adf",
+    "lever:tevora:fe730e76-b19c-4026-97d6-f4b6120b299e"
   ],
   "last_digest_failed": 0,
   "retry_emails": [],
-  "subscribers_total": 178,
+  "subscribers_total": 183,
   "send_cursor": 0
 }
