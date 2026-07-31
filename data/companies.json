@@ -503,6 +503,11 @@
     "site": "CX_1"
   },
   {
+    "name": "Advocate Technologies Inc.",
+    "slug": "advocate-technologies-inc",
+    "ats": "rippling"
+  },
+  {
     "name": "Aechelon Technology",
     "slug": "aechelontechnology",
     "ats": "greenhouse"
@@ -1211,6 +1216,13 @@
     "site": "Ameriprise"
   },
   {
+    "name": "Amerisure",
+    "slug": "osv-amerisure",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "Amerisure"
+  },
+  {
     "name": "Ames Construction",
     "slug": "amesconstruction",
     "ats": "workday",
@@ -1857,6 +1869,11 @@
     "name": "Artefact",
     "slug": "artefactlinkedin",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Artera",
+    "slug": "artera-2",
+    "ats": "lever"
   },
   {
     "name": "ArteraAI",
@@ -3818,6 +3835,11 @@
     "name": "Calm",
     "slug": "calm",
     "ats": "greenhouse"
+  },
+  {
+    "name": "CALSTART",
+    "slug": "calstart",
+    "ats": "lever"
   },
   {
     "name": "Calyxo",
@@ -9796,6 +9818,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Heliux",
+    "slug": "heliux",
+    "ats": "ashby"
+  },
+  {
     "name": "HELLBENDER",
     "slug": "hellbenderinc",
     "ats": "greenhouse"
@@ -9813,6 +9840,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "External_Careers"
+  },
+  {
+    "name": "Herald",
+    "slug": "heraldapi",
+    "ats": "greenhouse"
   },
   {
     "name": "Hermeus",
@@ -13177,6 +13209,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Melius",
+    "slug": "melius",
+    "ats": "ashby"
+  },
+  {
     "name": "Melotech",
     "slug": "melotech",
     "ats": "ashby"
@@ -14101,6 +14138,11 @@
     "ats": "breezy"
   },
   {
+    "name": "NAXO",
+    "slug": "naxo",
+    "ats": "rippling"
+  },
+  {
     "name": "NBCUniversal",
     "slug": "NBCUniversal3",
     "ats": "smartrecruiters"
@@ -14200,6 +14242,11 @@
   {
     "name": "nesto",
     "slug": "nesto",
+    "ats": "rippling"
+  },
+  {
+    "name": "Nesto Cloud",
+    "slug": "nestocloud",
     "ats": "rippling"
   },
   {
@@ -16561,6 +16608,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Pyrovio",
+    "slug": "pyrovio",
+    "ats": "breezy"
+  },
+  {
     "name": "Q-CTRL",
     "slug": "q-ctrl",
     "ats": "lever"
@@ -17508,6 +17560,11 @@
     "name": "Roljobs Technology Services",
     "slug": "RA2",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Rollout",
+    "slug": "rollout",
+    "ats": "ashby"
   },
   {
     "name": "Rolls-Royce",
@@ -19487,6 +19544,11 @@
     "site": "CX_1004"
   },
   {
+    "name": "SugarCRM",
+    "slug": "sugarcrm",
+    "ats": "lever"
+  },
+  {
     "name": "Sumitomo Pharma America",
     "slug": "sumitomopharma",
     "ats": "workday",
@@ -21079,6 +21141,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Ubisoft",
+    "slug": "Ubisoft2",
+    "ats": "smartrecruiters"
+  },
+  {
     "name": "Udemy",
     "slug": "udemybedi",
     "ats": "greenhouse"
@@ -21137,6 +21204,13 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "UMBExternal"
+  },
+  {
+    "name": "UMC Health System",
+    "slug": "umchealthsystem",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "External"
   },
   {
     "name": "Uncountable",
