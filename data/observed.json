@@ -374,6 +374,18 @@
     }
    }
   },
+  "heliux": {
+   "name": "Heliux",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-07-31",
+     "role_ids": [
+      "ashby:heliux:ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef"
+     ],
+     "count": 1
+    }
+   }
+  },
   "hermeus": {
    "name": "Hermeus",
    "cycles": {
@@ -989,5 +1001,5 @@
    }
   }
  },
- "updated_at": "2026-07-31T09:46:24Z"
+ "updated_at": "2026-07-31T12:01:37Z"
 }
