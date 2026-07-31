@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-07-31T14:01:14Z</updated>
+  <updated>2026-07-31T16:05:58Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:melius:b61f063a-4f94-4e50-a4ef-05aaab552280</id>
+    <title>Melius: Software Engineering Intern [Spring/Summer 2027]</title>
+    <link href="https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280"/>
+    <updated>2026-07-31T16:05:57Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York City · $11K per month · TypeScript, LLMs, React, PostgreSQL</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:heliux:ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef</id>
     <title>Heliux: Software Engineer (Internship, Summer 2027) 🇺🇸</title>
@@ -17,11 +25,11 @@
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:melius:6a944911-dbbf-44c7-ba52-7866f7b433cf</id>
-    <title>Melius: Software Engineering Intern</title>
+    <title>Melius: Software Engineering Intern [Fall/Winter 2026]</title>
     <link href="https://jobs.ashbyhq.com/melius/6a944911-dbbf-44c7-ba52-7866f7b433cf"/>
     <updated>2026-07-31T12:01:37Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York City · $11K per month · TypeScript, LLMs, React, PostgreSQL</summary>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · New York City · $11K per month · TypeScript, LLMs, React, PostgreSQL</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109964</id>
@@ -113,7 +121,7 @@
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:virtu:8657500002</id>
-    <title>Virtu Financial: 2027 Internship - Frontend &amp; User Experience</title>
+    <title>Virtu Financial: 2027 Internship - Frontend Engineer (UI)</title>
     <link href="https://job-boards.greenhouse.io/virtu/jobs/8657500002"/>
     <updated>2026-07-29T22:03:03Z</updated>
     <category term="Summer 2027"/>
@@ -798,13 +806,5 @@
     <updated>2026-07-02T23:15:03Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Data &amp; ML/AI · Austin, TX · LLMs · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:nvidia:/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488</id>
-    <title>NVIDIA: Applied Research Intern, NLP - Fall 2026</title>
-    <link href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488"/>
-    <updated>2026-07-02T18:48:20Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · US, CA, Santa Clara · Python, PyTorch · H-1B track record: ~1.5k approvals (FY2022–2023)</summary>
   </entry>
 </feed>

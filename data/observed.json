@@ -486,6 +486,25 @@
     }
    }
   },
+  "melius": {
+   "name": "Melius",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-07-30",
+     "role_ids": [
+      "ashby:melius:6a944911-dbbf-44c7-ba52-7866f7b433cf"
+     ],
+     "count": 1
+    },
+    "Summer 2027": {
+     "first_posted": "2026-07-31",
+     "role_ids": [
+      "ashby:melius:b61f063a-4f94-4e50-a4ef-05aaab552280"
+     ],
+     "count": 1
+    }
+   }
+  },
   "moog": {
    "name": "Moog",
    "cycles": {
@@ -1001,5 +1020,5 @@
    }
   }
  },
- "updated_at": "2026-07-31T14:01:14Z"
+ "updated_at": "2026-07-31T16:05:57Z"
 }
