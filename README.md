@@ -8,7 +8,7 @@
 
 ### 124 open roles (111 listed below) · 46 new this week
 
-3,869 employers tracked · updated Jul 30, 2026 at 23:08 UTC
+3,869 employers tracked · updated Jul 31, 2026 at 02:30 UTC
 
 _75 have a cycle the employer stated · 49 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -161,8 +161,8 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Motorola ✓ | Software Engineering, Co-Op 🛂 🆕 | Software | Massachusetts, US Offsite, More... | Jul 29, 2026 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Massachusetts-US-Offsite/Software-Engineering--Co-Op_R66728) |
 | Rockwell Automation ✓ | Intern, Applied AI 🆕 | Data & ML/AI | Austin, Texas, United States | Jul 29, 2026 | [Apply](https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Austin-Texas-United-States/Intern--Applied-AI_R26-5631-2) |
 | Bosch | Autonomous Driving – Internship in Machine Learning 🆕 | Data & ML/AI | Sunnyvale, CA, United States | Jul 29, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000140462550) |
-| Brunswick ✓ | Software Engineer Intern 🛂 🆕 | Software | Champaign, IL | Jul 28, 2026 | [Apply](https://brunswick.wd1.myworkdayjobs.com/search/job/Champaign-IL/Software-Engineer-Intern_JR-050991) |
-| Modal | ML Research Intern 🆕 | Data & ML/AI | New York | Jul 28, 2026 | [Apply](https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a) |
+| Brunswick ✓ | Software Engineer Intern 🛂 | Software | Champaign, IL | Jul 28, 2026 | [Apply](https://brunswick.wd1.myworkdayjobs.com/search/job/Champaign-IL/Software-Engineer-Intern_JR-050991) |
+| Modal | ML Research Intern | Data & ML/AI | New York | Jul 28, 2026 | [Apply](https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a) |
 | Savannah River National Laboratory | ASPIRE Software Developer Undergraduate Intern 🇺🇸 | Software | Aiken, SC, United States | Jul 28, 2026 | [Apply](https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2164) |
 | Bosch | ADAS Software Engineering Intern | Software | Plymouth, MI, United States | Jul 28, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000140317669) |
 | Bosch | Powertrain Controls Software Engineering Intern (6-Months) | Software | Farmington Hills, MI, United States | Jul 27, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000140089589) |
@@ -210,29 +210,29 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 
 | Company | Typical opening | Expected this cycle | Status |
 |---|---|---|---|
-| Citadel | ~Aug | ~Aug · in ~2d | ⏳ waiting |
-| Citadel Securities | ~Aug | ~Aug · in ~2d | ⏳ waiting |
-| Databricks | ~Aug | ~Aug · in ~2d | ⏳ waiting |
-| DoorDash | ~Aug | ~Aug · in ~2d | ⏳ waiting |
-| DRW | ~Aug | ~Aug · in ~2d | ⏳ waiting |
-| Google | ~Aug | ~Aug · in ~2d | ⏳ waiting |
-| Jane Street | ~Aug | ~Aug · in ~2d | ⏳ waiting |
-| Meta | ~Aug | ~Aug · in ~2d | ⏳ waiting |
-| Optiver | ~Aug | ~Aug · in ~2d | ⏳ waiting |
-| Pinterest | ~Aug | ~Aug · in ~2d | ⏳ waiting |
-| Salesforce | ~Aug | ~Aug · in ~2d | ⏳ waiting |
-| SIG | ~Aug | ~Aug · in ~2d | ⏳ waiting |
-| Snowflake | ~Aug | ~Aug · in ~2d | ⏳ waiting |
-| Uber | ~Aug | ~Aug · in ~2d | ⏳ waiting |
-| Adobe | ~Sep | ~Sep · in ~33d | ⏳ waiting |
-| Airbnb | ~Sep | ~Sep · in ~33d | ⏳ waiting |
-| Bloomberg | ~Sep | ~Sep · in ~33d | ⏳ waiting |
-| Dropbox | ~Sep | ~Sep · in ~33d | ⏳ waiting |
-| Plaid | ~Sep | ~Sep · in ~33d | ⏳ waiting |
-| Point72 | ~Sep | ~Sep · in ~33d | ⏳ waiting |
-| Robinhood | ~Sep | ~Sep · in ~33d | ⏳ waiting |
-| Roblox | ~Sep | ~Sep · in ~33d | ⏳ waiting |
-| Stripe | ~Sep | ~Sep · in ~33d | ⏳ waiting |
+| Citadel | ~Aug | ~Aug · in ~1d | ⏳ waiting |
+| Citadel Securities | ~Aug | ~Aug · in ~1d | ⏳ waiting |
+| Databricks | ~Aug | ~Aug · in ~1d | ⏳ waiting |
+| DoorDash | ~Aug | ~Aug · in ~1d | ⏳ waiting |
+| DRW | ~Aug | ~Aug · in ~1d | ⏳ waiting |
+| Google | ~Aug | ~Aug · in ~1d | ⏳ waiting |
+| Jane Street | ~Aug | ~Aug · in ~1d | ⏳ waiting |
+| Meta | ~Aug | ~Aug · in ~1d | ⏳ waiting |
+| Optiver | ~Aug | ~Aug · in ~1d | ⏳ waiting |
+| Pinterest | ~Aug | ~Aug · in ~1d | ⏳ waiting |
+| Salesforce | ~Aug | ~Aug · in ~1d | ⏳ waiting |
+| SIG | ~Aug | ~Aug · in ~1d | ⏳ waiting |
+| Snowflake | ~Aug | ~Aug · in ~1d | ⏳ waiting |
+| Uber | ~Aug | ~Aug · in ~1d | ⏳ waiting |
+| Adobe | ~Sep | ~Sep · in ~32d | ⏳ waiting |
+| Airbnb | ~Sep | ~Sep · in ~32d | ⏳ waiting |
+| Bloomberg | ~Sep | ~Sep · in ~32d | ⏳ waiting |
+| Dropbox | ~Sep | ~Sep · in ~32d | ⏳ waiting |
+| Plaid | ~Sep | ~Sep · in ~32d | ⏳ waiting |
+| Point72 | ~Sep | ~Sep · in ~32d | ⏳ waiting |
+| Robinhood | ~Sep | ~Sep · in ~32d | ⏳ waiting |
+| Roblox | ~Sep | ~Sep · in ~32d | ⏳ waiting |
+| Stripe | ~Sep | ~Sep · in ~32d | ⏳ waiting |
 | D.E. Shaw | ~Oct | ~Oct | ⏳ waiting |
 | Coinbase | ~Dec | ~Dec | ⏳ waiting |
 | Ramp | ~Dec | ~Dec | ⏳ waiting |
@@ -282,7 +282,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,714 of 3,961 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 93% of the full registry) · completed in 437.0s · 97 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,726 of 3,961 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 94% of the full registry) · completed in 369.4s · 97 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
