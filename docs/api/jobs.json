@@ -1,9 +1,39 @@
 {
- "generated_at": "2026-08-01T13:14:56Z",
+ "generated_at": "2026-08-01T15:01:55Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 114,
+ "count": 115,
  "jobs": [
+  {
+   "id": "greenhouse:postman:7823417003",
+   "company": "Postman",
+   "title": "AI Engineer, Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Berkeley, California, United States",
+   "url": "https://job-boards.greenhouse.io/postman/jobs/7823417003",
+   "posted_at": "2026-08-01T10:52:20-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-01T15:01:54Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "Rust",
+    "SQL",
+    "PyTorch",
+    "Pandas",
+    "AWS",
+    "GCP",
+    "Azure"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 8,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "workday:psecu:/job/Harrisburg-PA/Data-Analyst-Intern_JR100964",
    "company": "PSECU",
