@@ -401,6 +401,18 @@
     }
    }
   },
+  "hpr hyannis port research": {
+   "name": "HPR (Hyannis Port Research)",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-01",
+     "role_ids": [
+      "greenhouse:hyannisportresearch:7822989003"
+     ],
+     "count": 1
+    }
+   }
+  },
   "hudson river trading": {
    "name": "Hudson River Trading",
    "cycles": {
@@ -1020,5 +1032,5 @@
    }
   }
  },
- "updated_at": "2026-08-01T15:01:54Z"
+ "updated_at": "2026-08-01T16:05:59Z"
 }
