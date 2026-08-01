@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-07-31T02:31:48Z",
-  "last_digest_roles": 10,
-  "last_digest_sent": 183,
+  "last_digest_at": "2026-08-01T03:26:59Z",
+  "last_digest_roles": 4,
+  "last_digest_sent": 185,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -56,10 +56,14 @@
     "lever:tevora:c0af26d1-51b0-41ba-9916-a208c1cafc29",
     "lever:tevora:dd7cd048-9997-425d-b1f4-d13f37c66df0",
     "lever:tevora:f3d10f98-0ee6-4ad7-a1a0-6863ff008adf",
-    "lever:tevora:fe730e76-b19c-4026-97d6-f4b6120b299e"
+    "lever:tevora:fe730e76-b19c-4026-97d6-f4b6120b299e",
+    "workday:psecu:/job/Harrisburg-PA/Data-Analyst-Intern_JR100964",
+    "ashby:melius:b61f063a-4f94-4e50-a4ef-05aaab552280",
+    "ashby:heliux:ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef",
+    "ashby:melius:6a944911-dbbf-44c7-ba52-7866f7b433cf"
   ],
   "last_digest_failed": 0,
   "retry_emails": [],
-  "subscribers_total": 183,
+  "subscribers_total": 185,
   "send_cursor": 0
 }
