@@ -8,7 +8,7 @@
 
 ### 119 open roles (106 listed below) · 39 new this week
 
-3,883 employers tracked · updated Jul 31, 2026 at 22:18 UTC
+3,883 employers tracked · updated Aug 01, 2026 at 00:04 UTC
 
 _73 have a cycle the employer stated · 46 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -205,29 +205,29 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 
 | Company | Typical opening | Expected this cycle | Status |
 |---|---|---|---|
-| Citadel | ~Aug | ~Aug · in ~1d | ⏳ waiting |
-| Citadel Securities | ~Aug | ~Aug · in ~1d | ⏳ waiting |
-| Databricks | ~Aug | ~Aug · in ~1d | ⏳ waiting |
-| DoorDash | ~Aug | ~Aug · in ~1d | ⏳ waiting |
-| DRW | ~Aug | ~Aug · in ~1d | ⏳ waiting |
-| Google | ~Aug | ~Aug · in ~1d | ⏳ waiting |
-| Jane Street | ~Aug | ~Aug · in ~1d | ⏳ waiting |
-| Meta | ~Aug | ~Aug · in ~1d | ⏳ waiting |
-| Optiver | ~Aug | ~Aug · in ~1d | ⏳ waiting |
-| Pinterest | ~Aug | ~Aug · in ~1d | ⏳ waiting |
-| Salesforce | ~Aug | ~Aug · in ~1d | ⏳ waiting |
-| SIG | ~Aug | ~Aug · in ~1d | ⏳ waiting |
-| Snowflake | ~Aug | ~Aug · in ~1d | ⏳ waiting |
-| Uber | ~Aug | ~Aug · in ~1d | ⏳ waiting |
-| Adobe | ~Sep | ~Sep · in ~32d | ⏳ waiting |
-| Airbnb | ~Sep | ~Sep · in ~32d | ⏳ waiting |
-| Bloomberg | ~Sep | ~Sep · in ~32d | ⏳ waiting |
-| Dropbox | ~Sep | ~Sep · in ~32d | ⏳ waiting |
-| Plaid | ~Sep | ~Sep · in ~32d | ⏳ waiting |
-| Point72 | ~Sep | ~Sep · in ~32d | ⏳ waiting |
-| Robinhood | ~Sep | ~Sep · in ~32d | ⏳ waiting |
-| Roblox | ~Sep | ~Sep · in ~32d | ⏳ waiting |
-| Stripe | ~Sep | ~Sep · in ~32d | ⏳ waiting |
+| Citadel | ~Aug | ~Aug · any day now | ⏳ waiting |
+| Citadel Securities | ~Aug | ~Aug · any day now | ⏳ waiting |
+| Databricks | ~Aug | ~Aug · any day now | ⏳ waiting |
+| DoorDash | ~Aug | ~Aug · any day now | ⏳ waiting |
+| DRW | ~Aug | ~Aug · any day now | ⏳ waiting |
+| Google | ~Aug | ~Aug · any day now | ⏳ waiting |
+| Jane Street | ~Aug | ~Aug · any day now | ⏳ waiting |
+| Meta | ~Aug | ~Aug · any day now | ⏳ waiting |
+| Optiver | ~Aug | ~Aug · any day now | ⏳ waiting |
+| Pinterest | ~Aug | ~Aug · any day now | ⏳ waiting |
+| Salesforce | ~Aug | ~Aug · any day now | ⏳ waiting |
+| SIG | ~Aug | ~Aug · any day now | ⏳ waiting |
+| Snowflake | ~Aug | ~Aug · any day now | ⏳ waiting |
+| Uber | ~Aug | ~Aug · any day now | ⏳ waiting |
+| Adobe | ~Sep | ~Sep · in ~31d | ⏳ waiting |
+| Airbnb | ~Sep | ~Sep · in ~31d | ⏳ waiting |
+| Bloomberg | ~Sep | ~Sep · in ~31d | ⏳ waiting |
+| Dropbox | ~Sep | ~Sep · in ~31d | ⏳ waiting |
+| Plaid | ~Sep | ~Sep · in ~31d | ⏳ waiting |
+| Point72 | ~Sep | ~Sep · in ~31d | ⏳ waiting |
+| Robinhood | ~Sep | ~Sep · in ~31d | ⏳ waiting |
+| Roblox | ~Sep | ~Sep · in ~31d | ⏳ waiting |
+| Stripe | ~Sep | ~Sep · in ~31d | ⏳ waiting |
 | D.E. Shaw | ~Oct | ~Oct | ⏳ waiting |
 | Coinbase | ~Dec | ~Dec | ⏳ waiting |
 | Ramp | ~Dec | ~Dec | ⏳ waiting |
@@ -239,7 +239,7 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 _61 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **26** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 19 roles that left the list in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 18 roles that left the list in the last 14 days</summary>
 
 _Why each one left is in the last column, because the two reasons carry different evidence. **Gone from feed** = two consecutive complete reads of the employer's board no longer returned it (strong, but not the employer telling us directly). **Out of scope** = still posted, but it no longer passes our filters — our call, not theirs. **Not recorded** = closed before we started tracking the reason._
 
@@ -263,7 +263,6 @@ _Why each one left is in the last column, because the two reasons carry differen
 | Samsung Research America | 2026 Fall Intern, Computer Vision/AI | Fall 2026 | 2026-07-21 | not recorded |
 | Reliable Robotics | Flight Software Engineering Intern (Fall 2026 Internship) | Fall 2026 | 2026-07-20 | not recorded |
 | Motorola | Intern – Web Interface Software Engineer (2026) | Fall 2026 | 2026-07-20 | not recorded |
-| onsemi | Fall 2026 - AI & Data Analytics Intern | Fall 2026 | 2026-07-17 | not recorded |
 
 </details>
 
@@ -282,7 +281,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,707 of 3,975 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 93% of the full registry) · completed in 381.2s · 100 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,707 of 3,975 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 93% of the full registry) · completed in 400.6s · 97 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
