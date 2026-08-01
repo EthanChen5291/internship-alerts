@@ -3542,6 +3542,11 @@
     "site": "brinkscareersus"
   },
   {
+    "name": "Brio Water Technology",
+    "slug": "briowt",
+    "ats": "rippling"
+  },
+  {
     "name": "Bristol Myers Squibb",
     "slug": "bristolmyerssquibb",
     "ats": "workday",
@@ -5182,6 +5187,11 @@
     "site": "Search"
   },
   {
+    "name": "Colonist",
+    "slug": "colonist",
+    "ats": "ashby"
+  },
+  {
     "name": "Color",
     "slug": "color",
     "ats": "lever"
@@ -5627,6 +5637,11 @@
     "name": "Coursera",
     "slug": "coursera",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Coursera",
+    "slug": "coursera",
+    "ats": "recruitee"
   },
   {
     "name": "Coverdash",
@@ -7017,6 +7032,11 @@
     "name": "Elwood Technologies",
     "slug": "elwoodtechnologies",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Ema",
+    "slug": "ema",
+    "ats": "ashby"
   },
   {
     "name": "Embrace",
@@ -8804,6 +8824,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "General Intuition &amp; Medal",
+    "slug": "generalintuition-medal",
+    "ats": "ashby"
+  },
+  {
     "name": "General Matter",
     "slug": "generalmatter",
     "ats": "greenhouse"
@@ -8930,6 +8955,14 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "only_confidential_executive_recruiting"
+  },
+  {
+    "name": "GFL",
+    "slug": "gflenv",
+    "ats": "workday",
+    "wd": "wd3",
+    "site": "Careers",
+    "host": "wd3.myworkdaysite.com"
   },
   {
     "name": "GIA",
@@ -15001,6 +15034,13 @@
     "ats": "lever"
   },
   {
+    "name": "Omnicom Group",
+    "slug": "interpublic",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "omc"
+  },
+  {
     "name": "Omnicom Health",
     "slug": "omnicomhealth",
     "ats": "greenhouse"
@@ -16185,6 +16225,13 @@
     "ats": "greenhouse"
   },
   {
+    "name": "POET",
+    "slug": "poet",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "POET"
+  },
+  {
     "name": "Pogo Technologies, Inc.",
     "slug": "joinpogo",
     "ats": "ashby"
@@ -16268,6 +16315,13 @@
     "site": "CX_1"
   },
   {
+    "name": "Power Design, Inc",
+    "slug": "powerdesigninc",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "PDI"
+  },
+  {
     "name": "Power TakeOff",
     "slug": "power-takeoff-careers",
     "ats": "rippling"
@@ -16319,6 +16373,11 @@
   {
     "name": "Preference Model",
     "slug": "preference-model",
+    "ats": "ashby"
+  },
+  {
+    "name": "Prelim",
+    "slug": "prelim",
     "ats": "ashby"
   },
   {
@@ -17259,6 +17318,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Reverb",
+    "slug": "reverb-careers",
+    "ats": "rippling"
+  },
+  {
     "name": "Revise Robotics",
     "slug": "reviserobotics",
     "ats": "ashby"
@@ -18066,6 +18130,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "ScientificGamesExternalCareers"
+  },
+  {
+    "name": "Sciforium",
+    "slug": "sciforium",
+    "ats": "ashby"
   },
   {
     "name": "SciTec",
@@ -19635,6 +19704,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "swbccareers"
+  },
+  {
+    "name": "Sweatpals",
+    "slug": "sweatpals",
+    "ats": "ashby"
   },
   {
     "name": "Swift",
@@ -21487,6 +21561,11 @@
     "name": "Uplifter",
     "slug": "uplifter",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Upscale AI",
+    "slug": "upscale-ai",
+    "ats": "lever"
   },
   {
     "name": "Upstream USA",
