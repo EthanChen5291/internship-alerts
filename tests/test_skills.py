@@ -58,6 +58,19 @@ def test_extract_cap_and_order():
     assert got[0] == "Python"  # canonical order, not text order
 
 
+def test_extract_additional_common_skills():
+    text = ("Build Next.js services with Express.js, Bash shell scripting, "
+            "dbt, Databricks, Snowflake, and Selenium.")
+    found = skills.extract(text)
+    for want in ("Bash", "Next.js", "Express", "dbt", "Databricks", "Snowflake", "Selenium"):
+        assert want in found, f"{want} missing from {found}"
+
+
+def test_title_mentioned_skill_ranks_first():
+    found = skills.extract("Python, React, SQL, and AWS are required.", "React Engineer")
+    assert found[0] == "React"
+
+
 def test_extract_empty():
     assert skills.extract(None) == []
     assert skills.extract("") == []

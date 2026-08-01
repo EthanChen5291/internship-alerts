@@ -58,6 +58,17 @@ class TestEvidenceSplit:
         text = (outputs / "README.md").read_text(encoding="utf-8")
         assert "## Recently posted" not in text
 
+    def test_role_rows_render_skill_tags(self, outputs):
+        readme.generate({"a": _rec("a", skills=["Python", "React", "SQL"])})
+        text = (outputs / "README.md").read_text(encoding="utf-8")
+        assert "| Company | Role | Category | Location | Skills | Posted | Apply |" in text
+        assert "| Python, SQL, React |" in text
+
+    def test_role_rows_label_missing_skills(self, outputs):
+        readme.generate({"a": _rec("a", skills=[])})
+        text = (outputs / "README.md").read_text(encoding="utf-8")
+        assert "| No skills listed |" in text
+
 
 class TestMultiCycleRendering:
     def test_role_appears_under_every_cycle_it_states(self, outputs):

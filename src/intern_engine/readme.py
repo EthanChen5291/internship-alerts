@@ -14,7 +14,7 @@ import os
 from datetime import UTC, datetime, timedelta
 from urllib.parse import quote
 
-from . import config, filters, h1b, paths, priority, radar, sponsorship
+from . import config, filters, h1b, paths, priority, radar, skills, sponsorship
 
 
 def _engine_metrics() -> str:
@@ -99,7 +99,7 @@ def _is_new(record: dict, hours: int = 48) -> bool:
     return datetime.now(UTC) - seen_dt <= timedelta(hours=hours)
 
 
-def _cells(record: dict) -> tuple[str, str, str, str, str, str]:
+def _cells(record: dict) -> tuple[str, str, str, str, str, str, str]:
     company = _md_cell(record.get("company"))
     if h1b.badge(h1b.approvals_for(record.get("company") or "")):
         company += " ✓"
@@ -114,26 +114,30 @@ def _cells(record: dict) -> tuple[str, str, str, str, str, str]:
     )
     if badges:
         title = f"{title} {badges}"
+    ordered_skills = skills.sort_by_signal(record.get("skills"), record.get("title"))[:4]
+    skill_tags = _md_cell(", ".join(ordered_skills)) if ordered_skills else "No skills listed"
     url = record.get("url") or ""
     apply = "Closed" if not is_open else (f"[Apply]({url})" if url else "—")
     return (
         company, title,
         _md_cell(record.get("category")),
         _short_location(record.get("location")),
+        skill_tags,
         _pretty_date(record),
         apply,
     )
 
 
 def _row(record: dict, cycle: str | None = None) -> str:
-    company, title, category, location, posted, apply = _cells(record)
+    company, title, category, location, skill_tags, posted, apply = _cells(record)
     # A multi-cycle posting appears under each cycle it names. Naming the OTHER
     # cycles here explains why the same title shows up twice — repeating this
     # section's own cycle would just be noise.
     others = [s for s in (record.get("seasons") or []) if s != cycle]
     if len(record.get("seasons") or []) > 1 and others:
         title += f" _(also open for {', '.join(others)})_"
-    return f"| {company} | {title} | {category} | {location} | {posted} | {apply} |"
+    return (f"| {company} | {title} | {category} | {location} | {skill_tags} | "
+            f"{posted} | {apply} |")
 
 
 def _rolling_row(record: dict) -> str:
@@ -144,8 +148,8 @@ def _rolling_row(record: dict) -> str:
     postings it was confirmed 0 times out of 60 and contradicted every time it
     could be checked. These rows now say what's true — nobody stated a cycle.
     """
-    company, title, category, location, posted, apply = _cells(record)
-    return (f"| {company} | {title} | {category} | {location} | "
+    company, title, category, location, skill_tags, posted, apply = _cells(record)
+    return (f"| {company} | {title} | {category} | {location} | {skill_tags} | "
             f"{posted} | {apply} |")
 
 
@@ -619,8 +623,8 @@ def generate(store_data: dict) -> dict:
     for heading, cycle, rows in sections:
         lines.append(f"## {heading}  ({len(rows)} employer-stated)")
         lines.append("")
-        lines.append("| Company | Role | Category | Location | Posted | Apply |")
-        lines.append("|---|---|---|---|---|---|")
+        lines.append("| Company | Role | Category | Location | Skills | Posted | Apply |")
+        lines.append("|---|---|---|---|---|---|---|")
         lines.extend(_row(r, cycle) for r in rows)
         lines.append("")
 
@@ -636,8 +640,8 @@ def generate(store_data: dict) -> dict:
             "posting's own text states a cycle, the role moves up into that "
             "section automatically.",
             "",
-            "| Company | Role | Category | Location | Posted | Apply |",
-            "|---|---|---|---|---|---|",
+            "| Company | Role | Category | Location | Skills | Posted | Apply |",
+            "|---|---|---|---|---|---|---|",
         ])
         lines.extend(_rolling_row(r) for r in rolling_rows)
         lines.append("")

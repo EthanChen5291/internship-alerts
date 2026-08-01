@@ -164,7 +164,7 @@ async def enrich_jobs(jobs: list[Job], existing: dict, net: Net) -> tuple[set[st
         else:
             job.sponsorship = sponsorship.classify(job.description)
         text = sponsorship.strip_html(job.description) if job.description else ""
-        job.skills = skills.extract(text)
+        job.skills = skills.extract(text, job.title)
         if not job.salary:
             job.salary = skills.extract_pay(text)
         if job.season_inferred:
