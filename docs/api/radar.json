@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-01T11:19:25Z",
+ "generated_at": "2026-08-01T13:14:56Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -15,20 +15,6 @@
    "days_until": -128,
    "status": "open",
    "url": "https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849",
-   "note": ""
-  },
-  {
-   "company": "Walleye Capital",
-   "last_cycle_posted": "",
-   "posted_on": "2026-06-01",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-06-01",
-   "days_until": -61,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006",
    "note": ""
   },
   {
@@ -842,6 +828,20 @@
    "status": "dropped",
    "url": "",
    "note": "rolling from mid-summer, very early"
+  },
+  {
+   "company": "Walleye Capital",
+   "last_cycle_posted": "",
+   "posted_on": "2026-06-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-06-01",
+   "days_until": -61,
+   "status": "dropped",
+   "url": "",
+   "note": ""
   },
   {
    "company": "Draper",
