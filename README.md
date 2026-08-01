@@ -8,7 +8,7 @@
 
 ### 119 open roles (106 listed below) · 39 new this week
 
-3,883 employers tracked · updated Aug 01, 2026 at 00:04 UTC
+3,883 employers tracked · updated Aug 01, 2026 at 03:26 UTC
 
 _73 have a cycle the employer stated · 46 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -113,7 +113,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
 | Melius | Software Engineering Intern [Fall/Winter 2026] 🆕 | Software | New York City | Jul 30, 2026 | [Apply](https://jobs.ashbyhq.com/melius/6a944911-dbbf-44c7-ba52-7866f7b433cf) |
-| Sony Pictures Entertainment ✓ | Current Programming Intern, Sony Pictures Television – Fall 2026 🆕 | Software | Culver City, California | Jul 29, 2026 | [Apply](https://spe.wd1.myworkdayjobs.com/SonyPicturesEntertainment/job/Culver-City-California/Current-Programming-Intern--Sony-Pictures-Television---Fall-2026_JR113893) |
+| Sony Pictures Entertainment ✓ | Current Programming Intern, Sony Pictures Television – Fall 2026 | Software | Culver City, California | Jul 29, 2026 | [Apply](https://spe.wd1.myworkdayjobs.com/SonyPicturesEntertainment/job/Culver-City-California/Current-Programming-Intern--Sony-Pictures-Television---Fall-2026_JR113893) |
 | Redwood Materials | Embedded Software Engineer Intern - Fall 2026 | Software | San Francisco, California, United States | Jul 29, 2026 | [Apply](https://boards.greenhouse.io/redwoodmaterials/jobs/6126784004?gh_jid=6126784004) |
 | Mosaic | Informational Technology Cybersecurity Co-Op/Intern - Fall 2026 | Security | US - Tampa, FL (Lithia area) | Jul 27, 2026 | [Apply](https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1) |
 | Toshiba Global Commerce ✓ | AI Engineering Intern 🛂 | Data & ML/AI | Durham, NC; Frisco, TX | Jul 26, 2026 | [Apply](https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5192820007) |
@@ -281,7 +281,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,707 of 3,975 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 93% of the full registry) · completed in 400.6s · 97 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,734 of 3,975 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 390.3s · 98 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
