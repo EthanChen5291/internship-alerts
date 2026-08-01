@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-01T09:08:47Z</updated>
+  <updated>2026-08-01T11:19:24Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
     <id>urn:intern-engine:workday:psecu:/job/Harrisburg-PA/Data-Analyst-Intern_JR100964</id>
@@ -262,14 +262,6 @@
     <updated>2026-07-27T16:20:26Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · United States-Florida-Melbourne · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:mosaic:/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1</id>
-    <title>Mosaic: Informational Technology Cybersecurity Co-Op/Intern - Fall 2026</title>
-    <link href="https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1"/>
-    <updated>2026-07-27T13:43:22Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Security · US - Tampa, FL (Lithia area)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:xsolla:5d5fd6b3-d82f-437a-b251-abf4674ac874</id>
@@ -806,5 +798,13 @@
     <updated>2026-06-30T17:50:48Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Data &amp; ML/AI · North Reading, Massachusetts, USA · Python, Java, C++, LLMs, Computer Vision · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:3116030</id>
+    <title>Amazon: Software Development Engineer Internship - Fall 2026 (US)</title>
+    <link href="https://www.amazon.jobs/en/jobs/3116030/software-development-engineer-internship-fall-2026-us"/>
+    <updated>2026-06-30T17:50:48Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Seattle, Washington, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
   </entry>
 </feed>

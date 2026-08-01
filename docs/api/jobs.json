@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-01T09:08:47Z",
+ "generated_at": "2026-08-01T11:19:25Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 119,
+ "count": 118,
  "jobs": [
   {
    "id": "workday:psecu:/job/Harrisburg-PA/Data-Analyst-Intern_JR100964",
@@ -585,27 +585,6 @@
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:mosaic:/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1",
-   "company": "Mosaic",
-   "title": "Informational Technology Cybersecurity Co-Op/Intern - Fall 2026",
-   "season": "Fall 2026",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Security",
-   "location": "US - Tampa, FL (Lithia area)",
-   "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Co-op-Student-Admin_64613-1",
-   "posted_at": "2026-07-27T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-07-27T13:43:22Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [],
-   "source": "workday",
-   "h1b_approvals": 9,
-   "program": "Internship / Co-op",
    "remote": false
   },
   {
