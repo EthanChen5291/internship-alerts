@@ -29,11 +29,14 @@ import httpx
 from . import config, h1b, paths, sponsorship
 
 _MIN_HOURS_BETWEEN = 22          # "daily", tolerant of cron jitter
-# How far back a role counts as news. This is generous on purpose now that
-# `sent_role_ids` guarantees a role is only ever listed once: the window's job
-# is to make sure nothing is MISSED (a run that failed, a role that overflowed
-# the body cap), and duplicate protection no longer depends on it being tight.
-_NEW_WINDOW_HOURS = 48
+# Backstop only — NOT the definition of "new". `sent_role_ids` decides that.
+# This bound exists for one situation: if mail state is ever lost or reset, the
+# next digest must not mail the entire back catalogue. Under normal operation
+# every role is sent within a day, so this never binds.
+_MAX_LOOKBACK_DAYS = 14
+# A first-ever digest (no send history at all) stays tight, so standing up the
+# mailer doesn't blast every open role at the whole list.
+_COLD_START_HOURS = 48
 _MAX_ROLES = 30                  # cap the digest body
 _MAX_SENDS = 250                 # stay under Brevo's free 300/day
 _BREVO_URL = "https://api.brevo.com/v3/smtp/email"
@@ -65,21 +68,32 @@ _SENT_MEMORY = 2000  # ids we remember; ~2 months of digests at current volume
 
 
 def new_roles(store_data: dict, now: datetime | None = None,
-              already_sent: set[str] | None = None) -> list[dict]:
-    """Open roles first seen within the news window that we haven't sent yet.
+              already_sent: set[str] | None = None,
+              has_history: bool | None = None) -> list[dict]:
+    """Every open role the list hasn't been told about yet, newest first.
 
-    The window (26h) is deliberately wider than the send interval (22h) so cron
-    jitter can't skip a role — but that overlap means a role can fall inside two
-    consecutive windows. Without `already_sent`, it got mailed twice; on
-    2026-07-17, 26 of the 30 roles in the digest had gone out the day before.
-    Membership in the previous digest, not the clock, is what settles it.
+    "New" means *not yet sent* — full stop. It used to mean "first seen in the
+    last N hours", which was wrong in both directions: a role could sit inside
+    two consecutive windows and go out twice (2026-07-17: 26 of 30 roles were
+    repeats), and a role that missed its window during a failed run could never
+    be sent at all. `sent_role_ids` is now the only thing that decides, so
+    nothing repeats and nothing is skipped.
+
+    The clock survives only as a backstop. If mail state is lost,
+    `_MAX_LOOKBACK_DAYS` stops the next digest mailing the back catalogue; on a
+    first-ever digest `_COLD_START_HOURS` keeps it tighter still. Neither
+    bound binds during normal operation.
 
     No cap here — the subject line reports the true count; the HTML body caps
     what it lists (and says "+N more") at composition time.
     """
     now = now or datetime.now(UTC)
     already_sent = already_sent or set()
-    cutoff = now - timedelta(hours=_NEW_WINDOW_HOURS)
+    if has_history is None:
+        has_history = bool(already_sent)
+    span = timedelta(days=_MAX_LOOKBACK_DAYS) if has_history \
+        else timedelta(hours=_COLD_START_HOURS)
+    cutoff = now - span
     fresh = [
         r for r in store_data.values()
         if r.get("is_open")
@@ -222,7 +236,10 @@ def send_digest(store_data: dict) -> int:
 
     state = _load_state()
     already_sent = set(state.get("sent_role_ids") or ())
-    fresh = new_roles(store_data, already_sent=already_sent)
+    # Any prior digest counts as history, even one that predates sent_role_ids
+    # — otherwise an upgraded install looks "cold" and re-tightens the window.
+    has_history = bool(already_sent or state.get("last_digest_at"))
+    fresh = new_roles(store_data, already_sent=already_sent, has_history=has_history)
     if not should_send(state, len(fresh)):
         return 0
 

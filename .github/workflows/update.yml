@@ -2,7 +2,7 @@ name: Update internships
 
 on:
   schedule:
-    - cron: "0 * * * *"    # every hour (UTC) — catch new drops fast
+    - cron: "0,30 * * * *"  # every 30 min (UTC) — peak-season cadence
   workflow_dispatch:          # lets you run it manually from the Actions tab
 
 permissions:

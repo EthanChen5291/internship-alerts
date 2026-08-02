@@ -121,7 +121,7 @@ off, and a partial snapshot is never allowed to close anything. Roughly 90 of
 | `src/intern_engine/observe.py` | The engine's own record of real posting dates, by company and cycle. |
 | `src/intern_engine/names.py` | Employer display names: override map + slug-artifact cleanup. |
 | `src/intern_engine/db.py` | Optional Postgres (Supabase) mirror of jobs/companies/runs. Runs in `notify`, after the accuracy gate and the push. |
-| `.github/workflows/update.yml` | Scheduled CI (hourly): run update, commit, push, then send alerts. |
+| `.github/workflows/update.yml` | Scheduled CI (every 30 min): run update, commit, push, then send alerts. |
 | `.github/workflows/discover.yml` | Daily CI: grow `data/companies.json` automatically. |
 | `data/config.json` | Tunable settings (see below). |
 | `data/companies.json` | Validated companies the pipeline reads. |

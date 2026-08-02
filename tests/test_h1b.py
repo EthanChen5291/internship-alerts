@@ -83,3 +83,38 @@ def test_pretty_count():
     assert h1b.pretty_count(43) == "43"
     assert h1b.pretty_count(1234) == "1.2k"
     assert h1b.pretty_count(6000) == "6k"
+
+
+class TestBrandToLegalEntity:
+    """Real brand->petitioner gaps found by auditing the live company list.
+
+    Each expected number was read out of the committed index, so a change in
+    matching that breaks one of these is a measurable regression, not taste.
+    """
+
+    def test_brand_resolves_to_its_petitioning_entity(self):
+        # We show "Bosch"; USCIS files under "Robert Bosch". Before the alias
+        # the prefix only found sub-10 subsidiaries and the badge vanished.
+        assert h1b.approvals_for("Bosch") == 188
+        assert h1b.approvals_for("Jump Trading") == 57
+        assert h1b.approvals_for("IMC Trading") == 13
+
+    def test_alias_can_cover_a_whole_subsidiary_family(self):
+        # Magna files under ten "Magna ..." entities; the single-token cap of
+        # three (which protects guessed matches) was rejecting all of them.
+        assert h1b.approvals_for("Magna International") == 141
+
+    def test_a_city_name_never_borrows_another_employers_record(self):
+        # "Chicago Trading Company" normalizes toward "chicago", which would
+        # otherwise prefix-match Chicago Mercantile Exchange's 92 approvals.
+        assert not h1b.badge(h1b.approvals_for("Chicago Trading Company"))
+
+    def test_absent_from_the_index_stays_absent(self):
+        # Defense/clearance employers genuinely aren't in FY2022-23 data. No
+        # badge is the correct answer; inventing one would be the bug.
+        for name in ("Northrop Grumman", "Anduril", "Beacon Software"):
+            assert not h1b.badge(h1b.approvals_for(name)), name
+
+    def test_untrusted_single_token_keeps_its_narrow_cap(self):
+        # The `trusted` widening must apply to curated aliases only.
+        assert h1b._prefix_match("magna", h1b.load()["employers"]) is None

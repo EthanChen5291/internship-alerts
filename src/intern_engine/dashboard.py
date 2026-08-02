@@ -200,8 +200,10 @@ def _rows(open_jobs: list[dict]) -> str:
         save = (f'<button class="star" type="button" data-id="{escape(jid)}" '
                 f'aria-label="Save this role" title="Save to your list">☆</button>')
         loc = escape((r.get("location") or "")[:48])
-        if remote == "1":
-            loc = f"{loc} <span class='pill'>remote</span>"
+        # The R sits next to the title, matching the README's marker exactly,
+        # rather than as a second location pill — one vocabulary everywhere.
+        rmark = ("<span class='rmark' title='Remote — the posting's location "
+                 "or title says so'>R</span>") if remote == "1" else ""
         rows.append(
             f'<tr data-id="{escape(jid)}" '
             f'data-cycle="{escape(r.get("season", ""))}" '
@@ -216,7 +218,8 @@ def _rows(open_jobs: list[dict]) -> str:
             f'data-text="{escape(haystack)}">'
             f"<td class='c-save'>{save}</td>"
             f"<td>{escape(r.get('company', ''))}{check}</td>"
-            f"<td><span class='rt'>{escape(r.get('title', ''))}</span> {flag}{chips}</td>"
+            f"<td><span class='rt'>{escape(r.get('title', ''))}</span> "
+            f"{rmark}{flag}{chips}</td>"
             f"<td>{cycle_tag}</td>"
             f"<td>{escape(r.get('category', ''))}</td>"
             f"<td>{loc}</td>"
@@ -373,9 +376,9 @@ def generate(store_data: dict, stats: dict) -> None:
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Internship Engine - Live Dashboard</title>
-<meta name="description" content="Summer 2027 & Fall 2026 tech internships, refreshed every hour. Auto-detected visa sponsorship flags, proven H-1B sponsor badges, email alerts.">
+<meta name="description" content="Summer 2027 & Fall 2026 tech internships, refreshed every 30 minutes. Auto-detected visa sponsorship flags, proven H-1B sponsor badges, email alerts.">
 <meta property="og:title" content="Internship Engine - Live Dashboard">
-<meta property="og:description" content="{len(open_jobs)} open tech internships, refreshed every hour. Visa-sponsorship flags + proven H-1B sponsor badges for international students.">
+<meta property="og:description" content="{len(open_jobs)} open tech internships, refreshed every 30 minutes. Visa-sponsorship flags + proven H-1B sponsor badges for international students.">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <link rel="alternate" type="application/atom+xml" title="New internships" href="feed.xml">
@@ -542,6 +545,12 @@ def generate(store_data: dict, stats: dict) -> None:
   tr.saved {{ background:#e3b3410f; box-shadow:inset 2px 0 0 var(--star); }}
   .pill {{ display:inline-block; background:#2ea04322; color:var(--green);
            border-radius:20px; padding:0 7px; font-size:11px; margin-left:4px; }}
+  /* The remote marker. Same letter the README prints, so the two surfaces
+     teach one vocabulary instead of an emoji here and a letter there. */
+  .rmark {{ display:inline-block; min-width:16px; text-align:center;
+            background:#2ea04322; color:var(--green); border-radius:4px;
+            padding:1px 4px; font-size:11px; font-weight:700; margin-left:5px;
+            cursor:help; }}
   @media(max-width:680px) {{
     /* Give the columns room to be readable while scrolling, rather than
        squeezing nine of them into 390px and wrapping every title to four
@@ -620,7 +629,7 @@ def generate(store_data: dict, stats: dict) -> None:
   <header class="top">
     <h1>{escape(region)} tech internships</h1>
     <p class="sub">Read straight from {stats.get('companies_total', 0):,} employer
-    job boards, rebuilt every hour. Updated {escape(updated)}.</p>
+    job boards, rebuilt every 30 minutes. Updated {escape(updated)}.</p>
     <p class="links"><a href="feed.xml">RSS</a> · <a href="api/jobs.json">JSON API</a>
     · <a href="internships.csv">CSV</a> ·
     <a href="https://github.com/{escape(repo)}">source</a> ·
@@ -660,7 +669,7 @@ def generate(store_data: dict, stats: dict) -> None:
           <option value="Internship">Internships</option>
           <option value="Co-op">Co-ops</option>
         </select>
-        <label class="chk"><input id="remote" type="checkbox"><span>🏠 remote only</span></label>
+        <label class="chk"><input id="remote" type="checkbox"><span><b>R</b> remote only</span></label>
         <label class="chk"><input id="h1b" type="checkbox">
           <span>✓ proven H-1B sponsors only</span></label>
         <label class="chk" title="Show only roles whose employer named the cycle themselves">

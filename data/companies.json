@@ -17574,7 +17574,7 @@
     "ats": "ashby"
   },
   {
-    "name": "Robert Bosch Venture Capital",
+    "name": "Bosch",
     "slug": "BoschGroup",
     "ats": "smartrecruiters"
   },
@@ -23240,5 +23240,29 @@
     "name": "Zus Health",
     "slug": "zushealth",
     "ats": "lever"
+  },
+  {
+    "name": "Epic Games",
+    "slug": "epicgames",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Qualtrics",
+    "slug": "qualtrics",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Workday",
+    "slug": "workday",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "Workday"
+  },
+  {
+    "name": "Salesforce",
+    "slug": "salesforce",
+    "ats": "workday",
+    "wd": "wd12",
+    "site": "External_Career_Site"
   }
 ]

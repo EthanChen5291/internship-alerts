@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-02T16:08:58Z",
+ "generated_at": "2026-08-02T17:49:06Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
  "count": 114,
@@ -414,7 +414,7 @@
     "Linux"
    ],
    "source": "smartrecruiters",
-   "h1b_approvals": null,
+   "h1b_approvals": 188,
    "program": "Internship",
    "remote": false
   },
@@ -517,7 +517,7 @@
     "Computer Vision"
    ],
    "source": "smartrecruiters",
-   "h1b_approvals": null,
+   "h1b_approvals": 188,
    "program": "Internship",
    "remote": false
   },
@@ -541,7 +541,7 @@
     "Linux"
    ],
    "source": "smartrecruiters",
-   "h1b_approvals": null,
+   "h1b_approvals": 188,
    "program": "Internship",
    "remote": false
   },
@@ -689,7 +689,7 @@
     "Linux"
    ],
    "source": "smartrecruiters",
-   "h1b_approvals": null,
+   "h1b_approvals": 188,
    "program": "Internship",
    "remote": false
   },
@@ -716,7 +716,7 @@
     "ROS"
    ],
    "source": "workday",
-   "h1b_approvals": null,
+   "h1b_approvals": 141,
    "program": "Internship",
    "remote": false
   },
@@ -1659,7 +1659,7 @@
     "CUDA"
    ],
    "source": "greenhouse",
-   "h1b_approvals": null,
+   "h1b_approvals": 57,
    "program": "Internship",
    "remote": false
   },
@@ -1686,7 +1686,7 @@
     "CUDA"
    ],
    "source": "greenhouse",
-   "h1b_approvals": null,
+   "h1b_approvals": 57,
    "program": "Internship",
    "remote": false
   },
@@ -1713,7 +1713,7 @@
     "CUDA"
    ],
    "source": "greenhouse",
-   "h1b_approvals": null,
+   "h1b_approvals": 57,
    "program": "Internship",
    "remote": false
   },
@@ -1948,7 +1948,7 @@
     "C++"
    ],
    "source": "greenhouse",
-   "h1b_approvals": null,
+   "h1b_approvals": 13,
    "program": "Internship",
    "remote": false
   },
@@ -1973,7 +1973,7 @@
     "TensorFlow"
    ],
    "source": "greenhouse",
-   "h1b_approvals": null,
+   "h1b_approvals": 13,
    "program": "Internship",
    "remote": false
   },

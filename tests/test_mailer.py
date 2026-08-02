@@ -127,3 +127,50 @@ def test_send_digest_noop_without_env(monkeypatch):
     for var in ("BREVO_API_KEY", "SUPABASE_URL", "SUPABASE_SERVICE_KEY", "MAIL_FROM"):
         monkeypatch.delenv(var, raising=False)
     assert mailer.send_digest({"a": _record(1)}) == 0
+
+
+class TestNewMeansUnsent:
+    """"New" is decided by what we've sent, never by a clock window."""
+
+    NOW = datetime(2026, 8, 2, 12, tzinfo=UTC)
+
+    def _store(self, **ages_hours):
+        return {
+            jid: {"id": jid, "is_open": True,
+                  "first_seen_at": (self.NOW - timedelta(hours=h))
+                  .strftime("%Y-%m-%dT%H:%M:%SZ")}
+            for jid, h in ages_hours.items()
+        }
+
+    def test_an_unsent_role_older_than_the_old_window_still_goes_out(self):
+        # Regression: the fixed 48h window meant a role missed during a failed
+        # run aged out and could NEVER be mailed. Nothing should be skipped.
+        store = self._store(stale=100)
+        fresh = mailer.new_roles(store, now=self.NOW, already_sent={"other"})
+        assert [r["id"] for r in fresh] == ["stale"]
+
+    def test_already_sent_roles_never_repeat(self):
+        store = self._store(a=1, b=2)
+        fresh = mailer.new_roles(store, now=self.NOW, already_sent={"a"})
+        assert [r["id"] for r in fresh] == ["b"]
+
+    def test_lost_state_does_not_mail_the_back_catalogue(self):
+        # sent_role_ids empty but a digest HAS gone out before: the 14-day
+        # backstop applies, so an ancient role stays out.
+        store = self._store(recent=24, ancient=24 * 30)
+        fresh = mailer.new_roles(store, now=self.NOW, already_sent=set(),
+                                 has_history=True)
+        assert [r["id"] for r in fresh] == ["recent"]
+
+    def test_first_ever_digest_stays_tight(self):
+        # No history at all: only the last 48h, so standing up the mailer
+        # doesn't blast every open role at the whole list.
+        store = self._store(new=6, older=72)
+        fresh = mailer.new_roles(store, now=self.NOW, already_sent=set(),
+                                 has_history=False)
+        assert [r["id"] for r in fresh] == ["new"]
+
+    def test_closed_roles_are_never_news(self):
+        store = self._store(a=1)
+        store["a"]["is_open"] = False
+        assert mailer.new_roles(store, now=self.NOW, already_sent=set()) == []

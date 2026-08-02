@@ -21,3 +21,10 @@ LEARN.md
 docs/LEARN.md
 scratchpad/
 LAUNCH.md
+
+# Local scratch directories (research spikes, generated audits, node_modules).
+# Never part of the engine — kept out so `git add -A` can't sweep them in.
+output/
+outputs/
+tmp/
+work/

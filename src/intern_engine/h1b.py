@@ -33,8 +33,13 @@ _SUFFIXES = {
     "bv", "nv", "se", "ulc",
 }
 
-# Brand name (normalized) -> employer name (normalized) when the public brand
-# and the petitioning legal entity differ too much for a prefix match.
+# Brand name (normalized) -> the name to look up instead, when the public brand
+# and the petitioning legal entity differ too much for a prefix match. The
+# target is resolved through the SAME path as a real name (exact, then prefix),
+# so an alias may point at a family root ("magna") rather than one exact entity.
+#
+# Every entry below was verified against the committed index — the approval
+# count is the evidence, and a wrong ✓ is worse than a missing one.
 _ALIASES = {
     "google": "google",                       # resolved by prefix, kept for clarity
     "meta": "meta platforms",
@@ -49,13 +54,51 @@ _ALIASES = {
     "amex": "american express",
     "byte dance": "bytedance",
     "x": "twitter",
+    # --- brand -> petitioning entity (verified counts in comments) ---
+    "bosch": "robert bosch",                  # 188; "Bosch ..." subsidiaries are all <10
+    "magna international": "magna",           # 141 via Magna Electronics
+    "jump trading": "jump operations",        # 57
+    "imc trading": "imc americas",            # 13
+    "deloitte": "deloitte consulting",
+    "pwc": "pricewaterhousecoopers",
+    "ey": "ernst young",
+    "kpmg": "kpmg",
+    "bcg": "boston consulting group",
+    "tiktok": "tiktok",
+    "sig": "susquehanna international group",
+    "susquehanna": "susquehanna international group",
+    "drw": "drw holdings",
+    "citadel securities": "citadel securities",
+    "two sigma": "two sigma",
+    "de shaw": "d e shaw",
+    "point72": "point72",
+    "rbc": "rbc capital markets",
+    "ubs": "ubs business solutions",
+    "hpe": "hewlett packard enterprise",
+    "hp": "hp",
+    "ge": "general electric",
+    "ge aerospace": "ge aviation",
+    "3m": "3m",
+    "p&g": "procter gamble",
+    "pg": "procter gamble",
+    "jnj": "johnson johnson",
+    "att": "at t services",
+    "t mobile": "t mobile usa",
 }
 
 # Names too generic to prefix-match on their own (exact/alias still allowed).
+# Cities and states matter as much as business words: "Chicago Trading Company"
+# normalizes toward "chicago", and a prefix match there would hand it Chicago
+# Mercantile Exchange's 92 approvals — a confident, completely wrong badge.
 _GENERIC = {
     "the", "tech", "labs", "lab", "data", "cloud", "global", "digital",
     "systems", "software", "solutions", "group", "partners", "capital",
     "american", "united", "national", "first", "general", "one",
+    "chicago", "boston", "york", "austin", "denver", "seattle", "atlanta",
+    "houston", "dallas", "phoenix", "portland", "detroit", "pacific",
+    "atlantic", "midwest", "northern", "southern", "eastern", "western",
+    "central", "summit", "premier", "advanced", "applied", "integrated",
+    "international", "trading", "holdings", "ventures", "associates",
 }
 
 _PUNCT_RE = re.compile(r"[^\w\s]")
@@ -123,22 +166,42 @@ def approvals_for(company: str, index: dict | None = None) -> int | None:
     if hit is not None:
         return hit
 
+    # An alias is resolved through the same path as a real name: exact first,
+    # then prefix. That lets one entry cover a whole family ("magna" ->
+    # Magna Electronics/Powertrain/Seating) instead of pinning one subsidiary.
     alias = _ALIASES.get(name)
-    if alias and alias in employers:
-        return employers[alias]
+    if alias:
+        if alias in employers:
+            return employers[alias]
+        # A curated alias is a verified judgment that this brand IS this
+        # family, so it doesn't need the guard that protects guessed matches.
+        return _prefix_match(alias, employers, trusted=True)
 
     if name in _GENERIC or len(name) < 4:
         return None
 
-    # Word-boundary prefix: "palantir" matches "palantir technologies";
-    # "jpmorgan chase" matches "jpmorgan chase bank". Multi-token names sum
-    # their subsidiary family. Single-token names are riskier — "figure" could
-    # rope in several unrelated "Figure ..." companies — so they only match a
-    # small candidate set and take the largest single entity, never the sum.
+    return _prefix_match(name, employers)
+
+
+def _prefix_match(name: str, employers: dict, trusted: bool = False) -> int | None:
+    """Word-boundary prefix lookup, or None when it isn't confident.
+
+    "palantir" matches "palantir technologies"; "jpmorgan chase" matches
+    "jpmorgan chase bank". Multi-token names sum their subsidiary family.
+    Single-token names are riskier — "figure" could rope in several unrelated
+    "Figure ..." companies — so they only match a small candidate set and take
+    the largest single entity, never the sum.
+
+    `trusted` lifts the single-token candidate cap for curated aliases only:
+    Magna files under ten separate "Magna ..." entities, which is a family, not
+    the ambiguity the cap exists to catch. The value stays the largest single
+    entity rather than the sum — a defensible floor, not a flattering total.
+    """
     prefix = name + " "
     candidates = [v for k, v in employers.items() if k.startswith(prefix)]
     single_token = " " not in name
-    if not candidates or len(candidates) > (3 if single_token else 25):
+    cap = 25 if (trusted or not single_token) else 3
+    if not candidates or len(candidates) > cap:
         return None
     return max(candidates) if single_token else sum(candidates)
 

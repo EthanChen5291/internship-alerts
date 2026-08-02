@@ -105,10 +105,13 @@ def _cells(record: dict) -> tuple[str, str, str, str, str, str, str]:
         company += " ✓"
     title = _md_cell(record.get("title"))
     is_open = record.get("is_open", True)
+    # `R` rather than an emoji, to read the same way the company column's H-1B
+    # `✓` does: a compact letter marker, legible in any font, greppable, and
+    # unambiguous in a plain-text CSV or a screen reader.
     badges = " ".join(
         b for b in (sponsorship.flag(record.get("sponsorship")),
-                    "🏠" if filters.is_remote(record.get("location") or "",
-                                              record.get("title") or "") else "",
+                    "**R**" if filters.is_remote(record.get("location") or "",
+                                                 record.get("title") or "") else "",
                     "🆕" if _is_new(record) and is_open else "")
         if b
     )
@@ -230,7 +233,7 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         f"(https://github.com/{repo}/actions/workflows/ci.yml)&nbsp;"
         f"[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles"
         f"&query=open_total&url={stats_url}&color=2f81f7&style=flat-square)]({pages}/)&nbsp;"
-        "![Updates](https://img.shields.io/badge/updates-every%20hour-3fb950"
+        "![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950"
         "?style=flat-square)&nbsp;"
         f"[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)]"
         f"({pages}/feed.xml)",
@@ -253,9 +256,9 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "> [!TIP]",
         "> **⭐ Star this repo** to save it and get updates when new roles are added.",
         "",
-        "Instead of refreshing a dozen career pages by hand, it reads company hiring "
-        "feeds directly and keeps one live list, newest roles on top, refreshed "
-        "automatically throughout the day.",
+        "Instead of refreshing a dozen career pages by hand, it reads company "
+        "hiring feeds directly and keeps one live list — newest roles on top, "
+        "refreshed automatically throughout the day.",
         "",
         # Native signup posts into our own Supabase list (RLS: insert-only).
         # The Feedrabbit link is the zero-account fallback via the raw feed URL,
@@ -270,37 +273,46 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "",
         "## What this is",
         "",
-        "This is an engine, not a hand-kept list. It polls company career feeds several "
-        "times a day, finds the internships, removes duplicates, and rebuilds this page "
-        "on its own. Every link comes straight from the source, so it's real and "
-        "current, not a stale list someone forgot to update (speed matters).",
+        "This is an engine, not a hand-kept list. It polls company career feeds "
+        "every 30 minutes, finds the internships, removes duplicates, and "
+        "rebuilds this page on its own.",
+        "",
+        "Every link comes straight from the source — so it's real and current, "
+        "not a stale list someone forgot to update. Speed matters.",
         "",
         "## What makes this different",
         "",
-        "- **📅 [Drop Radar](#drop-radar)** - "
-        "a forecast of **what's coming**: each marquee company's typical opening "
-        "window, replaced by the real drop date the moment the engine catches it "
-        "live. Windows are estimates and labelled as such; only dates the engine "
-        "observed itself are marked verified.",
-        "- **Visa intel, computed** - 🇺🇸 / 🛂 flags detected automatically from every "
-        "job description, plus ✓ for employers with a real H-1B track record "
-        "(official USCIS data, FY2022-23 - a history, not a promise). The big "
-        "lists crowdsource this by hand; here it's code. Most postings say nothing "
-        "either way, and those are shown as unknown rather than guessed.",
-        "- **A date on nearly every role** - taken from the job portal itself where "
-        "the portal states one, so newest-first actually means newest. The exact "
-        "coverage figure is printed at the bottom of this page every run.",
-        "- **Skill tags + pay, extracted** - every posting's text is scanned for the "
-        "stack it wants (Python, C++, PyTorch, ...) and the pay it states - "
-        f"searchable on the [dashboard]({pages}/), included in the CSV and API.",
-        f"- **Alerts your way** - [email digests]({pages}/#subscribe) or "
-        f"[RSS]({pages}/feed.xml) (point any reader, or a Slack/Discord RSS "
-        f"integration, at it) - plus a [live dashboard]({pages}/) with search, "
-        "filters, and a saved-roles list that never leaves your browser.",
-        f"- **An engine, not a spreadsheet** - {companies:,} job-board endpoints "
-        f"({(employers or companies):,} distinct employers; some run more than one "
-        "board) polled every hour across 12 ATS platforms, full source and tests "
-        "in this repo.",
+        # A table, not a bullet list: each row leads with the claim in the left
+        # column so the section can be SKIMMED. As paragraphs these ran four
+        # lines each and the distinguishing word was buried mid-sentence.
+        "| | |",
+        "|---|---|",
+        "| 📅 **[Drop Radar](#drop-radar)** | A forecast of **what's coming**. "
+        "Each marquee company's typical opening window, replaced by the real "
+        "drop date the moment the engine catches it live. Windows are estimates "
+        "and labelled as such; only dates the engine saw itself are marked "
+        "verified. |",
+        "| 🛂 **Visa intel, computed** | 🇺🇸 / 🛂 flags detected automatically from "
+        "every job description, plus ✓ for employers with a real H-1B track "
+        "record (USCIS data, FY2022-23 — a history, not a promise). The big "
+        "lists crowdsource this by hand; here it's code. Most postings say "
+        "nothing either way, and those show as unknown rather than guessed. |",
+        "| 📆 **A real date on nearly every role** | Taken from the job portal "
+        "itself wherever the portal states one, so newest-first actually means "
+        "newest. The exact coverage figure is printed at the bottom of this "
+        "page every run. |",
+        "| 🧰 **Skill tags + pay, extracted** | Every posting's text is scanned "
+        "for the stack it wants (Python, C++, PyTorch, …) and the pay it "
+        f"states — searchable on the [dashboard]({pages}/), and included in the "
+        "CSV and API. |",
+        f"| 🔔 **Alerts your way** | [Email digests]({pages}/#subscribe) or "
+        f"[RSS]({pages}/feed.xml) — point any reader, or a Slack/Discord RSS "
+        f"integration, at it. Plus a [live dashboard]({pages}/) with search, "
+        "filters, and a saved-roles list that never leaves your browser. |",
+        f"| ⚙️ **An engine, not a spreadsheet** | {companies:,} job-board "
+        f"endpoints ({(employers or companies):,} distinct employers; some run "
+        "more than one board) polled every 30 minutes across 12 ATS platforms. "
+        "Full source and tests in this repo. |",
         "",
         "## Scope",
         "",
@@ -317,16 +329,22 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "## About",
         "",
         "I'm an international student studying in the United States, so I built "
-        "this for the search I'm doing myself. The list is US roles only for now - "
-        "that's where I'm searching. Use it to spot roles early and apply before "
-        "they fill up - being first genuinely helps.",
+        "this for the search I'm doing myself. The list is US roles only for "
+        "now — that's where I'm searching.",
+        "",
+        "Use it to spot roles early and apply before they fill up. Being first "
+        "genuinely helps.",
         "",
         "## Where this is going",
         "",
-        "I'm building this in the open and adding to it as it grows. Recently "
-        "shipped: **email alerts**, the **Drop Radar**, **auto-detected sponsorship "
-        "flags**, and the **live dashboard**. Next up: personalized alerts (pick "
-        "your categories), per-company hiring pages, and a ghost-posting detector. "
+        "I'm building this in the open and adding to it as it grows.",
+        "",
+        "**Recently shipped:** email alerts · the Drop Radar · auto-detected "
+        "sponsorship flags · the live dashboard",
+        "",
+        "**Next up:** personalized alerts (pick your categories) · per-company "
+        "hiring pages · a ghost-posting detector",
+        "",
         "If it helps you, a star means a lot and tells me to keep going.",
         "",
         "## How to use",
@@ -344,9 +362,10 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "**no cycle guessed for them**. Same quality bar, different amount of "
         "evidence.",
         "- The **Posted** column is the date the company published the role.",
-        "- **Flags:** 🇺🇸 = requires U.S. citizenship or a security clearance · "
-        "🛂 = the posting says it won't sponsor a work visa · 🏠 = the location "
-        "says remote · 🆕 = spotted in the last 48 hours. Sponsorship flags are "
+        "- **Markers after a role title:** **R** = remote (the posting's "
+        "location or title says so) · 🇺🇸 = requires U.S. citizenship or a "
+        "security clearance · 🛂 = the posting says it won't sponsor a work "
+        "visa · 🆕 = spotted in the last 48 hours. Sponsorship flags are "
         "detected automatically from each job description - treat them as a "
         "strong hint and confirm on the posting.",
         f"- **✓ after a company name** = a real H-1B track record: USCIS approved "
