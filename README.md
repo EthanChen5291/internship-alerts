@@ -8,7 +8,7 @@
 
 ### 114 open roles (101 listed below) · 36 new this week
 
-3,911 employers tracked · updated Aug 02, 2026 at 15:05 UTC
+3,911 employers tracked · updated Aug 02, 2026 at 16:08 UTC
 
 _69 have a cycle the employer stated · 45 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -76,7 +76,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Company | Role | Category | Location | Posted | Apply |
 |---|---|---|---|---|---|
 | HPR (Hyannis Port Research) | Software Engineering Intern - Summer 2027 🆕 | Software | Needham, MA | Aug 01, 2026 | [Apply](https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003) |
-| Melius | Software Engineering Intern [Spring/Summer 2027] 🆕 | Software | New York City | Jul 31, 2026 | [Apply](https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280) |
+| Melius | Software Engineering Intern [Spring/Summer 2027] | Software | New York City | Jul 31, 2026 | [Apply](https://jobs.ashbyhq.com/melius/b61f063a-4f94-4e50-a4ef-05aaab552280) |
 | Heliux | Software Engineer (Internship, Summer 2027) 🇺🇸 | Software | HQ (San Francisco, CA) | Jul 31, 2026 | [Apply](https://jobs.ashbyhq.com/heliux/ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef) |
 | Virtu Financial ✓ | 2027 Internship - Frontend Engineer (UI) | Software | New York | Jul 29, 2026 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8657500002) |
 | Leidos ✓ | Software Developer Intern 🇺🇸 | Software | Annapolis Junction, MD | Jul 29, 2026 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311) |
@@ -281,7 +281,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,739 of 4,006 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 93% of the full registry) · completed in 402.6s · 88 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,713 of 4,006 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 370.7s · 89 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
