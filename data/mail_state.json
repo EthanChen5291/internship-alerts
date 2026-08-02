@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-08-01T03:26:59Z",
-  "last_digest_roles": 4,
-  "last_digest_sent": 185,
+  "last_digest_at": "2026-08-02T02:30:18Z",
+  "last_digest_roles": 2,
+  "last_digest_sent": 186,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -60,10 +60,12 @@
     "workday:psecu:/job/Harrisburg-PA/Data-Analyst-Intern_JR100964",
     "ashby:melius:b61f063a-4f94-4e50-a4ef-05aaab552280",
     "ashby:heliux:ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef",
-    "ashby:melius:6a944911-dbbf-44c7-ba52-7866f7b433cf"
+    "ashby:melius:6a944911-dbbf-44c7-ba52-7866f7b433cf",
+    "greenhouse:hyannisportresearch:7822989003",
+    "greenhouse:postman:7823417003"
   ],
   "last_digest_failed": 0,
   "retry_emails": [],
-  "subscribers_total": 185,
+  "subscribers_total": 186,
   "send_cursor": 0
 }
