@@ -69,5 +69,6 @@
  "posting_lifetime": {
   "median_days": 26.0,
   "sample_size": 132
- }
+ },
+ "stats_basis": "counts recomputed from the store; fetch metrics from the last run"
 }

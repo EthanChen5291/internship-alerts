@@ -8,7 +8,7 @@
 
 ### 114 open roles (101 listed below) · 36 new this week
 
-3,913 employers tracked · updated Aug 02, 2026 at 21:33 UTC
+3,927 employers tracked · updated Aug 02, 2026 at 21:42 UTC
 
 _69 have a cycle the employer stated · 45 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -40,7 +40,7 @@ Every link comes straight from the source — so it's real and current, not a st
 | 📆 **A real date on nearly every role** | Taken from the job portal itself wherever the portal states one, so newest-first actually means newest. The exact coverage figure is printed at the bottom of this page every run. |
 | 🧰 **Skill tags + pay, extracted** | Every posting's text is scanned for the stack it wants (Python, C++, PyTorch, …) and the pay it states — searchable on the [dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/), and included in the CSV and API. |
 | 🔔 **Alerts your way** | [Email digests](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe) or [RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml) — point any reader, or a Slack/Discord RSS integration, at it. Plus a [live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/) with search, filters, and a saved-roles list that never leaves your browser. |
-| ⚙️ **An engine, not a spreadsheet** | 4,010 job-board endpoints (3,913 distinct employers; some run more than one board) polled every 30 minutes across 12 ATS platforms. Full source and tests in this repo. |
+| ⚙️ **An engine, not a spreadsheet** | 4,024 job-board endpoints (3,927 distinct employers; some run more than one board) polled every 30 minutes across 12 ATS platforms. Full source and tests in this repo. |
 
 ## Scope
 
@@ -213,38 +213,38 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 
 | Company | Typical opening | Expected this cycle | Status |
 |---|---|---|---|
+| Goldman Sachs | ~Mar | ~Mar · window passed, not seen | ⏳ waiting |
+| JPMorgan Chase | ~Mar | ~Mar · window passed, not seen | ⏳ waiting |
+| Morgan Stanley | ~Mar | ~Mar · window passed, not seen | ⏳ waiting |
+| Bank of America | ~Apr | ~Apr · window passed, not seen | ⏳ waiting |
+| BlackRock | ~Apr | ~Apr · window passed, not seen | ⏳ waiting |
+| Citi | ~Apr | ~Apr · window passed, not seen | ⏳ waiting |
+| Wells Fargo | ~Apr | ~Apr · window passed, not seen | ⏳ waiting |
+| Capital One | ~Jun | ~Jun · window passed, not seen | ⏳ waiting |
+| American Express | ~Jul | ~Jul · any day now | ⏳ waiting |
+| Balyasny Asset Management | ~Jul | ~Jul · any day now | ⏳ waiting |
+| Belvedere Trading | ~Jul | ~Jul · any day now | ⏳ waiting |
+| Citadel Securities | ~Jul | ~Jul · any day now | ⏳ waiting |
+| Deloitte | ~Jul | ~Jul · any day now | ⏳ waiting |
+| EY | ~Jul | ~Jul · any day now | ⏳ waiting |
+| Headlands Technologies | ~Jul | ~Jul · any day now | ⏳ waiting |
+| KPMG | ~Jul | ~Jul · any day now | ⏳ waiting |
+| Old Mission Capital | ~Jul | ~Jul · any day now | ⏳ waiting |
+| Peak6 | ~Jul | ~Jul · any day now | ⏳ waiting |
+| PwC | ~Jul | ~Jul · any day now | ⏳ waiting |
+| Quantlab | ~Jul | ~Jul · any day now | ⏳ waiting |
+| Squarepoint Capital | ~Jul | ~Jul · any day now | ⏳ waiting |
+| Voloridge Investment Management | ~Jul | ~Jul · any day now | ⏳ waiting |
+| Wolverine Trading | ~Jul | ~Jul · any day now | ⏳ waiting |
+| XTX Markets | ~Jul | ~Jul · any day now | ⏳ waiting |
+| Accenture | ~Aug | ~Aug · any day now | ⏳ waiting |
+| AQR Capital Management | ~Aug | ~Aug · any day now | ⏳ waiting |
+| Atlassian | ~Aug | ~Aug · any day now | ⏳ waiting |
+| Bridgewater Associates | ~Aug | ~Aug · any day now | ⏳ waiting |
+| Cisco | ~Aug | ~Aug · any day now | ⏳ waiting |
 | Citadel | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Citadel Securities | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Databricks | ~Aug | ~Aug · any day now | ⏳ waiting |
-| DoorDash | ~Aug | ~Aug · any day now | ⏳ waiting |
-| DRW | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Google | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Jane Street | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Meta | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Optiver | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Pinterest | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Salesforce | ~Aug | ~Aug · any day now | ⏳ waiting |
-| SIG | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Snowflake | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Uber | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Adobe | ~Sep | ~Sep · in ~30d | ⏳ waiting |
-| Airbnb | ~Sep | ~Sep · in ~30d | ⏳ waiting |
-| Bloomberg | ~Sep | ~Sep · in ~30d | ⏳ waiting |
-| Dropbox | ~Sep | ~Sep · in ~30d | ⏳ waiting |
-| Plaid | ~Sep | ~Sep · in ~30d | ⏳ waiting |
-| Point72 | ~Sep | ~Sep · in ~30d | ⏳ waiting |
-| Robinhood | ~Sep | ~Sep · in ~30d | ⏳ waiting |
-| Roblox | ~Sep | ~Sep · in ~30d | ⏳ waiting |
-| Stripe | ~Sep | ~Sep · in ~30d | ⏳ waiting |
-| D.E. Shaw | ~Oct | ~Oct | ⏳ waiting |
-| Coinbase | ~Dec | ~Dec | ⏳ waiting |
-| Ramp | ~Dec | ~Dec | ⏳ waiting |
-| Two Sigma | ~Dec | ~Dec | ⏳ waiting |
-| Apple | rolling | year-round | ⏳ waiting |
-| Datadog | rolling | year-round | ⏳ waiting |
-| Jump Trading | rolling | year-round | ⏳ waiting |
 
-_62 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **27** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
+_169 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **27** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
 <summary><strong>Recently closed</strong> — 23 roles that left the list in the last 14 days</summary>
