@@ -124,20 +124,48 @@ def is_cycle_label(value) -> bool:
     return bool(value) and bool(_CYCLE_RE.fullmatch(str(value).strip()))
 
 
+_TERM_WORD_RE = re.compile(r"\b(summer|fall|autumn|winter|spring)\b", re.IGNORECASE)
+# How far apart a term and its year may sit and still be read as one label.
+# "Summer Intern 2027" is 7 characters apart; anything much wider stops being
+# one phrase and starts being two unrelated facts.
+_TERM_YEAR_GAP = 24
+
+
 def detect_seasons(title: str, cycles=("Summer 2027", "Fall 2026")) -> list[str]:
-    """EVERY tracked cycle the title states verbatim, in `cycles` order.
+    """EVERY tracked cycle the title states, in `cycles` order.
 
     Deepgram posts "Software Engineering Internship (Fall 2026/Summer 2027)" —
     one requisition genuinely hiring for two cycles. A single-value season field
     can only keep one, so the other silently vanished from its own cycle's
-    section. This collects the full set; `detect_season` still picks the
-    primary. Only explicit "<Term> <Year>" phrases count — no inference here.
+    section. This collects the full set; `detect_season` still picks the primary.
+
+    Term and year do NOT have to be adjacent. An earlier version only matched
+    "<Term> <Year>" verbatim, so "Summer Intern 2027" — which `detect_season`
+    reads correctly — came back empty here, and a genuine dual-cycle title like
+    "Summer 2027 / Fall Intern 2026" lost its Fall half. Still evidence-only:
+    a year must be present, and nothing is inferred from a posting date.
     """
+    scannable = _TITLE_GRAD_RE.sub(" ", title)  # graduation years name the student
+    terms = [(m.start(), m.end(),
+              "Fall" if m.group(1).lower() == "autumn" else m.group(1).capitalize())
+             for m in _TERM_WORD_RE.finditer(scannable)]
+
+    stated: set[str] = set()
+    years = [(m.start(), m.end(), m.group(1)) for m in _YEAR_RE.finditer(scannable)]
+    years += [(m.start(), m.end(), f"20{m.group(1)}")
+              for m in _SHORT_YEAR_RE.finditer(scannable)]
+    for y_start, y_end, year in years:
+        near = [t for t in terms
+                if (t[0] - y_end <= _TERM_YEAR_GAP and t[0] >= y_end)
+                or (y_start - t[1] <= _TERM_YEAR_GAP and y_start >= t[1])]
+        if near:
+            # Closest term wins, so "Fall 2026/Summer 2027" pairs correctly.
+            term = min(near, key=lambda t: min(abs(t[0] - y_end), abs(y_start - t[1])))[2]
+            stated.add(f"{term} {year}")
+        elif len(terms) == 1:
+            stated.add(f"{terms[0][2]} {year}")  # one term governs the whole title
+
     found = []
-    stated = {
-        f"{m.group(1).capitalize()} {m.group(2)}"
-        for m in _CYCLE_RE.finditer(title)
-    }
     for label in cycles:
         m = _CYCLE_RE.match(label.strip())
         if m and f"{m.group(1).capitalize()} {m.group(2)}" in stated:

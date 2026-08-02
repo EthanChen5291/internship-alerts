@@ -166,3 +166,24 @@ def test_pretty_expected_countdown(monkeypatch):
 
 def test_empty_everything_returns_no_rows():
     assert radar.rows({}, "Summer 2027", today=TODAY) == []
+
+
+class TestElapsedWindow:
+    """A window in the past must not read as an imminent drop."""
+
+    def test_long_past_window_says_so(self):
+        row = {"status": "waiting", "expected": "2026-02-01", "precision": "month",
+               "days_until": -182, "rolling": False}
+        assert radar.pretty_expected(row) == "~Feb · window passed, not seen"
+
+    def test_just_inside_the_month_is_still_any_day_now(self):
+        # Month precision means the whole month, so a couple of weeks past the
+        # 1st is still "about now" — only a real gap changes the wording.
+        row = {"status": "waiting", "expected": "2026-08-01", "precision": "month",
+               "days_until": -20, "rolling": False}
+        assert radar.pretty_expected(row) == "~Aug · any day now"
+
+    def test_upcoming_window_counts_down(self):
+        row = {"status": "waiting", "expected": "2026-09-01", "precision": "month",
+               "days_until": 30, "rolling": False}
+        assert radar.pretty_expected(row) == "~Sep · in ~30d"

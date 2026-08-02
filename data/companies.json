@@ -23264,5 +23264,77 @@
     "ats": "workday",
     "wd": "wd12",
     "site": "External_Career_Site"
+  },
+  {
+    "name": "AQR Capital Management",
+    "slug": "aqr",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Aurora",
+    "slug": "aurorainnovation",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Carvana",
+    "slug": "carvana",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Coupang",
+    "slug": "coupang",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Cybereason",
+    "slug": "cybereason",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Fastly",
+    "slug": "fastly",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Old Mission Capital",
+    "slug": "oldmissioncapital",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Roku",
+    "slug": "roku",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Squarepoint Capital",
+    "slug": "squarepointcapital",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Squarespace",
+    "slug": "squarespace",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Sumo Logic",
+    "slug": "sumologic",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "Paramount",
+    "slug": "paramount",
+    "ats": "rippling"
+  },
+  {
+    "name": "Wayfair",
+    "slug": "wayfair",
+    "ats": "smartrecruiters"
+  },
+  {
+    "name": "Chewy",
+    "slug": "chewy",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "External"
   }
 ]

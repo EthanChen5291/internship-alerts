@@ -206,6 +206,11 @@ def rows(store_data: dict, cycle: str, today: date | None = None) -> list[dict]:
 
 # --- display helpers (shared by README + dashboard) -----------------------------
 
+# A month-precision window is a whole month, so being a few weeks past its 1st
+# is still "about now". Beyond this, the window genuinely elapsed.
+_PASSED_GRACE_DAYS = 45
+
+
 def _fmt(iso_day: str, month_only: bool = False) -> str:
     d = datetime.strptime(iso_day, "%Y-%m-%d")
     return d.strftime("%b") if month_only else d.strftime("%b %d")
@@ -239,6 +244,11 @@ def pretty_expected(row: dict) -> str:
     days = row.get("days_until")
     if days is None:
         return label
+    if days < -_PASSED_GRACE_DAYS:
+        # The window came and went without us seeing a role. Saying "any day
+        # now" about a date months in the past reads as a live signal when the
+        # honest reading is that the estimate was wrong or the company skipped.
+        return f"{label} · window passed, not seen"
     if days <= 0:
         return f"{label} · any day now"
     if days <= 45:

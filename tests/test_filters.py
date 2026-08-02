@@ -436,3 +436,41 @@ class TestStripHtmlOrdering:
         text = sponsorship.strip_html(raw)
         assert filters.season_from_text(
             text, now=datetime(2026, 7, 15, tzinfo=UTC)) == "Fall 2026"
+
+
+class TestDetectSeasonsProximity:
+    """Multi-cycle detection must match detect_season's reading of a title."""
+
+    C = ("Summer 2027", "Fall 2026")
+
+    def test_term_and_year_need_not_be_adjacent(self):
+        # Regression: an earlier version matched "<Term> <Year>" verbatim, so
+        # Five Rings' real "Summer Intern 2027 - Software Developer" came back
+        # empty even though detect_season read it correctly.
+        assert filters.detect_seasons(
+            "Summer Intern 2027 - Software Developer", self.C) == ["Summer 2027"]
+
+    def test_a_split_dual_cycle_title_keeps_both_halves(self):
+        assert filters.detect_seasons(
+            "Intern, Summer 2027 / Fall Intern 2026", self.C
+        ) == ["Summer 2027", "Fall 2026"]
+
+    def test_closest_term_wins_so_pairs_do_not_cross(self):
+        assert filters.detect_seasons(
+            "Internship (Fall 2026/Summer 2027)", self.C
+        ) == ["Summer 2027", "Fall 2026"]
+
+    def test_one_term_governs_a_bare_year(self):
+        assert filters.detect_seasons("2027 Summer Internship", self.C) == ["Summer 2027"]
+
+    def test_a_bare_year_with_no_term_states_nothing(self):
+        # detect_season may still bucket it; detect_seasons reports only what
+        # the title actually SAYS, and "2027 Intern" names no term.
+        assert filters.detect_seasons("2027 Software Engineer Intern", self.C) == []
+
+    def test_graduation_years_are_not_cycles(self):
+        assert filters.detect_seasons("SWE Intern, Class of 2027", self.C) == []
+
+    def test_untracked_cycles_are_excluded(self):
+        for t in ("Summer 2026 Intern", "Fall 2027 Intern"):
+            assert filters.detect_seasons(t, self.C) == [], t
