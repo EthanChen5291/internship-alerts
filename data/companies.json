@@ -916,6 +916,11 @@
     "site": "ATI-External"
   },
   {
+    "name": "Alljoined",
+    "slug": "alljoined",
+    "ats": "ashby"
+  },
+  {
     "name": "Alloy",
     "slug": "alloy",
     "ats": "greenhouse"
@@ -1934,6 +1939,11 @@
     "site": "AsdaJobs"
   },
   {
+    "name": "Ashby",
+    "slug": "ashby",
+    "ats": "ashby"
+  },
+  {
     "name": "Ashland",
     "slug": "ashland",
     "ats": "workday",
@@ -2145,6 +2155,11 @@
   {
     "name": "Atomic Semi",
     "slug": "atomicsemi",
+    "ats": "ashby"
+  },
+  {
+    "name": "Atominvest",
+    "slug": "atominvest",
     "ats": "ashby"
   },
   {
@@ -2390,6 +2405,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "external"
+  },
+  {
+    "name": "Avoca AI",
+    "slug": "avoca",
+    "ats": "ashby"
   },
   {
     "name": "Avride",
@@ -4473,6 +4493,13 @@
     "site": "Chemours"
   },
   {
+    "name": "ChenMed",
+    "slug": "chenmed",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "chenmed"
+  },
+  {
     "name": "CHEP",
     "slug": "brambles",
     "ats": "workday",
@@ -5388,6 +5415,13 @@
     "ats": "greenhouse"
   },
   {
+    "name": "ConocoPhillips",
+    "slug": "conocophillips",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "External"
+  },
+  {
     "name": "Consolidated Edison",
     "slug": "ejcu.fa.us6.oraclecloud.com",
     "ats": "oracle",
@@ -5791,6 +5825,11 @@
     "name": "Crown Innovations",
     "slug": "CrownInnovationsInc",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "Cruise Planners",
+    "slug": "cruiseplanners",
+    "ats": "rippling"
   },
   {
     "name": "Crumbl",
@@ -6510,6 +6549,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Dome Systems Inc",
+    "slug": "dome-systems-inc",
+    "ats": "ashby"
+  },
+  {
     "name": "Domo",
     "slug": "domo",
     "ats": "workday",
@@ -6774,6 +6818,11 @@
     "ats": "workday",
     "wd": "wd3",
     "site": "dyson_careers"
+  },
+  {
+    "name": "E Source Companies",
+    "slug": "e-source",
+    "ats": "ashby"
   },
   {
     "name": "E.ON Next",
@@ -8540,6 +8589,11 @@
     "site": "External"
   },
   {
+    "name": "FS Studio",
+    "slug": "fs-studio",
+    "ats": "ashby"
+  },
+  {
     "name": "FTI Consulting",
     "slug": "fticonsulting",
     "ats": "workday",
@@ -9678,6 +9732,11 @@
     "name": "Harness",
     "slug": "harness-careers",
     "ats": "rippling"
+  },
+  {
+    "name": "Harper Group",
+    "slug": "harperinsure",
+    "ats": "ashby"
   },
   {
     "name": "Harris Central Appraisal District",
@@ -11473,6 +11532,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Kastle AI",
+    "slug": "kastle",
+    "ats": "ashby"
+  },
+  {
     "name": "Katalyst Space Technologies",
     "slug": "katalyst",
     "ats": "greenhouse"
@@ -13059,6 +13123,11 @@
   {
     "name": "Maya HTT",
     "slug": "maya-htt",
+    "ats": "ashby"
+  },
+  {
+    "name": "Maya HTT",
+    "slug": "fr",
     "ats": "ashby"
   },
   {
@@ -14717,6 +14786,11 @@
     "ats": "workday",
     "wd": "wd3",
     "site": "External"
+  },
+  {
+    "name": "NORY",
+    "slug": "nory-co",
+    "ats": "ashby"
   },
   {
     "name": "Notability",
@@ -17421,6 +17495,13 @@
     "site": "RingCentral_Careers"
   },
   {
+    "name": "Rio Tinto",
+    "slug": "riotinto",
+    "ats": "workday",
+    "wd": "wd3",
+    "site": "riotinto_careers"
+  },
+  {
     "name": "Riot Games",
     "slug": "riotgamesup",
     "ats": "greenhouse"
@@ -19111,6 +19192,11 @@
     "ats": "ashby"
   },
   {
+    "name": "SpAItial",
+    "slug": "spaitial",
+    "ats": "ashby"
+  },
+  {
     "name": "Span",
     "slug": "span",
     "ats": "ashby"
@@ -20082,6 +20168,11 @@
   {
     "name": "Tempo",
     "slug": "tempo-io",
+    "ats": "ashby"
+  },
+  {
+    "name": "Tempo",
+    "slug": "tempo",
     "ats": "ashby"
   },
   {
