@@ -33,6 +33,8 @@ _VOCAB: list[tuple[str, str]] = [
     ("Swift", r"(?-i:Swift(?:UI)?)"),
     ("Kotlin", r"kotlin"),
     ("Scala", r"scala"),
+    ("Ruby", r"ruby"),
+    ("Bash", r"bash|shell\s+scripting"),
     ("MATLAB", r"matlab"),
     ("PyTorch", r"pytorch|torch"),
     ("TensorFlow", r"tensorflow"),
@@ -42,9 +44,12 @@ _VOCAB: list[tuple[str, str]] = [
     ("Computer Vision", r"computer\s+vision|opencv"),
     ("CUDA", r"cuda"),
     ("React", r"(?-i:React(?:\.?[jJ]s)?(?:\s+Native)?)"),
+    ("Next.js", r"next\.?js"),
     ("Node.js", r"node\.?js"),
+    ("Express", r"express\.?js"),
     ("Angular", r"(?-i:Angular(?:JS)?)"),
     ("Vue", r"vue\.?js|(?-i:Vue)"),
+    ("HTML/CSS", r"html(?:5)?|css(?:3)?"),
     ("Django", r"django"),
     ("Flask", r"flask"),
     ("Spring", r"spring\s+boot"),
@@ -62,10 +67,14 @@ _VOCAB: list[tuple[str, str]] = [
     ("Kafka", r"kafka"),
     ("Hadoop", r"hadoop"),
     ("Airflow", r"airflow"),
+    ("dbt", r"\bdbt\b|data\s+build\s+tool"),
+    ("Databricks", r"databricks"),
+    ("Snowflake", r"snowflake"),
     ("PostgreSQL", r"postgres(?:ql)?"),
     ("MongoDB", r"mongodb|mongo"),
     ("Redis", r"redis"),
     ("Tableau", r"tableau"),
+    ("Selenium", r"selenium"),
     ("ROS", r"ros\s*2|robot\s+operating\s+system"),
     ("Unity", r"unity\s*(?:3d|engine)"),
     ("Unreal", r"unreal\s+engine"),
@@ -76,18 +85,38 @@ _COMPILED = [
     (name, re.compile(r"(?<![\w+#])(?:" + pat + r")(?![\w+])", re.IGNORECASE))
     for name, pat in _VOCAB
 ]
+_SIGNAL_RANK = {name: rank for rank, (name, _pattern) in enumerate(_VOCAB)}
 
 MAX_SKILLS = 8
 
 _WS_RE = re.compile(r"\s+")
 
 
-def extract(text: str | None) -> list[str]:
-    """Skill tags found in the text, canonical order, capped at MAX_SKILLS."""
+def sort_by_signal(tags: list[str] | None, title: str | None = None) -> list[str]:
+    """Put title-mentioned and high-signal technologies first.
+
+    A technology in the job title is the strongest evidence of relevance. The
+    remaining tags follow the curated vocabulary priority (languages and core
+    frameworks before broad tooling), keeping README rows concise and useful.
+    """
+    title = title or ""
+    patterns = dict(_COMPILED)
+    unique = list(dict.fromkeys(tags or []))
+    return sorted(
+        unique,
+        key=lambda tag: (
+            not bool(patterns.get(tag) and patterns[tag].search(title)),
+            _SIGNAL_RANK.get(tag, len(_SIGNAL_RANK)),
+        ),
+    )
+
+
+def extract(text: str | None, title: str | None = None) -> list[str]:
+    """Skill tags found in text, ranked by title match and curated signal."""
     if not text:
         return []
     found = [name for name, pattern in _COMPILED if pattern.search(text)]
-    return found[:MAX_SKILLS]
+    return sort_by_signal(found, title)[:MAX_SKILLS]
 
 
 # --- pay ----------------------------------------------------------------------
