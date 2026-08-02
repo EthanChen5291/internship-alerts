@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%20hour-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 115 open roles (102 listed below) · 37 new this week
+### 114 open roles (101 listed below) · 37 new this week
 
-3,896 employers tracked · updated Aug 01, 2026 at 23:59 UTC
+3,896 employers tracked · updated Aug 02, 2026 at 02:29 UTC
 
-_69 have a cycle the employer stated · 46 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_69 have a cycle the employer stated · 45 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -142,7 +142,7 @@ I'm building this in the open and adding to it as it grows. Recently shipped: **
 | Amazon ✓ | Robotics - Software Development Engineer Intern/Co-op - 2026 | Hardware | Westboro, Massachusetts, USA | Dec 03, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 
-## Recently posted — cycle not stated  (42 roles)
+## Recently posted — cycle not stated  (41 roles)
 
 These postings never name a cycle — not in the title, not in the posting text — so neither do we. They're recent tech internships (posted within the last few weeks), often exactly the early drops worth applying to first; we just can't tell you which cycle they're for, and we'd rather say so than guess. The moment a posting's own text states a cycle, the role moves up into that section automatically.
 
@@ -189,7 +189,6 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Palantir ✓ | Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial 🇺🇸 | Software | Chicago, IL | Jun 24, 2026 | [Apply](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3) |
 | Altom Transport | Fall Software Development Intern | Software | Hammond, Indiana, United States | Jun 23, 2026 | [Apply](https://apply.workable.com/altom-transport/j/9FC654F05E/) |
 | Centerfield ✓ | Data Science Intern | Data & ML/AI | Los Angeles, California | Jun 22, 2026 | [Apply](https://jobs.ashbyhq.com/centerfield/916dcf42-d69a-4f00-875a-f8fe630e0f33) |
-| iHerb | Software Development Intern 🏠 | Software | United States of America - Remote / Hom… | Jun 17, 2026 | [Apply](https://job-boards.greenhouse.io/iherb/jobs/7776154003) |
 
 <a id="drop-radar"></a>
 
@@ -215,15 +214,15 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 | SIG | ~Aug | ~Aug · any day now | ⏳ waiting |
 | Snowflake | ~Aug | ~Aug · any day now | ⏳ waiting |
 | Uber | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Adobe | ~Sep | ~Sep · in ~31d | ⏳ waiting |
-| Airbnb | ~Sep | ~Sep · in ~31d | ⏳ waiting |
-| Bloomberg | ~Sep | ~Sep · in ~31d | ⏳ waiting |
-| Dropbox | ~Sep | ~Sep · in ~31d | ⏳ waiting |
-| Plaid | ~Sep | ~Sep · in ~31d | ⏳ waiting |
-| Point72 | ~Sep | ~Sep · in ~31d | ⏳ waiting |
-| Robinhood | ~Sep | ~Sep · in ~31d | ⏳ waiting |
-| Roblox | ~Sep | ~Sep · in ~31d | ⏳ waiting |
-| Stripe | ~Sep | ~Sep · in ~31d | ⏳ waiting |
+| Adobe | ~Sep | ~Sep · in ~30d | ⏳ waiting |
+| Airbnb | ~Sep | ~Sep · in ~30d | ⏳ waiting |
+| Bloomberg | ~Sep | ~Sep · in ~30d | ⏳ waiting |
+| Dropbox | ~Sep | ~Sep · in ~30d | ⏳ waiting |
+| Plaid | ~Sep | ~Sep · in ~30d | ⏳ waiting |
+| Point72 | ~Sep | ~Sep · in ~30d | ⏳ waiting |
+| Robinhood | ~Sep | ~Sep · in ~30d | ⏳ waiting |
+| Roblox | ~Sep | ~Sep · in ~30d | ⏳ waiting |
+| Stripe | ~Sep | ~Sep · in ~30d | ⏳ waiting |
 | D.E. Shaw | ~Oct | ~Oct | ⏳ waiting |
 | Coinbase | ~Dec | ~Dec | ⏳ waiting |
 | Ramp | ~Dec | ~Dec | ⏳ waiting |
@@ -282,7 +281,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,711 of 3,989 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 358.8s · 84 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,690 of 3,989 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 92% of the full registry) · completed in 386.6s · 88 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
