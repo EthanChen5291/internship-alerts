@@ -99,19 +99,23 @@ def _is_new(record: dict, hours: int = 48) -> bool:
     return datetime.now(UTC) - seen_dt <= timedelta(hours=hours)
 
 
+REMOTE_MARK = "🆁"  # U+1F181 — a squared R, so it reads as a badge, not a word
+
+
 def _cells(record: dict) -> tuple[str, str, str, str, str, str, str]:
     company = _md_cell(record.get("company"))
     if h1b.badge(h1b.approvals_for(record.get("company") or "")):
         company += " ✓"
+    # The remote mark sits beside the H-1B ✓ in the first column, where the eye
+    # already goes for row-level markers, instead of trailing a title that can
+    # run 60 characters. Every table row IS one role, so a per-role marker is
+    # unambiguous here — the legend says "this role", not "this company".
+    if filters.is_remote(record.get("location") or "", record.get("title") or ""):
+        company += f" {REMOTE_MARK}"
     title = _md_cell(record.get("title"))
     is_open = record.get("is_open", True)
-    # `R` rather than an emoji, to read the same way the company column's H-1B
-    # `✓` does: a compact letter marker, legible in any font, greppable, and
-    # unambiguous in a plain-text CSV or a screen reader.
     badges = " ".join(
         b for b in (sponsorship.flag(record.get("sponsorship")),
-                    "**R**" if filters.is_remote(record.get("location") or "",
-                                                 record.get("title") or "") else "",
                     "🆕" if _is_new(record) and is_open else "")
         if b
     )
@@ -362,8 +366,10 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "**no cycle guessed for them**. Same quality bar, different amount of "
         "evidence.",
         "- The **Posted** column is the date the company published the role.",
-        "- **Markers after a role title:** **R** = remote (the posting's "
-        "location or title says so) · 🇺🇸 = requires U.S. citizenship or a "
+        f"- **{REMOTE_MARK} after a company name** = **this role is remote** — "
+        "the posting's own location or title says so. It marks the role on that "
+        "row, not the whole company.",
+        "- **Flags after a role title:** 🇺🇸 = requires U.S. citizenship or a "
         "security clearance · 🛂 = the posting says it won't sponsor a work "
         "visa · 🆕 = spotted in the last 48 hours. Sponsorship flags are "
         "detected automatically from each job description - treat them as a "

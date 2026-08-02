@@ -200,10 +200,10 @@ def _rows(open_jobs: list[dict]) -> str:
         save = (f'<button class="star" type="button" data-id="{escape(jid)}" '
                 f'aria-label="Save this role" title="Save to your list">☆</button>')
         loc = escape((r.get("location") or "")[:48])
-        # The R sits next to the title, matching the README's marker exactly,
-        # rather than as a second location pill — one vocabulary everywhere.
-        rmark = ("<span class='rmark' title='Remote — the posting's location "
-                 "or title says so'>R</span>") if remote == "1" else ""
+        # Sits beside the H-1B check in the company cell, mirroring the README
+        # exactly — one vocabulary and one position across both surfaces.
+        rmark = ("<span class='rmark' title='Remote — this role. The posting's "
+                 "location or title says so.'>R</span>") if remote == "1" else ""
         rows.append(
             f'<tr data-id="{escape(jid)}" '
             f'data-cycle="{escape(r.get("season", ""))}" '
@@ -217,9 +217,9 @@ def _rows(open_jobs: list[dict]) -> str:
             f'data-inferred="{"1" if r.get("season_inferred") else "0"}" '
             f'data-text="{escape(haystack)}">'
             f"<td class='c-save'>{save}</td>"
-            f"<td>{escape(r.get('company', ''))}{check}</td>"
+            f"<td>{escape(r.get('company', ''))}{check}{rmark}</td>"
             f"<td><span class='rt'>{escape(r.get('title', ''))}</span> "
-            f"{rmark}{flag}{chips}</td>"
+            f"{flag}{chips}</td>"
             f"<td>{cycle_tag}</td>"
             f"<td>{escape(r.get('category', ''))}</td>"
             f"<td>{loc}</td>"
@@ -545,12 +545,16 @@ def generate(store_data: dict, stats: dict) -> None:
   tr.saved {{ background:#e3b3410f; box-shadow:inset 2px 0 0 var(--star); }}
   .pill {{ display:inline-block; background:#2ea04322; color:var(--green);
            border-radius:20px; padding:0 7px; font-size:11px; margin-left:4px; }}
-  /* The remote marker. Same letter the README prints, so the two surfaces
-     teach one vocabulary instead of an emoji here and a letter there. */
-  .rmark {{ display:inline-block; min-width:16px; text-align:center;
-            background:#2ea04322; color:var(--green); border-radius:4px;
-            padding:1px 4px; font-size:11px; font-weight:700; margin-left:5px;
-            cursor:help; }}
+  /* The remote marker, beside the H-1B check. A filled rounded square so it
+     reads as a badge at a glance rather than a stray capital letter — the
+     same shape the README's 🆁 glyph has. Tabular-figure font keeps the R
+     optically centred in the box. */
+  .rmark {{ display:inline-flex; align-items:center; justify-content:center;
+            width:17px; height:17px; vertical-align:-3px;
+            background:var(--green); color:#07240f; border-radius:5px;
+            font:700 11px/1 ui-monospace,SFMono-Regular,"SF Mono",Menlo,monospace;
+            letter-spacing:0; margin-left:6px; cursor:help;
+            box-shadow:0 0 0 1px #2ea04355; }}
   @media(max-width:680px) {{
     /* Give the columns room to be readable while scrolling, rather than
        squeezing nine of them into 390px and wrapping every title to four
@@ -669,7 +673,7 @@ def generate(store_data: dict, stats: dict) -> None:
           <option value="Internship">Internships</option>
           <option value="Co-op">Co-ops</option>
         </select>
-        <label class="chk"><input id="remote" type="checkbox"><span><b>R</b> remote only</span></label>
+        <label class="chk"><input id="remote" type="checkbox"><span><span class="rmark">R</span> remote only</span></label>
         <label class="chk"><input id="h1b" type="checkbox">
           <span>✓ proven H-1B sponsors only</span></label>
         <label class="chk" title="Show only roles whose employer named the cycle themselves">
