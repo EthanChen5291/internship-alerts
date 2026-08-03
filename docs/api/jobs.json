@@ -1,9 +1,62 @@
 {
- "generated_at": "2026-08-03T16:08:36Z",
+ "generated_at": "2026-08-03T18:22:47Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 122,
+ "count": 121,
  "jobs": [
+  {
+   "id": "workday:microchiphr:/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Firmware-Development-_R3372-26",
+   "company": "Microchip Technology",
+   "title": "Intern-Engineering (Firmware Development)",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Hardware",
+   "location": "TX - Houston - Compaq Center Dr",
+   "url": "https://microchiphr.wd5.myworkdayjobs.com/external/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Firmware-Development-_R3372-26",
+   "posted_at": "2026-08-03T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-03T18:22:46Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "Java",
+    "C++",
+    "C#",
+    "JavaScript",
+    "Linux"
+   ],
+   "source": "workday",
+   "h1b_approvals": 143,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:ntst:/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667",
+   "company": "Netsmart",
+   "title": "Software Engineer Intern (Summer 2027 Internship)",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Overland Park, KS",
+   "url": "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667",
+   "posted_at": "2026-08-03T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-03T18:22:46Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Java",
+    "C++",
+    "C#"
+   ],
+   "source": "workday",
+   "h1b_approvals": 3,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "smartrecruiters:BoschGroup:744000141302469",
    "company": "Bosch",
@@ -451,29 +504,6 @@
    ],
    "source": "greenhouse",
    "h1b_approvals": 8,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:leidos:/job/San-Diego-CA/Data-Science-Intern_R-00188405",
-   "company": "Leidos",
-   "title": "Data Science Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "San Diego, CA",
-   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/San-Diego-CA/Data-Science-Intern_R-00188405",
-   "posted_at": "2026-07-29T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-07-29T20:57:42Z",
-   "sponsorship": "citizens-only",
-   "salary": null,
-   "skills": [
-    "Python"
-   ],
-   "source": "workday",
-   "h1b_approvals": 79,
    "program": "Internship",
    "remote": false
   },
@@ -1159,35 +1189,6 @@
    "h1b_approvals": 83,
    "program": "Internship",
    "remote": false
-  },
-  {
-   "id": "smartrecruiters:HireVue:744000138728139",
-   "company": "HireVue",
-   "title": "Data Science Intern | Fully Remote US",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "Sandy, UT, United States (Remote)",
-   "url": "https://jobs.smartrecruiters.com/HireVue/744000138728139",
-   "posted_at": "2026-07-20T20:54:18.136Z",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-07-22T11:09:32Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "SQL",
-    "scikit-learn",
-    "Pandas",
-    "LLMs",
-    "AWS",
-    "Git"
-   ],
-   "source": "smartrecruiters",
-   "h1b_approvals": 2,
-   "program": "Internship",
-   "remote": true
   },
   {
    "id": "greenhouse:axontalentcommunity:7800617003",
@@ -2843,31 +2844,6 @@
    "source": "workday",
    "h1b_approvals": 9,
    "program": "Co-op",
-   "remote": false
-  },
-  {
-   "id": "lever:hermeus:10d69ef6-a754-42ab-833c-76adf01367bf",
-   "company": "Hermeus",
-   "title": "Software Engineering Intern (HIL) - Fall 2026",
-   "season": "Fall 2026",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Atlanta, GA",
-   "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
-   "posted_at": "2026-04-17T18:15:04Z",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-06-30T12:14:22Z",
-   "sponsorship": "citizens-only",
-   "salary": "25–33 USD/hr",
-   "skills": [
-    "Python",
-    "C++",
-    "MATLAB"
-   ],
-   "source": "lever",
-   "h1b_approvals": null,
-   "program": "Internship",
    "remote": false
   },
   {

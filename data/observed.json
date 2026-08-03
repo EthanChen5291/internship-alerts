@@ -568,6 +568,18 @@
     }
    }
   },
+  "netsmart": {
+   "name": "Netsmart",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-03",
+     "role_ids": [
+      "workday:ntst:/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667"
+     ],
+     "count": 1
+    }
+   }
+  },
   "northrop grumman": {
    "name": "Northrop Grumman",
    "cycles": {
@@ -1058,5 +1070,5 @@
    }
   }
  },
- "updated_at": "2026-08-03T16:08:36Z"
+ "updated_at": "2026-08-03T18:22:46Z"
 }
