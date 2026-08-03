@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03T21:45:13Z",
+ "generated_at": "2026-08-03T23:04:31Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -337,6 +337,20 @@
    "days_until": -2,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003",
+   "note": ""
+  },
+  {
+   "company": "CNO Financial Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-03",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389",
    "note": ""
   },
   {
@@ -2398,5 +2412,5 @@
    "note": "fall opening, clearance common"
   }
  ],
- "count": 171
+ "count": 172
 }

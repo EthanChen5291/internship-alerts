@@ -248,6 +248,19 @@
     }
    }
   },
+  "cno financial group": {
+   "name": "CNO Financial Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-03",
+     "role_ids": [
+      "workday:cnoinc:/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389",
+      "workday:cnoinc:/job/Carmel-IN/Cyber-Security-IT-Intern---REMOTE_JR170419"
+     ],
+     "count": 2
+    }
+   }
+  },
   "creatify lab": {
    "name": "Creatify Lab",
    "cycles": {
@@ -1071,5 +1084,5 @@
    }
   }
  },
- "updated_at": "2026-08-03T21:45:12Z"
+ "updated_at": "2026-08-03T23:04:30Z"
 }
