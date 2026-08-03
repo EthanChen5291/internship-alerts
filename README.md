@@ -8,9 +8,9 @@
 
 ### 122 open roles (107 listed below) · 39 new this week
 
-3,929 employers tracked · updated Aug 03, 2026 at 20:16 UTC
+3,929 employers tracked · updated Aug 03, 2026 at 21:45 UTC
 
-_73 have a cycle the employer stated · 49 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_72 have a cycle the employer stated · 50 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -123,7 +123,7 @@ If it helps you, a star means a lot and tells me to keep going.
 | Anduril | 2027 Software Engineer Intern 🇺🇸 | Software | Atlanta +17 more | Python, Java, C++, Rust | Jun 10, 2026 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Python, Java, C++, Rust | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-## Fall 2026  (31 employer-stated)
+## Fall 2026  (30 employer-stated)
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
@@ -134,7 +134,6 @@ If it helps you, a star means a lot and tells me to keep going.
 | Rendezvous Robotics | Software Engineering Intern (Fall 2026) 🇺🇸 | Software | Golden, CO | Python, C++, Linux | Jul 22, 2026 | [Apply](https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4328555009) |
 | Deepgram 🆁 | Software Engineering- Internship (Fall 2026/Summer 2027) _(also open for Summer 2027)_ | Software | USA / Remote | LLMs | Jul 17, 2026 | [Apply](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
 | Moog | Intern, IT Computer Science - Data Analytics | Data & ML/AI | Buffalo, NY | No skills listed | Jul 16, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145) |
-| NVIDIA ✓ | Performance Engineer Intern, Systems Software-  Fall 2026 | Software | US, MO, St. Louis | Python, PyTorch, CUDA, Kubernetes | Jul 06, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779) |
 | Saronic | Enterprise Technology Intern - AI and Automation (Fall 2026) 🇺🇸 | Data & ML/AI | Austin, TX | LLMs | Jul 02, 2026 | [Apply](https://jobs.ashbyhq.com/saronic/c95c2e3a-4c67-47b0-a03d-0e0317ac11a3) |
 | NVIDIA ✓ | Applied Research Intern, NLP - Fall 2026 | Data & ML/AI | US, CA, Santa Clara | Python, PyTorch | Jul 01, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488) |
 | Junior | Software Engineering Intern — Fall 2026 🇺🇸 | Software | New York City | TypeScript, JavaScript, LLMs | Jun 30, 2026 | [Apply](https://jobs.ashbyhq.com/junior/23ee686b-d305-4ac9-860d-16c99ddb4891) |
@@ -159,12 +158,13 @@ If it helps you, a star means a lot and tells me to keep going.
 | Amazon ✓ | Robotics - Software Development Engineer Intern/Co-op - 2026 | Hardware | Westboro, Massachusetts, USA | Python, Java, C++, C# | Dec 03, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Python, Java, C++, LLMs | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 
-## Recently posted — cycle not stated  (43 roles)
+## Recently posted — cycle not stated  (44 roles)
 
 These postings never name a cycle — not in the title, not in the posting text — so neither do we. They're recent tech internships (posted within the last few weeks), often exactly the early drops worth applying to first; we just can't tell you which cycle they're for, and we'd rather say so than guess. The moment a posting's own text states a cycle, the role moves up into that section automatically.
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
+| IDEXX ✓ | Security Operations (Cybersecurity) internship 🆕 | Security | Westbrook, ME | No skills listed | Aug 03, 2026 | [Apply](https://idexx.wd1.myworkdayjobs.com/IDEXX/job/Westbrook-ME/Security-Operations--Cybersecurity--internship_J-053268) |
 | Microchip Technology ✓ | Intern-Engineering (Firmware Development) 🆕 | Hardware | TX - Houston - Compaq Center Dr | Python, Java, C++, C# | Aug 03, 2026 | [Apply](https://microchiphr.wd5.myworkdayjobs.com/external/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Firmware-Development-_R3372-26) |
 | Bosch ✓ | AI and SW Development Engineering Intern 🆕 | Data & ML/AI | Plymouth, MI, United States | Python, C++, Computer Vision, Git | Aug 03, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000141302469) |
 | Microchip Technology ✓ | Intern-Engineering (Software Development) 🆕 | Software | TX - Houston - Compaq Center Dr | Python, Java, C++, C# | Aug 03, 2026 | [Apply](https://microchiphr.wd5.myworkdayjobs.com/external/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Software-Development-_R3371-26) |
@@ -253,12 +253,13 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 _171 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **30** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 23 roles that left the list in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 24 roles that left the list in the last 14 days</summary>
 
 _Why each one left is in the last column, because the two reasons carry different evidence. **Gone from feed** = two consecutive complete reads of the employer's board no longer returned it (strong, but not the employer telling us directly). **Out of scope** = still posted, but it no longer passes our filters — our call, not theirs. **Not recorded** = closed before we started tracking the reason._
 
 | Company | Role | Cycle | Closed | Why |
 |---|---|---|---|---|
+| NVIDIA | Performance Engineer Intern, Systems Software-  Fall 2026 | Fall 2026 | 2026-08-03 | gone from feed |
 | JPMorganChase | 2027 Data for Good Hackathon - Data & AI Program - Summer Internship | Summer 2027 | 2026-08-03 | gone from feed |
 | Hermeus | Software Engineering Intern (HIL) - Fall 2026 | Fall 2026 | 2026-08-03 | gone from feed |
 | Leidos | Software Developer Intern | Summer 2027 | 2026-08-03 | gone from feed |
@@ -300,7 +301,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,713 of 4,024 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 92% of the full registry) · completed in 385.2s · 105 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,715 of 4,024 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 92% of the full registry) · completed in 361.9s · 90 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
