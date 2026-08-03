@@ -240,8 +240,9 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-20",
-     "count": 1,
+     "count": 2,
      "role_ids": [
+      "greenhouse:chicagotradingcampus:4716932005",
       "greenhouse:ctccampusboard:4708230005"
      ]
     }
@@ -1070,5 +1071,5 @@
    }
   }
  },
- "updated_at": "2026-08-03T18:22:46Z"
+ "updated_at": "2026-08-03T20:16:21Z"
 }

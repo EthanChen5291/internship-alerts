@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-03T18:22:47Z</updated>
+  <updated>2026-08-03T20:16:22Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:chicagotradingcampus:4716932005</id>
+    <title>Chicago Trading Company: Software Engineering Internship - Summer 2027</title>
+    <link href="https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716932005"/>
+    <updated>2026-08-03T20:16:21Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Chicago, Illinois, United States · Python, Java, C++</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:microchiphr:/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Firmware-Development-_R3372-26</id>
     <title>Microchip Technology: Intern-Engineering (Firmware Development)</title>
@@ -64,14 +72,6 @@
     <summary>Summer 2027 · Data &amp; ML/AI · Chicago, IL, United States · Python, SQL, LLMs, AWS, Databricks · H-1B track record: ~4.7k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:jpmc.fa.oraclecloud.com:210775223</id>
-    <title>JPMorganChase: 2027 Data for Good Hackathon - Data &amp; AI Program - Summer Internship</title>
-    <link href="https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210775223"/>
-    <updated>2026-08-03T06:26:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Chicago, IL, United States · Python, SQL, LLMs, AWS, Databricks · H-1B track record: ~4.7k approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353</id>
     <title>Copart: Software Engineering Intern</title>
     <link href="https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353"/>
@@ -102,6 +102,14 @@
     <updated>2026-08-01T15:01:54Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Berkeley, California, United States · Python, Rust, SQL, PyTorch, Pandas</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:intel:/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989</id>
+    <title>Intel: AI Software Engineer Graduate Intern</title>
+    <link href="https://intel.wd1.myworkdayjobs.com/external/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989"/>
+    <updated>2026-07-31T17:53:42Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Virtual US · Python, C++, PyTorch, TensorFlow · H-1B track record: ~4.8k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:melius:b61f063a-4f94-4e50-a4ef-05aaab552280</id>
@@ -798,13 +806,5 @@
     <updated>2026-07-02T18:48:20Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Data &amp; ML/AI · US, CA, Santa Clara · Python, PyTorch · H-1B track record: ~1.5k approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:imc:4823924101</id>
-    <title>IMC Trading: Software Engineer Intern - Summer 2027</title>
-    <link href="https://job-boards.eu.greenhouse.io/imc/jobs/4823924101"/>
-    <updated>2026-07-01T20:55:33Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Chicago, United States · Java, C++ · H-1B track record: ~13 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
