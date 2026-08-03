@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-08-02T02:30:18Z",
-  "last_digest_roles": 2,
-  "last_digest_sent": 186,
+  "last_digest_at": "2026-08-03T02:41:17Z",
+  "last_digest_roles": 17,
+  "last_digest_sent": 195,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -62,10 +62,27 @@
     "ashby:heliux:ff2b6f4b-00d0-4afe-b4f5-2dbf443409ef",
     "ashby:melius:6a944911-dbbf-44c7-ba52-7866f7b433cf",
     "greenhouse:hyannisportresearch:7822989003",
-    "greenhouse:postman:7823417003"
+    "greenhouse:postman:7823417003",
+    "greenhouse:oldmissioncapital:7796180003",
+    "ashby:quadrillion-labs:a4acc44c-31ce-41a0-ab44-2500487b4d05",
+    "greenhouse:astranis:4699071006",
+    "greenhouse:appian:8041237",
+    "greenhouse:tenstorrentuniversity:5186916007",
+    "workable:pony-dot-ai:4C1F53EF5D",
+    "workable:pony-dot-ai:BA5FFDBC71",
+    "workday:moog:/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1",
+    "ashby:veeda-labs:58cc42fb-1d6f-4e5f-860d-3b97bdccc6f4",
+    "smartrecruiters:HireVue:744000138728139",
+    "greenhouse:virtu:8624410002",
+    "greenhouse:axontalentcommunity:7800617003",
+    "greenhouse:axontalentcommunity:7800628003",
+    "smartrecruiters:WesternDigital:744000138727213",
+    "greenhouse:ctccampusboard:4708230005",
+    "lever:acds:01fdf41b-a835-4e00-8d01-0275677a8f08",
+    "greenhouse:voloridgeinvestmentmanagement:4224862009"
   ],
   "last_digest_failed": 0,
   "retry_emails": [],
-  "subscribers_total": 186,
+  "subscribers_total": 195,
   "send_cursor": 0
 }
