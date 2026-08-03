@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03T13:31:01Z",
+ "generated_at": "2026-08-03T16:08:36Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -296,20 +296,6 @@
    "status": "open",
    "url": "https://jobs.ashbyhq.com/quadrillion-labs/a4acc44c-31ce-41a0-ab44-2500487b4d05",
    "note": ""
-  },
-  {
-   "company": "Leidos",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-29",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-29",
-   "days_until": -5,
-   "status": "open",
-   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311",
-   "note": "fall opening, clearance common"
   },
   {
    "company": "Heliux",
@@ -2382,6 +2368,20 @@
    "status": "dropped",
    "url": "",
    "note": ""
+  },
+  {
+   "company": "Leidos",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-29",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-29",
+   "days_until": -5,
+   "status": "dropped",
+   "url": "",
+   "note": "fall opening, clearance common"
   }
  ],
  "count": 170

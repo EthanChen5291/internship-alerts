@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-03T13:31:01Z</updated>
+  <updated>2026-08-03T16:08:36Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000141302469</id>
+    <title>Bosch: AI and SW Development Engineering Intern</title>
+    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000141302469"/>
+    <updated>2026-08-03T16:08:36Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Plymouth, MI, United States · Python, C++, Computer Vision, Git · H-1B track record: ~188 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:microchiphr:/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Software-Development-_R3371-26</id>
+    <title>Microchip Technology: Intern-Engineering (Software Development)</title>
+    <link href="https://microchiphr.wd5.myworkdayjobs.com/external/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Software-Development-_R3371-26"/>
+    <updated>2026-08-03T16:08:36Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · TX - Houston - Compaq Center Dr · Python, Java, C++, C#, JavaScript · H-1B track record: ~143 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:yotta:09821a51-fbe6-42a7-a566-0d2b5d40fae3</id>
     <title>Yotta Labs: Research Engineer Intern - AI Systems</title>
@@ -70,14 +86,6 @@
     <updated>2026-08-01T15:01:54Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Berkeley, California, United States · Python, Rust, SQL, PyTorch, Pandas</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:psecu:/job/Harrisburg-PA/Data-Analyst-Intern_JR100964</id>
-    <title>PSECU: Data Analyst Intern</title>
-    <link href="https://psecu.wd12.myworkdayjobs.com/PSECU/job/Harrisburg-PA/Data-Analyst-Intern_JR100964"/>
-    <updated>2026-07-31T17:53:42Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Harrisburg, PA · Python, SQL, Tableau</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:melius:b61f063a-4f94-4e50-a4ef-05aaab552280</id>
@@ -246,14 +254,6 @@
     <updated>2026-07-29T14:07:26Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Sunnyvale, CA, United States · $34–$68/hr · Python, PyTorch, Azure, Linux · H-1B track record: ~188 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311</id>
-    <title>Leidos: Software Developer Intern 🇺🇸</title>
-    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311"/>
-    <updated>2026-07-29T14:07:26Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Annapolis Junction, MD · Python, Java, C++, JavaScript, Git · sponsorship: citizens-only · H-1B track record: ~79 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:rendezvousrobotics:4328555009</id>
@@ -757,7 +757,7 @@
     <link href="https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083"/>
     <updated>2026-07-13T18:00:59Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Austin, TX, United States; Chicago, Illinois, United States; New York, NY, United States; Singapore · Python, C++ · H-1B track record: ~29 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Software · Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore · Python, C++ · H-1B track record: ~29 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:junior:23ee686b-d305-4ac9-860d-16c99ddb4891</id>
