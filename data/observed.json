@@ -450,6 +450,20 @@
     }
    }
   },
+  "jpmorganchase": {
+   "name": "JPMorganChase",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-03",
+     "role_ids": [
+      "oracle:jpmc.fa.oraclecloud.com:210773759",
+      "oracle:jpmc.fa.oraclecloud.com:210773869",
+      "oracle:jpmc.fa.oraclecloud.com:210775223"
+     ],
+     "count": 3
+    }
+   }
+  },
   "junior": {
    "name": "Junior",
    "cycles": {
@@ -1044,5 +1058,5 @@
    }
   }
  },
- "updated_at": "2026-08-03T02:40:12Z"
+ "updated_at": "2026-08-03T06:26:44Z"
 }
