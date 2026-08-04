@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-08-03T02:41:17Z",
-  "last_digest_roles": 17,
-  "last_digest_sent": 195,
+  "last_digest_at": "2026-08-04T03:54:48Z",
+  "last_digest_roles": 13,
+  "last_digest_sent": 210,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -79,10 +79,23 @@
     "smartrecruiters:WesternDigital:744000138727213",
     "greenhouse:ctccampusboard:4708230005",
     "lever:acds:01fdf41b-a835-4e00-8d01-0275677a8f08",
-    "greenhouse:voloridgeinvestmentmanagement:4224862009"
+    "greenhouse:voloridgeinvestmentmanagement:4224862009",
+    "workday:cnoinc:/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389",
+    "workday:cnoinc:/job/Carmel-IN/Cyber-Security-IT-Intern---REMOTE_JR170419",
+    "workday:idexx:/job/Westbrook-ME/Security-Operations--Cybersecurity--internship_J-053268",
+    "greenhouse:chicagotradingcampus:4716932005",
+    "workday:microchiphr:/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Firmware-Development-_R3372-26",
+    "workday:ntst:/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667",
+    "smartrecruiters:BoschGroup:744000141302469",
+    "workday:microchiphr:/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Software-Development-_R3371-26",
+    "ashby:yotta:09821a51-fbe6-42a7-a566-0d2b5d40fae3",
+    "oracle:jpmc.fa.oraclecloud.com:210773759",
+    "oracle:jpmc.fa.oraclecloud.com:210773869",
+    "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353",
+    "workday:intel:/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989"
   ],
   "last_digest_failed": 0,
   "retry_emails": [],
-  "subscribers_total": 195,
+  "subscribers_total": 210,
   "send_cursor": 0
 }
