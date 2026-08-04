@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-04T20:15:48Z",
+ "generated_at": "2026-08-04T21:54:14Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
  "count": 121,
@@ -682,33 +682,6 @@
    ],
    "source": "smartrecruiters",
    "h1b_approvals": 188,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:brunswick:/job/Champaign-IL/Software-Engineer-Intern_JR-050991",
-   "company": "Brunswick",
-   "title": "Software Engineer Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Champaign, IL",
-   "url": "https://brunswick.wd1.myworkdayjobs.com/search/job/Champaign-IL/Software-Engineer-Intern_JR-050991",
-   "posted_at": "2026-07-28T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-07-29T02:16:06Z",
-   "sponsorship": "no-sponsorship",
-   "salary": "$26/hr",
-   "skills": [
-    "Python",
-    "Rust",
-    "TypeScript",
-    "Azure",
-    "Git"
-   ],
-   "source": "workday",
-   "h1b_approvals": 54,
    "program": "Internship",
    "remote": false
   },
@@ -2687,6 +2660,34 @@
     "PostgreSQL"
    ],
    "source": "ashby",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "greenhouse:walleyecapital-external-students:4679168006",
+   "company": "Walleye Capital",
+   "title": "Quantic – Quantitative Developer Intern (Summer 2027)",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "Boston, MA",
+   "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006",
+   "posted_at": "2026-06-01T07:17:40-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-06-30T12:14:22Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "scikit-learn",
+    "LLMs",
+    "Linux"
+   ],
+   "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
    "remote": false
