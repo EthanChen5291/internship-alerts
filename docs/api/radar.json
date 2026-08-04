@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-04T06:32:21Z",
+ "generated_at": "2026-08-04T09:25:52Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -351,20 +351,6 @@
    "days_until": -1,
    "status": "open",
    "url": "https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389",
-   "note": ""
-  },
-  {
-   "company": "JPMorganChase",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-03",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-03",
-   "days_until": -1,
-   "status": "open",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773869",
    "note": ""
   },
   {
@@ -2410,6 +2396,20 @@
    "status": "dropped",
    "url": "",
    "note": "fall opening, clearance common"
+  },
+  {
+   "company": "JPMorganChase",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-03",
+   "days_until": -1,
+   "status": "dropped",
+   "url": "",
+   "note": ""
   }
  ],
  "count": 172

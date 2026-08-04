@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-04T06:32:21Z</updated>
+  <updated>2026-08-04T09:25:52Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
     <id>urn:intern-engine:workday:cnoinc:/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389</id>
@@ -78,14 +78,6 @@
     <updated>2026-08-03T13:31:00Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · United States · Python, C++, PyTorch, LLMs, CUDA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:jpmc.fa.oraclecloud.com:210773869</id>
-    <title>JPMorganChase: 2027 Data &amp; AI Program - Summer Internship - Analyst - United States</title>
-    <link href="https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773869"/>
-    <updated>2026-08-03T06:26:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Chicago, IL, United States · Python, SQL, LLMs, AWS, Databricks · H-1B track record: ~4.7k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353</id>
@@ -310,14 +302,6 @@
     <updated>2026-07-28T23:15:17Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · New York · $15K per month · Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:assurant:/job/Atlanta-GA/Digital---AI-Transformation-Intern_R-114103-3</id>
-    <title>Assurant: Digital &amp; AI Transformation Intern</title>
-    <link href="https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/Atlanta-GA/Digital---AI-Transformation-Intern_R-114103-3"/>
-    <updated>2026-07-28T20:19:57Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Atlanta, GA · Python, SQL, LLMs, AWS, Azure</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:BoschGroup:744000140317669</id>
@@ -806,5 +790,21 @@
     <updated>2026-07-02T23:15:03Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Data &amp; ML/AI · Austin, TX · LLMs · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:nvidia:/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488</id>
+    <title>NVIDIA: Applied Research Intern, NLP - Fall 2026</title>
+    <link href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488"/>
+    <updated>2026-07-02T18:48:20Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · US, CA, Santa Clara · Python, PyTorch · H-1B track record: ~1.5k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:imc:4823924101</id>
+    <title>IMC Trading: Software Engineer Intern - Summer 2027</title>
+    <link href="https://job-boards.eu.greenhouse.io/imc/jobs/4823924101"/>
+    <updated>2026-07-01T20:55:33Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Chicago, United States · Java, C++ · H-1B track record: ~13 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
