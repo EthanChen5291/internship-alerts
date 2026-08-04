@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-04T14:10:37Z</updated>
+  <updated>2026-08-04T16:34:39Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:lever:diversified-automation:827a092d-b8a3-4ca9-a84a-e8c236d1aabc</id>
+    <title>Diversified Automation: Software Engineering Co-op</title>
+    <link href="https://jobs.lever.co/diversified-automation/827a092d-b8a3-4ca9-a84a-e8c236d1aabc"/>
+    <updated>2026-08-04T16:34:38Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Louisville, KY</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:pentair:/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700</id>
     <title>Pentair: IT &amp; Cybersecurity Leadership Development Internship Program -  Summer 2027 🛂</title>
@@ -798,13 +806,5 @@
     <updated>2026-07-02T23:15:03Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Data &amp; ML/AI · Austin, TX · LLMs · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:nvidia:/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488</id>
-    <title>NVIDIA: Applied Research Intern, NLP - Fall 2026</title>
-    <link href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488"/>
-    <updated>2026-07-02T18:48:20Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · US, CA, Santa Clara · Python, PyTorch · H-1B track record: ~1.5k approvals (FY2022–2023)</summary>
   </entry>
 </feed>
