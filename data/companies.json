@@ -567,6 +567,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "Agate Software",
+    "slug": "agatesoftware",
+    "ats": "lever"
+  },
+  {
     "name": "Age of Learning",
     "slug": "aofl",
     "ats": "lever"
@@ -1070,6 +1075,13 @@
     "name": "Altos Labs",
     "slug": "altoslabs",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Always Compassionate Home Care",
+    "slug": "alwayscompassionate",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "achomecare"
   },
   {
     "name": "Amae Health",
@@ -2444,6 +2456,13 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "axalta"
+  },
+  {
+    "name": "Axcelis Technologies, Inc.",
+    "slug": "axcelis",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "axcelis"
   },
   {
     "name": "Axiom Space",
@@ -3991,6 +4010,13 @@
     "name": "Canvas Worldwide",
     "slug": "canvasww",
     "ats": "lever"
+  },
+  {
+    "name": "Canvas, Inc.",
+    "slug": "canvasinc",
+    "ats": "workday",
+    "wd": "wd108",
+    "site": "Canvas"
   },
   {
     "name": "Capco",
@@ -6082,6 +6108,13 @@
     "site": "DPCcareers"
   },
   {
+    "name": "Dalcour Maclaren",
+    "slug": "dalcourmaclaren",
+    "ats": "workday",
+    "wd": "wd3",
+    "site": "Dalcour-Maclaren-Careers"
+  },
+  {
     "name": "Dallas College",
     "slug": "dallascollege",
     "ats": "workday",
@@ -6860,6 +6893,11 @@
     "name": "E Source Companies",
     "slug": "e-source",
     "ats": "ashby"
+  },
+  {
+    "name": "e-Careers",
+    "slug": "ecareers",
+    "ats": "workable"
   },
   {
     "name": "E.ON Next",
@@ -8327,6 +8365,13 @@
     "site": "applied"
   },
   {
+    "name": "FLSmidth",
+    "slug": "flsmidth",
+    "ats": "workday",
+    "wd": "wd3",
+    "site": "FLS_Global"
+  },
+  {
     "name": "Fluency",
     "slug": "fluency",
     "ats": "ashby"
@@ -8415,6 +8460,13 @@
     "name": "Forerunner",
     "slug": "forerunner",
     "ats": "greenhouse"
+  },
+  {
+    "name": "FormFactor",
+    "slug": "formfactor",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "FFI-Careers"
   },
   {
     "name": "Formic",
@@ -8957,6 +9009,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "Genesys"
+  },
+  {
+    "name": "Genetec",
+    "slug": "genetec-inc",
+    "ats": "workable"
   },
   {
     "name": "Geneva Trading",
@@ -10731,6 +10788,11 @@
     "name": "Imprint",
     "slug": "imprint",
     "ats": "ashby"
+  },
+  {
+    "name": "Incident IQ",
+    "slug": "incidentiq",
+    "ats": "greenhouse"
   },
   {
     "name": "Inclined Technologies",
@@ -14876,6 +14938,13 @@
     "ats": "rippling"
   },
   {
+    "name": "Novogradac",
+    "slug": "novoco",
+    "ats": "workday",
+    "wd": "wd108",
+    "site": "Novogradac"
+  },
+  {
     "name": "NOX METALS",
     "slug": "nox-metals",
     "ats": "ashby"
@@ -14901,6 +14970,11 @@
     "name": "NT Concepts",
     "slug": "ntconcepts",
     "ats": "greenhouse"
+  },
+  {
+    "name": "NTT DATA AIVista",
+    "slug": "ntt-data-aivista",
+    "ats": "ashby"
   },
   {
     "name": "Nubank",
@@ -15942,6 +16016,13 @@
     "site": "PSU_Staff"
   },
   {
+    "name": "Pentair",
+    "slug": "pentair",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "pentair_careers"
+  },
+  {
     "name": "Penumbra Inc",
     "slug": "penumbrainc",
     "ats": "lever"
@@ -16014,6 +16095,11 @@
     "name": "Perry Ellis International",
     "slug": "perryellisinternational",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Perry Homes",
+    "slug": "perryhomes",
+    "ats": "workable"
   },
   {
     "name": "Persona",
@@ -16664,6 +16750,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "ppgcareers"
+  },
+  {
+    "name": "Prophet",
+    "slug": "prophet",
+    "ats": "greenhouse"
   },
   {
     "name": "PROS Holdings, Inc.",
@@ -19308,6 +19399,13 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Spin Master Corp.",
+    "slug": "spinmaster",
+    "ats": "workday",
+    "wd": "wd3",
+    "site": "SpinMaster_Careers"
+  },
+  {
     "name": "Sportradar",
     "slug": "Sportradar",
     "ats": "smartrecruiters"
@@ -19414,6 +19512,13 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "careersalsacstjude"
+  },
+  {
+    "name": "St. Jude Children's Research Hospital",
+    "slug": "stjude",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "stjude"
   },
   {
     "name": "St. Louis University",
@@ -19732,6 +19837,11 @@
   {
     "name": "Studycast",
     "slug": "core-sound-imaging",
+    "ats": "rippling"
+  },
+  {
+    "name": "StudyFetch",
+    "slug": "studyfetch",
     "ats": "rippling"
   },
   {
@@ -21278,6 +21388,13 @@
     "site": "CX_1"
   },
   {
+    "name": "Tulsa County",
+    "slug": "tulsacounty",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "tc"
+  },
+  {
     "name": "Turion Space",
     "slug": "turion-space",
     "ats": "ashby"
@@ -22260,6 +22377,13 @@
     "name": "Vital Lyfe",
     "slug": "vital-lyfe",
     "ats": "ashby"
+  },
+  {
+    "name": "Vitalant",
+    "slug": "vitalant",
+    "ats": "workday",
+    "wd": "wd12",
+    "site": "Careers"
   },
   {
     "name": "VITAS Healthcare",
