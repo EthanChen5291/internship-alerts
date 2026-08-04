@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-04T03:53:46Z",
+ "generated_at": "2026-08-04T06:32:21Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 123,
+ "count": 122,
  "jobs": [
   {
    "id": "workday:cnoinc:/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389",
@@ -198,27 +198,6 @@
    ],
    "source": "workday",
    "h1b_approvals": 143,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "oracle:jpmc.fa.oraclecloud.com:210773759",
-   "company": "JPMorganChase",
-   "title": "2027 Code for Good Hackathon - Software Engineer Program - Summer Internship – United States",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Chicago, IL, United States",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773759",
-   "posted_at": "2026-08-03",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-08-03T06:26:44Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [],
-   "source": "oracle",
-   "h1b_approvals": 4656,
    "program": "Internship",
    "remote": false
   },
