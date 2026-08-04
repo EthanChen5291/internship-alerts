@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-04T00:18:37Z",
+ "generated_at": "2026-08-04T03:53:46Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 124,
+ "count": 123,
  "jobs": [
   {
    "id": "workday:cnoinc:/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389",
@@ -2784,31 +2784,6 @@
    ],
    "source": "greenhouse",
    "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "greenhouse:samsungresearchamericainternship:8541339002",
-   "company": "Samsung Research America",
-   "title": "2026 Fall Intern, ML/NLP Research",
-   "season": "Fall 2026",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "665 Clyde Avenue, Mountain View,  CA, USA",
-   "url": "https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8541339002",
-   "posted_at": "2026-05-08T14:34:40-04:00",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-06-30T12:14:22Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "PyTorch",
-    "TensorFlow",
-    "LLMs"
-   ],
-   "source": "greenhouse",
-   "h1b_approvals": 98,
    "program": "Internship",
    "remote": false
   },
