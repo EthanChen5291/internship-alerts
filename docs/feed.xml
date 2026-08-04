@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-04T09:25:52Z</updated>
+  <updated>2026-08-04T11:45:27Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:pentair:/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700</id>
+    <title>Pentair: IT &amp; Cybersecurity Leadership Development Internship Program -  Summer 2027 🛂</title>
+    <link href="https://pentair.wd5.myworkdayjobs.com/pentair_careers/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700"/>
+    <updated>2026-08-04T11:45:26Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Golden Valley, MN · $31/hr · sponsorship: no-sponsorship</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:cnoinc:/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389</id>
     <title>CNO Financial Group: Artificial Intelligence (AI) IT Intern 2027 - REMOTE</title>
@@ -798,13 +806,5 @@
     <updated>2026-07-02T18:48:20Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Data &amp; ML/AI · US, CA, Santa Clara · Python, PyTorch · H-1B track record: ~1.5k approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:imc:4823924101</id>
-    <title>IMC Trading: Software Engineer Intern - Summer 2027</title>
-    <link href="https://job-boards.eu.greenhouse.io/imc/jobs/4823924101"/>
-    <updated>2026-07-01T20:55:33Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Chicago, United States · Java, C++ · H-1B track record: ~13 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

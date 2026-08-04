@@ -686,6 +686,18 @@
     }
    }
   },
+  "pentair": {
+   "name": "Pentair",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-03",
+     "role_ids": [
+      "workday:pentair:/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700"
+     ],
+     "count": 1
+    }
+   }
+  },
   "quadrillion": {
    "name": "Quadrillion",
    "cycles": {
@@ -1084,5 +1096,5 @@
    }
   }
  },
- "updated_at": "2026-08-04T09:25:51Z"
+ "updated_at": "2026-08-04T11:45:26Z"
 }

@@ -1,35 +1,34 @@
 {
- "generated_at": "2026-08-04T09:25:51Z",
- "duration_seconds": 358.5,
- "companies_total": 4024,
+ "generated_at": "2026-08-04T11:45:26Z",
+ "duration_seconds": 412.2,
+ "companies_total": 4044,
  "companies_by_source": {
-  "greenhouse": 1025,
-  "lever": 361,
-  "ashby": 633,
+  "greenhouse": 1027,
+  "lever": 362,
+  "ashby": 634,
   "recruitee": 3,
-  "workday": 1456,
+  "workday": 1468,
   "smartrecruiters": 208,
   "oracle": 142,
-  "rippling": 132,
-  "workable": 50,
+  "rippling": 133,
+  "workable": 53,
   "amazon": 1,
   "breezy": 12,
   "eightfold": 1
  },
- "quarantined": 220,
- "fetched_ok": 3780,
- "fetch_errors": 24,
+ "quarantined": 215,
+ "fetched_ok": 3795,
+ "fetch_errors": 34,
  "errors_by_source": {
-  "workday": 21,
-  "greenhouse": 2,
-  "ashby": 1
+  "workday": 32,
+  "greenhouse": 2
  },
- "fetch_success_rate": 0.994,
- "fetch_success_rate_registry": 0.939,
- "snapshots_complete": 3673,
- "snapshots_partial": 107,
- "roles_matched": 114,
- "dropped_no_year_in_title": 337,
+ "fetch_success_rate": 0.991,
+ "fetch_success_rate_registry": 0.938,
+ "snapshots_complete": 3689,
+ "snapshots_partial": 106,
+ "roles_matched": 115,
+ "dropped_no_year_in_title": 343,
  "dropped_offcycle_by_text": 23,
  "roles_cycle_inferred": 49,
  "roles_by_source": {
@@ -42,8 +41,8 @@
   "workday": 32
  },
  "roles_by_cycle": {
-  "Fall 2026": 36,
-  "Summer 2027": 36,
+  "Fall 2026": 35,
+  "Summer 2027": 37,
   "Not stated": 49
  },
  "roles_by_region": {
@@ -51,15 +50,15 @@
  },
  "sponsorship_counts": {
   "unknown": 96,
-  "citizens-only": 15,
-  "no-sponsorship": 6,
+  "citizens-only": 14,
+  "no-sponsorship": 7,
   "offers": 3
  },
  "posted_date_coverage": 1.0,
- "enriched_this_run": 0,
- "enrichment_detail_fetches": 0,
+ "enriched_this_run": 1,
+ "enrichment_detail_fetches": 1,
  "purged_this_run": 0,
- "new_this_run": 0,
+ "new_this_run": 1,
  "open_total": 120,
  "detection_latency": {
   "median_minutes": 52.2,
@@ -69,7 +68,7 @@
   "basis": "roles published in the window with an exact source timestamp"
  },
  "posting_lifetime": {
-  "median_days": 23.5,
-  "sample_size": 140
+  "median_days": 25,
+  "sample_size": 141
  }
 }

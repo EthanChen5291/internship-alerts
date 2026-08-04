@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-04T09:25:52Z",
+ "generated_at": "2026-08-04T11:45:27Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -365,6 +365,20 @@
    "days_until": -1,
    "status": "open",
    "url": "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667",
+   "note": ""
+  },
+  {
+   "company": "Pentair",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-03",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://pentair.wd5.myworkdayjobs.com/pentair_careers/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700",
    "note": ""
   },
   {
@@ -2412,5 +2426,5 @@
    "note": ""
   }
  ],
- "count": 172
+ "count": 173
 }
