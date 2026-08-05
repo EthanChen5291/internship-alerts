@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-08-04T03:54:48Z",
-  "last_digest_roles": 13,
-  "last_digest_sent": 210,
+  "last_digest_at": "2026-08-05T04:06:36Z",
+  "last_digest_roles": 3,
+  "last_digest_sent": 216,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -92,10 +92,13 @@
     "oracle:jpmc.fa.oraclecloud.com:210773759",
     "oracle:jpmc.fa.oraclecloud.com:210773869",
     "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353",
-    "workday:intel:/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989"
+    "workday:intel:/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989",
+    "workday:thales:/job/Texas/AppSec-Product-Support-Intern_R0328978-1",
+    "lever:diversified-automation:827a092d-b8a3-4ca9-a84a-e8c236d1aabc",
+    "workday:pentair:/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700"
   ],
   "last_digest_failed": 0,
   "retry_emails": [],
-  "subscribers_total": 210,
+  "subscribers_total": 216,
   "send_cursor": 0
 }
