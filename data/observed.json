@@ -723,6 +723,18 @@
     }
    }
   },
+  "regions bank": {
+   "name": "Regions Bank",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-05",
+     "role_ids": [
+      "workday:regions:/job/Mobile-AL---RSA-Tower/XMLNAME-2027-ETP-Intern---Corporate-Banking-Group--Commercial-Credit-Products--Mobile--AL_R104975"
+     ],
+     "count": 1
+    }
+   }
+  },
   "reliable robotics": {
    "name": "Reliable Robotics",
    "cycles": {
@@ -1109,5 +1121,5 @@
    }
   }
  },
- "updated_at": "2026-08-05T20:13:06Z"
+ "updated_at": "2026-08-05T21:52:50Z"
 }

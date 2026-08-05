@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-05T20:13:06Z",
+ "generated_at": "2026-08-05T21:52:51Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -407,6 +407,20 @@
    "days_until": -2,
    "status": "open",
    "url": "https://pentair.wd5.myworkdayjobs.com/pentair_careers/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700",
+   "note": ""
+  },
+  {
+   "company": "Regions Bank",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-05",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-05",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://regions.wd5.myworkdayjobs.com/regions_careers/job/Mobile-AL---RSA-Tower/XMLNAME-2027-ETP-Intern---Corporate-Banking-Group--Commercial-Credit-Products--Mobile--AL_R104975",
    "note": ""
   },
   {
@@ -2426,5 +2440,5 @@
    "note": "fall opening, clearance common"
   }
  ],
- "count": 173
+ "count": 174
 }
