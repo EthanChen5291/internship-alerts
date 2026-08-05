@@ -624,7 +624,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-04-24",
-     "count": 8,
+     "count": 9,
      "role_ids": [
       "workday:nvidia:/job/China-Beijing/Solution-Architecture-Intern--AI-Infra---2026_JR2019909",
       "workday:nvidia:/job/China-Beijing/Solution-Architecture-Intern--AI-in-Industry---2026_JR2014186",
@@ -632,6 +632,7 @@
       "workday:nvidia:/job/US-CA-Remote/Quantum-Error-Correction-Research-Scientist-Intern---Fall-2026_JR2018628",
       "workday:nvidia:/job/US-CA-Remote/Quantum-Research-Scientist-Intern---Fall-2026_JR2018244",
       "workday:nvidia:/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
+      "workday:nvidia:/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
       "workday:nvidia:/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745",
       "workday:nvidia:/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779"
      ]
@@ -1108,5 +1109,5 @@
    }
   }
  },
- "updated_at": "2026-08-05T18:08:38Z"
+ "updated_at": "2026-08-05T20:13:06Z"
 }
