@@ -8,7 +8,7 @@
 
 ### 122 open roles (107 listed below) · 37 new this week
 
-3,948 employers tracked · updated Aug 05, 2026 at 04:05 UTC
+3,948 employers tracked · updated Aug 05, 2026 at 06:40 UTC
 
 _73 have a cycle the employer stated · 49 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -172,7 +172,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Bosch ✓ | AI and SW Development Engineering Intern 🆕 | Data & ML/AI | Plymouth, MI, United States | Python, C++, Computer Vision, Git | Aug 03, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000141302469) |
 | Microchip Technology ✓ | Intern-Engineering (Software Development) 🆕 | Software | TX - Houston - Compaq Center Dr | Python, Java, C++, C# | Aug 03, 2026 | [Apply](https://microchiphr.wd5.myworkdayjobs.com/external/job/TX---Houston---Compaq-Center-Dr/Intern-Engineering--Software-Development-_R3371-26) |
 | Yotta Labs | Research Engineer Intern - AI Systems 🆕 | Data & ML/AI | United States | Python, C++, PyTorch, LLMs | Aug 02, 2026 | [Apply](https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3) |
-| Copart ✓ | Software Engineering Intern 🆕 | Software | Dallas, TX - Headquarters | Python, Java, TypeScript, JavaScript | Aug 02, 2026 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353) |
+| Copart ✓ | Software Engineering Intern | Software | Dallas, TX - Headquarters | Python, Java, TypeScript, JavaScript | Aug 02, 2026 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353) |
 | Postman | AI Engineer, Intern | Data & ML/AI | Berkeley, California, United States | Python, Rust, SQL, PyTorch | Aug 01, 2026 | [Apply](https://job-boards.greenhouse.io/postman/jobs/7823417003) |
 | Intel ✓ | AI Software Engineer Graduate Intern | Data & ML/AI | Virtual US | Python, C++, PyTorch, TensorFlow | Jul 31, 2026 | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989) |
 | Copart ✓ | Software Engineering Intern | Software | Dallas, TX - Headquarters | Python, Java, TypeScript, JavaScript | Jul 30, 2026 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109964) |
@@ -301,7 +301,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,804 of 4,044 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 94% of the full registry) · completed in 400.0s · 95 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,794 of 4,044 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 372.8s · 97 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
