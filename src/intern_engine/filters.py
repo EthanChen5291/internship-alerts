@@ -72,11 +72,15 @@ _TITLE_GRAD_RE = re.compile(
 
 
 def is_internship(title: str) -> bool:
+    if not title:
+        return False
     return bool(_INTERN_RE.search(title)) and not _SENIOR_RE.search(title)
 
 
 def is_tech(title: str) -> bool:
     """Keep software/data/ML/security roles; reject hardware/mech/non-tech."""
+    if not title:
+        return False
     if _EXCLUDE_RE.search(title):
         return False
     return bool(_INCLUDE_RE.search(title))
@@ -145,6 +149,8 @@ def detect_seasons(title: str, cycles=("Summer 2027", "Fall 2026")) -> list[str]
     "Summer 2027 / Fall Intern 2026" lost its Fall half. Still evidence-only:
     a year must be present, and nothing is inferred from a posting date.
     """
+    if not title:
+        return []
     scannable = _TITLE_GRAD_RE.sub(" ", title)  # graduation years name the student
     terms = [(m.start(), m.end(),
               "Fall" if m.group(1).lower() == "autumn" else m.group(1).capitalize())
@@ -180,6 +186,8 @@ def states_explicit_year(title: str) -> bool:
     year is off-cycle — the role must not be rescued by a sticky stored season
     or a posting-date inference ("Summer 2026 Intern" stays out, period).
     """
+    if not title:
+        return False
     scannable = _TITLE_GRAD_RE.sub(" ", title)
     return bool(_YEAR_RE.search(scannable) or _SHORT_YEAR_RE.search(scannable))
 
@@ -209,6 +217,8 @@ def detect_season(title: str, cycles=("Summer 2027", "Fall 2026"), *_ignored) ->
     if stated:
         return stated[0]
 
+    if not title:
+        return None
     parsed = []  # (term, year, label)
     for label in cycles:
         m = _CYCLE_RE.match(label.strip())
@@ -591,6 +601,8 @@ _CATEGORY_PATTERNS = [
 
 
 def categorize(title: str) -> str:
+    if not title:
+        return "Other"
     for name, pattern in _CATEGORY_PATTERNS:
         if pattern.search(title):
             return name

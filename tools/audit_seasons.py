@@ -31,7 +31,7 @@ import httpx
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "src"))
 
-from intern_engine import config, enrich, filters, paths, sponsorship, store  # noqa: E402
+from intern_engine import config, enrich, filters, models, paths, sponsorship, store  # noqa: E402
 from intern_engine.models import Job  # noqa: E402
 from intern_engine.net import HostLimiter, Net  # noqa: E402
 from intern_engine.pipeline import CONNECTORS, USER_AGENT  # noqa: E402
@@ -72,11 +72,14 @@ async def _texts_for(jobs: list[Job], companies: list[dict]) -> dict[str, str]:
             if company is None:
                 continue
             try:
-                fetched = await CONNECTORS[key[0]](company, net)
+                # Connectors return a Fetch (jobs + whether the snapshot was
+                # complete); Fetch.of also accepts the bare list older ones
+                # returned, so this reads either shape.
+                fetched = models.Fetch.of(await CONNECTORS[key[0]](company, net))
             except Exception as exc:  # noqa: BLE001
                 print(f"  (list fetch failed: {key[1]} — {type(exc).__name__})")
                 continue
-            descriptions = {j.id: j.description or "" for j in fetched}
+            descriptions = {j.id: j.description or "" for j in fetched.jobs}
             for job in wanted:
                 texts[job.id] = descriptions.get(job.id, "")
     return texts
