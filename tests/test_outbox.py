@@ -75,4 +75,46 @@ def test_corrupt_queue_reads_as_empty_rather_than_crashing():
 def test_writes_are_atomic():
     outbox.queue(["a"])
     with open(paths.OUTBOX_PATH, encoding="utf-8") as f:
-        assert json.load(f) == {"pending": ["a"]}
+        # Per-channel shape: each channel owns its own pending list.
+        assert json.load(f) == {"pending": {"discord": ["a"], "telegram": ["a"]}}
+
+
+class TestPerChannelQueues:
+    """One channel failing must not drop or duplicate another channel's alert."""
+
+    def test_queue_fans_out_to_every_channel(self):
+        outbox.queue(["a", "b"])
+        for channel in outbox.CHANNELS:
+            assert outbox.load(channel) == ["a", "b"], channel
+
+    def test_draining_one_channel_leaves_the_others(self):
+        # The exact failure adding Telegram introduced: Discord delivers, the
+        # Telegram push times out. Draining a shared list would have lost the
+        # Telegram alert; not draining would have re-sent the Discord one.
+        outbox.queue(["a", "b"])
+        outbox.drain(["a", "b"], "discord")
+        assert outbox.load("discord") == []
+        assert outbox.load("telegram") == ["a", "b"]
+
+    def test_union_load_reports_anything_still_owed(self):
+        # The union is a set of "still owed somewhere" — channel order, not
+        # queue order, decides how it lists.
+        outbox.queue(["a", "b"])
+        outbox.drain(["a"], "discord")
+        assert set(outbox.load()) == {"a", "b"}   # 'a' still owed to telegram
+        outbox.drain(["a"], "telegram")
+        assert outbox.load() == ["b"]
+
+    def test_legacy_single_list_migrates_to_every_channel(self):
+        # Files written before channels existed hold {"pending": [...]}. Those
+        # ids were never delivered anywhere but Discord, so every channel must
+        # inherit them rather than the upgrade silently swallowing them.
+        with open(paths.OUTBOX_PATH, "w", encoding="utf-8") as f:
+            json.dump({"pending": ["old1", "old2"]}, f)
+        for channel in outbox.CHANNELS:
+            assert outbox.load(channel) == ["old1", "old2"], channel
+
+    def test_drain_without_a_channel_clears_all(self):
+        outbox.queue(["a"])
+        outbox.drain()
+        assert outbox.load() == []

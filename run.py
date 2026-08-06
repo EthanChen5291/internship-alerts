@@ -32,6 +32,7 @@ from intern_engine import (  # noqa: E402
     publish,
     readme,
     store,
+    telegram,
     trends,
 )
 
@@ -125,16 +126,22 @@ def cmd_notify() -> None:
     run", not "no digest is due".
     """
     store_data = store.load(paths.JOBS_PATH)
-    pending = outbox.load()
 
-    if pending:
-        done = notify.send_new_roles(store_data, pending)
+    # Each channel drains its OWN queue: a Telegram timeout must not strand a
+    # role Discord already announced, and vice versa.
+    for channel, send, label in (
+        ("discord", notify.send_new_roles, "Discord alert"),
+        ("telegram", telegram.send_new_roles, "Telegram push"),
+    ):
+        pending = outbox.load(channel)
+        if not pending:
+            print(f"  {label:20} nothing queued")
+            continue
         # Only what actually went out (or can never go out) leaves the queue;
         # anything held back is announced on the next run instead of lost.
-        still = outbox.drain(done)
-        print(f"  Discord alert        {len(done)} handled, {len(still)} still queued")
-    else:
-        print("  Discord alert        nothing queued")
+        done = send(store_data, pending)
+        still = outbox.drain(done, channel)
+        print(f"  {label:20} {len(done)} handled, {len(still)} still queued")
 
     sent = mailer.send_digest(store_data)
     print(f"  email digest         {f'sent to {sent} subscribers' if sent else 'not due'}")

@@ -14,7 +14,14 @@ concurrency:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    # ubuntu-24.04 rather than ubuntu-latest: on 2026-08-06 three runs in a
+    # row (including a manual dispatch) were cancelled after exactly 15 minutes
+    # with zero steps and an empty runner_name, annotated "The job was not
+    # acquired by a Runner of type hosted even after multiple attempts" —
+    # GitHub's hosted pool failing to allocate. Pinning to a concrete image
+    # draws from a different pool than the rotating `latest` alias. If the
+    # allocation failures return, this line is the first thing to revisit.
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     steps:
       - name: Checkout
@@ -84,6 +91,10 @@ jobs:
         env:
           # Optional: Discord channel webhook — posts each run's new roles.
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          # Optional: Telegram bot push — instant phone notification per drop.
+          # Make a bot with @BotFather, then set both secrets (see telegram.py).
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           # Optional: Brevo transactional key + verified sender — arms the
           # daily email digest to the subscriber list (see mailer.py).
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}

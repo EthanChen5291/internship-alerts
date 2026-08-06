@@ -1,4 +1,4 @@
-"""Roles that have been found but not yet announced.
+"""Roles that have been found but not yet announced, tracked per channel.
 
 The ordering bug this exists to fix: `run.py update` used to fetch, write every
 artifact, and fire the Discord/email alerts — and only THEN did the workflow
@@ -14,7 +14,12 @@ Splitting it in two fixes both halves at once:
 
 Because the queue is a committed file, a failed push leaves it un-drained: the
 roles stay pending and go out with the next successful publish, exactly once.
-The queue is what makes the alert idempotent, so `notify` can be re-run safely.
+
+The queue is keyed BY CHANNEL. With one shared list, a run where Discord
+delivered but Telegram timed out had no good move: draining lost the Telegram
+alert, and not draining re-sent the Discord one. Each channel now owns its own
+pending list and drains only what it actually delivered, so a failure in one
+never duplicates or drops the other.
 """
 
 from __future__ import annotations
@@ -26,55 +31,92 @@ from . import paths
 
 _MAX_PENDING = 200  # a backlog past this is a bug, not an announcement
 
+# Every channel that announces individual roles. The email digest is NOT here:
+# it is driven by the store's own news window and its own per-role sent list,
+# not by this queue.
+CHANNELS = ("discord", "telegram")
 
-def load() -> list[str]:
-    """The role ids waiting to be announced."""
+
+def _read() -> dict[str, list[str]]:
+    """The raw per-channel queues, migrating the old single-list format.
+
+    Older files held {"pending": ["id", ...]} from when Discord was the only
+    channel. Those ids were queued but never delivered anywhere else, so every
+    channel inherits them — dropping them would silently lose announcements
+    across the upgrade.
+    """
     try:
         with open(paths.OUTBOX_PATH, encoding="utf-8") as f:
             data = json.load(f)
     except (OSError, ValueError):
-        return []
+        return {c: [] for c in CHANNELS}
     pending = data.get("pending") if isinstance(data, dict) else None
-    return [str(x) for x in pending] if isinstance(pending, list) else []
+    if isinstance(pending, list):  # legacy shape
+        shared = [str(x) for x in pending]
+        return {c: list(shared) for c in CHANNELS}
+    if isinstance(pending, dict):
+        return {c: [str(x) for x in (pending.get(c) or [])] for c in CHANNELS}
+    return {c: [] for c in CHANNELS}
 
 
-def save(pending: list[str]) -> None:
+def _write(queues: dict[str, list[str]]) -> None:
     os.makedirs(os.path.dirname(paths.OUTBOX_PATH), exist_ok=True)
     tmp = f"{paths.OUTBOX_PATH}.tmp"
     with open(tmp, "w", encoding="utf-8") as f:
-        json.dump({"pending": pending}, f, indent=2, ensure_ascii=False)
+        json.dump({"pending": {c: queues.get(c, []) for c in CHANNELS}},
+                  f, indent=2, ensure_ascii=False)
     os.replace(tmp, paths.OUTBOX_PATH)
 
 
+def load(channel: str | None = None) -> list[str]:
+    """Ids waiting for `channel`, or the union across channels when omitted."""
+    queues = _read()
+    if channel is not None:
+        return queues.get(channel, [])
+    seen: list[str] = []
+    known: set[str] = set()
+    for c in CHANNELS:
+        for jid in queues[c]:
+            if jid not in known:
+                known.add(jid)
+                seen.append(jid)
+    return seen
+
+
 def queue(new_ids: list[str]) -> list[str]:
-    """Add this run's new roles to the queue; returns everything pending.
+    """Add this run's new roles to every channel; returns the pending union.
 
     Duplicate-safe: a role already waiting is not queued twice, so re-running
     `update` before a successful publish doesn't multiply the announcement.
     """
-    pending = load()
-    known = set(pending)
-    for jid in new_ids:
-        if jid not in known:
-            known.add(jid)
-            pending.append(jid)
-    pending = pending[-_MAX_PENDING:]
-    save(pending)
-    return pending
+    queues = _read()
+    for channel in CHANNELS:
+        known = set(queues[channel])
+        for jid in new_ids:
+            if jid not in known:
+                known.add(jid)
+                queues[channel].append(jid)
+        queues[channel] = queues[channel][-_MAX_PENDING:]
+    _write(queues)
+    return load()
 
 
-def drain(done: list[str] | None = None) -> list[str]:
-    """Remove `done` from the queue; returns what's still pending.
+def drain(done: list[str] | None = None, channel: str | None = None) -> list[str]:
+    """Remove `done` from `channel`'s queue; returns what's still pending there.
 
     Partial on purpose. A run that announced 50 of 60 roles, or whose second
     Discord chunk failed, must keep the rest queued — clearing the whole queue
     on any success is how the unannounced ones would vanish for good. Passing
-    nothing clears everything (used only when there is nothing left to deliver).
+    no `done` clears that channel entirely; passing no `channel` applies to
+    every channel (used only when there is nothing left to deliver anywhere).
     """
-    if done is None:
-        save([])
-        return []
-    finished = set(done)
-    remaining = [jid for jid in load() if jid not in finished]
-    save(remaining)
-    return remaining
+    queues = _read()
+    targets = [channel] if channel is not None else list(CHANNELS)
+    for c in targets:
+        if done is None:
+            queues[c] = []
+        else:
+            finished = set(done)
+            queues[c] = [jid for jid in queues[c] if jid not in finished]
+    _write(queues)
+    return queues[channel] if channel is not None else load()

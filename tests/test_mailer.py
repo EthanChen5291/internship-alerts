@@ -78,7 +78,7 @@ def test_new_roles_newest_first_and_uncapped():
 def test_digest_html_caps_rows_and_says_plus_n_more():
     fresh = [_record(i / 4, id=str(i), company=f"Co{i}") for i in range(40)]
     html = mailer.build_digest_html(fresh)
-    listed = html.count("border-bottom:1px solid #eee")
+    listed = html.count("border-bottom:1px solid #e6e8eb")
     assert listed == mailer._MAX_ROLES
     assert f"plus {40 - mailer._MAX_ROLES} more new roles" in html
 
@@ -174,3 +174,51 @@ class TestNewMeansUnsent:
         store = self._store(a=1)
         store["a"]["is_open"] = False
         assert mailer.new_roles(store, now=self.NOW, already_sent=set()) == []
+
+
+class TestDigestSubject:
+    """The subject is the only thing seen on a lock screen — it must say who."""
+
+    def test_names_the_employers(self):
+        fresh = [_record(0, id="1", company="Stripe"),
+                 _record(1, id="2", company="Anduril")]
+        assert mailer.digest_subject(fresh) == "2 new internships · Stripe, Anduril"
+
+    def test_singular_reads_naturally(self):
+        assert mailer.digest_subject([_record(0, id="1", company="Ramp")]) == \
+            "1 new internship · Ramp"
+
+    def test_long_lists_are_truncated_with_a_count(self):
+        fresh = [_record(i, id=str(i), company=f"Co{i}") for i in range(7)]
+        assert mailer.digest_subject(fresh) == "7 new internships · Co0, Co1, Co2 +4"
+
+    def test_repeat_employers_are_named_once(self):
+        fresh = [_record(0, id="1", company="Akuna"), _record(1, id="2", company="Akuna")]
+        assert mailer.digest_subject(fresh) == "2 new internships · Akuna"
+
+    def test_missing_company_names_do_not_break_it(self):
+        assert mailer.digest_subject([_record(0, id="1", company="")]) == "1 new internship"
+
+
+class TestDigestBody:
+    def test_marks_remote_roles_and_h1b(self):
+        html = mailer.build_digest_html([_record(0, id="1", location="Remote - US")])
+        assert ">R<" in html
+
+    def test_unstated_cycle_says_so_rather_than_guessing(self):
+        html = mailer.build_digest_html([_record(0, id="1", season="Not stated")])
+        assert "cycle not stated" in html
+
+    def test_skills_render_as_pills(self):
+        html = mailer.build_digest_html([_record(0, id="1", skills=["Python", "Go"])])
+        assert ">Python<" in html and ">Go<" in html
+
+    def test_titles_are_escaped(self):
+        html = mailer.build_digest_html([_record(0, id="1", title="C++ <b>Dev</b> Intern")])
+        assert "&lt;b&gt;" in html
+
+    def test_summary_line_reports_the_split(self):
+        fresh = [_record(0, id="1", season="Summer 2027"),
+                 _record(1, id="2", season="Not stated")]
+        html = mailer.build_digest_html(fresh)
+        assert "1 with a stated cycle" in html

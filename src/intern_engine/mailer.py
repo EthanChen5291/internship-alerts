@@ -26,7 +26,7 @@ from html import escape
 
 import httpx
 
-from . import config, h1b, paths, sponsorship
+from . import config, filters, h1b, paths, sponsorship
 
 _MIN_HOURS_BETWEEN = 22          # "daily", tolerant of cron jitter
 # Backstop only — NOT the definition of "new". `sent_role_ids` decides that.
@@ -115,17 +115,48 @@ def should_send(state: dict, fresh_count: int, now: datetime | None = None) -> b
 
 # --- composition ---------------------------------------------------------------
 
+def _pill(text: str, bg: str, fg: str) -> str:
+    return (f'<span style="display:inline-block;background:{bg};color:{fg};'
+            f'border-radius:5px;padding:2px 7px;font-size:11px;font-weight:700;'
+            f'line-height:1.5;white-space:nowrap">{escape(text)}</span>')
+
+
 def _role_row(r: dict) -> str:
+    """One role as a card: employer line, linked title, facts, skills.
+
+    Written for email clients, which means tables and inline styles only — no
+    flexbox, no <style> block, no external CSS. Colours are chosen to stay
+    legible on both white and dark backgrounds, since Gmail/Outlook dark mode
+    inverts backgrounds but not inline text colours.
+    """
+    company = escape(r.get("company") or "")
+    marks = ""
+    if h1b.badge(h1b.approvals_for(r.get("company") or "")):
+        marks += ' <span style="color:#1a7f37" title="proven H-1B sponsor">✓</span>'
+    if filters.is_remote(r.get("location") or "", r.get("title") or ""):
+        marks += " " + _pill("R", "#dafbe1", "#1a7f37")
+
+    cycle = r.get("season")
+    cycle_pill = (_pill(cycle, "#ddf4ff", "#0550ae")
+                  if cycle and cycle != "Not stated"
+                  else _pill("cycle not stated", "#f6f8fa", "#57606a"))
+
+    facts = [b for b in (r.get("location"), r.get("salary")) if b]
     flag = sponsorship.flag(r.get("sponsorship"))
-    approvals = h1b.approvals_for(r.get("company") or "")
-    check = " ✓" if h1b.badge(approvals) else ""
-    bits = [b for b in (r.get("season"), r.get("location"), r.get("salary")) if b]
+    if flag:
+        facts.append(flag)
+    skills = " ".join(_pill(s, "#f6f8fa", "#57606a") for s in (r.get("skills") or [])[:4])
+
     return (
-        '<tr><td style="padding:10px 0;border-bottom:1px solid #eee">'
-        f'<strong>{escape(r.get("company") or "")}{check}</strong> — '
-        f'<a href="{escape(r.get("url") or "")}">{escape(r.get("title") or "")}</a> {flag}'
-        f'<br><span style="color:#666;font-size:13px">{escape(" · ".join(bits))}</span>'
-        "</td></tr>"
+        '<tr><td style="padding:14px 0;border-bottom:1px solid #e6e8eb">'
+        f'<div style="font-size:15px;font-weight:700;color:#1a1a1a">{company}{marks}'
+        f'&nbsp;&nbsp;{cycle_pill}</div>'
+        f'<div style="margin:3px 0 5px"><a href="{escape(r.get("url") or "")}" '
+        'style="font-size:15px;color:#0969da;text-decoration:none">'
+        f'{escape(r.get("title") or "")}</a></div>'
+        f'<div style="color:#57606a;font-size:13px">{escape(" · ".join(facts))}</div>'
+        + (f'<div style="margin-top:6px">{skills}</div>' if skills else "")
+        + "</td></tr>"
     )
 
 
@@ -145,23 +176,61 @@ def build_digest_html(fresh: list[dict]) -> str:
             f'<a href="{config.pages_base()}/">the live dashboard</a>.'
             "</td></tr>"
         )
+    stated = sum(1 for r in fresh if (r.get("season") or "Not stated") != "Not stated")
+    remote = sum(1 for r in fresh
+                 if filters.is_remote(r.get("location") or "", r.get("title") or ""))
+    summary = [f"{len(fresh)} new"]
+    if stated:
+        summary.append(f"{stated} with a stated cycle")
+    if remote:
+        summary.append(f"{remote} remote")
+
     return (
-        '<div style="font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;'
-        'max-width:640px;margin:0 auto;color:#1a1a1a">'
-        f"<h2 style=\"font-size:18px\">{len(fresh)} new internship"
-        f"{'s' if len(fresh) != 1 else ''} spotted</h2>"
-        '<p style="color:#666;font-size:13px">✓ = the employer has a real H-1B '
-        "track record (USCIS data) · 🇺🇸 = citizens only · 🛂 = no visa "
-        "sponsorship — auto-detected, verify on the posting.</p>"
+        '<div style="font:15px/1.55 -apple-system,BlinkMacSystemFont,Segoe UI,'
+        'Roboto,Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;'
+        'color:#1a1a1a;padding:0 4px">'
+        f'<div style="font-size:22px;font-weight:800;letter-spacing:-.02em">'
+        f"{len(fresh)} new internship{'s' if len(fresh) != 1 else ''}</div>"
+        f'<div style="color:#57606a;font-size:13px;margin:4px 0 2px">'
+        f'{escape(" · ".join(summary))}</div>'
         f'<table style="width:100%;border-collapse:collapse">{rows}</table>'
-        f'<p style="margin-top:18px"><a href="https://github.com/{escape(repo)}">'
-        "Full list & tracker on GitHub</a> · "
-        f'<a href="{config.pages_base()}/">live dashboard</a></p>'
-        '<p style="color:#999;font-size:12px;margin-top:24px">You get this because '
-        "you subscribed to new-internship alerts. "
-        '<a href="{{UNSUB_URL}}" style="color:#999">Unsubscribe</a> anytime.</p>'
+        f'<div style="margin:22px 0 6px">'
+        f'<a href="{config.pages_base()}/" style="display:inline-block;'
+        'background:#0969da;color:#fff;text-decoration:none;font-weight:700;'
+        'font-size:14px;padding:10px 18px;border-radius:7px">'
+        "Open the dashboard</a></div>"
+        '<div style="color:#57606a;font-size:12px;margin-top:14px;line-height:1.6">'
+        "<b>✓</b> the employer has a real H-1B track record (USCIS data) · "
+        "<b>R</b> this role is remote · 🇺🇸 citizens only · 🛂 no visa "
+        "sponsorship.<br>Sponsorship flags are auto-detected from the posting "
+        "text — treat them as a strong hint and confirm on the posting itself."
+        "</div>"
+        f'<div style="color:#8c959f;font-size:12px;margin-top:18px;'
+        'border-top:1px solid #e6e8eb;padding-top:12px">'
+        f'<a href="https://github.com/{escape(repo)}" style="color:#8c959f">'
+        "GitHub</a> · You subscribed to new-internship alerts. "
+        '<a href="{{UNSUB_URL}}" style="color:#8c959f">Unsubscribe</a>.</div>'
         "</div>"
     )
+
+
+def digest_subject(fresh: list[dict], now: datetime | None = None) -> str:
+    """Subject line that names employers instead of just counting.
+
+    "3 new internships · Aug 06" told you nothing you could act on from the
+    lock screen. Leading with the companies is what makes it worth opening.
+    """
+    n = len(fresh)
+    names: list[str] = []
+    for r in fresh:
+        name = (r.get("company") or "").strip()
+        if name and name not in names:
+            names.append(name)
+    lead = ", ".join(names[:3])
+    if len(names) > 3:
+        lead += f" +{len(names) - 3}"
+    head = f"{n} new internship{'s' if n != 1 else ''}"
+    return f"{head} · {lead}" if lead else head
 
 
 def _sender() -> dict | None:
@@ -250,8 +319,7 @@ def send_digest(store_data: dict) -> int:
     if not subscribers:
         return 0
 
-    today = datetime.now(UTC).strftime("%b %d")
-    subject = f"{len(fresh)} new internship{'s' if len(fresh) != 1 else ''} · {today}"
+    subject = digest_subject(fresh)
     body = build_digest_html(fresh)
     unsub_base = f"{config.pages_base()}/unsubscribe.html"
     recipients, cursor = _recipients(subscribers, int(state.get("send_cursor") or 0))
