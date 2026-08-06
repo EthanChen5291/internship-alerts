@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 123 open roles (108 listed below) · 36 new this week
+### 124 open roles (109 listed below) · 37 new this week
 
-3,958 employers tracked · updated Aug 05, 2026 at 23:03 UTC
+3,958 employers tracked · updated Aug 06, 2026 at 00:06 UTC
 
-_74 have a cycle the employer stated · 49 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_75 have a cycle the employer stated · 49 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -84,15 +84,16 @@ If it helps you, a star means a lot and tells me to keep going.
 
 ---
 
-## Summer 2027  (39 employer-stated)
+## Summer 2027  (40 employer-stated)
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
+| Northrop Grumman | 2027 Intern Software Engineer 🇺🇸 🆕 | Software | United States-Florida-Melbourne | No skills listed | Aug 05, 2026 | [Apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573) |
 | Regions Bank ✓ | 2027 ETP Intern – Corporate Banking Group, Commercial Credit Products, Mobile, AL 🛂 🆕 | Software | Mobile, AL - RSA Tower | No skills listed | Aug 05, 2026 | [Apply](https://regions.wd5.myworkdayjobs.com/regions_careers/job/Mobile-AL---RSA-Tower/XMLNAME-2027-ETP-Intern---Corporate-Banking-Group--Commercial-Credit-Products--Mobile--AL_R104975) |
 | Roblox ✓ | [Summer 2027] Software Engineer Intern 🆕 | Software | San Mateo, CA, United States | Python, Java, C++, C# | Aug 05, 2026 | [Apply](https://careers.roblox.com/jobs/8072713?gh_jid=8072713) |
 | Pentair | IT & Cybersecurity Leadership Development Internship Program -  Summer 2027 🛂 🆕 | Security | Golden Valley, MN | No skills listed | Aug 03, 2026 | [Apply](https://pentair.wd5.myworkdayjobs.com/pentair_careers/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700) |
-| CNO Financial Group 🆁 | Artificial Intelligence (AI) IT Intern 2027 - REMOTE 🆕 | Data & ML/AI | Carmel, IN | No skills listed | Aug 03, 2026 | [Apply](https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389) |
-| CNO Financial Group 🆁 | Cyber Security IT Intern - REMOTE 🆕 | Security | Carmel, IN | Python | Aug 03, 2026 | [Apply](https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Cyber-Security-IT-Intern---REMOTE_JR170419) |
+| CNO Financial Group 🆁 | Artificial Intelligence (AI) IT Intern 2027 - REMOTE | Data & ML/AI | Carmel, IN | No skills listed | Aug 03, 2026 | [Apply](https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389) |
+| CNO Financial Group 🆁 | Cyber Security IT Intern - REMOTE | Security | Carmel, IN | Python | Aug 03, 2026 | [Apply](https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Cyber-Security-IT-Intern---REMOTE_JR170419) |
 | Chicago Trading Company | Software Engineering Internship - Summer 2027 | Software | Chicago, Illinois, United States | Python, Java, C++ | Aug 03, 2026 | [Apply](https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716932005) |
 | Netsmart | Software Engineer Intern (Summer 2027 Internship) | Software | Overland Park, KS | Java, C++, C# | Aug 03, 2026 | [Apply](https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667) |
 | JPMorganChase ✓ | 2027 Data & AI Program - Summer Internship - Analyst - United States | Data & ML/AI | Chicago, IL, United States | Python, SQL, LLMs, AWS | Aug 03, 2026 | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773869) |
@@ -303,7 +304,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,810 of 4,054 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 94% of the full registry) · completed in 422.1s · 104 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,830 of 4,054 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 94% of the full registry) · completed in 370.1s · 109 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 

@@ -599,9 +599,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 2,
+     "count": 3,
      "role_ids": [
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275",
+      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378"
      ]
     }
@@ -1121,5 +1122,5 @@
    }
   }
  },
- "updated_at": "2026-08-05T23:03:28Z"
+ "updated_at": "2026-08-06T00:06:13Z"
 }

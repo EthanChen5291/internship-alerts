@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-05T23:03:29Z</updated>
+  <updated>2026-08-06T00:06:14Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573</id>
+    <title>Northrop Grumman: 2027 Intern Software Engineer 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573"/>
+    <updated>2026-08-06T00:06:13Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States-Florida-Melbourne · $18.5–$33.5/hr · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:draper:/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718</id>
     <title>Draper: Embedded Quality &amp; Fielded Systems Intern</title>
@@ -798,13 +806,5 @@
     <updated>2026-07-13T19:44:33Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Chicago, IL · Python, TypeScript, JavaScript, React, Linux · H-1B track record: ~40 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:wehrtyou:8052083</id>
-    <title>Hudson River Trading: Software Engineering Internship (C++ or Python) – Summer 2027</title>
-    <link href="https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083"/>
-    <updated>2026-07-13T18:00:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Austin, TX, United States; Chicago, Illinois, United States; London, United Kingdom; New York, NY, United States; Singapore · Python, C++ · H-1B track record: ~29 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
