@@ -1,0 +1,56 @@
+name: Retry a run that never got a runner
+
+# Why this exists: on 2026-08-06 three "Update internships" runs in a row were
+# cancelled after exactly 15 minutes having executed ZERO steps, with an empty
+# runner_name and the annotation
+#
+#   "The job was not acquired by a Runner of type hosted even after multiple
+#    attempts"
+#
+# That is GitHub's hosted pool failing to hand out a machine. Nothing in this
+# repository can prevent it. But the consequence was avoidable: the run simply
+# died, the data went stale until the next schedule (~2h later), and a failure
+# email went out for something no one could act on.
+#
+# This watches for that specific outcome and re-dispatches once. A run that
+# fails for a REAL reason — a red publish gate, a push that never landed — is
+# deliberately not retried: it executed, and retrying would just hide it.
+
+on:
+  workflow_run:
+    workflows: ["Update internships", "Discover companies", "Audit inferred cycles"]
+    types: [completed]
+
+permissions:
+  actions: write        # to re-run the failed workflow
+
+jobs:
+  retry:
+    # `cancelled` is the conclusion GitHub reports for an allocation failure.
+    # run_attempt == 1 caps this at a single retry, so a persistent outage
+    # can never turn into a re-dispatch loop.
+    if: >-
+      github.event.workflow_run.conclusion == 'cancelled' &&
+      github.event.workflow_run.run_attempt == 1
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Re-run only if no step ever executed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          set -euo pipefail
+          jobs_json=$(gh api "repos/$REPO/actions/runs/$RUN_ID/jobs")
+          # A run starved of a runner has no runner_name and no completed steps.
+          # Anything that actually ran is a real failure and is left alone.
+          steps_run=$(echo "$jobs_json" | jq '[.jobs[].steps // [] | length] | add // 0')
+          runner=$(echo "$jobs_json" | jq -r '[.jobs[].runner_name // ""] | join("")')
+          echo "steps executed: $steps_run | runner: '${runner:-none}'"
+          if [ "$steps_run" -eq 0 ] && [ -z "$runner" ]; then
+            echo "::notice::Run $RUN_ID never acquired a runner — re-dispatching once."
+            gh api --method POST "repos/$REPO/actions/runs/$RUN_ID/rerun"
+          else
+            echo "Run $RUN_ID executed steps; this is a real failure, not retrying."
+          fi
