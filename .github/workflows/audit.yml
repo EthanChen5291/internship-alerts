@@ -7,7 +7,7 @@ name: Audit inferred cycles
 # off-cycle ones closed with the verdict recorded so they never re-enter.
 on:
   schedule:
-    - cron: "0 9 * * 4"     # Thursdays 09:00 UTC
+    - cron: "17 9 * * 4"    # Thursdays 09:17 UTC — clear of the update slots
   workflow_dispatch:
 
 permissions:

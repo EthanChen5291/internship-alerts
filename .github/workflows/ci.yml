@@ -13,8 +13,11 @@ on:
       # The lint config lives in pyproject.toml; watching a ruff.toml that
       # doesn't exist meant config changes never triggered CI.
       - "pyproject.toml"
-      - ".github/workflows/ci.yml"
+      # Every workflow, not just this one: retry.yml shipped a gate that
+      # never fired and CI had no opinion because it wasn't watching.
+      - ".github/workflows/**"
   pull_request:
+  workflow_dispatch:      # so a webhook-dropped commit can be checked by hand
 
 permissions:
   contents: read

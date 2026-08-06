@@ -106,3 +106,55 @@ class TestConfigured:
         assert telegram.configured() is False
         monkeypatch.setenv("TELEGRAM_CHAT_ID", "1")
         assert telegram.configured() is True
+
+
+class TestPartialDelivery:
+    """A failed chunk must not re-send the chunks that already arrived."""
+
+    def _store(self, n=40):
+        return {str(i): {"id": str(i), "company": f"Co{i}",
+                         "title": "Software Engineering Intern " * 6,
+                         "location": "Austin, TX", "url": f"https://x/{i}",
+                         "season": "Summer 2027", "is_open": True,
+                         "sponsorship": "unknown", "skills": ["Python"]}
+                for i in range(n)}
+
+    def test_chunks_carry_their_own_ids(self):
+        store = self._store()
+        chunks = telegram.build_chunks(list(store.items()))
+        assert len(chunks) > 1
+        flat = [jid for _t, ids in chunks for jid in ids]
+        assert flat == list(store)          # every id, exactly once, in order
+
+    def test_first_chunk_settles_when_the_second_fails(self, monkeypatch):
+        # The production bug: ids were settled only after EVERY message landed,
+        # so one failed chunk re-sent the ones already delivered.
+        monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "t")
+        monkeypatch.setenv("TELEGRAM_CHAT_ID", "1")
+        store = self._store()
+        calls = {"n": 0}
+
+        class Resp:
+            def raise_for_status(self): pass
+
+        def flaky(url, **k):
+            calls["n"] += 1
+            if calls["n"] == 2:
+                raise RuntimeError("network blip")
+            return Resp()
+
+        monkeypatch.setattr(telegram.httpx, "post", flaky)
+        chunks = telegram.build_chunks(list(store.items()))
+        done = telegram.send_new_roles(store, list(store))
+        assert done == chunks[0][1]        # exactly chunk 1, nothing more
+
+    def test_every_chunk_settles_when_all_succeed(self, monkeypatch):
+        monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "t")
+        monkeypatch.setenv("TELEGRAM_CHAT_ID", "1")
+        store = self._store()
+
+        class Resp:
+            def raise_for_status(self): pass
+
+        monkeypatch.setattr(telegram.httpx, "post", lambda url, **k: Resp())
+        assert telegram.send_new_roles(store, list(store)) == list(store)

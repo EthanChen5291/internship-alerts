@@ -74,28 +74,50 @@ def _role_line(record: dict) -> str:
     return f"{head}\n<i>{detail}</i>" if detail else head
 
 
-def build_messages(records: list[dict]) -> list[str]:
-    """Split the roles into messages that each fit Telegram's size limit."""
+def build_chunks(records: list[tuple[str, dict]]) -> list[tuple[str, list[str]]]:
+    """Split roles into (message text, ids in that message) pairs.
+
+    Carrying the ids alongside each message is what makes partial delivery
+    safe. An earlier version returned bare strings and only marked ids
+    delivered once EVERY message had landed — so a run where message 1
+    succeeded and message 2 timed out reported nothing delivered, left all of
+    it queued, and re-sent message 1's roles on the next run. Each chunk now
+    settles on its own POST.
+    """
     if not records:
         return []
     header = (f"<b>{len(records)} new internship"
               f"{'s' if len(records) != 1 else ''}</b>")
     footer = f'\n<a href="{config.pages_base()}/">Open the dashboard</a>'
 
-    messages: list[str] = []
-    body, first = [], True
-    for line in (_role_line(r) for r in records):
-        candidate = "\n\n".join(body + [line])
+    chunks: list[tuple[list[str], list[str]]] = []   # (lines, ids)
+    lines: list[str] = []
+    ids: list[str] = []
+    first = True
+    for jid, record in records:
+        line = _role_line(record)
         prefix = header + "\n\n" if first else ""
-        if body and len(prefix + candidate) > _MAX_CHARS:
-            messages.append((header + "\n\n" if first else "") + "\n\n".join(body))
-            body, first = [line], False
+        if lines and len(prefix + "\n\n".join([*lines, line])) > _MAX_CHARS:
+            chunks.append((lines, ids))
+            lines, ids, first = [line], [jid], False
         else:
-            body.append(line)
-    if body:
-        messages.append((header + "\n\n" if first else "") + "\n\n".join(body))
-    messages[-1] += footer
-    return messages
+            lines.append(line)
+            ids.append(jid)
+    if lines:
+        chunks.append((lines, ids))
+
+    out = []
+    for i, (body, chunk_ids) in enumerate(chunks):
+        text = (header + "\n\n" if i == 0 else "") + "\n\n".join(body)
+        if i == len(chunks) - 1:
+            text += footer
+        out.append((text, chunk_ids))
+    return out
+
+
+def build_messages(records: list[dict]) -> list[str]:
+    """Just the message text — used by tests and previews."""
+    return [text for text, _ids in build_chunks([("", r) for r in records])]
 
 
 def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
@@ -121,12 +143,12 @@ def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
         return settled
 
     shown = records[:_MAX_ROLES]
-    messages = build_messages([r for _jid, r in shown])
-
     announced: list[str] = []
     url = _API.format(token=token)
-    try:
-        for text in messages:
+    # Settle each chunk on its OWN successful POST. Waiting for every message
+    # meant one failed chunk re-sent the ones that had already arrived.
+    for text, chunk_ids in build_chunks(shown):
+        try:
             httpx.post(
                 url,
                 json={
@@ -139,7 +161,7 @@ def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
                 },
                 timeout=_TIMEOUT,
             ).raise_for_status()
-        announced = [jid for jid, _r in shown]  # only after every chunk landed
-    except Exception:  # noqa: BLE001 — alerting is a side channel, never fatal
-        pass
+        except Exception:  # noqa: BLE001 — alerting is a side channel, never fatal
+            break  # stop here; unsent chunks stay queued for the next run
+        announced += chunk_ids
     return settled + announced

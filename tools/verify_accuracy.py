@@ -28,6 +28,12 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."
 
 from intern_engine import config, filters, paths, quality, store  # noqa: E402
 
+# Publish-gate thresholds. Set well below today's healthy numbers (registry
+# 94.5%, complete snapshots 96.7%) so normal variation never blocks a run —
+# these catch decay and collapse, not a bad afternoon.
+_MIN_REGISTRY_RATE = 0.80
+_MIN_COMPLETE_SNAPSHOT_RATE = 0.85
+
 
 def main() -> None:
     cfg = config.load_config()
@@ -134,6 +140,26 @@ def main() -> None:
         rate = stats.get("fetch_success_rate")
         if isinstance(rate, (int, float)) and rate < 0.5:
             gates.append(f"  [fetch-collapse] only {rate:.0%} of boards responded")
+        # Attempted-board rate alone hides slow rot: quarantined endpoints are
+        # never attempted, so that number stays high while the registry decays
+        # underneath it. Gate on the registry-wide figure too.
+        reg = stats.get("fetch_success_rate_registry")
+        if isinstance(reg, (int, float)) and reg < _MIN_REGISTRY_RATE:
+            gates.append(
+                f"  [registry-decay] only {reg:.1%} of the full registry returned "
+                f"(floor {_MIN_REGISTRY_RATE:.0%}) — quarantined boards are growing"
+            )
+        # A run that read almost nothing completely is not a snapshot worth
+        # publishing, even if the roles it did see look fine.
+        complete = stats.get("snapshots_complete")
+        partial = stats.get("snapshots_partial")
+        if isinstance(complete, int) and isinstance(partial, int):
+            total = complete + partial
+            if total and complete / total < _MIN_COMPLETE_SNAPSHOT_RATE:
+                gates.append(
+                    f"  [snapshot-quality] only {complete}/{total} sources returned a "
+                    f"complete snapshot (floor {_MIN_COMPLETE_SNAPSHOT_RATE:.0%})"
+                )
     except (OSError, ValueError):
         gates.append("  [stats-missing] data/stats.json unreadable")
 

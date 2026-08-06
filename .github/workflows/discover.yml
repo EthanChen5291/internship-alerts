@@ -5,7 +5,7 @@ name: Discover companies
 # update run then starts polling whatever this finds.
 on:
   schedule:
-    - cron: "30 8 * * *"    # daily 08:30 UTC — off the top-of-hour so it never
+    - cron: "47 8 * * *"    # daily 08:47 UTC — clear of the update slots so it never
                             # contends with the hourly update run's push
   workflow_dispatch:
 

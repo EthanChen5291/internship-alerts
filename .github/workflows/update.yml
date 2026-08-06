@@ -2,7 +2,11 @@ name: Update internships
 
 on:
   schedule:
-    - cron: "0,30 * * * *"  # every 30 min (UTC) — peak-season cadence
+    # Minutes 7 and 37, not 0 and 30. GitHub queues scheduled workflows
+    # globally and the top of the hour is the busiest slot on the platform —
+    # measured Aug 3-5, only 32 of 144 expected runs actually fired, averaging
+    # 138 minutes apart. Off-peak minutes get dropped less often.
+    - cron: "7,37 * * * *"  # every 30 min (UTC) — peak-season cadence
   workflow_dispatch:          # lets you run it manually from the Actions tab
 
 permissions:
@@ -14,13 +18,12 @@ concurrency:
 
 jobs:
   update:
-    # ubuntu-24.04 rather than ubuntu-latest: on 2026-08-06 three runs in a
-    # row (including a manual dispatch) were cancelled after exactly 15 minutes
-    # with zero steps and an empty runner_name, annotated "The job was not
-    # acquired by a Runner of type hosted even after multiple attempts" —
-    # GitHub's hosted pool failing to allocate. Pinning to a concrete image
-    # draws from a different pool than the rotating `latest` alias. If the
-    # allocation failures return, this line is the first thing to revisit.
+    # Pinned for REPRODUCIBILITY, not as an outage fix: `ubuntu-latest` already
+    # resolves to 24.04 today, so this is the same pool — it just stops the
+    # image moving under us when GitHub advances the alias. The 2026-08-06
+    # runner-allocation failures (zero steps, blank runner_name, "not acquired
+    # by a Runner of type hosted") were a platform incident that no repo-side
+    # setting prevents; recovery is handled by retry.yml instead.
     runs-on: ubuntu-24.04
     timeout-minutes: 30
     steps:
