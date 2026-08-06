@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 124 open roles (109 listed below) · 37 new this week
+### 116 open roles (106 listed below) · 28 new this week
 
-3,958 employers tracked · updated Aug 06, 2026 at 00:06 UTC
+3,958 employers tracked · updated Aug 06, 2026 at 03:34 UTC
 
-_75 have a cycle the employer stated · 49 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_67 have a cycle the employer stated · 49 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -129,7 +129,7 @@ If it helps you, a star means a lot and tells me to keep going.
 | Walleye Capital | Quantic – Quantitative Developer Intern (Summer 2027) | Quant | Boston, MA | Python, PyTorch, TensorFlow, scikit-learn | Jun 01, 2026 | [Apply](https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006) |
 | Ellipsis Labs | Software Engineer - 2027 Interns | Software | New York, New York | Python, Java, C++, Rust | Mar 26, 2026 | [Apply](https://jobs.ashbyhq.com/ellipsislabs/02136b22-35b1-4b3d-8bef-567c3380a849) |
 
-## Fall 2026  (27 employer-stated)
+## Fall 2026  (24 employer-stated)
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
@@ -146,9 +146,6 @@ If it helps you, a star means a lot and tells me to keep going.
 | Figure | Firmware Intern [Fall 2026] | Hardware | San Jose, CA | Python, C++ | Jun 22, 2026 | [Apply](https://job-boards.greenhouse.io/figureai/jobs/4691070006) |
 | Intuitive Surgical ✓ | Computer Vision Engineering Intern - Fall 2026 | Data & ML/AI | Sunnyvale, CA, United States | Computer Vision, Python, C++, PyTorch | Jun 22, 2026 | [Apply](https://jobs.smartrecruiters.com/Intuitive/744000133458290) |
 | SoloPulse | Software Engineer Intern/Co-Op - Fall 2026 | Software | Peachtree Corners, GA | Python, C++, PyTorch, CUDA | Jun 16, 2026 | [Apply](https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56) |
-| Tevora | Cybersecurity Internship Fall 2026 - Enterprise Risk Management | Security | Irvine, CA | No skills listed | Jun 05, 2026 | [Apply](https://jobs.lever.co/tevora/1be28747-e28c-43af-b38c-087452263f96) |
-| Tevora | Cybersecurity Internship Fall 2026 - Solutions | Security | Irvine, CA | No skills listed | Jun 05, 2026 | [Apply](https://jobs.lever.co/tevora/23fb4ead-6204-4f9b-9a60-9c28b7d1d3dc) |
-| Tevora | Cybersecurity Internship Fall 2026 - Federal | Security | Fairfax, VA | No skills listed | Jun 05, 2026 | [Apply](https://jobs.lever.co/tevora/335ec3e2-c7ee-4e4c-b4a9-04428999e954) |
 | Beacon Software | Software Engineering Intern | Software | San Francisco, CA | Python, TypeScript, LLMs, PostgreSQL | Jun 02, 2026 | [Apply](https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1) |
 | Saronic | Software Engineer Intern (Fall 2026) 🇺🇸 | Software | Austin, TX | Python, C++, Rust, TypeScript | May 18, 2026 | [Apply](https://jobs.ashbyhq.com/saronic/1c74957f-0895-415b-9324-08b0994747d7) |
 | Astranis | Software Engineer- Backend Intern (Fall 2026) 🇺🇸 | Software | San Francisco, CA | Python, Kubernetes, PostgreSQL | May 13, 2026 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4681183006) |
@@ -255,12 +252,20 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 _174 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **34** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 25 roles that left the list in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 33 roles that left the list in the last 14 days</summary>
 
 _Why each one left is in the last column, because the two reasons carry different evidence. **Gone from feed** = two consecutive complete reads of the employer's board no longer returned it (strong, but not the employer telling us directly). **Out of scope** = still posted, but it no longer passes our filters — our call, not theirs. **Not recorded** = closed before we started tracking the reason._
 
 | Company | Role | Cycle | Closed | Why |
 |---|---|---|---|---|
+| Tevora | Cybersecurity Internship Fall 2026 - Enterprise Risk Management | Fall 2026 | 2026-08-06 | gone from feed |
+| Tevora | Cybersecurity Internship Fall 2026 - Solutions | Fall 2026 | 2026-08-06 | gone from feed |
+| Tevora | Cybersecurity Internship Fall 2026 - Federal | Fall 2026 | 2026-08-06 | gone from feed |
+| Tevora | Cybersecurity Internship Fall 2026 - Threat | Fall 2026 | 2026-08-06 | gone from feed |
+| Tevora | Cybersecurity Internship Fall 2026 - Payments | Fall 2026 | 2026-08-06 | gone from feed |
+| Tevora | Cybersecurity Internship Fall 2026 - International Organization for Standardization (ISO) | Fall 2026 | 2026-08-06 | gone from feed |
+| Tevora | Cybersecurity Internship Fall 2026 - Healthcare | Fall 2026 | 2026-08-06 | gone from feed |
+| Tevora | Cybersecurity Internship Fall 2026 - Systems and Organizations Controls (SOC) | Fall 2026 | 2026-08-06 | gone from feed |
 | Saronic | Enterprise Technology Intern - AI and Automation (Fall 2026) | Fall 2026 | 2026-08-05 | gone from feed |
 | Gemini | Software Engineering Intern (Fall 2026) | Fall 2026 | 2026-08-05 | gone from feed |
 | Motorola | Intern - Embedded Software, System, and Test Engineer - 2026 | Fall 2026 | 2026-08-05 | gone from feed |
@@ -304,7 +309,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,830 of 4,054 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 94% of the full registry) · completed in 370.1s · 109 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,817 of 4,054 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 94% of the full registry) · completed in 408.0s · 98 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
