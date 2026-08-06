@@ -143,6 +143,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "A-TEK",
+    "slug": "atek",
+    "ats": "greenhouse"
+  },
+  {
     "name": "AAA Club Alliance",
     "slug": "aaamidatlantic",
     "ats": "workday",
@@ -4007,6 +4012,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "Canva",
+    "slug": "Canva",
+    "ats": "smartrecruiters"
+  },
+  {
     "name": "Canvas Worldwide",
     "slug": "canvasww",
     "ats": "lever"
@@ -4102,6 +4112,11 @@
     "name": "CarbonChain",
     "slug": "carbonchain",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Cardamom Health",
+    "slug": "cardamom",
+    "ats": "rippling"
   },
   {
     "name": "Cardinal Health",
@@ -4848,6 +4863,11 @@
     "ats": "rippling"
   },
   {
+    "name": "Civica",
+    "slug": "civica-uk-ltd-1",
+    "ats": "workable"
+  },
+  {
     "name": "CivilGrid",
     "slug": "civilgrid",
     "ats": "ashby"
@@ -5070,6 +5090,11 @@
     "name": "CloudKitchens",
     "slug": "css",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Cloudscaler",
+    "slug": "cloudscaler",
+    "ats": "ashby"
   },
   {
     "name": "CMC Markets",
@@ -6371,6 +6396,11 @@
     "ats": "rippling"
   },
   {
+    "name": "Densityai",
+    "slug": "densityai",
+    "ats": "greenhouse"
+  },
+  {
     "name": "Dentsu",
     "slug": "dentsuaegis",
     "ats": "workday",
@@ -6640,6 +6670,11 @@
   {
     "name": "DOOR",
     "slug": "door",
+    "ats": "rippling"
+  },
+  {
+    "name": "Door Controls",
+    "slug": "door-controls-usa",
     "ats": "rippling"
   },
   {
@@ -7522,6 +7557,11 @@
     "ats": "workday",
     "wd": "wd108",
     "site": "external"
+  },
+  {
+    "name": "Eridu AI",
+    "slug": "eridu-ai",
+    "ats": "rippling"
   },
   {
     "name": "ERM",
@@ -11147,6 +11187,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "interstatebatteries-careers"
+  },
+  {
+    "name": "InterSystems",
+    "slug": "intersystems",
+    "ats": "greenhouse"
   },
   {
     "name": "Intertek",
@@ -18089,6 +18134,11 @@
     "site": "saab_careers"
   },
   {
+    "name": "Saalex",
+    "slug": "saalex",
+    "ats": "workable"
+  },
+  {
     "name": "Sabre",
     "slug": "sabre",
     "ats": "workday",
@@ -21925,6 +21975,13 @@
     "ats": "ashby"
   },
   {
+    "name": "US Acute Care Solutions",
+    "slug": "usacs",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "usacscareers"
+  },
+  {
     "name": "US Conec",
     "slug": "usconec",
     "ats": "greenhouse"
@@ -22991,6 +23048,13 @@
     "name": "Wing Assistant",
     "slug": "getwingapp",
     "ats": "lever"
+  },
+  {
+    "name": "Winland Foods",
+    "slug": "winlandfoods",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "external"
   },
   {
     "name": "Winsupply",
