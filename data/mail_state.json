@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-08-05T04:06:36Z",
-  "last_digest_roles": 3,
-  "last_digest_sent": 216,
+  "last_digest_at": "2026-08-06T03:35:31Z",
+  "last_digest_roles": 5,
+  "last_digest_sent": 224,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -95,10 +95,15 @@
     "workday:intel:/job/Virtual-US/AI-Software-Engineer-Graduate-Intern_JR0285989",
     "workday:thales:/job/Texas/AppSec-Product-Support-Intern_R0328978-1",
     "lever:diversified-automation:827a092d-b8a3-4ca9-a84a-e8c236d1aabc",
-    "workday:pentair:/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700"
+    "workday:pentair:/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700",
+    "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573",
+    "workday:draper:/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718",
+    "workday:regions:/job/Mobile-AL---RSA-Tower/XMLNAME-2027-ETP-Intern---Corporate-Banking-Group--Commercial-Credit-Products--Mobile--AL_R104975",
+    "workday:nvidia:/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
+    "greenhouse:roblox:8072713"
   ],
   "last_digest_failed": 0,
   "retry_emails": [],
-  "subscribers_total": 216,
+  "subscribers_total": 224,
   "send_cursor": 0
 }
