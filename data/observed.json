@@ -292,6 +292,18 @@
     }
    }
   },
+  "densityai": {
+   "name": "Densityai",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-08-03",
+     "role_ids": [
+      "greenhouse:densityai:4336452009"
+     ],
+     "count": 1
+    }
+   }
+  },
   "dmainc": {
    "name": "Dmainc",
    "cycles": {
@@ -1122,5 +1134,5 @@
    }
   }
  },
- "updated_at": "2026-08-06T09:27:28Z"
+ "updated_at": "2026-08-06T11:45:54Z"
 }
