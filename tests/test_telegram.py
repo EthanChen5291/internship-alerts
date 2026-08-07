@@ -164,3 +164,63 @@ class TestPartialDelivery:
 
         monkeypatch.setattr(telegram.httpx, "post", lambda url, **k: Resp())
         assert telegram.send_new_roles(store, list(store)) == list(store)
+
+
+class TestIdenticalOpenings:
+    """The reported symptom: "each post is posted thrice".
+
+    GDIT filed RQ225450, RQ225456 and RQ225469 for one job on 2026-08-07. All
+    three are real (each returns 200 on its own board), so none may be dropped
+    — but one push notification printing the same line three times is noise.
+    """
+
+    def _store(self):
+        return {
+            r: {"id": r, "company": "GDIT",
+                "title": "Summer 2027 Software Developer Internship",
+                "location": "USA MD Annapolis Junction", "url": f"https://x/{r}",
+                "season": "Summer 2027", "is_open": True, "sponsorship": "unknown",
+                "first_seen_at": "2026-08-07T10:45:44Z"}
+            for r in ("RQ225450", "RQ225456", "RQ225469")
+        }
+
+    def _send(self, monkeypatch, store):
+        monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "t")
+        monkeypatch.setenv("TELEGRAM_CHAT_ID", "1")
+        sent = []
+
+        class Resp:
+            def raise_for_status(self): pass
+
+        monkeypatch.setattr(telegram.httpx, "post",
+                            lambda url, **k: (sent.append(k["json"]), Resp())[1])
+        return telegram.send_new_roles(store, list(store)), sent
+
+    def test_the_role_appears_once_in_the_message(self, monkeypatch):
+        _done, sent = self._send(monkeypatch, self._store())
+        assert len(sent) == 1
+        assert sent[0]["text"].count("Summer 2027 Software Developer Internship") == 1
+
+    def test_the_message_says_how_many_openings(self, monkeypatch):
+        _done, sent = self._send(monkeypatch, self._store())
+        assert "3 openings" in sent[0]["text"]
+
+    def test_the_header_still_counts_three_new_internships(self, monkeypatch):
+        _done, sent = self._send(monkeypatch, self._store())
+        assert "3 new internships" in sent[0]["text"]
+
+    def test_all_three_ids_settle_on_the_one_delivery(self, monkeypatch):
+        store = self._store()
+        done, _sent = self._send(monkeypatch, store)
+        assert sorted(done) == sorted(store)
+
+    def test_a_failure_leaves_all_three_queued(self, monkeypatch):
+        monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "t")
+        monkeypatch.setenv("TELEGRAM_CHAT_ID", "1")
+
+        def boom(*a, **k):
+            raise RuntimeError("telegram 500")
+
+        monkeypatch.setattr(telegram.httpx, "post", boom)
+        store = self._store()
+        assert telegram.send_new_roles(store, list(store)) == []

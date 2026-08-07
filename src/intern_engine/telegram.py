@@ -23,7 +23,7 @@ from html import escape
 
 import httpx
 
-from . import config, filters, h1b, sponsorship
+from . import config, filters, grouping, h1b, sponsorship
 
 _API = "https://api.telegram.org/bot{token}/sendMessage"
 # Telegram rejects a message above 4096 Unicode characters. This is a hard
@@ -56,6 +56,9 @@ def _role_line(record: dict) -> str:
         else f"<b>{company}</b>\n{title}"
 
     bits = []
+    openings = record.get("openings") or 1
+    if openings > 1:
+        bits.append(f"{openings} openings")
     season = record.get("season")
     if season and season != "Not stated":
         bits.append(season[:80])
@@ -74,6 +77,18 @@ def _role_line(record: dict) -> str:
     return f"{head}\n<i>{detail}</i>" if detail else head
 
 
+def _grouped(records: list[tuple[str, dict]]) -> list[tuple[str, dict]]:
+    """Identical openings in this batch become one line, carrying every id.
+
+    Grouping is per-batch on purpose. Cross-run grouping would need its own
+    durable state to answer "did we already announce this group?", and the
+    outbox already answers that per requisition — a sibling opened tomorrow is
+    genuinely new and should be announced then.
+    """
+    merged = grouping.group([{**record, "id": jid} for jid, record in records])
+    return [(row.get("id") or "", row) for row in merged]
+
+
 def build_chunks(records: list[tuple[str, dict]]) -> list[tuple[str, list[str]]]:
     """Split roles into (message text, ids in that message) pairs.
 
@@ -86,8 +101,12 @@ def build_chunks(records: list[tuple[str, dict]]) -> list[tuple[str, list[str]]]
     """
     if not records:
         return []
-    header = (f"<b>{len(records)} new internship"
-              f"{'s' if len(records) != 1 else ''}</b>")
+    # Count openings, not lines: three grouped requisitions are still three
+    # new internships, and the header must not shrink to "1" because they
+    # share a line.
+    total = sum(len(r.get("opening_ids") or [1]) for _jid, r in records)
+    header = (f"<b>{total} new internship"
+              f"{'s' if total != 1 else ''}</b>")
     footer = f'\n<a href="{config.pages_base()}/">Open the dashboard</a>'
 
     chunks: list[tuple[list[str], list[str]]] = []   # (lines, ids)
@@ -96,16 +115,19 @@ def build_chunks(records: list[tuple[str, dict]]) -> list[tuple[str, list[str]]]
     first = True
     for jid, record in records:
         line = _role_line(record)
+        # One line can stand for several requisitions. All of them settle
+        # together on that line's delivery, or none of them do.
+        line_ids = [i for i in (record.get("opening_ids") or [jid]) if i]
         prefix = header + "\n\n" if first else ""
         candidate = prefix + "\n\n".join([*lines, line])
         # Reserve footer space on every chunk. Only the final one uses it, but
         # this keeps finalization from pushing a valid body past 4096.
         if lines and len(candidate + footer) > _MAX_CHARS:
             chunks.append((lines, ids))
-            lines, ids, first = [line], [jid], False
+            lines, ids, first = [line], list(line_ids), False
         else:
             lines.append(line)
-            ids.append(jid)
+            ids.extend(line_ids)
     if lines:
         chunks.append((lines, ids))
 
@@ -149,6 +171,12 @@ def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
     if not records:
         return settled
 
+    # GDIT opened RQ225450, RQ225456 and RQ225469 in the same hour: three real
+    # requisitions, one job. Ungrouped, that was one push notification with the
+    # same line printed three times. Group them into a single line that says
+    # "3 openings" — and settle all three ids on that one line's delivery, so
+    # nothing stays queued waiting for a message that will never be sent.
+    records = _grouped(records)
     shown = records[:_MAX_ROLES]
     announced: list[str] = []
     url = _API.format(token=token)

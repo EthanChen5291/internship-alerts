@@ -770,3 +770,82 @@ def test_fetch_reason_distinguishes_malformed_payload_from_a_cap():
     company = {"name": "Acme", "slug": "acme"}
     malformed = _fetch(greenhouse.fetch(company, FakeNet({"error": "rate limited"})))
     assert malformed.incomplete_reason == INCOMPLETE_MALFORMED
+
+
+class TestWorkdayRequisitionIdentity:
+    """One requisition, two of the tenant's career sites, one listing.
+
+    Tencent runs OA_Huoshui_Platform and Tencent_Careers. R107752 appears on
+    both — `..._R107752` on one and `..._R107752-1` on the other — with a
+    byte-identical description (verified live 2026-08-07). The externalPath
+    alone makes that look like two jobs, which is how it reached the published
+    list twice. `bulletFields` carries the real number.
+    """
+
+    company = {"name": "Tencent", "slug": "tencent", "wd": "wd1",
+               "site": "Tencent_Careers"}
+
+    def _job(self, posting):
+        payload = {"jobPostings": [posting]}
+        return _run(workday.fetch(self.company, FakeNet(payload)))[0]
+
+    def test_reads_the_requisition_number(self):
+        job = self._job({"title": "Research Intern", "bulletFields": ["R107752"],
+                         "externalPath": "/job/US-California-Palo-Alto/RI_R107752",
+                         "locationsText": "US-California-Palo Alto"})
+        assert job.requisition_id == "R107752"
+
+    def test_accepts_the_per_site_uniquifier_suffix(self):
+        job = self._job({"title": "Research Intern", "bulletFields": ["R107752"],
+                         "externalPath": "/job/US-California-Palo-Alto/RI_R107752-1",
+                         "locationsText": "US-California-Palo Alto"})
+        assert job.requisition_id == "R107752"
+
+    def test_both_sites_agree_on_one_canonical_identity(self):
+        bare = self._job({"title": "Research Intern", "bulletFields": ["R107752"],
+                          "externalPath": "/job/US-California-Palo-Alto/RI_R107752",
+                          "locationsText": "US-California-Palo Alto"})
+        suffixed = self._job({"title": "Research Intern", "bulletFields": ["R107752"],
+                              "externalPath": "/job/US-California-Palo-Alto/RI_R107752-1",
+                              "locationsText": "US-California-Palo Alto"})
+        assert bare.id != suffixed.id                    # different postings...
+        assert bare.canonical_id == suffixed.canonical_id  # ...one requisition
+
+    def test_the_same_requisition_in_two_cities_stays_two_openings(self):
+        # A req advertised in Austin and Seattle is two places someone can
+        # work. Merging on the number alone would delete one of them.
+        austin = self._job({"title": "SWE Intern", "bulletFields": ["R1"],
+                            "externalPath": "/job/Austin/SWE_R1",
+                            "locationsText": "Austin, TX"})
+        seattle = self._job({"title": "SWE Intern", "bulletFields": ["R1"],
+                             "externalPath": "/job/Seattle/SWE_R1-1",
+                             "locationsText": "Seattle, WA"})
+        assert austin.canonical_id != seattle.canonical_id
+
+    def test_a_bullet_the_path_does_not_confirm_is_refused(self):
+        # bulletFields is a free-form display slot; some tenants put a location
+        # or a job family in it. Only a path that ends in the same token proves
+        # it is the requisition number.
+        job = self._job({"title": "SWE Intern", "bulletFields": ["Austin TX 4"],
+                         "externalPath": "/job/Austin/SWE_R9",
+                         "locationsText": "Austin, TX"})
+        assert job.requisition_id is None
+        assert job.canonical_id is None
+
+    def test_a_tenant_that_sends_no_bullets_still_works(self):
+        job = self._job({"title": "SWE Intern", "externalPath": "/job/Austin/SWE_R9",
+                         "locationsText": "Austin, TX"})
+        assert job.requisition_id is None
+        assert job.canonical_id is None
+
+    def test_req_numbers_are_scoped_to_the_tenant(self):
+        # "R1" means different jobs at different employers, and canonical ids
+        # are grouped per SOURCE — without the tenant they would collide.
+        posting = {"title": "SWE Intern", "bulletFields": ["R1"],
+                   "externalPath": "/job/Austin/SWE_R1", "locationsText": "Austin, TX"}
+        mine = _run(workday.fetch(self.company, FakeNet({"jobPostings": [posting]})))[0]
+        theirs = _run(workday.fetch(
+            {"name": "Copart", "slug": "copart", "wd": "wd12", "site": "copart"},
+            FakeNet({"jobPostings": [posting]}),
+        ))[0]
+        assert mine.canonical_id != theirs.canonical_id

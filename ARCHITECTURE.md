@@ -113,6 +113,7 @@ off, and a partial snapshot is never allowed to close anything. Roughly 90 of
 | `src/intern_engine/priority.py` | Company prestige ranking for capped sections. |
 | `src/intern_engine/store.py` | Persistent JSON store: dedup, first-seen, open/closed, retention. |
 | `src/intern_engine/pipeline.py` | Orchestrates fetch → filter → enrich → store; writes stats + history. |
+| `src/intern_engine/grouping.py` | Display-only: folds an employer's repeated requisitions for one job into a single "N openings" entry. Never deletes a record — that's `pipeline._dedup`'s job. |
 | `src/intern_engine/readme.py` | Renders `README.md` + `data/internships.csv`. |
 | `src/intern_engine/dashboard.py` | Renders the self-contained GitHub Pages dashboard. |
 | `src/intern_engine/publish.py` | Renders the Atom feed + static JSON API under `docs/`. |

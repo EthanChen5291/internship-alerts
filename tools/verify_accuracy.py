@@ -30,11 +30,27 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."
 
 from intern_engine import config, filters, paths, quality, registry, store  # noqa: E402
 
-# Publish-gate thresholds. Set well below today's healthy numbers (registry
-# 94.5%, complete snapshots 96.7%) so normal variation never blocks a run —
-# these catch decay and collapse, not a bad afternoon.
+# Publish-gate thresholds. Set well below today's healthy numbers so normal
+# variation never blocks a run — these catch decay and collapse, not a bad
+# afternoon.
 _MIN_REGISTRY_RATE = 0.80
-_MIN_COMPLETE_SNAPSHOT_RATE = 0.85
+
+# A "partial" snapshot is two very different things, and gating on the sum of
+# them cost four production runs on 2026-08-07.
+#
+# `result-cap` is the DESIGNED outcome: a board with more intern hits than our
+# per-search page budget. The engine handles it correctly — a capped board is
+# simply not allowed to close roles — and it tells us nothing about health. Once
+# the Oracle and Workday pagination bugs were fixed on 2026-08-06, honest
+# cap-reporting moved the complete rate from an over-reported 96.7% to a true
+# ~86%, and the old 85% floor started tripping on ordinary runs. Fixing the
+# measurement is not a regression, so the gate had to stop treating it as one.
+#
+# `malformed-response` and `pagination-stalled` are the real signals: an ATS
+# changed shape or stopped paginating. They get their own, much tighter ceiling,
+# which is what "did the fetch layer break" actually means.
+_MIN_COMPLETE_SNAPSHOT_RATE = 0.70   # a genuine collapse; today's runs sit ~86%
+_MAX_DEGRADED_FETCH_RATE = 0.05      # today's runs sit ~1.2%
 _REQUIRED_STATS = {
     "generated_at": str,
     "fetched_at": str,
@@ -289,6 +305,17 @@ def main() -> None:
                 gates.append(
                     f"  [snapshot-quality] only {complete}/{total} sources returned a "
                     f"complete snapshot (floor {_MIN_COMPLETE_SNAPSHOT_RATE:.0%})"
+                )
+            # The health half of the same measurement: boards that answered with
+            # something we could not parse or could not page through.
+            degraded = stats.get("degraded_fetches")
+            if total and isinstance(degraded, int) and not isinstance(degraded, bool) \
+                    and degraded / total > _MAX_DEGRADED_FETCH_RATE:
+                gates.append(
+                    f"  [fetch-degraded] {degraded}/{total} sources returned a "
+                    f"malformed or non-paginating response "
+                    f"(ceiling {_MAX_DEGRADED_FETCH_RATE:.0%}) — an ATS likely "
+                    f"changed shape"
                 )
             if isinstance(partial_by_reason, dict) and (
                 any(

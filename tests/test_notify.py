@@ -102,3 +102,50 @@ def test_ids_missing_from_the_store_do_not_wedge_the_queue(monkeypatch):
     fake = FakePost()
     done = _send(monkeypatch, _store(1), ["gh:acme:0", "gone:1"], fake)
     assert "gone:1" in done
+
+
+def _triplicate():
+    """One job, three real requisitions — the GDIT case from 2026-08-07."""
+    return {
+        f"wd:gdit:{r}": {
+            "id": f"wd:gdit:{r}", "company": "GDIT",
+            "title": "Summer 2027 Software Developer Internship",
+            "season": "Summer 2027", "location": "USA MD Annapolis Junction",
+            "url": f"https://x/{r}", "is_open": True, "sponsorship": "unknown",
+            "first_seen_at": "2026-08-07T10:45:44Z",
+        }
+        for r in ("RQ225450", "RQ225456", "RQ225469")
+    }
+
+
+def test_three_identical_requisitions_post_one_embed(monkeypatch):
+    # The reported bug: "each post is posted thrice".
+    store = _triplicate()
+    fake = FakePost()
+    _send(monkeypatch, store, list(store), fake)
+    assert len(fake.payloads) == 1
+    assert len(fake.payloads[0]["embeds"]) == 1
+    assert "3 openings" in fake.payloads[0]["embeds"][0]["description"]
+
+
+def test_the_headline_still_counts_every_opening(monkeypatch):
+    # Folding the embeds must not shrink the count — three jobs really did open.
+    store = _triplicate()
+    fake = FakePost()
+    _send(monkeypatch, store, list(store), fake)
+    assert "3 new internships spotted" in fake.payloads[0]["content"]
+
+
+def test_one_embed_settles_all_the_ids_it_stands_for(monkeypatch):
+    # Otherwise the two absorbed ids stay queued forever, and every later run
+    # tries to announce a role that has already gone out.
+    store = _triplicate()
+    fake = FakePost()
+    done = _send(monkeypatch, store, list(store), fake)
+    assert sorted(done) == sorted(store)
+
+
+def test_a_failed_send_still_leaves_every_grouped_id_queued(monkeypatch):
+    store = _triplicate()
+    fake = FakePost(fail_at=0)
+    assert _send(monkeypatch, store, list(store), fake) == []

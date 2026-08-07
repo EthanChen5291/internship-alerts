@@ -97,40 +97,68 @@ jobs:
           git push origin HEAD:main
           echo "pushed=true" >> "$GITHUB_OUTPUT"
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          # The fingerprint the next step waits to see served from the live
+          # site. `rendered_at` is written by this run and by no other.
+          echo "rendered_at=$(python -c 'import json; print(json.load(open("data/stats.json"))["rendered_at"])')" >> "$GITHUB_OUTPUT"
+          # Same derivation as config.pages_base(): owner lowercased, repo as-is.
+          echo "pages_url=https://$(echo "${GITHUB_REPOSITORY%%/*}" | tr "[:upper:]" "[:lower:]").github.io/${GITHUB_REPOSITORY#*/}" >> "$GITHUB_OUTPUT"
 
       # A git push is not yet a public dashboard. During the Aug 6 incident,
-      # update #369 pushed successfully while its Pages deploy timed out. Wait
-      # for the exact commit's system Pages run before making any alert promise.
-      - name: Wait for Pages to publish this commit
+      # update #369 pushed successfully while its Pages deploy timed out, so an
+      # alert promised a role that was nowhere on the site.
+      #
+      # This used to look for a Pages WORKFLOW RUN whose head_sha matched the
+      # commit, and that premise is false. GitHub attributes the Pages run to
+      # whatever sha its build picked up, which is not always the one that
+      # triggered it: on 2026-08-07 commit 16b7fe3 pushed at 17:47, Pages built
+      # 49 seconds later — and recorded the deployment against the PREVIOUS
+      # commit a6cc142. No run ever carried 16b7fe3, so the step polled for its
+      # full 12 minutes and failed a run whose deploy had long since succeeded.
+      #
+      # Ask the question we actually care about instead: is our build live? The
+      # published stats carry this run's exact `rendered_at`, so fetching them
+      # from the real Pages URL proves the world can see this data — whatever
+      # sha GitHub decided to file the deployment under.
+      - name: Wait for Pages to serve this build
+        id: pages
         if: steps.publish.outputs.pushed == 'true'
         timeout-minutes: 13
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO: ${{ github.repository }}
-          PUBLISHED_SHA: ${{ steps.publish.outputs.sha }}
+          PAGES_URL: ${{ steps.publish.outputs.pages_url }}
+          RENDERED_AT: ${{ steps.publish.outputs.rendered_at }}
         run: |
-          set -euo pipefail
-          for _attempt in $(seq 1 72); do
-            row="$(gh api "repos/$REPO/actions/runs?head_sha=$PUBLISHED_SHA&per_page=100" --jq '
-              [.workflow_runs[] | select((.name | ascii_downcase) == "pages build and deployment")]
-              | sort_by(.created_at) | last // {}
-              | [(.id // ""), (.status // ""), (.conclusion // "")] | @tsv
-            ')"
-            IFS=$'\t' read -r run_id status conclusion <<< "$row"
-            if [ "$status" = "completed" ] && [ "$conclusion" = "success" ]; then
-              echo "Pages published $PUBLISHED_SHA in run $run_id."
+          set -uo pipefail
+          # Bound by the CLOCK, not by an iteration count. Each attempt can take
+          # up to curl's 20s timeout plus the sleep, so "72 attempts" could run
+          # for 36 minutes and be killed by timeout-minutes — turning the very
+          # failure this step was rewritten to stop back into a red run.
+          deadline=$(( $(date +%s) + 600 ))
+          while [ "$(date +%s)" -lt "$deadline" ]; do
+            # Cache-bust: Pages sits behind a CDN that will happily serve the
+            # previous build for a while after the deploy completes.
+            live="$(curl -fsSL --max-time 20 \
+              "$PAGES_URL/api/stats.json?cb=$(date +%s)" \
+              | python -c 'import json,sys; print(json.load(sys.stdin).get("rendered_at",""))' \
+              2>/dev/null || true)"
+            if [ "$live" = "$RENDERED_AT" ]; then
+              echo "Pages is serving this build (rendered_at=$RENDERED_AT)."
+              echo "live=true" >> "$GITHUB_OUTPUT"
               exit 0
-            fi
-            if [ "$status" = "completed" ]; then
-              echo "::error::Pages run $run_id concluded $conclusion; alerts remain queued"
-              exit 1
             fi
             sleep 10
           done
-          echo "::error::Pages did not publish $PUBLISHED_SHA within 12 minutes; alerts remain queued"
-          exit 1
+          # NOT a failure. The outbox is durable and still holds every alert, so
+          # the next run delivers them once the site catches up — which is the
+          # designed behaviour, not an incident. Failing here only produced a
+          # red run and a failure email for a problem that fixes itself.
+          echo "::warning::Pages is still serving an older build after 10 minutes; alerts stay queued for the next run"
+          echo "live=false" >> "$GITHUB_OUTPUT"
 
       - name: Send alerts for what was published
+        # Only ever after the data is provably live. A skipped publish (nothing
+        # changed) has nothing new to announce but must still run, because the
+        # email digest is driven by the store rather than by this run's queue.
+        if: steps.publish.outputs.pushed != 'true' || steps.pages.outputs.live == 'true'
         env:
           # Optional: Discord channel webhook — posts each run's new roles.
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}

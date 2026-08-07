@@ -11,7 +11,7 @@ import os
 
 import httpx
 
-from . import config, sponsorship
+from . import config, grouping, sponsorship
 
 _MAX_EMBEDS = 10   # Discord's cap per message
 _MAX_MESSAGES = 5  # up to 50 roles per run; beyond that the channel is spam
@@ -29,7 +29,9 @@ def _cycle_colors() -> dict[str, int]:
 def _embed(record: dict, colors: dict[str, int]) -> dict:
     flag = sponsorship.flag(record.get("sponsorship"))
     title = f"{record.get('company', '')} — {record.get('title', '')}"
-    bits = [record.get("season") or "", record.get("location") or ""]
+    openings = record.get("openings") or 1
+    bits = [f"{openings} openings"] if openings > 1 else []
+    bits += [record.get("season") or "", record.get("location") or ""]
     if record.get("salary"):
         bits.append(record["salary"])
     if flag:
@@ -69,21 +71,36 @@ def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
         return settled
 
     colors = _cycle_colors()
+    # An employer that opened the same job three times produced three identical
+    # embeds. Collapse them into one that says "3 openings"; every id still
+    # settles together when that embed lands.
+    grouped = [
+        (row.get("id") or "", row)
+        for row in grouping.group([{**r, "id": jid} for jid, r in records])
+    ]
+    total = sum(len(r.get("opening_ids") or [1]) for _jid, r in grouped)
     # Discord caps a message at 10 embeds. One message meant role 11+ of a big
     # drop day silently never reached the channel — chunk instead, up to a
     # sane per-run ceiling; the remainder stays queued for the next run.
-    shown = records[:_MAX_EMBEDS * _MAX_MESSAGES]
-    held = len(records) - len(shown)
+    shown = grouped[:_MAX_EMBEDS * _MAX_MESSAGES]
+    held = sum(len(r.get("opening_ids") or [1]) for _jid, r in grouped[len(shown):])
+
+    def ids_of(chunk) -> list[str]:
+        return [
+            i for jid, r in chunk
+            for i in (r.get("opening_ids") or [jid]) if i
+        ]
+
     chunks = [shown[i:i + _MAX_EMBEDS] for i in range(0, len(shown), _MAX_EMBEDS)]
 
     announced: list[str] = []
     try:
         for i, chunk in enumerate(chunks):
             if i == 0:
-                content = (f"**{len(records)} new internship"
-                           f"{'s' if len(records) != 1 else ''} spotted**")
+                content = (f"**{total} new internship"
+                           f"{'s' if total != 1 else ''} spotted**")
                 if held > 0:
-                    content += f" (showing {len(shown)}, {held} in the next batch)"
+                    content += f" (showing {total - held}, {held} in the next batch)"
             else:
                 content = f"…continued ({i + 1}/{len(chunks)})"
             httpx.post(
@@ -92,7 +109,7 @@ def send_new_roles(store_data: dict, new_ids: list[str]) -> list[str]:
                       "embeds": [_embed(r, colors) for _jid, r in chunk]},
                 timeout=10,
             ).raise_for_status()
-            announced += [jid for jid, _r in chunk]  # only after it landed
+            announced += ids_of(chunk)  # only after it landed
     except Exception:  # noqa: BLE001 — alerting is a side channel, never fatal
         pass
     return settled + announced

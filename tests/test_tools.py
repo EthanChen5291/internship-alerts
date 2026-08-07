@@ -10,11 +10,12 @@ from __future__ import annotations
 
 import asyncio
 import importlib
+import inspect
 import pkgutil
 
 import pytest
 
-from intern_engine import connectors, models
+from intern_engine import connectors, models, pipeline
 from intern_engine.models import Fetch, Job
 
 
@@ -78,6 +79,52 @@ class TestVerifyAccuracyImportable:
     def test_module_imports_and_exposes_a_main(self):
         mod = importlib.import_module("tools.verify_accuracy")
         assert callable(getattr(mod, "main", None))
+
+
+class TestSnapshotGateCalibration:
+    """The gate that blocked four production runs on 2026-08-07.
+
+    Fixing the Oracle and Workday pagination bugs on 2026-08-06 made snapshot
+    completeness HONEST: boards that had been silently reporting a truncated
+    page as the whole list started saying "capped" instead. The true complete
+    rate moved from an over-reported 96.7% to ~86%, and the 85% floor — set
+    against the inflated number — began failing ordinary runs.
+
+    A `result-cap` is the designed outcome for a board with more intern hits
+    than our page budget, and the engine already refuses to close roles on one.
+    It is not a health signal, so it must not sit in a health gate.
+    """
+
+    gate = importlib.import_module("tools.verify_accuracy")
+
+    def test_a_healthy_run_is_not_blocked(self):
+        # The exact numbers from the four failed runs (3476/4091 = 84.97%).
+        assert 3476 / 4091 >= self.gate._MIN_COMPLETE_SNAPSHOT_RATE
+
+    def test_a_real_collapse_is_still_caught(self):
+        # Workday alone is ~36% of the registry; losing it must trip the gate.
+        assert 0.55 < self.gate._MIN_COMPLETE_SNAPSHOT_RATE
+
+    def test_ordinary_degradation_is_not_blocked(self):
+        # 47 malformed/stalled out of 3992 on a normal run.
+        assert 47 / 3992 <= self.gate._MAX_DEGRADED_FETCH_RATE
+
+    def test_an_ats_changing_shape_is_caught(self):
+        # Greenhouse is ~1,000 boards; if its payload changed, every one of
+        # them would answer malformed and the ceiling has to trip.
+        assert 1000 / 3992 > self.gate._MAX_DEGRADED_FETCH_RATE
+
+    def test_caps_alone_can_never_trip_the_degradation_ceiling(self):
+        # The regression guard for the whole redesign: the number the ceiling
+        # reads must be built from broken responses only. If a future change
+        # folded INCOMPLETE_CAPPED into degraded_fetches, a busy peak-season
+        # afternoon would start blocking publishes all over again.
+        source = inspect.getsource(pipeline)
+        _, _, degraded = source.partition('"degraded_fetches"')
+        computation = degraded[:degraded.index("),")]
+        assert "INCOMPLETE_MALFORMED" in computation
+        assert "INCOMPLETE_STALLED" in computation
+        assert "INCOMPLETE_CAPPED" not in computation
 
 
 class TestDatePrecisionContract:

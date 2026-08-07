@@ -28,7 +28,7 @@ from urllib.parse import quote
 
 import httpx
 
-from . import config, filters, h1b, paths, sponsorship
+from . import config, filters, grouping, h1b, paths, sponsorship
 
 _MIN_HOURS_BETWEEN = 24          # a real rolling day; never double-spend quota
 # Backstop only — NOT the definition of "new". `sent_role_ids` decides that.
@@ -276,6 +276,9 @@ def _role_row(r: dict) -> str:
                   else _pill("cycle not stated", "#f6f8fa", "#57606a"))
 
     facts = [b for b in (r.get("location"), r.get("salary")) if b]
+    openings = r.get("openings") or 1
+    if openings > 1:
+        facts.append(f"{openings} openings")
     flag = sponsorship.flag(r.get("sponsorship"))
     if flag:
         facts.append(flag)
@@ -294,6 +297,31 @@ def _role_row(r: dict) -> str:
     )
 
 
+def _digest_rows(fresh: list[dict]) -> list[dict]:
+    """The cards this digest actually prints, identical openings folded once.
+
+    An employer filing three copies of one requisition used to spend three of
+    the thirty card slots saying the same thing. One card that says "3
+    openings" is both shorter and more informative.
+    """
+    return grouping.group(fresh)[:_MAX_ROLES]
+
+
+def listed_role_ids(fresh: list[dict]) -> list[str]:
+    """Every requisition id a printed card stands for.
+
+    `sent_role_ids` is what stops a role being mailed twice, so a card that
+    folded three ids has to mark all three as sent — otherwise the two it
+    absorbed look unsent and come back in tomorrow's digest.
+    """
+    return [
+        rid
+        for row in _digest_rows(fresh)
+        for rid in (row.get("opening_ids") or [row.get("id")])
+        if rid
+    ]
+
+
 def build_digest_html(fresh: list[dict]) -> str:
     """The digest body; {{UNSUB_URL}} is replaced per recipient at send time.
 
@@ -301,8 +329,12 @@ def build_digest_html(fresh: list[dict]) -> str:
     of a 60-row email.
     """
     repo = config.repo_slug()
-    rows = "".join(_role_row(r) for r in fresh[:_MAX_ROLES])
-    extra = len(fresh) - _MAX_ROLES
+    shown = _digest_rows(fresh)
+    rows = "".join(_role_row(r) for r in shown)
+    # "…plus N more" counts ROLES the reader can't see here, so it has to
+    # subtract the requisitions the printed cards already account for, not the
+    # number of cards.
+    extra = len(fresh) - sum(r.get("openings") or 1 for r in shown)
     if extra > 0:
         rows += (
             '<tr><td style="padding:10px 0;color:#666">'
@@ -688,7 +720,7 @@ def send_digest(store_data: dict) -> int:
         ))
         if not recipient_keys:
             return 0
-        listed_ids = [r["id"] for r in fresh[:_MAX_ROLES] if r.get("id")]
+        listed_ids = listed_role_ids(fresh)
         pending = {
             "created_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "role_ids": [r["id"] for r in fresh if r.get("id")],

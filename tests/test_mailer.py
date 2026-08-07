@@ -409,3 +409,32 @@ class TestDurableRecipientSettlement:
         address = "student@example.com"
         plain = hashlib.sha256(address.encode()).hexdigest()[:32]
         assert mailer._recipient_key(address, "secret") != plain
+
+
+# --- identical openings --------------------------------------------------------
+
+def _same_job(jid):
+    return _record(1, id=jid, url=f"https://x/{jid}",
+                   first_seen_at="2026-08-07T10:45:44Z")
+
+
+def test_digest_prints_identical_requisitions_as_one_card():
+    html = mailer.build_digest_html([_same_job(r) for r in ("a", "b", "c")])
+    assert html.count("border-bottom:1px solid #e6e8eb") == 1
+    assert "3 openings" in html
+
+
+def test_a_folded_card_marks_every_id_as_sent():
+    # sent_role_ids is what stops a role being mailed twice. If the two ids the
+    # card absorbed were left unmarked, tomorrow's digest would mail them again
+    # — which is exactly the duplicate-digest bug this list exists to prevent.
+    fresh = [_same_job(r) for r in ("a", "b", "c")]
+    assert sorted(mailer.listed_role_ids(fresh)) == ["a", "b", "c"]
+
+
+def test_plus_n_more_counts_roles_not_cards():
+    # 30 cards' worth of distinct roles, plus one job filed three times.
+    fresh = [_record(i / 4, id=f"u{i}", company=f"Co{i}") for i in range(mailer._MAX_ROLES)]
+    fresh += [_same_job(r) for r in ("a", "b", "c")]
+    html = mailer.build_digest_html(fresh)
+    assert "plus 3 more new role" in html

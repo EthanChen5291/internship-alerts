@@ -13,7 +13,7 @@ import os
 from datetime import UTC, datetime
 from html import escape
 
-from . import config, filters, h1b, paths, radar, sponsorship, trends
+from . import config, filters, grouping, h1b, paths, radar, sponsorship, trends
 
 
 def _hero(stats: dict, open_jobs: list[dict], proven_roles: int) -> str:
@@ -199,6 +199,24 @@ def _rows(open_jobs: list[dict]) -> str:
         # No account, no server: the star writes to this browser's localStorage.
         save = (f'<button class="star" type="button" data-id="{escape(jid)}" '
                 f'aria-label="Save this role" title="Save to your list">☆</button>')
+        # The employer opened this exact job more than once (Copart has eight
+        # live "Software Engineering Intern, Dallas" requisitions). One row
+        # that says so, with every requisition still one click away.
+        openings = r.get("openings") or 1
+        extra_urls = [u for u in (r.get("opening_urls") or []) if u][:6]
+        if openings > 1:
+            apply = " ".join(
+                [apply] + [
+                    f'<a href="{escape(u)}" target="_blank" rel="noopener" '
+                    f'title="Requisition {i + 2} of {openings}">#{i + 2}</a>'
+                    for i, u in enumerate(extra_urls)
+                ]
+            )
+        count_tag = (
+            f'<span class="opens" title="This employer has {openings} separate '
+            f'requisitions open for this same role and location — each one is a '
+            f'real application">{openings} openings</span>'
+        ) if openings > 1 else ""
         loc = escape((r.get("location") or "")[:48])
         # Sits beside the H-1B check in the company cell, mirroring the README
         # exactly — one vocabulary and one position across both surfaces.
@@ -215,11 +233,13 @@ def _rows(open_jobs: list[dict]) -> str:
             f'data-program="{escape(program)}" '
             f'data-posted="{escape(posted if posted != "—" else "")}" '
             f'data-inferred="{"1" if r.get("season_inferred") else "0"}" '
+            f'data-openings="{openings}" '
+            f'data-ids="{escape("|".join(r.get("opening_ids") or [jid]))}" '
             f'data-text="{escape(haystack)}">'
             f"<td class='c-save'>{save}</td>"
             f"<td>{escape(r.get('company', ''))}{check}{rmark}</td>"
             f"<td><span class='rt'>{escape(r.get('title', ''))}</span> "
-            f"{flag}{chips}</td>"
+            f"{flag}{count_tag}{chips}</td>"
             f"<td>{cycle_tag}</td>"
             f"<td>{escape(r.get('category', ''))}</td>"
             f"<td>{loc}</td>"
@@ -338,6 +358,11 @@ def generate(store_data: dict, stats: dict) -> None:
         key=lambda r: ((r.get("posted_at") or "")[:10], (r.get("first_seen_at") or "")),
         reverse=True,
     )
+    # One row per job, not per requisition. `open_jobs` stays the full list —
+    # every count on this page is still a count of real openings — but the
+    # table shows an employer's eight identical Dallas reqs as one row saying
+    # "8 openings" instead of eight rows a reader has to scroll past.
+    display_jobs = grouping.group(open_jobs)
     cfg = config.load_config()
     try:
         data_as_of_dt = datetime.strptime(
@@ -589,6 +614,12 @@ def generate(store_data: dict, stats: dict) -> None:
   .engine summary:hover {{ color:var(--accent); }}
   .kv th {{ width:200px; font-weight:600; color:var(--muted); }}
   .kv td {{ color:var(--txt); }}
+  /* "3 openings" — a fact about the employer's board, not a status of ours,
+     so it is a quiet outline rather than another coloured pill competing
+     with the cycle tags. */
+  .opens {{ display:inline-block; border:1px solid #d2992255; color:#e3b341;
+            background:#d2992214; padding:0 7px; border-radius:20px;
+            font-size:11.5px; margin-left:6px; white-space:nowrap; cursor:help; }}
   .sks {{ display:block; margin-top:3px; }}
   .sk {{ display:inline-block; background:#8b949e1a; color:var(--muted);
          border:1px solid var(--line); padding:0 6px; border-radius:10px;
@@ -698,7 +729,7 @@ def generate(store_data: dict, stats: dict) -> None:
   <table><thead><tr><th class="c-save" title="Save"></th><th>Company</th><th>Role</th>
   <th>Cycle</th><th>Category</th>
   <th>Location</th><th>Salary</th><th>Posted</th><th></th></tr></thead>
-  <tbody id="rows">{_rows(open_jobs)}</tbody></table>
+  <tbody id="rows">{_rows(display_jobs)}</tbody></table>
   </div>
   <p id="empty" class="muted empty" hidden>No roles match those filters.
     <button class="ghost" type="button" id="reset2">Clear filters</button></p>
@@ -745,8 +776,23 @@ def generate(store_data: dict, stats: dict) -> None:
   try {{ saved = JSON.parse(localStorage.getItem(KEY) || '{{}}') || {{}}; }} catch (e) {{ saved = {{}}; }}
   // Remove ids no longer present in the current artifact. Otherwise the badge
   // counts invisible roles that cannot be viewed, exported, or unstarred.
+  //
+  // A row can stand for several requisitions (an employer that opened the same
+  // job three times). Every one of those ids has to count as present, and a
+  // star on a requisition that is now represented by a sibling has to MOVE to
+  // the surviving row — otherwise folding the display would quietly delete
+  // roles a reader had saved.
   var currentIds = {{}};
-  rows.forEach(function (tr) {{ currentIds[tr.dataset.id] = true; }});
+  rows.forEach(function (tr) {{
+    var ids = (tr.dataset.ids || tr.dataset.id).split('|');
+    ids.forEach(function (id) {{ currentIds[id] = true; }});
+    if (ids.length > 1 && !saved[tr.dataset.id]) {{
+      for (var i = 0; i < ids.length; i++) {{
+        if (saved[ids[i]]) {{ saved[tr.dataset.id] = saved[ids[i]]; break; }}
+      }}
+    }}
+    ids.forEach(function (id) {{ if (id !== tr.dataset.id) delete saved[id]; }});
+  }});
   Object.keys(saved).forEach(function (id) {{ if (!currentIds[id]) delete saved[id]; }});
   function persist() {{
     try {{ localStorage.setItem(KEY, JSON.stringify(saved)); }} catch (e) {{ /* private mode */ }}
@@ -837,7 +883,10 @@ def generate(store_data: dict, stats: dict) -> None:
         && (!minPosted || (tr.dataset.posted && tr.dataset.posted >= minPosted))
         && (!statedOnly || tr.dataset.inferred === '0');
       tr.style.display = ok ? '' : 'none';
-      if (ok) shown++;
+      // Count OPENINGS, not rows. A row standing for eight requisitions is
+      // eight jobs you can apply to, and the headline number has to agree
+      // with the one in the hero and the JSON API.
+      if (ok) shown += parseInt(tr.dataset.openings || '1', 10) || 1;
     }});
     count.textContent = shown;
     empty.hidden = shown !== 0;

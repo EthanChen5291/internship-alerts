@@ -167,3 +167,56 @@ class TestHeaderCounts:
         assert any("4 have a cycle the employer stated · 0 are recent" in x
                    for x in lines)
         assert any("data as of Aug 06, 2026 at 14:08 UTC" in x for x in lines)
+
+
+class TestIdenticalOpenings:
+    """One row per job, one line per requisition kept reachable.
+
+    Copart really has eight live "Software Engineering Intern, Dallas"
+    requisitions. Eight identical rows is what a reader complained about; zero
+    of them disappearing is what the data promises.
+    """
+
+    def _store(self, n=3):
+        return {str(i): _rec(str(i)) for i in range(n)}
+
+    def test_the_table_shows_one_row(self, outputs):
+        readme.generate(self._store())
+        text = (outputs / "README.md").read_text(encoding="utf-8")
+        assert text.count("| Acme | Software Engineer Intern") == 1
+
+    def test_the_row_says_how_many_openings(self, outputs):
+        readme.generate(self._store())
+        text = (outputs / "README.md").read_text(encoding="utf-8")
+        assert "(3 openings)" in text
+
+    def test_every_requisition_keeps_an_apply_link(self, outputs):
+        readme.generate(self._store())
+        text = (outputs / "README.md").read_text(encoding="utf-8")
+        for jid in ("0", "1", "2"):
+            assert f"https://x/{jid}" in text
+
+    def test_the_headline_count_still_counts_openings(self, outputs):
+        # "3 open roles" stays true — the grouping is a layout decision, not a
+        # claim that two of the jobs stopped existing.
+        readme.generate(self._store())
+        text = (outputs / "README.md").read_text(encoding="utf-8")
+        assert "3 open roles" in text
+        assert "(1 listed below)" not in text
+
+    def test_the_csv_still_exports_every_requisition(self, outputs):
+        # The machine-readable export is where all three ids must survive.
+        readme.generate(self._store())
+        with open(paths.CSV_PATH, newline="", encoding="utf-8") as f:
+            rows = list(csv.DictReader(f))
+        assert sorted(r["id"] for r in rows) == ["0", "1", "2"]
+
+    def test_a_different_location_is_not_folded_away(self, outputs):
+        store = self._store(2)
+        store["1"]["location"] = "Seattle, WA"
+        readme.generate(store)
+        text = (outputs / "README.md").read_text(encoding="utf-8")
+        assert text.count("| Acme | Software Engineer Intern") == 2
+        # No row claims a count (the legend explaining the marker is not a row).
+        rows = [ln for ln in text.splitlines() if ln.startswith("| Acme |")]
+        assert rows and not any("openings)" in ln for ln in rows)

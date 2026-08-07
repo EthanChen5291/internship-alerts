@@ -39,6 +39,11 @@ HEADERS = {
 
 _DAYS_AGO = re.compile(r"(\d+)\s*\+?\s*days?\s+ago", re.IGNORECASE)
 
+# A requisition id as Workday writes it: letters/digits/dashes, at least one
+# digit, no whitespace. Deliberately narrow — this is only ever accepted after
+# the externalPath cross-check below agrees with it.
+_REQ_ID = re.compile(r"^(?=[A-Za-z0-9-]*\d)[A-Za-z0-9][A-Za-z0-9-]{1,31}$")
+
 _PAGE_SIZE = 20   # hard server-side cap per request
 _MAX_JOBS = 200   # per search term; big tenants list hundreds of "intern" hits
 # Workday's searchText is literal enough that "intern" misses "Co-Op Engineer".
@@ -62,6 +67,36 @@ def _resolve_posted(text: str | None) -> str | None:
             return None
         days = int(match.group(1))
     return (datetime.now(UTC) - timedelta(days=days)).strftime("%Y-%m-%dT00:00:00Z")
+
+
+def _requisition_id(posting: dict, path: str) -> str | None:
+    """The tenant's own requisition number, or None if we can't prove one.
+
+    One tenant may run several career sites, and a requisition posted to more
+    than one gets a DIFFERENT externalPath on each: Tencent's R107752 is
+    `..._R107752` on OA_Huoshui_Platform and `..._R107752-1` on Tencent_Careers.
+    Both resolve to jobReqId R107752 with a byte-identical description, so the
+    path alone makes one job look like two.
+
+    `bulletFields` carries the real number, but it is a free-form display slot —
+    some tenants put a location or a job family in it. So it is only trusted
+    when the externalPath independently agrees: the path must end in that same
+    token, optionally followed by Workday's `-N` per-site uniquifier. When both
+    say R107752, that is not a guess.
+    """
+    bullets = posting.get("bulletFields")
+    if not isinstance(bullets, list):
+        return None
+    for bullet in bullets:
+        if not isinstance(bullet, str):
+            continue
+        candidate = bullet.strip()
+        if not _REQ_ID.match(candidate):
+            continue
+        tail = path.rsplit("_", 1)[-1] if "_" in path else ""
+        if tail == candidate or re.fullmatch(rf"{re.escape(candidate)}-\d+", tail):
+            return candidate
+    return None
 
 
 def _urls(company: dict) -> tuple[str, str]:
@@ -124,19 +159,31 @@ async def fetch(company: dict, net: Net) -> Fetch:
             for posting in postings:
                 path = posting.get("externalPath") or ""
                 posted = _resolve_posted(posting.get("postedOn"))
+                location = (posting.get("locationsText") or "—").strip() or "—"
+                requisition = _requisition_id(posting, path)
+                # Scoped by TENANT because Workday req numbers are only unique
+                # inside one tenant, and by LOCATION because a requisition
+                # advertised in two cities is two openings — merging those
+                # would delete a real place someone could work.
+                canonical = (
+                    f"{tenant}:{requisition}:{re.sub(r'[^a-z0-9]+', ' ', location.lower()).strip()}"
+                    if requisition else None
+                )
                 job = Job(
                     id=f"workday:{tenant}:{path or posting.get('title')}",
                     source="workday",
                     company=company["name"],
                     company_slug=tenant,
                     title=(posting.get("title") or "").strip(),
-                    location=(posting.get("locationsText") or "—").strip() or "—",
+                    location=location,
                     url=(base + path) if path else base,
                     posted_at=posted,
                     # "Posted 6 Days Ago" arithmetic, not a real date. Labeled
                     # so the detail page's true date can supersede it later.
                     posted_at_source="relative_derived" if posted else None,
                     board_key=source_board_key(company, "workday", tenant),
+                    canonical_id=canonical,
+                    requisition_id=requisition,
                 )
                 jobs.setdefault(job.id, job)
             if len(postings) < _PAGE_SIZE:

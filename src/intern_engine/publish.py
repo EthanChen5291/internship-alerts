@@ -15,7 +15,7 @@ import os
 from datetime import UTC, datetime, timedelta
 from xml.sax.saxutils import escape, quoteattr
 
-from . import config, filters, h1b, paths, radar, sponsorship
+from . import config, filters, grouping, h1b, paths, radar, sponsorship
 
 # Big enough that a burst day (or a role that opened and closed between two
 # reader polls) still fits; 50 could drop roles from the feed unseen.
@@ -45,7 +45,9 @@ def _entry(record: dict, base: str, data_as_of: str | None = None) -> str:
     title = f"{record.get('company', '')}: {record.get('title', '')}"
     if flag:
         title += f" {flag}"
-    summary_bits = [
+    openings = record.get("openings") or 1
+    summary_bits = [f"{openings} openings"] if openings > 1 else []
+    summary_bits += [
         record.get("season") or "",
         record.get("category") or "",
         record.get("location") or "",
@@ -98,6 +100,11 @@ def write_feed(store_data: dict, data_as_of: str | None = None) -> int:
             seen = None
         if record.get("is_open") or (seen is not None and seen >= cutoff):
             entries.append(record)
+    # One entry per job, not per requisition — a reader's feed app should not
+    # ping three times because an employer filed three identical reqs. Open and
+    # closed never merge (the group key carries is_open), and the entry id is
+    # the earliest-seen member's, so it stays stable as siblings appear.
+    entries = grouping.group(entries)
     entries.sort(key=_first_seen, reverse=True)
     entries = entries[:_FEED_LIMIT]
 

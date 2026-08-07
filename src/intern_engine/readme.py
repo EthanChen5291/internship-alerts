@@ -14,7 +14,17 @@ import os
 from datetime import UTC, datetime, timedelta
 from urllib.parse import quote
 
-from . import config, filters, h1b, paths, priority, radar, skills, sponsorship
+from . import (
+    config,
+    filters,
+    grouping,
+    h1b,
+    paths,
+    priority,
+    radar,
+    skills,
+    sponsorship,
+)
 
 
 def _engine_metrics() -> str:
@@ -98,7 +108,10 @@ def _pretty_date(record: dict) -> str:
 
 
 def _is_new(record: dict, hours: int = 48) -> bool:
-    seen = (record.get("first_seen_at") or "")[:19]
+    # For a grouped row, "new" means any of its openings is new. The row's
+    # representative is the oldest member on purpose (stable id), so reading
+    # only its own first_seen would hide a requisition added this morning.
+    seen = (record.get("opening_newest") or record.get("first_seen_at") or "")[:19]
     if not seen:
         return False
     try:
@@ -130,10 +143,21 @@ def _cells(record: dict) -> tuple[str, str, str, str, str, str, str]:
     )
     if badges:
         title = f"{title} {badges}"
+    # The employer opened this same job more than once. Say so on the row and
+    # link every requisition, rather than repeating the row N times.
+    openings = record.get("openings") or 1
+    if openings > 1:
+        title += f" _({openings} openings)_"
     ordered_skills = skills.sort_by_signal(record.get("skills"), record.get("title"))[:4]
     skill_tags = _md_cell(", ".join(ordered_skills)) if ordered_skills else "No skills listed"
     url = record.get("url") or ""
     apply = "Closed" if not is_open else (f"[Apply]({url})" if url else "—")
+    if is_open and url and openings > 1:
+        extra = [u for u in (record.get("opening_urls") or []) if u]
+        apply = " ".join(
+            [f"[Apply]({url})"]
+            + [f"[#{i + 2}]({u})" for i, u in enumerate(extra[:6])]
+        )
     return (
         company, title,
         _md_cell(record.get("category")),
@@ -377,6 +401,12 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "**no cycle guessed for them**. Same quality bar, different amount of "
         "evidence.",
         "- The **Posted** column is the date the company published the role.",
+        "- **_(3 openings)_ after a role title** = the employer has that many "
+        "separate live requisitions for the same job, in the same place, for "
+        "the same cycle. They're all real and each takes its own application, "
+        "so they're linked individually (**Apply**, then **#2**, **#3**) "
+        "instead of repeating the row. Counts still count requisitions, and "
+        "the CSV export is never grouped.",
         f"- **{REMOTE_MARK} after a company name** = **this role is remote** — "
         "the posting's own location or title says so. It marks the role on that "
         "row, not the whole company.",
@@ -637,8 +667,12 @@ def generate(store_data: dict, data_as_of: str | None = None) -> dict:
     seen_display: set[str] = set()
     for region in ("US", "International"):
         for cycle in cycles:
+            # Group BEFORE selecting, so an employer that opened one job eight
+            # times spends one row of the per-company budget instead of eight —
+            # the cap exists for variety, and eight copies of one title is the
+            # opposite of variety.
             rows = _select(
-                groups.get((region, cycle)) or [],
+                grouping.group(groups.get((region, cycle)) or []),
                 config.section_limit(cfg, cycle),
                 per_company,
             )
@@ -650,8 +684,13 @@ def generate(store_data: dict, data_as_of: str | None = None) -> dict:
                         seen_display.add(r.get("id"))
                         displayed.append(r)
 
-    rolling_rows = _select(inferred, None, per_company)
-    shown_total = len(displayed) + len(rolling_rows)
+    rolling_rows = _select(grouping.group(inferred), None, per_company)
+    # Count OPENINGS, not rows: a row that says "3 openings" has put three of
+    # the total on the page, and "165 open roles (158 listed below)" would
+    # otherwise under-report what a reader can actually reach.
+    shown_total = sum(
+        r.get("openings") or 1 for r in (*displayed, *rolling_rows)
+    )
 
     endpoints, employers = _company_count()
     lines = _header(cfg, len(open_jobs), endpoints,

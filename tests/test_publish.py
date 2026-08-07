@@ -76,3 +76,48 @@ class TestApi:
         assert job["company"] == "Stripe"
         assert job["sponsorship"] == "no-sponsorship"
         assert "is_open" not in job  # only open roles ship, flag is redundant
+
+
+def _req(jid, **extra):
+    rec = {
+        "id": jid, "company": "GDIT",
+        "title": "Summer 2027 Software Developer Internship",
+        "season": "Summer 2027", "category": "Software",
+        "location": "USA MD Annapolis Junction", "url": f"https://x/{jid}",
+        "posted_at": "2026-08-06T00:00:00Z", "first_seen_at": "2026-08-07T10:45:44Z",
+        "sponsorship": "unknown", "source": "workday", "is_open": True,
+    }
+    rec.update(extra)
+    return rec
+
+
+def test_feed_emits_one_entry_for_identical_requisitions():
+    # A reader's feed app should not ping three times because one employer
+    # filed three copies of the same job.
+    publish.write_feed({r: _req(r) for r in ("a", "b", "c")})
+    tree = ET.parse(paths.FEED_PATH)
+    entries = tree.findall("{http://www.w3.org/2005/Atom}entry")
+    assert len(entries) == 1
+    summary = entries[0].find("{http://www.w3.org/2005/Atom}summary").text
+    assert "3 openings" in summary
+
+
+def test_feed_never_folds_a_closed_requisition_into_a_live_one():
+    publish.write_feed({
+        "a": _req("a"),
+        "b": _req("b", is_open=False, closed_at="2026-08-07T12:00:00Z"),
+    })
+    tree = ET.parse(paths.FEED_PATH)
+    entries = tree.findall("{http://www.w3.org/2005/Atom}entry")
+    assert len(entries) == 2
+
+
+def test_the_json_api_still_exports_every_requisition():
+    # The API is the machine surface: grouping is a reading aid and must not
+    # reach it, or a consumer loses two real application links.
+    store = {r: _req(r) for r in ("a", "b", "c")}
+    publish.write_api(store, {"open_total": 3})
+    with open(os.path.join(paths.API_DIR, "jobs.json"), encoding="utf-8") as f:
+        api = json.load(f)
+    assert api["count"] == 3
+    assert sorted(j["id"] for j in api["jobs"]) == ["a", "b", "c"]

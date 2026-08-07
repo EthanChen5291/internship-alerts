@@ -138,6 +138,33 @@ A forecast of when companies usually open, from two sources:
 posted somewhere. Only roles whose cycle the employer stated become
 observations; a guess is never projected forward as if it were fact.
 
+## "N openings" on a row
+
+Employers really do open the same job several times. Copart currently has eight
+live `Software Engineering Intern` requisitions for Dallas; GDIT filed
+RQ225450, RQ225456 and RQ225469 for one Annapolis Junction role in a single
+morning. Each one is a separate requisition with its own id and its own
+application, so none of them is a duplicate and we delete none of them.
+
+Showing you eight identical rows is still bad reading, so a row that says
+**"3 openings"** means: *this employer has three separate live requisitions for
+the same title, in the same place, for the same cycle.* Every one of them is
+linked from that row (`Apply`, then `#2`, `#3`, …).
+
+What this is **not**: it is not deduplication and it never merges two things
+that might be different jobs. A different location, a different work mode
+(on-site vs remote), a different cycle, or a closed-vs-open pair are always
+separate rows. The only thing folded is an exact repeat.
+
+The counts do not change. "165 open roles" still counts requisitions, so a row
+saying "3 openings" contributes 3. The CSV and the JSON API are never grouped —
+they always carry one record per requisition, with every id.
+
+Separately, one *genuine* duplicate is removed rather than grouped: when a
+company runs more than one career site on the same ATS tenant, the same
+requisition can appear on both under different URLs. We collapse those only
+when the ATS's own requisition number proves they are one posting.
+
 ## Counts you'll see, and what they mean
 
 | Where | Number | Denominator |
@@ -145,7 +172,8 @@ observations; a guess is never projected forward as if it were fact.
 | Hero / API | open roles | every open role in the store |
 | Hero | with a stated cycle | roles whose employer named the cycle |
 | README tables | "listed below" | after a per-company display cap |
-| `internships.csv` | every open role | no cap — this is the full export |
+| Any row | "N openings" | separate live requisitions for the same job (see above) |
+| `internships.csv` | every open role | no cap, never grouped — the full export |
 | Engine health | fetch success | shown against *both* boards attempted and the full registry |
 
 ## Verifying any of this yourself
