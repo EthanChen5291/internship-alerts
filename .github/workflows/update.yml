@@ -95,13 +95,16 @@ jobs:
             exit 1
           fi
           git push origin HEAD:main
-          echo "pushed=true" >> "$GITHUB_OUTPUT"
-          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-          # The fingerprint the next step waits to see served from the live
-          # site. `rendered_at` is written by this run and by no other.
-          echo "rendered_at=$(python -c 'import json; print(json.load(open("data/stats.json"))["rendered_at"])')" >> "$GITHUB_OUTPUT"
-          # Same derivation as config.pages_base(): owner lowercased, repo as-is.
-          echo "pages_url=https://$(echo "${GITHUB_REPOSITORY%%/*}" | tr "[:upper:]" "[:lower:]").github.io/${GITHUB_REPOSITORY#*/}" >> "$GITHUB_OUTPUT"
+          OWNER="$(echo "${GITHUB_REPOSITORY%%/*}" | tr '[:upper:]' '[:lower:]')"
+          # `rendered_at` is the fingerprint the next step waits to see served
+          # from the live site: this run wrote it and no other run can have it.
+          # `pages_url` mirrors config.pages_base() — owner lowercased, repo as-is.
+          {
+            echo "pushed=true"
+            echo "sha=$(git rev-parse HEAD)"
+            echo "rendered_at=$(python -c 'import json; print(json.load(open("data/stats.json"))["rendered_at"])')"
+            echo "pages_url=https://${OWNER}.github.io/${GITHUB_REPOSITORY#*/}"
+          } >> "$GITHUB_OUTPUT"
 
       # A git push is not yet a public dashboard. During the Aug 6 incident,
       # update #369 pushed successfully while its Pages deploy timed out, so an
