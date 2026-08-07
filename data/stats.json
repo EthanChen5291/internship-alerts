@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-07T00:49:01Z",
-  "fetched_at": "2026-08-07T00:49:01Z",
-  "duration_seconds": 901.2,
+  "generated_at": "2026-08-07T02:16:08Z",
+  "fetched_at": "2026-08-07T02:16:08Z",
+  "duration_seconds": 870.0,
   "companies_total": 3908,
   "companies_by_source": {
     "greenhouse": 986,
@@ -18,25 +18,25 @@
     "eightfold": 1
   },
   "quarantined": 47,
-  "fetched_ok": 3711,
-  "fetch_errors": 150,
+  "fetched_ok": 3855,
+  "fetch_errors": 6,
   "errors_by_source": {
-    "workable": 55,
-    "workday": 93,
-    "ashby": 2
+    "workday": 3,
+    "ashby": 2,
+    "lever": 1
   },
-  "fetch_success_rate": 0.961,
-  "fetch_success_rate_registry": 0.95,
-  "snapshots_complete": 3231,
-  "snapshots_partial": 480,
+  "fetch_success_rate": 0.998,
+  "fetch_success_rate_registry": 0.986,
+  "snapshots_complete": 3318,
+  "snapshots_partial": 537,
   "partial_by_reason": {
-    "result-cap": 470,
-    "malformed-response": 10
+    "result-cap": 524,
+    "malformed-response": 13
   },
-  "degraded_fetches": 10,
-  "roles_matched": 136,
-  "dropped_no_year_in_title": 380,
-  "dropped_offcycle_by_text": 30,
+  "degraded_fetches": 13,
+  "roles_matched": 141,
+  "dropped_no_year_in_title": 387,
+  "dropped_offcycle_by_text": 32,
   "roles_cycle_inferred": 60,
   "roles_by_source": {
     "amazon": 5,
@@ -63,15 +63,15 @@
     "offers": 4
   },
   "posted_date_coverage": 1.0,
-  "enriched_this_run": 136,
-  "enrichment_detail_fetches": 106,
+  "enriched_this_run": 35,
+  "enrichment_detail_fetches": 5,
   "purged_this_run": 0,
-  "new_this_run": 27,
+  "new_this_run": 0,
   "open_total": 146,
   "detection_latency": {
-    "median_minutes": 131.9,
+    "median_minutes": 125.2,
     "p95_minutes": 4100.7,
-    "sample_size": 12,
+    "sample_size": 11,
     "window_days": 7,
     "basis": "roles published in the window with an exact source timestamp"
   },
@@ -79,5 +79,5 @@
     "median_days": 11.5,
     "sample_size": 52
   },
-  "rendered_at": "2026-08-07T00:49:02Z"
+  "rendered_at": "2026-08-07T02:16:09Z"
 }

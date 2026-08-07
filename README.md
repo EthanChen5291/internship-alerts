@@ -8,7 +8,7 @@
 
 ### 146 open roles (126 listed below) · 61 new this week
 
-3,828 employers tracked · data as of Aug 07, 2026 at 00:49 UTC
+3,828 employers tracked · data as of Aug 07, 2026 at 02:16 UTC
 
 _86 have a cycle the employer stated · 60 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -126,8 +126,8 @@ If it helps you, a star means a lot and tells me to keep going.
 | Flow Traders | Quantitative Trading Intern Summer 2027 🆕 | Quant | New York | No skills listed | Jul 08, 2026 | [Apply](https://job-boards.greenhouse.io/flowtraders/jobs/8047166) |
 | Tower Research Capital ✓ | Quantitative Trader Intern - Summer 2027 🆕 | Quant | New York, Chicago | Python, C++, Linux | Jul 05, 2026 | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8024128) |
 | Tower Research Capital ✓ | Quantitative Developer Intern - Summer 2027 | Quant | New York, Chicago | Python, C++, Linux | Jul 05, 2026 | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8044334) |
-| IMC Trading ✓ | Quantitative Research Intern (BS/MS) - Summer 2027 🆕 | Quant | Chicago, United States | Python, C++ | Jul 01, 2026 | [Apply](https://job-boards.eu.greenhouse.io/imc/jobs/4907399101) |
 | IMC Trading ✓ | Quantitative Trader Intern - Summer 2027 🆕 | Quant | Chicago, United States | Python, MATLAB | Jul 01, 2026 | [Apply](https://job-boards.eu.greenhouse.io/imc/jobs/4823923101) |
+| IMC Trading ✓ | Quantitative Research Intern (BS/MS) - Summer 2027 🆕 | Quant | Chicago, United States | Python, C++ | Jul 01, 2026 | [Apply](https://job-boards.eu.greenhouse.io/imc/jobs/4907399101) |
 | IMC Trading ✓ | Software Engineer Intern - Summer 2027 | Software | Chicago, United States | Java, C++ | Jul 01, 2026 | [Apply](https://job-boards.eu.greenhouse.io/imc/jobs/4823924101) |
 | Voloridge | Quantitative Research Intern 2027 🆕 | Quant | Jupiter, FL | Python | Jun 11, 2026 | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4226247009) |
 | Voloridge | Quantitative Developer Intern 2027 | Quant | Jupiter, FL | Python, C++, C#, SQL | Jun 11, 2026 | [Apply](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224862009) |
@@ -210,14 +210,14 @@ These postings never name a cycle — not in the title, not in the posting text 
 | ACDS | AI Operations Intern-Caddell Reynolds | Data & ML/AI | Fort Smith, AR | LLMs | Jul 20, 2026 | [Apply](https://jobs.lever.co/acds/01fdf41b-a835-4e00-8d01-0275677a8f08) |
 | Intel ✓ | AI Software Engineering Intern | Data & ML/AI | US, Arizona, Phoenix | Python, C++, PyTorch, TensorFlow | Jul 17, 2026 | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641) |
 | Tencent | Research Intern – Video World Models (Research & ML Systems) | Data & ML/AI | US-California-Palo Alto | Python, PyTorch, LLMs, CUDA | Jul 15, 2026 | [Apply](https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1) |
-| DRW ✓ | Quantitative Research Intern 🆕 | Quant | Chicago, New York City | Python, scikit-learn, Pandas | Jul 13, 2026 | [Apply](https://job-boards.greenhouse.io/drweng/jobs/7818540) |
 | DRW ✓ | Quantitative Trading Analyst Intern 🆕 | Quant | Chicago, Illinois | Python | Jul 13, 2026 | [Apply](https://job-boards.greenhouse.io/drweng/jobs/7668776) |
+| DRW ✓ | Quantitative Research Intern 🆕 | Quant | Chicago, New York City | Python, scikit-learn, Pandas | Jul 13, 2026 | [Apply](https://job-boards.greenhouse.io/drweng/jobs/7818540) |
 | ACDS | AI Operations Intern - Naukr AI | Data & ML/AI | Bentonville, AR | SQL, LLMs | Jul 13, 2026 | [Apply](https://jobs.lever.co/acds/41bee5e2-6477-428f-b359-34b4071d545f) |
 | Xsolla | AI-First Engineering Intern | Data & ML/AI | Raleigh, United States | Git | Jul 10, 2026 | [Apply](https://jobs.lever.co/xsolla/5d5fd6b3-d82f-437a-b251-abf4674ac874) |
 | Xsolla | AI-First Engineering Intern | Data & ML/AI | Los Angeles, United States | Git | Jul 10, 2026 | [Apply](https://jobs.lever.co/xsolla/1c0e5375-2352-4a2c-a816-48ddebbdd3d6) |
 | Manhattan Associates ✓ | A.I. Developer Co-Op (Boston, MA) | Software | US - Home Office | Python, Java, JavaScript, LLMs | Jul 10, 2026 | [Apply](https://manh.wd5.myworkdayjobs.com/campus/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_16931) |
-| Jump Trading ✓ | Campus Quantitative Researcher, UG/MS (Intern) 🆕 | Quant | Chicago; New York | Python, C++ | Jul 08, 2026 | [Apply](https://www.jumptrading.com/hr/job?gh_jid=7982648) |
 | Jump Trading ✓ | Campus Quantitative Trader (Intern) 🆕 | Quant | Chicago; New York | No skills listed | Jul 08, 2026 | [Apply](https://www.jumptrading.com/hr/job?gh_jid=7848371) |
+| Jump Trading ✓ | Campus Quantitative Researcher, UG/MS (Intern) 🆕 | Quant | Chicago; New York | Python, C++ | Jul 08, 2026 | [Apply](https://www.jumptrading.com/hr/job?gh_jid=7982648) |
 | Jump Trading ✓ | Campus AI Research Engineer (Intern) | Data & ML/AI | Chicago; New York | Python, C++, PyTorch, TensorFlow | Jul 08, 2026 | [Apply](https://www.jumptrading.com/hr/job?gh_jid=8052281) |
 | Bot Auto | Intern, Deep Learning Engineer | Data & ML/AI | Houston, TX | Python, C++, PyTorch, LLMs | Jul 02, 2026 | [Apply](https://job-boards.greenhouse.io/botauto/jobs/5289440008) |
 | ConnectPrep 🆁 | Data Analyst Internship 🇺🇸 | Data & ML/AI | Washington +2 more | Python, SQL, Pandas, Tableau | Jul 02, 2026 | [Apply](https://apply.workable.com/connectprep/j/C0CA13664F/) |
@@ -331,7 +331,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,711 of 3,908 registered boards returned successfully across 12 ATS platforms (96% of boards attempted, 95% of the full registry) · completed in 901.2s · 480 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,855 of 3,908 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 98% of the full registry) · completed in 870.0s · 537 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 

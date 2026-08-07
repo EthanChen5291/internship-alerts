@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-07T00:49:01Z",
- "data_as_of": "2026-08-07T00:49:01Z",
- "rendered_at": "2026-08-07T00:49:02Z",
+ "generated_at": "2026-08-07T02:16:08Z",
+ "data_as_of": "2026-08-07T02:16:08Z",
+ "rendered_at": "2026-08-07T02:16:09Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -35,7 +35,7 @@
    "expected": "2025-09-12",
    "days_until": -329,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8657500002",
+   "url": "https://job-boards.greenhouse.io/virtu/jobs/8142539002",
    "note": "trading cycle opens very early",
    "provenance": {
     "type": "engine-observed",
@@ -92,7 +92,7 @@
    "expected": "2026-06-01",
    "days_until": -67,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006",
+   "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676334006",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -168,7 +168,7 @@
    "expected": "2026-07-01",
    "days_until": -37,
    "status": "open",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823924101",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823923101",
    "note": "posts early, rolling",
    "provenance": {
     "type": "engine-observed",
@@ -187,7 +187,7 @@
    "expected": "2026-07-05",
    "days_until": -33,
    "status": "open",
-   "url": "https://www.tower-research.com/open-positions/?gh_jid=8044334",
+   "url": "https://www.tower-research.com/open-positions/?gh_jid=8024128",
    "note": "opens ~Aug-Sep",
    "provenance": {
     "type": "engine-observed",
@@ -263,7 +263,7 @@
    "expected": "2026-07-13",
    "days_until": -25,
    "status": "open",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062",
    "note": "opens fall, closes early Feb",
    "provenance": {
     "type": "engine-observed",
@@ -282,7 +282,7 @@
    "expected": "2026-07-14",
    "days_until": -24,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008",
+   "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008",
    "note": "opens ~Aug, very early",
    "provenance": {
     "type": "engine-observed",
@@ -377,7 +377,7 @@
    "expected": "2026-07-20",
    "days_until": -18,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005",
+   "url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -548,7 +548,7 @@
    "expected": "2026-08-03",
    "days_until": -4,
    "status": "open",
-   "url": "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667",
+   "url": "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Cloud-Engineer-Future---Summer-2027-Internship-_R015668",
    "note": "",
    "provenance": {
     "type": "engine-observed",
