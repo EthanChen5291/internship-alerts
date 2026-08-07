@@ -356,6 +356,18 @@
     }
    }
   },
+  "duke energy": {
+   "name": "Duke Energy",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-07",
+     "role_ids": [
+      "workday:dukeenergy:/job/Charlotte-NC/Asc-Cybersecurity-Gov-Risk-Analyst---Intern-Co-op-Conversion-2027--Souza-_R40863"
+     ],
+     "count": 1
+    }
+   }
+  },
   "ellipsis labs": {
    "name": "Ellipsis Labs",
    "cycles": {
@@ -739,9 +751,19 @@
     "Fall 2026": {
      "first_posted": "2026-08-07",
      "role_ids": [
-      "greenhouse:thenuclearcompany:5383113008"
+      "greenhouse:thenuclearcompany:5383113008",
+      "greenhouse:thenuclearcompany:5383163008"
      ],
-     "count": 1
+     "count": 2
+    },
+    "Summer 2027": {
+     "first_posted": "2026-08-07",
+     "role_ids": [
+      "greenhouse:thenuclearcompany:5383231008",
+      "greenhouse:thenuclearcompany:5383236008",
+      "greenhouse:thenuclearcompany:5383244008"
+     ],
+     "count": 3
     }
    }
   },
@@ -1299,5 +1321,5 @@
    }
   }
  },
- "updated_at": "2026-08-07T17:47:50Z"
+ "updated_at": "2026-08-07T18:45:14Z"
 }
