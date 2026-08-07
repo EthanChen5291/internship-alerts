@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-07T14:10:24Z",
- "data_as_of": "2026-08-07T14:10:24Z",
- "rendered_at": "2026-08-07T14:10:25Z",
+ "generated_at": "2026-08-07T17:47:50Z",
+ "data_as_of": "2026-08-07T17:47:50Z",
+ "rendered_at": "2026-08-07T17:47:50Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -576,6 +576,25 @@
    }
   },
   {
+   "company": "Belvedere Trading",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-04",
+   "days_until": -3,
+   "status": "open",
+   "url": "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab",
+   "note": "trading cycle opens very early",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-04"
+   }
+  },
+  {
    "company": "RTX",
    "last_cycle_posted": "",
    "posted_on": "2026-08-04",
@@ -630,6 +649,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-05"
+   }
+  },
+  {
+   "company": "Atoms",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-06",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-06",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/cssmerge/jobs/8687896002",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-06"
    }
   },
   {
@@ -800,25 +838,6 @@
    "provenance": {
     "type": "verified-window",
     "url": "https://www.bamfunds.com/careers/",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
-   "company": "Belvedere Trading",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-07-01",
-   "days_until": -37,
-   "status": "waiting",
-   "url": "",
-   "note": "trading cycle opens very early",
-   "provenance": {
-    "type": "verified-window",
-    "url": "https://belvederetrading.com/careers/",
     "verified_at": "2026-07-21"
    }
   },
@@ -3350,5 +3369,5 @@
    }
   }
  ],
- "count": 176
+ "count": 177
 }

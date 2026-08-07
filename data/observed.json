@@ -143,6 +143,18 @@
     }
    }
   },
+  "atoms": {
+   "name": "Atoms",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-06",
+     "role_ids": [
+      "greenhouse:cssmerge:8687896002"
+     ],
+     "count": 1
+    }
+   }
+  },
   "axon": {
    "name": "Axon",
    "cycles": {
@@ -175,6 +187,19 @@
      "first_posted": "2026-06-02",
      "count": 0,
      "role_ids": []
+    }
+   }
+  },
+  "belvedere trading": {
+   "name": "Belvedere Trading",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-04",
+     "role_ids": [
+      "lever:belvederetrading:10746b3d-1760-4573-9b63-b93f5a5e4fc0",
+      "lever:belvederetrading:cbde47db-c60b-4339-a8f4-a8e4f30505ab"
+     ],
+     "count": 2
     }
    }
   },
@@ -522,6 +547,18 @@
     }
    }
   },
+  "johnson johnson": {
+   "name": "Johnson & Johnson",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-08-07",
+     "role_ids": [
+      "workday:jj:/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820"
+     ],
+     "count": 1
+    }
+   }
+  },
   "jpmorganchase": {
    "name": "JPMorganChase",
    "cycles": {
@@ -693,6 +730,18 @@
      "role_ids": [
       "ashby:notion:5b15697c-fa91-4511-9482-c98a6ff29f90"
      ]
+    }
+   }
+  },
+  "nuclear": {
+   "name": "The Nuclear Company",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-08-07",
+     "role_ids": [
+      "greenhouse:thenuclearcompany:5383113008"
+     ],
+     "count": 1
     }
    }
   },
@@ -1250,5 +1299,5 @@
    }
   }
  },
- "updated_at": "2026-08-07T14:10:24Z"
+ "updated_at": "2026-08-07T17:47:50Z"
 }

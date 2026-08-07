@@ -5,8 +5,64 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-07T14:10:24Z</updated>
+  <updated>2026-08-07T17:47:50Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:cssmerge:8687896002</id>
+    <title>Atoms: Software Engineer Intern - Summer 2027</title>
+    <link href="https://job-boards.greenhouse.io/cssmerge/jobs/8687896002"/>
+    <updated>2026-08-07T17:47:50Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Los Angeles, CA · $70/hr · Python, Java, C++, Kotlin, Ruby</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:belvederetrading:cbde47db-c60b-4339-a8f4-a8e4f30505ab</id>
+    <title>Belvedere Trading: Quantitative Trading Intern - Summer 2027</title>
+    <link href="https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab"/>
+    <updated>2026-08-07T17:47:50Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Quant · Chicago, Illinois · 140,000 USD/yr · Python, C++, C#</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:belvederetrading:10746b3d-1760-4573-9b63-b93f5a5e4fc0</id>
+    <title>Belvedere Trading: Software Engineer Intern - Summer 2027</title>
+    <link href="https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0"/>
+    <updated>2026-08-07T17:47:50Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Chicago, Illinois · 130,000 USD/yr · Java, C++, C#</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101510</id>
+    <title>Copart: Software Engineering Intern</title>
+    <link href="https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101510"/>
+    <updated>2026-08-07T17:47:50Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Dallas, TX - Headquarters · Python, Java, TypeScript, JavaScript, SQL · H-1B track record: ~83 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:copart:/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636</id>
+    <title>Copart: Database Engineering Intern</title>
+    <link href="https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636"/>
+    <updated>2026-08-07T17:47:50Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Dallas, TX - Headquarters · Python, JavaScript, SQL, Pandas, HTML/CSS · H-1B track record: ~83 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:jj:/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820</id>
+    <title>Johnson &amp; Johnson: Software Engineer Coop 🛂</title>
+    <link href="https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820"/>
+    <updated>2026-08-07T17:47:50Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Cincinnati, Ohio, United States of America · Python, C++, Linux · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:thenuclearcompany:5383113008</id>
+    <title>The Nuclear Company: Fall 2026 AI Software Engineering Intern 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383113008"/>
+    <updated>2026-08-07T17:47:50Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Washington, DC · Python, Java, C++, Rust, TypeScript · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:bcbsla:/job/Corporate---Baton-Rouge-LA/CW-Operational-Reporting---Data-Analyst-Intern_R11907</id>
     <title>Louisiana Blue: CW Operational Reporting &amp; Data Analyst Intern</title>
@@ -363,9 +419,9 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573</id>
     <title>Northrop Grumman: 2027 Intern Software Engineer 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573"/>
-    <updated>2026-08-06T00:06:13Z</updated>
+    <updated>2026-08-07T17:29:58Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Florida-Melbourne · $18.5–$33.5/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-Florida-Melbourne · $18.5–$33.5/hr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:draper:/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718</id>
@@ -750,61 +806,5 @@
     <updated>2026-08-04T21:54:13Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Champaign, IL · $26/hr · Python, Rust, TypeScript, Azure, Git · sponsorship: no-sponsorship · status: closed · H-1B track record: ~54 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:modal:38888294-6bc7-4dab-b072-6d0f0c2ed79a</id>
-    <title>Modal: ML Research Intern</title>
-    <link href="https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a"/>
-    <updated>2026-07-28T23:15:17Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · New York · $15K per month · Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ewvl.fa.us8.oraclecloud.com:2164</id>
-    <title>Savannah River National Laboratory: ASPIRE Software Developer Undergraduate Intern 🇺🇸</title>
-    <link href="https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2164"/>
-    <updated>2026-08-01T13:14:55Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Aiken, SC, United States · Python, C#, SQL, Linux · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:draper:/job/Cambridge-MA/Electronics---Embedded-Systems-Intern--Summer-2027-_JR002735</id>
-    <title>Draper: Electronics &amp; Embedded Systems Intern (Summer 2027) 🇺🇸</title>
-    <link href="https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Electronics---Embedded-Systems-Intern--Summer-2027-_JR002735"/>
-    <updated>2026-07-31T17:53:42Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Cambridge, MA · MATLAB · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:assurant:/job/Atlanta-GA/Digital---AI-Transformation-Intern_R-114103-3</id>
-    <title>Assurant: Digital &amp; AI Transformation Intern</title>
-    <link href="https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/Atlanta-GA/Digital---AI-Transformation-Intern_R-114103-3"/>
-    <updated>2026-08-04T09:25:51Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Atlanta, GA · Python, SQL, LLMs, AWS, Azure · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000140317669</id>
-    <title>Bosch: ADAS Software Engineering Intern</title>
-    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000140317669"/>
-    <updated>2026-07-28T18:17:40Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Plymouth, MI, United States · Python, C++, Computer Vision · H-1B track record: ~188 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000140089589</id>
-    <title>Bosch: Powertrain Controls Software Engineering Intern (6-Months)</title>
-    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000140089589"/>
-    <updated>2026-07-27T20:41:58Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Farmington Hills, MI, United States · MATLAB, Linux · H-1B track record: ~188 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cccis:/job/Chicago-Green-St-IL/Applied-AI-Engineering-Intern_0014827</id>
-    <title>CCC Intelligent Solutions: Applied AI Engineering Intern</title>
-    <link href="https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Applied-AI-Engineering-Intern_0014827"/>
-    <updated>2026-07-30T21:10:08Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Chicago (Green St), IL · $20–$43/hr · Python, TypeScript, JavaScript, LLMs, React · status: closed · H-1B track record: ~101 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
