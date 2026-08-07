@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 164 open roles (141 listed below) · 75 new this week
+### 165 open roles (141 listed below) · 76 new this week
 
-4,049 employers tracked · data as of Aug 07, 2026 at 18:45 UTC
+4,049 employers tracked · data as of Aug 07, 2026 at 20:39 UTC
 
-_99 have a cycle the employer stated · 65 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_100 have a cycle the employer stated · 65 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -88,13 +88,13 @@ If it helps you, a star means a lot and tells me to keep going.
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Duke Energy | Asc Cybersecurity Gov&Risk Analyst - Intern/Co-op Conversion 2027 (Souza) 🆕 | Security | Charlotte, NC | No skills listed | Aug 07, 2026 | [Apply](https://dukeenergy.wd1.myworkdayjobs.com/search/job/Charlotte-NC/Asc-Cybersecurity-Gov-Risk-Analyst---Intern-Co-op-Conversion-2027--Souza-_R40863) |
+| General Dynamics Information Technology ✓ | Summer 2027 AI/Machine Learning Internship -DC Metro Area 🇺🇸 🆕 | Data & ML/AI | USA VA Falls Church | Python | Aug 07, 2026 | [Apply](https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-AI-Machine-Learning-Internship--DC-Metro-Area_RQ225912) |
 | The Nuclear Company | Summer 2027 AI/ML Engineering Intern 🇺🇸 🆕 | Data & ML/AI | Washington, DC | Python, PyTorch, LLMs, AWS | Aug 07, 2026 | [Apply](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383231008) |
-| The Nuclear Company | Summer 2027 Data Science Intern 🇺🇸 🆕 | Data & ML/AI | Washington, DC | Python, SQL, scikit-learn, Pandas | Aug 07, 2026 | [Apply](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383244008) |
 | The Nuclear Company | Summer 2027 Software Engineering Intern 🇺🇸 🆕 | Software | Washington, DC | Python, Java, C++, Rust | Aug 07, 2026 | [Apply](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383236008) |
+| The Nuclear Company | Summer 2027 Data Science Intern 🇺🇸 🆕 | Data & ML/AI | Washington, DC | Python, SQL, scikit-learn, Pandas | Aug 07, 2026 | [Apply](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383244008) |
+| Duke Energy | Asc Cybersecurity Gov&Risk Analyst - Intern/Co-op Conversion 2027 (Souza) 🆕 | Security | Charlotte, NC | No skills listed | Aug 07, 2026 | [Apply](https://dukeenergy.wd1.myworkdayjobs.com/search/job/Charlotte-NC/Asc-Cybersecurity-Gov-Risk-Analyst---Intern-Co-op-Conversion-2027--Souza-_R40863) |
 | General Dynamics Information Technology ✓ | Summer 2027 Software Developer Internship 🇺🇸 🆕 | Software | USA MD Annapolis Junction | Python, Java, C++, Rust | Aug 06, 2026 | [Apply](https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225450-1) |
 | General Dynamics Information Technology ✓ | Summer 2027 Software Developer Internship 🇺🇸 🆕 | Software | USA MD Annapolis Junction | Python, Java, C++, Rust | Aug 06, 2026 | [Apply](https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225456-1) |
-| General Dynamics Information Technology ✓ | Summer 2027 Software Developer Internship 🇺🇸 🆕 | Software | USA MD Annapolis Junction | Python, Java, C++, Rust | Aug 06, 2026 | [Apply](https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225469-1) |
 | Northrop Grumman | 2027 Intern Software Engineer 🇺🇸 🆕 | Software | United States-Florida-Melbourne | No skills listed | Aug 06, 2026 | [Apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395) |
 | Roblox ✓ | [Summer 2027] Software Engineer Intern | Software | San Mateo, CA, United States | Python, Java, C++, C# | Aug 05, 2026 | [Apply](https://careers.roblox.com/jobs/8072713?gh_jid=8072713) |
 | Belvedere Trading | Software Engineer Intern - Summer 2027 🆕 | Software | Chicago, Illinois | Java, C++, C# | Aug 04, 2026 | [Apply](https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0) |
@@ -155,7 +155,7 @@ If it helps you, a star means a lot and tells me to keep going.
 | The Nuclear Company | Fall 2026 AI Software Engineering Intern 🇺🇸 🆕 | Data & ML/AI | Washington, DC | Python, Java, C++, Rust | Aug 07, 2026 | [Apply](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383113008) |
 | Johnson & Johnson | Software Engineer Coop 🛂 🆕 | Software | Cincinnati +2 more | Python, C++, Linux | Aug 07, 2026 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820) |
 | Warner Bros. | Bleacher Report Social Programming Intern: LA - Fall 2026 🆕 | Software | CA Burbank Bldg. 700 +2 more | No skills listed | Aug 06, 2026 | [Apply](https://warnerbros.wd5.myworkdayjobs.com/global/job/CA-Burbank-Bldg-700-Second-Century-Tower-1/Bleacher-Report-Social-Programming-Intern--LA---Fall-2026_R000107469) |
-| NVIDIA ✓ | Software Engineering Intern, Dynamo - Fall 2026 🆕 | Software | US, CA, Santa Clara | Python, Go, Rust, LLMs | Aug 05, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295) |
+| NVIDIA ✓ | Software Engineering Intern, Dynamo - Fall 2026 | Software | US, CA, Santa Clara | Python, Go, Rust, LLMs | Aug 05, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295) |
 | Densityai | Technical Intern- Software  (Fall 2026) 🆕 | Software | Mountain View, CA | Python, C++ | Aug 03, 2026 | [Apply](https://job-boards.greenhouse.io/densityai/jobs/4336452009) |
 | Melius | Software Engineering Intern [Fall/Winter 2026] | Software | New York City | TypeScript, LLMs, React, Next.js | Jul 30, 2026 | [Apply](https://jobs.ashbyhq.com/melius/6a944911-dbbf-44c7-ba52-7866f7b433cf) |
 | Redwood Materials | Embedded Software Engineer Intern - Fall 2026 | Software | San Francisco, California, United States | C++, Rust, Git | Jul 29, 2026 | [Apply](https://boards.greenhouse.io/redwoodmaterials/jobs/6126784004?gh_jid=6126784004) |
@@ -349,7 +349,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,991 of 4,285 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 93% of the full registry) · completed in 1054.8s · 564 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,010 of 4,285 registered boards returned successfully across 12 ATS platforms (94% of boards attempted, 93% of the full registry) · completed in 1001.4s · 564 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
