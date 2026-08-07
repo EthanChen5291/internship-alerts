@@ -1,3 +1,26 @@
 {
-  "pending": []
+  "pending": {
+    "discord": [
+      "ashby:centerfield:1d7eacc1-37f7-478c-9b0a-fa7974f1a9e4",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39284",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39285",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39286",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39287",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39288",
+      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395",
+      "lever:plus-2:2ee24f85-bfa1-47fc-bfe3-fd07521a7b62",
+      "workday:warnerbros:/job/CA-Burbank-Bldg-700-Second-Century-Tower-1/Bleacher-Report-Social-Programming-Intern--LA---Fall-2026_R000107469"
+    ],
+    "telegram": [
+      "ashby:centerfield:1d7eacc1-37f7-478c-9b0a-fa7974f1a9e4",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39284",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39285",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39286",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39287",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39288",
+      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395",
+      "lever:plus-2:2ee24f85-bfa1-47fc-bfe3-fd07521a7b62",
+      "workday:warnerbros:/job/CA-Burbank-Bldg-700-Second-Century-Tower-1/Bleacher-Report-Social-Programming-Intern--LA---Fall-2026_R000107469"
+    ]
+  }
 }

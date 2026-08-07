@@ -611,9 +611,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 3,
+     "count": 4,
      "role_ids": [
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275",
+      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378"
      ]
@@ -1107,6 +1108,18 @@
     }
    }
   },
+  "warner bros": {
+   "name": "Warner Bros.",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-08-06",
+     "role_ids": [
+      "workday:warnerbros:/job/CA-Burbank-Bldg-700-Second-Century-Tower-1/Bleacher-Report-Social-Programming-Intern--LA---Fall-2026_R000107469"
+     ],
+     "count": 1
+    }
+   }
+  },
   "western digital": {
    "name": "Western Digital",
    "cycles": {
@@ -1134,5 +1147,5 @@
    }
   }
  },
- "updated_at": "2026-08-06T14:08:27Z"
+ "updated_at": "2026-08-07T00:29:49Z"
 }
