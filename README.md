@@ -8,7 +8,7 @@
 
 ### 165 open roles (141 listed below) · 76 new this week
 
-4,049 employers tracked · data as of Aug 07, 2026 at 21:35 UTC
+4,049 employers tracked · data as of Aug 07, 2026 at 22:30 UTC
 
 _100 have a cycle the employer stated · 65 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -117,8 +117,8 @@ If it helps you, a star means a lot and tells me to keep going.
 | Virtu Financial | 2027 Internship - Quantitative Trading 🆕 | Quant | Austin, TX; Chicago; New York | Python, Java, C++, SQL | Jul 21, 2026 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8624408002) |
 | Virtu Financial | 2027 Internship - Frontend Engineer (UI) | Software | New York | Python, Java, C++, JavaScript | Jul 21, 2026 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8657500002) |
 | Chicago Trading Company | Quant Trading Internship - Summer 2027 🆕 | Quant | Chicago, Illinois, United States | Python | Jul 20, 2026 | [Apply](https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005) |
-| Axon | RenderATL - 2027 US Software Engineering Internship | Software | Seattle, Washington, United States | Python, Java, C#, SQL | Jul 20, 2026 | [Apply](https://job-boards.greenhouse.io/axontalentcommunity/jobs/7800617003) |
-| Axon | RenderATL 2027 US Firmware Engineering Internship | Hardware | Seattle, Washington, United States | Python, C++, Go, Rust | Jul 20, 2026 | [Apply](https://job-boards.greenhouse.io/axontalentcommunity/jobs/7800628003) |
+| Axon | US Software Engineering Internship | Software | Seattle, Washington, United States | Python, Java, C#, SQL | Jul 20, 2026 | [Apply](https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837133003) |
+| Axon | US Firmware Engineering Internship | Hardware | Seattle, Washington, United States | Python, C++, Go, Rust | Jul 20, 2026 | [Apply](https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837246003) |
 | Western Digital | Summer 2027 - Software Engineering Internship | Software | San Jose, CA, United States | Python, Java, C++, Go | Jul 20, 2026 | [Apply](https://jobs.smartrecruiters.com/WesternDigital/744000138727213) |
 | Chicago Trading Company | Software Engineering Internship - Summer 2027 | Software | Chicago, Illinois, United States | Python, Java, C++ | Jul 20, 2026 | [Apply](https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005) |
 | Deepgram 🆁 | Software Engineering- Internship (Fall 2026/Summer 2027) _(also open for Fall 2026)_ | Software | USA / Remote | LLMs | Jul 17, 2026 | [Apply](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
@@ -198,7 +198,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Nokia | AI R&D Engineer Co-op 🆕 | Data & ML/AI | United States | PyTorch, TensorFlow, Kafka | Aug 06, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39286) |
 | impact.com | Associate Software Engineer intern 🆕 | Software | Santa Barbara, CA | Java, JavaScript, React, Angular | Aug 06, 2026 | [Apply](https://job-boards.greenhouse.io/impact/jobs/8645964002) |
 | KBR ✓ | Software Intern 🆕 | Software | Houston, Texas | Python, C#, JavaScript, HTML/CSS | Aug 06, 2026 | [Apply](https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Houston-Texas/Software-Intern_R2127863) |
-| Draper | Embedded Quality & Fielded Systems Intern 🆕 | Software | Cambridge, MA | Python, C# | Aug 05, 2026 | [Apply](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718) |
+| Draper | Embedded Quality & Fielded Systems Intern | Software | Cambridge, MA | Python, C# | Aug 05, 2026 | [Apply](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718) |
 | PlusAI ✓ | Deep Learning Research Intern — Multimodal BEV Perception 🆕 | Data & ML/AI | Santa Clara, CA | Python, PyTorch, TensorFlow, Computer Vision | Aug 04, 2026 | [Apply](https://jobs.lever.co/plus-2/2ee24f85-bfa1-47fc-bfe3-fd07521a7b62) |
 | Thales | AppSec Product Support Intern | Security | Texas | No skills listed | Aug 04, 2026 | [Apply](https://thales.wd3.myworkdayjobs.com/careers/job/Texas/AppSec-Product-Support-Intern_R0328978-1) |
 | Diversified Automation | Software Engineering Co-op | Software | Louisville, KY | No skills listed | Aug 04, 2026 | [Apply](https://jobs.lever.co/diversified-automation/827a092d-b8a3-4ca9-a84a-e8c236d1aabc) |
@@ -349,7 +349,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,992 of 4,285 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 93% of the full registry) · completed in 940.8s · 552 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,068 of 4,285 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 94% of the full registry) · completed in 861.6s · 587 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
