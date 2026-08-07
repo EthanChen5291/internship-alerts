@@ -1,8 +1,10 @@
 {
- "generated_at": "2026-08-07T00:29:50Z",
+ "generated_at": "2026-08-07T00:49:01Z",
+ "data_as_of": "2026-08-07T00:49:01Z",
+ "rendered_at": "2026-08-07T00:49:02Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 127,
+ "count": 146,
  "jobs": [
   {
    "id": "ashby:centerfield:1d7eacc1-37f7-478c-9b0a-fa7974f1a9e4",
@@ -30,7 +32,7 @@
     "AWS"
    ],
    "source": "ashby",
-   "h1b_approvals": 12,
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
@@ -55,7 +57,7 @@
     "Kafka"
    ],
    "source": "oracle",
-   "h1b_approvals": 321,
+   "h1b_approvals": null,
    "program": "Co-op",
    "remote": false
   },
@@ -80,7 +82,7 @@
     "Kafka"
    ],
    "source": "oracle",
-   "h1b_approvals": 321,
+   "h1b_approvals": null,
    "program": "Co-op",
    "remote": false
   },
@@ -105,7 +107,7 @@
     "Kafka"
    ],
    "source": "oracle",
-   "h1b_approvals": 321,
+   "h1b_approvals": null,
    "program": "Co-op",
    "remote": false
   },
@@ -130,7 +132,7 @@
     "Kafka"
    ],
    "source": "oracle",
-   "h1b_approvals": 321,
+   "h1b_approvals": null,
    "program": "Co-op",
    "remote": false
   },
@@ -155,7 +157,7 @@
     "Kafka"
    ],
    "source": "oracle",
-   "h1b_approvals": 321,
+   "h1b_approvals": null,
    "program": "Co-op",
    "remote": false
   },
@@ -197,7 +199,7 @@
    "salary": "$19/hr",
    "skills": [],
    "source": "workday",
-   "h1b_approvals": 11,
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
@@ -298,28 +300,7 @@
     "C#"
    ],
    "source": "workday",
-   "h1b_approvals": 2,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:regions:/job/Mobile-AL---RSA-Tower/XMLNAME-2027-ETP-Intern---Corporate-Banking-Group--Commercial-Credit-Products--Mobile--AL_R104975",
-   "company": "Regions Bank",
-   "title": "2027 ETP Intern – Corporate Banking Group, Commercial Credit Products, Mobile, AL",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Mobile, AL - RSA Tower",
-   "url": "https://regions.wd5.myworkdayjobs.com/regions_careers/job/Mobile-AL---RSA-Tower/XMLNAME-2027-ETP-Intern---Corporate-Banking-Group--Commercial-Credit-Products--Mobile--AL_R104975",
-   "posted_at": "2026-08-05T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-08-05T21:52:50Z",
-   "sponsorship": "no-sponsorship",
-   "salary": null,
-   "skills": [],
-   "source": "workday",
-   "h1b_approvals": 43,
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
@@ -378,6 +359,82 @@
    ],
    "source": "greenhouse",
    "h1b_approvals": 186,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "oracle:jpmc.fa.oraclecloud.com:210774038",
+   "company": "JPMorganChase",
+   "title": "2027 Quantitative Research – Markets – Summer Internship - Analyst – United States",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "New York, NY, United States",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210774038",
+   "posted_at": "2026-08-04",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++"
+   ],
+   "source": "oracle",
+   "h1b_approvals": 4656,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "oracle:jpmc.fa.oraclecloud.com:210774061",
+   "company": "JPMorganChase",
+   "title": "2027 Quantitative Research – Markets – Summer Internship - Associate– United States",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "New York, NY, United States",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210774061",
+   "posted_at": "2026-08-04",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++"
+   ],
+   "source": "oracle",
+   "h1b_approvals": 4656,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "oracle:jpmc.fa.oraclecloud.com:210774074",
+   "company": "JPMorganChase",
+   "title": "2027 Quantitative Research – Asset Management – Summer Internship – Analyst - United States",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "New York, NY, United States",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210774074",
+   "posted_at": "2026-08-04",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "Java",
+    "C++",
+    "SQL",
+    "MATLAB",
+    "Tableau"
+   ],
+   "source": "oracle",
+   "h1b_approvals": 4656,
    "program": "Internship",
    "remote": false
   },
@@ -450,6 +507,55 @@
    "remote": false
   },
   {
+   "id": "oracle:jpmc.fa.oraclecloud.com:210773978",
+   "company": "JPMorganChase",
+   "title": "2027 Quantitative Research - Risk and Treasury - Summer Internship - Associate - United States",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "New York, NY, United States; Plano, TX, United States; Chicago, IL, United States",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773978",
+   "posted_at": "2026-08-03",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "SQL",
+    "MATLAB"
+   ],
+   "source": "oracle",
+   "h1b_approvals": 4656,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:ntst:/job/Overland-Park-KS/Cloud-Engineer-Future---Summer-2027-Internship-_R015668",
+   "company": "Netsmart",
+   "title": "Cloud Engineer Future  (Summer 2027 Internship)",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Overland Park, KS",
+   "url": "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Cloud-Engineer-Future---Summer-2027-Internship-_R015668",
+   "posted_at": "2026-08-03T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Linux"
+   ],
+   "source": "workday",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
    "id": "greenhouse:densityai:4336452009",
    "company": "Densityai",
    "title": "Technical Intern- Software  (Fall 2026)",
@@ -462,7 +568,7 @@
    "posted_at": "2026-08-03T11:25:13-04:00",
    "posted_at_source": "exact",
    "first_seen_at": "2026-08-06T11:45:54Z",
-   "sponsorship": "citizens-only",
+   "sponsorship": "unknown",
    "salary": null,
    "skills": [
     "Python",
@@ -490,7 +596,7 @@
    "salary": "$31/hr",
    "skills": [],
    "source": "workday",
-   "h1b_approvals": 3,
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
@@ -555,31 +661,6 @@
    "salary": "$20–$30/hr",
    "skills": [],
    "source": "workday",
-   "h1b_approvals": 31,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "greenhouse:chicagotradingcampus:4716932005",
-   "company": "Chicago Trading Company",
-   "title": "Software Engineering Internship - Summer 2027",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Chicago, Illinois, United States",
-   "url": "https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716932005",
-   "posted_at": "2026-08-03T14:16:36-04:00",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-08-03T20:16:21Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "Java",
-    "C++"
-   ],
-   "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
    "remote": false
@@ -633,7 +714,7 @@
     "C#"
    ],
    "source": "workday",
-   "h1b_approvals": 3,
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
@@ -692,6 +773,55 @@
    "remote": false
   },
   {
+   "id": "oracle:jpmc.fa.oraclecloud.com:210773759",
+   "company": "JPMorganChase",
+   "title": "2027 Code for Good Hackathon - Software Engineer Program - Summer Internship – United States",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Chicago, IL, United States; Columbus, OH, United States; Houston, TX, United States; Jersey City, NJ, United States; New York, NY, United States; Palo Alto, CA, United States; Plano, TX, United States; Wilmington, DE, United States; Tampa, FL, United States",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773759",
+   "posted_at": "2026-08-03",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-03T06:26:44Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [],
+   "source": "oracle",
+   "h1b_approvals": 4656,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "oracle:jpmc.fa.oraclecloud.com:210773869",
+   "company": "JPMorganChase",
+   "title": "2027 Data & AI Program - Summer Internship - Analyst - United States",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "Chicago, IL, United States; Columbus, OH, United States; Wilmington, DE, United States; Plano, TX, United States; New York, NY, United States; Jersey City, NJ, United States; Newark, DE, United States; Palo Alto, CA, United States",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773869",
+   "posted_at": "2026-08-03",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-03T06:26:44Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "SQL",
+    "LLMs",
+    "AWS",
+    "Databricks",
+    "Snowflake"
+   ],
+   "source": "oracle",
+   "h1b_approvals": 4656,
+   "program": "Internship",
+   "remote": false
+  },
+  {
    "id": "oracle:jpmc.fa.oraclecloud.com:210775223",
    "company": "JPMorganChase",
    "title": "2027 Data for Good Hackathon - Data & AI Program - Summer Internship",
@@ -699,7 +829,7 @@
    "seasons": null,
    "season_inferred": false,
    "category": "Data & ML/AI",
-   "location": "Chicago, IL, United States",
+   "location": "Chicago, IL, United States; Columbus, OH, United States; Wilmington, DE, United States; Plano, TX, United States; New York, NY, United States; Jersey City, NJ, United States; Palo Alto, CA, United States; Newark, DE, United States",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210775223",
    "posted_at": "2026-08-03",
    "posted_at_source": "date_only",
@@ -796,40 +926,11 @@
    "skills": [
     "Python",
     "Java",
+    "Bash",
     "Linux"
    ],
    "source": "greenhouse",
    "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "greenhouse:postman:7823417003",
-   "company": "Postman",
-   "title": "AI Engineer, Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "Berkeley, California, United States",
-   "url": "https://job-boards.greenhouse.io/postman/jobs/7823417003",
-   "posted_at": "2026-08-01T10:52:20-04:00",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-08-01T15:01:54Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "Rust",
-    "SQL",
-    "PyTorch",
-    "Pandas",
-    "AWS",
-    "GCP",
-    "Azure"
-   ],
-   "source": "greenhouse",
-   "h1b_approvals": 8,
    "program": "Internship",
    "remote": false
   },
@@ -878,6 +979,7 @@
     "TypeScript",
     "LLMs",
     "React",
+    "Next.js",
     "PostgreSQL"
    ],
    "source": "ashby",
@@ -898,7 +1000,7 @@
    "posted_at": "2026-07-31T01:21:06.637+00:00",
    "posted_at_source": "exact",
    "first_seen_at": "2026-07-31T12:01:37Z",
-   "sponsorship": "citizens-only",
+   "sponsorship": "unknown",
    "salary": null,
    "skills": [
     "Python",
@@ -930,6 +1032,7 @@
     "TypeScript",
     "LLMs",
     "React",
+    "Next.js",
     "PostgreSQL"
    ],
    "source": "ashby",
@@ -960,7 +1063,7 @@
     "SQL",
     "LLMs",
     "React",
-    "Spring"
+    "Next.js"
    ],
    "source": "workday",
    "h1b_approvals": 83,
@@ -983,59 +1086,11 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [
-    "JavaScript"
+    "JavaScript",
+    "HTML/CSS"
    ],
    "source": "workday",
    "h1b_approvals": 83,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:spe:/job/Culver-City-California/Current-Programming-Intern--Sony-Pictures-Television---Fall-2026_JR113893",
-   "company": "Sony Pictures Entertainment",
-   "title": "Current Programming Intern, Sony Pictures Television – Fall 2026",
-   "season": "Fall 2026",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Culver City, California",
-   "url": "https://spe.wd1.myworkdayjobs.com/SonyPicturesEntertainment/job/Culver-City-California/Current-Programming-Intern--Sony-Pictures-Television---Fall-2026_JR113893",
-   "posted_at": "2026-07-29T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-07-30T00:09:49Z",
-   "sponsorship": "unknown",
-   "salary": "$19/hr",
-   "skills": [],
-   "source": "workday",
-   "h1b_approvals": 29,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "greenhouse:virtu:8657500002",
-   "company": "Virtu Financial",
-   "title": "2027 Internship - Frontend Engineer (UI)",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "New York",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8657500002",
-   "posted_at": "2026-07-29T17:31:34-04:00",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-07-29T22:03:03Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "Java",
-    "C++",
-    "TypeScript",
-    "JavaScript",
-    "React"
-   ],
-   "source": "greenhouse",
-   "h1b_approvals": 31,
    "program": "Internship",
    "remote": false
   },
@@ -1084,10 +1139,10 @@
     "JavaScript",
     "SQL",
     "React",
+    "HTML/CSS",
     "Flask",
     "AWS",
-    "Azure",
-    "Docker"
+    "Azure"
    ],
    "source": "workday",
    "h1b_approvals": 79,
@@ -1238,27 +1293,6 @@
     "Pandas"
    ],
    "source": "workday",
-   "h1b_approvals": 18,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378",
-   "company": "Northrop Grumman",
-   "title": "2027 Returning Intern Software Engineer",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "United States-Florida-Melbourne",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378",
-   "posted_at": "2026-07-27T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-07-27T16:20:26Z",
-   "sponsorship": "citizens-only",
-   "salary": null,
-   "skills": [],
-   "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
    "remote": false
@@ -1356,10 +1390,10 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [
+    "Computer Vision",
     "Python",
     "PyTorch",
     "TensorFlow",
-    "Computer Vision",
     "ROS"
    ],
    "source": "workday",
@@ -1386,32 +1420,6 @@
     "Python",
     "Pandas",
     "React"
-   ],
-   "source": "ashby",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
-   "company": "Anthelion Capital",
-   "title": "Quant Developer / Quant Research Intern - 2026/2027",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Quant",
-   "location": "New York City",
-   "url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
-   "posted_at": "2026-07-23T19:51:59.097+00:00",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-07-24T11:11:07Z",
-   "sponsorship": "unknown",
-   "salary": "$1.8K – $2K per week",
-   "skills": [
-    "Python",
-    "C++",
-    "Rust",
-    "Azure"
    ],
    "source": "ashby",
    "h1b_approvals": null,
@@ -1486,7 +1494,30 @@
     "Git"
    ],
    "source": "greenhouse",
-   "h1b_approvals": 12,
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "smartrecruiters:RedBull:744000139168339",
+   "company": "Red Bull",
+   "title": "2026 Internship, Fall - Data Science",
+   "season": "Fall 2026",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "Morristown, NJ, United States",
+   "url": "https://jobs.smartrecruiters.com/RedBull/744000139168339",
+   "posted_at": "2026-07-22T23:29:11.460Z",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "SQL"
+   ],
+   "source": "smartrecruiters",
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
@@ -1503,7 +1534,7 @@
    "posted_at": "2026-07-22T15:27:50-04:00",
    "posted_at_source": "exact",
    "first_seen_at": "2026-07-29T11:28:56Z",
-   "sponsorship": "citizens-only",
+   "sponsorship": "unknown",
    "salary": null,
    "skills": [
     "Python",
@@ -1587,15 +1618,41 @@
    "remote": false
   },
   {
+   "id": "greenhouse:virtu:8624408002",
+   "company": "Virtu Financial",
+   "title": "2027 Internship - Quantitative Trading",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "Austin, TX; Chicago; New York",
+   "url": "https://job-boards.greenhouse.io/virtu/jobs/8624408002",
+   "posted_at": "2026-07-21T15:54:04-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "Java",
+    "C++",
+    "SQL"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
    "id": "greenhouse:virtu:8624410002",
    "company": "Virtu Financial",
-   "title": "2027 Internship - Software Engineer",
+   "title": "2027 Internship - Frontend Engineer (UI)",
    "season": "Summer 2027",
    "seasons": null,
    "season_inferred": false,
    "category": "Software",
-   "location": "Austin, TX; New York",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8624410002",
+   "location": "New York",
+   "url": "https://job-boards.greenhouse.io/virtu/jobs/8657500002",
    "posted_at": "2026-07-21T11:34:18-04:00",
    "posted_at_source": "exact",
    "first_seen_at": "2026-07-21T15:52:39Z",
@@ -1608,7 +1665,30 @@
     "JavaScript"
    ],
    "source": "greenhouse",
-   "h1b_approvals": 31,
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "greenhouse:ctccampusboard:4708188005",
+   "company": "Chicago Trading Company",
+   "title": "Quant Trading Internship - Summer 2027",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "Chicago, Illinois, United States",
+   "url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005",
+   "posted_at": "2026-07-20T13:38:31-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
@@ -1635,7 +1715,7 @@
     "SQL",
     "LLMs",
     "React",
-    "Spring"
+    "Next.js"
    ],
    "source": "workday",
    "h1b_approvals": 83,
@@ -1666,7 +1746,7 @@
     "Linux"
    ],
    "source": "greenhouse",
-   "h1b_approvals": 72,
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
@@ -1693,7 +1773,7 @@
     "Linux"
    ],
    "source": "greenhouse",
-   "h1b_approvals": 72,
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
@@ -1723,7 +1803,7 @@
     "Git"
    ],
    "source": "smartrecruiters",
-   "h1b_approvals": 286,
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
@@ -1830,36 +1910,6 @@
    "remote": true
   },
   {
-   "id": "workday:chevron:/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1",
-   "company": "Chevron Corporation",
-   "title": "2026-2027 Information Technology - Software Engineer - Intern",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Houston, Texas, United States of America",
-   "url": "https://chevron.wd5.myworkdayjobs.com/University/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1",
-   "posted_at": "2026-07-16T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-07-16T17:24:48Z",
-   "sponsorship": "no-sponsorship",
-   "salary": null,
-   "skills": [
-    "Python",
-    "Java",
-    "C#",
-    "TypeScript",
-    "JavaScript",
-    "SQL",
-    "React",
-    "Node.js"
-   ],
-   "source": "workday",
-   "h1b_approvals": 28,
-   "program": "Internship",
-   "remote": false
-  },
-  {
    "id": "workday:moog:/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145",
    "company": "Moog",
    "title": "Intern, IT Computer Science - Data Analytics",
@@ -1925,6 +1975,7 @@
     "JavaScript",
     "SQL",
     "Angular",
+    "HTML/CSS",
     "Spring",
     "Linux",
     "Git"
@@ -1954,6 +2005,7 @@
     "JavaScript",
     "SQL",
     "Angular",
+    "HTML/CSS",
     "Spring",
     "Linux",
     "Git"
@@ -1985,7 +2037,7 @@
     "CUDA"
    ],
    "source": "workday",
-   "h1b_approvals": 53,
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
@@ -2011,6 +2063,27 @@
    "remote": false
   },
   {
+   "id": "greenhouse:fiveringsllc:5139668008",
+   "company": "Five Rings",
+   "title": "Summer Intern 2027 - Quantitative Trader",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "New York",
+   "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008",
+   "posted_at": "2026-07-14T13:48:21-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [],
+   "source": "greenhouse",
+   "h1b_approvals": 7,
+   "program": "Internship",
+   "remote": false
+  },
+  {
    "id": "greenhouse:fiveringsllc:5349707008",
    "company": "Five Rings",
    "title": "Summer Intern 2027 - Software Developer",
@@ -2032,6 +2105,103 @@
    ],
    "source": "greenhouse",
    "h1b_approvals": 7,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "greenhouse:akunacapital:8036614",
+   "company": "Akuna Capital",
+   "title": "Quantitative Research Intern, Summer 2027",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "Chicago, IL",
+   "url": "https://www.akunacapital.com/careers/job/8036614/?gh_jid=8036614",
+   "posted_at": "2026-07-13T14:28:45-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 40,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "greenhouse:drweng:7818540",
+   "company": "DRW",
+   "title": "Quantitative Research Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Quant",
+   "location": "Chicago, New York City",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7818540",
+   "posted_at": "2026-07-13T10:32:14-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "scikit-learn",
+    "Pandas"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 31,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "greenhouse:drweng:7668776",
+   "company": "DRW",
+   "title": "Quantitative Trading Analyst Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Quant",
+   "location": "Chicago, Illinois",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7668776",
+   "posted_at": "2026-07-13T10:34:56-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 31,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "greenhouse:wehrtyou:7964062",
+   "company": "Hudson River Trading",
+   "title": "Algorithm Development (Quant Research & Trading) Internship – Summer 2027",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "London, United Kingdom; New York, NY, United States; Singapore",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062",
+   "posted_at": "2026-07-13T11:39:48-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "MATLAB",
+    "Pandas"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 29,
    "program": "Internship",
    "remote": false
   },
@@ -2075,8 +2245,8 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [
-    "Python",
-    "C++"
+    "C++",
+    "Python"
    ],
    "source": "greenhouse",
    "h1b_approvals": 40,
@@ -2175,6 +2345,7 @@
     "TypeScript",
     "JavaScript",
     "React",
+    "HTML/CSS",
     "Linux",
     "Git"
    ],
@@ -2280,6 +2451,72 @@
    "remote": false
   },
   {
+   "id": "greenhouse:flowtraders:8047166",
+   "company": "Flow Traders",
+   "title": "Quantitative Trading Intern Summer 2027",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "New York",
+   "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166",
+   "posted_at": "2026-07-08T15:27:38-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [],
+   "source": "greenhouse",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "greenhouse:jumptrading:7982648",
+   "company": "Jump Trading",
+   "title": "Campus Quantitative Researcher, UG/MS (Intern)",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Quant",
+   "location": "Chicago; New York",
+   "url": "https://www.jumptrading.com/hr/job?gh_jid=7982648",
+   "posted_at": "2026-07-08T17:35:58-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "offers",
+   "salary": "$300k/yr",
+   "skills": [
+    "Python",
+    "C++"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 57,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "greenhouse:jumptrading:7848371",
+   "company": "Jump Trading",
+   "title": "Campus Quantitative Trader (Intern)",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Quant",
+   "location": "Chicago; New York",
+   "url": "https://www.jumptrading.com/hr/job?gh_jid=7848371",
+   "posted_at": "2026-07-08T17:35:47-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": "$300k/yr",
+   "skills": [],
+   "source": "greenhouse",
+   "h1b_approvals": 57,
+   "program": "Internship",
+   "remote": false
+  },
+  {
    "id": "greenhouse:jumptrading:8052281",
    "company": "Jump Trading",
    "title": "Campus AI Research Engineer (Intern)",
@@ -2378,15 +2615,40 @@
    "skills": [
     "Python",
     "Java",
+    "Bash",
     "PyTorch",
     "TensorFlow",
     "AWS",
     "GCP",
-    "Azure",
-    "Kubernetes"
+    "Azure"
    ],
    "source": "workday",
    "h1b_approvals": 83,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "greenhouse:towerresearchcapital:8024128",
+   "company": "Tower Research Capital",
+   "title": "Quantitative Trader Intern - Summer 2027",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "New York, Chicago",
+   "url": "https://www.tower-research.com/open-positions/?gh_jid=8024128",
+   "posted_at": "2026-07-05T17:48:24-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "Linux"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 38,
    "program": "Internship",
    "remote": false
   },
@@ -2469,6 +2731,54 @@
    "h1b_approvals": null,
    "program": "Internship",
    "remote": true
+  },
+  {
+   "id": "greenhouse:imc:4907399101",
+   "company": "IMC Trading",
+   "title": "Quantitative Research Intern (BS/MS) - Summer 2027",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "Chicago, United States",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907399101",
+   "posted_at": "2026-07-01T13:18:55-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 13,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "greenhouse:imc:4823923101",
+   "company": "IMC Trading",
+   "title": "Quantitative Trader Intern - Summer 2027",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "Chicago, United States",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823923101",
+   "posted_at": "2026-07-01T13:11:12-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "MATLAB"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 13,
+   "program": "Internship",
+   "remote": false
   },
   {
    "id": "lever:palantir:9e40d77f-b07c-437b-98e7-def9b0184d89",
@@ -2616,7 +2926,8 @@
    "skills": [
     "TypeScript",
     "JavaScript",
-    "LLMs"
+    "LLMs",
+    "Next.js"
    ],
    "source": "ashby",
    "h1b_approvals": null,
@@ -2681,7 +2992,7 @@
    "posted_at": "2026-06-24T19:13:14Z",
    "posted_at_source": "exact",
    "first_seen_at": "2026-07-16T07:39:11Z",
-   "sponsorship": "citizens-only",
+   "sponsorship": "unknown",
    "salary": null,
    "skills": [
     "Python",
@@ -2745,7 +3056,7 @@
     "C++"
    ],
    "source": "greenhouse",
-   "h1b_approvals": 4,
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
@@ -2765,10 +3076,10 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [
+    "Computer Vision",
     "Python",
     "C++",
-    "PyTorch",
-    "Computer Vision"
+    "PyTorch"
    ],
    "source": "smartrecruiters",
    "h1b_approvals": 14,
@@ -2799,6 +3110,29 @@
    "source": "lever",
    "h1b_approvals": null,
    "program": "Internship / Co-op",
+   "remote": false
+  },
+  {
+   "id": "greenhouse:voloridgeinvestmentmanagement:4226247009",
+   "company": "Voloridge",
+   "title": "Quantitative Research Intern 2027",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "Jupiter, FL",
+   "url": "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4226247009",
+   "posted_at": "2026-06-11T10:40:18-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": null,
+   "program": "Internship",
    "remote": false
   },
   {
@@ -2873,9 +3207,35 @@
     "Python",
     "TypeScript",
     "LLMs",
+    "dbt",
+    "Databricks",
+    "Snowflake",
     "PostgreSQL"
    ],
    "source": "ashby",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "greenhouse:walleyecapital-external-students:4676334006",
+   "company": "Walleye Capital",
+   "title": "Equity Volatility Quant Researcher Intern (Summer 2027)",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "Miami, FL",
+   "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676334006",
+   "posted_at": "2026-06-01T07:16:42-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python"
+   ],
+   "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
    "remote": false
@@ -2897,6 +3257,7 @@
    "salary": null,
    "skills": [
     "Python",
+    "Bash",
     "PyTorch",
     "TensorFlow",
     "scikit-learn",
@@ -2904,6 +3265,31 @@
     "Linux"
    ],
    "source": "greenhouse",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "smartrecruiters:InfiniteQuant:744000129235439",
+   "company": "InfiniteQuant",
+   "title": "Quantitative Researcher - Internship - Summer 2027",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "New York, NY, United States",
+   "url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000129235439",
+   "posted_at": "2026-05-29T18:04:33.365Z",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "Pandas"
+   ],
+   "source": "smartrecruiters",
    "h1b_approvals": null,
    "program": "Internship",
    "remote": false
@@ -2976,14 +3362,14 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [
+    "AWS",
     "Python",
     "Java",
     "C++",
     "C#",
     "Rust",
     "TypeScript",
-    "SQL",
-    "LLMs"
+    "SQL"
    ],
    "source": "amazon",
    "h1b_approvals": 23139,
@@ -3007,7 +3393,7 @@
    "salary": null,
    "skills": [],
    "source": "workable",
-   "h1b_approvals": 12,
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
@@ -3030,7 +3416,7 @@
     "Python"
    ],
    "source": "workday",
-   "h1b_approvals": 9,
+   "h1b_approvals": null,
    "program": "Co-op",
    "remote": false
   },
@@ -3057,7 +3443,7 @@
     "Tableau"
    ],
    "source": "greenhouse",
-   "h1b_approvals": 23,
+   "h1b_approvals": null,
    "program": "Co-op",
    "remote": false
   },
@@ -3084,6 +3470,27 @@
     "Angular"
    ],
    "source": "lever",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:motorolasolutions:/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372",
+   "company": "Motorola",
+   "title": "Intern - Embedded Software, System, and Test Engineer - 2026",
+   "season": "Fall 2026",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Irvine, CA",
+   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Irvine-CA/Intern---Embedded-Software--System--and-Test-Engineer---2026_R62372",
+   "posted_at": "2026-03-30T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-07-01T20:55:33Z",
+   "sponsorship": "citizens-only",
+   "salary": null,
+   "skills": [],
+   "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
    "remote": false
@@ -3244,15 +3651,64 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [
+    "Computer Vision",
     "Python",
     "Java",
     "C++",
-    "LLMs",
-    "Computer Vision"
+    "LLMs"
    ],
    "source": "amazon",
    "h1b_approvals": 23139,
    "program": "Internship / Co-op",
+   "remote": false
+  },
+  {
+   "id": "greenhouse:virtu:8142539002",
+   "company": "Virtu Financial",
+   "title": "2027 Internship - Quantitative Researcher (Undergrad)",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "New York",
+   "url": "https://job-boards.greenhouse.io/virtu/jobs/8142539002",
+   "posted_at": "2025-09-12T07:14:41-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "Pandas"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "greenhouse:point72:7297642002",
+   "company": "Point72",
+   "title": "Summer 2027 Quantitative Research Internship",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "New York",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297642002?gh_jid=7297642002",
+   "posted_at": "2024-08-15T17:28:38-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-07T00:49:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 48,
+   "program": "Internship",
    "remote": false
   }
  ]
