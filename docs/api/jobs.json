@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-07T10:45:44Z",
- "data_as_of": "2026-08-07T10:45:44Z",
- "rendered_at": "2026-08-07T10:45:44Z",
+ "generated_at": "2026-08-07T11:39:27Z",
+ "data_as_of": "2026-08-07T11:39:27Z",
+ "rendered_at": "2026-08-07T11:39:27Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
  "count": 153,
@@ -35,7 +35,7 @@
    "remote": false
   },
   {
-   "id": "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225469-1",
+   "id": "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225456-1",
    "company": "General Dynamics Information Technology",
    "title": "Summer 2027 Software Developer Internship",
    "season": "Summer 2027",
@@ -43,7 +43,7 @@
    "season_inferred": false,
    "category": "Software",
    "location": "USA MD Annapolis Junction",
-   "url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225469-1",
+   "url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225456-1",
    "posted_at": "2026-08-06T00:00:00Z",
    "posted_at_source": "date_only",
    "first_seen_at": "2026-08-07T10:45:44Z",
@@ -63,7 +63,7 @@
    "remote": false
   },
   {
-   "id": "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225456-1",
+   "id": "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225469-1",
    "company": "General Dynamics Information Technology",
    "title": "Summer 2027 Software Developer Internship",
    "season": "Summer 2027",
@@ -71,7 +71,7 @@
    "season_inferred": false,
    "category": "Software",
    "location": "USA MD Annapolis Junction",
-   "url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225456-1",
+   "url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225469-1",
    "posted_at": "2026-08-06T00:00:00Z",
    "posted_at_source": "date_only",
    "first_seen_at": "2026-08-07T10:45:44Z",
