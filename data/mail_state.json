@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-08-06T03:35:31Z",
-  "last_digest_roles": 5,
-  "last_digest_sent": 224,
+  "last_digest_at": "2026-08-07T04:17:55Z",
+  "last_digest_roles": 37,
+  "last_digest_sent": 225,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -100,10 +100,45 @@
     "workday:draper:/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718",
     "workday:regions:/job/Mobile-AL---RSA-Tower/XMLNAME-2027-ETP-Intern---Corporate-Banking-Group--Commercial-Credit-Products--Mobile--AL_R104975",
     "workday:nvidia:/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-    "greenhouse:roblox:8072713"
+    "greenhouse:roblox:8072713",
+    "greenhouse:akunacapital:8036614",
+    "greenhouse:chicagotradingcampus:4716930005",
+    "greenhouse:ctccampusboard:4708188005",
+    "greenhouse:drweng:7668776",
+    "greenhouse:drweng:7818540",
+    "greenhouse:fiveringsllc:5139668008",
+    "greenhouse:flowtraders:8047166",
+    "greenhouse:imc:4823923101",
+    "greenhouse:imc:4907399101",
+    "greenhouse:jumptrading:7848371",
+    "greenhouse:jumptrading:7982648",
+    "greenhouse:point72:7297642002",
+    "greenhouse:towerresearchcapital:8024128",
+    "greenhouse:virtu:8142539002",
+    "greenhouse:virtu:8624408002",
+    "greenhouse:voloridgeinvestmentmanagement:4226247009",
+    "greenhouse:walleyecapital-external-students:4676334006",
+    "greenhouse:wehrtyou:7964062",
+    "oracle:jpmc.fa.oraclecloud.com:210773978",
+    "oracle:jpmc.fa.oraclecloud.com:210774038",
+    "oracle:jpmc.fa.oraclecloud.com:210774061",
+    "oracle:jpmc.fa.oraclecloud.com:210774074",
+    "smartrecruiters:InfiniteQuant:744000129235439",
+    "smartrecruiters:RedBull:744000139168339",
+    "workday:ntst:/job/Overland-Park-KS/Cloud-Engineer-Future---Summer-2027-Internship-_R015668",
+    "ashby:centerfield:1d7eacc1-37f7-478c-9b0a-fa7974f1a9e4",
+    "lever:plus-2:2ee24f85-bfa1-47fc-bfe3-fd07521a7b62",
+    "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39284",
+    "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39285",
+    "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39286",
+    "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39287"
   ],
   "last_digest_failed": 0,
-  "retry_emails": [],
-  "subscribers_total": 224,
-  "send_cursor": 0
+  "subscribers_total": 225,
+  "send_attempts": [
+    {
+      "at": "2026-08-07T04:17:55Z",
+      "count": 225
+    }
+  ]
 }
