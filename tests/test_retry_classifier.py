@@ -73,3 +73,22 @@ class TestEdgeCases:
             {"name": "b", "conclusion": "cancelled", "runner_name": "", "steps": []},
         ]}
         assert should_retry(payload)[0] is True
+
+    def test_pages_skipped_dependents_do_not_hide_a_starved_build(self):
+        retry, reason = should_retry({"jobs": [
+            {"name": "build", "conclusion": "cancelled",
+             "runner_name": "", "steps": []},
+            {"name": "deploy", "conclusion": "skipped",
+             "runner_name": "", "steps": []},
+            {"name": "report-build-status", "conclusion": "skipped",
+             "runner_name": "", "steps": []},
+        ]})
+        assert retry is True
+        assert "1 job" in reason
+
+    def test_all_skipped_jobs_are_not_enough_to_retry(self):
+        retry, reason = should_retry({"jobs": [
+            {"name": "deploy", "conclusion": "skipped", "steps": []},
+        ]})
+        assert retry is False
+        assert reason == "all jobs were skipped"

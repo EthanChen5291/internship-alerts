@@ -29,12 +29,18 @@ import os
 
 from . import paths
 
-_MAX_PENDING = 200  # a backlog past this is a bug, not an announcement
+# Operational warning threshold only. Pending alerts are durable work and must
+# never be truncated merely because delivery has been unavailable for a while.
+_MAX_PENDING = 200
 
 # Every channel that announces individual roles. The email digest is NOT here:
 # it is driven by the store's own news window and its own per-role sent list,
 # not by this queue.
 CHANNELS = ("discord", "telegram")
+
+
+class OutboxStateCorrupt(RuntimeError):
+    """The durable announcement queue exists but cannot be trusted."""
 
 
 def _read() -> dict[str, list[str]]:
@@ -45,18 +51,36 @@ def _read() -> dict[str, list[str]]:
     channel inherits them — dropping them would silently lose announcements
     across the upgrade.
     """
+    if not os.path.exists(paths.OUTBOX_PATH):
+        return {c: [] for c in CHANNELS}
     try:
         with open(paths.OUTBOX_PATH, encoding="utf-8") as f:
             data = json.load(f)
-    except (OSError, ValueError):
-        return {c: [] for c in CHANNELS}
+    except (OSError, json.JSONDecodeError) as exc:
+        raise OutboxStateCorrupt(
+            f"{paths.OUTBOX_PATH} is unreadable: {exc}"
+        ) from exc
+    if not isinstance(data, dict) or "pending" not in data:
+        raise OutboxStateCorrupt("outbox must be an object with a pending queue")
     pending = data.get("pending") if isinstance(data, dict) else None
     if isinstance(pending, list):  # legacy shape
-        shared = [str(x) for x in pending]
+        if not all(isinstance(value, str) and value for value in pending):
+            raise OutboxStateCorrupt("legacy pending queue must contain role ids")
+        shared = list(pending)
         return {c: list(shared) for c in CHANNELS}
     if isinstance(pending, dict):
-        return {c: [str(x) for x in (pending.get(c) or [])] for c in CHANNELS}
-    return {c: [] for c in CHANNELS}
+        queues: dict[str, list[str]] = {}
+        for channel in CHANNELS:
+            values = pending.get(channel, [])
+            if not isinstance(values, list) or not all(
+                isinstance(value, str) and value for value in values
+            ):
+                raise OutboxStateCorrupt(
+                    f"pending.{channel} must be a list of role ids"
+                )
+            queues[channel] = list(values)
+        return queues
+    raise OutboxStateCorrupt("pending must be a list or per-channel object")
 
 
 def _write(queues: dict[str, list[str]]) -> None:
@@ -65,6 +89,8 @@ def _write(queues: dict[str, list[str]]) -> None:
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump({"pending": {c: queues.get(c, []) for c in CHANNELS}},
                   f, indent=2, ensure_ascii=False)
+        f.flush()
+        os.fsync(f.fileno())
     os.replace(tmp, paths.OUTBOX_PATH)
 
 
@@ -96,7 +122,6 @@ def queue(new_ids: list[str]) -> list[str]:
             if jid not in known:
                 known.add(jid)
                 queues[channel].append(jid)
-        queues[channel] = queues[channel][-_MAX_PENDING:]
     _write(queues)
     return load()
 

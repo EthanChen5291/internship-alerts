@@ -1,8 +1,34 @@
+import asyncio
 from datetime import UTC, datetime
 
-from intern_engine import filters
+import pytest
+
+from intern_engine import filters, models, paths, pipeline, store
 from intern_engine.models import Fetch
-from intern_engine.pipeline import _detection_latency, _parse_iso
+from intern_engine.pipeline import (
+    _detection_latency,
+    _fetch_health_error,
+    _parse_iso,
+    _partial_reason_counts,
+)
+
+
+def test_board_deadline_releases_a_stuck_fetch(monkeypatch):
+    async def slow_fetch(_company, _net):
+        await asyncio.sleep(1)
+        return []
+
+    monkeypatch.setitem(pipeline.CONNECTORS, "greenhouse", slow_fetch)
+    monkeypatch.setattr(pipeline, "BOARD_TIMEOUT_SECONDS", 0.001)
+    company = {"name": "Acme", "slug": "acme", "ats": "greenhouse"}
+
+    got_company, result, error = asyncio.run(
+        pipeline._fetch_bounded(company, object())
+    )
+
+    assert got_company == company
+    assert result.complete is False
+    assert error == "board deadline exceeded (0.001s)"
 
 
 class TestParseIso:
@@ -26,6 +52,136 @@ class TestParseIso:
     def test_garbage_is_none(self):
         assert _parse_iso("not a date") is None
         assert _parse_iso(None) is None
+
+
+class TestFetchOutcomes:
+    def test_expected_result_cap_is_not_a_health_failure(self):
+        result = Fetch(complete=False, incomplete_reason=models.INCOMPLETE_CAPPED)
+        assert _fetch_health_error(result, None) is None
+
+    @pytest.mark.parametrize(
+        "reason", [models.INCOMPLETE_MALFORMED, models.INCOMPLETE_STALLED],
+    )
+    def test_malformed_and_stalled_snapshots_are_health_failures(self, reason):
+        result = Fetch(complete=False, incomplete_reason=reason)
+        assert _fetch_health_error(result, None) == reason
+
+    def test_usable_partial_reasons_are_counted_but_fatal_fetches_are_not(self):
+        results = [
+            ({}, Fetch(complete=False, incomplete_reason=models.INCOMPLETE_CAPPED), None),
+            ({}, Fetch(complete=False, incomplete_reason=models.INCOMPLETE_MALFORMED), None),
+            ({}, Fetch(complete=False, incomplete_reason=models.INCOMPLETE_STALLED), "boom"),
+        ]
+        assert _partial_reason_counts(results) == {
+            models.INCOMPLETE_CAPPED: 1,
+            models.INCOMPLETE_MALFORMED: 1,
+        }
+
+
+def test_partial_out_of_scope_alias_closes_the_stored_owner():
+    existing = {
+        "greenhouse:old:1": {
+            "id": "greenhouse:old:1",
+            "source": "greenhouse",
+            "company": "Acme",
+            "company_slug": "old",
+            "title": "Software Engineer Intern",
+            "location": "Austin, TX",
+            "url": "https://example.com/old",
+            "season": "Summer 2027",
+            "is_open": True,
+            "first_seen_at": "2026-07-01T00:00:00Z",
+            "last_seen_at": "2026-07-01T00:00:00Z",
+            "canonical_id": "canonical-1",
+            "aliases": ["greenhouse:new:2"],
+        },
+    }
+    alias = models.Job(
+        id="greenhouse:new:2", source="greenhouse", company="Acme",
+        company_slug="new", title="Software Engineer Intern",
+        location="Paris, France", url="https://example.com/new",
+        canonical_id="canonical-1",
+    )
+    results = [
+        (
+            {"ats": "greenhouse", "slug": "new", "name": "Acme"},
+            Fetch([alias], complete=False, incomplete_reason=models.INCOMPLETE_CAPPED),
+            None,
+        ),
+    ]
+
+    kept, _ok, complete, seen, *_rest = pipeline._keep_matching(
+        results,
+        {"cycles": ["Summer 2027"], "regions": ["US"], "role_scope": "tech"},
+        {},
+        existing,
+    )
+    store.upsert(existing, [vars(job) for job in kept], complete, seen_ids=seen)
+
+    assert kept == []
+    assert existing["greenhouse:old:1"]["is_open"] is False
+    assert existing["greenhouse:old:1"]["closed_reason"] == "out-of-scope"
+
+
+def test_alias_change_reuses_the_stored_verified_cycle():
+    existing = {
+        "greenhouse:old:1": {
+            "id": "greenhouse:old:1",
+            "source": "greenhouse",
+            "company": "Acme",
+            "company_slug": "old",
+            "title": "Software Engineer Intern",
+            "location": "Austin, TX",
+            "url": "https://example.com/old",
+            "season": "Summer 2027",
+            "season_inferred": False,
+            "is_open": True,
+            "first_seen_at": "2026-07-01T00:00:00Z",
+            "last_seen_at": "2026-07-01T00:00:00Z",
+            "canonical_id": "canonical-1",
+            "aliases": ["greenhouse:new:2"],
+        },
+    }
+    alias = models.Job(
+        id="greenhouse:new:2", source="greenhouse", company="Acme",
+        company_slug="new", title="Software Engineer Intern",
+        location="Austin, TX", url="https://example.com/new",
+        canonical_id="canonical-1",
+    )
+
+    kept, *_rest = pipeline._keep_matching(
+        [(
+            {"ats": "greenhouse", "slug": "new", "name": "Acme"},
+            Fetch([alias], complete=True),
+            None,
+        )],
+        {"cycles": ["Summer 2027"], "regions": ["US"], "role_scope": "tech"},
+        {},
+        existing,
+    )
+
+    assert len(kept) == 1
+    assert kept[0].season == "Summer 2027"
+    assert kept[0].season_inferred is False
+
+
+class TestStatsState:
+    def test_stats_write_is_atomic_and_preserves_fetch_time(self, tmp_path, monkeypatch):
+        path = tmp_path / "stats.json"
+        monkeypatch.setattr(paths, "STATS_PATH", str(path))
+        stats = {"generated_at": "2026-08-06T20:00:00Z", "open_total": 1}
+
+        pipeline.write_stats(stats)
+
+        loaded = pipeline.load_stats(str(path))
+        assert loaded["fetched_at"] == "2026-08-06T20:00:00Z"
+        assert not any(tmp_path.glob("*.tmp"))
+
+    def test_corrupt_stats_are_fatal_instead_of_replaced_with_now(self, tmp_path):
+        path = tmp_path / "stats.json"
+        path.write_text("{}", encoding="utf-8")
+        with pytest.raises(pipeline.StatsCorrupt):
+            pipeline.load_stats(str(path))
 
 
 class TestDetectionLatency:

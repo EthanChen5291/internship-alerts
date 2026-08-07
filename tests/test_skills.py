@@ -100,3 +100,18 @@ def test_pay_rejects_nonsense():
     assert skills.extract_pay("A $5 gift card per hour of user testing") is None
     assert skills.extract_pay("Millions of dollars in impact") is None
     assert skills.extract_pay(None) is None
+
+
+def test_pay_scans_past_invalid_candidates():
+    assert skills.extract_pay(
+        "$10 per hour; actual intern base pay is $45 per hour."
+    ) == "$45/hr"
+    assert skills.extract_pay(
+        "Typo $80-$40/hr. Correct range: $40-$50/hr."
+    ) == "$40\u2013$50/hr"
+    assert skills.extract_pay(
+        "$999/hr placeholder; actual intern pay is $45/hr."
+    ) == "$45/hr"
+    assert skills.extract_pay(
+        "$600,000 per year executive compensation; intern salary is $80,000/year."
+    ) == "$80k/yr"

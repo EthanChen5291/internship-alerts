@@ -20,7 +20,15 @@ from __future__ import annotations
 import re
 from datetime import UTC, datetime, timedelta
 
-from ..models import Fetch, Job, clean_listing
+from ..models import (
+    INCOMPLETE_CAPPED,
+    INCOMPLETE_MALFORMED,
+    INCOMPLETE_STALLED,
+    Fetch,
+    Job,
+    clean_listing,
+    source_board_key,
+)
 from ..net import Net
 
 HEADERS = {
@@ -77,16 +85,42 @@ async def fetch(company: dict, net: Net) -> Fetch:
     api_url, base = _urls(company)
 
     jobs: dict[str, Job] = {}  # keyed by job id: the two searches overlap
-    complete = True
+    incomplete_reason: str | None = None
     for term in _SEARCH_TERMS:
         exhausted = False
+        trusted_total: int | None = None
+        seen_pages: set[tuple[str, ...]] = set()
         for offset in range(0, _MAX_JOBS, _PAGE_SIZE):
             body = {"appliedFacets": {}, "limit": _PAGE_SIZE, "offset": offset,
                     "searchText": term}
             data = await net.post_json(api_url, json=body, headers=HEADERS)
             postings = clean_listing(data, "jobPostings")
             if postings is None:
+                incomplete_reason = INCOMPLETE_MALFORMED
                 break  # malformed 200 / error envelope: leave the fetch partial
+            signature = tuple(
+                str(posting.get("externalPath") or posting.get("title") or "")
+                for posting in postings
+            )
+            if postings and signature in seen_pages:
+                # Some tenants ignore offset and repeat page one forever. Do
+                # not burn all ten requests or call that repeated page a cap;
+                # it is explicit pagination failure and unsafe for closure.
+                incomplete_reason = INCOMPLETE_STALLED
+                break
+            seen_pages.add(signature)
+            total = data.get("total") if isinstance(data, dict) else None
+            if (
+                trusted_total is None
+                and isinstance(total, int)
+                and not isinstance(total, bool)
+                and total > 0
+                and total >= offset + len(postings)
+            ):
+                # Workday sometimes emits `0` on later full pages. Retain the
+                # first credible count instead of treating that transient zero
+                # as proof that the search is exhausted.
+                trusted_total = total
             for posting in postings:
                 path = posting.get("externalPath") or ""
                 posted = _resolve_posted(posting.get("postedOn"))
@@ -102,17 +136,19 @@ async def fetch(company: dict, net: Net) -> Fetch:
                     # "Posted 6 Days Ago" arithmetic, not a real date. Labeled
                     # so the detail page's true date can supersede it later.
                     posted_at_source="relative_derived" if posted else None,
+                    board_key=source_board_key(company, "workday", tenant),
                 )
                 jobs.setdefault(job.id, job)
             if len(postings) < _PAGE_SIZE:
                 exhausted = True  # we reached the end of this term's results
                 break
-            # `total` is the server's own count for the search; trust it over
-            # our page cap when deciding whether anything was left behind.
-            total = data.get("total")
-            if isinstance(total, int) and offset + len(postings) >= total:
+            if trusted_total is not None and offset + len(postings) >= trusted_total:
                 exhausted = True
                 break
         if not exhausted:
-            complete = False  # we stopped at _MAX_JOBS with results still pending
-    return Fetch(list(jobs.values()), complete=complete)
+            incomplete_reason = incomplete_reason or INCOMPLETE_CAPPED
+    return Fetch(
+        list(jobs.values()),
+        complete=incomplete_reason is None,
+        incomplete_reason=incomplete_reason,
+    )

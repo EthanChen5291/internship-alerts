@@ -86,6 +86,10 @@ def test_observed_beats_known_window(monkeypatch):
     row = next(r for r in radar.rows(STORE, "Summer 2027", today=TODAY) if r["company"] == "Meta")
     assert row["source"] == "engine"            # our own data wins over the seed
     assert row["expected"] == "2026-09-15"
+    assert row["provenance"] == {
+        "type": "engine-projection", "cycle": "Summer 2026",
+        "observed_on": "2025-09-15",
+    }
 
 
 def test_live_only_company_with_no_date(monkeypatch):
@@ -166,6 +170,27 @@ def test_pretty_expected_countdown(monkeypatch):
 
 def test_empty_everything_returns_no_rows():
     assert radar.rows({}, "Summer 2027", today=TODAY) == []
+
+
+def test_explicit_alias_merges_jpmorgan_spellings(monkeypatch):
+    _observed(monkeypatch, {
+        "jpmorganchase": {"name": "JPMorganChase", "cycles": {
+            "Summer 2027": {"first_posted": "2026-08-03", "count": 1},
+        }},
+    })
+    _known(monkeypatch, [
+        {"name": "JPMorgan Chase", "opens": "03", "precision": "month"},
+    ])
+    rows = radar.rows({}, "Summer 2027", today=TODAY)
+    matches = [r for r in rows if "jpmorgan" in radar.company_key(r["company"])]
+    assert len(matches) == 1
+    assert matches[0]["company"] == "JPMorgan Chase"
+    assert matches[0]["status"] == "dropped"
+
+
+def test_expired_waiting_window_is_not_actionable():
+    assert radar.is_actionable({"status": "waiting", "days_until": -46}) is False
+    assert radar.is_actionable({"status": "waiting", "days_until": -45}) is True
 
 
 class TestElapsedWindow:

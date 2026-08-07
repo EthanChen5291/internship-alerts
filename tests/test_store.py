@@ -84,6 +84,47 @@ class TestUpsert:
         store.upsert(existing, [_job_dict("a")], keys)
         assert "closed_reason" not in existing["a"]
 
+    def test_gone_from_feed_reopening_is_announced(self):
+        existing: dict = {}
+        keys = {"greenhouse:stripe"}
+        store.upsert(existing, [_job_dict("a")], keys)
+        store.upsert(existing, [], keys)
+        store.upsert(existing, [], keys)
+        assert store.upsert(existing, [_job_dict("a")], keys) == ["a"]
+
+    def test_out_of_scope_reopening_is_not_reannounced(self):
+        existing: dict = {}
+        keys = {"greenhouse:stripe"}
+        store.upsert(existing, [_job_dict("a")], keys)
+        store.upsert(existing, [], complete_keys=set(), seen_ids={"a"})
+        assert existing["a"]["closed_reason"] == "out-of-scope"
+        assert store.upsert(existing, [_job_dict("a")], keys) == []
+
+    def test_missing_identity_metadata_never_erases_proven_aliases(self):
+        existing: dict = {}
+        initial = {
+            **_job_dict("a"),
+            "board_key": "greenhouse:stripe",
+            "canonical_id": "canonical-1",
+            "requisition_id": "REQ-1",
+            "aliases": ["old-a"],
+        }
+        store.upsert(existing, [initial], {"greenhouse:stripe"})
+
+        incoming = {
+            **_job_dict("a"),
+            "board_key": None,
+            "canonical_id": None,
+            "requisition_id": None,
+            "aliases": None,
+        }
+        store.upsert(existing, [incoming], {"greenhouse:stripe"})
+
+        assert existing["a"]["board_key"] == "greenhouse:stripe"
+        assert existing["a"]["canonical_id"] == "canonical-1"
+        assert existing["a"]["requisition_id"] == "REQ-1"
+        assert existing["a"]["aliases"] == ["old-a"]
+
     def test_partial_snapshot_cannot_close_a_role(self):
         # The dangerous case: the fetch SUCCEEDED but the ATS capped its
         # results, so the role is missing from a response that only looks
@@ -310,6 +351,131 @@ class TestDedup:
         assert {j.id for j in out} == {"greenhouse:acme:1", "greenhouse:acme:2",
                                        "lever:acme:zz"}
 
+    def test_canonical_identity_collapses_board_aliases_and_keeps_ids(self):
+        old = Job(
+            id="greenhouse:acme-campus:1", source="greenhouse", company="Acme",
+            company_slug="acme-campus", title="Software Engineer Intern",
+            location="Austin, TX", url="https://example.com/1",
+            canonical_id="internal-42",
+        )
+        dated = Job(
+            id="greenhouse:acme:2", source="greenhouse", company="Acme",
+            company_slug="acme", title="Software Engineer Intern",
+            location="Austin, TX", url="https://example.com/2",
+            posted_at="2026-08-06T12:00:00Z", canonical_id="internal-42",
+        )
+
+        out = _dedup([old, dated])
+
+        assert len(out) == 1
+        assert out[0].id == dated.id
+        assert out[0].aliases == [old.id]
+
+    def test_existing_canonical_id_survives_a_posting_id_change(self):
+        existing = {
+            "greenhouse:old:1": {
+                "id": "greenhouse:old:1",
+                "source": "greenhouse",
+                "canonical_id": "internal-42",
+                "first_seen_at": "2026-07-01T00:00:00Z",
+                "last_seen_at": "2026-07-01T00:00:00Z",
+            },
+        }
+        replacement = Job(
+            id="greenhouse:new:99", source="greenhouse", company="Acme",
+            company_slug="new", title="Software Engineer Intern",
+            location="Austin, TX", url="https://example.com/99",
+            canonical_id="internal-42",
+        )
+
+        out = _dedup([replacement], existing)
+
+        assert out[0].id == "greenhouse:old:1"
+        assert out[0].aliases == ["greenhouse:new:99"]
+
+    def test_duplicate_canonical_store_records_are_consolidated(self):
+        existing = {
+            "old": {
+                "id": "old", "source": "smartrecruiters", "canonical_id": "uuid-1",
+                "first_seen_at": "2026-07-01T00:00:00Z",
+                "last_seen_at": "2026-07-02T00:00:00Z",
+            },
+            "new": {
+                "id": "new", "source": "smartrecruiters", "canonical_id": "uuid-1",
+                "first_seen_at": "2026-08-01T00:00:00Z",
+                "last_seen_at": "2026-08-02T00:00:00Z",
+            },
+        }
+        current = Job(
+            id="new", source="smartrecruiters", company="Acme", company_slug="acme",
+            title="Software Engineer Intern", location="Remote",
+            url="https://example.com/new", canonical_id="uuid-1",
+        )
+
+        out = _dedup([current], existing)
+
+        assert out[0].id == "old"
+        assert set(out[0].aliases) == {"new"}
+        assert set(existing) == {"old"}
+        assert existing["old"]["last_seen_at"] == "2026-08-02T00:00:00Z"
+
+    def test_open_alias_continuity_does_not_become_a_reopen_alert(self):
+        existing = {
+            "old": {
+                "id": "old", "source": "greenhouse", "canonical_id": "canonical",
+                "first_seen_at": "2026-06-01T00:00:00Z",
+                "last_seen_at": "2026-06-02T00:00:00Z", "is_open": False,
+                "closed_at": "2026-06-03T00:00:00Z", "closed_reason": "gone-from-feed",
+            },
+            "current": {
+                "id": "current", "source": "greenhouse", "canonical_id": "canonical",
+                "first_seen_at": "2026-07-01T00:00:00Z",
+                "last_seen_at": "2026-08-01T00:00:00Z", "is_open": True,
+            },
+        }
+        job = Job(
+            id="current", source="greenhouse", company="Acme", company_slug="acme",
+            title="Software Engineer Intern", location="Austin, TX",
+            url="https://example.com/current", canonical_id="canonical",
+        )
+
+        rows = [vars(item) for item in _dedup([job], existing)]
+        new_ids = store.upsert(existing, rows, {"greenhouse:acme"})
+
+        assert set(existing) == {"old"}
+        assert existing["old"]["is_open"] is True
+        assert new_ids == []
+
+    def test_first_canonical_migration_preserves_legacy_open_alias(self):
+        existing = {
+            "old": {
+                "id": "old", "source": "greenhouse",
+                "first_seen_at": "2026-06-01T00:00:00Z",
+                "last_seen_at": "2026-06-02T00:00:00Z", "is_open": False,
+                "closed_at": "2026-06-03T00:00:00Z", "closed_reason": "gone-from-feed",
+            },
+            "current": {
+                "id": "current", "source": "greenhouse",
+                "first_seen_at": "2026-07-01T00:00:00Z",
+                "last_seen_at": "2026-08-01T00:00:00Z", "is_open": True,
+            },
+        }
+        jobs = [
+            Job(
+                id=jid, source="greenhouse", company="Acme", company_slug="acme",
+                title="Software Engineer Intern", location="Austin, TX",
+                url=f"https://example.com/{jid}", canonical_id="canonical",
+            )
+            for jid in ("old", "current")
+        ]
+
+        rows = [vars(item) for item in _dedup(jobs, existing)]
+        new_ids = store.upsert(existing, rows, {"greenhouse:acme"})
+
+        assert set(existing) == {"old"}
+        assert existing["old"]["is_open"] is True
+        assert new_ids == []
+
 
 class TestCorruptState:
     """A corrupt store must stop the run, never silently reset it."""
@@ -337,7 +503,19 @@ class TestCorruptState:
 
     def test_save_is_atomic_and_round_trips(self, tmp_path):
         path = str(tmp_path / "sub" / "jobs.json")
-        store.save(path, {"a": {"id": "a"}})
-        assert store.load(path) == {"a": {"id": "a"}}
+        record = {
+            **_job_dict("a"),
+            "is_open": True,
+            "first_seen_at": "2026-08-06T00:00:00Z",
+            "last_seen_at": "2026-08-06T00:00:00Z",
+        }
+        store.save(path, {"a": record})
+        assert store.load(path) == {"a": record}
         # The temp file must not survive the swap.
         assert not os.path.exists(f"{path}.tmp")
+
+    def test_save_refuses_to_persist_an_invalid_record(self, tmp_path):
+        path = str(tmp_path / "jobs.json")
+        with pytest.raises(store.StateCorrupt):
+            store.save(path, {"a": {"id": "a"}})
+        assert not os.path.exists(path)

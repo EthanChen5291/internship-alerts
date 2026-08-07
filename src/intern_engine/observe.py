@@ -31,17 +31,81 @@ Structure:
 from __future__ import annotations
 
 import json
+import os
 from datetime import UTC, datetime
 
 from . import config, h1b, paths
 
 
+class ObservedStateCorrupt(RuntimeError):
+    """Observation history exists but cannot be trusted or overwritten."""
+
+
+def _migrate_legacy(observed: object) -> int:
+    """Normalize pre-role-id cycles without accepting arbitrary bad shapes.
+
+    Older files stored only an accumulated ``count``.  That count is not
+    auditable (it was incremented once per run), so it cannot be preserved; a
+    structurally valid legacy cycle starts with an empty id set and is rebuilt
+    from the current store by :func:`update_from_store`.
+    """
+    if not isinstance(observed, dict) or not isinstance(observed.get("companies"), dict):
+        return 0
+    changed = 0
+    for entry in observed["companies"].values():
+        if not isinstance(entry, dict) or not isinstance(entry.get("cycles"), dict):
+            continue
+        for cycle in entry["cycles"].values():
+            if not isinstance(cycle, dict) or "role_ids" in cycle:
+                continue
+            count = cycle.get("count")
+            if isinstance(count, bool) or not isinstance(count, int) or count < 0:
+                continue
+            cycle["role_ids"] = []
+            cycle["count"] = 0
+            changed += 1
+    return changed
+
+
+def _validate(observed: object) -> dict:
+    if not isinstance(observed, dict) or not isinstance(observed.get("companies"), dict):
+        raise ObservedStateCorrupt("observed state must contain a companies object")
+    for key, entry in observed["companies"].items():
+        if not isinstance(key, str) or not isinstance(entry, dict):
+            raise ObservedStateCorrupt("observed state contains an invalid company")
+        if not isinstance(entry.get("name", ""), str):
+            raise ObservedStateCorrupt(f"{key}: name must be a string")
+        cycles = entry.get("cycles")
+        if not isinstance(cycles, dict):
+            raise ObservedStateCorrupt(f"{key}: cycles must be an object")
+        for label, cycle in cycles.items():
+            if not isinstance(label, str) or not isinstance(cycle, dict):
+                raise ObservedStateCorrupt(f"{key}: invalid cycle entry")
+            try:
+                datetime.strptime(cycle.get("first_posted", ""), "%Y-%m-%d")
+            except (TypeError, ValueError) as exc:
+                raise ObservedStateCorrupt(f"{key}/{label}: invalid first_posted") from exc
+            ids = cycle.get("role_ids")
+            if not isinstance(ids, list) or not all(isinstance(v, str) and v for v in ids):
+                raise ObservedStateCorrupt(f"{key}/{label}: invalid role_ids")
+            if len(ids) != len(set(ids)):
+                raise ObservedStateCorrupt(f"{key}/{label}: duplicate role_ids")
+            count = cycle.get("count", len(ids))
+            if isinstance(count, bool) or not isinstance(count, int) or count != len(ids):
+                raise ObservedStateCorrupt(f"{key}/{label}: count does not match role_ids")
+    return observed
+
+
 def load() -> dict:
+    if not os.path.exists(paths.OBSERVED_PATH):
+        return {"companies": {}}
     try:
         with open(paths.OBSERVED_PATH, encoding="utf-8") as f:
-            return json.load(f)
-    except (OSError, ValueError):
-        return {"companies": {}}
+            observed = json.load(f)
+    except (OSError, ValueError) as exc:
+        raise ObservedStateCorrupt(f"{paths.OBSERVED_PATH} is unreadable: {exc}") from exc
+    _migrate_legacy(observed)
+    return _validate(observed)
 
 
 def _posted_day(record: dict) -> str | None:
@@ -86,6 +150,25 @@ def update_from_store(store_data: dict, observed: dict | None = None,
     companies = observed.setdefault("companies", {})
     tracked = set(cycles if cycles is not None else config.cycles(config.load_config()))
 
+    # Canonical dedup may replace a presentation id while retaining it in the
+    # survivor's aliases.  Normalize IDs already present in observation
+    # history before adding this run, or one requisition becomes two pieces of
+    # evidence after an A -> B board migration.
+    identity_owner: dict[str, str] = {}
+    for role_id, record in store_data.items():
+        owner = str(role_id)
+        identity_owner[owner] = owner
+        for alias in record.get("aliases") or ():
+            identity_owner[str(alias)] = owner
+    for entry in companies.values():
+        for cyc in (entry.get("cycles") or {}).values():
+            ids = {
+                identity_owner.get(str(role_id), str(role_id))
+                for role_id in (cyc.get("role_ids") or ())
+            }
+            cyc["role_ids"] = sorted(ids)
+            cyc["count"] = len(ids)
+
     for role_id, record in store_data.items():
         if record.get("season_inferred"):
             continue  # a guessed cycle is not a real observation (see docstring)
@@ -112,7 +195,7 @@ def update_from_store(store_data: dict, observed: dict | None = None,
             # and no list; seeding from what we can see now replaces the bad
             # number with a real one, and it grows correctly from here.
             ids = set(cyc.get("role_ids") or ())
-            ids.add(str(role_id))
+            ids.add(identity_owner.get(str(role_id), str(role_id)))
             cyc["role_ids"] = sorted(ids)
             cyc["count"] = len(ids)
             if day < cyc["first_posted"]:
@@ -124,7 +207,9 @@ def update_from_store(store_data: dict, observed: dict | None = None,
     # can actually back with ids.
     for entry in companies.values():
         for cyc in (entry.get("cycles") or {}).values():
-            cyc["count"] = len(cyc.get("role_ids") or ())
+            ids = sorted({str(role_id) for role_id in (cyc.get("role_ids") or ())})
+            cyc["role_ids"] = ids
+            cyc["count"] = len(ids)
 
     observed["updated_at"] = datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
     observed["companies"] = dict(sorted(companies.items()))
@@ -132,8 +217,14 @@ def update_from_store(store_data: dict, observed: dict | None = None,
 
 
 def save(observed: dict) -> None:
-    with open(paths.OBSERVED_PATH, "w", encoding="utf-8") as f:
+    _validate(observed)
+    os.makedirs(os.path.dirname(paths.OBSERVED_PATH), exist_ok=True)
+    tmp = f"{paths.OBSERVED_PATH}.tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         json.dump(observed, f, ensure_ascii=False, indent=1, sort_keys=False)
+        f.flush()
+        os.fsync(f.fileno())
+    os.replace(tmp, paths.OBSERVED_PATH)
 
 
 def record_run(store_data: dict) -> int:

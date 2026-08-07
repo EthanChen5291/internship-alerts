@@ -8,7 +8,14 @@ from __future__ import annotations
 
 from datetime import datetime
 
-from ..models import Fetch, Job, clean_listing
+from ..models import (
+    INCOMPLETE_CAPPED,
+    INCOMPLETE_MALFORMED,
+    Fetch,
+    Job,
+    clean_listing,
+    source_board_key,
+)
 from ..net import Net
 
 # US state/territory codes, for expanding Amazon's "US, MA, Westboro" strings.
@@ -102,12 +109,14 @@ def _posted(text: str | None) -> str | None:
 async def fetch(company: dict, net: Net) -> Fetch:
     jobs: list[Job] = []
     complete = False
+    incomplete_reason: str | None = None
     for offset in range(0, _MAX_JOBS, _PAGE_SIZE):
         params = {"base_query": "intern", "result_limit": _PAGE_SIZE,
                   "offset": offset, "sort": "recent"}
         data = await net.get_json(URL, params=params)
         results = clean_listing(data, "jobs")
         if results is None:
+            incomplete_reason = INCOMPLETE_MALFORMED
             break  # malformed 200 / error envelope: leave the snapshot incomplete
         for j in results:
             path = j.get("job_path") or ""
@@ -126,6 +135,7 @@ async def fetch(company: dict, net: Net) -> Fetch:
                     url=("https://www.amazon.jobs" + path) if path else "https://www.amazon.jobs",
                     posted_at=_posted(j.get("posted_date")),
                     description=description.strip() or None,
+                    board_key=source_board_key(company, "amazon", "amazon"),
                 )
             )
         # `hits` is the server's total for the query — the only way to tell a
@@ -136,4 +146,6 @@ async def fetch(company: dict, net: Net) -> Fetch:
         ):
             complete = True
             break
-    return Fetch(jobs, complete=complete)
+    if not complete and incomplete_reason is None:
+        incomplete_reason = INCOMPLETE_CAPPED
+    return Fetch(jobs, complete=complete, incomplete_reason=incomplete_reason)

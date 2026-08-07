@@ -62,6 +62,27 @@ class TestNoSponsorship:
         html = "<p>We <b>cannot sponsor</b> work visas for this role.</p>"
         assert sponsorship.classify(html) == "no-sponsorship"
 
+    def test_plain_no_sponsorship_forms_beat_positive_substrings(self):
+        for text in (
+            "No sponsorship is available.",
+            "No sponsorship offered.",
+            "No sponsorship will be provided.",
+            "We offer no sponsorship.",
+            "Sponsorship: none.",
+        ):
+            assert sponsorship.classify(text) == "no-sponsorship", text
+
+    def test_candidate_requirement_negations(self):
+        for text in (
+            "Candidates must not require sponsorship now or in the future.",
+            "Candidates requiring visa sponsorship will not be considered.",
+        ):
+            assert sponsorship.classify(text) == "no-sponsorship", text
+
+    def test_entity_encoded_html_is_normalized_before_classification(self):
+        text = "&lt;p&gt;We cannot &lt;b&gt;sponsor&lt;/b&gt; work visas.&lt;/p&gt;"
+        assert sponsorship.classify(text) == "no-sponsorship"
+
 
 class TestOffers:
     def test_sponsorship_available(self):
@@ -99,3 +120,16 @@ class TestUnknownAndTraps:
 
     def test_strip_html(self):
         assert sponsorship.strip_html("<p>Hello&nbsp;<b>world</b></p>") == "Hello world"
+
+    def test_negated_clearance_and_itar_are_not_restrictions(self):
+        for text in (
+            "This position does not require a security clearance.",
+            "No security clearance is required for this role.",
+            "This role is not subject to ITAR restrictions.",
+        ):
+            assert sponsorship.classify(text) == "unknown", text
+
+    def test_background_clearance_is_not_a_security_clearance(self):
+        assert sponsorship.classify(
+            "A routine background clearance is required for building access."
+        ) == "unknown"

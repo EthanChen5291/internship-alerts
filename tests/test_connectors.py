@@ -20,7 +20,13 @@ from intern_engine.connectors import (
     workable,
     workday,
 )
-from intern_engine.models import Fetch
+from intern_engine.models import (
+    INCOMPLETE_CAPPED,
+    INCOMPLETE_MALFORMED,
+    INCOMPLETE_STALLED,
+    Fetch,
+    Job,
+)
 
 
 class FakeNet:
@@ -53,6 +59,27 @@ def _fetch(coro) -> Fetch:
     return Fetch.of(asyncio.run(coro))
 
 
+def test_fetch_boundary_drops_unpersistable_rows_and_marks_snapshot_malformed():
+    valid = Job(
+        id="greenhouse:acme:1", source="greenhouse", company="Acme",
+        company_slug="acme", title="Software Intern", location="Austin, TX",
+        url="https://example.com/jobs/1",
+    )
+    bad = Job(
+        id="greenhouse:acme:2", source="greenhouse", company="Acme",
+        company_slug="acme", title="Software Intern", location="Austin, TX",
+        url="",
+    )
+
+    result = Fetch.of(Fetch(
+        [valid, bad], complete=False, incomplete_reason=INCOMPLETE_CAPPED,
+    ))
+
+    assert result.jobs == [valid]
+    assert result.complete is False
+    assert result.incomplete_reason == INCOMPLETE_MALFORMED
+
+
 def test_greenhouse():
     payload = {"jobs": [{
         "id": 42, "title": "Software Engineer Intern",
@@ -68,6 +95,39 @@ def test_greenhouse():
     assert j.location == "New York, NY"
     assert j.url == "https://gh/42"
     assert j.posted_at == "2026-06-01T08:00:00-04:00"  # true publish date, not updated_at
+
+
+def test_greenhouse_keeps_posting_id_and_exposes_canonical_alias_identity():
+    shared = {
+        "title": "Quantitative Trading Intern",
+        "location": {"name": "Chicago, IL"},
+        "absolute_url": "https://boards.greenhouse.io/job/1",
+        "internal_job_id": 4441791005,
+        "requisition_id": "431",
+    }
+    first = _run(greenhouse.fetch(
+        {"name": "Chicago Trading Company", "slug": "chicagotradingcampus"},
+        FakeNet({"jobs": [{**shared, "id": 4716932005}]}),
+    ))[0]
+    second = _run(greenhouse.fetch(
+        {"name": "Chicago Trading Company", "slug": "ctccampusboard"},
+        FakeNet({"jobs": [{**shared, "id": 4708230005}]}),
+    ))[0]
+
+    assert first.id == "greenhouse:chicagotradingcampus:4716932005"
+    assert second.id == "greenhouse:ctccampusboard:4708230005"
+    assert first.canonical_id == second.canonical_id == "4441791005"
+    assert first.requisition_id == second.requisition_id == "431"
+    assert first.board_key == "greenhouse:chicagotradingcampus"
+
+
+def test_explicit_board_key_wins_over_the_legacy_fallback():
+    payload = {"jobs": [{
+        "id": 1, "title": "SWE Intern", "absolute_url": "https://gh/1",
+    }]}
+    company = {"name": "Acme", "slug": "acme", "board_key": "greenhouse:acme:campus"}
+    job = _run(greenhouse.fetch(company, FakeNet(payload)))[0]
+    assert job.board_key == "greenhouse:acme:campus"
 
 
 def test_lever():
@@ -103,11 +163,16 @@ def test_smartrecruiters():
     payload = {"content": [{
         "id": "p1", "name": "Data Science Intern",
         "location": {"city": "Austin", "region": "TX", "country": "us"},
+        "uuid": "d93b3129-0e1e-4259-bf50-033bea69a26d",
+        "refNumber": "REF280598V", "hybrid": True,
         "releasedDate": "2026-06-10T00:00:00Z",
     }]}
     jobs = _run(smartrecruiters.fetch({"name": "Acme", "slug": "Acme"}, FakeNet(payload)))
     assert jobs[0].id == "smartrecruiters:Acme:p1"
     assert "United States" in jobs[0].location
+    assert jobs[0].location.endswith("(Hybrid)")
+    assert jobs[0].canonical_id == "d93b3129-0e1e-4259-bf50-033bea69a26d"
+    assert jobs[0].requisition_id == "REF280598V"
     assert jobs[0].posted_at == "2026-06-10T00:00:00Z"
 
 
@@ -181,6 +246,19 @@ def test_workable():
     assert jobs[0].posted_at == "2026-06-10T00:00:00Z"
 
 
+def test_workable_does_not_retry_provider_wide_rate_limits():
+    class RecordingNet(FakeNet):
+        async def post_json(self, url, **kwargs):
+            assert kwargs["retries"] == 0
+            return await super().post_json(url, **kwargs)
+
+    payload = {"results": [], "nextPage": None}
+    result = _fetch(workable.fetch(
+        {"name": "Acme", "slug": "acme"}, RecordingNet(payload),
+    ))
+    assert result.complete is True
+
+
 def test_breezy():
     payload = [{
         "id": "fa06", "name": "SWE Intern", "url": "https://acme.breezy.hr/p/fa06-swe",
@@ -239,7 +317,8 @@ class TestSnapshotCompleteness:
     def test_whole_board_connectors_are_complete_when_well_formed(self):
         # Greenhouse reads the entire board in one call — nothing to truncate.
         payload = {"jobs": [{"id": 1, "title": "SWE Intern",
-                             "location": {"name": "NY"}, "absolute_url": "u"}]}
+                             "location": {"name": "NY"},
+                             "absolute_url": "https://gh/1"}]}
         result = _fetch(greenhouse.fetch({"name": "Acme", "slug": "acme"},
                                          FakeNet(payload)))
         assert result.complete is True
@@ -294,12 +373,15 @@ def test_recruitee():
 def test_oracle():
     payload = {"items": [{"requisitionList": [
         {"Id": "9", "Title": "ML Intern", "PrimaryLocation": "Dearborn, MI",
-         "PostedDate": "2026-06-05"},
+         "PostedDate": "2026-06-05", "secondaryLocations": [
+             {"Name": "Austin, TX", "CountryCode": "US"},
+         ]},
     ]}]}
     company = {"name": "Ford", "slug": "ford", "host": "x.oraclecloud.com", "site": "CX_1"}
     jobs = _run(oracle.fetch(company, FakeNet(payload)))
     assert jobs[0].id == "oracle:ford:9"
     assert jobs[0].posted_at == "2026-06-05"
+    assert jobs[0].location == "Dearborn, MI; Austin, TX, United States"
 
 
 def test_eightfold():
@@ -442,3 +524,249 @@ class TestErrorEnvelopes:
                                          FakeNet({"jobs": [{}]})))
         assert result.jobs == []
         assert result.complete is False
+
+
+class WorkdayPagingNet:
+    """Real-shaped pages where later responses lose the valid total."""
+
+    def __init__(self, intern_total=45):
+        self.intern_total = intern_total
+        self.calls = []
+
+    async def post_json(self, url, **kwargs):
+        body = kwargs["json"]
+        term, offset = body["searchText"], body["offset"]
+        self.calls.append((term, offset))
+        if term != "intern":
+            return {"total": 0, "jobPostings": []}
+        count = min(20, max(0, self.intern_total - offset))
+        postings = [
+            {
+                "title": f"Intern {offset + i}",
+                "externalPath": f"/job/{offset + i}",
+                "locationsText": "Minneapolis, MN",
+            }
+            for i in range(count)
+        ]
+        # This is the observed Workday failure shape: a credible total on page
+        # zero, then 0 on a later *full* page despite more results existing.
+        return {"total": self.intern_total if offset == 0 else 0,
+                "jobPostings": postings}
+
+
+def test_workday_keeps_first_positive_total_when_later_full_page_says_zero():
+    company = {"name": "Medtronic", "slug": "medtronic", "wd": "wd1",
+               "site": "MedtronicCareers"}
+    net = WorkdayPagingNet(45)
+    result = _fetch(workday.fetch(company, net))
+
+    assert result.complete is True
+    assert len(result.jobs) == 45
+    assert ("intern", 40) in net.calls
+
+
+def test_workday_reports_an_intentional_result_cap_separately():
+    company = {"name": "Medtronic", "slug": "medtronic", "wd": "wd1",
+               "site": "MedtronicCareers"}
+    result = _fetch(workday.fetch(company, WorkdayPagingNet(500)))
+    assert result.complete is False
+    assert result.incomplete_reason == INCOMPLETE_CAPPED
+
+
+def test_workday_stops_when_a_tenant_repeats_the_same_page():
+    postings = [
+        {
+            "title": f"Software Intern {index}",
+            "externalPath": f"/job/{index}",
+            "locationsText": "Austin, TX",
+        }
+        for index in range(20)
+    ]
+    net = FakeNet({"total": 200, "jobPostings": postings})
+
+    result = _fetch(workday.fetch(
+        {"name": "Acme", "slug": "acme", "site": "External", "wd": "wd5"},
+        net,
+    ))
+
+    assert len(result.jobs) == 20
+    assert result.complete is False
+    assert result.incomplete_reason == INCOMPLETE_STALLED
+    assert len(net.urls) == 4  # two calls per search term, not ten
+
+
+class OraclePagingNet:
+    """Oracle returns an inner Limit of 25 despite the requested limit of 50."""
+
+    def __init__(self, internship_total):
+        self.internship_total = internship_total
+        self.calls = []
+
+    async def get_json(self, url, **kwargs):
+        finder = kwargs["params"]["finder"]
+        keyword = finder.split("keyword=", 1)[1].split(",", 1)[0]
+        offset = int(finder.rsplit("offset=", 1)[1])
+        self.calls.append((keyword, offset, kwargs["params"]["limit"]))
+        total = self.internship_total if keyword == "internship" else 0
+        count = min(25, max(0, total - offset))
+        requisitions = [
+            {
+                "Id": f"{keyword}-{offset + i}",
+                "Title": "Software Engineering Internship",
+                "PrimaryLocation": "New York, NY",
+            }
+            for i in range(count)
+        ]
+        return {"items": [{
+            "Offset": offset,
+            "Limit": 25,
+            "TotalJobsCount": total,
+            "requisitionList": requisitions,
+        }]}
+
+
+def test_oracle_uses_returned_inner_limit_and_marks_the_cap_incomplete():
+    company = {"name": "JPMorgan Chase", "slug": "jpmc",
+               "host": "jpmc.oraclecloud.com", "site": "CX_1001"}
+    net = OraclePagingNet(215)
+    result = _fetch(oracle.fetch(company, net))
+    offsets = [offset for query, offset, _ in net.calls if query == "internship"]
+
+    assert offsets == list(range(0, 200, 25))
+    assert all(limit == "50" for query, _, limit in net.calls if query == "internship")
+    assert len(result.jobs) == 200
+    assert result.complete is False
+    assert result.incomplete_reason == INCOMPLETE_CAPPED
+
+
+def test_oracle_exact_total_is_complete_with_the_server_limit():
+    company = {"name": "Acme", "slug": "acme",
+               "host": "acme.oraclecloud.com", "site": "CX_1"}
+    net = OraclePagingNet(50)
+    result = _fetch(oracle.fetch(company, net))
+    assert [offset for query, offset, _ in net.calls if query == "internship"] == [0, 25]
+    assert result.complete is True
+    assert result.incomplete_reason is None
+
+
+class SmartQueryNet:
+    def __init__(self, capped=False):
+        self.capped = capped
+        self.calls = []
+
+    async def get_json(self, url, **kwargs):
+        query = kwargs["params"]["q"]
+        offset = kwargs["params"]["offset"]
+        self.calls.append((query, offset))
+        if self.capped and query == "intern":
+            return {
+                "totalFound": 900,
+                "content": [
+                    {"id": f"intern-{offset + i}", "name": "Engineering Intern"}
+                    for i in range(100)
+                ],
+            }
+        if self.capped:
+            return {"totalFound": 0, "content": []}
+        return {"totalFound": 1, "content": [{
+            "id": query,
+            "uuid": f"canonical-{query}",
+            "name": f"{query.title()} role",
+        }]}
+
+
+def test_smartrecruiters_unions_targeted_queries_and_deduplicates_by_posting_id():
+    company = {"name": "Bosch", "slug": "BoschGroup"}
+    net = SmartQueryNet()
+    result = _fetch(smartrecruiters.fetch(company, net))
+    assert {query for query, _ in net.calls} == {
+        "internship", "co-op", "student", "intern",
+    }
+    assert {job.id.rsplit(":", 1)[-1] for job in result.jobs} == {
+        "internship", "co-op", "student", "intern",
+    }
+    assert result.complete is True
+
+
+def test_smartrecruiters_marks_a_broad_query_cap_incomplete():
+    company = {"name": "Bosch", "slug": "BoschGroup"}
+    result = _fetch(smartrecruiters.fetch(company, SmartQueryNet(capped=True)))
+    assert len(result.jobs) == 300
+    assert result.complete is False
+    assert result.incomplete_reason == INCOMPLETE_CAPPED
+
+
+def test_smartrecruiters_alias_postings_keep_stable_ids_and_share_canonical_id():
+    shared = {
+        "uuid": "d93b3129-0e1e-4259-bf50-033bea69a26d",
+        "jobId": "d93b3129-0e1e-4259-bf50-033bea69a26d",
+        "refNumber": "REF280598V",
+        "name": "Vehicle Motion Engineering Internship",
+    }
+    first = _run(smartrecruiters.fetch(
+        {"name": "Bosch", "slug": "Bosch"},
+        FakeNet({"totalFound": 1, "content": [{**shared, "id": "744000139649345"}]}),
+    ))[0]
+    second = _run(smartrecruiters.fetch(
+        {"name": "Bosch", "slug": "BoschGroup"},
+        FakeNet({"totalFound": 1, "content": [{**shared, "id": "744000140462550"}]}),
+    ))[0]
+    assert first.id != second.id
+    assert first.canonical_id == second.canonical_id == shared["uuid"]
+    assert first.requisition_id == second.requisition_id == "REF280598V"
+
+
+def test_smartrecruiters_iso_country_codes_never_masquerade_as_us_states():
+    from intern_engine import filters
+
+    cases = (
+        ("Tel Aviv", "IL", "il", "Israel"),
+        ("Buenos Aires", "AR", "ar", "Argentina"),
+        ("Bogota", "CO", "co", "Colombia"),
+        ("Jakarta", "ID", "id", "Indonesia"),
+        ("Podgorica", "ME", "me", "Montenegro"),
+    )
+    for city, region, code, country in cases:
+        location = smartrecruiters._location({
+            "city": city,
+            "region": region,
+            "country": code,
+            "fullLocation": f"{city}, {region}",
+        })
+        assert location.endswith(country)
+        assert not filters.is_united_states(location), location
+
+    ambiguous = smartrecruiters._location({
+        "city": "Tel Aviv", "region": "IL", "fullLocation": "Tel Aviv, IL",
+    })
+    assert ambiguous == "Tel Aviv"
+    assert not filters.is_united_states(ambiguous)
+
+
+def test_recruitee_uses_publish_date_and_preserves_mixed_location_evidence():
+    payload = {"offers": [{
+        "id": 99,
+        "title": "Data Intern",
+        "location": "Remote job",
+        "locations": [
+            {"city": "London", "country_code": "GB"},
+            {"city": "Boston", "state": "MA", "country_code": "US"},
+        ],
+        "remote": True,
+            "published_at": "2026-07-03T10:30:00Z",
+            "created_at": "2026-01-01T00:00:00Z",
+            "careers_url": "https://acme.recruitee.com/o/data-intern",
+        }]}
+    job = _run(recruitee.fetch(
+        {"name": "Acme", "slug": "acme"}, FakeNet(payload),
+    ))[0]
+    assert job.posted_at == "2026-07-03T10:30:00Z"
+    assert "London, United Kingdom" in job.location
+    assert "Boston, MA, United States" in job.location
+    assert job.location.endswith("(Remote)")
+
+
+def test_fetch_reason_distinguishes_malformed_payload_from_a_cap():
+    company = {"name": "Acme", "slug": "acme"}
+    malformed = _fetch(greenhouse.fetch(company, FakeNet({"error": "rate limited"})))
+    assert malformed.incomplete_reason == INCOMPLETE_MALFORMED

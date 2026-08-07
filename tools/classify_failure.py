@@ -10,7 +10,7 @@ silently does nothing during the exact incident it was written for.
 A run is retryable only when it never actually executed:
 
   - at least one job exists (an empty payload proves nothing)
-  - every job concluded `cancelled`
+  - every non-skipped job concluded `cancelled`
   - no job ran a single step
   - no job was ever assigned a runner
 
@@ -33,7 +33,14 @@ def should_retry(jobs_payload: dict) -> tuple[bool, str]:
     if not isinstance(jobs, list) or not jobs:
         return False, "no job data in payload"
 
-    for job in jobs:
+    # Pages has dependent deploy/report jobs that GitHub marks skipped when
+    # its build job never acquires a runner. Ignore those while still requiring
+    # at least one actual starved job.
+    candidates = [job for job in jobs if job.get("conclusion") != "skipped"]
+    if not candidates:
+        return False, "all jobs were skipped"
+
+    for job in candidates:
         if job.get("conclusion") != "cancelled":
             return False, f"job {job.get('name')!r} concluded {job.get('conclusion')!r}"
         if len(job.get("steps") or []) > 0:
@@ -41,7 +48,9 @@ def should_retry(jobs_payload: dict) -> tuple[bool, str]:
         if (job.get("runner_name") or "").strip():
             return False, f"job {job.get('name')!r} had runner {job.get('runner_name')!r}"
 
-    return True, f"{len(jobs)} job(s) cancelled with no steps and no runner"
+    return True, (
+        f"{len(candidates)} job(s) cancelled with no steps and no runner"
+    )
 
 
 def main() -> None:

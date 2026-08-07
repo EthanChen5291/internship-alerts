@@ -5,7 +5,7 @@ Small-company ATS; the list includes real publish dates and salary text.
 
 from __future__ import annotations
 
-from ..models import Fetch, Job, clean_list
+from ..models import Fetch, Job, clean_list, source_board_key
 from ..net import Net
 
 URL = "https://{slug}.breezy.hr/json"
@@ -37,6 +37,7 @@ async def fetch(company: dict, net: Net) -> Fetch:
                 url=p.get("url") or "",
                 posted_at=p.get("published_date"),
                 salary=salary or None,
+                board_key=source_board_key(company, "breezy", slug),
             )
         )
     return Fetch.board(jobs, ok)

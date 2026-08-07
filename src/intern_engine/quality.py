@@ -13,18 +13,32 @@ import json
 
 from . import paths, priority
 
-_DEFAULT_BLOCKLIST = {"companies": [], "name_contains": []}
+
+class BlocklistError(ValueError):
+    """The blocklist is missing, malformed, or unsafe to apply."""
 
 
 def load_blocklist() -> dict:
     try:
         with open(paths.BLOCKLIST_PATH, encoding="utf-8") as f:
             data = json.load(f)
-    except (OSError, json.JSONDecodeError):
-        return dict(_DEFAULT_BLOCKLIST)
+    except (OSError, json.JSONDecodeError) as exc:
+        raise BlocklistError(f"Cannot load blocklist: {exc}") from exc
+    if not isinstance(data, dict):
+        raise BlocklistError("Blocklist must be a JSON object")
+
+    def entries(key: str) -> list[str]:
+        raw = data.get(key, [])
+        if not isinstance(raw, list) or any(not isinstance(item, str) for item in raw):
+            raise BlocklistError(f"Blocklist {key!r} must be a list of strings")
+        normalized = [item.strip().lower() for item in raw]
+        if any(not item for item in normalized):
+            raise BlocklistError(f"Blocklist {key!r} cannot contain blank entries")
+        return list(dict.fromkeys(normalized))
+
     return {
-        "companies": {c.lower().strip() for c in data.get("companies", [])},
-        "name_contains": [s.lower() for s in data.get("name_contains", [])],
+        "companies": set(entries("companies")),
+        "name_contains": entries("name_contains"),
     }
 
 
@@ -34,7 +48,9 @@ def is_blocked(company: str, blocklist: dict) -> bool:
         return True
     if name in blocklist.get("companies", set()):
         return True
-    return any(token in name for token in blocklist.get("name_contains", []))
+    return any(
+        token and token in name for token in blocklist.get("name_contains", [])
+    )
 
 
 def is_recognized(company: str) -> bool:

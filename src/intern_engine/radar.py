@@ -34,6 +34,19 @@ from . import h1b, observe, paths
 _known_cache: dict | None = None
 _observed_cache: dict | None = None
 
+# Employer display names are third-party text and occasionally lose spaces.
+# Keep aliases explicit rather than applying a collision-prone global
+# whitespace deletion. Both forms below are known to identify the same bank.
+_ALIASES = {
+    "jpmorgan chase": "jpmorgan-chase",
+    "jpmorganchase": "jpmorgan-chase",
+}
+
+
+def company_key(name: str) -> str:
+    normalized = h1b.normalize(name)
+    return _ALIASES.get(normalized, normalized)
+
 
 def _load_observed() -> dict:
     global _observed_cache
@@ -53,9 +66,11 @@ def _load_known() -> dict:
             raw = {}
         out: dict[str, dict] = {}
         for entry in raw.get("companies") or []:
-            key = h1b.normalize(entry.get("name") or "")
+            key = company_key(entry.get("name") or "")
             if key:
-                out[key] = entry
+                row = dict(entry)
+                row["verified_at"] = raw.get("verified_at")
+                out[key] = row
         _known_cache = out
     return _known_cache
 
@@ -107,7 +122,7 @@ def _open_this_cycle(store_data: dict, cycle: str) -> dict[str, dict]:
         if r.get("season_inferred"):
             continue  # a guessed cycle can't confirm a radar drop (see docstring)
         name = r.get("company") or ""
-        key = h1b.normalize(name)
+        key = company_key(name)
         if key and key not in seen:
             seen[key] = {"url": r.get("url") or "", "name": name}
     return seen
@@ -115,8 +130,25 @@ def _open_this_cycle(store_data: dict, cycle: str) -> dict[str, dict]:
 
 def rows(store_data: dict, cycle: str, today: date | None = None) -> list[dict]:
     """Radar rows for every company we can say something real about."""
-    observed = _load_observed().get("companies") or {}
-    known = _load_known()
+    observed_raw = _load_observed().get("companies") or {}
+    observed: dict[str, dict] = {}
+    for raw_key, info in observed_raw.items():
+        key = company_key((info or {}).get("name") or raw_key)
+        if not key:
+            continue
+        if key not in observed:
+            observed[key] = dict(info or {})
+            continue
+        # Merge aliases without losing cycle evidence from either spelling.
+        merged = observed[key]
+        merged_cycles = dict(merged.get("cycles") or {})
+        merged_cycles.update((info or {}).get("cycles") or {})
+        merged["cycles"] = merged_cycles
+    known_raw = _load_known()
+    known = {
+        company_key((info or {}).get("name") or raw_key): info
+        for raw_key, info in known_raw.items()
+    }
     live = _open_this_cycle(store_data, cycle)
     if not observed and not known and not live:
         return []
@@ -144,23 +176,41 @@ def rows(store_data: dict, cycle: str, today: date | None = None) -> list[dict]:
         source = "known"
         rolling = False
         expected: date | None = None
+        provenance: dict = {}
 
         if obs_this and obs_this.get("first_posted"):
             posted_on = obs_this["first_posted"]
             expected = datetime.strptime(posted_on, "%Y-%m-%d").date()
             confidence, source, precision = "verified", "engine", "day"
+            provenance = {
+                "type": "engine-observed", "cycle": cycle,
+                "observed_on": posted_on,
+            }
         elif obs_prev and obs_prev.get("first_posted"):
             last = obs_prev["first_posted"]
             expected = _plus_one_year(last)
             confidence, source, precision = "verified", "engine", "day"
+            provenance = {
+                "type": "engine-projection", "cycle": prev_cycle(cycle),
+                "observed_on": last,
+            }
         elif k_info and k_info.get("precision") == "month" and k_info.get("opens"):
             expected = _window_expected(cycle, k_info["opens"])
             confidence, source, precision = "window", "known", "month"
+            provenance = {
+                "type": "verified-window", "url": k_info.get("src", ""),
+                "verified_at": k_info.get("verified_at"),
+            }
         elif k_info and k_info.get("precision") == "rolling":
             confidence, source, rolling = "rolling", "known", True
+            provenance = {
+                "type": "verified-window", "url": k_info.get("src", ""),
+                "verified_at": k_info.get("verified_at"),
+            }
         elif is_posted:
             # Open now but we have no date on record — still a real live signal.
             confidence, source = "verified", "engine"
+            provenance = {"type": "live-role", "url": url}
         else:
             continue  # nothing real to say
 
@@ -186,6 +236,7 @@ def rows(store_data: dict, cycle: str, today: date | None = None) -> list[dict]:
             "status": status,                   # open | dropped | waiting
             "url": url,
             "note": (k_info or {}).get("note", ""),
+            "provenance": provenance,
         })
 
     # open now (apply today) -> waiting (what's coming, the radar's point) ->
@@ -209,6 +260,12 @@ def rows(store_data: dict, cycle: str, today: date | None = None) -> list[dict]:
 # A month-precision window is a whole month, so being a few weeks past its 1st
 # is still "about now". Beyond this, the window genuinely elapsed.
 _PASSED_GRACE_DAYS = 45
+
+
+def is_actionable(row: dict) -> bool:
+    """Whether a forecast belongs in active alerts/calendars."""
+    days = row.get("days_until")
+    return row.get("status") != "waiting" or days is None or days >= -_PASSED_GRACE_DAYS
 
 
 def _fmt(iso_day: str, month_only: bool = False) -> str:

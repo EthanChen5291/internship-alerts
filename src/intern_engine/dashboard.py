@@ -267,9 +267,9 @@ def _radar_rows(rows: list[dict]) -> str:
     return "".join(out)
 
 
-def _radar_section(store_data: dict, cfg: dict) -> str:
+def _radar_section(store_data: dict, cfg: dict, data_as_of: datetime | None = None) -> str:
     cycle = config.cycles(cfg)[0]
-    rows = radar.rows(store_data, cycle)
+    rows = radar.rows(store_data, cycle, today=data_as_of.date() if data_as_of else None)
     if not rows:
         return ""
     return f"""
@@ -296,8 +296,7 @@ def _radar_section(store_data: dict, cfg: dict) -> str:
 
 
 def _signup_section(cfg: dict) -> str:
-    """Native email signup: inserts straight into Supabase under RLS (the
-    publishable key is public by design; the policy only allows INSERT)."""
+    """Privacy-preserving double-opt-in request through a narrow RPC."""
     endpoint = config.signup_endpoint(cfg)
     if not endpoint:
         return ""
@@ -306,7 +305,7 @@ def _signup_section(cfg: dict) -> str:
   <div class="signup" id="subscribe">
     <h2>📬 Daily email alerts</h2>
     <p class="muted" style="margin:4px 0 10px">One email a day, only when new
-    internships actually appeared. Unsubscribe from any email, address never shared.</p>
+    internships actually appeared. Confirm by email first; address never shared.</p>
     <form id="subform">
       <input id="subemail" type="email" required placeholder="you@school.edu" autocomplete="email">
       <button type="submit">Subscribe</button>
@@ -320,14 +319,12 @@ def _signup_section(cfg: dict) -> str:
   form.addEventListener('submit', function (ev) {{
     ev.preventDefault();
     msg.textContent = 'Subscribing…';
-    fetch({json.dumps(url)} + '/rest/v1/email_subscribers', {{
+    fetch({json.dumps(url)} + '/rest/v1/rpc/request_email_subscription', {{
       method: 'POST',
-      headers: {{ 'apikey': {json.dumps(key)}, 'Content-Type': 'application/json',
-                  'Prefer': 'return=minimal' }},
-      body: JSON.stringify({{ email: email.value.trim().toLowerCase() }})
+      headers: {{ 'apikey': {json.dumps(key)}, 'Content-Type': 'application/json' }},
+      body: JSON.stringify({{ address: email.value.trim().toLowerCase() }})
     }}).then(function (r) {{
-      if (r.status === 201) {{ msg.textContent = "You're in — first digest lands with the next batch of new roles."; form.reset(); }}
-      else if (r.status === 409) {{ msg.textContent = 'That address is already subscribed.'; }}
+      if (r.ok) {{ msg.textContent = 'Check your inbox. If that address can subscribe, a confirmation link is on its way.'; form.reset(); }}
       else {{ msg.textContent = 'Hmm, that did not work — try again in a minute.'; }}
     }}).catch(function () {{ msg.textContent = 'Network error — try again in a minute.'; }});
   }});
@@ -342,7 +339,15 @@ def generate(store_data: dict, stats: dict) -> None:
         reverse=True,
     )
     cfg = config.load_config()
-    updated = datetime.now(UTC).strftime("%b %d, %Y at %H:%M UTC")
+    try:
+        data_as_of_dt = datetime.strptime(
+            (stats.get("fetched_at") or stats.get("generated_at") or "")[:19],
+            "%Y-%m-%dT%H:%M:%S",
+        ).replace(tzinfo=UTC)
+    except ValueError:
+        data_as_of_dt = datetime.now(UTC)
+    data_as_of = data_as_of_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+    updated = data_as_of_dt.strftime("%b %d, %Y at %H:%M UTC")
     if config.include_international(cfg):
         region = "US + International"
     elif config.want_us(cfg) and config.want_canada(cfg):
@@ -633,7 +638,7 @@ def generate(store_data: dict, stats: dict) -> None:
   <header class="top">
     <h1>{escape(region)} tech internships</h1>
     <p class="sub">Read straight from {stats.get('companies_total', 0):,} employer
-    job boards, rebuilt every 30 minutes. Updated {escape(updated)}.</p>
+    job boards. Data as of {escape(updated)}.</p>
     <p class="links"><a href="feed.xml">RSS</a> · <a href="api/jobs.json">JSON API</a>
     · <a href="internships.csv">CSV</a> ·
     <a href="https://github.com/{escape(repo)}">source</a> ·
@@ -699,13 +704,13 @@ def generate(store_data: dict, stats: dict) -> None:
     <button class="ghost" type="button" id="reset2">Clear filters</button></p>
 
   {_signup_section(cfg)}
-  {_radar_section(store_data, cfg)}
+  {_radar_section(store_data, cfg, data_as_of_dt)}
 
   <h2>Internships posted per week</h2>
   <p class="muted" style="margin:0 0 8px">Real published dates across every role the
   engine has tracked — watch this spike when {escape(config.cycles(cfg)[0])}
   recruiting opens up.</p>
-  {trends.svg_bar_chart(trends.weekly_postings(store_data))}
+  {trends.svg_bar_chart(trends.weekly_postings(store_data, now=data_as_of_dt))}
 
   {_engine_panel(stats, by_category, _history_points())}
 
@@ -738,9 +743,15 @@ def generate(store_data: dict, stats: dict) -> None:
   // application list on a server. Everything here stays in this browser.
   var KEY = 'ie.saved.v1', saved = {{}};
   try {{ saved = JSON.parse(localStorage.getItem(KEY) || '{{}}') || {{}}; }} catch (e) {{ saved = {{}}; }}
+  // Remove ids no longer present in the current artifact. Otherwise the badge
+  // counts invisible roles that cannot be viewed, exported, or unstarred.
+  var currentIds = {{}};
+  rows.forEach(function (tr) {{ currentIds[tr.dataset.id] = true; }});
+  Object.keys(saved).forEach(function (id) {{ if (!currentIds[id]) delete saved[id]; }});
   function persist() {{
     try {{ localStorage.setItem(KEY, JSON.stringify(saved)); }} catch (e) {{ /* private mode */ }}
   }}
+  persist();
   function savedCount() {{ return Object.keys(saved).length; }}
   function paintRow(tr) {{
     var on = !!saved[tr.dataset.id], btn = tr.querySelector('.star');
@@ -789,7 +800,7 @@ def generate(store_data: dict, stats: dict) -> None:
   }});
 
   function cutoffISO(days) {{
-    var d = new Date(Date.now() - days * 86400000);
+    var d = new Date(new Date({json.dumps(data_as_of)}).getTime() - days * 86400000);
     return d.toISOString().slice(0, 10);
   }}
   // What each sponsorship option actually means. The old single "F-1 friendly"
@@ -890,6 +901,7 @@ def generate(store_data: dict, stats: dict) -> None:
         f.write(html_doc)
 
     _write_unsubscribe(cfg)
+    _write_confirmation(cfg)
 
 
 def _write_unsubscribe(cfg: dict) -> None:
@@ -971,4 +983,47 @@ def _write_unsubscribe(cfg: dict) -> None:
 </script>
 </body></html>"""
     with open(os.path.join(paths.DOCS_DIR, "unsubscribe.html"), "w", encoding="utf-8") as f:
+        f.write(page)
+
+
+def _write_confirmation(cfg: dict) -> None:
+    """Click-gated double-opt-in target; scanners cannot confirm on page load."""
+    endpoint = config.signup_endpoint(cfg)
+    if not endpoint:
+        return
+    url, key = endpoint
+    page = f"""<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confirm email alerts - Internship Engine</title>
+<style>
+  body {{ margin:0; background:#0d1117; color:#e6edf3;
+          font:16px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }}
+  .box {{ max-width:520px; margin:18vh auto 0; padding:32px 24px; background:#161b22;
+          border:1px solid #30363d; border-radius:12px; text-align:center; }}
+  button {{ background:#2f81f7; color:#fff; border:0; border-radius:8px;
+            padding:11px 22px; font-size:15px; font-weight:600; cursor:pointer; }}
+  button[disabled] {{ opacity:.6; cursor:default; }}
+</style></head><body><div class="box">
+  <h1 id="h">Confirm email alerts?</h1>
+  <p id="p">Confirm below to join the daily internship digest.</p>
+  <button id="go">Confirm my email</button>
+</div><script>
+(function () {{
+  var h=document.getElementById('h'), p=document.getElementById('p'),
+      go=document.getElementById('go'), token=new URLSearchParams(location.search).get('t');
+  if (!token) {{ h.textContent='Missing link token'; p.textContent='Use the link from your confirmation email.'; go.style.display='none'; return; }}
+  go.addEventListener('click', function () {{
+    go.disabled=true; h.textContent='Confirming…'; p.textContent='One moment.';
+    fetch({json.dumps(url)} + '/rest/v1/rpc/confirm_email_subscription', {{
+      method:'POST', headers:{{'apikey':{json.dumps(key)},'Content-Type':'application/json'}},
+      body:JSON.stringify({{token:token}})
+    }}).then(function (r) {{
+      if (!r.ok) throw new Error('confirm failed');
+      h.textContent="You're subscribed"; p.textContent='Your first digest arrives with the next batch of new roles.'; go.style.display='none';
+    }}).catch(function () {{ h.textContent='Something went wrong'; p.textContent='Try the link again in a minute.'; go.disabled=false; }});
+  }});
+}})();
+</script></body></html>"""
+    with open(os.path.join(paths.DOCS_DIR, "confirm.html"), "w", encoding="utf-8") as f:
         f.write(page)

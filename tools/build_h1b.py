@@ -33,13 +33,20 @@ def _to_int(value: str) -> int:
     return int(digits) if digits else 0
 
 
-def build(csv_paths: list[str]) -> dict:
+def build(csv_paths: list[str]) -> tuple[dict, int]:
     totals: dict[str, int] = {}
     years: set[int] = set()
     rows = 0
     for path in csv_paths:
         with open(path, encoding="utf-8-sig", newline="") as f:
-            for row in csv.DictReader(f):
+            reader = csv.DictReader(f)
+            required = {"Employer", "Fiscal Year", "Initial Approval", "Continuing Approval"}
+            missing = required - set(reader.fieldnames or ())
+            if missing:
+                raise ValueError(
+                    f"{path}: missing required column(s): {', '.join(sorted(missing))}"
+                )
+            for row in reader:
                 rows += 1
                 name = h1b.normalize(row.get("Employer") or "")
                 if not name:
@@ -54,6 +61,14 @@ def build(csv_paths: list[str]) -> dict:
                     totals[name] = totals.get(name, 0) + approvals
 
     employers = {k: v for k, v in sorted(totals.items()) if v >= _MIN_APPROVALS}
+    if rows == 0:
+        raise ValueError("input exports contain no data rows")
+    if not years:
+        raise ValueError("input exports contain no valid fiscal years")
+    if not employers:
+        raise ValueError(
+            f"input exports contain no employers with >= {_MIN_APPROVALS} approvals"
+        )
     return {
         "source": "USCIS H-1B Employer Data Hub (public per-employer export)",
         "fiscal_years": sorted(years),
@@ -69,8 +84,17 @@ def main() -> None:
         print(__doc__)
         sys.exit(1)
     index, rows = build(csv_paths)
-    with open(paths.H1B_PATH, "w", encoding="utf-8") as f:
-        json.dump(index, f, ensure_ascii=False, separators=(",", ":"))
+    # Validate completely before replacing the committed live index. A broken
+    # or header-only annual export must leave the previous good file untouched.
+    os.makedirs(os.path.dirname(paths.H1B_PATH), exist_ok=True)
+    tmp = f"{paths.H1B_PATH}.tmp"
+    try:
+        with open(tmp, "w", encoding="utf-8") as f:
+            json.dump(index, f, ensure_ascii=False, separators=(",", ":"))
+        os.replace(tmp, paths.H1B_PATH)
+    finally:
+        if os.path.exists(tmp):
+            os.remove(tmp)
     size_kb = os.path.getsize(paths.H1B_PATH) // 1024
     print(f"Read {rows:,} rows from {len(csv_paths)} file(s).")
     print(f"Index: {len(index['employers']):,} employers with >= {_MIN_APPROVALS} "

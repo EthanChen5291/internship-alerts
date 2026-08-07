@@ -16,7 +16,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 import requests
 
-from . import paths
+from . import paths, registry
 
 PROBES = {
     "greenhouse": "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs",
@@ -56,8 +56,21 @@ def detect(candidate: dict, session: requests.Session) -> dict | None:
 
 
 def harvest() -> tuple[list[dict], list[dict]]:
-    with open(paths.CANDIDATES_PATH, encoding="utf-8") as f:
-        candidates = json.load(f)
+    try:
+        with open(paths.CANDIDATES_PATH, encoding="utf-8") as f:
+            candidates = json.load(f)
+    except (OSError, json.JSONDecodeError) as exc:
+        raise registry.RegistryCorrupt(
+            f"{paths.CANDIDATES_PATH} is unreadable: {exc}"
+        ) from exc
+    if not isinstance(candidates, list):
+        raise registry.RegistryCorrupt("candidate registry must be a list")
+    for i, candidate in enumerate(candidates):
+        if not isinstance(candidate, dict) or not all(
+            isinstance(candidate.get(field), str) and candidate[field].strip()
+            for field in ("name", "slug")
+        ):
+            raise registry.RegistryCorrupt(f"candidate {i} requires name and slug")
 
     session = requests.Session()
     session.headers.update(HEADERS)
@@ -70,18 +83,12 @@ def harvest() -> tuple[list[dict], list[dict]]:
 
     # Merge into the existing registry — a probe run must never wipe out the
     # thousands of companies that dataset discovery already validated.
-    merged: dict[tuple[str, str], dict] = {}
-    try:
-        with open(paths.COMPANIES_PATH, encoding="utf-8") as f:
-            for c in json.load(f):
-                merged[(c["ats"], c["slug"])] = c
-    except (OSError, json.JSONDecodeError, KeyError):
-        pass
+    merged = {registry.board_key(c): c for c in registry.load(missing_ok=True)}
     for c in found:
-        merged.setdefault((c["ats"], c["slug"]), c)
+        normalized = registry.validate_company(c)
+        merged.setdefault(registry.board_key(normalized), normalized)
 
     companies = sorted(merged.values(), key=lambda c: c["name"].lower())
-    with open(paths.COMPANIES_PATH, "w", encoding="utf-8") as f:
-        json.dump(companies, f, indent=2, ensure_ascii=False)
+    registry.save(companies)
 
     return found, candidates

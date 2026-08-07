@@ -13,20 +13,34 @@ from __future__ import annotations
 import json
 import os
 from datetime import UTC, datetime, timedelta
-from xml.sax.saxutils import escape
+from xml.sax.saxutils import escape, quoteattr
 
 from . import config, filters, h1b, paths, radar, sponsorship
 
 # Big enough that a burst day (or a role that opened and closed between two
 # reader polls) still fits; 50 could drop roles from the feed unseen.
 _FEED_LIMIT = 100
+_FEED_RETENTION_DAYS = 14
+
+
+def _iso_now() -> str:
+    return datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def _data_as_of(value: str | None) -> str:
+    """Validated fetch timestamp, falling back only for legacy callers."""
+    try:
+        parsed = datetime.strptime((value or "")[:19], "%Y-%m-%dT%H:%M:%S")
+    except ValueError:
+        return _iso_now()
+    return parsed.replace(tzinfo=UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def _first_seen(record: dict) -> str:
     return record.get("first_seen_at") or ""
 
 
-def _entry(record: dict, base: str) -> str:
+def _entry(record: dict, base: str, data_as_of: str | None = None) -> str:
     flag = sponsorship.flag(record.get("sponsorship"))
     title = f"{record.get('company', '')}: {record.get('title', '')}"
     if flag:
@@ -43,6 +57,8 @@ def _entry(record: dict, base: str) -> str:
     sponsor = record.get("sponsorship", "unknown")
     if sponsor != "unknown":
         summary_bits.append(f"sponsorship: {sponsor}")
+    if not record.get("is_open"):
+        summary_bits.append("status: closed")
     approvals = h1b.approvals_for(record.get("company") or "")
     if h1b.badge(approvals):
         summary_bits.append(
@@ -50,27 +66,40 @@ def _entry(record: dict, base: str) -> str:
             f"({h1b.window_label()})"
         )
     summary = " · ".join(b for b in summary_bits if b)
-    updated = _first_seen(record) or datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+    updated = max(_first_seen(record), record.get("closed_at") or "") \
+        or _data_as_of(data_as_of)
     return (
         "  <entry>\n"
         f"    <id>urn:intern-engine:{escape(record.get('id', ''))}</id>\n"
         f"    <title>{escape(title)}</title>\n"
-        f"    <link href=\"{escape(record.get('url') or base)}\"/>\n"
+        f"    <link href={quoteattr(record.get('url') or base)}/>\n"
         f"    <updated>{escape(updated)}</updated>\n"
-        f"    <category term=\"{escape(record.get('season') or 'Internship')}\"/>\n"
+        f"    <category term={quoteattr(record.get('season') or 'Internship')}/>\n"
         f"    <summary>{escape(summary)}</summary>\n"
         "  </entry>\n"
     )
 
 
-def write_feed(store_data: dict) -> int:
-    """Atom feed of the most recently spotted open roles."""
+def write_feed(store_data: dict, data_as_of: str | None = None) -> int:
+    """Atom discovery feed, retaining recent entries even after they close."""
     base = config.pages_base()
     cycles_phrase = " & ".join(config.cycles(config.load_config()))
-    open_jobs = [r for r in store_data.values() if r.get("is_open")]
-    open_jobs.sort(key=_first_seen, reverse=True)
-    entries = open_jobs[:_FEED_LIMIT]
-    now = datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+    as_of = _data_as_of(data_as_of)
+    cutoff = (
+        datetime.strptime(as_of[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=UTC)
+        - timedelta(days=_FEED_RETENTION_DAYS)
+    )
+    entries = []
+    for record in store_data.values():
+        try:
+            seen = datetime.strptime(_first_seen(record)[:19], "%Y-%m-%dT%H:%M:%S") \
+                .replace(tzinfo=UTC)
+        except ValueError:
+            seen = None
+        if record.get("is_open") or (seen is not None and seen >= cutoff):
+            entries.append(record)
+    entries.sort(key=_first_seen, reverse=True)
+    entries = entries[:_FEED_LIMIT]
 
     xml = [
         '<?xml version="1.0" encoding="utf-8"?>\n',
@@ -78,15 +107,15 @@ def write_feed(store_data: dict) -> int:
         f"  <id>{escape(base)}/feed.xml</id>\n",
         f"  <title>{escape(cycles_phrase)} Tech Internships — new roles</title>\n",
         "  <subtitle>Auto-detected internships, newest finds first.</subtitle>\n",
-        f'  <link href="{escape(base)}/feed.xml" rel="self"/>\n',
-        f'  <link href="https://github.com/{escape(config.repo_slug())}"/>\n',
-        f"  <updated>{now}</updated>\n",
+        f"  <link href={quoteattr(base + '/feed.xml')} rel=\"self\"/>\n",
+        f"  <link href={quoteattr('https://github.com/' + config.repo_slug())}/>\n",
+        f"  <updated>{as_of}</updated>\n",
         # RFC 4287 requires a feed-level author unless every entry carries one.
         # Validators flag its absence, and some readers drop the feed entirely.
         "  <author><name>Internship Engine</name>"
         f"<uri>https://github.com/{escape(config.repo_slug())}</uri></author>\n",
     ]
-    xml.extend(_entry(r, base) for r in entries)
+    xml.extend(_entry(r, base, as_of) for r in entries)
     xml.append("</feed>\n")
 
     os.makedirs(paths.DOCS_DIR, exist_ok=True)
@@ -96,6 +125,7 @@ def write_feed(store_data: dict) -> int:
 
 
 def _ics_escape(text: str) -> str:
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
     return (text.replace("\\", "\\\\").replace(";", "\\;")
                 .replace(",", "\\,").replace("\n", "\\n"))
 
@@ -111,14 +141,21 @@ def _ics_fold(line: str) -> str:
         # 74 leaves room; continuation lines start with a single space.
         limit = 75 if not out else 74
         if len(chunk) + len(enc) > limit:
-            out.append(chunk.decode("utf-8"))
-            chunk = b""
+            rendered = chunk.decode("utf-8")
+            # Never leave source whitespace at the physical line ending: Git
+            # correctly flags it as trailing whitespace. Move it across the
+            # fold; unfolding removes only the mandatory first continuation
+            # space, so the logical ICS value remains byte-for-byte equivalent.
+            trimmed = rendered.rstrip(" \t")
+            out.append(trimmed)
+            chunk = rendered[len(trimmed):].encode("utf-8")
         chunk += enc
     out.append(chunk.decode("utf-8"))
     return "\r\n ".join(out)
 
 
-def write_radar_ics(store_data: dict, cycle: str | None = None) -> int:
+def write_radar_ics(store_data: dict, cycle: str | None = None,
+                    data_as_of: str | None = None) -> int:
     """A subscribable calendar of expected internship drop dates.
 
     Point Google/Apple Calendar at docs/radar.ics and every company's expected
@@ -130,9 +167,12 @@ def write_radar_ics(store_data: dict, cycle: str | None = None) -> int:
     """
     cycle = cycle or config.cycles(config.load_config())[0]
     base = config.pages_base()
-    now = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
-    rows = [r for r in radar.rows(store_data, cycle)
-            if r["status"] == "waiting" and not r["rolling"] and r["expected"]]
+    as_of = _data_as_of(data_as_of)
+    now = as_of.replace("-", "").replace(":", "")
+    today = datetime.strptime(as_of[:10], "%Y-%m-%d").date()
+    rows = [r for r in radar.rows(store_data, cycle, today=today)
+            if r["status"] == "waiting" and not r["rolling"] and r["expected"]
+            and radar.is_actionable(r)]
 
     lines = [
         "BEGIN:VCALENDAR",
@@ -208,8 +248,14 @@ def write_api(store_data: dict, stats: dict) -> int:
         row["remote"] = filters.is_remote(r.get("location") or "", r.get("title") or "")
         return row
 
+    rendered_at = stats.get("rendered_at") or _iso_now()
+    data_as_of = _data_as_of(stats.get("fetched_at") or stats.get("generated_at"))
     payload = {
-        "generated_at": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        # `generated_at` remains for clients, but now truthfully means the data
+        # snapshot time. `rendered_at` separately describes artifact rebuilds.
+        "generated_at": data_as_of,
+        "data_as_of": data_as_of,
+        "rendered_at": rendered_at,
         "source": f"https://github.com/{config.repo_slug()}",
         "h1b_window": h1b.window_label() or None,
         "count": len(open_jobs),
@@ -224,9 +270,15 @@ def write_api(store_data: dict, stats: dict) -> int:
     cycle = config.cycles(config.load_config())[0]
     radar_payload = {
         "generated_at": payload["generated_at"],
+        "data_as_of": data_as_of,
+        "rendered_at": rendered_at,
         "cycle": cycle,
         "source": payload["source"],
-        "companies": radar.rows(store_data, cycle),
+        "companies": radar.rows(
+            store_data,
+            cycle,
+            today=datetime.fromisoformat(data_as_of.replace("Z", "+00:00")).date(),
+        ),
     }
     radar_payload["count"] = len(radar_payload["companies"])
     with open(os.path.join(paths.API_DIR, "radar.json"), "w", encoding="utf-8") as f:

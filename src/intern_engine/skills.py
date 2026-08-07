@@ -162,8 +162,7 @@ def extract_pay(text: str | None) -> str | None:
         return None
     flat = _WS_RE.sub(" ", text)
 
-    m = _HOURLY_RE.search(flat)
-    if m:
+    for m in _HOURLY_RE.finditer(flat):
         lo = float(m.group(1))
         hi = float(m.group(2)) if m.group(2) else None
         if _hourly_ok(lo) and (hi is None or (_hourly_ok(hi) and hi >= lo)):
@@ -171,8 +170,7 @@ def extract_pay(text: str | None) -> str | None:
                 return f"{_fmt_hourly(lo)}–{_fmt_hourly(hi)}/hr"
             return f"{_fmt_hourly(lo)}/hr"
 
-    m = _ANNUAL_RE.search(flat)
-    if m:
+    for m in _ANNUAL_RE.finditer(flat):
         lo = float(m.group(1).replace(",", ""))
         hi = float(m.group(2).replace(",", "")) if m.group(2) else None
         if _annual_ok(lo) and (hi is None or (_annual_ok(hi) and hi >= lo)):

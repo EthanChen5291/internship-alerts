@@ -35,6 +35,63 @@ class StateCorrupt(RuntimeError):
     """
 
 
+_REQUIRED_RECORD_FIELDS = {
+    "id", "source", "company", "company_slug", "title", "location", "url",
+    "is_open", "first_seen_at", "last_seen_at",
+}
+
+
+def _timestamp_is_aware(value: object) -> bool:
+    if not isinstance(value, str) or not value:
+        return False
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    return parsed.tzinfo is not None
+
+
+def _validate_record(jid: str, record: dict) -> None:
+    missing = sorted(_REQUIRED_RECORD_FIELDS - record.keys())
+    if missing:
+        raise StateCorrupt(f"{jid}: missing required fields {', '.join(missing)}")
+    if record.get("id") != jid:
+        raise StateCorrupt(f"{jid}: record id does not match its key")
+    for field in ("id", "source", "company", "company_slug", "title", "location", "url"):
+        if not isinstance(record.get(field), str) or not record[field].strip():
+            raise StateCorrupt(f"{jid}: {field} must be a non-empty string")
+    if not record["url"].startswith(("https://", "http://")):
+        raise StateCorrupt(f"{jid}: url must be HTTP(S)")
+    if not isinstance(record.get("is_open"), bool):
+        raise StateCorrupt(f"{jid}: is_open must be boolean")
+    for field in ("first_seen_at", "last_seen_at"):
+        if not _timestamp_is_aware(record.get(field)):
+            raise StateCorrupt(f"{jid}: {field} must be a timezone-aware timestamp")
+    if not record["is_open"] and not _timestamp_is_aware(record.get("closed_at")):
+        raise StateCorrupt(f"{jid}: a closed record requires closed_at")
+    if record["is_open"] and record.get("closed_at"):
+        raise StateCorrupt(f"{jid}: an open record cannot carry closed_at")
+    for field in ("seasons", "skills", "aliases"):
+        value = record.get(field)
+        if value is not None and (
+            not isinstance(value, list) or not all(isinstance(v, str) for v in value)
+        ):
+            raise StateCorrupt(f"{jid}: {field} must be a list of strings")
+    for field in ("canonical_id", "requisition_id", "board_key"):
+        if record.get(field) is not None and not isinstance(record[field], str):
+            raise StateCorrupt(f"{jid}: {field} must be a string")
+
+
+def _validate_store(data: object) -> dict:
+    if not isinstance(data, dict):
+        raise StateCorrupt(f"store is a {type(data).__name__}, expected an object")
+    if not all(isinstance(k, str) and isinstance(v, dict) for k, v in data.items()):
+        raise StateCorrupt("store has invalid record entries")
+    for jid, record in data.items():
+        _validate_record(jid, record)
+    return data
+
+
 def load(path: str) -> dict:
     """The job store, or {} when it genuinely doesn't exist yet.
 
@@ -47,11 +104,10 @@ def load(path: str) -> dict:
             data = json.load(f)
     except (json.JSONDecodeError, OSError) as exc:
         raise StateCorrupt(f"{path} is unreadable: {exc}") from exc
-    if not isinstance(data, dict):
-        raise StateCorrupt(f"{path} is a {type(data).__name__}, expected an object")
-    if not all(isinstance(v, dict) for v in data.values()):
-        raise StateCorrupt(f"{path} has non-object records")
-    return data
+    try:
+        return _validate_store(data)
+    except StateCorrupt as exc:
+        raise StateCorrupt(f"{path}: {exc}") from exc
 
 
 def save(path: str, data: dict) -> None:
@@ -61,7 +117,10 @@ def save(path: str, data: dict) -> None:
     write leaves the previous store fully intact rather than a truncated file
     that the next run would have to reject.
     """
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    _validate_store(data)
+    directory = os.path.dirname(path)
+    if directory:
+        os.makedirs(directory, exist_ok=True)
     tmp = f"{path}.tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         # sort_keys keeps the file order stable so git diffs stay small.
@@ -93,7 +152,8 @@ def upsert(existing: dict, jobs: list[dict], complete_keys: set[str],
            classifier_version: int | None = None) -> list[str]:
     """Merge freshly-fetched jobs into the existing store.
 
-    Returns the list of NEWLY-seen job ids (this is the "Spotter" result).
+    Returns ids that should be announced: never-before-seen roles plus roles
+    that genuinely reopened after having been closed.
 
     A role leaves the list for one of two reasons, and they need different
     evidence:
@@ -124,9 +184,19 @@ def upsert(existing: dict, jobs: list[dict], complete_keys: set[str],
         kept_ids.add(jid)
         if jid in existing:
             record = existing[jid]
+            reopened = not record.get("is_open") or bool(record.get("closed_at"))
+            reopen_reason = record.get("closed_reason")
             for key in _REFRESH_FIELDS:
                 if key in job:
                     record[key] = job[key]
+            for key in ("board_key", "canonical_id", "requisition_id"):
+                if job.get(key):
+                    record[key] = job[key]
+            if job.get("aliases"):
+                aliases = set(record.get("aliases") or [])
+                aliases.update(job["aliases"])
+                aliases.discard(jid)
+                record["aliases"] = sorted(aliases)
             # posted_at: fill blanks, and upgrade precision — never downgrade.
             # An exact/detail-page date replaces a "days ago" approximation for
             # the same role, but a fresh approximation can't shift a real date.
@@ -151,6 +221,12 @@ def upsert(existing: dict, jobs: list[dict], complete_keys: set[str],
             record.pop("missing_streak", None)  # seen again -> closure disarmed
             record["last_seen_at"] = ts
             record["is_open"] = True
+            # Only an employer-backed disappearance and later return is a new
+            # event worth announcing. Policy tombstones can reopen because a
+            # stale title/location was corrected in this same run; announcing
+            # those replays an old role to every subscriber.
+            if reopened and reopen_reason == "gone-from-feed":
+                new_ids.append(jid)
         else:
             record = dict(job)
             record["first_seen_at"] = ts
@@ -166,7 +242,9 @@ def upsert(existing: dict, jobs: list[dict], complete_keys: set[str],
     for jid, record in existing.items():
         if not record.get("is_open") or jid in kept_ids:
             continue
-        company_key = f"{record.get('source')}:{record.get('company_slug')}"
+        company_key = record.get("board_key") or (
+            f"{record.get('source')}:{record.get('company_slug')}"
+        )
         if jid in fetched_ids:
             # The employer still lists it; WE decided it doesn't belong. Our
             # own verdict is deterministic — no second opinion needed.

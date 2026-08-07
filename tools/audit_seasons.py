@@ -26,6 +26,7 @@ import asyncio
 import json
 import os
 import sys
+from dataclasses import dataclass
 
 import httpx
 
@@ -35,6 +36,17 @@ from intern_engine import config, enrich, filters, models, paths, sponsorship, s
 from intern_engine.models import Job  # noqa: E402
 from intern_engine.net import HostLimiter, Net  # noqa: E402
 from intern_engine.pipeline import CONNECTORS, USER_AGENT  # noqa: E402
+
+_MIN_FETCH_COVERAGE = 0.80
+
+
+@dataclass(frozen=True)
+class TextResult:
+    """Outcome of obtaining posting text; absence is never overloaded."""
+
+    status: str  # OK | NO-TEXT | FETCH-FAILED
+    text: str = ""
+    error: str = ""
 
 
 def _record_to_job(record: dict) -> Job:
@@ -46,10 +58,10 @@ def _record_to_job(record: dict) -> Job:
     )
 
 
-async def _texts_for(jobs: list[Job], companies: list[dict]) -> dict[str, str]:
-    """job id -> posting text, via detail fetchers or the company list payload."""
+async def _texts_for(jobs: list[Job], companies: list[dict]) -> dict[str, TextResult]:
+    """Job id -> typed retrieval result, never an ambiguous missing string."""
     by_key = {(c["ats"], c["slug"]): c for c in companies}
-    texts: dict[str, str] = {}
+    texts: dict[str, TextResult] = {}
     async with httpx.AsyncClient(
         timeout=httpx.Timeout(20.0, connect=10.0),
         headers={"User-Agent": USER_AGENT},
@@ -61,15 +73,21 @@ async def _texts_for(jobs: list[Job], companies: list[dict]) -> dict[str, str]:
             fetcher = enrich._FETCHERS.get(job.source)  # noqa: SLF001 — same package's tool
             if fetcher is not None:
                 try:
-                    texts[job.id] = await fetcher(job, net) or ""
+                    text = await fetcher(job, net) or ""
+                    texts[job.id] = TextResult("OK" if text.strip() else "NO-TEXT", text)
                 except Exception as exc:  # noqa: BLE001 — audit one role, not none
                     print(f"  (fetch failed: {job.company} — {type(exc).__name__})")
+                    texts[job.id] = TextResult(
+                        "FETCH-FAILED", error=type(exc).__name__
+                    )
             else:
                 list_sourced.setdefault((job.source, job.company_slug), []).append(job)
 
         for key, wanted in list_sourced.items():
             company = by_key.get(key)
             if company is None:
+                for job in wanted:
+                    texts[job.id] = TextResult("FETCH-FAILED", error="company-not-found")
                 continue
             try:
                 # Connectors return a Fetch (jobs + whether the snapshot was
@@ -78,10 +96,17 @@ async def _texts_for(jobs: list[Job], companies: list[dict]) -> dict[str, str]:
                 fetched = models.Fetch.of(await CONNECTORS[key[0]](company, net))
             except Exception as exc:  # noqa: BLE001
                 print(f"  (list fetch failed: {key[1]} — {type(exc).__name__})")
+                for job in wanted:
+                    texts[job.id] = TextResult(
+                        "FETCH-FAILED", error=type(exc).__name__
+                    )
                 continue
             descriptions = {j.id: j.description or "" for j in fetched.jobs}
             for job in wanted:
-                texts[job.id] = descriptions.get(job.id, "")
+                text = descriptions.get(job.id, "")
+                texts[job.id] = TextResult("OK" if text.strip() else "NO-TEXT", text)
+    for job in jobs:
+        texts.setdefault(job.id, TextResult("FETCH-FAILED", error="no-result"))
     return texts
 
 
@@ -99,41 +124,69 @@ def main() -> None:
     jobs = [_record_to_job(r) for r in inferred]
     texts = asyncio.run(_texts_for(jobs, companies))
 
-    verdicts: dict[str, list] = {"CONFIRMED": [], "MOVED": [], "OFF-CYCLE": [], "NO-SIGNAL": []}
+    verdicts: dict[str, list] = {
+        "CONFIRMED": [], "MOVED": [], "OFF-CYCLE": [],
+        "NO-SIGNAL": [], "NO-TEXT": [], "FETCH-FAILED": [],
+    }
     for record in inferred:
-        text = sponsorship.strip_html(texts.get(record["id"], ""))
-        stated = filters.season_from_text(text)
-        if stated is None:
+        result = texts[record["id"]]
+        if result.status == "FETCH-FAILED":
+            verdicts["FETCH-FAILED"].append((record, result.error or None))
+            continue
+        if result.status == "NO-TEXT":
+            verdicts["NO-TEXT"].append((record, None))
+            continue
+        text = sponsorship.strip_html(result.text)
+        stated = filters.seasons_from_text(text)
+        if not stated:
             verdicts["NO-SIGNAL"].append((record, None))
-        elif stated == record.get("season"):
+        elif record.get("season") in stated:
             verdicts["CONFIRMED"].append((record, stated))
-        elif stated in cycles:
+        elif stated[0] in cycles:
             verdicts["MOVED"].append((record, stated))
         else:
             verdicts["OFF-CYCLE"].append((record, stated))
+
+    fetch_ok = len(inferred) - len(verdicts["FETCH-FAILED"])
+    coverage = fetch_ok / len(inferred) if inferred else 1.0
 
     for verdict, rows in verdicts.items():
         print(f"\n{verdict} ({len(rows)})")
         for record, stated in rows:
             was = record.get("season")
-            note = f"{was} -> {stated}" if stated and stated != was else (stated or was)
+            labels = ", ".join(stated) if isinstance(stated, list) else stated
+            note = f"{was} -> {labels}" if labels and was not in (stated or []) \
+                else (labels or was)
             print(f"  {record.get('company','')[:26]:<26} | {note:<26} | "
                   f"{record.get('title','')[:56]}")
+
+    print(f"\nFetch coverage: {fetch_ok}/{len(inferred)} ({coverage:.1%})")
+    if coverage < _MIN_FETCH_COVERAGE:
+        print(f"Audit aborted: coverage is below {_MIN_FETCH_COVERAGE:.0%}; "
+              "failed retrievals are not season evidence.")
+        raise SystemExit(2)
 
     if not apply_fixes:
         print("\nDry run — pass --apply to repair the store.")
         return
 
     ts = store.now_iso()
-    for record, _stated in verdicts["CONFIRMED"]:
-        data[record["id"]]["season_inferred"] = False
+    for record, stated in verdicts["CONFIRMED"]:
+        rec = data[record["id"]]
+        primary = rec.get("season") if rec.get("season") in stated else stated[0]
+        rec.update(season=primary, seasons=stated, season_inferred=False,
+                   season_audited_at=ts, season_audit_verdict="confirmed")
     for record, stated in verdicts["MOVED"]:
-        data[record["id"]]["season"] = stated
-        data[record["id"]]["season_inferred"] = False
+        data[record["id"]].update(
+            season=stated[0], seasons=stated, season_inferred=False,
+            season_audited_at=ts, season_audit_verdict="moved",
+        )
     for record, stated in verdicts["OFF-CYCLE"]:
         rec = data[record["id"]]
-        rec.update(season=stated, season_inferred=False,
-                   is_open=False, closed_at=ts, enriched_at=ts)
+        rec.update(season=stated[0], seasons=stated, season_inferred=False,
+                   is_open=False, closed_at=ts, closed_reason="out-of-scope",
+                   enriched_at=ts, season_audited_at=ts,
+                   season_audit_verdict="off-cycle")
     store.save(paths.JOBS_PATH, data)
     print(f"\nApplied: {len(verdicts['CONFIRMED'])} confirmed, "
           f"{len(verdicts['MOVED'])} moved, {len(verdicts['OFF-CYCLE'])} closed off-cycle. "

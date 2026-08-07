@@ -64,11 +64,19 @@ def weekly_postings(store_data: dict, weeks: int = 16, now: datetime | None = No
     return list(counts.items())
 
 
-def median_days_open(store_data: dict) -> tuple[float | None, int]:
-    """(median posting lifetime in days, sample size) from posted -> closed."""
+def median_days_open(store_data: dict, closed_reason: str = "gone-from-feed") \
+        -> tuple[float | None, int]:
+    """Employer posting lifetime for one evidence-backed closure cohort.
+
+    `out-of-scope` is an engine policy decision, not evidence that the employer
+    removed a posting. Unknown legacy reasons are excluded rather than silently
+    turning a filter action into an employer-lifetime claim.
+    """
     lifetimes = []
     for record in store_data.values():
         if record.get("is_open"):
+            continue
+        if record.get("closed_reason") != closed_reason:
             continue
         posted = _parse_day(record.get("posted_at"))
         closed = _parse_day(record.get("closed_at"))
@@ -221,10 +229,10 @@ def _line_chart_svg(buckets: list[tuple[str, int]], theme: dict,
     return "".join(parts)
 
 
-def write_readme_charts(store_data: dict) -> None:
+def write_readme_charts(store_data: dict, now: datetime | None = None) -> None:
     """docs/trends-{light,dark}.svg — redrawn every run, embedded in README
     via <picture> so each GitHub theme gets a chart drawn for its surface."""
-    buckets = weekly_postings(store_data)
+    buckets = weekly_postings(store_data, now=now)
     for mode, theme in _THEMES.items():
         with open(os.path.join(paths.DOCS_DIR, f"trends-{mode}.svg"), "w",
                   encoding="utf-8") as f:

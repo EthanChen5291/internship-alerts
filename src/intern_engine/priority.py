@@ -34,20 +34,45 @@ TOP_COMPANIES = [
     "loom", "coursera", "webflow", "checkr", "lattice", "gong", "zapier",
 ]
 
-_RANK = {name: i for i, name in enumerate(TOP_COMPANIES)}
-# Whole-word matching so "Unity" never claims "Community Bank" and "meta"
-# never claims "Metagenomics".
-_RANK_RES = [(re.compile(rf"\b{re.escape(name)}\b"), i)
-             for name, i in _RANK.items()]
+_LEGAL_SUFFIXES = {
+    "inc", "incorporated", "llc", "llp", "lp", "ltd", "limited", "corp",
+    "corporation", "co", "company", "plc",
+}
+_PUNCT_RE = re.compile(r"[^a-z0-9]+")
+
+
+def _key(company: str) -> str:
+    words = _PUNCT_RE.sub(" ", (company or "").strip().lower()).split()
+    if len(words) > 1 and words[0] == "the":
+        words.pop(0)
+    while len(words) > 1 and words[-1] in _LEGAL_SUFFIXES:
+        words.pop()
+    return " ".join(words)
+
+
+_RANK = {_key(name): i for i, name in enumerate(TOP_COMPANIES)}
+_ALIASES = {
+    "amazon com services": "amazon",
+    "amazon web services": "amazon",
+    "alphabet": "google",
+    "meta platforms": "meta",
+    "jpmorgan chase": "jpmorgan",
+    "jp morgan chase": "jpmorgan",
+    "goldman sachs": "goldman",
+    "salesforce com": "salesforce",
+    "circle internet financial": "circle",
+    "circle internet group": "circle",
+    "cohere ai": "cohere",
+    "kraken digital asset exchange": "kraken",
+    "payward": "kraken",
+    "functional software": "sentry",
+    "sentry io": "sentry",
+}
 UNRANKED = 10_000
 
 
 def rank(company: str) -> int:
     """Lower = more sought-after. Unknown companies sort last."""
-    c = (company or "").strip().lower()
-    if c in _RANK:
-        return _RANK[c]
-    for pattern, i in _RANK_RES:
-        if pattern.search(c):  # e.g. "Stripe, Inc." contains the word "stripe"
-            return i
-    return UNRANKED
+    key = _key(company)
+    canonical = _ALIASES.get(key, key)
+    return _RANK.get(canonical, UNRANKED)

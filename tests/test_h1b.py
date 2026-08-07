@@ -37,13 +37,13 @@ def test_alias_match():
     assert h1b.approvals_for("Meta", idx) == 4510
 
 
-def test_multi_token_prefix_sums_family():
+def test_uncurated_multi_token_prefix_abstains():
     idx = _index({"jpmorgan chase bank": 900, "jpmorgan chase services": 100})
-    assert h1b.approvals_for("JPMorgan Chase", idx) == 1000
+    assert h1b.approvals_for("JPMorgan Chase", idx) is None
 
 
-def test_single_token_prefix_takes_max_not_sum():
-    # "Google" must not inflate by summing subsidiaries with itself absent.
+def test_curated_alias_can_use_a_single_token_family():
+    # A reviewed brand alias may resolve a family; guessed brands may not.
     idx = _index({"google fiber": 7, "google public sector": 9})
     assert h1b.approvals_for("Google", idx) == 9
 
@@ -65,6 +65,26 @@ def test_generic_and_short_names_never_prefix_match():
 
 def test_no_match_returns_none():
     assert h1b.approvals_for("Anduril", _index({"nvidia": 851})) is None
+
+
+def test_ambiguous_single_token_brands_never_borrow_an_unrelated_employer():
+    idx = _index({
+        "abridge ai": 2,
+        "abridge info systems": 25,
+        "harvey mudd college": 4,
+        "harvey nash": 39,
+        "leland stanford jr university": 784,
+        "brilliant earth": 2,
+        "brilliant infotech": 16,
+        "foundation medicine": 53,
+        "harbor hat": 17,
+        "inspire medical systems": 2,
+        "inspire resources": 27,
+    })
+    assert h1b.approvals_for("Abridge", idx) == 2  # curated legal identity
+    assert h1b.approvals_for("Inspire", idx) == 2  # curated legal identity
+    for company in ("Harvey", "Leland", "Brilliant", "Foundation", "Harbor"):
+        assert h1b.approvals_for(company, idx) is None, company
 
 
 def test_empty_index_returns_none():

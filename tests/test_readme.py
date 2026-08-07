@@ -109,6 +109,7 @@ class TestCsvCompleteness:
         store = {"a": _rec("a", title="Data Co-op", location="Remote - US")}
         readme.generate(store)
         row = next(csv.DictReader((outputs / "internships.csv").open(encoding="utf-8")))
+        assert row["id"]
         assert row["program"] == "Co-op"
         assert row["remote"] == "yes"
 
@@ -157,3 +158,12 @@ class TestHeaderCounts:
         line = next(x for x in lines if "open roles" in x)
         assert "104 open roles" in line
         assert "listed below" not in line
+
+    def test_zero_inferred_roles_still_reports_all_stated_and_fetch_time(self):
+        lines = readme._header(
+            self.CFG, total_open=4, companies=3900, new_week=1,
+            stated=4, inferred=0, data_as_of="2026-08-06T14:08:27Z",
+        )
+        assert any("4 have a cycle the employer stated · 0 are recent" in x
+                   for x in lines)
+        assert any("data as of Aug 06, 2026 at 14:08 UTC" in x for x in lines)

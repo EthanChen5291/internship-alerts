@@ -18,9 +18,9 @@ def test_dot_slug_artifact_becomes_a_real_domain(monkeypatch, tmp_path):
     assert names.display("Retool Dot Com") == "Retool.com"
 
 
-def test_trailing_ats_account_number_is_dropped(monkeypatch, tmp_path):
-    _reset(monkeypatch, tmp_path, {})
-    assert names.display("Charlesriveranalytics90") == "Charlesriveranalytics"
+def test_known_ats_account_number_is_fixed_only_by_override(monkeypatch, tmp_path):
+    _reset(monkeypatch, tmp_path, {"charlesriveranalytics90": "Charles River Analytics"})
+    assert names.display("Charlesriveranalytics90") == "Charles River Analytics"
 
 
 def test_a_real_number_in_a_spaced_name_is_kept(monkeypatch, tmp_path):
@@ -29,6 +29,12 @@ def test_a_real_number_in_a_spaced_name_is_kept(monkeypatch, tmp_path):
     _reset(monkeypatch, tmp_path, {})
     assert names.display("Studio 397") == "Studio 397"
     assert names.display("Section 32") == "Section 32"
+
+
+def test_numeric_brands_are_preserved_even_without_spaces(monkeypatch, tmp_path):
+    _reset(monkeypatch, tmp_path, {})
+    for brand in ("blend360", "KnowBe4", "Point72", "Trading212"):
+        assert names.display(brand) == brand
 
 
 def test_override_by_slug_wins(monkeypatch, tmp_path):

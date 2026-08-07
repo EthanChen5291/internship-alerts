@@ -23,7 +23,7 @@ import re
 
 import requests
 
-from . import paths
+from . import registry
 
 JSON_SOURCES = [
     # Current + upcoming cycles first (freshest tokens), then older cycles —
@@ -104,13 +104,15 @@ def _extract_workday(text: str, names: dict[str, str]) -> dict:
         tenant, wd, site = m.group(1).lower(), m.group(2).lower(), m.group(3)
         if site.lower() in _WD_BAD_SITES:
             continue
-        name = names.get(f"workday:{tenant}") or _prettify(tenant)
+        name = (names.get(f"workday:{tenant}:{site.casefold()}")
+                or names.get(f"workday:{tenant}") or _prettify(tenant))
         found.setdefault((tenant, site), {"name": name, "tenant": tenant, "wd": wd, "site": site})
     for m in _WD_SITE_RE.finditer(text):
         host, tenant, site = m.group(1).lower(), m.group(2).lower(), m.group(3)
         if site.lower() in _WD_BAD_SITES:
             continue
-        name = names.get(f"workday:{tenant}") or _prettify(tenant)
+        name = (names.get(f"workday:{tenant}:{site.casefold()}")
+                or names.get(f"workday:{tenant}") or _prettify(tenant))
         found.setdefault(
             (tenant, site),
             {"name": name, "tenant": tenant, "wd": host.split(".")[0], "site": site, "host": host},
@@ -123,7 +125,8 @@ def _extract_oracle(text: str, names: dict[str, str]) -> dict:
     found: dict[tuple[str, str], dict] = {}
     for m in _ORC_RE.finditer(text):
         host, site = m.group(1).lower(), m.group(2)
-        name = names.get(f"oracle:{host}") or _prettify(host.split(".")[0])
+        name = (names.get(f"oracle:{host}:{site.casefold()}")
+                or names.get(f"oracle:{host}") or _prettify(host.split(".")[0]))
         found.setdefault((host, site), {"name": name, "host": host, "site": site})
     return found
 
@@ -149,9 +152,14 @@ def _listing_names(listings: list) -> dict[str, str]:
         m = _WD_SUB_RE.search(blob) or _WD_SITE_RE.search(blob)
         if m:
             tenant = (m.group(2) if "myworkdaysite" in m.group(1) else m.group(1)).lower()
+            site = m.group(3)
+            names.setdefault(f"workday:{tenant}:{site.casefold()}", name)
             names.setdefault(f"workday:{tenant}", name)
         m = _ORC_RE.search(blob)
         if m:
+            names.setdefault(
+                f"oracle:{m.group(1).lower()}:{m.group(2).casefold()}", name
+            )
             names.setdefault(f"oracle:{m.group(1).lower()}", name)
     return names
 
@@ -172,28 +180,31 @@ def discover() -> tuple[list[dict], int]:
                 data = resp.json()
                 if isinstance(data, dict):
                     data = data.get("listings") or list(data.values())
+                if not isinstance(data, list):
+                    raise ValueError("source JSON is not a listings array")
                 names = _listing_names(data)
                 text = json.dumps(data)
             else:
                 names = {}
                 text = resp.text
-            simple.update(_extract_simple(text, names))
-            wd.update(_extract_workday(text, names))
-            orc.update(_extract_oracle(text, names))
+            # Sources are ordered freshest-first.  First wins preserves the
+            # current dataset's real company name instead of letting a stale
+            # slug-derived name from a later source overwrite it.
+            for key, value in _extract_simple(text, names).items():
+                simple.setdefault(key, value)
+            for key, value in _extract_workday(text, names).items():
+                wd.setdefault(key, value)
+            for key, value in _extract_oracle(text, names).items():
+                orc.setdefault(key, value)
         except (requests.RequestException, ValueError) as exc:
             print(f"  source failed: {url} ({exc})")
 
     # Merge into existing companies.json, preserving full records (incl. wd/site).
-    merged: dict[tuple[str, str], dict] = {}
-    try:
-        with open(paths.COMPANIES_PATH, encoding="utf-8") as f:
-            for c in json.load(f):
-                merged[(c["ats"], c["slug"])] = c
-    except (OSError, json.JSONDecodeError, KeyError):
-        pass
+    merged = {registry.board_key(c): c for c in registry.load(missing_ok=True)}
 
     for (ats, slug), name in simple.items():
-        merged.setdefault((ats, slug), {"name": name, "slug": slug, "ats": ats})
+        record = registry.validate_company({"name": name, "slug": slug, "ats": ats})
+        merged.setdefault(registry.board_key(record), record)
     for info in wd.values():
         record = {
             "name": info["name"], "slug": info["tenant"], "ats": "workday",
@@ -201,17 +212,19 @@ def discover() -> tuple[list[dict], int]:
         }
         if info.get("host"):
             record["host"] = info["host"]  # path-style tenant (myworkdaysite.com)
-        merged.setdefault(("workday", info["tenant"]), record)
+        record = registry.validate_company(record)
+        merged.setdefault(registry.board_key(record), record)
     for info in orc.values():
-        merged.setdefault(("oracle", info["host"]), {
+        record = registry.validate_company({
             "name": info["name"], "slug": info["host"], "ats": "oracle",
             "host": info["host"], "site": info["site"],
         })
+        merged.setdefault(registry.board_key(record), record)
     # Amazon is one fixed search endpoint, not discovered per-URL.
-    merged.setdefault(("amazon", "amazon"), {"name": "Amazon", "slug": "amazon", "ats": "amazon"})
+    amazon = {"name": "Amazon", "slug": "amazon", "ats": "amazon"}
+    merged.setdefault(registry.board_key(amazon), amazon)
 
     companies = sorted(merged.values(), key=lambda c: c["name"].lower())
-    with open(paths.COMPANIES_PATH, "w", encoding="utf-8") as f:
-        json.dump(companies, f, indent=2, ensure_ascii=False)
+    registry.save(companies)
 
     return companies, len(simple) + len(wd) + len(orc) + 1

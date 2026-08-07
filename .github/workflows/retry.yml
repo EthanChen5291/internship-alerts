@@ -21,11 +21,13 @@ name: Retry a run that never got a runner
 
 on:
   workflow_run:
-    workflows: ["Update internships", "Discover companies", "Audit inferred cycles"]
+    workflows: ["Update internships", "Discover companies", "Audit inferred cycles", "CI", "pages build and deployment"]
     types: [completed]
+    branches: [main]
 
 permissions:
   actions: write        # to re-run the failed workflow
+  contents: read        # checkout the tested classifier from this repository
 
 jobs:
   retry:
@@ -38,10 +40,10 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Checkout
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
 
       - name: Set up Python
-        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
         with:
           python-version: "3.11"
 
@@ -51,11 +53,17 @@ jobs:
           REPO: ${{ github.repository }}
           RUN_ID: ${{ github.event.workflow_run.id }}
           RUN_NAME: ${{ github.event.workflow_run.name }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
         run: |
           set -euo pipefail
           gh api "repos/$REPO/actions/runs/$RUN_ID/jobs" > jobs.json
           if python tools/classify_failure.py jobs.json; then
-            echo "::notice::'$RUN_NAME' run $RUN_ID never acquired a runner — re-dispatching once."
+            CURRENT_SHA="$(gh api "repos/$REPO/commits/main" --jq .sha)"
+            if [ "$HEAD_SHA" != "$CURRENT_SHA" ]; then
+              echo "::warning::'$RUN_NAME' run $RUN_ID is stale ($HEAD_SHA); not rerunning over current main ($CURRENT_SHA)."
+              exit 0
+            fi
+            echo "::notice::'$RUN_NAME' run $RUN_ID never acquired a runner; rerunning once."
             gh api --method POST "repos/$REPO/actions/runs/$RUN_ID/rerun"
           else
             echo "::notice::'$RUN_NAME' run $RUN_ID executed — real failure, not retrying."

@@ -8,12 +8,9 @@ truth + analytics layer - while the README/CSV/dashboard remain exported views.
 
 from __future__ import annotations
 
-import json
 import os
 
-from . import filters, paths
-
-_JOB_BATCH = 500
+from . import filters, registry
 
 
 def _client():
@@ -35,17 +32,32 @@ def enabled() -> bool:
     return _client() is not None
 
 
-def _company_rows() -> list[dict]:
-    try:
-        with open(paths.COMPANIES_PATH, encoding="utf-8") as f:
-            companies = json.load(f)
-    except (OSError, json.JSONDecodeError):
-        return []
-    return [
-        {"key": f"{c['ats']}:{c['slug']}", "ats": c["ats"], "slug": c["slug"], "name": c["name"]}
-        for c in companies
-        if c.get("ats") and c.get("slug")
-    ]
+def _company_rows(store_data: dict) -> list[dict]:
+    """Registry rows plus historical employers still referenced by the store."""
+    rows: dict[str, dict] = {}
+    for company in registry.load():
+        key = registry.board_key(company)
+        rows[key] = {
+            "key": key,
+            "ats": company["ats"],
+            "slug": company["slug"],
+            "name": company["name"],
+        }
+    # Closed history can outlive a registry entry. Include those company keys
+    # so a clean database can satisfy jobs.company_key's foreign key too.
+    for record in store_data.values():
+        source = record.get("source")
+        slug = record.get("company_slug")
+        if not source or not slug:
+            continue
+        key = record.get("board_key") or f"{source}:{slug}"
+        rows.setdefault(key, {
+            "key": key,
+            "ats": source,
+            "slug": slug,
+            "name": record.get("company"),
+        })
+    return list(rows.values())
 
 
 def _job_rows(store_data: dict) -> list[dict]:
@@ -54,7 +66,9 @@ def _job_rows(store_data: dict) -> list[dict]:
         location = r.get("location") or ""
         rows.append({
             "id": r["id"],
-            "company_key": f"{r.get('source')}:{r.get('company_slug')}",
+            "company_key": r.get("board_key") or (
+                f"{r.get('source')}:{r.get('company_slug')}"
+            ),
             "source": r.get("source"),
             "company": r.get("company"),
             "title": r.get("title"),
@@ -77,6 +91,9 @@ def _job_rows(store_data: dict) -> list[dict]:
             "last_seen_at": r.get("last_seen_at"),
             "closed_at": r.get("closed_at"),
             "closed_reason": r.get("closed_reason"),
+            "canonical_id": r.get("canonical_id"),
+            "requisition_id": r.get("requisition_id"),
+            "aliases": r.get("aliases") or None,
             "is_open": bool(r.get("is_open")),
         })
     return rows
@@ -87,6 +104,7 @@ def _run_row(stats: dict) -> dict:
         "duration_seconds", "companies_total", "fetched_ok", "fetch_errors",
         "fetch_success_rate", "roles_matched", "new_this_run", "open_total",
         "roles_by_source", "roles_by_cycle", "roles_by_region", "detection_latency",
+        "fetched_at", "snapshots_complete", "snapshots_partial", "degraded_fetches",
     )
     return {k: stats.get(k) for k in keep}
 
@@ -97,25 +115,26 @@ def sync(store_data: dict, stats: dict) -> bool:
     if client is None:
         return False
     try:
-        companies = _company_rows()
-        if companies:
-            for i in range(0, len(companies), _JOB_BATCH):
-                client.table("companies").upsert(
-                    companies[i:i + _JOB_BATCH], on_conflict="key"
-                ).execute()
-
-        jobs = _job_rows(store_data)
-        for i in range(0, len(jobs), _JOB_BATCH):
-            client.table("jobs").upsert(jobs[i:i + _JOB_BATCH], on_conflict="id").execute()
-
-        client.table("scrape_runs").insert(_run_row(stats)).execute()
+        # A Postgres function call is one transaction. Sending the complete
+        # payload to the RPC means an exception while parsing/upserting any row
+        # rolls back companies, jobs, and the run metric together. In
+        # particular, no production-table batch is mutated before a later
+        # "finalize" step that might never run.
+        client.rpc(
+            "replace_mirror_snapshot",
+            {
+                "p_companies": _company_rows(store_data),
+                "p_jobs": _job_rows(store_data),
+                "p_run": _run_row(stats),
+            },
+        ).execute()
         return True
     except Exception as exc:  # noqa: BLE001 - DB is a mirror; never break the run
         # Loud on purpose. The usual cause is a schema older than the writer
-        # (db/schema.sql has `alter table ... add column if not exists` for
-        # exactly this) — and a silently-skipped mirror looks identical to a
-        # working one from the outside.
+        # A missing RPC usually means db/schema.sql has not been deployed yet.
         print(f"  (Postgres sync FAILED: {type(exc).__name__}: {exc})")
-        print("   If this mentions an unknown column, re-run db/schema.sql —"
-              " it migrates existing tables.")
+        print(
+            "   If this mentions a missing function or unknown column, re-run "
+            "db/schema.sql; it migrates existing installations."
+        )
         return False

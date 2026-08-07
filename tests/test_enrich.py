@@ -50,9 +50,22 @@ class TestEnrich:
         assert job.sponsorship == "citizens-only"
         assert enriched == set() and net.calls == 0
 
-    def test_settled_record_without_skills_backfills_once_keeping_verdict(self):
-        # Records that predate skill tags get ONE re-fetch for tags; the stored
-        # sponsorship verdict must never flip even if the text now reads differently.
+    def test_fresh_inline_description_replaces_stale_stored_evidence(self):
+        net = FakeNet({})
+        job = _job(description="We cannot sponsor work visas. Python required.")
+        existing = {job.id: {
+            "sponsorship": "offers", "enriched_at": "x", "skills": ["Rust"],
+            "classifier_v": sponsorship.VERSION,
+        }}
+        enriched, fetched = _run(enrich.enrich_jobs([job], existing, net))
+        assert job.sponsorship == "no-sponsorship"
+        assert job.skills == ["Python"]
+        assert enriched == {job.id}
+        assert fetched == 0 and net.calls == 0
+
+    def test_settled_record_without_skills_backfills_from_fresh_evidence(self):
+        # Records that predate skill tags get one fresh fetch. Its current text
+        # is also the best available sponsorship evidence and must not be frozen.
         net = FakeNet({"content": "Uses Python daily. Visa sponsorship is available."})
         job = _job(jid="greenhouse:acme:9", source="greenhouse")
         existing = {"greenhouse:acme:9": {
@@ -60,7 +73,7 @@ class TestEnrich:
             "classifier_v": sponsorship.VERSION,
         }}
         enriched, fetched = _run(enrich.enrich_jobs([job], existing, net))
-        assert job.sponsorship == "citizens-only"  # verdict kept, not re-classified
+        assert job.sponsorship == "offers"
         assert job.skills == ["Python"]
         assert enriched == {job.id} and fetched == 1
 
@@ -147,6 +160,18 @@ class TestEnrich:
         _run(enrich.enrich_jobs([job], {}, net))
         assert job.season == "Fall 2026"
         assert job.season_inferred is False  # the company stated it -> not a guess
+
+    def test_text_can_promote_an_inferred_role_into_multiple_cycles(self):
+        net = FakeNet({})
+        job = _job(description=(
+            "This internship is open for Fall 2026 and Summer 2027. "
+            "No visa sponsorship is available."
+        ))
+        job.season, job.season_inferred = "Not stated", True
+        _run(enrich.enrich_jobs([job], {}, net))
+        assert job.season == "Fall 2026"
+        assert job.seasons == ["Fall 2026", "Summer 2027"]
+        assert job.season_inferred is False
 
     def test_text_without_cycle_statement_keeps_inference(self):
         net = FakeNet({})

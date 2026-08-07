@@ -6,7 +6,7 @@ description — so salary and sponsorship classification are free for Ashby.
 
 from __future__ import annotations
 
-from ..models import Fetch, Job, clean_listing
+from ..models import Fetch, Job, clean_listing, source_board_key
 from ..net import Net
 
 URL = "https://api.ashbyhq.com/posting-api/job-board/{slug}?includeCompensation=true"
@@ -44,6 +44,7 @@ async def fetch(company: dict, net: Net) -> Fetch:
                 posted_at=posting.get("publishedAt"),
                 salary=_salary(posting),
                 description=posting.get("descriptionPlain") or posting.get("descriptionHtml"),
+                board_key=source_board_key(company, "ashby", slug),
             )
         )
     return Fetch.board(jobs, isinstance(listing, list))

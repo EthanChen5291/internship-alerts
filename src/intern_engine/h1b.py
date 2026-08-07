@@ -7,10 +7,10 @@ record gets a ✓ — "this company has actually sponsored, recently, at scale."
 
 The index (data/h1b.json) is built offline by tools/build_h1b.py from the
 official USCIS per-employer CSVs and committed, so runs never depend on
-uscis.gov being reachable. Matching is precision-first: an exact match on the
-normalized name, a small alias table for brand-vs-legal-entity gaps, then a
-word-boundary prefix match ("palantir" -> "palantir technologies"). A generic
-token never matches, and wide prefix explosions are rejected.
+uscis.gov being reachable. Matching is precision-first: an exact normalized
+name or a reviewed brand-to-legal-entity alias. Guessed prefixes are never
+badged because a missing checkmark is safer than borrowing another employer's
+petition history.
 """
 
 from __future__ import annotations
@@ -43,6 +43,9 @@ _SUFFIXES = {
 _ALIASES = {
     "google": "google",                       # resolved by prefix, kept for clarity
     "meta": "meta platforms",
+    "palantir": "palantir technologies",
+    "abridge": "abridge ai",
+    "inspire": "inspire medical systems",
     "ibm": "international business machines",
     "amazon": "amazon com services",          # 13 "Amazon ..." entities; this is the petitioner
     "aws": "amazon web services",
@@ -84,21 +87,6 @@ _ALIASES = {
     "jnj": "johnson johnson",
     "att": "at t services",
     "t mobile": "t mobile usa",
-}
-
-# Names too generic to prefix-match on their own (exact/alias still allowed).
-# Cities and states matter as much as business words: "Chicago Trading Company"
-# normalizes toward "chicago", and a prefix match there would hand it Chicago
-# Mercantile Exchange's 92 approvals — a confident, completely wrong badge.
-_GENERIC = {
-    "the", "tech", "labs", "lab", "data", "cloud", "global", "digital",
-    "systems", "software", "solutions", "group", "partners", "capital",
-    "american", "united", "national", "first", "general", "one",
-    "chicago", "boston", "york", "austin", "denver", "seattle", "atlanta",
-    "houston", "dallas", "phoenix", "portland", "detroit", "pacific",
-    "atlantic", "midwest", "northern", "southern", "eastern", "western",
-    "central", "summit", "premier", "advanced", "applied", "integrated",
-    "international", "trading", "holdings", "ventures", "associates",
 }
 
 _PUNCT_RE = re.compile(r"[^\w\s]")
@@ -177,31 +165,21 @@ def approvals_for(company: str, index: dict | None = None) -> int | None:
         # family, so it doesn't need the guard that protects guessed matches.
         return _prefix_match(alias, employers, trusted=True)
 
-    if name in _GENERIC or len(name) < 4:
-        return None
-
-    return _prefix_match(name, employers)
+    return None
 
 
 def _prefix_match(name: str, employers: dict, trusted: bool = False) -> int | None:
-    """Word-boundary prefix lookup, or None when it isn't confident.
+    """Prefix lookup available only to a reviewed alias.
 
-    "palantir" matches "palantir technologies"; "jpmorgan chase" matches
-    "jpmorgan chase bank". Multi-token names sum their subsidiary family.
-    Single-token names are riskier — "figure" could rope in several unrelated
-    "Figure ..." companies — so they only match a small candidate set and take
-    the largest single entity, never the sum.
-
-    `trusted` lifts the single-token candidate cap for curated aliases only:
-    Magna files under ten separate "Magna ..." entities, which is a family, not
-    the ambiguity the cap exists to catch. The value stays the largest single
-    entity rather than the sum — a defensible floor, not a flattering total.
+    Magna files under several verified ``Magna ...`` entities. The trusted
+    alias can deliberately cover that family; arbitrary company names cannot.
     """
+    if not trusted:
+        return None
     prefix = name + " "
     candidates = [v for k, v in employers.items() if k.startswith(prefix)]
     single_token = " " not in name
-    cap = 25 if (trusted or not single_token) else 3
-    if not candidates or len(candidates) > cap:
+    if not candidates or len(candidates) > 25:
         return None
     return max(candidates) if single_token else sum(candidates)
 

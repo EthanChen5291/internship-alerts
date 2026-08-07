@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from ..models import Fetch, Job, clean_list
+from ..models import Fetch, Job, clean_list, source_board_key
 from ..net import Net
 
 URL = "https://api.rippling.com/platform/api/ats/v1/board/{slug}/jobs"
@@ -27,6 +27,7 @@ async def fetch(company: dict, net: Net) -> Fetch:
                 location=(label or "—").strip() or "—",
                 url=p.get("url") or "",
                 posted_at=None,  # board API exposes no posting date
+                board_key=source_board_key(company, "rippling", slug),
             )
         )
     return Fetch.board(jobs, ok)

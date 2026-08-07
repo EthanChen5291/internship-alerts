@@ -48,8 +48,17 @@ def _engine_metrics() -> str:
     return line + "._"
 
 
-def _now_str() -> str:
-    return datetime.now(UTC).strftime("%b %d, %Y at %H:%M UTC")
+def _as_of(value: str | None = None) -> datetime:
+    try:
+        return datetime.strptime((value or "")[:19], "%Y-%m-%dT%H:%M:%S").replace(
+            tzinfo=UTC
+        )
+    except ValueError:
+        return datetime.now(UTC)
+
+
+def _now_str(data_as_of: str | None = None) -> str:
+    return _as_of(data_as_of).strftime("%b %d, %Y at %H:%M UTC")
 
 
 def _md_cell(text: str) -> str:
@@ -199,7 +208,8 @@ def _email_subscribe_url() -> str:
 def _header(cfg: dict, total_open: int, companies: int, new_week: int,
             employers: int | None = None,
             shown: int | None = None, stated: int | None = None,
-            inferred: int | None = None) -> list[str]:
+            inferred: int | None = None,
+            data_as_of: str | None = None) -> list[str]:
     """The README's opening block.
 
     `total_open` is every open role (what the API and dashboard report); `shown`
@@ -244,11 +254,12 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "",
         f"### {count_phrase} · {new_week} new this week",
         "",
-        f"{(employers or companies):,} employers tracked · updated {_now_str()}",
+        f"{(employers or companies):,} employers tracked · data as of "
+        f"{_now_str(data_as_of)}",
         "",
         (f"_{stated} have a cycle the employer stated · {inferred} are recent "
          "postings whose cycle isn't stated (listed separately, never mixed in)._"
-         if stated is not None and inferred else ""),
+         if stated is not None and inferred is not None else ""),
         "",
         f"**[🖥️ Live dashboard]({pages}/)** · "
         f"**[📡 RSS]({pages}/feed.xml)** · "
@@ -484,12 +495,13 @@ def _region_of(record: dict) -> str:
     return "US" if filters.is_united_states(record.get("location") or "") else "International"
 
 
-def _new_this_week(open_jobs: list[dict]) -> int:
-    cutoff = (datetime.now(UTC) - timedelta(days=7)).strftime("%Y-%m-%dT%H:%M:%S")
+def _new_this_week(open_jobs: list[dict], data_as_of: str | None = None) -> int:
+    cutoff = (_as_of(data_as_of) - timedelta(days=7)).strftime("%Y-%m-%dT%H:%M:%S")
     return sum(1 for r in open_jobs if (r.get("first_seen_at") or "") >= cutoff)
 
 
-def _radar_section(store_data: dict, cycle: str, cap: int = 30) -> list[str]:
+def _radar_section(store_data: dict, cycle: str, cap: int = 30,
+                   data_as_of: str | None = None) -> list[str]:
     """The Drop Radar: which companies haven't posted yet, and when to expect
     them — from the engine's own observed dates + hand-verified opening windows.
 
@@ -497,10 +509,10 @@ def _radar_section(store_data: dict, cycle: str, cap: int = 30) -> list[str]:
     the radar's unique value; "open now" rows just echo the list above — then
     shows a few recent drops as proof the forecast is real. The dashboard keeps
     the full, searchable list."""
-    rows = radar.rows(store_data, cycle)
+    rows = radar.rows(store_data, cycle, today=_as_of(data_as_of).date())
     if not rows:
         return []
-    waiting = [r for r in rows if r["status"] == "waiting"]
+    waiting = [r for r in rows if r["status"] == "waiting" and radar.is_actionable(r)]
     opened = [r for r in rows if r["status"] == "open"]
     dropped = [r for r in rows if r["status"] == "dropped"]
     # Forecast first (what to watch for), then a handful of recent drops as proof.
@@ -553,12 +565,13 @@ def _radar_section(store_data: dict, cycle: str, cap: int = 30) -> list[str]:
 
 
 def _closed_section(store_data: dict, cycles: list[str],
-                    days: int = 14, cap: int = 40) -> list[str]:
+                    days: int = 14, cap: int = 40,
+                    data_as_of: str | None = None) -> list[str]:
     """Roles that recently closed, kept visible (collapsed) so nobody wastes an
     application on a listing that just died. Only tracked cycles appear here —
     an off-cycle tombstone (text-verified "Summer 2026") was never on the list,
     so it has no business in its obituary either."""
-    cutoff = (datetime.now(UTC) - timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%S")
+    cutoff = (_as_of(data_as_of) - timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%S")
     closed = [
         r for r in store_data.values()
         if not r.get("is_open") and (r.get("closed_at") or "") >= cutoff
@@ -598,7 +611,7 @@ def _closed_section(store_data: dict, cycles: list[str],
     return lines
 
 
-def generate(store_data: dict) -> dict:
+def generate(store_data: dict, data_as_of: str | None = None) -> dict:
     cfg = config.load_config()
     cycles = config.cycles(cfg)
     per_company = config.max_per_company(cfg)
@@ -642,8 +655,9 @@ def generate(store_data: dict) -> dict:
 
     endpoints, employers = _company_count()
     lines = _header(cfg, len(open_jobs), endpoints,
-                    _new_this_week(open_jobs), employers=employers,
-                    shown=shown_total, stated=len(stated), inferred=len(inferred))
+                    _new_this_week(open_jobs, data_as_of), employers=employers,
+                    shown=shown_total, stated=len(stated), inferred=len(inferred),
+                    data_as_of=data_as_of)
     
     for heading, cycle, rows in sections:
         lines.append(f"## {heading}  ({len(rows)} employer-stated)")
@@ -678,8 +692,8 @@ def generate(store_data: dict) -> dict:
         )
         lines.append("")
 
-    lines.extend(_radar_section(store_data, cycles[0]))
-    lines.extend(_closed_section(store_data, cycles))
+    lines.extend(_radar_section(store_data, cycles[0], data_as_of=data_as_of))
+    lines.extend(_closed_section(store_data, cycles, data_as_of=data_as_of))
     lines.extend(_footer())
 
     with open(paths.README_PATH, "w", encoding="utf-8") as f:
@@ -709,14 +723,16 @@ def _csv_safe(value):
 
 def _write_csv(open_jobs: list[dict]) -> None:
     fields = [
-        "company", "title", "season", "season_inferred", "seasons", "program",
+        "id", "company", "title", "season", "season_inferred", "seasons", "program",
         "remote", "category", "location", "sponsorship", "h1b_approvals",
         "salary", "skills", "posted_at", "posted_at_source", "first_seen_at",
         "url",
     ]
     buffer = io.StringIO()
+    # Keep committed exports byte-stable on Windows and Linux. CSV consumers
+    # accept LF, and it avoids all rows changing under core.autocrlf.
     writer = csv.DictWriter(buffer, fieldnames=fields, extrasaction="ignore",
-                            lineterminator="\r\n")
+                            lineterminator="\n")
     writer.writeheader()
     for r in open_jobs:
         row = {k: r.get(k, "") for k in fields}

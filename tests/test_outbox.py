@@ -57,19 +57,32 @@ def test_requeueing_the_same_role_does_not_duplicate_it():
     assert outbox.queue(["b", "c"]) == ["a", "b", "c"]
 
 
-def test_backlog_is_bounded():
+def test_backlog_never_silently_discards_oldest_alerts():
     outbox.queue([str(i) for i in range(outbox._MAX_PENDING + 50)])
     pending = outbox.load()
-    assert len(pending) == outbox._MAX_PENDING
-    assert pending[-1] == str(outbox._MAX_PENDING + 49)  # newest survive
+    assert len(pending) == outbox._MAX_PENDING + 50
+    assert pending[0] == "0"
+    assert pending[-1] == str(outbox._MAX_PENDING + 49)
 
 
-def test_corrupt_queue_reads_as_empty_rather_than_crashing():
-    # Unlike the job store, losing this file costs at most one announcement —
-    # it must never take a run down.
+def test_corrupt_queue_is_fatal_and_never_overwritten():
+    # Existing delivery state is authoritative: fail closed and preserve it.
     with open(paths.OUTBOX_PATH, "w", encoding="utf-8") as f:
         f.write("{not json")
-    assert outbox.load() == []
+    with pytest.raises(outbox.OutboxStateCorrupt):
+        outbox.load()
+    with pytest.raises(outbox.OutboxStateCorrupt):
+        outbox.queue(["new"])
+    with open(paths.OUTBOX_PATH, encoding="utf-8") as f:
+        assert f.read() == "{not json"
+
+
+@pytest.mark.parametrize("payload", [{}, {"pending": 3}, {"pending": [None]}])
+def test_invalid_queue_shapes_are_rejected(payload):
+    with open(paths.OUTBOX_PATH, "w", encoding="utf-8") as f:
+        json.dump(payload, f)
+    with pytest.raises(outbox.OutboxStateCorrupt):
+        outbox.load()
 
 
 def test_writes_are_atomic():

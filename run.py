@@ -12,9 +12,9 @@ list, so they may only go out once the run's data is actually published — see
 intern_engine/outbox.py.
 """
 
-import json
 import os
 import sys
+from datetime import UTC, datetime
 
 # Make the package under src/ importable without installation.
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "src"))
@@ -61,12 +61,20 @@ def cmd_discover() -> None:
 def _render(store_data: dict, stats: dict):
     """Regenerate every published artifact from the store. Returns (readme
     summary, feed entry count, calendar event count)."""
-    trends.write_readme_charts(store_data)
-    summary = readme.generate(store_data)
+    data_as_of = stats.get("fetched_at") or stats.get("generated_at")
+    try:
+        data_as_of_dt = datetime.fromisoformat(data_as_of.replace("Z", "+00:00"))
+    except (AttributeError, ValueError) as exc:
+        raise pipeline.StatsCorrupt("cannot render without a valid fetch timestamp") from exc
+    stats["rendered_at"] = datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+    trends.write_readme_charts(store_data, now=data_as_of_dt)
+    summary = readme.generate(store_data, data_as_of=data_as_of)
     dashboard.generate(store_data, stats)
-    feed_entries = publish.write_feed(store_data)
+    feed_entries = publish.write_feed(store_data, data_as_of=data_as_of)
     publish.write_api(store_data, stats)
-    return summary, feed_entries, publish.write_radar_ics(store_data)
+    ics_events = publish.write_radar_ics(store_data, data_as_of=data_as_of)
+    pipeline.write_stats(stats)
+    return summary, feed_entries, ics_events
 
 
 def cmd_render() -> None:
@@ -77,11 +85,7 @@ def cmd_render() -> None:
     the store left the public pages disagreeing with the data.
     """
     store_data = store.load(paths.JOBS_PATH)
-    try:
-        with open(paths.STATS_PATH, encoding="utf-8") as f:
-            stats = json.load(f)
-    except (OSError, ValueError):
-        stats = {}
+    stats = pipeline.load_stats()
     # The store just changed, so the fetch-time counts in stats.json describe a
     # different dataset. Recompute the ones derived from the store; leave the
     # fetch metrics (which only a real run can produce) as the last run's.
@@ -148,11 +152,7 @@ def cmd_notify() -> None:
 
     # The mirror syncs here — after the gate and the push — so data the gate
     # would have rejected can never reach it.
-    try:
-        with open(paths.STATS_PATH, encoding="utf-8") as f:
-            stats = json.load(f)
-    except (OSError, ValueError):
-        stats = {}
+    stats = pipeline.load_stats()
     if db.sync(store_data, stats):
         print("  Postgres mirror      synced")
 

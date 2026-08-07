@@ -48,3 +48,36 @@ def test_ics_escapes_special_characters(monkeypatch, tmp_path):
     publish.write_radar_ics({}, "Summer 2027")
     text = open(str(tmp_path / "radar.ics"), encoding="utf-8").read()
     assert "A\\; B\\, Inc." in text
+
+
+def test_ics_normalizes_carriage_returns_and_omits_expired_windows(monkeypatch, tmp_path):
+    from intern_engine import paths
+    monkeypatch.setattr(paths, "RADAR_ICS_PATH", str(tmp_path / "radar.ics"))
+    monkeypatch.setattr(paths, "DOCS_DIR", str(tmp_path))
+    _rows(monkeypatch, [
+        {"company": "Good\r\nCompany", "status": "waiting", "rolling": False,
+         "expected": "2026-09-01", "precision": "month", "source": "known",
+         "note": "line1\rline2", "days_until": 26},
+        {"company": "Expired", "status": "waiting", "rolling": False,
+         "expected": "2026-03-01", "precision": "month", "source": "known",
+         "note": "", "days_until": -158},
+    ])
+    assert publish.write_radar_ics(
+        {}, "Summer 2027", data_as_of="2026-08-06T14:00:00Z"
+    ) == 1
+    raw = (tmp_path / "radar.ics").read_bytes()
+    assert b"Expired" not in raw
+    assert b"Good\\nCompany" in raw
+    assert b"line1\\nline2" in raw
+    assert b"\r\n" in raw and b"\r\r\n" not in raw
+
+
+def test_ics_folding_moves_spaces_off_physical_line_endings():
+    folded = publish._ics_fold("DESCRIPTION:" + "x" * 62 + "  more words")
+    physical = folded.encode("utf-8").split(b"\r\n")
+    assert len(physical) > 1
+    assert all(not line.endswith((b" ", b"\t")) for line in physical)
+    # Unfolding preserves both original separator spaces.
+    assert folded.replace("\r\n ", "") == (
+        "DESCRIPTION:" + "x" * 62 + "  more words"
+    )

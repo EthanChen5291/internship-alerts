@@ -21,7 +21,7 @@ from html import unescape
 # re-reads a posting whose stored verdict came from an older version, so
 # classifier improvements propagate to the whole live list instead of only to
 # roles discovered after the change.
-VERSION = 3
+VERSION = 4
 
 # ITAR / export control and security clearances require citizenship (or at
 # minimum a green card), which excludes F-1/OPT candidates the same way.
@@ -32,11 +32,18 @@ _CITIZENS_RE = re.compile(
     r"|citizenship\s*:\s*(?:u\.?s\.?|united states|required)"
     r"|only\s+(?:u\.?s\.?|united states)\s+citizens"
     r"|(?:u\.?s\.?|united states)\s+citizens?\s+(?:or|and)\s+(?:lawful\s+)?(?:permanent\s+residents?|green\s?card)"
-    r"|\bitar\b"
+    r"|(?:subject\s+to|governed\s+by|must\s+(?:meet|comply\s+with))\s+itar\b"
+    r"|\bitar\s+(?:requirements?|regulations?|restrictions?)\s+(?:apply|are\s+required)"
     r"|export.{0,20}(?:control|compliance).{0,60}u\.?s\.?\s+person"
     r"|u\.?s\.?\s+persons?\s+(?:status\s+)?(?:is\s+)?required"
-    r"|(?:security|government|ts/?sci|top.secret|secret)\s+clearance"
-    r"|clearance\s+(?:is\s+)?required"
+    r"|(?:need|require|must\s+(?:have|hold|possess))[^.!?;]{0,40}"
+    r"(?:security|government|ts/?sci|top[\s-]?secret|secret)\s+clearance"
+    r"|(?:ability|eligible|required)\s+to\s+(?:obtain|maintain)[^.!?;]{0,25}"
+    r"(?:security|government|ts/?sci|top[\s-]?secret|secret)\s+clearance"
+    r"|(?:active|current|existing)\s+(?:security|government|ts/?sci|"
+    r"top[\s-]?secret|secret)\s+clearance"
+    r"|(?:security|government|ts/?sci|top[\s-]?secret|secret)\s+clearance\s+"
+    r"(?:is\s+)?(?:required|mandatory)"
     r")",
     re.IGNORECASE,
 )
@@ -48,6 +55,12 @@ _NO_SPONSOR_RE = re.compile(
     r"(?:sponsor|offer\s+(?:visa\s+|immigration\s+|work[\s-]?visa\s+)?sponsorship|provide\s+(?:visa\s+|immigration\s+)?sponsorship)"
     r"|sponsorship\s+(?:is\s+)?(?:not|un)\s*(?:available|offered|provided|possible|supported)"
     r"|no\s+(?:visa|immigration|work[\s-]?visa|h-?1b)\s+sponsorship"
+    r"|\bno\s+(?:(?:visa|immigration|work[\s-]?visa|h-?1b)\s+)?sponsorship\b"
+    r"|\boffer(?:s|ed|ing)?\s+no\s+(?:visa\s+|immigration\s+)?sponsorship\b"
+    r"|\bsponsorship\s*:\s*(?:none|no|not\s+available)\b"
+    r"|\b(?:must|should)\s+not\s+require[^.!?;]{0,30}sponsorship\b"
+    r"|\brequir(?:e|es|ing)[^.!?;]{0,25}(?:visa\s+)?sponsorship"
+    r"[^.!?;]{0,40}(?:will\s+not|won'?t|cannot|can'?t)\s+be\s+considered\b"
     r"|not\s+eligible\s+for\s+(?:visa\s+|immigration\s+)?sponsorship"
     r"|without\s+(?:the\s+need\s+for\s+|requiring\s+|need\s+of\s+)?(?:visa\s+)?sponsorship"
     r"|without\s+(?:company\s+)?sponsorship\s+(?:now\s+or\s+in\s+the\s+future|at\s+any\s+time)?"
@@ -68,6 +81,13 @@ _OFFERS_RE = re.compile(
     r")",
     re.IGNORECASE,
 )
+
+_NEGATION_BEFORE_RE = re.compile(
+    r"\b(?:no|not|never|without|does\s+not|doesn'?t|is\s+not|isn'?t)\b"
+    r"[^.!?;]{0,30}$",
+    re.IGNORECASE,
+)
+_NEGATION_WITHIN_RE = re.compile(r"\b(?:no|not|never|without)\b", re.IGNORECASE)
 
 _TAG_RE = re.compile(r"<[^>]+>")
 _WS_RE = re.compile(r"\s+")
@@ -92,9 +112,27 @@ def strip_html(html: str | None) -> str:
     """
     if not html:
         return ""
-    text = unescape(html)          # &lt;p&gt;  ->  <p>
-    text = _TAG_RE.sub(" ", text)  # now the tags are really there to remove
-    return _WS_RE.sub(" ", unescape(text)).strip()  # &amp;nbsp; -> spaces
+    text = html
+    # A few boards double-encode fragments. Repeating this bounded pair turns
+    # both ``&lt;p&gt;`` and ``&amp;lt;p&amp;gt;`` into prose without leaving live tags.
+    for _ in range(3):
+        previous = text
+        text = _TAG_RE.sub(" ", unescape(text))
+        if text == previous:
+            break
+    return _WS_RE.sub(" ", unescape(text)).strip()
+
+
+def _has_affirmative(pattern: re.Pattern, text: str) -> bool:
+    """True for a rule match that is not negated in its sentence."""
+    for match in pattern.finditer(text):
+        left = text[max(0, match.start() - 45):match.start()]
+        if _NEGATION_BEFORE_RE.search(left):
+            continue
+        if _NEGATION_WITHIN_RE.search(match.group(0)):
+            continue
+        return True
+    return False
 
 
 def classify(text: str | None) -> str:
@@ -105,12 +143,12 @@ def classify(text: str | None) -> str:
     """
     if not text:
         return "unknown"
-    plain = strip_html(text) if "<" in text else _WS_RE.sub(" ", text)
-    if _CITIZENS_RE.search(plain):
+    plain = strip_html(text)
+    if _has_affirmative(_CITIZENS_RE, plain):
         return "citizens-only"
     if _NO_SPONSOR_RE.search(plain):
         return "no-sponsorship"
-    if _OFFERS_RE.search(plain):
+    if _has_affirmative(_OFFERS_RE, plain):
         return "offers"
     return "unknown"
 

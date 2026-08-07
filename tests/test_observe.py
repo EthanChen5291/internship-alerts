@@ -1,6 +1,8 @@
 """The engine's own posted-date memory: earliest-wins, monotonic, per cycle."""
 
-from intern_engine import observe
+import pytest
+
+from intern_engine import observe, paths
 
 
 def test_records_earliest_real_date_per_company_and_cycle():
@@ -32,6 +34,27 @@ def test_count_is_distinct_roles_not_runs():
     cycle = out["companies"]["nvidia"]["cycles"]["Summer 2027"]
     assert cycle["count"] == 2
     assert cycle["role_ids"] == ["gh:nvidia:1", "gh:nvidia:2"]  # auditable
+
+
+def test_alias_migration_does_not_double_count_one_requisition():
+    observed = {"companies": {"acme": {"name": "Acme", "cycles": {
+        "Summer 2027": {
+            "first_posted": "2026-06-01", "count": 1,
+            "role_ids": ["greenhouse:old-board:1"],
+        },
+    }}}}
+    store = {"greenhouse:new-board:2": {
+        "company": "Acme", "season": "Summer 2027",
+        "posted_at": "2026-06-02T00:00:00Z",
+        "aliases": ["greenhouse:old-board:1"],
+    }}
+
+    out = observe.update_from_store(store, observed, ["Summer 2027"])
+
+    cycle = out["companies"]["acme"]["cycles"]["Summer 2027"]
+    assert cycle["first_posted"] == "2026-06-01"
+    assert cycle["role_ids"] == ["greenhouse:new-board:2"]
+    assert cycle["count"] == 1
 
 
 def test_legacy_inflated_count_is_replaced_by_real_ids():
@@ -78,6 +101,8 @@ def test_is_monotonic_across_runs():
     # A later run where the role has closed/purged (empty store) must not erase it.
     out = observe.update_from_store({}, prior)
     assert out["companies"]["stripe"]["cycles"]["Summer 2027"]["first_posted"] == "2026-06-30"
+    assert out["companies"]["stripe"]["cycles"]["Summer 2027"]["role_ids"] == []
+    assert out["companies"]["stripe"]["cycles"]["Summer 2027"]["count"] == 0
 
 
 def test_normalizes_company_variants_together():
@@ -120,3 +145,27 @@ def test_off_tracked_cycle_is_not_recorded():
     out = observe.update_from_store(store, {"companies": {}}, CYCLES)
     assert "oneoff" not in out["companies"]
     assert "tracked" in out["companies"]
+
+
+def test_corrupt_observation_history_is_fatal(tmp_path, monkeypatch):
+    path = tmp_path / "observed.json"
+    path.write_text('{"companies": {"acme": {"cycles": []}}}', encoding="utf-8")
+    monkeypatch.setattr(paths, "OBSERVED_PATH", str(path))
+    with pytest.raises(observe.ObservedStateCorrupt):
+        observe.load()
+
+
+def test_load_migrates_legacy_counts_without_ids(tmp_path, monkeypatch):
+    path = tmp_path / "observed.json"
+    path.write_text(
+        '{"companies":{"acme":{"name":"Acme","cycles":{'
+        '"Fall 2026":{"first_posted":"2026-03-01","count":1197}}}}}',
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(paths, "OBSERVED_PATH", str(path))
+
+    loaded = observe.load()
+
+    cycle = loaded["companies"]["acme"]["cycles"]["Fall 2026"]
+    assert cycle["role_ids"] == []
+    assert cycle["count"] == 0

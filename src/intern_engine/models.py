@@ -20,6 +20,13 @@ TRANSIENT_FIELDS = ("description",)
 DATE_PRECISION = {None: 0, "unknown": 0, "relative_derived": 1,
                   "date_only": 2, "exact": 3}
 
+# Standard reasons for an incomplete Fetch.  `complete` remains the lifecycle
+# switch used by the existing pipeline; the reason lets health/metrics tell a
+# deliberately capped but usable response from a malformed HTTP 200.
+INCOMPLETE_CAPPED = "result-cap"
+INCOMPLETE_MALFORMED = "malformed-response"
+INCOMPLETE_STALLED = "pagination-stalled"
+
 
 def clean_listing(data, key: str) -> list | None:
     """`data[key]` as a validated list of objects, or None when untrustworthy.
@@ -71,6 +78,21 @@ def date_source(posted_at: str | None) -> str | None:
     return "exact"
 
 
+def source_board_key(company: dict, source: str, slug: str | None = None) -> str:
+    """Stable board identity carried by every normalized job.
+
+    Discovery may provide a richer, site-aware key (important for Workday and
+    Oracle tenants that expose more than one career site).  Falling back to the
+    historical ``<source>:<slug>`` shape keeps existing registries and stored
+    lifecycle keys compatible until that metadata has been backfilled.
+    """
+    explicit = company.get("board_key")
+    if explicit:
+        return str(explicit)
+    token = slug if slug is not None else company.get("slug")
+    return f"{source}:{token or ''}"
+
+
 @dataclass
 class Job:
     id: str               # stable: "<source>:<company_slug>:<external_id>"
@@ -91,6 +113,18 @@ class Job:
     salary: str | None = None      # pay text when the ATS exposes it (Ashby/Lever/Breezy)
     skills: list[str] | None = None  # tags extracted from posting text (None = not yet)
     description: str | None = None  # transient: raw posting text, used for classification
+    # New identity metadata lives at the end to preserve the positional shape
+    # of every pre-existing optional field.
+    board_key: str | None = None
+    # Some ATSes republish one underlying requisition under multiple posting
+    # ids/board aliases.  Preserve their own stable identity as evidence for a
+    # safe alias merge; never replace `id` with it without a store migration.
+    canonical_id: str | None = None
+    requisition_id: str | None = None
+    # Posting ids that were proven to represent this same canonical
+    # requisition.  Keeping them prevents a board-alias change from looking
+    # like a brand-new role (and therefore sending a duplicate alert).
+    aliases: list[str] | None = None
 
 
 @dataclass
@@ -112,6 +146,7 @@ class Fetch:
 
     jobs: list[Job] = field(default_factory=list)
     complete: bool = True
+    incomplete_reason: str | None = None
 
     @classmethod
     def of(cls, value) -> Fetch:
@@ -124,10 +159,40 @@ class Fetch:
         trustworthy account of the board, so it must not close anything.
         """
         f = value if isinstance(value, cls) else cls(list(value), complete=True)
-        good = [j for j in f.jobs
-                if j.title and not str(j.id).endswith((":None", ":"))]
+
+        def valid(job: object) -> bool:
+            """A row that can safely cross the persistence boundary.
+
+            Connectors consume third-party JSON, so a successful HTTP response
+            is not enough evidence that every normalized row is usable.  The
+            store quite rightly rejects blank identity/location fields and
+            non-HTTP URLs; rejecting them here as malformed snapshot evidence
+            prevents one bad member from crashing the whole update after every
+            other board has already been fetched.
+            """
+            if not isinstance(job, Job):
+                return False
+            required = (
+                job.id, job.source, job.company, job.company_slug,
+                job.title, job.location, job.url,
+            )
+            if any(not isinstance(field, str) or not field.strip()
+                   for field in required):
+                return False
+            return (
+                job.url.startswith(("https://", "http://"))
+                and not job.id.endswith((":None", ":"))
+            )
+
+        good = [job for job in f.jobs if valid(job)]
         if len(good) != len(f.jobs):
-            return cls(good, complete=False)
+            return cls(
+                good,
+                complete=False,
+                # Malformed members are a stronger signal than an otherwise
+                # expected result cap: health/metrics must surface bad rows.
+                incomplete_reason=INCOMPLETE_MALFORMED,
+            )
         return f
 
     @classmethod
@@ -140,4 +205,8 @@ class Fetch:
         close every role they have. So "complete" requires actually finding the
         list container, not merely surviving the parse.
         """
-        return cls(jobs, complete=bool(payload_ok))
+        return cls(
+            jobs,
+            complete=bool(payload_ok),
+            incomplete_reason=None if payload_ok else INCOMPLETE_MALFORMED,
+        )

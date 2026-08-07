@@ -10,7 +10,10 @@ import re
 from datetime import UTC, datetime
 
 # --- internship detection (whole words, never substrings) --------------------
-_INTERN_RE = re.compile(r"\b(intern|interns|internship|co[\s-]?op)\b", re.IGNORECASE)
+_INTERN_RE = re.compile(
+    r"\b(intern|interns|internship|co[\s-]?op|cooperative\s+education)\b",
+    re.IGNORECASE,
+)
 _SENIOR_RE = re.compile(
     r"\b(senior|sr|staff|principal|manager|director|\blead\b|vp|head)\b",
     re.IGNORECASE,
@@ -25,25 +28,42 @@ _SENIOR_RE = re.compile(
 _INCLUDE_RE = re.compile(
     r"\b("
     r"software|developer|swe|full[\s-]?stack|front[\s-]?end|back[\s-]?end|"
-    r"web developer|web engineer|mobile|ios|android|devops|sre|site reliability|"
+    r"web developer|web engineer|ios|android|devops|devsecops|sre|site reliability|"
     r"infrastructure|platform engineer|platform engineering|distributed systems|"
-    r"operating system|compiler|embedded|firmware|"
+    r"operating system|compiler|embedded|firmware|cloud engineer|cloud engineering|"
+    r"database engineer|database engineering|database developer|"
     r"cyber|cybersecurity|appsec|application security|information security|infosec|"
     r"security engineer|"
     r"data science|data scientist|data engineer|data analyst|analytics engineer|"
     r"machine learning|ml|deep learning|ai|artificial intelligence|nlp|computer vision|"
     r"research scientist|applied scientist|research engineer|ml engineer|ai engineer|"
-    r"quantitative developer|quant developer|computer science|programming"
+    r"quantitative (?:developer|research|researcher|trading|trader|analyst)|"
+    r"quant (?:developer|research|researcher|trading|trader|analyst)|"
+    r"computer science|programming"
     r")\b",
     re.IGNORECASE,
 )
-_EXCLUDE_RE = re.compile(
+_CONTEXTUAL_TECH_RE = re.compile(
+    r"\b(?:"
+    r"mobile\s+(?:app(?:lication)?|software|developer|engineer|engineering)|"
+    r"(?:app(?:lication)?|software|developer|ios|android)\s+mobile|"
+    r"(?:computer|software|systems?)\s+programming|"
+    r"programming\s+(?:language|software|engineer|engineering)"
+    r")\b",
+    re.IGNORECASE,
+)
+_ENTERTAINMENT_PROGRAMMING_RE = re.compile(
+    r"\b(?:current|television|tv|radio|broadcast|content)\s+programming\b"
+    r"|\bprogramming\b[^|/]{0,30}\b(?:television|tv|radio|broadcast|content)\b",
+    re.IGNORECASE,
+)
+
+# Non-technical intent always wins, including titles that merely mention a
+# software product ("Software Sales Intern"). Hardware disciplines are
+# separate: an explicit software/embedded/firmware identity is allowed to
+# coexist with them ("Embedded Software / Hardware Intern").
+_NON_TECH_EXCLUDE_RE = re.compile(
     r"\b("
-    r"mechanical|aerospace|aeronautical|astrodynamics|aerodynamic|propulsion|avionics|"
-    r"guidance|navigation|gnc|naval|civil engineer|chemical|chemistry|chemist|"
-    r"biology|biological|materials|structural|thermal|fluid|manufacturing|"
-    r"industrial engineer|electrical|fpga|asic|pcb|analog|photonics|optical|"
-    r"hardware|physical design|silicon|semiconductor|vlsi|rtl|"
     r"recruit|recruiting|recruiter|sales|account executive|account manager|"
     r"account management|marketing|marketer|unpaid|"
     r"legal|counsel|accounting|human resources|people operations|people team|"
@@ -58,6 +78,22 @@ _EXCLUDE_RE = re.compile(
     r")\b",
     re.IGNORECASE,
 )
+_HARDWARE_EXCLUDE_RE = re.compile(
+    r"\b("
+    r"mechanical|aerospace|aeronautical|astrodynamics|aerodynamic|propulsion|avionics|"
+    r"guidance|navigation|gnc|naval|civil engineer|chemical|chemistry|chemist|"
+    r"biology|biological|materials|structural|thermal|fluid|manufacturing|"
+    r"industrial engineer|electrical|fpga|asic|pcb|analog|photonics|optical|"
+    r"hardware|physical design|silicon|semiconductor|vlsi|rtl"
+    r")\b",
+    re.IGNORECASE,
+)
+_SOFTWARE_FIRST_RE = re.compile(
+    r"\b(?:software|developer|swe|devops|devsecops|sre|site reliability|"
+    r"embedded|firmware|compiler|operating systems?|cloud engineer|"
+    r"database engineer|platform engineer|security engineer)\b",
+    re.IGNORECASE,
+)
 
 # --- season detection --------------------------------------------------------
 _YEAR_RE = re.compile(r"\b(20\d\d)\b")
@@ -65,10 +101,44 @@ _YEAR_RE = re.compile(r"\b(20\d\d)\b")
 _SHORT_YEAR_RE = re.compile(r"['’](\d{2})\b")
 # A graduation year in a title ("Class of 2027", "Graduating 2027") names the
 # student, not the internship cycle — those years must not bucket the role.
+_TITLE_MONTH_NAMES = {
+    "january": 1, "jan": 1, "february": 2, "feb": 2, "march": 3, "mar": 3,
+    "april": 4, "apr": 4, "may": 5, "june": 6, "jun": 6, "july": 7, "jul": 7,
+    "august": 8, "aug": 8, "september": 9, "sept": 9, "sep": 9,
+    "october": 10, "oct": 10, "november": 11, "nov": 11,
+    "december": 12, "dec": 12,
+}
+_TITLE_MONTH_PATTERN = "|".join(
+    sorted(_TITLE_MONTH_NAMES, key=len, reverse=True)
+)
 _TITLE_GRAD_RE = re.compile(
-    r"\b(?:class\s+of|grad(?:uating|uation)?(?:\s+(?:date|year))?:?(?:\s+in)?)\s+['’]?(?:20)?\d{2}\b",
+    r"\b(?:"
+    r"class\s+(?:of|year)\s+['’]?(?:20)?\d{2}"
+    r"|(?:expected\s+(?:to\s+)?)?graduat(?:e|es|ed|ing|ion)"
+    r"(?:\s+(?:date|year))?(?:\s+(?:in|by|on))?\s*:?\s*"
+    r"(?:(?:" + _TITLE_MONTH_PATTERN + r"|summer|fall|autumn|winter|spring)\s+)?"
+    r"['’]?(?:20)?\d{2}"
+    r")\b",
     re.IGNORECASE,
 )
+_TITLE_MONTH_RE = re.compile(
+    r"\b(" + _TITLE_MONTH_PATTERN + r")\.?\s+"
+    r"(?:\d{1,2}(?:st|nd|rd|th)?,?\s+)?(20\d\d)\b",
+    re.IGNORECASE,
+)
+_TITLE_RANGE_RE = re.compile(
+    r"\b(" + _TITLE_MONTH_PATTERN + r")\.?"
+    r"(?:\s+\d{1,2}(?:st|nd|rd|th)?)?(?:,?\s+(20\d\d))?\s*"
+    r"(?:-|–|—|to|through|thru|until)\s*"
+    r"(" + _TITLE_MONTH_PATTERN + r")\.?"
+    r"(?:\s+\d{1,2}(?:st|nd|rd|th)?)?,?\s+(20\d\d)\b",
+    re.IGNORECASE,
+)
+_TITLE_MONTH_TERM = {
+    1: "Winter", 2: "Winter", 3: "Spring", 4: "Spring",
+    5: "Summer", 6: "Summer", 7: "Summer", 8: "Summer",
+    9: "Fall", 10: "Fall", 11: "Fall", 12: "Winter",
+}
 
 
 def is_internship(title: str) -> bool:
@@ -81,9 +151,16 @@ def is_tech(title: str) -> bool:
     """Keep software/data/ML/security roles; reject hardware/mech/non-tech."""
     if not title:
         return False
-    if _EXCLUDE_RE.search(title):
+    if _NON_TECH_EXCLUDE_RE.search(title):
         return False
-    return bool(_INCLUDE_RE.search(title))
+    if _ENTERTAINMENT_PROGRAMMING_RE.search(title):
+        return False
+    included = bool(_INCLUDE_RE.search(title) or _CONTEXTUAL_TECH_RE.search(title))
+    if not included:
+        return False
+    if _HARDWARE_EXCLUDE_RE.search(title) and not _SOFTWARE_FIRST_RE.search(title):
+        return False
+    return True
 
 
 _CYCLE_RE = re.compile(r"(Summer|Fall|Spring|Winter)\s+(\d{4})", re.IGNORECASE)
@@ -129,6 +206,11 @@ def is_cycle_label(value) -> bool:
 
 
 _TERM_WORD_RE = re.compile(r"\b(summer|fall|autumn|winter|spring)\b", re.IGNORECASE)
+_SHARED_TERM_YEAR_RE = re.compile(
+    r"\b(summer|fall|autumn|winter|spring)\s*(?:/|&|and|or)\s*"
+    r"(summer|fall|autumn|winter|spring)\s+(20\d\d)\b",
+    re.IGNORECASE,
+)
 # How far apart a term and its year may sit and still be read as one label.
 # "Summer Intern 2027" is 7 characters apart; anything much wider stops being
 # one phrase and starts being two unrelated facts.
@@ -157,6 +239,11 @@ def detect_seasons(title: str, cycles=("Summer 2027", "Fall 2026")) -> list[str]
              for m in _TERM_WORD_RE.finditer(scannable)]
 
     stated: set[str] = set()
+    for match in _SHARED_TERM_YEAR_RE.finditer(scannable):
+        year = match.group(3)
+        for raw_term in match.group(1), match.group(2):
+            term = "Fall" if raw_term.lower() == "autumn" else raw_term.capitalize()
+            stated.add(f"{term} {year}")
     years = [(m.start(), m.end(), m.group(1)) for m in _YEAR_RE.finditer(scannable)]
     years += [(m.start(), m.end(), f"20{m.group(1)}")
               for m in _SHORT_YEAR_RE.finditer(scannable)]
@@ -177,6 +264,27 @@ def detect_seasons(title: str, cycles=("Summer 2027", "Fall 2026")) -> list[str]
         if m and f"{m.group(1).capitalize()} {m.group(2)}" in stated:
             found.append(label)
     return found
+
+
+def _title_month_labels(scannable: str) -> list[str]:
+    """Cycle labels explicitly established by title months, strongest first."""
+    labels: list[str] = []
+    ranges = list(_TITLE_RANGE_RE.finditer(scannable))
+    if ranges:
+        for match in ranges:
+            month = _TITLE_MONTH_NAMES[match.group(1).lower().rstrip(".")]
+            year = match.group(2) or match.group(4)
+            label = f"{_TITLE_MONTH_TERM[month]} {year}"
+            if label not in labels:
+                labels.append(label)
+        return labels
+
+    for match in _TITLE_MONTH_RE.finditer(scannable):
+        month = _TITLE_MONTH_NAMES[match.group(1).lower().rstrip(".")]
+        label = f"{_TITLE_MONTH_TERM[month]} {match.group(2)}"
+        if label not in labels:
+            labels.append(label)
+    return labels
 
 
 def states_explicit_year(title: str) -> bool:
@@ -226,34 +334,30 @@ def detect_season(title: str, cycles=("Summer 2027", "Fall 2026"), *_ignored) ->
             parsed.append((m.group(1).capitalize(), m.group(2), label))
 
     scannable = _TITLE_GRAD_RE.sub(" ", title)  # drop graduation-year phrases
+
+    # A start month is stronger than a bare year. This keeps "January 2027"
+    # out of Summer 2027 and reads a July-December program from July, the term
+    # in which the internship actually starts.
+    month_labels = _title_month_labels(scannable)
+    if month_labels:
+        if len(month_labels) != 1:
+            return None
+        return month_labels[0] if month_labels[0] in cycles else None
+
     years = set(_YEAR_RE.findall(scannable))
     years |= {f"20{d}" for d in _SHORT_YEAR_RE.findall(scannable)}
     if not years:
         return None  # no explicit year in the title -> drop
 
-    t = title.lower()
-    if "summer" in t:
-        term = "Summer"
-    elif "fall" in t or "autumn" in t:
-        term = "Fall"
-    elif "spring" in t:
-        term = "Spring"
-    elif "winter" in t:
-        term = "Winter"
-    else:
-        term = None
+    # Multiple unpaired years ("2026/2027") do not say which cycle this
+    # requisition belongs to. Likewise, a term word that failed explicit
+    # term/year pairing is conflicting evidence rather than a bare-year title.
+    if len(years) != 1 or _TERM_WORD_RE.search(scannable):
+        return None
 
-    # 1) exact term + year match (e.g. "Summer 2027")
-    for cterm, cyear, label in parsed:
-        if cyear in years and term == cterm:
-            return label
-    # 2) year matches a tracked cycle and the title has no conflicting term
-    #    (e.g. "2027 Software Engineer Intern" -> the 2027 cycle)
-    for _cterm, cyear, label in parsed:
-        if cyear in years and term is None:
-            return label
-    # year stated but term conflicts (e.g. "Fall 2027") -> not a tracked cycle
-    return None
+    year = next(iter(years))
+    same_year = [label for _term, cycle_year, label in parsed if cycle_year == year]
+    return same_year[0] if len(same_year) == 1 else None
 
 
 # For yearless titles: the month a term's recruiting rolls over to next year.
@@ -306,7 +410,22 @@ def cycle_unstated_ok(title: str, posted_at: str | None,
 
 
 # --- season stated in posting TEXT (verifies date-inferred cycles) ------------
-_TEXT_CYCLE_RE = re.compile(r"\b(summer|fall|autumn|winter|spring)\s+(?:of\s+)?(20\d\d)\b", re.I)
+_TEXT_CYCLE_RE = re.compile(
+    r"\b(?P<term_first>summer|fall|autumn|winter|spring)\b"
+    r"(?P<gap_first>[^.!?;\n]{0,40}?)\b(?P<year_after>20\d\d)\b",
+    re.IGNORECASE,
+)
+_TEXT_YEAR_CYCLE_RE = re.compile(
+    r"\b(?P<year_before>20\d\d)\b(?P<gap_second>[^.!?;\n]{0,40}?)"
+    r"\b(?P<term_after>summer|fall|autumn|winter|spring)\b"
+    r"(?!\s+(?:of\s+)?20\d\d\b)",
+    re.IGNORECASE,
+)
+_TEXT_SHARED_CYCLE_RE = re.compile(
+    r"\b(summer|fall|autumn|winter|spring)\s*(?:/|&|and|or)\s*"
+    r"(summer|fall|autumn|winter|spring)\s+(20\d\d)\b",
+    re.IGNORECASE,
+)
 # "start date July 2026" / "June 8, 2027 through August 2027": a month+year is
 # as good as a stated term once mapped through the calendar.
 _TEXT_MONTH_RE = re.compile(
@@ -330,9 +449,27 @@ _INTERNISH_RE = re.compile(
 # A date in these contexts describes the candidate or the company, not the
 # internship cycle ("graduating in December 2027", "founded in November 2014").
 # Same-sentence only: a period/!/?/; between the keyword and the date resets it.
-_NOT_CYCLE_BACK_RE = re.compile(
-    r"\b(?:graduat\w*|class\s+of|degree|diploma|founded|established|commencement)\b[^.!?;]*$",
-    re.I,
+_GRAD_WORD_RE = re.compile(
+    r"\b(?:graduat\w*|class\s+of|commencement)\b", re.IGNORECASE
+)
+_GRAD_AFTER_RE = re.compile(
+    r"^\s*(?:graduates?|graduation|class\b|commencement)\b", re.IGNORECASE
+)
+_GRAD_BEFORE_RE = re.compile(
+    r"\b(?:graduat\w*|class\s+of|commencement)\b[^.!?;]{0,45}$",
+    re.IGNORECASE,
+)
+_STUDENT_WINDOW_RE = re.compile(
+    r"\b(?:degree|diploma|enroll\w*|students?|candidates?)\b[^.!?;]{0,80}"
+    r"\b(?:between|from|through|until|by|completion)\b[^.!?;]{0,35}$",
+    re.IGNORECASE,
+)
+_DEGREE_DATE_RE = re.compile(
+    r"\b(?:degree|diploma)\b[^.!?;]{0,35}\b(?:in|by)\b[^.!?;]{0,20}$",
+    re.IGNORECASE,
+)
+_COMPANY_DATE_RE = re.compile(
+    r"\b(?:founded|established)(?:\s+(?:in|on))?\s*$", re.IGNORECASE
 )
 
 
@@ -342,84 +479,115 @@ _NOT_CYCLE_BACK_RE = re.compile(
 # year is taken from whichever end states it.
 _TEXT_RANGE_RE = re.compile(
     r"\b(" + "|".join(_MONTH_NUM) + r")\.?\s*(?:\d{1,2}(?:st|nd|rd|th)?)?"
-    r"\s*(?:-|–|—|to|through|thru|until|až)\s*"
+    r"\s*(?:-|–|—|to|through|thru|until)\s*"
     r"(" + "|".join(_MONTH_NUM) + r")\.?\s*(?:\d{1,2}(?:st|nd|rd|th)?)?,?\s*(20\d\d)",
     re.I,
 )
 
 
-def season_from_text(text: str, near: int = 90,
-                     now: datetime | None = None) -> str | None:
-    """The cycle a posting's own text states, or None.
+def _non_cycle_context(text: str, match: re.Match) -> bool:
+    """Whether a matched date describes a student/company, not the role."""
+    sentence_start = max(
+        text.rfind(".", 0, match.start()),
+        text.rfind("!", 0, match.start()),
+        text.rfind("?", 0, match.start()),
+        text.rfind(";", 0, match.start()),
+        text.rfind("\n", 0, match.start()),
+    ) + 1
+    ends = [
+        pos
+        for marker in ".!?;\n"
+        if (pos := text.find(marker, match.end())) >= 0
+    ]
+    sentence_end = min(ends) if ends else len(text)
+    left = text[sentence_start:match.start()]
+    right = text[match.end():sentence_end]
 
-    Precision-first, but ordered. Evidence comes in three strengths, and a
-    weaker tier may never contradict a stronger one:
+    if _GRAD_WORD_RE.search(match.group(0)):
+        return True
+    if _GRAD_BEFORE_RE.search(left) or _GRAD_AFTER_RE.search(right):
+        return True
+    if _STUDENT_WINDOW_RE.search(left) or _DEGREE_DATE_RE.search(left):
+        return True
+    return bool(_COMPANY_DATE_RE.search(left))
 
-      1. An explicit "<Term> <Year>" ("Fall 2026 Internship"). This is the
-         employer naming the cycle outright.
-      2. A program DATE RANGE ("September 14 – December 4, 2026"), read from
-         its start month — the term the program begins in.
-      3. A lone "<Month> <Year>".
 
-    The tiers exist because flattening them was actively wrong: Toshiba's
-    posting opens with "Fall 2026 Internship" and later gives dates ending
-    "December 4, 2026". December maps to Winter, so the set became
-    {Fall 2026, Winter 2026}, disagreed with itself, and returned None — and
-    the role stayed bucketed under a date-inferred *Summer 2027*. A stated
-    term now wins outright; months are only consulted when nothing is stated.
+def seasons_from_text(
+    text: str, near: int = 90, now: datetime | None = None
+) -> list[str]:
+    """Every cycle established by the strongest posting-text evidence tier.
 
-    Within a tier, every counted mention must still agree. A mention counts
-    only when internship-ish words sit within `near` characters, the year is
-    plausible for a live posting (this year .. +2), and the same sentence
-    doesn't frame it as a graduation/company date.
+    Explicit terms outrank program ranges, which outrank lone month mentions.
+    Multiple genuine term/year statements are preserved instead of being
+    mistaken for a conflict.
     """
     if not text:
-        return None
+        return []
     now = now or datetime.now(UTC)
     year_lo, year_hi = now.year, now.year + 2
 
-    def _counted(m: re.Match, label: str, year: int) -> str | None:
+    def counted(match: re.Match, year: int) -> bool:
         if not (year_lo <= year <= year_hi):
-            return None
-        lo = max(0, m.start() - near)
-        if not _INTERNISH_RE.search(text[lo:m.end() + near]):
-            return None
-        if _NOT_CYCLE_BACK_RE.search(text[lo:m.start()]):
-            return None
-        return label
+            return False
+        lo = max(0, match.start() - near)
+        if not _INTERNISH_RE.search(text[lo:match.end() + near]):
+            return False
+        return not _non_cycle_context(text, match)
 
-    def _verdict(labels: set[str]) -> str | None:
-        return labels.pop() if len(labels) == 1 else None
+    def append_unique(labels: list[str], label: str) -> None:
+        if label not in labels:
+            labels.append(label)
 
-    # Tier 1 — the employer names the term.
-    stated = set()
-    for m in _TEXT_CYCLE_RE.finditer(text):
-        term = m.group(1).capitalize()
-        term = "Fall" if term == "Autumn" else term
-        label = _counted(m, f"{term} {m.group(2)}", int(m.group(2)))
-        if label:
-            stated.add(label)
+    # Tier 1: the employer names a term and year, with a small grammatical gap.
+    stated: list[str] = []
+    for match in _TEXT_SHARED_CYCLE_RE.finditer(text):
+        year_text = match.group(3)
+        if not counted(match, int(year_text)):
+            continue
+        for raw_term in match.group(1), match.group(2):
+            canonical = "Fall" if raw_term.lower() == "autumn" else raw_term.capitalize()
+            append_unique(stated, f"{canonical} {year_text}")
+    term_matches = list(_TEXT_CYCLE_RE.finditer(text))
+    term_matches += list(_TEXT_YEAR_CYCLE_RE.finditer(text))
+    for match in sorted(term_matches, key=lambda item: item.start()):
+        groups = match.groupdict()
+        term = groups.get("term_first") or groups.get("term_after")
+        year_text = groups.get("year_after") or groups.get("year_before")
+        gap = groups.get("gap_first") or groups.get("gap_second") or ""
+        if _TERM_WORD_RE.search(gap):  # never pair across a second term
+            continue
+        canonical = "Fall" if term.lower() == "autumn" else term.capitalize()
+        if counted(match, int(year_text)):
+            append_unique(stated, f"{canonical} {year_text}")
     if stated:
-        return _verdict(stated)
+        return stated
 
-    # Tier 2 — a program date range, keyed to the month it STARTS in.
-    ranges = set()
-    for m in _TEXT_RANGE_RE.finditer(text):
-        term = _MONTH_TERM[_MONTH_NUM[m.group(1).lower().rstrip(".")]]
-        label = _counted(m, f"{term} {m.group(3)}", int(m.group(3)))
-        if label:
-            ranges.add(label)
+    # Tier 2: a program date range, keyed to the month it starts in.
+    ranges: list[str] = []
+    for match in _TEXT_RANGE_RE.finditer(text):
+        term = _MONTH_TERM[_MONTH_NUM[match.group(1).lower().rstrip(".")]]
+        year_text = match.group(3)
+        if counted(match, int(year_text)):
+            append_unique(ranges, f"{term} {year_text}")
     if ranges:
-        return _verdict(ranges)
+        return ranges
 
-    # Tier 3 — a bare month + year.
-    months = set()
-    for m in _TEXT_MONTH_RE.finditer(text):
-        term = _MONTH_TERM[_MONTH_NUM[m.group(1).lower().rstrip(".")]]
-        label = _counted(m, f"{term} {m.group(2)}", int(m.group(2)))
-        if label:
-            months.add(label)
-    return _verdict(months)
+    # Tier 3: a bare month and year.
+    months: list[str] = []
+    for match in _TEXT_MONTH_RE.finditer(text):
+        term = _MONTH_TERM[_MONTH_NUM[match.group(1).lower().rstrip(".")]]
+        year_text = match.group(2)
+        if counted(match, int(year_text)):
+            append_unique(months, f"{term} {year_text}")
+    return months
+
+
+def season_from_text(
+    text: str, near: int = 90, now: datetime | None = None
+) -> str | None:
+    """The sole cycle a posting's text establishes, otherwise ``None``."""
+    labels = seasons_from_text(text, near=near, now=now)
+    return labels[0] if len(labels) == 1 else None
 
 
 # --- location: US / Canada detection -----------------------------------------
@@ -466,7 +634,6 @@ _US_COUNTRY_RE = re.compile(
     r")(?![a-z0-9])",
     re.IGNORECASE,
 )
-_CA_COUNTRY = ("canada", "canadian")
 # "Latin America" / "South America" must not read as the US ("america" token).
 _AMERICA_NOT_US_RE = re.compile(r"\b(?:south|latin|central)\s+america")
 
@@ -516,21 +683,103 @@ _CA_NAME_RE = re.compile(
 _US_CODE_RE = re.compile(r"\b(" + "|".join(_US_CODES) + r")\b(?!-)")
 _CA_CODE_RE = re.compile(r"\b(" + "|".join(_CA_CODES) + r")\b(?!-)")
 
+_LOCATION_PART_RE = re.compile(r"[,;|]+")
+_LOCATION_OPTION_RE = re.compile(r"[;|]+")
+_GEORGIA_COUNTRY_CITIES = {
+    "tbilisi", "batumi", "kutaisi", "rustavi", "gori", "zugdidi",
+}
+
+
+def _location_parts(location: str) -> list[str]:
+    return [part.strip() for part in _LOCATION_PART_RE.split(location) if part.strip()]
+
+
+def _structured_signal(
+    parts: list[str], names: list[str], codes: list[str]
+) -> tuple[int, str, str] | None:
+    """Rightmost state/province component as ``(index, kind, value)``."""
+    by_length = sorted(names, key=len, reverse=True)
+    for index in range(len(parts) - 1, -1, -1):
+        low = parts[index].lower().strip()
+        for name in by_length:
+            if re.fullmatch(
+                rf"{re.escape(name)}(?:\s+(?:[-–—(]).*)?", low, re.IGNORECASE
+            ) or re.search(
+                rf"(?:^|\s[-–—]\s){re.escape(name)}$", low, re.IGNORECASE
+            ):
+                return index, "name", name
+        for code in codes:
+            # A structured component accepts lowercase ("Austin, tx"), but a
+            # country-style prefix such as "DE-Berlin" deliberately does not.
+            if re.fullmatch(
+                rf"{re.escape(code)}(?:\s+(?:[-–—(]).*)?", parts[index], re.IGNORECASE
+            ):
+                return index, "code", code
+    return None
+
+
+def _matching_part_indexes(parts: list[str], pattern: re.Pattern) -> list[int]:
+    return [index for index, part in enumerate(parts) if pattern.search(part.lower())]
+
 
 def is_united_states(location: str) -> bool:
     if not location:
         return False
+    # Several connectors preserve every advertised location by joining
+    # alternatives with semicolons.  Evaluate each option independently:
+    # otherwise a foreign country in the last option can veto a valid US
+    # option (and reversing the employer's list changes the answer).
+    options = [part.strip() for part in _LOCATION_OPTION_RE.split(location)
+               if part.strip()]
+    if len(options) > 1:
+        return any(is_united_states(option) for option in options)
     low = location.lower()
     stripped = _AMERICA_NOT_US_RE.sub(" ", low)
     if _US_COUNTRY_RE.search(stripped):
         return True
-    if _NON_US_RE.search(low):
-        return False  # a named foreign country outranks state-name/code guesses
+    parts = _location_parts(location)
+    us_signal = _structured_signal(parts, _US_STATES, _US_CODES)
+    ca_signal = _structured_signal(parts, _CA_PROVINCES, _CA_CODES)
+    foreign_indexes = _matching_part_indexes(parts, _NON_US_RE)
+    canada_indexes = [
+        index for index, part in enumerate(parts)
+        if re.search(r"\bcanada\b", part, re.IGNORECASE)
+    ]
+
+    if us_signal:
+        index, kind, value = us_signal
+        # A named country to the right is an actual country qualifier:
+        # "IN - Bangalore, India" and "CA - Sydney, Australia" are foreign.
+        if any(country_index > index for country_index in foreign_indexes):
+            return False
+        if any(country_index > index for country_index in canada_indexes):
+            return False
+        if value == "georgia" and any(
+            city in parts[0].lower() for city in _GEORGIA_COUNTRY_CITIES
+        ):
+            return False
+        if kind == "code" and (ca_signal or canada_indexes):
+            # "Milton, Ontario, CA" is Canada; a province outranks the
+            # California-looking suffix. A full state name remains decisive,
+            # so "Ontario, California" stays correctly American.
+            # Ontario, California is commonly abbreviated "Ontario, CA".
+            # It is a two-component US city/state location; the Canadian form
+            # carries another city/province component ("Milton, Ontario, CA")
+            # or an explicit Canada qualifier.
+            if (
+                value == "CA" and len(parts) == 2
+                and parts[0].strip().casefold() == "ontario"
+                and not canada_indexes
+            ):
+                return True
+            return False
+        return True
+
+    if foreign_indexes:
+        return False
     if _US_NAME_RE.search(low):
-        return True  # full state names first: "Ontario, California" IS the US
-    if any(token in low for token in _CA_COUNTRY) or _CA_NAME_RE.search(low):
-        # An unambiguous Canada signal vetoes state-CODE lookalikes:
-        # "Milton, Ontario, CA" is Canada, not the California code.
+        return True
+    if re.search(r"\b(?:canada|canadian)\b", low) or _CA_NAME_RE.search(low):
         return False
     if _US_CODE_RE.search(location):
         return True
@@ -540,8 +789,14 @@ def is_united_states(location: str) -> bool:
 def is_canada(location: str) -> bool:
     if not location:
         return False
+    options = [part.strip() for part in _LOCATION_OPTION_RE.split(location)
+               if part.strip()]
+    if len(options) > 1:
+        return any(is_canada(option) for option in options)
+    if is_united_states(location):
+        return False
     low = location.lower()
-    if any(token in low for token in _CA_COUNTRY):
+    if re.search(r"\b(?:canada|canadian)\b", low):
         return True
     if _CA_NAME_RE.search(low):
         return True

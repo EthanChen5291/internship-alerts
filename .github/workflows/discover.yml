@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: discover-companies
+  group: intern-engine-writer
   cancel-in-progress: false
 
 jobs:
@@ -22,10 +22,18 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Checkout
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          ref: main
+
+      - name: Refresh queued checkout
+        run: |
+          git fetch --no-tags origin main
+          git checkout --detach origin/main
+          echo "BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
 
       - name: Set up Python
-        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
         with:
           python-version: "3.11"
 
@@ -47,15 +55,9 @@ jobs:
             exit 0
           fi
           git commit -m "chore: discover new companies ($(date -u +'%Y-%m-%d'))"
-          # The hourly update workflow may push at the same time; rebase onto
-          # it (different file, auto-merges) and retry rather than fail.
-          for attempt in 1 2 3; do
-            if git pull --rebase --autostash origin main && git push; then
-              exit 0
-            fi
-            echo "push race, retrying ($attempt)…"
-            sleep 5
-          done
-          # `sleep` succeeding must not be what decides this step's exit code.
-          echo "::error::push failed after 3 attempts; discoveries not published"
-          exit 1
+          git fetch --no-tags origin main
+          if [ "$(git rev-parse origin/main)" != "$BASE_SHA" ]; then
+            echo "::error::main changed after discovery; refusing a stale rebase"
+            exit 1
+          fi
+          git push origin HEAD:main

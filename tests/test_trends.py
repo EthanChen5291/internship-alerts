@@ -7,10 +7,12 @@ from intern_engine import trends
 NOW = datetime(2026, 7, 1, 12, 0, tzinfo=UTC)  # a Wednesday
 
 
-def _rec(posted=None, first_seen=None, closed=None, is_open=True):
+def _rec(posted=None, first_seen=None, closed=None, is_open=True,
+         closed_reason="gone-from-feed"):
     return {
         "posted_at": posted, "first_seen_at": first_seen,
         "closed_at": closed, "is_open": is_open,
+        "closed_reason": closed_reason,
     }
 
 
@@ -67,6 +69,17 @@ def test_median_days_open():
 def test_median_days_open_rejects_stale_artifacts():
     store = {"a": _rec(posted="2025-01-01", closed="2026-06-30", is_open=False)}
     assert trends.median_days_open(store) == (None, 0)
+
+
+def test_median_days_open_excludes_policy_removals_and_unknown_legacy_rows():
+    store = {
+        "employer": _rec(posted="2026-06-01", closed="2026-06-11", is_open=False),
+        "policy": _rec(posted="2026-05-01", closed="2026-06-20", is_open=False,
+                       closed_reason="out-of-scope"),
+        "legacy": _rec(posted="2026-06-01", closed="2026-06-30", is_open=False,
+                       closed_reason=None),
+    }
+    assert trends.median_days_open(store) == (10, 1)
 
 
 # --- the chart ------------------------------------------------------------------

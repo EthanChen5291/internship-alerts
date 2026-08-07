@@ -14,7 +14,14 @@ from __future__ import annotations
 
 from datetime import UTC, datetime
 
-from ..models import Fetch, Job, clean_listing
+from ..models import (
+    INCOMPLETE_CAPPED,
+    INCOMPLETE_MALFORMED,
+    Fetch,
+    Job,
+    clean_listing,
+    source_board_key,
+)
 from ..net import Net
 
 _PAGE = 100
@@ -51,6 +58,7 @@ async def fetch(company: dict, net: Net) -> Fetch:
 
     jobs: list[Job] = []
     complete = False
+    incomplete_reason: str | None = None
     start = 0
     while start < _MAX:
         params = {
@@ -63,6 +71,7 @@ async def fetch(company: dict, net: Net) -> Fetch:
         data = await net.get_json(url, params=params, headers=_BROWSER_HEADERS)
         positions = clean_listing(data, "positions")
         if positions is None:
+            incomplete_reason = INCOMPLETE_MALFORMED
             break  # malformed 200 / error envelope: not an empty tenant
         for p in positions:
             external = p.get("id") or p.get("ats_job_id") or p.get("display_job_id")
@@ -78,6 +87,7 @@ async def fetch(company: dict, net: Net) -> Fetch:
                     url=job_url,
                     posted_at=_posted(p.get("t_create")),
                     description=p.get("job_description") or None,
+                    board_key=source_board_key(company, "eightfold", slug),
                 )
             )
         start += _PAGE
@@ -92,4 +102,6 @@ async def fetch(company: dict, net: Net) -> Fetch:
         if isinstance(total, int) and start >= total:
             complete = True
             break
-    return Fetch(jobs, complete=complete)
+    if not complete and incomplete_reason is None:
+        incomplete_reason = INCOMPLETE_CAPPED
+    return Fetch(jobs, complete=complete, incomplete_reason=incomplete_reason)

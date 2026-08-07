@@ -10,8 +10,7 @@ Two layers, deliberately in this order:
 1. `data/company_names.json` — an explicit slug/name -> display-name map. The
    only thing that can fix a name no algorithm could recover ("Beaconsoftware"
    -> "Beacon Software"); adding one is a one-line PR.
-2. Generic slug artifacts — "Dot Ai" -> ".ai" and a trailing account number.
-   These are safe because they're rewriting a KNOWN encoding, not guessing.
+2. The known generic slug artifact "Dot Ai" -> ".ai".
 
 Anything else is left exactly as the employer's board reports it. A wrong
 "correction" is worse than an ugly name: it makes the row look like a different
@@ -26,10 +25,6 @@ import re
 from . import paths
 
 _DOT_RE = re.compile(r"\s+Dot\s+(Ai|Io|Co|Com|Sh|Dev|App|Xyz)\b", re.IGNORECASE)
-# A trailing run of digits on an otherwise-unspaced slug name is an ATS account
-# number ("Charlesriveranalytics90"), never part of the brand. Names that are
-# genuinely numeric ("Studio 397") keep their number because of the space.
-_TRAILING_NUM_RE = re.compile(r"^(\S{6,}?)\d{1,3}$")
 
 _overrides: dict[str, str] | None = None
 
@@ -55,7 +50,4 @@ def display(name: str, slug: str | None = None) -> str:
     for key in ((slug or "").strip().lower(), raw.lower()):
         if key and key in overrides:
             return overrides[key]
-    fixed = _DOT_RE.sub(lambda m: "." + m.group(1).lower(), raw)
-    if " " not in fixed:
-        fixed = _TRAILING_NUM_RE.sub(r"\1", fixed)
-    return fixed
+    return _DOT_RE.sub(lambda m: "." + m.group(1).lower(), raw)

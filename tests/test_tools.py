@@ -70,7 +70,8 @@ class TestAuditSeasonsListPath:
             [listed],
             [{"ats": "lever", "slug": "acme", "name": "Acme"}],
         ))
-        assert texts["lever:acme:1"] == "Summer 2027 internship."
+        assert texts["lever:acme:1"].status == "OK"
+        assert texts["lever:acme:1"].text == "Summer 2027 internship."
 
 
 class TestVerifyAccuracyImportable:

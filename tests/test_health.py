@@ -2,7 +2,9 @@
 
 from datetime import UTC, datetime, timedelta
 
-from intern_engine import health
+import pytest
+
+from intern_engine import health, paths
 
 COMPANY = {"ats": "greenhouse", "slug": "deadco", "name": "DeadCo"}
 NOW = datetime(2026, 7, 1, 12, 0, tzinfo=UTC)
@@ -52,3 +54,38 @@ class TestBreaker:
         data: dict = {}
         health.record(data, COMPANY, None, now=NOW)
         assert data == {}
+
+    def test_workday_sites_do_not_share_a_circuit_breaker(self):
+        campus = {
+            "ats": "workday", "slug": "acme", "site": "Campus", "name": "Acme",
+        }
+        professional = {**campus, "site": "Professional"}
+        data = {}
+        health.record(data, campus, "timeout", now=NOW)
+        assert health.key(campus) != health.key(professional)
+        assert health.key(professional) not in data
+
+
+def test_corrupt_health_state_is_fatal(tmp_path, monkeypatch):
+    path = tmp_path / "health.json"
+    path.write_text('{"greenhouse:acme": {"consecutive_failures": "three"}}',
+                    encoding="utf-8")
+    monkeypatch.setattr(paths, "HEALTH_PATH", str(path))
+    with pytest.raises(health.HealthStateCorrupt):
+        health.load()
+
+
+def test_legacy_workday_health_is_copied_to_each_site():
+    companies = [
+        {"ats": "workday", "slug": "acme", "site": site, "name": "Acme"}
+        for site in ("Campus", "Professional")
+    ]
+    entry = {
+        "consecutive_failures": 3,
+        "last_attempt_at": "2026-08-06T00:00:00Z",
+        "last_error": "timeout",
+    }
+    data = {"workday:acme": entry}
+    assert health.migrate_legacy_keys(companies, data) == 2
+    assert data["workday:acme:campus"] == entry
+    assert data["workday:acme:professional"] == entry

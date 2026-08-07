@@ -43,7 +43,13 @@ class TestMessageShaping:
         msgs = telegram.build_messages([_rec(id=str(i), title="Software Engineering Intern " * 6)
                                         for i in range(40)])
         assert len(msgs) > 1
-        assert all(len(m) <= telegram._MAX_CHARS + 200 for m in msgs)
+        assert all(len(m) <= 4096 for m in msgs)
+
+    def test_untrusted_fields_cannot_break_the_hard_telegram_limit(self):
+        huge = _rec(company="C" * 10_000, title="T" * 10_000,
+                    url="https://example.com/" + "x" * 10_000,
+                    salary="$" * 10_000, skills=["s" * 10_000] * 4)
+        assert all(len(m) <= 4096 for m in telegram.build_messages([huge]))
 
     def test_header_counts_and_footer_links_once(self):
         msgs = telegram.build_messages([_rec(), _rec(id="2")])

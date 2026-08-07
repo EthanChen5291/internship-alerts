@@ -2,7 +2,10 @@
 
 from datetime import UTC, datetime, timedelta
 
-from intern_engine import mailer
+import httpx
+import pytest
+
+from intern_engine import mailer, paths
 
 
 def _record(hours_ago: float, **extra) -> dict:
@@ -37,6 +40,69 @@ def test_already_sent_roles_are_never_repeated():
     fresh = mailer.new_roles(store, already_sent={"x:20"})
     assert [r["id"] for r in fresh] == ["x:2"]
     assert mailer.new_roles(store, already_sent={"x:2", "x:20"}) == []
+
+
+def test_sent_alias_settles_the_canonical_survivor():
+    record = _record(
+        2, id="greenhouse:new-board:2",
+        aliases=["greenhouse:old-board:1"],
+    )
+    store = {record["id"]: record}
+    assert mailer.new_roles(
+        store, already_sent={"greenhouse:old-board:1"}, has_history=True,
+    ) == []
+
+    state = {"sent_role_ids": ["greenhouse:old-board:1"]}
+    assert mailer._migrate_sent_role_ids(state, store)
+    assert set(state["sent_role_ids"]) == {
+        "greenhouse:new-board:2", "greenhouse:old-board:1",
+    }
+
+
+def test_corrupt_mail_state_is_fatal_and_preserved(tmp_path, monkeypatch):
+    target = tmp_path / "mail_state.json"
+    target.write_text("{not json", encoding="utf-8")
+    monkeypatch.setattr(paths, "MAIL_STATE_PATH", str(target))
+
+    with pytest.raises(mailer.MailStateCorrupt):
+        mailer._load_state()
+    assert target.read_text(encoding="utf-8") == "{not json"
+
+
+def test_subscriber_fallback_requires_the_specific_missing_column(monkeypatch):
+    request = httpx.Request("GET", "https://db.example/rest/v1/email_subscribers")
+    bad = httpx.Response(
+        400, request=request,
+        json={"code": "PGRST100", "message": "bad filter syntax"},
+    )
+    calls = []
+    monkeypatch.setattr(
+        mailer.httpx, "get", lambda *_args, **_kwargs: calls.append(1) or bad,
+    )
+
+    with pytest.raises(httpx.HTTPStatusError):
+        mailer._subscribers("https://db.example", "secret")
+    assert len(calls) == 1
+
+
+def test_subscriber_fallback_allows_only_legacy_missing_confirmed_column(monkeypatch):
+    request = httpx.Request("GET", "https://db.example/rest/v1/email_subscribers")
+    missing = httpx.Response(
+        400, request=request,
+        json={"code": "42703", "message": "column confirmed_at does not exist"},
+    )
+    legacy = httpx.Response(
+        200, request=request,
+        json=[{"email": "student@example.com", "unsub_token": "token"}],
+    )
+    responses = iter((missing, legacy))
+    monkeypatch.setattr(
+        mailer.httpx, "get", lambda *_args, **_kwargs: next(responses),
+    )
+
+    assert mailer._subscribers("https://db.example", "secret") == [
+        {"email": "student@example.com", "unsub_token": "token"},
+    ]
 
 
 class TestRecipientRotation:
@@ -96,6 +162,12 @@ def test_should_send_at_most_daily():
     old = (now - timedelta(hours=25)).strftime("%Y-%m-%dT%H:%M:%SZ")
     assert mailer.should_send({"last_digest_at": recent}, 5) is False
     assert mailer.should_send({"last_digest_at": old}, 5) is True
+
+
+def test_should_send_does_not_allow_two_digests_inside_24_hours():
+    now = datetime(2026, 8, 6, 23, tzinfo=UTC)
+    same_day = (now - timedelta(hours=22)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    assert mailer.should_send({"last_digest_at": same_day}, 1, now=now) is False
 
 
 # --- composition ---------------------------------------------------------------
@@ -222,3 +294,118 @@ class TestDigestBody:
                  _record(1, id="2", season="Not stated")]
         html = mailer.build_digest_html(fresh)
         assert "1 with a stated cycle" in html
+
+
+class TestDurableRecipientSettlement:
+    def _setup(self, monkeypatch, tmp_path, fail_addresses):
+        from intern_engine import paths
+
+        monkeypatch.setattr(paths, "MAIL_STATE_PATH", str(tmp_path / "mail_state.json"))
+        for key, value in {
+            "BREVO_API_KEY": "brevo", "SUPABASE_URL": "https://db.example",
+            "SUPABASE_SERVICE_KEY": "private-ledger-key",
+            "MAIL_FROM": "alerts@example.com",
+        }.items():
+            monkeypatch.setenv(key, value)
+        subscribers = [
+            {"email": "ok@example.com", "unsub_token": "ok-token"},
+            {"email": "failed@example.com", "unsub_token": "fail-token"},
+        ]
+        monkeypatch.setattr(mailer, "_subscribers", lambda *_: subscribers)
+        monkeypatch.setattr(mailer, "_confirmation_requests", lambda *_: [])
+        monkeypatch.setattr(mailer.time, "sleep", lambda *_: None)
+
+        calls = []
+
+        class Resp:
+            def raise_for_status(self):
+                return None
+
+        class Client:
+            def __init__(self, **_kwargs):
+                pass
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *_args):
+                return False
+
+            def post(self, _url, **kwargs):
+                address = kwargs["json"]["to"][0]["email"]
+                calls.append(address)
+                if address in fail_addresses:
+                    raise RuntimeError("provider failure")
+                return Resp()
+
+        monkeypatch.setattr(mailer.httpx, "Client", Client)
+        return calls
+
+    def test_partial_delivery_retries_only_failed_recipient(self, monkeypatch, tmp_path):
+        failures = {"failed@example.com"}
+        calls = self._setup(monkeypatch, tmp_path, failures)
+        data = {"r": _record(1, id="role-1")}
+
+        assert mailer.send_digest(data) == 1
+        state = mailer._load_state()
+        assert state["last_digest_failed"] == 1
+        assert "pending_digest" in state
+        assert "role-1" not in state.get("sent_role_ids", [])
+        assert "failed@example.com" not in str(state)
+
+        failures.clear()
+        calls.clear()
+        assert mailer.send_digest(data) == 1
+        assert calls == ["failed@example.com"]
+        state = mailer._load_state()
+        assert "pending_digest" not in state
+        assert state["sent_role_ids"] == ["role-1"]
+
+    def test_wall_clock_deadline_persists_partial_settlement(self, monkeypatch, tmp_path):
+        calls = self._setup(monkeypatch, tmp_path, set())
+        # confirmation preflight, post-confirmation gate, first digest call,
+        # then the deadline stops the second recipient.
+        verdicts = iter((False, False, False, True))
+        monkeypatch.setattr(
+            mailer, "_deadline_reached", lambda _deadline: next(verdicts, True),
+        )
+
+        assert mailer.send_digest({"r": _record(1, id="role-1")}) == 1
+        assert calls == ["ok@example.com"]
+        state = mailer._load_state()
+        assert state["last_digest_failed"] == 1
+        assert len(state["pending_digest"]["delivered_keys"]) == 1
+
+    def test_zero_success_still_persists_exact_pending_digest(self, monkeypatch, tmp_path):
+        self._setup(monkeypatch, tmp_path, {"ok@example.com", "failed@example.com"})
+        data = {"r": _record(1, id="role-1")}
+        assert mailer.send_digest(data) == 0
+        state = mailer._load_state()
+        assert state["pending_digest"]["role_ids"] == ["role-1"]
+        assert state["pending_digest"]["html"]
+        assert state["last_digest_failed"] == 2
+        assert len(state["retry_recipient_keys"]) == 2
+
+    def test_empty_subscriber_snapshot_cannot_settle_pending_audience(
+        self, monkeypatch, tmp_path,
+    ):
+        failures = {"ok@example.com", "failed@example.com"}
+        self._setup(monkeypatch, tmp_path, failures)
+        data = {"r": _record(1, id="role-1")}
+        assert mailer.send_digest(data) == 0
+        before = mailer._load_state()["pending_digest"]
+
+        monkeypatch.setattr(mailer, "_subscribers", lambda *_args: [])
+        failures.clear()
+        assert mailer.send_digest(data) == 0
+
+        state = mailer._load_state()
+        assert state["pending_digest"] == before
+        assert "role-1" not in state.get("sent_role_ids", [])
+
+    def test_recipient_ledger_uses_secret_keyed_hmac(self):
+        import hashlib
+
+        address = "student@example.com"
+        plain = hashlib.sha256(address.encode()).hexdigest()[:32]
+        assert mailer._recipient_key(address, "secret") != plain

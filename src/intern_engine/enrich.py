@@ -130,6 +130,7 @@ async def enrich_jobs(jobs: list[Job], existing: dict, net: Net) -> tuple[set[st
     async def _resolve(job: Job) -> str | None:
         nonlocal fetched
         prior = existing.get(job.id) or {}
+        has_inline_evidence = job.description is not None
         # A verdict is settled only while the classifier that produced it is
         # still current. Records stamped with an older classifier_v (or none)
         # are re-read once, so rule improvements reach the WHOLE live list
@@ -138,7 +139,7 @@ async def enrich_jobs(jobs: list[Job], existing: dict, net: Net) -> tuple[set[st
         settled = current and bool(
             prior.get("enriched_at") or prior.get("sponsorship", "unknown") != "unknown"
         )
-        if settled and prior.get("skills") is not None:
+        if settled and prior.get("skills") is not None and not has_inline_evidence:
             job.sponsorship = prior.get("sponsorship", "unknown")
             return None  # already settled on an earlier run
         # (settled but skills missing = record predates skill tags; re-fetch once)
@@ -158,12 +159,19 @@ async def enrich_jobs(jobs: list[Job], existing: dict, net: Net) -> tuple[set[st
             # detail fetch per run for the handful of boards that do this.
             evidence = sponsorship.strip_html(job.description) if job.description else ""
             if not evidence.strip():
+                if settled:
+                    job.sponsorship = prior.get("sponsorship", "unknown")
+                    job.skills = prior.get("skills")
                 return None
-        if settled:
-            job.sponsorship = prior.get("sponsorship", "unknown")  # never flip a verdict
-        else:
-            job.sponsorship = sponsorship.classify(job.description)
         text = sponsorship.strip_html(job.description) if job.description else ""
+        if settled and not text.strip():
+            job.sponsorship = prior.get("sponsorship", "unknown")
+            job.skills = prior.get("skills")
+            return None
+        # A description carried by the current list payload, or fetched now to
+        # backfill old metadata, is fresher evidence than a stored verdict. The
+        # old short-circuit froze changed Lever/Ashby-style postings forever.
+        job.sponsorship = sponsorship.classify(text)
         job.skills = skills.extract(text, job.title)
         if not job.salary:
             job.salary = skills.extract_pay(text)
@@ -172,9 +180,10 @@ async def enrich_jobs(jobs: list[Job], existing: dict, net: Net) -> tuple[set[st
             # explicitly stated term+year replaces the guess (and un-marks the
             # row). An off-cycle statement leaves an untracked label behind,
             # which the pipeline drops. No statement = the inference stands.
-            stated = filters.season_from_text(text)
+            stated = filters.seasons_from_text(text)
             if stated:
-                job.season = stated
+                job.season = job.season if job.season in stated else stated[0]
+                job.seasons = stated if len(stated) > 1 else None
                 job.season_inferred = False
         return job.id
 

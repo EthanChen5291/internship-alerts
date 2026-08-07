@@ -26,9 +26,9 @@ import httpx
 from . import config, filters, h1b, sponsorship
 
 _API = "https://api.telegram.org/bot{token}/sendMessage"
-# Telegram hard-caps a message at 4096 characters. We chunk well under it so a
-# long role list never gets truncated mid-link.
-_MAX_CHARS = 3500
+# Telegram rejects a message above 4096 Unicode characters. This is a hard
+# output invariant, including header/footer and HTML markup.
+_MAX_CHARS = 4096
 _MAX_ROLES = 40      # beyond this a run is a backfill, not an announcement
 _TIMEOUT = 10
 
@@ -44,25 +44,25 @@ def _role_line(record: dict) -> str:
     and nothing else — no tables, no styling. So the shape carries the meaning:
     bold employer, linked title, dim detail line.
     """
-    company = escape(record.get("company") or "")
+    company = escape((record.get("company") or "")[:180])
     if h1b.badge(h1b.approvals_for(record.get("company") or "")):
         company += " ✓"
     if filters.is_remote(record.get("location") or "", record.get("title") or ""):
         company += " 🆁"
 
-    title = escape(record.get("title") or "")
-    url = record.get("url") or ""
+    title = escape((record.get("title") or "")[:500])
+    url = (record.get("url") or "")[:1000]
     head = f'<b>{company}</b>\n<a href="{escape(url)}">{title}</a>' if url \
         else f"<b>{company}</b>\n{title}"
 
     bits = []
     season = record.get("season")
     if season and season != "Not stated":
-        bits.append(season)
+        bits.append(season[:80])
     if record.get("location"):
-        bits.append(record["location"][:40])
+        bits.append(record["location"][:80])
     if record.get("salary"):
-        bits.append(record["salary"])
+        bits.append(record["salary"][:80])
     flag = sponsorship.flag(record.get("sponsorship"))
     if flag:
         bits.append(flag)
@@ -70,7 +70,7 @@ def _role_line(record: dict) -> str:
 
     skills = record.get("skills") or []
     if skills:
-        detail += "\n" + escape(" · ".join(skills[:4]))
+        detail += "\n" + escape(" · ".join(str(s)[:60] for s in skills[:4]))
     return f"{head}\n<i>{detail}</i>" if detail else head
 
 
@@ -97,7 +97,10 @@ def build_chunks(records: list[tuple[str, dict]]) -> list[tuple[str, list[str]]]
     for jid, record in records:
         line = _role_line(record)
         prefix = header + "\n\n" if first else ""
-        if lines and len(prefix + "\n\n".join([*lines, line])) > _MAX_CHARS:
+        candidate = prefix + "\n\n".join([*lines, line])
+        # Reserve footer space on every chunk. Only the final one uses it, but
+        # this keeps finalization from pushing a valid body past 4096.
+        if lines and len(candidate + footer) > _MAX_CHARS:
             chunks.append((lines, ids))
             lines, ids, first = [line], [jid], False
         else:
@@ -111,6 +114,10 @@ def build_chunks(records: list[tuple[str, dict]]) -> list[tuple[str, list[str]]]
         text = (header + "\n\n" if i == 0 else "") + "\n\n".join(body)
         if i == len(chunks) - 1:
             text += footer
+        if len(text) > _MAX_CHARS:
+            # Field caps above make this unreachable for normal records. Keep
+            # the invariant explicit instead of asking Telegram to reject it.
+            raise ValueError("Telegram message exceeds 4096 characters")
         out.append((text, chunk_ids))
     return out
 

@@ -18,6 +18,9 @@ class TestInternship:
     def test_rejects_senior(self):
         assert not filters.is_internship("Senior Software Intern")
 
+    def test_cooperative_education_is_a_coop_program(self):
+        assert filters.is_internship("Cooperative Education Software Developer")
+
 
 class TestTech:
     def test_keeps_software_and_ml(self):
@@ -32,6 +35,40 @@ class TestTech:
 
     def test_drops_phd(self):
         assert not filters.is_tech("PhD Machine Learning Intern")
+
+    def test_overloaded_mobile_and_programming_words_are_not_tech(self):
+        assert not filters.is_tech(
+            "2027 ETP Intern - Corporate Banking Group, Commercial Credit "
+            "Products, Mobile, AL"
+        )
+        assert not filters.is_tech(
+            "Current Programming Intern, Sony Pictures Television - Fall 2026"
+        )
+
+    def test_mobile_and_programming_keep_explicit_software_context(self):
+        for title in (
+            "Mobile Application Engineer Intern",
+            "iOS Mobile Developer Intern",
+            "Computer Programming Intern",
+            "Software Programming Intern",
+        ):
+            assert filters.is_tech(title), title
+
+    def test_verified_technical_role_families_are_kept(self):
+        for title in (
+            "Quantitative Research Intern",
+            "Quant Research Intern",
+            "Quantitative Trading Intern",
+            "Cloud Engineer Intern",
+            "Database Engineer Intern",
+            "DevSecOps Intern",
+        ):
+            assert filters.is_tech(title), title
+
+    def test_software_first_hardware_titles_are_kept(self):
+        assert filters.is_tech("Embedded Software / Hardware Intern")
+        assert filters.is_tech("Firmware Engineering Intern - Electrical Systems")
+        assert not filters.is_tech("Electrical Hardware Engineering Intern")
 
 
 class TestSeason:
@@ -70,6 +107,49 @@ class TestSeason:
         assert not filters.is_cycle_label("")
         assert not filters.is_cycle_label(None)
 
+    def test_multiple_bare_years_do_not_invent_a_cycle(self):
+        assert filters.detect_season(
+            "Quant Developer / Quant Research Intern - 2026/2027", CYCLES
+        ) is None
+        assert filters.detect_season(
+            "2026-2027 Information Technology - Software Engineer - Intern", CYCLES
+        ) is None
+
+    def test_title_month_and_range_use_the_start_month(self):
+        cycles = ("Winter 2027", "Summer 2026", "Fall 2026", "Summer 2027")
+        assert filters.detect_season(
+            "Intern - Web Developer (Start in January 2027)", cycles
+        ) == "Winter 2027"
+        assert filters.detect_season(
+            "Software Engineering Internship (July - Dec 2026)", cycles
+        ) == "Summer 2026"
+
+    def test_month_evidence_prevents_bare_year_fallback(self):
+        assert filters.detect_season(
+            "Intern - Web Developer (Start in January 2027)", CYCLES
+        ) is None
+        assert filters.detect_season(
+            "Software Engineering Internship (July - Dec 2026)", CYCLES
+        ) is None
+
+    def test_term_words_are_matched_as_words(self):
+        assert filters.detect_season(
+            "2027 Software Intern - Springfield Platform", ("Summer 2027",)
+        ) == "Summer 2027"
+
+    def test_more_graduation_title_variants_are_not_cycles(self):
+        assert filters.detect_season(
+            "Software Intern - Class Year 2027", CYCLES
+        ) is None
+        assert filters.detect_season(
+            "Software Intern - Expected Graduation May 2027", CYCLES
+        ) is None
+
+    def test_two_terms_can_share_one_year_without_losing_the_tracked_cycle(self):
+        title = "Software Engineering Intern [Fall/Winter 2026]"
+        assert filters.detect_seasons(title, CYCLES) == ["Fall 2026"]
+        assert filters.detect_season(title, CYCLES) == "Fall 2026"
+
 
 class TestRegion:
     def test_us_match(self):
@@ -93,6 +173,13 @@ class TestRegion:
     def test_explicit_us_token_wins_for_multi_country_strings(self):
         assert filters.is_united_states("New York, USA; Bangalore, India")
 
+    def test_multi_location_order_never_hides_a_valid_us_option(self):
+        forward = "Austin, TX; London, United Kingdom"
+        reverse = "London, United Kingdom; Austin, TX"
+        assert filters.is_united_states(forward)
+        assert filters.is_united_states(reverse)
+        assert filters.region_ok(forward, want_us=True, want_canada=False)
+
     def test_state_code_with_spaced_suffix_still_us(self):
         assert filters.is_united_states("Dallas, TX - Headquarters")
 
@@ -110,6 +197,7 @@ class TestRegion:
         # …but a full US state name still wins ("Ontario, California" is a
         # real US city), and explicit US tokens are untouched.
         assert filters.is_united_states("Ontario, California")
+        assert filters.is_united_states("Ontario, CA")
         assert filters.is_united_states("Ontario, California, United States")
 
     def test_city_names_containing_usa_are_not_us(self):
@@ -139,6 +227,30 @@ class TestRegion:
     def test_new_england_is_not_read_as_foreign(self):
         # "England" hides inside "New England" — a US region.
         assert filters.is_united_states("Cambridge, MA (New England)")
+
+    def test_foreign_country_names_can_be_us_city_components(self):
+        for loc in (
+            "Lebanon, NH",
+            "Lebanon, New Hampshire",
+            "Mexico, MO",
+            "Poland, OH",
+            "Peru, IN",
+            "Panama City, FL",
+            "China, ME",
+            "India, TX",
+            "Canadian, TX",
+        ):
+            assert filters.is_united_states(loc), loc
+            assert not filters.is_canada(loc), loc
+
+    def test_georgia_country_needs_us_corroboration(self):
+        assert not filters.is_united_states("Tbilisi, Georgia")
+        assert filters.is_united_states("Atlanta, Georgia")
+        assert filters.is_united_states("Tbilisi, Georgia, USA")
+
+    def test_structured_state_codes_are_case_insensitive(self):
+        assert filters.is_united_states("Austin, tx")
+        assert filters.is_united_states("San Francisco, ca")
 
 
 class TestMultiCycle:
@@ -364,6 +476,53 @@ class TestSeasonFromText:
         assert self._stated(
             "Our internship program has run every summer since May 2019."
         ) is None
+
+    def test_unrelated_degree_or_company_words_do_not_veto_a_real_cycle(self):
+        for text, expected in (
+            (
+                "Students pursuing a degree can join our Summer 2027 internship.",
+                "Summer 2027",
+            ),
+            (
+                "Founded in 2010, Acme is hiring for its Summer 2027 internship program.",
+                "Summer 2027",
+            ),
+            (
+                "Established in Boston, our Fall 2026 internship starts soon.",
+                "Fall 2026",
+            ),
+        ):
+            assert self._stated(text) == expected
+
+    def test_cycle_before_graduation_word_is_still_not_a_cycle(self):
+        assert self._stated(
+            "Fall 2026 graduates may apply for this internship."
+        ) is None
+        assert self._stated(
+            "December 2026 graduates are eligible for this internship."
+        ) is None
+
+    def test_term_and_year_can_surround_internship_words(self):
+        assert self._stated(
+            "This is a Summer internship for 2027."
+        ) == "Summer 2027"
+        assert self._stated(
+            "Our Fall internship program for 2026 is accepting applications."
+        ) == "Fall 2026"
+
+    def test_multiple_real_text_cycles_are_returned_without_guessing_one(self):
+        text = "This internship is open for Fall 2026 and Summer 2027."
+        assert filters.seasons_from_text(text, now=self.NOW) == [
+            "Fall 2026", "Summer 2027"
+        ]
+        assert self._stated(text) is None
+
+    def test_text_terms_can_share_one_year(self):
+        text = "This Fall/Winter 2026 internship supports two start dates."
+        assert filters.seasons_from_text(text, now=self.NOW) == [
+            "Fall 2026", "Winter 2026"
+        ]
+        assert self._stated(text) is None
 
 
 class TestSeasonEvidencePriority:

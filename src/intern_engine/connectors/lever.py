@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from datetime import UTC, datetime
 
-from ..models import Fetch, Job, clean_list
+from ..models import Fetch, Job, clean_list, source_board_key
 from ..net import Net
 
 URL = "https://api.lever.co/v0/postings/{slug}?mode=json"
@@ -76,6 +76,7 @@ async def fetch(company: dict, net: Net) -> Fetch:
                 posted_at=_epoch_ms_to_iso(posting.get("createdAt")),
                 salary=_salary(posting),
                 description=_description(posting) or None,
+                board_key=source_board_key(company, "lever", slug),
             )
         )
     return Fetch.board(jobs, ok)
