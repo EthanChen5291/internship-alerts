@@ -404,6 +404,21 @@
     }
    }
   },
+  "general dynamics information technology": {
+   "name": "General Dynamics Information Technology",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-05",
+     "role_ids": [
+      "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225450-1",
+      "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225456-1",
+      "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225469-1",
+      "workday:gdit:/job/USA-VA-Falls-Church---3150-Fairview-Park-Dr-VAS095/GDIT-2027-Summer-AI---ML-Internship_RQ225401"
+     ],
+     "count": 4
+    }
+   }
+  },
   "general motors": {
    "name": "General Motors",
    "cycles": {
@@ -556,6 +571,18 @@
      "first_posted": "2026-07-29",
      "role_ids": [
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "louisiana blue": {
+   "name": "Louisiana Blue",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-07-20",
+     "role_ids": [
+      "workday:bcbsla:/job/Corporate---Baton-Rouge-LA/Healthcare-Price-and-Transparency-Data-Analyst-Intern_R11903"
      ],
      "count": 1
     }
@@ -854,6 +881,18 @@
      "role_ids": [
       "greenhouse:rocketlab:7736776003"
      ]
+    }
+   }
+  },
+  "rtx": {
+   "name": "RTX",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-04",
+     "role_ids": [
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1"
+     ],
+     "count": 1
     }
    }
   },
@@ -1211,5 +1250,5 @@
    }
   }
  },
- "updated_at": "2026-08-07T09:27:42Z"
+ "updated_at": "2026-08-07T10:45:44Z"
 }

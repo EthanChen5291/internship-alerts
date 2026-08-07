@@ -1,6 +1,24 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:gdit:/job/USA-VA-Falls-Church---3150-Fairview-Park-Dr-VAS095/GDIT-2027-Summer-AI---ML-Internship_RQ225401",
+      "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225450-1",
+      "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225469-1",
+      "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225456-1",
+      "workday:bcbsla:/job/Corporate---Baton-Rouge-LA/CW-Operational-Reporting---Data-Analyst-Intern_R11907",
+      "workday:bcbsla:/job/Corporate---Baton-Rouge-LA/Healthcare-Price-and-Transparency-Data-Analyst-Intern_R11903",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1",
+      "workday:tencent:/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752"
+    ],
+    "telegram": [
+      "workday:gdit:/job/USA-VA-Falls-Church---3150-Fairview-Park-Dr-VAS095/GDIT-2027-Summer-AI---ML-Internship_RQ225401",
+      "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225450-1",
+      "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225469-1",
+      "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225456-1",
+      "workday:bcbsla:/job/Corporate---Baton-Rouge-LA/CW-Operational-Reporting---Data-Analyst-Intern_R11907",
+      "workday:bcbsla:/job/Corporate---Baton-Rouge-LA/Healthcare-Price-and-Transparency-Data-Analyst-Intern_R11903",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1",
+      "workday:tencent:/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752"
+    ]
   }
 }

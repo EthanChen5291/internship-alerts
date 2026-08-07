@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-07T09:27:42Z",
- "data_as_of": "2026-08-07T09:27:42Z",
- "rendered_at": "2026-08-07T09:27:42Z",
+ "generated_at": "2026-08-07T10:45:44Z",
+ "data_as_of": "2026-08-07T10:45:44Z",
+ "rendered_at": "2026-08-07T10:45:44Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -573,6 +573,44 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-03"
+   }
+  },
+  {
+   "company": "RTX",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-04",
+   "days_until": -3,
+   "status": "open",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1",
+   "note": "fall opening, many roles need clearance",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-04"
+   }
+  },
+  {
+   "company": "General Dynamics Information Technology",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-05",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-05",
+   "days_until": -2,
+   "status": "open",
+   "url": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church---3150-Fairview-Park-Dr-VAS095/GDIT-2027-Summer-AI---ML-Internship_RQ225401",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-05"
    }
   },
   {
@@ -2609,25 +2647,6 @@
    }
   },
   {
-   "company": "RTX",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-09-01",
-   "days_until": 25,
-   "status": "waiting",
-   "url": "",
-   "note": "fall opening, many roles need clearance",
-   "provenance": {
-    "type": "verified-window",
-    "url": "https://careers.rtx.com/",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
    "company": "Samsara",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -3331,5 +3350,5 @@
    }
   }
  ],
- "count": 175
+ "count": 176
 }
