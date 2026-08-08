@@ -8,7 +8,7 @@
 
 ### 161 open roles (147 listed below) · 74 new this week
 
-4,078 employers tracked · data as of Aug 08, 2026 at 11:05 UTC
+4,078 employers tracked · data as of Aug 08, 2026 at 11:53 UTC
 
 _96 have a cycle the employer stated · 65 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -154,7 +154,7 @@ If it helps you, a star means a lot and tells me to keep going.
 | Johnson & Johnson | Software Engineer Coop 🛂 🆕 | Software | Cincinnati +2 more | Python, C++, Linux | Aug 07, 2026 | [Apply](https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820) |
 | Warner Bros. | Bleacher Report Social Programming Intern: LA - Fall 2026 🆕 | Software | CA Burbank Bldg. 700 +2 more | No skills listed | Aug 06, 2026 | [Apply](https://warnerbros.wd5.myworkdayjobs.com/global/job/CA-Burbank-Bldg-700-Second-Century-Tower-1/Bleacher-Report-Social-Programming-Intern--LA---Fall-2026_R000107469) |
 | NVIDIA ✓ | Software Engineering Intern, Dynamo - Fall 2026 | Software | US, CA, Santa Clara | Python, Go, Rust, LLMs | Aug 05, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295) |
-| Densityai | Technical Intern- Software  (Fall 2026) 🆕 | Software | Mountain View, CA | Python, C++ | Aug 03, 2026 | [Apply](https://job-boards.greenhouse.io/densityai/jobs/4336452009) |
+| Densityai | Technical Intern- Software  (Fall 2026) | Software | Mountain View, CA | Python, C++ | Aug 03, 2026 | [Apply](https://job-boards.greenhouse.io/densityai/jobs/4336452009) |
 | Melius | Software Engineering Intern [Fall/Winter 2026] | Software | New York City | TypeScript, LLMs, React, Next.js | Jul 30, 2026 | [Apply](https://jobs.ashbyhq.com/melius/6a944911-dbbf-44c7-ba52-7866f7b433cf) |
 | Redwood Materials | Embedded Software Engineer Intern - Fall 2026 | Software | San Francisco, California, United States | C++, Rust, Git | Jul 29, 2026 | [Apply](https://boards.greenhouse.io/redwoodmaterials/jobs/6126784004?gh_jid=6126784004) |
 | Astranis | Software Engineer Intern - Enterprise Systems (Fall 2026) 🇺🇸 | Software | San Francisco, CA | Python | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
@@ -346,7 +346,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,003 of 4,314 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 92% of the full registry) · completed in 916.5s · 538 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,955 of 4,314 registered boards returned successfully across 12 ATS platforms (96% of boards attempted, 91% of the full registry) · completed in 895.8s · 534 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
