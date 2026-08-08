@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 164 open roles (150 listed below) · 75 new this week
+### 163 open roles (149 listed below) · 75 new this week
 
-4,049 employers tracked · data as of Aug 07, 2026 at 23:29 UTC
+4,049 employers tracked · data as of Aug 08, 2026 at 00:14 UTC
 
-_100 have a cycle the employer stated · 64 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_100 have a cycle the employer stated · 63 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -184,7 +184,7 @@ If it helps you, a star means a lot and tells me to keep going.
 | Amazon ✓ | Robotics - Software Development Engineer Intern/Co-op - 2026 | Hardware | Westboro, Massachusetts, USA | Python, Java, C++, C# | Dec 03, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026) |
 | Amazon ✓ | Amazon Industrial Robotics - Applied Scientist II Intern / Co-op - 2026, Amazon Industrial Robotics | Data & ML/AI | North Reading, Massachusetts, USA | Python, Java, C++, LLMs | Nov 25, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3132414/amazon-industrial-robotics-applied-scientist-ii-intern-co-op-2026-amazon-industrial-robotics) |
 
-## Recently posted — cycle not stated  (50 roles)
+## Recently posted — cycle not stated  (49 roles)
 
 These postings never name a cycle — not in the title, not in the posting text — so neither do we. They're recent tech internships (posted within the last few weeks), often exactly the early drops worth applying to first; we just can't tell you which cycle they're for, and we'd rather say so than guess. The moment a posting's own text states a cycle, the role moves up into that section automatically.
 
@@ -238,7 +238,6 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Veeda AI | Internship - Veeda AI Scientist | Data & ML/AI | California | No skills listed | Jun 29, 2026 | [Apply](https://jobs.ashbyhq.com/veeda-labs/58cc42fb-1d6f-4e5f-860d-3b97bdccc6f4) |
 | Lila Sciences | Co-Op, ML Scientist for Protein Engineering | Data & ML/AI | San Francisco, CA USA | Python, PyTorch | Jun 29, 2026 | [Apply](https://job-boards.greenhouse.io/lilasciences/jobs/4289387009) |
 | Palantir ✓ | Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial | Software | Chicago, IL | Python, Java, C++, TypeScript | Jun 24, 2026 | [Apply](https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3) |
-| Altom Transport | Fall Software Development Intern | Software | Hammond, Indiana, United States | Python, JavaScript, SQL, AWS | Jun 23, 2026 | [Apply](https://apply.workable.com/altom-transport/j/9FC654F05E/) |
 | Copart ✓ | Software Engineering Intern 🆕 _(8 openings)_ | Software | Dallas, TX - Headquarters | Java, SQL, Spring, Kafka | Jun 18, 2026 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109441) [#2](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109673) [#3](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109689) [#4](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079) [#5](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109964) [#6](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109965) [#7](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110353) |
 
 <a id="drop-radar"></a>
@@ -347,7 +346,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,070 of 4,285 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 95% of the full registry) · completed in 845.5s · 585 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,062 of 4,285 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 94% of the full registry) · completed in 641.1s · 575 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
