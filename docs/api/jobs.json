@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-08T05:23:49Z",
- "data_as_of": "2026-08-08T05:23:49Z",
- "rendered_at": "2026-08-08T05:23:49Z",
+ "generated_at": "2026-08-08T08:34:10Z",
+ "data_as_of": "2026-08-08T08:34:10Z",
+ "rendered_at": "2026-08-08T08:34:10Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 161,
+ "count": 159,
  "jobs": [
   {
    "id": "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-AI-Machine-Learning-Internship--DC-Metro-Area_RQ225912",
@@ -960,29 +960,6 @@
    "remote": false
   },
   {
-   "id": "workday:ntst:/job/Overland-Park-KS/Cloud-Engineer-Future---Summer-2027-Internship-_R015668",
-   "company": "Netsmart",
-   "title": "Cloud Engineer Future  (Summer 2027 Internship)",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Overland Park, KS",
-   "url": "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Cloud-Engineer-Future---Summer-2027-Internship-_R015668",
-   "posted_at": "2026-08-03T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-08-07T00:49:01Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Linux"
-   ],
-   "source": "workday",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
    "id": "greenhouse:densityai:4336452009",
    "company": "Densityai",
    "title": "Technical Intern- Software  (Fall 2026)",
@@ -1094,31 +1071,6 @@
    ],
    "source": "workday",
    "h1b_approvals": 143,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:ntst:/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667",
-   "company": "Netsmart",
-   "title": "Software Engineer Intern (Summer 2027 Internship)",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Overland Park, KS",
-   "url": "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667",
-   "posted_at": "2026-08-03T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-08-03T18:22:46Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Java",
-    "C++",
-    "C#"
-   ],
-   "source": "workday",
-   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
