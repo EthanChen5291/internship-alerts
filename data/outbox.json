@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workable:wallstreetquants:494E392FD3",
-      "workable:wallstreetquants:8CB119E789"
-    ],
-    "telegram": [
-      "workable:wallstreetquants:494E392FD3",
-      "workable:wallstreetquants:8CB119E789"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
