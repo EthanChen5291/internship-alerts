@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-08-07T04:17:55Z",
-  "last_digest_roles": 37,
+  "last_digest_at": "2026-08-08T05:24:32Z",
+  "last_digest_roles": 26,
   "last_digest_sent": 225,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -133,13 +133,39 @@
     "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39284",
     "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39285",
     "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39286",
-    "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39287"
+    "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39287",
+    "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-AI-Machine-Learning-Internship--DC-Metro-Area_RQ225912",
+    "greenhouse:thenuclearcompany:5383163008",
+    "greenhouse:thenuclearcompany:5383231008",
+    "greenhouse:thenuclearcompany:5383236008",
+    "greenhouse:thenuclearcompany:5383244008",
+    "lever:acds:e468d15b-69c3-4534-8072-7ff3f85fbf83",
+    "greenhouse:thenuclearcompany:5383113008",
+    "lever:belvederetrading:10746b3d-1760-4573-9b63-b93f5a5e4fc0",
+    "lever:belvederetrading:cbde47db-c60b-4339-a8f4-a8e4f30505ab",
+    "workday:copart:/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636",
+    "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101510",
+    "workday:jj:/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820",
+    "workday:bcbsla:/job/Corporate---Baton-Rouge-LA/CW-Operational-Reporting---Data-Analyst-Intern_R11907",
+    "workday:bcbsla:/job/Corporate---Baton-Rouge-LA/Healthcare-Price-and-Transparency-Data-Analyst-Intern_R11903",
+    "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225450-1",
+    "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225456-1",
+    "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225469-1",
+    "workday:gdit:/job/USA-VA-Falls-Church---3150-Fairview-Park-Dr-VAS095/GDIT-2027-Summer-AI---ML-Internship_RQ225401",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1",
+    "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39288",
+    "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395",
+    "workday:warnerbros:/job/CA-Burbank-Bldg-700-Second-Century-Tower-1/Bleacher-Report-Social-Programming-Intern--LA---Fall-2026_R000107469",
+    "greenhouse:impact:8645964002",
+    "workday:kbr:/job/Houston-Texas/Software-Intern_R2127863",
+    "greenhouse:densityai:4336452009",
+    "oracle:jpmc.fa.oraclecloud.com:210775223"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 225,
   "send_attempts": [
     {
-      "at": "2026-08-07T04:17:55Z",
+      "at": "2026-08-08T05:24:32Z",
       "count": 225
     }
   ]
