@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-08-08T05:24:32Z",
-  "last_digest_roles": 26,
+  "last_digest_at": "2026-08-09T05:34:43Z",
+  "last_digest_roles": 2,
   "last_digest_sent": 225,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -159,13 +159,15 @@
     "greenhouse:impact:8645964002",
     "workday:kbr:/job/Houston-Texas/Software-Intern_R2127863",
     "greenhouse:densityai:4336452009",
-    "oracle:jpmc.fa.oraclecloud.com:210775223"
+    "oracle:jpmc.fa.oraclecloud.com:210775223",
+    "workable:wallstreetquants:494E392FD3",
+    "workable:wallstreetquants:8CB119E789"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 225,
   "send_attempts": [
     {
-      "at": "2026-08-08T05:24:32Z",
+      "at": "2026-08-09T05:34:43Z",
       "count": 225
     }
   ]
