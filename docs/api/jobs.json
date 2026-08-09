@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-08T23:56:22Z",
- "data_as_of": "2026-08-08T23:56:22Z",
- "rendered_at": "2026-08-08T23:56:22Z",
+ "generated_at": "2026-08-09T02:41:52Z",
+ "data_as_of": "2026-08-09T02:41:52Z",
+ "rendered_at": "2026-08-09T02:41:53Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 161,
+ "count": 160,
  "jobs": [
   {
    "id": "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-AI-Machine-Learning-Internship--DC-Metro-Area_RQ225912",
@@ -3399,33 +3399,6 @@
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Co-op",
-   "remote": false
-  },
-  {
-   "id": "lever:palantir:75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
-   "company": "Palantir",
-   "title": "Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Chicago, IL",
-   "url": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
-   "posted_at": "2026-06-24T19:13:14Z",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-07-16T07:39:11Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "Java",
-    "C++",
-    "TypeScript",
-    "JavaScript"
-   ],
-   "source": "lever",
-   "h1b_approvals": 88,
-   "program": "Internship",
    "remote": false
   },
   {
