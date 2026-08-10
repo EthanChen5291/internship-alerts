@@ -8,7 +8,7 @@
 
 ### 162 open roles (148 listed below) · 68 new this week
 
-4,081 employers tracked · data as of Aug 10, 2026 at 18:45 UTC
+4,081 employers tracked · data as of Aug 10, 2026 at 19:53 UTC
 
 _97 have a cycle the employer stated · 65 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -189,7 +189,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 |---|---|---|---|---|---|---|
 | Booz Allen | AI RAN Telecommunications Engineer Intern 🇺🇸 🆕 | Data & ML/AI | McLean, VA | Python, C++, PyTorch, TensorFlow | Aug 10, 2026 | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246415) |
 | Canadian Solar | Intern, IT Infrastructure Support 🆕 | Software | Walnut Creek, CA | Azure | Aug 10, 2026 | [Apply](https://canadiansolar.wd5.myworkdayjobs.com/CanadianSolar/job/Walnut-Creek-CA/Intern--IT-Infrastructure-Support_10001383) |
-| ACDS | AI Operations Engineer Intern | Data & ML/AI | Lowell, AR | No skills listed | Aug 07, 2026 | [Apply](https://jobs.lever.co/acds/e468d15b-69c3-4534-8072-7ff3f85fbf83) |
+| ACDS | AI Operations Intern | Data & ML/AI | Lowell, AR | No skills listed | Aug 07, 2026 | [Apply](https://jobs.lever.co/acds/e468d15b-69c3-4534-8072-7ff3f85fbf83) |
 | Copart ✓ | Database Engineering Intern | Software | Dallas, TX - Headquarters | Python, JavaScript, SQL, Pandas | Aug 07, 2026 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636) |
 | Centerfield | Frontend Engineer Intern (6 month internship) | Software | Los Angeles, California | Java, TypeScript, JavaScript, React | Aug 06, 2026 | [Apply](https://jobs.ashbyhq.com/centerfield/1d7eacc1-37f7-478c-9b0a-fa7974f1a9e4) |
 | Nokia | AI R&D Engineer Co-op _(3 openings)_ | Data & ML/AI | United States | PyTorch, TensorFlow, Kafka | Aug 06, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39284) [#2](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39285) [#3](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39286) |
@@ -347,7 +347,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,009 of 4,317 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 92% of the full registry) · completed in 953.2s · 555 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 3,982 of 4,317 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 92% of the full registry) · completed in 927.2s · 541 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 

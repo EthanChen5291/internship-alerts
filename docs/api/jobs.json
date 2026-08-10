@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-10T18:45:54Z",
- "data_as_of": "2026-08-10T18:45:54Z",
- "rendered_at": "2026-08-10T18:45:55Z",
+ "generated_at": "2026-08-10T19:53:42Z",
+ "data_as_of": "2026-08-10T19:53:42Z",
+ "rendered_at": "2026-08-10T19:53:43Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
  "count": 162,
@@ -287,7 +287,7 @@
   {
    "id": "lever:acds:e468d15b-69c3-4534-8072-7ff3f85fbf83",
    "company": "ACDS",
-   "title": "AI Operations Engineer Intern",
+   "title": "AI Operations Intern",
    "season": "Not stated",
    "seasons": null,
    "season_inferred": true,
