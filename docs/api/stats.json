@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-10T16:43:21Z",
- "fetched_at": "2026-08-10T16:43:21Z",
- "duration_seconds": 910.3,
+ "generated_at": "2026-08-10T17:48:11Z",
+ "fetched_at": "2026-08-10T17:48:11Z",
+ "duration_seconds": 937.7,
  "companies_total": 4317,
  "companies_by_source": {
   "greenhouse": 1018,
@@ -17,25 +17,25 @@
   "breezy": 12,
   "eightfold": 1
  },
- "quarantined": 232,
- "fetched_ok": 4073,
- "fetch_errors": 12,
+ "quarantined": 238,
+ "fetched_ok": 4011,
+ "fetch_errors": 68,
  "errors_by_source": {
-  "workday": 12
+  "workday": 68
  },
- "fetch_success_rate": 0.997,
- "fetch_success_rate_registry": 0.943,
- "snapshots_complete": 3481,
- "snapshots_partial": 592,
+ "fetch_success_rate": 0.983,
+ "fetch_success_rate_registry": 0.929,
+ "snapshots_complete": 3454,
+ "snapshots_partial": 557,
  "partial_by_reason": {
-  "result-cap": 515,
-  "malformed-response": 77
+  "result-cap": 502,
+  "malformed-response": 55
  },
- "degraded_fetches": 77,
+ "degraded_fetches": 55,
  "roles_matched": 152,
- "dropped_no_year_in_title": 405,
- "dropped_offcycle_by_text": 38,
- "roles_cycle_inferred": 63,
+ "dropped_no_year_in_title": 398,
+ "dropped_offcycle_by_text": 37,
+ "roles_cycle_inferred": 64,
  "roles_by_source": {
   "amazon": 5,
   "ashby": 13,
@@ -44,18 +44,18 @@
   "oracle": 13,
   "smartrecruiters": 9,
   "workable": 6,
-  "workday": 41
+  "workday": 42
  },
  "roles_by_cycle": {
   "Fall 2026": 32,
-  "Not stated": 63,
+  "Not stated": 64,
   "Summer 2027": 67
  },
  "roles_by_region": {
-  "US": 161
+  "US": 162
  },
  "sponsorship_counts": {
-  "unknown": 129,
+  "unknown": 130,
   "citizens-only": 22,
   "no-sponsorship": 6,
   "offers": 4
@@ -65,7 +65,7 @@
  "enrichment_detail_fetches": 1,
  "purged_this_run": 0,
  "new_this_run": 1,
- "open_total": 161,
+ "open_total": 162,
  "detection_latency": {
   "median_minutes": 64.5,
   "p95_minutes": 4366.2,
@@ -77,5 +77,5 @@
   "median_days": 10,
   "sample_size": 57
  },
- "rendered_at": "2026-08-10T16:43:21Z"
+ "rendered_at": "2026-08-10T17:48:11Z"
 }
