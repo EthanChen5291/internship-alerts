@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:ing:/job/New-York/Summer-2027-Internship---Tech--Information-Security-_REQ-10119620",
-      "workday:ing:/job/New-York/Summer-2027-Internship---Tech--Infrastructure-_REQ-10119621"
-    ],
-    "telegram": [
-      "workday:ing:/job/New-York/Summer-2027-Internship---Tech--Information-Security-_REQ-10119620",
-      "workday:ing:/job/New-York/Summer-2027-Internship---Tech--Infrastructure-_REQ-10119621"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
