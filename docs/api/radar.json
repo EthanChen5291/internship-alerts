@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-10T15:30:23Z",
- "data_as_of": "2026-08-10T15:30:23Z",
- "rendered_at": "2026-08-10T15:30:23Z",
+ "generated_at": "2026-08-10T16:43:21Z",
+ "data_as_of": "2026-08-10T16:43:21Z",
+ "rendered_at": "2026-08-10T16:43:21Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -644,6 +644,25 @@
    "days_until": 0,
    "status": "open",
    "url": "https://ing.wd3.myworkdayjobs.com/icsgblcor/job/New-York/Summer-2027-Internship---Tech--Information-Security-_REQ-10119620",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-10"
+   }
+  },
+  {
+   "company": "Montenson",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-10",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23339",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3426,5 +3445,5 @@
    }
   }
  ],
- "count": 180
+ "count": 181
 }

@@ -683,6 +683,18 @@
     }
    }
   },
+  "montenson": {
+   "name": "Montenson",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-10",
+     "role_ids": [
+      "oracle:fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com:23339"
+     ],
+     "count": 1
+    }
+   }
+  },
   "moog": {
    "name": "Moog",
    "cycles": {
@@ -1336,5 +1348,5 @@
    }
   }
  },
- "updated_at": "2026-08-10T15:30:23Z"
+ "updated_at": "2026-08-10T16:43:21Z"
 }
