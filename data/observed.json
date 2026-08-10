@@ -368,6 +368,18 @@
     }
    }
   },
+  "dv trading": {
+   "name": "DV Trading",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-10",
+     "role_ids": [
+      "greenhouse:dvtrading:4719119005"
+     ],
+     "count": 1
+    }
+   }
+  },
   "ellipsis labs": {
    "name": "Ellipsis Labs",
    "cycles": {
@@ -1348,5 +1360,5 @@
    }
   }
  },
- "updated_at": "2026-08-10T22:10:57Z"
+ "updated_at": "2026-08-10T23:08:13Z"
 }
