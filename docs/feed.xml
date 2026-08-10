@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-10T06:16:10Z</updated>
+  <updated>2026-08-10T08:15:28Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:InfiniteQuant:744000142560129</id>
+    <title>InfiniteQuant: Quantitative Researcher - Internship - Summer 2027</title>
+    <link href="https://jobs.smartrecruiters.com/InfiniteQuant/744000142560129"/>
+    <updated>2026-08-10T06:16:10Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Quant · New York, NY, United States · Python, C++, Pandas</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workable:wallstreetquants:494E392FD3</id>
     <title>WallStreetQuants: Quantitative Researcher - Internship</title>
@@ -339,9 +347,9 @@
     <id>urn:intern-engine:smartrecruiters:InfiniteQuant:744000129235439</id>
     <title>InfiniteQuant: Quantitative Researcher - Internship - Summer 2027</title>
     <link href="https://jobs.smartrecruiters.com/InfiniteQuant/744000129235439"/>
-    <updated>2026-08-07T00:49:01Z</updated>
+    <updated>2026-08-10T08:15:28Z</updated>
     <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Quant · New York, NY, United States · Python, C++, Pandas</summary>
+    <summary>Summer 2027 · Quant · New York, NY, United States · Python, C++, Pandas · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:RedBull:744000139168339</id>
@@ -798,13 +806,5 @@
     <updated>2026-07-28T23:15:17Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · New York · $15K per month · Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ewvl.fa.us8.oraclecloud.com:2164</id>
-    <title>Savannah River National Laboratory: ASPIRE Software Developer Undergraduate Intern 🇺🇸</title>
-    <link href="https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2164"/>
-    <updated>2026-08-01T13:14:55Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Aiken, SC, United States · Python, C#, SQL, Linux · sponsorship: citizens-only · status: closed</summary>
   </entry>
 </feed>
