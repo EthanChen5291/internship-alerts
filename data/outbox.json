@@ -1,6 +1,12 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "ashby:sentry:672e2a76-d8e1-49c1-b227-4a189c4e49a1",
+      "workday:cccis:/job/Chicago-Green-St-IL/R-D---Data-Science-Internship-Fall-2026_0014841"
+    ],
+    "telegram": [
+      "ashby:sentry:672e2a76-d8e1-49c1-b227-4a189c4e49a1",
+      "workday:cccis:/job/Chicago-Green-St-IL/R-D---Data-Science-Internship-Fall-2026_0014841"
+    ]
   }
 }
