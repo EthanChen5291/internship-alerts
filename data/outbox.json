@@ -1,10 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:copart:/job/Dallas-TX---Headquarters/Data-Analytics-Engineer-Intern_JR110584"
-    ],
-    "telegram": [
-      "workday:copart:/job/Dallas-TX---Headquarters/Data-Analytics-Engineer-Intern_JR110584"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
