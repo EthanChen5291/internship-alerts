@@ -1771,6 +1771,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Arch Aerial",
+    "slug": "arch-aerial-llc",
+    "ats": "workable"
+  },
+  {
     "name": "Arch Capital Group",
     "slug": "archgroup",
     "ats": "workday",
@@ -4164,6 +4169,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "external"
+  },
+  {
+    "name": "Caddi Workflow Automation",
+    "slug": "trycaddi",
+    "ats": "workable"
   },
   {
     "name": "Cadence Design Systems",
@@ -6567,6 +6577,11 @@
     "site": "Clearwater_Analytics_Careers"
   },
   {
+    "name": "CWILL",
+    "slug": "cwill-us",
+    "ats": "workable"
+  },
+  {
     "name": "CWS",
     "slug": "cws",
     "ats": "workday",
@@ -6779,6 +6794,11 @@
     "name": "DB E.C.O. North America",
     "slug": "dbeconorthamerica",
     "ats": "greenhouse"
+  },
+  {
+    "name": "DC Thomson",
+    "slug": "dcthomson",
+    "ats": "workable"
   },
   {
     "name": "Dealer Tire",
@@ -7474,6 +7494,11 @@
     "ats": "workday",
     "wd": "wd3",
     "site": "EON_Next_Careers"
+  },
+  {
+    "name": "Eagle Seven",
+    "slug": "eagle-seven",
+    "ats": "workable"
   },
   {
     "name": "Early Warning",
@@ -8193,6 +8218,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "esabcareers"
+  },
+  {
+    "name": "ESG - USA",
+    "slug": "esgusa",
+    "ats": "workable"
   },
   {
     "name": "Espa AI",
@@ -9296,6 +9326,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Fragile",
+    "slug": "fragile",
+    "ats": "rippling"
+  },
+  {
     "name": "Fragomen",
     "slug": "fragomen",
     "ats": "workday",
@@ -9405,6 +9440,11 @@
   {
     "name": "FS Studio",
     "slug": "fs-studio",
+    "ats": "ashby"
+  },
+  {
+    "name": "FSH Technologies",
+    "slug": "fsh",
     "ats": "ashby"
   },
   {
@@ -9750,6 +9790,11 @@
     "name": "Generalist",
     "slug": "generalist",
     "ats": "ashby"
+  },
+  {
+    "name": "Generation West Virginia",
+    "slug": "generation-west-virginia-1",
+    "ats": "workable"
   },
   {
     "name": "Genesis Therapeutics",
@@ -10793,6 +10838,13 @@
     "name": "HELLBENDER",
     "slug": "hellbenderinc",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Helmerich & Payne",
+    "slug": "hpinc",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "hpinc"
   },
   {
     "name": "Hendrick Motorsports",
@@ -13270,6 +13322,11 @@
     "ats": "lever"
   },
   {
+    "name": "Levels Technologies",
+    "slug": "levels",
+    "ats": "ashby"
+  },
+  {
     "name": "Lever",
     "slug": "leverdemo",
     "ats": "lever"
@@ -13642,6 +13699,11 @@
     "ats": "rippling"
   },
   {
+    "name": "Longshot Systems",
+    "slug": "longshot-systems-ltd",
+    "ats": "workable"
+  },
+  {
     "name": "Lonza",
     "slug": "lonza",
     "ats": "workday",
@@ -13698,6 +13760,16 @@
     "name": "loveholidays",
     "slug": "loveholidays",
     "ats": "ashby"
+  },
+  {
+    "name": "Lovey",
+    "slug": "lovey",
+    "ats": "workable"
+  },
+  {
+    "name": "Lovingly",
+    "slug": "lovingly",
+    "ats": "workable"
   },
   {
     "name": "Lowe's",
@@ -14440,6 +14512,13 @@
     "site": "External_Careers"
   },
   {
+    "name": "McKesson",
+    "slug": "mckesson",
+    "ats": "workday",
+    "wd": "wd3",
+    "site": "sourcer_on_req"
+  },
+  {
     "name": "McKinney",
     "slug": "jobsmckinneycom",
     "ats": "greenhouse"
@@ -14871,6 +14950,13 @@
     "ats": "oracle",
     "host": "hcor.fa.us2.oraclecloud.com",
     "site": "CX_1"
+  },
+  {
+    "name": "Miele",
+    "slug": "miele",
+    "ats": "workday",
+    "wd": "wd3",
+    "site": "miele-jobs"
   },
   {
     "name": "Mikata Health",
@@ -15396,6 +15482,16 @@
     "name": "Murj",
     "slug": "murj",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Murphy Research",
+    "slug": "murphy-research",
+    "ats": "workable"
+  },
+  {
+    "name": "Mustard Systems",
+    "slug": "mustard-systems",
+    "ats": "workable"
   },
   {
     "name": "Mux",
@@ -16150,6 +16246,11 @@
     "site": "CX_4001"
   },
   {
+    "name": "Nova Talent",
+    "slug": "nova-talent",
+    "ats": "ashby"
+  },
+  {
     "name": "Novanta",
     "slug": "novanta",
     "ats": "workday",
@@ -16343,6 +16444,11 @@
     "site": "halma"
   },
   {
+    "name": "OceanComm",
+    "slug": "oceancomm",
+    "ats": "workable"
+  },
+  {
     "name": "OceanX",
     "slug": "oceanx",
     "ats": "greenhouse"
@@ -16389,6 +16495,11 @@
   {
     "name": "OfferUp",
     "slug": "offerup",
+    "ats": "greenhouse"
+  },
+  {
+    "name": "OH.io",
+    "slug": "ohio",
     "ats": "greenhouse"
   },
   {
@@ -16604,6 +16715,11 @@
     "name": "onXmaps",
     "slug": "onxmaps",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Onyx Capital Group",
+    "slug": "onyx-capital-group",
+    "ats": "workable"
   },
   {
     "name": "ONYX Insight",
@@ -18247,6 +18363,11 @@
     "site": "Q2"
   },
   {
+    "name": "Q5",
+    "slug": "q5-partners",
+    "ats": "workable"
+  },
+  {
     "name": "QBE Insurance",
     "slug": "qbe",
     "ats": "workday",
@@ -18530,6 +18651,11 @@
     "name": "RAPP",
     "slug": "rapp",
     "ats": "greenhouse"
+  },
+  {
+    "name": "RAVE Aerospace",
+    "slug": "raveaerospace",
+    "ats": "workable"
   },
   {
     "name": "RAVL",
@@ -18877,6 +19003,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "name": "ResponsiveAds",
+    "slug": "responsiveads-inc",
+    "ats": "workable"
+  },
+  {
     "name": "Retell AI",
     "slug": "retell-ai",
     "ats": "ashby"
@@ -19036,6 +19167,11 @@
     "ats": "rippling"
   },
   {
+    "name": "Ripjar",
+    "slug": "ripjar",
+    "ats": "workable"
+  },
+  {
     "name": "Rippling",
     "slug": "rippling",
     "ats": "rippling"
@@ -19068,6 +19204,14 @@
     "name": "Rivian and Volkswagen Group Technologies",
     "slug": "rivianvw",
     "ats": "ashby"
+  },
+  {
+    "name": "RLI",
+    "slug": "rlicorp",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "RLI_Corp_Careers",
+    "host": "wd1.myworkdaysite.com"
   },
   {
     "name": "Ro",
@@ -19489,6 +19633,13 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "SailPoint"
+  },
+  {
+    "name": "Saint Leo University",
+    "slug": "saintleo",
+    "ats": "workday",
+    "wd": "wd503",
+    "site": "SLU"
   },
   {
     "name": "Sajix",
@@ -20452,6 +20603,11 @@
     "ats": "ashby"
   },
   {
+    "name": "SkyGig",
+    "slug": "skygig",
+    "ats": "workable"
+  },
+  {
     "name": "Skyryse",
     "slug": "skyryse",
     "ats": "greenhouse"
@@ -21248,6 +21404,11 @@
     "site": "External"
   },
   {
+    "name": "Stockholm Environment Institute - U.S.",
+    "slug": "sei",
+    "ats": "workable"
+  },
+  {
     "name": "StockX",
     "slug": "stockx",
     "ats": "greenhouse"
@@ -21513,6 +21674,11 @@
     "site": "join-swift"
   },
   {
+    "name": "Swoon Editions",
+    "slug": "swoon-editions",
+    "ats": "workable"
+  },
+  {
     "name": "Sword Group",
     "slug": "sword-group",
     "ats": "workable"
@@ -21618,6 +21784,11 @@
     "name": "System Canada Technologies",
     "slug": "systemCanadaTechnologies",
     "ats": "smartrecruiters"
+  },
+  {
+    "name": "SZNS Solutions",
+    "slug": "szns",
+    "ats": "workable"
   },
   {
     "name": "T-Mobile",
@@ -22030,6 +22201,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Teserac",
+    "slug": "teserac-inc",
+    "ats": "workable"
+  },
+  {
     "name": "Tessera Labs",
     "slug": "tessera-labs",
     "ats": "ashby"
@@ -22106,6 +22282,13 @@
     "site": "CX_1"
   },
   {
+    "name": "Texas Permanent School Fund Corporation",
+    "slug": "texaspsf",
+    "ats": "workday",
+    "wd": "wd501",
+    "site": "TexasPSFCareers"
+  },
+  {
     "name": "Texas Rangers",
     "slug": "rangersmlb",
     "ats": "workday",
@@ -22164,6 +22347,11 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "TheAndersonsCareers"
+  },
+  {
+    "name": "The Anywhere",
+    "slug": "the-anywhere-company",
+    "ats": "workable"
   },
   {
     "name": "The Atlantic",
@@ -22450,6 +22638,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "ThermoFisherCareers"
+  },
+  {
+    "name": "Thingtrax",
+    "slug": "thingtrax",
+    "ats": "workable"
   },
   {
     "name": "Think Academy International Education",
@@ -24046,6 +24239,11 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "VEH_EXTERNAL_CAREER_SITE"
+  },
+  {
+    "name": "Viewline Ventures",
+    "slug": "viewline-ventures",
+    "ats": "workable"
   },
   {
     "name": "Viget",
