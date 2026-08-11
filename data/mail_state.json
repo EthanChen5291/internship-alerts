@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-08-10T06:17:04Z",
-  "last_digest_roles": 1,
+  "last_digest_at": "2026-08-11T06:47:37Z",
+  "last_digest_roles": 6,
   "last_digest_sent": 225,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -162,13 +162,19 @@
     "oracle:jpmc.fa.oraclecloud.com:210775223",
     "workable:wallstreetquants:494E392FD3",
     "workable:wallstreetquants:8CB119E789",
-    "smartrecruiters:InfiniteQuant:744000142560129"
+    "smartrecruiters:InfiniteQuant:744000142560129",
+    "greenhouse:dvtrading:4719119005",
+    "workday:bah:/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246415",
+    "workday:canadiansolar:/job/Walnut-Creek-CA/Intern--IT-Infrastructure-Support_10001383",
+    "oracle:fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com:23339",
+    "workday:ing:/job/New-York/Summer-2027-Internship---Tech--Information-Security-_REQ-10119620",
+    "workday:ing:/job/New-York/Summer-2027-Internship---Tech--Infrastructure-_REQ-10119621"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 225,
   "send_attempts": [
     {
-      "at": "2026-08-10T06:17:04Z",
+      "at": "2026-08-11T06:47:37Z",
       "count": 225
     }
   ]
