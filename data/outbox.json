@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:cccis:/job/Chicago-Green-St-IL/Data-Science-Engineer-Internship_0014843",
-      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255"
-    ],
-    "telegram": [
-      "workday:cccis:/job/Chicago-Green-St-IL/Data-Science-Engineer-Internship_0014843",
-      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
