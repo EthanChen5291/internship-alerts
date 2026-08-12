@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1",
-      "workday:marmon:/job/Chicago-IL/AI-Project-Management-Intern_JR0000045089-1"
-    ],
-    "telegram": [
-      "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1",
-      "workday:marmon:/job/Chicago-IL/AI-Project-Management-Intern_JR0000045089-1"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
