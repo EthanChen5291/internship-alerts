@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:americanfidelity:/job/Oklahoma-City-Oklahoma/Software-Dev-Internship_JR1005",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875"
-    ],
-    "telegram": [
-      "workday:americanfidelity:/job/Oklahoma-City-Oklahoma/Software-Dev-Internship_JR1005",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
