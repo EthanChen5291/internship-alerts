@@ -810,6 +810,18 @@
     }
    }
   },
+  "northwestern mutual": {
+   "name": "Northwestern Mutual",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-12",
+     "role_ids": [
+      "workday:northwesternmutual:/job/Milwaukee-WI-Corporate/Public-Investments-Quantitative-Analyst-Intern--Summer-2027_JR-45807"
+     ],
+     "count": 1
+    }
+   }
+  },
   "notion": {
    "name": "Notion",
    "cycles": {
@@ -1389,11 +1401,12 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-28",
-     "count": 3,
+     "count": 4,
      "role_ids": [
       "smartrecruiters:WesternDigital:744000134646158",
       "smartrecruiters:WesternDigital:744000134646354",
-      "smartrecruiters:WesternDigital:744000138727213"
+      "smartrecruiters:WesternDigital:744000138727213",
+      "smartrecruiters:WesternDigital:744000143171017"
      ]
     }
    }
@@ -1411,5 +1424,5 @@
    }
   }
  },
- "updated_at": "2026-08-12T19:31:24Z"
+ "updated_at": "2026-08-12T20:42:58Z"
 }
