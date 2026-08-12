@@ -1026,9 +1026,10 @@
     "Summer 2027": {
      "first_posted": "2026-08-04",
      "role_ids": [
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1"
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -1398,5 +1399,5 @@
    }
   }
  },
- "updated_at": "2026-08-12T15:27:35Z"
+ "updated_at": "2026-08-12T16:47:03Z"
 }
