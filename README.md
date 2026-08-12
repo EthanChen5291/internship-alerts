@@ -8,7 +8,7 @@
 
 ### 168 open roles (153 listed below) · 70 new this week
 
-4,117 employers tracked · data as of Aug 12, 2026 at 05:13 UTC
+4,117 employers tracked · data as of Aug 12, 2026 at 06:54 UTC
 
 _100 have a cycle the employer stated · 68 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -94,7 +94,7 @@ If it helps you, a star means a lot and tells me to keep going.
 | Montenson | AI Intern 🛂 🆕 | Data & ML/AI | MN, United States | LLMs, Computer Vision | Aug 10, 2026 | [Apply](https://fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23339) |
 | ING | Summer 2027 Internship - Tech (Information Security) 🆕 | Security | New York | Python | Aug 10, 2026 | [Apply](https://ing.wd3.myworkdayjobs.com/icsgblcor/job/New-York/Summer-2027-Internship---Tech--Information-Security-_REQ-10119620) |
 | ING | Summer 2027 Internship - Tech (Infrastructure) 🆕 | Software | New York | Python, Azure, Git | Aug 10, 2026 | [Apply](https://ing.wd3.myworkdayjobs.com/icsgblcor/job/New-York/Summer-2027-Internship---Tech--Infrastructure-_REQ-10119621) |
-| InfiniteQuant | Quantitative Researcher - Internship - Summer 2027 🆕 | Quant | New York, NY, United States | Python, C++, Pandas | Aug 10, 2026 | [Apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000142560129) |
+| InfiniteQuant | Quantitative Researcher - Internship - Summer 2027 | Quant | New York, NY, United States | Python, C++, Pandas | Aug 10, 2026 | [Apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000142560129) |
 | General Dynamics Information Technology ✓ | PTOC  AI/Machine Learning Internship -DC Metro Area 🇺🇸 | Data & ML/AI | USA VA Falls Church | Python | Aug 07, 2026 | [Apply](https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-AI-Machine-Learning-Internship--DC-Metro-Area_RQ225912) |
 | The Nuclear Company | Summer 2027 AI/ML Engineering Intern 🇺🇸 | Data & ML/AI | Washington, DC | Python, PyTorch, LLMs, AWS | Aug 07, 2026 | [Apply](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383231008) |
 | The Nuclear Company | Summer 2027 Software Engineering Intern 🇺🇸 | Software | Washington, DC | Python, Java, C++, Rust | Aug 07, 2026 | [Apply](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383236008) |
@@ -351,7 +351,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,033 of 4,354 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 947.4s · 536 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,039 of 4,354 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 906.7s · 544 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
