@@ -1,6 +1,10 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "lever:plus-2:2ee24f85-bfa1-47fc-bfe3-fd07521a7b62"
+    ],
+    "telegram": [
+      "lever:plus-2:2ee24f85-bfa1-47fc-bfe3-fd07521a7b62"
+    ]
   }
 }
