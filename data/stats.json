@@ -78,5 +78,6 @@
     "median_days": 11.5,
     "sample_size": 62
   },
-  "rendered_at": "2026-08-13T10:35:56Z"
+  "rendered_at": "2026-08-13T10:37:29Z",
+  "stats_basis": "counts recomputed from the store; fetch metrics from the last run"
 }
