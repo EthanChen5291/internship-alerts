@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-13T20:31:49Z",
- "fetched_at": "2026-08-13T20:31:49Z",
- "duration_seconds": 873.7,
+ "generated_at": "2026-08-13T21:42:52Z",
+ "fetched_at": "2026-08-13T21:42:52Z",
+ "duration_seconds": 963.9,
  "companies_total": 4398,
  "companies_by_source": {
   "greenhouse": 1019,
@@ -17,24 +17,24 @@
   "breezy": 12,
   "eightfold": 1
  },
- "quarantined": 230,
- "fetched_ok": 4053,
- "fetch_errors": 115,
+ "quarantined": 227,
+ "fetched_ok": 4041,
+ "fetch_errors": 130,
  "errors_by_source": {
-  "workday": 113,
+  "workday": 128,
   "greenhouse": 2
  },
- "fetch_success_rate": 0.972,
- "fetch_success_rate_registry": 0.922,
- "snapshots_complete": 3512,
- "snapshots_partial": 541,
+ "fetch_success_rate": 0.969,
+ "fetch_success_rate_registry": 0.919,
+ "snapshots_complete": 3496,
+ "snapshots_partial": 545,
  "partial_by_reason": {
-  "result-cap": 484,
-  "malformed-response": 57
+  "result-cap": 498,
+  "malformed-response": 47
  },
- "degraded_fetches": 57,
- "roles_matched": 159,
- "dropped_no_year_in_title": 384,
+ "degraded_fetches": 47,
+ "roles_matched": 154,
+ "dropped_no_year_in_title": 373,
  "dropped_offcycle_by_text": 41,
  "roles_cycle_inferred": 77,
  "roles_by_source": {
@@ -45,20 +45,20 @@
   "oracle": 14,
   "smartrecruiters": 12,
   "workable": 5,
-  "workday": 58
+  "workday": 59
  },
  "roles_by_cycle": {
   "Fall 2026": 30,
   "Not stated": 77,
-  "Summer 2027": 75
+  "Summer 2027": 76
  },
  "roles_by_region": {
-  "US": 181
+  "US": 182
  },
  "sponsorship_counts": {
   "unknown": 143,
   "offers": 6,
-  "citizens-only": 26,
+  "citizens-only": 27,
   "no-sponsorship": 6
  },
  "posted_date_coverage": 1.0,
@@ -66,11 +66,11 @@
  "enrichment_detail_fetches": 0,
  "purged_this_run": 0,
  "new_this_run": 0,
- "open_total": 181,
+ "open_total": 182,
  "detection_latency": {
-  "median_minutes": 47.1,
+  "median_minutes": 43.3,
   "p95_minutes": 111.6,
-  "sample_size": 21,
+  "sample_size": 20,
   "window_days": 7,
   "basis": "roles published in the window with an exact source timestamp"
  },
@@ -78,5 +78,5 @@
   "median_days": 10,
   "sample_size": 65
  },
- "rendered_at": "2026-08-13T20:31:49Z"
+ "rendered_at": "2026-08-13T21:42:52Z"
 }
