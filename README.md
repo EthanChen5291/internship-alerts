@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 177 open roles (162 listed below) · 77 new this week
+### 178 open roles (163 listed below) · 78 new this week
 
-4,139 employers tracked · data as of Aug 13, 2026 at 00:57 UTC
+4,139 employers tracked · data as of Aug 13, 2026 at 03:45 UTC
 
-_104 have a cycle the employer stated · 73 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_104 have a cycle the employer stated · 74 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -243,7 +243,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Jump Trading ✓ | Campus Quantitative Researcher, UG/MS (Intern) | Quant | Chicago; New York | Python, C++ | Jul 08, 2026 | [Apply](https://www.jumptrading.com/hr/job?gh_jid=7982648) |
 | Jump Trading ✓ | Campus AI Research Engineer (Intern) | Data & ML/AI | Chicago; New York | Python, C++, PyTorch, TensorFlow | Jul 08, 2026 | [Apply](https://www.jumptrading.com/hr/job?gh_jid=8052281) |
 | Bot Auto | Intern, Deep Learning Engineer | Data & ML/AI | Houston, TX | Python, C++, PyTorch, LLMs | Jul 02, 2026 | [Apply](https://job-boards.greenhouse.io/botauto/jobs/5289440008) |
-| ConnectPrep 🆁 | Data Analyst Internship 🇺🇸 | Data & ML/AI | Washington +2 more | Python, SQL, Pandas, Tableau | Jul 02, 2026 | [Apply](https://apply.workable.com/connectprep/j/C0CA13664F/) |
+| ConnectPrep 🆁 | Data Analyst Internship 🇺🇸 🆕 _(2 openings)_ | Data & ML/AI | Washington +2 more | Python, SQL, Pandas, Tableau | Jul 02, 2026 | [Apply](https://apply.workable.com/connectprep/j/C0CA13664F/) [#2](https://apply.workable.com/connectprep/j/D1C67258C0/) |
 | Palantir ✓ | Forward Deployed Software Engineer, Internship - Intel | Software | Washington, D.C. | Python, Java, C++, TypeScript | Jul 01, 2026 | [Apply](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89) |
 | Palantir ✓ | Forward Deployed Software Engineer, Internship - Commercial | Software | Chicago, IL | Python, Java, C++, TypeScript | Jun 30, 2026 | [Apply](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) |
 | Veeda AI | Internship - Veeda AI Scientist | Data & ML/AI | California | No skills listed | Jun 29, 2026 | [Apply](https://jobs.ashbyhq.com/veeda-labs/58cc42fb-1d6f-4e5f-860d-3b97bdccc6f4) |
@@ -358,7 +358,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,048 of 4,376 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 906.2s · 542 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,104 of 4,376 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 831.3s · 568 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
