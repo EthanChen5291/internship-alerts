@@ -1,6 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:crowe:/job/Chicago-IL-USA/AI-Functional-Intern_R-71008",
+      "workday:crowe:/job/Chicago-IL-USA/AI-Engineering-Intern_R-51782",
+      "workday:flir:/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193",
+      "workday:flir:/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36194-2"
+    ],
+    "telegram": [
+      "workday:crowe:/job/Chicago-IL-USA/AI-Functional-Intern_R-71008",
+      "workday:crowe:/job/Chicago-IL-USA/AI-Engineering-Intern_R-51782",
+      "workday:flir:/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193",
+      "workday:flir:/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36194-2"
+    ]
   }
 }

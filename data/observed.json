@@ -1213,6 +1213,19 @@
     }
    }
   },
+  "teledyne": {
+   "name": "Teledyne",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-13",
+     "role_ids": [
+      "workday:flir:/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193",
+      "workday:flir:/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36194-2"
+     ],
+     "count": 2
+    }
+   }
+  },
   "telus digital": {
    "name": "TELUS Digital",
    "cycles": {
@@ -1427,5 +1440,5 @@
    }
   }
  },
- "updated_at": "2026-08-13T17:53:04Z"
+ "updated_at": "2026-08-13T19:31:29Z"
 }
