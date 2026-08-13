@@ -1,7 +1,7 @@
 {
-  "last_digest_at": "2026-08-12T06:55:14Z",
-  "last_digest_roles": 6,
-  "last_digest_sent": 225,
+  "last_digest_at": "2026-08-13T07:16:09Z",
+  "last_digest_roles": 11,
+  "last_digest_sent": 224,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
     "greenhouse:pdtpartners:8077685",
@@ -175,14 +175,25 @@
     "ashby:sentry:672e2a76-d8e1-49c1-b227-4a189c4e49a1",
     "workday:cccis:/job/Chicago-Green-St-IL/R-D---Data-Science-Internship-Fall-2026_0014841",
     "workday:bah:/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246869",
-    "smartrecruiters:BoschGroup:744000142898574"
+    "smartrecruiters:BoschGroup:744000142898574",
+    "workable:connectprep:D1C67258C0",
+    "oracle:eeho.fa.us2.oraclecloud.com:342415",
+    "smartrecruiters:WesternDigital:744000143171017",
+    "workday:northwesternmutual:/job/Milwaukee-WI-Corporate/Public-Investments-Quantitative-Analyst-Intern--Summer-2027_JR-45807",
+    "workday:newbalance:/job/Sports-Research-Lab-Brighton-MA/Sports-Research-Engineer-Intern_R40740",
+    "workday:americanfidelity:/job/Oklahoma-City-Oklahoma/Software-Dev-Internship_JR1005",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875",
+    "workday:cccis:/job/Chicago-Green-St-IL/Data-Science-Engineer-Internship_0014843",
+    "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
+    "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1",
+    "workday:marmon:/job/Chicago-IL/AI-Project-Management-Intern_JR0000045089-1"
   ],
   "last_digest_failed": 0,
-  "subscribers_total": 225,
+  "subscribers_total": 224,
   "send_attempts": [
     {
-      "at": "2026-08-12T06:55:14Z",
-      "count": 225
+      "at": "2026-08-13T07:16:09Z",
+      "count": 224
     }
   ]
 }
