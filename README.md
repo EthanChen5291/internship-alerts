@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 178 open roles (163 listed below) · 78 new this week
+### 176 open roles (161 listed below) · 77 new this week
 
-4,139 employers tracked · data as of Aug 13, 2026 at 03:45 UTC
+4,139 employers tracked · data as of Aug 13, 2026 at 05:36 UTC
 
-_104 have a cycle the employer stated · 74 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_103 have a cycle the employer stated · 73 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -151,11 +151,10 @@ If it helps you, a star means a lot and tells me to keep going.
 | Virtu Financial | 2027 Internship - Quantitative Researcher (Undergrad) | Quant | New York | Python, C++, Pandas | Sep 12, 2025 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8142539002) |
 | Point72 ✓ | Summer 2027 Quantitative Research Internship | Quant | New York | Python, C++ | Aug 15, 2024 | [Apply](https://boards.greenhouse.io/point72/jobs/7297642002?gh_jid=7297642002) |
 
-## Fall 2026  (30 employer-stated)
+## Fall 2026  (29 employer-stated)
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Assured Guaranty | Fall 2026 Intern - Product Software Developer 🆕 | Software | New York, NY, United States | Python, Java, C#, JavaScript | Aug 12, 2026 | [Apply](https://boards.greenhouse.io/assuredguaranty/jobs/8700953002?gh_jid=8700953002) |
 | CCC Intelligent Solutions ✓ | R&D & Data Science Internship Fall 2026 🆕 | Data & ML/AI | Chicago (Green St), IL | Python, Java, JavaScript, Swift | Aug 11, 2026 | [Apply](https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/R-D---Data-Science-Internship-Fall-2026_0014841) |
 | The Nuclear Company | Fall 2026 AI/ML Engineering Intern 🇺🇸 | Data & ML/AI | Washington, DC | Python, PyTorch, LLMs, AWS | Aug 07, 2026 | [Apply](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383163008) |
 | The Nuclear Company | Fall 2026 AI Software Engineering Intern 🇺🇸 | Data & ML/AI | Washington, DC | Python, Java, C++, Rust | Aug 07, 2026 | [Apply](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383113008) |
@@ -192,6 +191,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
+| ConnectPrep 🆁 | Data Analyst Internship 🇺🇸 🆕 | Data & ML/AI | Washington +2 more | Python, SQL, Pandas, Tableau | Aug 13, 2026 | [Apply](https://apply.workable.com/connectprep/j/D1C67258C0/) |
 | Oracle | Platform Software Engineer 1 - Full-time Intern Conversion 🆕 | Software | United States | C++, JavaScript, SQL | Aug 12, 2026 | [Apply](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342415) |
 | New Balance | Sports Research Engineer Intern 🆕 | Software | Sports Research Lab, Brighton MA | No skills listed | Aug 12, 2026 | [Apply](https://newbalance.wd1.myworkdayjobs.com/careers/job/Sports-Research-Lab-Brighton-MA/Sports-Research-Engineer-Intern_R40740) |
 | American Fidelity | Software Dev Internship 🆕 | Software | Oklahoma City, Oklahoma | No skills listed | Aug 12, 2026 | [Apply](https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Dev-Internship_JR1005) |
@@ -243,7 +243,6 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Jump Trading ✓ | Campus Quantitative Researcher, UG/MS (Intern) | Quant | Chicago; New York | Python, C++ | Jul 08, 2026 | [Apply](https://www.jumptrading.com/hr/job?gh_jid=7982648) |
 | Jump Trading ✓ | Campus AI Research Engineer (Intern) | Data & ML/AI | Chicago; New York | Python, C++, PyTorch, TensorFlow | Jul 08, 2026 | [Apply](https://www.jumptrading.com/hr/job?gh_jid=8052281) |
 | Bot Auto | Intern, Deep Learning Engineer | Data & ML/AI | Houston, TX | Python, C++, PyTorch, LLMs | Jul 02, 2026 | [Apply](https://job-boards.greenhouse.io/botauto/jobs/5289440008) |
-| ConnectPrep 🆁 | Data Analyst Internship 🇺🇸 🆕 _(2 openings)_ | Data & ML/AI | Washington +2 more | Python, SQL, Pandas, Tableau | Jul 02, 2026 | [Apply](https://apply.workable.com/connectprep/j/C0CA13664F/) [#2](https://apply.workable.com/connectprep/j/D1C67258C0/) |
 | Palantir ✓ | Forward Deployed Software Engineer, Internship - Intel | Software | Washington, D.C. | Python, Java, C++, TypeScript | Jul 01, 2026 | [Apply](https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89) |
 | Palantir ✓ | Forward Deployed Software Engineer, Internship - Commercial | Software | Chicago, IL | Python, Java, C++, TypeScript | Jun 30, 2026 | [Apply](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) |
 | Veeda AI | Internship - Veeda AI Scientist | Data & ML/AI | California | No skills listed | Jun 29, 2026 | [Apply](https://jobs.ashbyhq.com/veeda-labs/58cc42fb-1d6f-4e5f-860d-3b97bdccc6f4) |
@@ -300,6 +299,7 @@ _Why each one left is in the last column, because the two reasons carry differen
 
 | Company | Role | Cycle | Closed | Why |
 |---|---|---|---|---|
+| Assured Guaranty | Fall 2026 Intern - Product Software Developer | Fall 2026 | 2026-08-13 | gone from feed |
 | Western Digital | Summer 2027 - Software Engineering Internship | Summer 2027 | 2026-08-12 | gone from feed |
 | Densityai | Technical Intern- Software  (Fall 2026) | Fall 2026 | 2026-08-12 | gone from feed |
 | Northrop Grumman | 2027 Intern Software Engineer | Summer 2027 | 2026-08-11 | out of scope |
@@ -339,7 +339,6 @@ _Why each one left is in the last column, because the two reasons carry differen
 | Sentara Health | Data & AI Finance Strategy Intern - Fall 2026 Internship Remote | Fall 2026 | 2026-07-31 | gone from feed |
 | Sentara Health | Enterprise Data & AI Intern- Fall 2026 Internship | Fall 2026 | 2026-07-31 | gone from feed |
 | Toshiba Global Commerce | Agentic Software Engineering intern | Fall 2026 | 2026-07-31 | gone from feed |
-| Toshiba Global Commerce | Project Management & AI Automation Intern | Fall 2026 | 2026-07-31 | gone from feed |
 
 </details>
 
@@ -358,7 +357,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,104 of 4,376 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 831.3s · 568 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,144 of 4,376 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 94% of the full registry) · completed in 930.2s · 590 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
