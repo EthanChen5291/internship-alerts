@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-14T18:45:58Z",
- "data_as_of": "2026-08-14T18:45:58Z",
- "rendered_at": "2026-08-14T18:45:58Z",
+ "generated_at": "2026-08-14T19:50:41Z",
+ "data_as_of": "2026-08-14T19:50:41Z",
+ "rendered_at": "2026-08-14T19:50:41Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -778,6 +778,25 @@
    "status": "open",
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
    "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-14"
+   }
+  },
+  {
+   "company": "Notion",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-14",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
+   "note": "small cohort, fall opening",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -2548,25 +2567,6 @@
    "provenance": {
     "type": "verified-window",
     "url": "https://jobs.nike.com/",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
-   "company": "Notion",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-09-01",
-   "days_until": 18,
-   "status": "waiting",
-   "url": "",
-   "note": "small cohort, fall opening",
-   "provenance": {
-    "type": "verified-window",
-    "url": "https://www.notion.so/careers",
     "verified_at": "2026-07-21"
    }
   },

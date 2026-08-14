@@ -1,6 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "ashby:notion:3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
+      "workday:cccis:/job/Chicago-Green-St-IL/AI-Enablement-Intern_0014851",
+      "workday:crowe:/job/Chicago-IL-USA/Data-Analytics-Developer-Intern_R-71041",
+      "workday:valeo:/job/Troy-MI/Software-Engineer-Intern_REQ2026076575"
+    ],
+    "telegram": [
+      "ashby:notion:3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
+      "workday:cccis:/job/Chicago-Green-St-IL/AI-Enablement-Intern_0014851",
+      "workday:crowe:/job/Chicago-IL-USA/Data-Analytics-Developer-Intern_R-71041",
+      "workday:valeo:/job/Troy-MI/Software-Engineer-Intern_REQ2026076575"
+    ]
   }
 }

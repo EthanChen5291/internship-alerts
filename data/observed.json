@@ -841,6 +841,13 @@
      "role_ids": [
       "ashby:notion:5b15697c-fa91-4511-9482-c98a6ff29f90"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-08-14",
+     "role_ids": [
+      "ashby:notion:3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c"
+     ],
+     "count": 1
     }
    }
   },
@@ -1447,5 +1454,5 @@
    }
   }
  },
- "updated_at": "2026-08-14T18:45:58Z"
+ "updated_at": "2026-08-14T19:50:41Z"
 }
