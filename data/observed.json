@@ -923,9 +923,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-07-15",
-     "count": 1,
+     "count": 2,
      "role_ids": [
-      "oracle:hctz.fa.us2.oraclecloud.com:2505878"
+      "oracle:hctz.fa.us2.oraclecloud.com:2505878",
+      "oracle:hctz.fa.us2.oraclecloud.com:2506307"
      ]
     }
    }
@@ -1455,5 +1456,5 @@
    }
   }
  },
- "updated_at": "2026-08-14T21:14:54Z"
+ "updated_at": "2026-08-14T21:53:57Z"
 }
