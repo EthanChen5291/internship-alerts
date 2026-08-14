@@ -1,6 +1,10 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:generac:/job/Reno-NV---USA/Intern-Firmware-Engineering_JR16149"
+    ],
+    "telegram": [
+      "workday:generac:/job/Reno-NV---USA/Intern-Firmware-Engineering_JR16149"
+    ]
   }
 }
