@@ -1,11 +1,37 @@
 {
- "generated_at": "2026-08-14T21:53:57Z",
- "data_as_of": "2026-08-14T21:53:57Z",
- "rendered_at": "2026-08-14T21:53:58Z",
+ "generated_at": "2026-08-14T22:14:21Z",
+ "data_as_of": "2026-08-14T22:14:21Z",
+ "rendered_at": "2026-08-14T22:14:21Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 189,
+ "count": 190,
  "jobs": [
+  {
+   "id": "greenhouse:arevonenergyimpltest:5211455007",
+   "company": "Arevon",
+   "title": "Data Science Intern, Interconnection & Transmission",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Scottsdale, AZ",
+   "url": "https://job-boards.greenhouse.io/arevonenergyimpltest/jobs/5211455007",
+   "posted_at": "2026-08-14T17:37:17-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-14T22:14:21Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "SQL",
+    "Pandas",
+    "Tableau"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "oracle:hctz.fa.us2.oraclecloud.com:2506307",
    "company": "onsemi",
