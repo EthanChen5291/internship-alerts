@@ -5,16 +5,8 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-14T11:22:20Z</updated>
+  <updated>2026-08-14T12:12:03Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
-  <entry>
-    <id>urn:intern-engine:workable:securityriskadvisors:3B23FB7BEB</id>
-    <title>Securityriskadvisors: DevOps Engineering Generalist Co-op</title>
-    <link href="https://apply.workable.com/securityriskadvisors/j/3B23FB7BEB/"/>
-    <updated>2026-08-14T11:22:20Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Rochester, New York, United States · Python, Java, C++, C#, TypeScript</summary>
-  </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:Interco:744000143346169</id>
     <title>Interco: Paid Internship -- Software Development -- React 🛂</title>
@@ -22,6 +14,14 @@
     <updated>2026-08-14T11:22:20Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · St. Louis, MO, United States · $15/hr · React, JavaScript, HTML/CSS · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workable:securityriskadvisors:3B23FB7BEB</id>
+    <title>Securityriskadvisors: DevOps Engineering Generalist Co-op</title>
+    <link href="https://apply.workable.com/securityriskadvisors/j/3B23FB7BEB/"/>
+    <updated>2026-08-14T11:22:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Rochester, New York, United States · Python, Java, C++, C#, TypeScript</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:crowe:/job/Chicago-IL-USA/AI-Engineering-Intern_R-51782</id>
