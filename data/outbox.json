@@ -1,10 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:hctz.fa.us2.oraclecloud.com:2506307"
-    ],
-    "telegram": [
-      "oracle:hctz.fa.us2.oraclecloud.com:2506307"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
