@@ -28,7 +28,7 @@ from xml.etree import ElementTree
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "src"))
 
-from intern_engine import config, filters, paths, quality, registry, store  # noqa: E402
+from intern_engine import config, filters, paths, quality, registry, seo, store  # noqa: E402
 
 # Publish-gate thresholds. Set well below today's healthy numbers so normal
 # variation never blocks a run — these catch decay and collapse, not a bad
@@ -198,16 +198,30 @@ def main() -> None:
     except OSError:
         problems.append("  [csv-copy-missing] Pages CSV export is unreadable")
 
-    for artifact in (paths.FEED_PATH,):
+    for artifact in (paths.FEED_PATH, os.path.join(paths.DOCS_DIR, "sitemap.xml")):
         try:
             ElementTree.parse(artifact)
         except (OSError, ElementTree.ParseError):
             problems.append(f"  [xml-invalid] {artifact} is not well-formed XML")
 
-    for name in ("index.html", "confirm.html", "unsubscribe.html"):
+    for name in ("index.html", "confirm.html", "unsubscribe.html", "robots.txt",
+                 "sitemap.xml", os.path.join("jobs", "index.html")):
         artifact = os.path.join(paths.DOCS_DIR, name)
         if not os.path.isfile(artifact) or os.path.getsize(artifact) == 0:
             problems.append(f"  [pages-artifact-missing] docs/{name} is missing or empty")
+
+    # A role page per open requisition, and no page for anything else. A stale
+    # page is a 200 on a job the employer already pulled — the one thing search
+    # engines explicitly ask you not to serve.
+    jobs_dir = os.path.join(paths.DOCS_DIR, "jobs")
+    if os.path.isdir(jobs_dir):
+        published = {n for n in os.listdir(jobs_dir)
+                     if n.endswith(".html") and n != "index.html"}
+        expected = {f"{seo.role_slug(r)}.html" for r in open_jobs}
+        for missing in sorted(expected - published):
+            problems.append(f"  [role-page-missing] docs/jobs/{missing} was not written")
+        for stale in sorted(published - expected):
+            problems.append(f"  [role-page-stale] docs/jobs/{stale} is no longer open")
 
     # --- publish gates -------------------------------------------------------
     # Correctness checks above catch a bad ROW. These catch a bad RUN: a

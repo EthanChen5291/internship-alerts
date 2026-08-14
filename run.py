@@ -31,6 +31,7 @@ from intern_engine import (  # noqa: E402
     pipeline,
     publish,
     readme,
+    seo,
     store,
     telegram,
     trends,
@@ -73,8 +74,9 @@ def _render(store_data: dict, stats: dict):
     feed_entries = publish.write_feed(store_data, data_as_of=data_as_of)
     publish.write_api(store_data, stats)
     ics_events = publish.write_radar_ics(store_data, data_as_of=data_as_of)
+    role_pages = seo.write(store_data)
     pipeline.write_stats(stats)
-    return summary, feed_entries, ics_events
+    return summary, feed_entries, ics_events, role_pages
 
 
 def cmd_render() -> None:
@@ -90,11 +92,12 @@ def cmd_render() -> None:
     # different dataset. Recompute the ones derived from the store; leave the
     # fetch metrics (which only a real run can produce) as the last run's.
     stats = pipeline.restat(store_data, stats)
-    summary, feed_entries, ics_events = _render(store_data, stats)
+    summary, feed_entries, ics_events, role_pages = _render(store_data, stats)
     print("Rendered from the existing store:")
     print(f"  README open roles      {summary['open']}")
     print(f"  feed entries           {feed_entries}")
     print(f"  radar calendar events  {ics_events}")
+    print(f"  role pages             {role_pages}")
 
 
 def cmd_update() -> None:
@@ -104,7 +107,7 @@ def cmd_update() -> None:
         print("No data/companies.json yet — run `python run.py harvest` first.")
         sys.exit(1)
     stats, store_data, new_ids = pipeline.run_update()
-    summary, feed_entries, ics_events = _render(store_data, stats)
+    summary, feed_entries, ics_events, role_pages = _render(store_data, stats)
     # NOTE: no db.sync here. The Postgres mirror updates in `notify`, which the
     # workflow runs only after the accuracy gate passed and the push landed —
     # otherwise a run the gate would reject could still reach the mirror.
@@ -117,6 +120,7 @@ def cmd_update() -> None:
     print(f"  README open roles      {summary['open']}")
     print(f"  feed entries           {feed_entries}")
     print(f"  radar calendar events  {ics_events}")
+    print(f"  role pages             {role_pages}")
     print(f"  queued for alerts      {len(pending)}")
 
 

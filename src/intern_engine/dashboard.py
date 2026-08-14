@@ -411,6 +411,7 @@ def generate(store_data: dict, stats: dict) -> None:
 <meta property="og:description" content="{len(open_jobs)} open tech internships, refreshed every 30 minutes. Visa-sponsorship flags + proven H-1B sponsor badges for international students.">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
+<link rel="canonical" href="{config.pages_base()}/">
 <link rel="alternate" type="application/atom+xml" title="New internships" href="feed.xml">
 <style>
   :root {{ --bg:#0b0e14; --card:#141922; --raise:#1b212c; --line:#2a313d;
@@ -672,6 +673,7 @@ def generate(store_data: dict, stats: dict) -> None:
     job boards. Data as of {escape(updated)}.</p>
     <p class="links"><a href="feed.xml">RSS</a> · <a href="api/jobs.json">JSON API</a>
     · <a href="internships.csv">CSV</a> ·
+    <a href="jobs/">one page per role</a> ·
     <a href="https://github.com/{escape(repo)}">source</a> ·
     <a href="https://github.com/{escape(repo)}/blob/main/METHODOLOGY.md">methodology</a></p>
   </header>

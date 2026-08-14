@@ -66,6 +66,7 @@ jobs:
                   docs/index.html docs/feed.xml docs/unsubscribe.html \
                   docs/confirm.html docs/internships.csv \
                   docs/radar.ics docs/trends-light.svg docs/trends-dark.svg \
+                  docs/robots.txt docs/sitemap.xml docs/jobs \
                   docs/api/jobs.json docs/api/stats.json docs/api/radar.json
           if git diff --staged --quiet; then
             echo "Backlog already in line."
