@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workable:securityriskadvisors:3B23FB7BEB",
-      "smartrecruiters:Interco:744000143346169"
-    ],
-    "telegram": [
-      "workable:securityriskadvisors:3B23FB7BEB",
-      "smartrecruiters:Interco:744000143346169"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
