@@ -52,11 +52,26 @@ class HostLimiter:
     All Greenhouse boards share one host, so a global limit alone would still
     let us hammer it. A per-host semaphore keeps us polite to each provider
     while different hosts still run in parallel.
+
+    `overrides` caps one provider family below the general limit. This exists
+    because a global slot count is shared by unequal work: a Greenhouse board
+    is one GET that returns in ~0.16s, while a Workday board is up to twenty
+    paginated POSTs and takes ~7s. Slow boards therefore occupy slots far
+    longer than their share of the registry suggests — measured over a
+    400-board sample, Workday is 39% of the boards but held 68% of the 32
+    slots on average and 31 of 32 at peak. That sustained pressure is what a
+    rate limiter reacts to, and it starved the fast connectors besides.
     """
 
-    def __init__(self, per_host: int = 8, per_provider: int | None = None) -> None:
+    def __init__(
+        self,
+        per_host: int = 8,
+        per_provider: int | None = None,
+        overrides: dict[str, int] | None = None,
+    ) -> None:
         self._per_host = per_host
         self._per_provider = per_provider or per_host
+        self._overrides = dict(overrides or {})
         self._sems: dict[str, asyncio.Semaphore] = {}
         self._provider_sems: dict[str, asyncio.Semaphore] = {}
         self._lock = asyncio.Lock()
@@ -70,7 +85,8 @@ class HostLimiter:
             provider = _provider(host)
             provider_sem = self._provider_sems.get(provider)
             if provider_sem is None:
-                provider_sem = asyncio.Semaphore(self._per_provider)
+                limit = self._overrides.get(provider, self._per_provider)
+                provider_sem = asyncio.Semaphore(limit)
                 self._provider_sems[provider] = provider_sem
             # A shared host already enforces both scopes.  Avoid acquiring the
             # same semaphore twice if future configuration aliases them.

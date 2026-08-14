@@ -76,6 +76,16 @@ PER_HOST_CONCURRENCY = 8
 # aggregate headroom below the global cap without turning distinct employers
 # into one eight-request queue.
 PER_PROVIDER_CONCURRENCY = GLOBAL_CONCURRENCY
+# ...but Workday still needs a ceiling of its own, for the opposite reason.
+# A Workday board is ~20 paginated POSTs (~7s); a Greenhouse board is one GET
+# (~0.16s). Slow boards hold slots long after their share of the registry is
+# spent: measured over 400 boards, Workday averaged 21.7 of the 32 slots and
+# peaked at 31. Workday answered that with 429s on 32 -> 151 boards per run as
+# the registry grew. Capping the family clips the peak that trips rate
+# limiters and hands the freed slots to the fast connectors, which were being
+# starved (Greenhouse averaged 0.2 slots). Distinct tenants still run in
+# parallel — this is a family ceiling, not the per-host 8.
+PROVIDER_CONCURRENCY = {"workday": 16}
 BOARD_TIMEOUT_SECONDS = 180
 USER_AGENT = f"intern-engine/3.0 (+https://github.com/{config.repo_slug()})"
 
@@ -150,6 +160,7 @@ async def _fetch_all(companies: list[dict], enrich_after):
     client session so enrichment reuses connections instead of reopening them."""
     limiter = HostLimiter(
         PER_HOST_CONCURRENCY, per_provider=PER_PROVIDER_CONCURRENCY,
+        overrides=PROVIDER_CONCURRENCY,
     )
     gate = asyncio.Semaphore(GLOBAL_CONCURRENCY)
     proxy = os.environ.get("WORKDAY_PROXY") or None
