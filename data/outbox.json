@@ -1,6 +1,10 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com:26738"
+    ],
+    "telegram": [
+      "oracle:fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com:26738"
+    ]
   }
 }
