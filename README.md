@@ -8,7 +8,7 @@
 
 ### 192 open roles (175 listed below) · 51 new this week
 
-4,170 employers tracked · data as of Aug 15, 2026 at 03:18 UTC
+4,170 employers tracked · data as of Aug 15, 2026 at 04:04 UTC
 
 _110 have a cycle the employer stated · 82 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -208,7 +208,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Crowe ✓ | AI Engineering Intern 🆕 | Data & ML/AI | Chicago IL USA | Python, PyTorch, TensorFlow, LLMs | Aug 13, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/AI-Engineering-Intern_R-51782) |
 | Analytical Mechanics Associates 🆁 | Graduate Research Scientist intern 🆕 | Data & ML/AI | Remote - New Jersey | Python, PyTorch, TensorFlow | Aug 13, 2026 | [Apply](https://amainc.wd12.myworkdayjobs.com/ama_careers/job/Remote---New-Jersey/Graduate-Research-Scientist-intern_R-100717-1) |
 | Exa Labs | Software Engineer, Intern 🆕 | Software | San Francisco, California | C++, Rust | Aug 13, 2026 | [Apply](https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16) |
-| ConnectPrep 🆁 | Data Analyst Internship 🇺🇸 🆕 | Data & ML/AI | Washington +2 more | Python, SQL, Pandas, Tableau | Aug 13, 2026 | [Apply](https://apply.workable.com/connectprep/j/D1C67258C0/) |
+| ConnectPrep 🆁 | Data Analyst Internship 🇺🇸 | Data & ML/AI | Washington +2 more | Python, SQL, Pandas, Tableau | Aug 13, 2026 | [Apply](https://apply.workable.com/connectprep/j/D1C67258C0/) |
 | Securityriskadvisors | DevOps Engineering Generalist Co-op 🆕 | Software | Rochester, New York, United States | Python, Java, C++, C# | Aug 12, 2026 | [Apply](https://apply.workable.com/securityriskadvisors/j/3B23FB7BEB/) |
 | Oracle | Platform Software Engineer 1 - Full-time Intern Conversion | Software | United States | C++, JavaScript, SQL | Aug 12, 2026 | [Apply](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342415) |
 | New Balance | Sports Research Engineer Intern | Software | Sports Research Lab, Brighton MA | No skills listed | Aug 12, 2026 | [Apply](https://newbalance.wd1.myworkdayjobs.com/careers/job/Sports-Research-Lab-Brighton-MA/Sports-Research-Engineer-Intern_R40740) |
@@ -371,7 +371,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,088 of 4,408 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 1022.6s · 550 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,139 of 4,408 registered boards returned successfully across 12 ATS platforms (100% of boards attempted, 93% of the full registry) · completed in 828.2s · 574 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
