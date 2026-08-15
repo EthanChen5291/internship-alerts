@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-15T08:58:29Z</updated>
+  <updated>2026-08-15T09:53:47Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:oneok:/job/Tulsa-OK/Cyber-Security-Intern---Tulsa--OK_R8449</id>
+    <title>ONEOK: Cyber Security Intern - Tulsa, OK</title>
+    <link href="https://oneok.wd1.myworkdayjobs.com/ONEOK_Early_Careers/job/Tulsa-OK/Cyber-Security-Intern---Tulsa--OK_R8449"/>
+    <updated>2026-08-15T09:53:47Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Tulsa, OK</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:freeformfuturecorp:7872198003</id>
     <title>Freeform: Software Engineering Intern (Summer 2027)</title>
@@ -798,13 +806,5 @@
     <updated>2026-08-07T00:29:49Z</updated>
     <category term="Not stated"/>
     <summary>3 openings · Not stated · Data &amp; ML/AI · United States · PyTorch, TensorFlow, Kafka</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39287</id>
-    <title>Nokia: AI R&amp;D Engineering Co-op</title>
-    <link href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39287"/>
-    <updated>2026-08-07T00:29:49Z</updated>
-    <category term="Not stated"/>
-    <summary>2 openings · Not stated · Data &amp; ML/AI · United States · PyTorch, TensorFlow, Kafka</summary>
   </entry>
 </feed>
