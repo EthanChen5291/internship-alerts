@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-15T18:09:45Z</updated>
+  <updated>2026-08-15T18:59:37Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:replit:7e0dafe8-3eec-442e-aa76-a4d84d779fb1</id>
+    <title>Replit: Software Engineering Intern (Summer 2027)</title>
+    <link href="https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1"/>
+    <updated>2026-08-15T18:59:37Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Foster City, CA</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:oneok:/job/Tulsa-OK/Cyber-Security-Intern---Tulsa--OK_R8449</id>
     <title>ONEOK: Cyber Security Intern - Tulsa, OK</title>
@@ -798,13 +806,5 @@
     <updated>2026-08-07T00:29:49Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Santa Clara, CA · 19–65 USD/yr · Python, PyTorch, TensorFlow, Computer Vision · H-1B track record: ~29 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39284</id>
-    <title>Nokia: AI R&amp;D Engineer Co-op</title>
-    <link href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39284"/>
-    <updated>2026-08-07T00:29:49Z</updated>
-    <category term="Not stated"/>
-    <summary>3 openings · Not stated · Data &amp; ML/AI · United States · PyTorch, TensorFlow, Kafka</summary>
   </entry>
 </feed>

@@ -1051,6 +1051,18 @@
     }
    }
   },
+  "replit": {
+   "name": "Replit",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-15",
+     "role_ids": [
+      "ashby:replit:7e0dafe8-3eec-442e-aa76-a4d84d779fb1"
+     ],
+     "count": 1
+    }
+   }
+  },
   "roblox": {
    "name": "Roblox",
    "cycles": {
@@ -1470,5 +1482,5 @@
    }
   }
  },
- "updated_at": "2026-08-15T18:09:45Z"
+ "updated_at": "2026-08-15T18:59:37Z"
 }
