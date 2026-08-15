@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 192 open roles (175 listed below) · 50 new this week
+### 193 open roles (176 listed below) · 51 new this week
 
-4,170 employers tracked · data as of Aug 15, 2026 at 07:52 UTC
+4,170 employers tracked · data as of Aug 15, 2026 at 08:58 UTC
 
-_110 have a cycle the employer stated · 82 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_111 have a cycle the employer stated · 82 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -85,7 +85,7 @@ If it helps you, a star means a lot and tells me to keep going.
 
 ---
 
-## Summer 2027  (67 employer-stated)
+## Summer 2027  (68 employer-stated)
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
@@ -100,6 +100,7 @@ If it helps you, a star means a lot and tells me to keep going.
 | InfiniteQuant 🆁 | Quantitative Developer - Internship - Summer 2027 🆕 | Quant | New York +2 more | Python, C++ | Aug 13, 2026 | [Apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000143287594) |
 | Western Digital | Summer 2027 Intern - Software Engineering | Software | San Jose, CA, United States | Python, Java, C++, Go | Aug 12, 2026 | [Apply](https://jobs.smartrecruiters.com/WesternDigital/744000143171017) |
 | Northwestern Mutual | Public Investments Quantitative Analyst Intern, Summer 2027 | Quant | Milwaukee, WI Corporate | Python, SQL, dbt, Snowflake | Aug 12, 2026 | [Apply](https://northwesternmutual.wd5.myworkdayjobs.com/corporate-careers/job/Milwaukee-WI-Corporate/Public-Investments-Quantitative-Analyst-Intern--Summer-2027_JR-45807) |
+| Northrop Grumman | 2027 Intern Software Engineer 🇺🇸 | Software | United States-Florida-Melbourne | No skills listed | Aug 12, 2026 | [Apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255) |
 | Hewlett Packard (HP) | Enterprise Operations Software Internship 🛂 | Software | Spring, Texas, United States of America | Python, Java, C++, SQL | Aug 11, 2026 | [Apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-2) |
 | DV Trading | Software Engineer Intern - Summer 2027 (DV Commodities) | Software | New York | Python, C++ | Aug 10, 2026 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4719119005) |
 | Montenson | AI Intern 🛂 | Data & ML/AI | MN, United States | LLMs, Computer Vision | Aug 10, 2026 | [Apply](https://fa-esgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23339) |
@@ -207,7 +208,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Interco | Paid Internship -- Software Development -- React 🛂 🆕 | Software | St. Louis, MO, United States | React, JavaScript, HTML/CSS | Aug 13, 2026 | [Apply](https://jobs.smartrecruiters.com/Interco/744000143346169) |
 | Crowe ✓ | AI Engineering Intern 🆕 | Data & ML/AI | Chicago IL USA | Python, PyTorch, TensorFlow, LLMs | Aug 13, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/AI-Engineering-Intern_R-51782) |
 | Analytical Mechanics Associates 🆁 | Graduate Research Scientist intern 🆕 | Data & ML/AI | Remote - New Jersey | Python, PyTorch, TensorFlow | Aug 13, 2026 | [Apply](https://amainc.wd12.myworkdayjobs.com/ama_careers/job/Remote---New-Jersey/Graduate-Research-Scientist-intern_R-100717-1) |
-| Exa Labs | Software Engineer, Intern 🆕 | Software | San Francisco, California | C++, Rust | Aug 13, 2026 | [Apply](https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16) |
+| Exa Labs | Software Engineer, Intern | Software | San Francisco, California | C++, Rust | Aug 13, 2026 | [Apply](https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16) |
 | ConnectPrep 🆁 | Data Analyst Internship 🇺🇸 | Data & ML/AI | Washington +2 more | Python, SQL, Pandas, Tableau | Aug 13, 2026 | [Apply](https://apply.workable.com/connectprep/j/D1C67258C0/) |
 | Securityriskadvisors | DevOps Engineering Generalist Co-op 🆕 | Software | Rochester, New York, United States | Python, Java, C++, C# | Aug 12, 2026 | [Apply](https://apply.workable.com/securityriskadvisors/j/3B23FB7BEB/) |
 | Oracle | Platform Software Engineer 1 - Full-time Intern Conversion | Software | United States | C++, JavaScript, SQL | Aug 12, 2026 | [Apply](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342415) |
@@ -313,7 +314,6 @@ _Why each one left is in the last column, because the two reasons carry differen
 
 | Company | Role | Cycle | Closed | Why |
 |---|---|---|---|---|
-| Northrop Grumman | 2027 Intern Software Engineer | Summer 2027 | 2026-08-15 | out of scope |
 | SharkNinja | Fall 2026: AI/Sharks Applied AI & Analytics Co-op (August to December) | Fall 2026 | 2026-08-14 | gone from feed |
 | Saronic | Software Engineer Intern (Fall 2026) | Fall 2026 | 2026-08-13 | gone from feed |
 | InfiniteQuant | Quantitative Researcher - Internship - Summer 2027 | Summer 2027 | 2026-08-13 | gone from feed |
@@ -353,6 +353,7 @@ _Why each one left is in the last column, because the two reasons carry differen
 | Leidos | Software Developer Intern | Summer 2027 | 2026-08-03 | gone from feed |
 | Toshiba Global Commerce | AI Engineering Intern | Fall 2026 | 2026-08-01 | gone from feed |
 | Walleye Capital | Investment Data Science Intern (Summer 2027) | Summer 2027 | 2026-08-01 | gone from feed |
+| Walleye Capital | Volatility Trading Developer Intern (Summer 2027) | Summer 2027 | 2026-08-01 | gone from feed |
 
 </details>
 
@@ -371,7 +372,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 3,581 of 4,408 registered boards returned successfully across 12 ATS platforms (86% of boards attempted, 81% of the full registry) · completed in 716.6s · 372 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,062 of 4,408 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 92% of the full registry) · completed in 942.3s · 541 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 

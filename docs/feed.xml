@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-15T07:52:02Z</updated>
+  <updated>2026-08-15T08:58:29Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
     <id>urn:intern-engine:greenhouse:freeformfuturecorp:7872198003</id>
@@ -270,6 +270,14 @@
     <updated>2026-08-12T15:27:35Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Chicago (Green St), IL · $20–$43/hr · Python, SQL, LLMs, Computer Vision, AWS · H-1B track record: ~101 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255</id>
+    <title>Northrop Grumman: 2027 Intern Software Engineer 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255"/>
+    <updated>2026-08-12T15:27:35Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States-Florida-Melbourne · $18.5–$33.5/hr · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:marmon:/job/Chicago-IL/AI-Project-Management-Intern_JR0000045089-1</id>
@@ -798,13 +806,5 @@
     <updated>2026-08-07T00:29:49Z</updated>
     <category term="Not stated"/>
     <summary>2 openings · Not stated · Data &amp; ML/AI · United States · PyTorch, TensorFlow, Kafka</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:warnerbros:/job/CA-Burbank-Bldg-700-Second-Century-Tower-1/Bleacher-Report-Social-Programming-Intern--LA---Fall-2026_R000107469</id>
-    <title>Warner Bros.: Bleacher Report Social Programming Intern: LA - Fall 2026</title>
-    <link href="https://warnerbros.wd5.myworkdayjobs.com/global/job/CA-Burbank-Bldg-700-Second-Century-Tower-1/Bleacher-Report-Social-Programming-Intern--LA---Fall-2026_R000107469"/>
-    <updated>2026-08-07T00:29:49Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · CA Burbank Bldg. 700, Second Century, Tower 1 · $19/hr</summary>
   </entry>
 </feed>
