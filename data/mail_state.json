@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-08-15T08:59:11Z",
-  "last_digest_roles": 18,
+  "last_digest_at": "2026-08-16T09:01:06Z",
+  "last_digest_roles": 3,
   "last_digest_sent": 224,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -213,13 +213,16 @@
     "workday:crowe:/job/Chicago-IL-USA/AI-Project-Coordinator-Intern_R-71007",
     "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
     "smartrecruiters:Interco:744000143346169",
-    "workable:securityriskadvisors:3B23FB7BEB"
+    "workable:securityriskadvisors:3B23FB7BEB",
+    "oracle:fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com:26738",
+    "ashby:replit:7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
+    "workday:oneok:/job/Tulsa-OK/Cyber-Security-Intern---Tulsa--OK_R8449"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 224,
   "send_attempts": [
     {
-      "at": "2026-08-15T08:59:11Z",
+      "at": "2026-08-16T09:01:06Z",
       "count": 224
     }
   ]
