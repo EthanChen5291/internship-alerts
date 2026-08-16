@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T07:12:40Z",
-  "fetched_at": "2026-08-16T07:12:40Z",
-  "duration_seconds": 966.3,
+  "generated_at": "2026-08-16T07:57:17Z",
+  "fetched_at": "2026-08-16T07:57:17Z",
+  "duration_seconds": 972.7,
   "companies_total": 4422,
   "companies_by_source": {
     "greenhouse": 1021,
@@ -17,22 +17,24 @@
     "breezy": 12,
     "eightfold": 1
   },
-  "quarantined": 227,
-  "fetched_ok": 4113,
-  "fetch_errors": 82,
+  "quarantined": 235,
+  "fetched_ok": 4047,
+  "fetch_errors": 140,
   "errors_by_source": {
-    "workday": 82
+    "workday": 136,
+    "greenhouse": 1,
+    "workable": 3
   },
-  "fetch_success_rate": 0.98,
-  "fetch_success_rate_registry": 0.93,
-  "snapshots_complete": 3557,
-  "snapshots_partial": 556,
+  "fetch_success_rate": 0.967,
+  "fetch_success_rate_registry": 0.915,
+  "snapshots_complete": 3517,
+  "snapshots_partial": 530,
   "partial_by_reason": {
-    "result-cap": 556
+    "result-cap": 530
   },
   "degraded_fetches": 0,
-  "roles_matched": 166,
-  "dropped_no_year_in_title": 400,
+  "roles_matched": 168,
+  "dropped_no_year_in_title": 399,
   "dropped_offcycle_by_text": 41,
   "roles_cycle_inferred": 83,
   "roles_by_source": {
@@ -76,5 +78,5 @@
     "median_days": 13,
     "sample_size": 67
   },
-  "rendered_at": "2026-08-16T07:12:40Z"
+  "rendered_at": "2026-08-16T07:57:17Z"
 }
