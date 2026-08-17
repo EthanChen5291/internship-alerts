@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-08-16T09:01:06Z",
-  "last_digest_roles": 3,
+  "last_digest_at": "2026-08-17T09:39:56Z",
+  "last_digest_roles": 2,
   "last_digest_sent": 224,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -216,13 +216,15 @@
     "workable:securityriskadvisors:3B23FB7BEB",
     "oracle:fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com:26738",
     "ashby:replit:7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
-    "workday:oneok:/job/Tulsa-OK/Cyber-Security-Intern---Tulsa--OK_R8449"
+    "workday:oneok:/job/Tulsa-OK/Cyber-Security-Intern---Tulsa--OK_R8449",
+    "oracle:egug.fa.us2.oraclecloud.com:26011082",
+    "oracle:egug.fa.us2.oraclecloud.com:26011987"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 224,
   "send_attempts": [
     {
-      "at": "2026-08-16T09:01:06Z",
+      "at": "2026-08-17T09:39:56Z",
       "count": 224
     }
   ]
