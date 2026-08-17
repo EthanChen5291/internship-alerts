@@ -1,6 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:intel:/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324",
+      "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_177682-1",
+      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_177680-1"
+    ],
+    "telegram": [
+      "workday:intel:/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324",
+      "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_177682-1",
+      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_177680-1"
+    ]
   }
 }

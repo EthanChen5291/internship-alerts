@@ -1123,9 +1123,10 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern--Summer-2027-_01866136",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487"
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -1391,6 +1392,19 @@
     }
    }
   },
+  "vanguard": {
+   "name": "Vanguard",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-17",
+     "role_ids": [
+      "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_177682-1",
+      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_177680-1"
+     ],
+     "count": 2
+    }
+   }
+  },
   "varda space": {
    "name": "Varda Space",
    "cycles": {
@@ -1521,5 +1535,5 @@
    }
   }
  },
- "updated_at": "2026-08-17T20:12:47Z"
+ "updated_at": "2026-08-17T20:53:05Z"
 }
