@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-17T21:50:30Z",
- "data_as_of": "2026-08-17T21:50:30Z",
- "rendered_at": "2026-08-17T21:50:31Z",
+ "generated_at": "2026-08-17T22:16:41Z",
+ "data_as_of": "2026-08-17T22:16:41Z",
+ "rendered_at": "2026-08-17T22:16:41Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -500,25 +500,6 @@
    }
   },
   {
-   "company": "Sentry",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-01",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-01",
-   "days_until": -16,
-   "status": "open",
-   "url": "https://jobs.ashbyhq.com/sentry/672e2a76-d8e1-49c1-b227-4a189c4e49a1",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-01"
-   }
-  },
-  {
    "company": "JPMorgan Chase",
    "last_cycle_posted": "",
    "posted_on": "2026-08-03",
@@ -852,7 +833,7 @@
    "expected": "2026-08-17",
    "days_until": 0,
    "status": "open",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010970",
    "note": "campus opens mid-summer",
    "provenance": {
     "type": "engine-observed",
@@ -871,7 +852,7 @@
    "expected": "2026-08-17",
    "days_until": 0,
    "status": "open",
-   "url": "https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787",
+   "url": "https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/IT-Infrastructure-Internship---Summer-2027_Req-039788",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3556,6 +3537,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-07-29"
+   }
+  },
+  {
+   "company": "Sentry",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-01",
+   "days_until": -16,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-01"
    }
   },
   {
