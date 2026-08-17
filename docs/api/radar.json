@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-17T16:12:12Z",
- "data_as_of": "2026-08-17T16:12:12Z",
- "rendered_at": "2026-08-17T16:12:13Z",
+ "generated_at": "2026-08-17T16:55:16Z",
+ "data_as_of": "2026-08-17T16:55:16Z",
+ "rendered_at": "2026-08-17T16:55:16Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -854,6 +854,25 @@
    "status": "open",
    "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082",
    "note": "campus opens mid-summer",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-17"
+   }
+  },
+  {
+   "company": "KeyBank",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-17",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-17",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384",
+   "note": "",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -3597,5 +3616,5 @@
    }
   }
  ],
- "count": 189
+ "count": 190
 }

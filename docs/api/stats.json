@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-17T16:12:12Z",
- "fetched_at": "2026-08-17T16:12:12Z",
- "duration_seconds": 806.1,
+ "generated_at": "2026-08-17T16:55:16Z",
+ "fetched_at": "2026-08-17T16:55:16Z",
+ "duration_seconds": 835.1,
  "companies_total": 4422,
  "companies_by_source": {
   "greenhouse": 1021,
@@ -17,25 +17,25 @@
   "breezy": 12,
   "eightfold": 1
  },
- "quarantined": 275,
- "fetched_ok": 4135,
- "fetch_errors": 12,
+ "quarantined": 264,
+ "fetched_ok": 4067,
+ "fetch_errors": 91,
  "errors_by_source": {
-  "workday": 12
+  "workday": 91
  },
- "fetch_success_rate": 0.997,
- "fetch_success_rate_registry": 0.935,
- "snapshots_complete": 3564,
- "snapshots_partial": 571,
+ "fetch_success_rate": 0.978,
+ "fetch_success_rate_registry": 0.92,
+ "snapshots_complete": 3526,
+ "snapshots_partial": 541,
  "partial_by_reason": {
-  "result-cap": 491,
-  "malformed-response": 80
+  "result-cap": 470,
+  "malformed-response": 71
  },
- "degraded_fetches": 80,
+ "degraded_fetches": 71,
  "roles_matched": 167,
- "dropped_no_year_in_title": 392,
+ "dropped_no_year_in_title": 402,
  "dropped_offcycle_by_text": 47,
- "roles_cycle_inferred": 83,
+ "roles_cycle_inferred": 82,
  "roles_by_source": {
   "amazon": 5,
   "ashby": 15,
@@ -48,23 +48,23 @@
  },
  "roles_by_cycle": {
   "Fall 2026": 30,
-  "Not stated": 83,
-  "Summer 2027": 85
+  "Not stated": 82,
+  "Summer 2027": 86
  },
  "roles_by_region": {
   "US": 197
  },
  "sponsorship_counts": {
-  "unknown": 153,
-  "offers": 5,
+  "unknown": 152,
+  "offers": 6,
   "citizens-only": 30,
   "no-sponsorship": 9
  },
  "posted_date_coverage": 1.0,
- "enriched_this_run": 33,
- "enrichment_detail_fetches": 0,
+ "enriched_this_run": 34,
+ "enrichment_detail_fetches": 1,
  "purged_this_run": 0,
- "new_this_run": 0,
+ "new_this_run": 1,
  "open_total": 197,
  "detection_latency": {
   "median_minutes": 45.3,
@@ -74,8 +74,8 @@
   "basis": "roles published in the window with an exact source timestamp"
  },
  "posting_lifetime": {
-  "median_days": 13,
-  "sample_size": 67
+  "median_days": 11.5,
+  "sample_size": 68
  },
- "rendered_at": "2026-08-17T16:12:13Z"
+ "rendered_at": "2026-08-17T16:55:16Z"
 }
