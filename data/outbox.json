@@ -1,26 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:egug.fa.us2.oraclecloud.com:26011745",
-      "oracle:egug.fa.us2.oraclecloud.com:26011796",
-      "oracle:egug.fa.us2.oraclecloud.com:26011698",
-      "oracle:egug.fa.us2.oraclecloud.com:26011999",
-      "oracle:egug.fa.us2.oraclecloud.com:26011991",
-      "oracle:egug.fa.us2.oraclecloud.com:26010970",
-      "oracle:egug.fa.us2.oraclecloud.com:26011084",
-      "workday:conagrabrands:/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787",
-      "workday:conagrabrands:/job/Omaha-Nebraska/IT-Infrastructure-Internship---Summer-2027_Req-039788"
-    ],
-    "telegram": [
-      "oracle:egug.fa.us2.oraclecloud.com:26011745",
-      "oracle:egug.fa.us2.oraclecloud.com:26011796",
-      "oracle:egug.fa.us2.oraclecloud.com:26011698",
-      "oracle:egug.fa.us2.oraclecloud.com:26011999",
-      "oracle:egug.fa.us2.oraclecloud.com:26011991",
-      "oracle:egug.fa.us2.oraclecloud.com:26010970",
-      "oracle:egug.fa.us2.oraclecloud.com:26011084",
-      "workday:conagrabrands:/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787",
-      "workday:conagrabrands:/job/Omaha-Nebraska/IT-Infrastructure-Internship---Summer-2027_Req-039788"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
