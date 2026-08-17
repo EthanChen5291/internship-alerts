@@ -1,28 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:egug.fa.us2.oraclecloud.com:26012000",
-      "oracle:egug.fa.us2.oraclecloud.com:26011908",
-      "oracle:egug.fa.us2.oraclecloud.com:26011914",
-      "oracle:egug.fa.us2.oraclecloud.com:26012375",
-      "oracle:egug.fa.us2.oraclecloud.com:26011878",
-      "oracle:egug.fa.us2.oraclecloud.com:26011913",
-      "oracle:egug.fa.us2.oraclecloud.com:26012444",
-      "oracle:egug.fa.us2.oraclecloud.com:26011893",
-      "oracle:egug.fa.us2.oraclecloud.com:26011781",
-      "oracle:egug.fa.us2.oraclecloud.com:26011784"
-    ],
-    "telegram": [
-      "oracle:egug.fa.us2.oraclecloud.com:26012000",
-      "oracle:egug.fa.us2.oraclecloud.com:26011908",
-      "oracle:egug.fa.us2.oraclecloud.com:26011914",
-      "oracle:egug.fa.us2.oraclecloud.com:26012375",
-      "oracle:egug.fa.us2.oraclecloud.com:26011878",
-      "oracle:egug.fa.us2.oraclecloud.com:26011913",
-      "oracle:egug.fa.us2.oraclecloud.com:26012444",
-      "oracle:egug.fa.us2.oraclecloud.com:26011893",
-      "oracle:egug.fa.us2.oraclecloud.com:26011781",
-      "oracle:egug.fa.us2.oraclecloud.com:26011784"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
