@@ -99,11 +99,18 @@
     "Summer 2027": {
      "first_posted": "2026-08-17",
      "role_ids": [
+      "oracle:egug.fa.us2.oraclecloud.com:26010970",
       "oracle:egug.fa.us2.oraclecloud.com:26011082",
+      "oracle:egug.fa.us2.oraclecloud.com:26011084",
       "oracle:egug.fa.us2.oraclecloud.com:26011679",
-      "oracle:egug.fa.us2.oraclecloud.com:26011987"
+      "oracle:egug.fa.us2.oraclecloud.com:26011698",
+      "oracle:egug.fa.us2.oraclecloud.com:26011745",
+      "oracle:egug.fa.us2.oraclecloud.com:26011796",
+      "oracle:egug.fa.us2.oraclecloud.com:26011987",
+      "oracle:egug.fa.us2.oraclecloud.com:26011991",
+      "oracle:egug.fa.us2.oraclecloud.com:26011999"
      ],
-     "count": 3
+     "count": 10
     }
    }
   },
@@ -322,6 +329,19 @@
      "role_ids": [
       "workday:cnoinc:/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389",
       "workday:cnoinc:/job/Carmel-IN/Cyber-Security-IT-Intern---REMOTE_JR170419"
+     ],
+     "count": 2
+    }
+   }
+  },
+  "conagra brands": {
+   "name": "Conagra Brands",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-17",
+     "role_ids": [
+      "workday:conagrabrands:/job/Omaha-Nebraska/IT-Infrastructure-Internship---Summer-2027_Req-039788",
+      "workday:conagrabrands:/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787"
      ],
      "count": 2
     }
@@ -1535,5 +1555,5 @@
    }
   }
  },
- "updated_at": "2026-08-17T20:53:05Z"
+ "updated_at": "2026-08-17T21:50:30Z"
 }

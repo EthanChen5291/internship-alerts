@@ -5,15 +5,95 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-17T20:53:05Z</updated>
+  <updated>2026-08-17T21:50:30Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:americanfidelity:/job/Oklahoma-City-Oklahoma/Software-Test-Intern--OKC-Local-Only-_JR1020</id>
-    <title>American Fidelity: Software Test Intern (OKC Local Only)</title>
-    <link href="https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Test-Intern--OKC-Local-Only-_JR1020"/>
-    <updated>2026-08-17T20:53:05Z</updated>
+    <id>urn:intern-engine:workday:americanfidelity:/job/Oklahoma-City-Oklahoma/Software-Mobile-Intern--OKC-Local-Only-_JR1021</id>
+    <title>American Fidelity: Software Mobile Intern (OKC Local Only)</title>
+    <link href="https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Mobile-Intern--OKC-Local-Only-_JR1021"/>
+    <updated>2026-08-17T21:50:30Z</updated>
     <category term="Winter 2027"/>
     <summary>Winter 2027 · Software · Oklahoma City, Oklahoma · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:americanfidelity:/job/Oklahoma-City-Oklahoma/Cyber-Security-Intern--OKC-Local-Only-_JR1023</id>
+    <title>American Fidelity: Cyber Security Intern (OKC Local Only)</title>
+    <link href="https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Cyber-Security-Intern--OKC-Local-Only-_JR1023"/>
+    <updated>2026-08-17T21:50:30Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Security · Oklahoma City, Oklahoma · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011745</id>
+    <title>American Express: Campus Undergraduate Summer Internship Program - 2027 AI Engineer, Enterprise Technology Services- Sunrise, FL</title>
+    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011745"/>
+    <updated>2026-08-17T21:50:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Sunrise, FL, United States · Python, Java, JavaScript, SQL, LLMs · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011796</id>
+    <title>American Express: Campus Undergraduate Summer Internship Program - 2027 AI Engineer, Enterprise Technology Services- Atlanta, GA</title>
+    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011796"/>
+    <updated>2026-08-17T21:50:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Atlanta, GA, United States · Python, Java, JavaScript, SQL, LLMs · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011698</id>
+    <title>American Express: Campus Undergraduate Summer Internship Program - 2027 AI Engineer, Enterprise Technology Services- New York, NY</title>
+    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011698"/>
+    <updated>2026-08-17T21:50:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY, United States · Python, Java, JavaScript, SQL, LLMs · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011999</id>
+    <title>American Express: Campus Graduate Masters Summer Internship Program - 2027 AI Engineer, Enterprise Technology Services- Sunrise, FL</title>
+    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011999"/>
+    <updated>2026-08-17T21:50:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Sunrise, FL, United States · Python, Java, JavaScript, SQL, LLMs · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011991</id>
+    <title>American Express: Campus Graduate Masters Summer Internship Program - 2027 AI Engineer, Enterprise Technology Services- New York, NY</title>
+    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011991"/>
+    <updated>2026-08-17T21:50:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY, United States · Python, Java, JavaScript, SQL, LLMs · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26010970</id>
+    <title>American Express: Campus Undergraduate Summer Internship Program - 2027 Software Engineer, Technology - New York, NY</title>
+    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010970"/>
+    <updated>2026-08-17T21:50:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York, NY, United States · Python, Java, C#, Go, TypeScript · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011084</id>
+    <title>American Express: Campus Graduate Masters Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Sunrise, FL</title>
+    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011084"/>
+    <updated>2026-08-17T21:50:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Sunrise, FL, United States · Python, Java, C#, Go, TypeScript · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:conagrabrands:/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787</id>
+    <title>Conagra Brands: Software Development Internship - Summer 2027</title>
+    <link href="https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787"/>
+    <updated>2026-08-17T21:50:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Omaha, Nebraska · $23/hr · Azure, Git · H-1B track record: ~14 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:conagrabrands:/job/Omaha-Nebraska/IT-Infrastructure-Internship---Summer-2027_Req-039788</id>
+    <title>Conagra Brands: IT Infrastructure Internship - Summer 2027</title>
+    <link href="https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/IT-Infrastructure-Internship---Summer-2027_Req-039788"/>
+    <updated>2026-08-17T21:50:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Omaha, Nebraska · H-1B track record: ~14 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:americanfidelity:/job/Oklahoma-City-Oklahoma/IT-Intern-1_JR1016</id>
@@ -24,12 +104,12 @@
     <summary>Winter 2027 · Data &amp; ML/AI · Oklahoma City, Oklahoma · status: closed</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:intel:/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1</id>
-    <title>Intel: Software Development Graduate Intern</title>
-    <link href="https://intel.wd1.myworkdayjobs.com/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1"/>
+    <id>urn:intern-engine:workday:americanfidelity:/job/Oklahoma-City-Oklahoma/Software-Test-Intern--OKC-Local-Only-_JR1020</id>
+    <title>American Fidelity: Software Test Intern (OKC Local Only)</title>
+    <link href="https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Test-Intern--OKC-Local-Only-_JR1020"/>
     <updated>2026-08-17T20:53:05Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · US, California, Folsom · Python, C++, PyTorch, TensorFlow, scikit-learn · H-1B track record: ~4.8k approvals (FY2022–2023)</summary>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Software · Oklahoma City, Oklahoma · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324</id>
@@ -38,6 +118,14 @@
     <updated>2026-08-17T20:53:05Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-192 ~ 1205 Continental Place NE ~ BLDG 192 · Python, C++ · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:intel:/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1</id>
+    <title>Intel: Software Development Graduate Intern</title>
+    <link href="https://intel.wd1.myworkdayjobs.com/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1"/>
+    <updated>2026-08-17T20:53:05Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · US, California, Folsom · Python, C++, PyTorch, TensorFlow, scikit-learn · H-1B track record: ~4.8k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_177682-1</id>
@@ -401,7 +489,7 @@
   </entry>
   <entry>
     <id>urn:intern-engine:workday:americanfidelity:/job/Oklahoma-City-Oklahoma/Software-Dev-Internship_JR1005</id>
-    <title>American Fidelity: Software Dev Internship</title>
+    <title>American Fidelity: Software Dev Internship (OKC local only)</title>
     <link href="https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Dev-Internship_JR1005"/>
     <updated>2026-08-12T16:47:03Z</updated>
     <category term="Not stated"/>
@@ -718,93 +806,5 @@
     <updated>2026-08-07T10:45:44Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · USA VA Falls Church - 3150 Fairview Park Dr (VAS095) · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1</id>
-    <title>RTX: Software Engineering Intern (Summer 2027) 🇺🇸</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1"/>
-    <updated>2026-08-07T10:45:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Software · US-IA-CEDAR RAPIDS-137 ~ 855 35Th St NE ~ BLDG 137 · Python, C++, Rust, Linux, Git · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:akunacapital:8036614</id>
-    <title>Akuna Capital: Quantitative Research Intern, Summer 2027</title>
-    <link href="https://www.akunacapital.com/careers/job/8036614/?gh_jid=8036614"/>
-    <updated>2026-08-07T00:49:01Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · Chicago, IL · Python · H-1B track record: ~40 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:ctccampusboard:4708188005</id>
-    <title>Chicago Trading Company: Quant Trading Internship - Summer 2027</title>
-    <link href="https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005"/>
-    <updated>2026-08-07T00:49:01Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · Chicago, Illinois, United States · Python</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:drweng:7668776</id>
-    <title>DRW: Quantitative Trading Analyst Intern</title>
-    <link href="https://job-boards.greenhouse.io/drweng/jobs/7668776"/>
-    <updated>2026-08-07T00:49:01Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Quant · Chicago, Illinois · Python · H-1B track record: ~31 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:drweng:7818540</id>
-    <title>DRW: Quantitative Research Intern</title>
-    <link href="https://job-boards.greenhouse.io/drweng/jobs/7818540"/>
-    <updated>2026-08-07T00:49:01Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Quant · Chicago, New York City · Python, scikit-learn, Pandas · H-1B track record: ~31 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:fiveringsllc:5139668008</id>
-    <title>Five Rings: Summer Intern 2027 - Quantitative Trader</title>
-    <link href="https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008"/>
-    <updated>2026-08-07T00:49:01Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · New York</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:flowtraders:8047166</id>
-    <title>Flow Traders: Quantitative Trading Intern Summer 2027</title>
-    <link href="https://job-boards.greenhouse.io/flowtraders/jobs/8047166"/>
-    <updated>2026-08-07T00:49:01Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · New York</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:imc:4823923101</id>
-    <title>IMC Trading: Quantitative Trader Intern - Summer 2027</title>
-    <link href="https://job-boards.eu.greenhouse.io/imc/jobs/4823923101"/>
-    <updated>2026-08-07T00:49:01Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · Chicago, United States · Python, MATLAB · H-1B track record: ~13 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:imc:4907399101</id>
-    <title>IMC Trading: Quantitative Research Intern (BS/MS) - Summer 2027</title>
-    <link href="https://job-boards.eu.greenhouse.io/imc/jobs/4907399101"/>
-    <updated>2026-08-07T00:49:01Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · Chicago, United States · Python, C++ · H-1B track record: ~13 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:jumptrading:7848371</id>
-    <title>Jump Trading: Campus Quantitative Trader (Intern)</title>
-    <link href="https://www.jumptrading.com/hr/job?gh_jid=7848371"/>
-    <updated>2026-08-07T00:49:01Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Quant · Chicago; New York · $300k/yr · H-1B track record: ~57 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:jumptrading:7982648</id>
-    <title>Jump Trading: Campus Quantitative Researcher, UG/MS (Intern)</title>
-    <link href="https://www.jumptrading.com/hr/job?gh_jid=7982648"/>
-    <updated>2026-08-07T00:49:01Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Quant · Chicago; New York · $300k/yr · Python, C++ · sponsorship: offers · H-1B track record: ~57 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
