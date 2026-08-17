@@ -1,6 +1,10 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:egug.fa.us2.oraclecloud.com:26011679"
+    ],
+    "telegram": [
+      "oracle:egug.fa.us2.oraclecloud.com:26011679"
+    ]
   }
 }

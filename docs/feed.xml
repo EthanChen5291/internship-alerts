@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-17T16:55:16Z</updated>
+  <updated>2026-08-17T17:56:47Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011679</id>
+    <title>American Express: Campus Undergraduate Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Charlotte, NC</title>
+    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011679"/>
+    <updated>2026-08-17T17:56:46Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Charlotte, NC, United States · Python, Java, C#, Go, TypeScript · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:keybank:/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384</id>
     <title>KeyBank: 2027 Summer Key Technology &amp; Services: Cyber/Information Security Track Internship- Cleveland</title>
@@ -115,9 +123,9 @@
     <id>urn:intern-engine:greenhouse:arevonenergyimpltest:5211455007</id>
     <title>Arevon: Data Science Intern, Interconnection &amp; Transmission</title>
     <link href="https://job-boards.greenhouse.io/arevonenergyimpltest/jobs/5211455007"/>
-    <updated>2026-08-14T22:14:21Z</updated>
+    <updated>2026-08-17T17:56:46Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Scottsdale, AZ · Python, SQL, Pandas, Tableau</summary>
+    <summary>Not stated · Data &amp; ML/AI · Scottsdale, AZ · Python, SQL, Pandas, Tableau · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:hctz.fa.us2.oraclecloud.com:2506307</id>
@@ -798,13 +806,5 @@
     <updated>2026-08-07T00:49:01Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Quant · New York, NY, United States; Plano, TX, United States; Chicago, IL, United States · Python, C++, SQL, MATLAB · H-1B track record: ~4.7k approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:jpmc.fa.oraclecloud.com:210774038</id>
-    <title>JPMorganChase: 2027 Quantitative Research – Markets – Summer Internship - Analyst – United States</title>
-    <link href="https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210774038"/>
-    <updated>2026-08-07T00:49:01Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · New York, NY, United States · Python, C++ · H-1B track record: ~4.7k approvals (FY2022–2023)</summary>
   </entry>
 </feed>
