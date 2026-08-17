@@ -108,9 +108,12 @@
       "oracle:egug.fa.us2.oraclecloud.com:26011796",
       "oracle:egug.fa.us2.oraclecloud.com:26011987",
       "oracle:egug.fa.us2.oraclecloud.com:26011991",
-      "oracle:egug.fa.us2.oraclecloud.com:26011999"
+      "oracle:egug.fa.us2.oraclecloud.com:26011999",
+      "oracle:egug.fa.us2.oraclecloud.com:26012392",
+      "oracle:egug.fa.us2.oraclecloud.com:26012460",
+      "oracle:egug.fa.us2.oraclecloud.com:26012462"
      ],
-     "count": 10
+     "count": 13
     }
    }
   },
@@ -1556,5 +1559,5 @@
    }
   }
  },
- "updated_at": "2026-08-17T22:16:41Z"
+ "updated_at": "2026-08-17T22:52:14Z"
 }
