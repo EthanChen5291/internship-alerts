@@ -105,15 +105,25 @@
       "oracle:egug.fa.us2.oraclecloud.com:26011679",
       "oracle:egug.fa.us2.oraclecloud.com:26011698",
       "oracle:egug.fa.us2.oraclecloud.com:26011745",
+      "oracle:egug.fa.us2.oraclecloud.com:26011781",
+      "oracle:egug.fa.us2.oraclecloud.com:26011784",
       "oracle:egug.fa.us2.oraclecloud.com:26011796",
+      "oracle:egug.fa.us2.oraclecloud.com:26011878",
+      "oracle:egug.fa.us2.oraclecloud.com:26011893",
+      "oracle:egug.fa.us2.oraclecloud.com:26011908",
+      "oracle:egug.fa.us2.oraclecloud.com:26011913",
+      "oracle:egug.fa.us2.oraclecloud.com:26011914",
       "oracle:egug.fa.us2.oraclecloud.com:26011987",
       "oracle:egug.fa.us2.oraclecloud.com:26011991",
       "oracle:egug.fa.us2.oraclecloud.com:26011999",
+      "oracle:egug.fa.us2.oraclecloud.com:26012000",
+      "oracle:egug.fa.us2.oraclecloud.com:26012375",
       "oracle:egug.fa.us2.oraclecloud.com:26012392",
+      "oracle:egug.fa.us2.oraclecloud.com:26012444",
       "oracle:egug.fa.us2.oraclecloud.com:26012460",
       "oracle:egug.fa.us2.oraclecloud.com:26012462"
      ],
-     "count": 13
+     "count": 23
     }
    }
   },
@@ -1559,5 +1569,5 @@
    }
   }
  },
- "updated_at": "2026-08-17T22:52:14Z"
+ "updated_at": "2026-08-17T23:49:43Z"
 }
