@@ -1,11 +1,36 @@
 {
- "generated_at": "2026-08-17T14:54:42Z",
- "data_as_of": "2026-08-17T14:54:42Z",
- "rendered_at": "2026-08-17T14:54:42Z",
+ "generated_at": "2026-08-17T15:51:18Z",
+ "data_as_of": "2026-08-17T15:51:18Z",
+ "rendered_at": "2026-08-17T15:51:18Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 196,
+ "count": 197,
  "jobs": [
+  {
+   "id": "lever:acds:5a872bb7-8d9f-46e3-9e72-f5c69445e787",
+   "company": "ACDS",
+   "title": "Align AI Software Development Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Bentonville, AR",
+   "url": "https://jobs.lever.co/acds/5a872bb7-8d9f-46e3-9e72-f5c69445e787",
+   "posted_at": "2026-08-17T15:18:11Z",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-17T15:51:18Z",
+   "sponsorship": "unknown",
+   "salary": "15 USD/hr",
+   "skills": [
+    "Python",
+    "TypeScript",
+    "JavaScript"
+   ],
+   "source": "lever",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487",
    "company": "RTX",
