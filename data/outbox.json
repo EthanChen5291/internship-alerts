@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:egug.fa.us2.oraclecloud.com:26011015",
-      "workday:pimco:/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745"
-    ],
-    "telegram": [
-      "oracle:egug.fa.us2.oraclecloud.com:26011015",
-      "workday:pimco:/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
