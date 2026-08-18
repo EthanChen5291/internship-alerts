@@ -1,6 +1,10 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:amcor:/job/ASC-Atlanta-HQ-GA/AI-Innovation-Engineer_REQ_93190"
+    ],
+    "telegram": [
+      "workday:amcor:/job/ASC-Atlanta-HQ-GA/AI-Innovation-Engineer_REQ_93190"
+    ]
   }
 }
