@@ -5,16 +5,8 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-18T10:02:09Z</updated>
+  <updated>2026-08-18T10:59:43Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
-  <entry>
-    <id>urn:intern-engine:oracle:efet.fa.us2.oraclecloud.com:218257</id>
-    <title>Hilton Worldwide: 2027 Corporate Summer Internship - Technology (Software Engineering and Cyber)</title>
-    <link href="https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/218257"/>
-    <updated>2026-08-18T10:02:09Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Memphis, TN, United States; McLean, VA, United States; Dallas, TX, United States · $25/hr</summary>
-  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:xantium:4360768009</id>
     <title>Xantium: Quantitative Developer Intern</title>
@@ -30,6 +22,14 @@
     <updated>2026-08-18T10:02:09Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Quant · London, England, New York, New York</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:efet.fa.us2.oraclecloud.com:218257</id>
+    <title>Hilton Worldwide: 2027 Corporate Summer Internship - Technology (Software Engineering and Cyber)</title>
+    <link href="https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/218257"/>
+    <updated>2026-08-18T10:02:09Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Memphis, TN, United States; McLean, VA, United States; Dallas, TX, United States · $25/hr</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011781</id>
