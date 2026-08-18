@@ -8,7 +8,7 @@
 
 ### 219 open roles (179 listed below) · 74 new this week
 
-4,183 employers tracked · data as of Aug 18, 2026 at 03:20 UTC
+4,183 employers tracked · data as of Aug 18, 2026 at 04:12 UTC
 
 _138 have a cycle the employer stated · 81 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -312,7 +312,7 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 _193 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **59** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 39 roles that left the list in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 38 roles that left the list in the last 14 days</summary>
 
 _Why each one left is in the last column, because the two reasons carry different evidence. **Gone from feed** = two consecutive complete reads of the employer's board no longer returned it (strong, but not the employer telling us directly). **Out of scope** = still posted, but it no longer passes our filters — our call, not theirs. **Not recorded** = closed before we started tracking the reason._
 
@@ -356,7 +356,6 @@ _Why each one left is in the last column, because the two reasons carry differen
 | Tevora | Cybersecurity Internship Fall 2026 - Systems and Organizations Controls (SOC) | Fall 2026 | 2026-08-06 | gone from feed |
 | Saronic | Enterprise Technology Intern - AI and Automation (Fall 2026) | Fall 2026 | 2026-08-05 | gone from feed |
 | Gemini | Software Engineering Intern (Fall 2026) | Fall 2026 | 2026-08-05 | gone from feed |
-| Samsung Research America | 2026 Fall Intern, ML/NLP Research | Fall 2026 | 2026-08-04 | gone from feed |
 
 </details>
 
@@ -375,7 +374,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,049 of 4,422 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 91% of the full registry) · completed in 876.2s · 520 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,074 of 4,422 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 965.3s · 539 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
