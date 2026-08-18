@@ -100,6 +100,7 @@
      "first_posted": "2026-08-17",
      "role_ids": [
       "oracle:egug.fa.us2.oraclecloud.com:26010970",
+      "oracle:egug.fa.us2.oraclecloud.com:26011015",
       "oracle:egug.fa.us2.oraclecloud.com:26011082",
       "oracle:egug.fa.us2.oraclecloud.com:26011084",
       "oracle:egug.fa.us2.oraclecloud.com:26011679",
@@ -123,7 +124,7 @@
       "oracle:egug.fa.us2.oraclecloud.com:26012460",
       "oracle:egug.fa.us2.oraclecloud.com:26012462"
      ],
-     "count": 23
+     "count": 24
     }
    }
   },
@@ -1038,6 +1039,18 @@
     }
    }
   },
+  "pimco": {
+   "name": "PIMCO",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-18",
+     "role_ids": [
+      "workday:pimco:/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745"
+     ],
+     "count": 1
+    }
+   }
+  },
   "point72": {
    "name": "Point72",
    "cycles": {
@@ -1594,5 +1607,5 @@
    }
   }
  },
- "updated_at": "2026-08-18T14:11:54Z"
+ "updated_at": "2026-08-18T15:05:36Z"
 }
