@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-18T13:21:40Z</updated>
+  <updated>2026-08-18T14:11:54Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:ejhp.fa.us6.oraclecloud.com:2621017</id>
+    <title>Sherwin-Williams: Year-Round IT Database Engineer Co-Op</title>
+    <link href="https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2621017"/>
+    <updated>2026-08-18T14:11:54Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Cleveland, OH, United States · H-1B track record: ~94 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:amcor:/job/ASC-Atlanta-HQ-GA/AI-Innovation-Engineer_REQ_93190</id>
     <title>Amcor: Intern - AI Innovation Engineer</title>
@@ -798,13 +806,5 @@
     <updated>2026-08-08T10:22:30Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Quant · New York, New York, United States · Python, SQL, scikit-learn, Pandas</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workable:wallstreetquants:8CB119E789</id>
-    <title>WallStreetQuants: Quantitative Trading Intern</title>
-    <link href="https://apply.workable.com/wallstreetquants/j/8CB119E789/"/>
-    <updated>2026-08-08T10:22:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Quant · Miami, Florida, United States · Python</summary>
   </entry>
 </feed>
