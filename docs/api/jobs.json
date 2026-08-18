@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-18T12:14:28Z",
- "data_as_of": "2026-08-18T12:14:28Z",
- "rendered_at": "2026-08-18T12:14:28Z",
+ "generated_at": "2026-08-18T13:21:40Z",
+ "data_as_of": "2026-08-18T13:21:40Z",
+ "rendered_at": "2026-08-18T13:21:40Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 223,
+ "count": 222,
  "jobs": [
   {
    "id": "workday:amcor:/job/ASC-Atlanta-HQ-GA/AI-Innovation-Engineer_REQ_93190",
@@ -5267,33 +5267,6 @@
     "C++",
     "C#",
     "SQL"
-   ],
-   "source": "greenhouse",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "greenhouse:andurilindustries:5148079007",
-   "company": "Anduril",
-   "title": "2027 Software Engineer Intern",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
-   "posted_at": "2026-06-10T19:33:06-04:00",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-06-30T12:22:43Z",
-   "sponsorship": "citizens-only",
-   "salary": null,
-   "skills": [
-    "Python",
-    "Java",
-    "C++",
-    "Rust",
-    "Computer Vision"
    ],
    "source": "greenhouse",
    "h1b_approvals": null,
