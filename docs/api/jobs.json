@@ -1,11 +1,34 @@
 {
- "generated_at": "2026-08-18T21:13:13Z",
- "data_as_of": "2026-08-18T21:13:13Z",
- "rendered_at": "2026-08-18T21:13:13Z",
+ "generated_at": "2026-08-18T21:49:49Z",
+ "data_as_of": "2026-08-18T21:49:49Z",
+ "rendered_at": "2026-08-18T21:49:50Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 227,
+ "count": 228,
  "jobs": [
+  {
+   "id": "greenhouse:snorkelai:6146378004",
+   "company": "Snorkel AI",
+   "title": "AI Researcher —  Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "New York City, NY (Hybrid)",
+   "url": "https://job-boards.greenhouse.io/snorkelai/jobs/6146378004",
+   "posted_at": "2026-08-18T17:35:22-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-18T21:49:49Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "LLMs"
+   ],
+   "source": "greenhouse",
+   "h1b_approvals": 4,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "greenhouse:gardacp:6146213004",
    "company": "Garda Capital Partners",
