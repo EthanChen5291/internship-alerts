@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-18T09:06:27Z",
- "data_as_of": "2026-08-18T09:06:27Z",
- "rendered_at": "2026-08-18T09:06:28Z",
+ "generated_at": "2026-08-18T10:02:09Z",
+ "data_as_of": "2026-08-18T10:02:09Z",
+ "rendered_at": "2026-08-18T10:02:10Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -861,6 +861,25 @@
    }
   },
   {
+   "company": "Hilton Worldwide",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-17",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-17",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/218257",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-17"
+   }
+  },
+  {
    "company": "KeyBank",
    "last_cycle_posted": "",
    "posted_on": "2026-08-17",
@@ -891,6 +910,25 @@
    "days_until": -1,
    "status": "open",
    "url": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Analyst--NC-_177677-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-17"
+   }
+  },
+  {
+   "company": "Xantium",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-17",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-17",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/xantium/jobs/4360768009",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3673,5 +3711,5 @@
    }
   }
  ],
- "count": 193
+ "count": 195
 }

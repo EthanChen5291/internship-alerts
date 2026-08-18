@@ -1,6 +1,14 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:efet.fa.us2.oraclecloud.com:218257",
+      "greenhouse:xantium:4360768009",
+      "greenhouse:xantium:4371217009"
+    ],
+    "telegram": [
+      "oracle:efet.fa.us2.oraclecloud.com:218257",
+      "greenhouse:xantium:4360768009",
+      "greenhouse:xantium:4371217009"
+    ]
   }
 }
