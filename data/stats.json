@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T17:55:44Z",
-  "fetched_at": "2026-08-18T17:55:44Z",
-  "duration_seconds": 1017.5,
+  "generated_at": "2026-08-18T19:08:48Z",
+  "fetched_at": "2026-08-18T19:08:48Z",
+  "duration_seconds": 919.2,
   "companies_total": 4468,
   "companies_by_source": {
     "greenhouse": 1025,
@@ -17,25 +17,25 @@
     "breezy": 12,
     "eightfold": 1
   },
-  "quarantined": 282,
-  "fetched_ok": 4131,
-  "fetch_errors": 55,
+  "quarantined": 288,
+  "fetched_ok": 4098,
+  "fetch_errors": 82,
   "errors_by_source": {
-    "workday": 53,
-    "workable": 1,
+    "workable": 14,
+    "workday": 67,
     "greenhouse": 1
   },
-  "fetch_success_rate": 0.987,
-  "fetch_success_rate_registry": 0.925,
-  "snapshots_complete": 3582,
-  "snapshots_partial": 549,
+  "fetch_success_rate": 0.98,
+  "fetch_success_rate_registry": 0.917,
+  "snapshots_complete": 3558,
+  "snapshots_partial": 540,
   "partial_by_reason": {
-    "result-cap": 484,
-    "malformed-response": 65
+    "result-cap": 482,
+    "malformed-response": 58
   },
-  "degraded_fetches": 65,
-  "roles_matched": 194,
-  "dropped_no_year_in_title": 393,
+  "degraded_fetches": 58,
+  "roles_matched": 196,
+  "dropped_no_year_in_title": 394,
   "dropped_offcycle_by_text": 56,
   "roles_cycle_inferred": 83,
   "roles_by_source": {
@@ -46,18 +46,18 @@
     "oracle": 42,
     "smartrecruiters": 11,
     "workable": 6,
-    "workday": 76
+    "workday": 75
   },
   "roles_by_cycle": {
     "Fall 2026": 28,
     "Not stated": 83,
-    "Summer 2027": 116
+    "Summer 2027": 115
   },
   "roles_by_region": {
-    "US": 226
+    "US": 225
   },
   "sponsorship_counts": {
-    "unknown": 182,
+    "unknown": 181,
     "offers": 5,
     "citizens-only": 30,
     "no-sponsorship": 9
@@ -67,7 +67,7 @@
   "enrichment_detail_fetches": 0,
   "purged_this_run": 0,
   "new_this_run": 0,
-  "open_total": 226,
+  "open_total": 225,
   "detection_latency": {
     "median_minutes": 62.1,
     "p95_minutes": 1197.4,
@@ -76,8 +76,8 @@
     "basis": "roles published in the window with an exact source timestamp"
   },
   "posting_lifetime": {
-    "median_days": 13,
-    "sample_size": 73
+    "median_days": 11.5,
+    "sample_size": 74
   },
-  "rendered_at": "2026-08-18T17:55:45Z"
+  "rendered_at": "2026-08-18T19:08:48Z"
 }
