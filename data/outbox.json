@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:assurant:/job/Atlanta-GA/Digital---AI-Transformation-Intern-1_R-115202",
-      "workday:assurant:/job/Atlanta-GA/Digital---AI-Transformation-Intern-1_R-115203"
-    ],
-    "telegram": [
-      "workday:assurant:/job/Atlanta-GA/Digital---AI-Transformation-Intern-1_R-115202",
-      "workday:assurant:/job/Atlanta-GA/Digital---AI-Transformation-Intern-1_R-115203"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
