@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-18T20:12:37Z</updated>
+  <updated>2026-08-18T20:51:25Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:gardacp:6146213004</id>
+    <title>Garda Capital Partners: Software Engineer Intern</title>
+    <link href="https://job-boards.greenhouse.io/gardacp/jobs/6146213004"/>
+    <updated>2026-08-18T20:51:25Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · New York, New York, United States · Python, SQL</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:assurant:/job/Atlanta-GA/Digital---AI-Transformation-Intern-1_R-115202</id>
     <title>Assurant: Digital &amp; AI Transformation Intern-1</title>
@@ -798,13 +806,5 @@
     <updated>2026-08-10T16:43:21Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · MN, United States · LLMs, Computer Vision · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ameren:/job/St-Louis-MO/Cybersecurity-Co-Op_033868-1</id>
-    <title>Ameren: Cybersecurity Co-Op</title>
-    <link href="https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Cybersecurity-Co-Op_033868-1"/>
-    <updated>2026-08-10T14:17:59Z</updated>
-    <category term="Spring 2027"/>
-    <summary>Spring 2027 · Security · St. Louis, MO · status: closed</summary>
   </entry>
 </feed>
