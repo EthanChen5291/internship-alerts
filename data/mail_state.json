@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-08-17T09:39:56Z",
-  "last_digest_roles": 2,
+  "last_digest_at": "2026-08-18T10:02:53Z",
+  "last_digest_roles": 34,
   "last_digest_sent": 224,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -218,13 +218,43 @@
     "ashby:replit:7e0dafe8-3eec-442e-aa76-a4d84d779fb1",
     "workday:oneok:/job/Tulsa-OK/Cyber-Security-Intern---Tulsa--OK_R8449",
     "oracle:egug.fa.us2.oraclecloud.com:26011082",
-    "oracle:egug.fa.us2.oraclecloud.com:26011987"
+    "oracle:egug.fa.us2.oraclecloud.com:26011987",
+    "greenhouse:xantium:4360768009",
+    "greenhouse:xantium:4371217009",
+    "oracle:efet.fa.us2.oraclecloud.com:218257",
+    "oracle:egug.fa.us2.oraclecloud.com:26011781",
+    "oracle:egug.fa.us2.oraclecloud.com:26011784",
+    "oracle:egug.fa.us2.oraclecloud.com:26011878",
+    "oracle:egug.fa.us2.oraclecloud.com:26011893",
+    "oracle:egug.fa.us2.oraclecloud.com:26011908",
+    "oracle:egug.fa.us2.oraclecloud.com:26011913",
+    "oracle:egug.fa.us2.oraclecloud.com:26011914",
+    "oracle:egug.fa.us2.oraclecloud.com:26012000",
+    "oracle:egug.fa.us2.oraclecloud.com:26012375",
+    "oracle:egug.fa.us2.oraclecloud.com:26012444",
+    "oracle:egug.fa.us2.oraclecloud.com:26012392",
+    "oracle:egug.fa.us2.oraclecloud.com:26012460",
+    "oracle:egug.fa.us2.oraclecloud.com:26012462",
+    "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Analyst--NC-_177677-1",
+    "oracle:egug.fa.us2.oraclecloud.com:26010970",
+    "oracle:egug.fa.us2.oraclecloud.com:26011084",
+    "oracle:egug.fa.us2.oraclecloud.com:26011698",
+    "oracle:egug.fa.us2.oraclecloud.com:26011745",
+    "oracle:egug.fa.us2.oraclecloud.com:26011796",
+    "oracle:egug.fa.us2.oraclecloud.com:26011991",
+    "oracle:egug.fa.us2.oraclecloud.com:26011999",
+    "workday:conagrabrands:/job/Omaha-Nebraska/IT-Infrastructure-Internship---Summer-2027_Req-039788",
+    "workday:conagrabrands:/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324",
+    "workday:intel:/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1",
+    "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_177682-1",
+    "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_177680-1"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 224,
   "send_attempts": [
     {
-      "at": "2026-08-17T09:39:56Z",
+      "at": "2026-08-18T10:02:53Z",
       "count": 224
     }
   ]
