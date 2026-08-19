@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-19T03:21:26Z</updated>
+  <updated>2026-08-19T04:36:18Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:clr:/job/Oklahoma-City-OK/Data-Analyst-Intern--Summer-2027-_R02591-1</id>
+    <title>Continental Resources: Data Analyst Intern (Summer 2027)</title>
+    <link href="https://clr.wd5.myworkdayjobs.com/CLR_Careers/job/Oklahoma-City-OK/Data-Analyst-Intern--Summer-2027-_R02591-1"/>
+    <updated>2026-08-19T04:36:18Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Oklahoma City, OK · Python, SQL, HTML/CSS</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:snorkelai:6146378004</id>
     <title>Snorkel AI: AI Researcher —  Intern</title>
@@ -798,13 +806,5 @@
     <updated>2026-08-10T18:45:54Z</updated>
     <category term="Not stated"/>
     <summary>2 openings · Not stated · Data &amp; ML/AI · McLean, VA · $108k/yr · Python, C++, PyTorch, TensorFlow, Kubernetes · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:canadiansolar:/job/Walnut-Creek-CA/Intern--IT-Infrastructure-Support_10001383</id>
-    <title>Canadian Solar: Intern, IT Infrastructure Support</title>
-    <link href="https://canadiansolar.wd5.myworkdayjobs.com/CanadianSolar/job/Walnut-Creek-CA/Intern--IT-Infrastructure-Support_10001383"/>
-    <updated>2026-08-10T17:48:11Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Walnut Creek, CA · $20–$25/hr · Azure</summary>
   </entry>
 </feed>
