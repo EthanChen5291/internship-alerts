@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-08-18T10:02:53Z",
-  "last_digest_roles": 34,
+  "last_digest_at": "2026-08-19T10:03:04Z",
+  "last_digest_roles": 12,
   "last_digest_sent": 224,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -248,13 +248,25 @@
     "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324",
     "workday:intel:/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1",
     "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_177682-1",
-    "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_177680-1"
+    "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_177680-1",
+    "workday:clr:/job/Oklahoma-City-OK/Data-Analyst-Intern--Summer-2027-_R02591-1",
+    "greenhouse:snorkelai:6146378004",
+    "greenhouse:gardacp:6146213004",
+    "workday:assurant:/job/Atlanta-GA/Digital---AI-Transformation-Intern-1_R-115203",
+    "oracle:egug.fa.us2.oraclecloud.com:26011015",
+    "workday:pimco:/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745",
+    "oracle:ejhp.fa.us6.oraclecloud.com:2621017",
+    "workday:amcor:/job/ASC-Atlanta-HQ-GA/AI-Innovation-Engineer_REQ_93190",
+    "oracle:egug.fa.us2.oraclecloud.com:26011679",
+    "workday:keybank:/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384",
+    "lever:acds:5a872bb7-8d9f-46e3-9e72-f5c69445e787",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 224,
   "send_attempts": [
     {
-      "at": "2026-08-18T10:02:53Z",
+      "at": "2026-08-19T10:03:04Z",
       "count": 224
     }
   ]
