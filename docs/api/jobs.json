@@ -1,11 +1,38 @@
 {
- "generated_at": "2026-08-19T21:51:29Z",
- "data_as_of": "2026-08-19T21:51:29Z",
- "rendered_at": "2026-08-19T21:51:29Z",
+ "generated_at": "2026-08-19T22:14:30Z",
+ "data_as_of": "2026-08-19T22:14:30Z",
+ "rendered_at": "2026-08-19T22:14:30Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 232,
+ "count": 233,
  "jobs": [
+  {
+   "id": "workday:copart:/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631",
+   "company": "Copart",
+   "title": "Site Reliability Engineer Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Dallas, TX - Headquarters",
+   "url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631",
+   "posted_at": "2026-08-19T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-19T22:14:30Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "AWS",
+    "GCP",
+    "Kubernetes",
+    "Linux"
+   ],
+   "source": "workday",
+   "h1b_approvals": 83,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "ashby:n1:afe7deb5-9cfd-4926-bcb4-058d418592a6",
    "company": "N1",
@@ -351,7 +378,7 @@
   {
    "id": "oracle:egug.fa.us2.oraclecloud.com:26011781",
    "company": "American Express",
-   "title": "Campus Undergraduate Summer Internship Program - 2027 Software Engineer I, Enterprise Technology Services- Phoenix, AZ",
+   "title": "Campus Undergraduate Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Phoenix, AZ",
    "season": "Summer 2027",
    "seasons": null,
    "season_inferred": false,
@@ -381,7 +408,7 @@
   {
    "id": "oracle:egug.fa.us2.oraclecloud.com:26011784",
    "company": "American Express",
-   "title": "Campus Graduate Masters Summer Internship Program - 2027 Software Engineer I, Enterprise Technology Services- Phoenix, AZ",
+   "title": "Campus Graduate Masters Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Phoenix, AZ",
    "season": "Summer 2027",
    "seasons": null,
    "season_inferred": false,
@@ -558,7 +585,7 @@
   {
    "id": "oracle:egug.fa.us2.oraclecloud.com:26012375",
    "company": "American Express",
-   "title": "Campus Undergraduate Summer Internship Program - 2027 AI Engineer I, Enterprise Technology Services- Phoenix, AZ",
+   "title": "Campus Undergraduate Summer Internship Program - 2027 AI Engineer, Enterprise Technology Services- Phoenix, AZ",
    "season": "Summer 2027",
    "seasons": null,
    "season_inferred": false,
@@ -609,7 +636,7 @@
   {
    "id": "oracle:egug.fa.us2.oraclecloud.com:26012392",
    "company": "American Express",
-   "title": "Campus Graduate Masters Summer Internship Program - 2027 AI Engineer I, Enterprise Technology Services- Phoenix, AZ",
+   "title": "Campus Graduate Masters Summer Internship Program - 2027 AI Engineer, Enterprise Technology Services- Phoenix, AZ",
    "season": "Summer 2027",
    "seasons": null,
    "season_inferred": false,
