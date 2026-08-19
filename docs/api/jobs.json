@@ -1,11 +1,35 @@
 {
- "generated_at": "2026-08-19T10:02:11Z",
- "data_as_of": "2026-08-19T10:02:11Z",
- "rendered_at": "2026-08-19T10:02:11Z",
+ "generated_at": "2026-08-19T10:57:48Z",
+ "data_as_of": "2026-08-19T10:57:48Z",
+ "rendered_at": "2026-08-19T10:57:48Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 229,
+ "count": 230,
  "jobs": [
+  {
+   "id": "smartrecruiters:InfiniteQuant:744000144281579",
+   "company": "InfiniteQuant",
+   "title": "Quantitative Developer - Internship - Summer 2027",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "New York, New York, United States (Remote)",
+   "url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000144281579",
+   "posted_at": "2026-08-19T10:29:47.844Z",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-19T10:57:48Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++"
+   ],
+   "source": "smartrecruiters",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": true
+  },
   {
    "id": "workday:clr:/job/Oklahoma-City-OK/Data-Analyst-Intern--Summer-2027-_R02591-1",
    "company": "Continental Resources",
