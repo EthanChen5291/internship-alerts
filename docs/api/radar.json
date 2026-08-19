@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-19T22:14:30Z",
- "data_as_of": "2026-08-19T22:14:30Z",
- "rendered_at": "2026-08-19T22:14:30Z",
+ "generated_at": "2026-08-19T22:52:54Z",
+ "data_as_of": "2026-08-19T22:52:54Z",
+ "rendered_at": "2026-08-19T22:52:54Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -972,6 +972,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-18"
+   }
+  },
+  {
+   "company": "General Matter",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-19",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-19",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/generalmatter/jobs/5377118008",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-19"
    }
   },
   {
@@ -3749,5 +3768,5 @@
    }
   }
  ],
- "count": 197
+ "count": 198
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-19T22:14:30Z",
-  "fetched_at": "2026-08-19T22:14:30Z",
-  "duration_seconds": 868.8,
+  "generated_at": "2026-08-19T22:52:54Z",
+  "fetched_at": "2026-08-19T22:52:54Z",
+  "duration_seconds": 942.6,
   "companies_total": 4482,
   "companies_by_source": {
     "greenhouse": 1026,
@@ -17,40 +17,40 @@
     "breezy": 12,
     "eightfold": 1
   },
-  "quarantined": 290,
-  "fetched_ok": 4186,
-  "fetch_errors": 6,
+  "quarantined": 294,
+  "fetched_ok": 4090,
+  "fetch_errors": 98,
   "errors_by_source": {
-    "workday": 3,
-    "workable": 3
+    "workday": 97,
+    "greenhouse": 1
   },
-  "fetch_success_rate": 0.999,
-  "fetch_success_rate_registry": 0.934,
-  "snapshots_complete": 3622,
-  "snapshots_partial": 564,
+  "fetch_success_rate": 0.977,
+  "fetch_success_rate_registry": 0.913,
+  "snapshots_complete": 3571,
+  "snapshots_partial": 519,
   "partial_by_reason": {
-    "result-cap": 529,
-    "malformed-response": 35
+    "result-cap": 497,
+    "malformed-response": 22
   },
-  "degraded_fetches": 35,
-  "roles_matched": 204,
-  "dropped_no_year_in_title": 404,
+  "degraded_fetches": 22,
+  "roles_matched": 205,
+  "dropped_no_year_in_title": 396,
   "dropped_offcycle_by_text": 57,
-  "roles_cycle_inferred": 86,
+  "roles_cycle_inferred": 85,
   "roles_by_source": {
     "amazon": 5,
     "ashby": 15,
-    "greenhouse": 62,
+    "greenhouse": 63,
     "lever": 12,
     "oracle": 42,
     "smartrecruiters": 11,
     "workable": 6,
-    "workday": 80
+    "workday": 79
   },
   "roles_by_cycle": {
     "Fall 2026": 29,
-    "Not stated": 86,
-    "Summer 2027": 119
+    "Not stated": 85,
+    "Summer 2027": 120
   },
   "roles_by_region": {
     "US": 233
@@ -68,15 +68,15 @@
   "new_this_run": 1,
   "open_total": 233,
   "detection_latency": {
-    "median_minutes": 40.3,
+    "median_minutes": 37.1,
     "p95_minutes": 831.8,
-    "sample_size": 22,
+    "sample_size": 23,
     "window_days": 7,
     "basis": "roles published in the window with an exact source timestamp"
   },
   "posting_lifetime": {
-    "median_days": 9,
-    "sample_size": 79
+    "median_days": 9.0,
+    "sample_size": 80
   },
-  "rendered_at": "2026-08-19T22:14:30Z"
+  "rendered_at": "2026-08-19T22:52:54Z"
 }
