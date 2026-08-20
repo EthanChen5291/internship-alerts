@@ -1,6 +1,12 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:intel:/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489",
+      "workday:intel:/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491"
+    ],
+    "telegram": [
+      "workday:intel:/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489",
+      "workday:intel:/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491"
+    ]
   }
 }
