@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-08-19T10:03:04Z",
-  "last_digest_roles": 12,
+  "last_digest_at": "2026-08-20T10:05:55Z",
+  "last_digest_roles": 9,
   "last_digest_sent": 224,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -260,13 +260,22 @@
     "oracle:egug.fa.us2.oraclecloud.com:26011679",
     "workday:keybank:/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384",
     "lever:acds:5a872bb7-8d9f-46e3-9e72-f5c69445e787",
-    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487"
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487",
+    "lever:espace:1e189295-a315-414d-8c0b-686f204e3cb3",
+    "workable:western-magnetics:E366930F3F",
+    "greenhouse:generalmatter:5377118008",
+    "workday:copart:/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631",
+    "ashby:n1:afe7deb5-9cfd-4926-bcb4-058d418592a6",
+    "workday:moog:/job/Buffalo-NY/Intern--IT-Computer-Science_R-26-19378",
+    "greenhouse:detroitlions:4723291005",
+    "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01868241",
+    "smartrecruiters:InfiniteQuant:744000144281579"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 224,
   "send_attempts": [
     {
-      "at": "2026-08-19T10:03:04Z",
+      "at": "2026-08-20T10:05:55Z",
       "count": 224
     }
   ]

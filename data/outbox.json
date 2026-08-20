@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "lever:espace:1e189295-a315-414d-8c0b-686f204e3cb3",
-      "workable:western-magnetics:E366930F3F"
-    ],
-    "telegram": [
-      "lever:espace:1e189295-a315-414d-8c0b-686f204e3cb3",
-      "workable:western-magnetics:E366930F3F"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
