@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_181765",
-      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_181766"
-    ],
-    "telegram": [
-      "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_181765",
-      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_181766"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
