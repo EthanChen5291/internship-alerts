@@ -8,7 +8,7 @@
 
 ### 233 open roles (185 listed below) · 76 new this week
 
-4,239 employers tracked · data as of Aug 19, 2026 at 23:48 UTC
+4,239 employers tracked · data as of Aug 20, 2026 at 00:09 UTC
 
 _148 have a cycle the employer stated · 85 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -98,8 +98,8 @@ If it helps you, a star means a lot and tells me to keep going.
 | Xantium | Quantitative Developer Intern 🆕 | Quant | London, England, New York, New York | Python, C++ | Aug 17, 2026 | [Apply](https://job-boards.greenhouse.io/xantium/jobs/4360768009) |
 | Xantium | Quantitative Researcher Internship 🆕 | Quant | London, England, New York, New York | No skills listed | Aug 17, 2026 | [Apply](https://job-boards.greenhouse.io/xantium/jobs/4371217009) |
 | Hilton Worldwide | 2027 Corporate Summer Internship - Technology (Software Engineering and Cyber) 🆕 | Security | Memphis +8 more | No skills listed | Aug 17, 2026 | [Apply](https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/218257) |
-| American Express ✓ | Campus Undergraduate Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Phoenix, AZ 🆕 | Software | Phoenix, AZ, United States | Python, Java, C#, Go | Aug 17, 2026 | [Apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011781) |
-| American Express ✓ | Campus Graduate Masters Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Phoenix, AZ 🆕 | Software | Phoenix, AZ, United States | Python, Java, C#, Go | Aug 17, 2026 | [Apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011784) |
+| American Express ✓ | Campus Undergraduate Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Phoenix, AZ | Software | Phoenix, AZ, United States | Python, Java, C#, Go | Aug 17, 2026 | [Apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011781) |
+| American Express ✓ | Campus Graduate Masters Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Phoenix, AZ | Software | Phoenix, AZ, United States | Python, Java, C#, Go | Aug 17, 2026 | [Apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011784) |
 | Vanguard | College to Corporate IT Internship - Data Analyst (NC) | Data & ML/AI | Charlotte, NC | No skills listed | Aug 17, 2026 | [Apply](https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Analyst--NC-_177677-1) |
 | Conagra Brands ✓ | IT Infrastructure Internship - Summer 2027 | Software | Omaha, Nebraska | No skills listed | Aug 17, 2026 | [Apply](https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/IT-Infrastructure-Internship---Summer-2027_Req-039788) |
 | Conagra Brands ✓ | Software Development Internship - Summer 2027 | Software | Omaha, Nebraska | Azure, Git | Aug 17, 2026 | [Apply](https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787) |
@@ -315,10 +315,10 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 | Uber | ~Aug | ~Aug · any day now | ⏳ waiting |
 | Visa | ~Aug | ~Aug · any day now | ⏳ waiting |
 | Walmart | ~Aug | ~Aug · any day now | ⏳ waiting |
-| 3M | ~Sep | ~Sep · in ~13d | ⏳ waiting |
-| Adobe | ~Sep | ~Sep · in ~13d | ⏳ waiting |
-| Airbnb | ~Sep | ~Sep · in ~13d | ⏳ waiting |
-| AMD | ~Sep | ~Sep · in ~13d | ⏳ waiting |
+| 3M | ~Sep | ~Sep · in ~12d | ⏳ waiting |
+| Adobe | ~Sep | ~Sep · in ~12d | ⏳ waiting |
+| Airbnb | ~Sep | ~Sep · in ~12d | ⏳ waiting |
+| AMD | ~Sep | ~Sep · in ~12d | ⏳ waiting |
 
 _198 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **64** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
@@ -383,7 +383,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,177 of 4,482 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 882.6s · 552 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,182 of 4,482 registered boards returned successfully across 12 ATS platforms (100% of boards attempted, 93% of the full registry) · completed in 789.0s · 556 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
