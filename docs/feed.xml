@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-20T16:19:31Z</updated>
+  <updated>2026-08-20T17:02:39Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:ecge.fa.us2.oraclecloud.com:20261580</id>
+    <title>Blue Shield of California: Intern - Data Full Stack Engineer</title>
+    <link href="https://ecge.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/20261580"/>
+    <updated>2026-08-20T17:02:39Z</updated>
+    <category term="Summer 2026"/>
+    <summary>Summer 2026 · Data &amp; ML/AI · Oakland, CA, United States · $25/hr · Python, SQL, Azure, dbt, Snowflake · status: closed · H-1B track record: ~50 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:toshibaglobalcommercesolutions:5214224007</id>
     <title>Toshiba Global Commerce: AI Software Engineering Intern 🛂</title>
@@ -14,6 +22,14 @@
     <updated>2026-08-20T16:19:31Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Data &amp; ML/AI · Durham, NC · Java, C++, JavaScript, LLMs, React · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:InfiniteQuant:744000144592181</id>
+    <title>InfiniteQuant: Quantitative Researcher - Internship - Summer 2027</title>
+    <link href="https://jobs.smartrecruiters.com/InfiniteQuant/744000144592181"/>
+    <updated>2026-08-20T16:19:31Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Quant · New York, NY, United States · Python, C++, Pandas</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:fanniemae:/job/Washington-DC/Campus---Data-Science-Intern--Analytics---Modeling-Program-_JR2815</id>
@@ -485,7 +501,7 @@
     <link href="https://jobs.smartrecruiters.com/Wabtec/3743990014629016"/>
     <updated>2026-08-17T19:10:25Z</updated>
     <category term="Winter 2027"/>
-    <summary>Winter 2027 · Hardware · Waltham, MA, United States · $25–$28/hr · Python, Java, C++, Bash, Linux · status: closed</summary>
+    <summary>2 openings · Winter 2027 · Hardware · Waltham, MA, United States · $25–$28/hr · Python, Java, C++, Bash, Linux · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011679</id>
@@ -736,14 +752,6 @@
     <summary>Not stated · Data &amp; ML/AI · Remote - New Jersey · Python, PyTorch, TensorFlow · status: closed</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:InfiniteQuant:744000143307421</id>
-    <title>InfiniteQuant: Quantitative Researcher - Internship - Summer 2027</title>
-    <link href="https://jobs.smartrecruiters.com/InfiniteQuant/744000143307421"/>
-    <updated>2026-08-13T14:21:04Z</updated>
-    <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Quant · New York, NY, United States · Python, C++, Pandas</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:smartrecruiters:InfiniteQuant:744000143287594</id>
     <title>InfiniteQuant: Quantitative Developer - Internship - Summer 2027</title>
     <link href="https://jobs.smartrecruiters.com/InfiniteQuant/744000143287594"/>
@@ -798,13 +806,5 @@
     <updated>2026-08-12T20:42:58Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Quant · Milwaukee, WI Corporate · Python, SQL, dbt, Snowflake, Tableau</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:assuredguaranty:8700953002</id>
-    <title>Assured Guaranty: Fall 2026 Intern - Product Software Developer</title>
-    <link href="https://boards.greenhouse.io/assuredguaranty/jobs/8700953002?gh_jid=8700953002"/>
-    <updated>2026-08-13T05:36:50Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · New York, NY, United States · $30/hr · Python, Java, C#, JavaScript, React · status: closed</summary>
   </entry>
 </feed>

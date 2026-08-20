@@ -1,36 +1,11 @@
 {
- "generated_at": "2026-08-20T16:19:31Z",
- "data_as_of": "2026-08-20T16:19:31Z",
- "rendered_at": "2026-08-20T16:19:31Z",
+ "generated_at": "2026-08-20T17:02:39Z",
+ "data_as_of": "2026-08-20T17:02:39Z",
+ "rendered_at": "2026-08-20T17:02:40Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
- "count": 240,
+ "count": 239,
  "jobs": [
-  {
-   "id": "smartrecruiters:InfiniteQuant:744000144592181",
-   "company": "InfiniteQuant",
-   "title": "Quantitative Researcher - Internship - Summer 2027",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Quant",
-   "location": "New York, NY, United States",
-   "url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000144592181",
-   "posted_at": "2026-08-20T15:57:34.813Z",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-08-20T16:19:31Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "C++",
-    "Pandas"
-   ],
-   "source": "smartrecruiters",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
   {
    "id": "greenhouse:toshibaglobalcommercesolutions:5214224007",
    "company": "Toshiba Global Commerce",
@@ -57,6 +32,31 @@
     "HTML/CSS"
    ],
    "source": "greenhouse",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "smartrecruiters:InfiniteQuant:744000144592181",
+   "company": "InfiniteQuant",
+   "title": "Quantitative Researcher - Internship - Summer 2027",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Quant",
+   "location": "New York, NY, United States",
+   "url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000144592181",
+   "posted_at": "2026-08-20T15:57:34.813Z",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-08-20T16:19:31Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++",
+    "Pandas"
+   ],
+   "source": "smartrecruiters",
    "h1b_approvals": null,
    "program": "Internship",
    "remote": false
@@ -2039,31 +2039,6 @@
     "Azure"
    ],
    "source": "workday",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "smartrecruiters:InfiniteQuant:744000143307421",
-   "company": "InfiniteQuant",
-   "title": "Quantitative Researcher - Internship - Summer 2027",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Quant",
-   "location": "New York, NY, United States",
-   "url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000143307421",
-   "posted_at": "2026-08-13T12:48:22.635Z",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-08-13T14:21:04Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "C++",
-    "Pandas"
-   ],
-   "source": "smartrecruiters",
    "h1b_approvals": null,
    "program": "Internship",
    "remote": false
