@@ -1105,6 +1105,18 @@
     }
    }
   },
+  "philips": {
+   "name": "Philips",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-20",
+     "role_ids": [
+      "workday:philips:/job/Plymouth-Minnesota-United-States/Graduate-Level-Co-op---Data-Scientist---Plymouth--MN---Summer-2027_590567"
+     ],
+     "count": 1
+    }
+   }
+  },
   "pimco": {
    "name": "PIMCO",
    "cycles": {
@@ -1679,5 +1691,5 @@
    }
   }
  },
- "updated_at": "2026-08-20T20:56:51Z"
+ "updated_at": "2026-08-20T21:52:33Z"
 }
