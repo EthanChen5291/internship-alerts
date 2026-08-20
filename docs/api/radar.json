@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-20T14:33:53Z",
- "data_as_of": "2026-08-20T14:33:53Z",
- "rendered_at": "2026-08-20T14:33:53Z",
+ "generated_at": "2026-08-20T15:23:40Z",
+ "data_as_of": "2026-08-20T15:23:40Z",
+ "rendered_at": "2026-08-20T15:23:41Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -1013,6 +1013,25 @@
    }
   },
   {
+   "company": "Fannie Mae",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-20",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-20",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Washington-DC/Campus---Data-Science-Intern--Analytics---Modeling-Program-_JR2815",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-20"
+   }
+  },
+  {
    "company": "Fifth Third Bank",
    "last_cycle_posted": "",
    "posted_on": "2026-08-20",
@@ -1023,7 +1042,7 @@
    "expected": "2026-08-20",
    "days_until": 0,
    "status": "open",
-   "url": "https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/Information-Security-Co-op---Identity---Access-Management---Summer-2027_R71591",
+   "url": "https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/Information-Security-Co-op---Cyber-Threat-Interdiction---Summer-2027_R71582",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3806,5 +3825,5 @@
    }
   }
  ],
- "count": 200
+ "count": 201
 }

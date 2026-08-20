@@ -488,6 +488,18 @@
     }
    }
   },
+  "fannie mae": {
+   "name": "Fannie Mae",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-20",
+     "role_ids": [
+      "workday:fanniemae:/job/Washington-DC/Campus---Data-Science-Intern--Analytics---Modeling-Program-_JR2815"
+     ],
+     "count": 1
+    }
+   }
+  },
   "fifth third bank": {
    "name": "Fifth Third Bank",
    "cycles": {
@@ -1660,5 +1672,5 @@
    }
   }
  },
- "updated_at": "2026-08-20T14:33:53Z"
+ "updated_at": "2026-08-20T15:23:40Z"
 }
