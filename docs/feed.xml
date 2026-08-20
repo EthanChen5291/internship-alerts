@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-20T13:23:53Z</updated>
+  <updated>2026-08-20T14:33:53Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:AbbVie:3743990014697918</id>
+    <title>AbbVie: 2027 Business Technology Solutions Intern - Data &amp; Software Engineering (Undergraduate)</title>
+    <link href="https://jobs.smartrecruiters.com/AbbVie/3743990014697918"/>
+    <updated>2026-08-20T14:33:53Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · North Chicago, IL, United States (Hybrid) · Python, Java, TypeScript, JavaScript, SQL · H-1B track record: ~303 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:fifththird:/job/Cincinnati-OH/Information-Security-Co-op---Identity---Access-Management---Summer-2027_R71591</id>
+    <title>Fifth Third Bank: Information Security Co-op – Identity &amp; Access Management – Summer 2027</title>
+    <link href="https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/Information-Security-Co-op---Identity---Access-Management---Summer-2027_R71591"/>
+    <updated>2026-08-20T14:33:53Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Cincinnati, OH</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:fifththird:/job/Cincinnati-OH/Information-Security-Co-op---Cyber-Threat-Interdiction---Summer-2027_R71582</id>
+    <title>Fifth Third Bank: Information Security Co-op - Cyber Threat Interdiction - Summer 2027</title>
+    <link href="https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/Information-Security-Co-op---Cyber-Threat-Interdiction---Summer-2027_R71582"/>
+    <updated>2026-08-20T14:33:53Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Cincinnati, OH</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:fifththird:/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Summer-2027_R71588</id>
+    <title>Fifth Third Bank: Software Engineer Co-Op - Enterprise Finance Applications - Summer 2027</title>
+    <link href="https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Summer-2027_R71588"/>
+    <updated>2026-08-20T14:33:53Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Cincinnati, OH · Java, LLMs, Node.js, Angular, Spring</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:lever:espace:1e189295-a315-414d-8c0b-686f204e3cb3</id>
     <title>E-Space: Embedded Software Engineering Intern</title>
@@ -774,37 +806,5 @@
     <updated>2026-08-12T16:47:03Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Oklahoma City, Oklahoma</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cccis:/job/Chicago-Green-St-IL/Data-Science-Engineer-Internship_0014843</id>
-    <title>CCC Intelligent Solutions: Data Science Engineer Internship</title>
-    <link href="https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Data-Science-Engineer-Internship_0014843"/>
-    <updated>2026-08-17T16:55:16Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Chicago (Green St), IL · $20–$43/hr · Python, SQL, LLMs, Computer Vision, AWS · status: closed · H-1B track record: ~101 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:marmon:/job/Chicago-IL/AI-Project-Management-Intern_JR0000045089-1</id>
-    <title>Marmon Holdings: AI Project Management Intern</title>
-    <link href="https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Chicago-IL/AI-Project-Management-Intern_JR0000045089-1"/>
-    <updated>2026-08-12T14:20:21Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Chicago, IL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hp:/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-2</id>
-    <title>Hewlett Packard (HP): Enterprise Operations Software Internship 🛂</title>
-    <link href="https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-1"/>
-    <updated>2026-08-11T23:14:04Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Spring, Texas, United States of America · $31–$37/hr · Python, Java, C++, SQL, Swift · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:copart:/job/Dallas-TX---Headquarters/Data-Analytics-Engineer-Intern_JR110584</id>
-    <title>Copart: Data Analytics Engineer Intern</title>
-    <link href="https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Data-Analytics-Engineer-Intern_JR110584"/>
-    <updated>2026-08-11T22:16:00Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Dallas, TX - Headquarters · H-1B track record: ~83 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

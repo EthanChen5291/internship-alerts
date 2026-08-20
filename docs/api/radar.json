@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-20T13:23:53Z",
- "data_as_of": "2026-08-20T13:23:53Z",
- "rendered_at": "2026-08-20T13:23:53Z",
+ "generated_at": "2026-08-20T14:33:53Z",
+ "data_as_of": "2026-08-20T14:33:53Z",
+ "rendered_at": "2026-08-20T14:33:53Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -991,6 +991,44 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-19"
+   }
+  },
+  {
+   "company": "AbbVie",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-20",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-20",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990014697918",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-20"
+   }
+  },
+  {
+   "company": "Fifth Third Bank",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-20",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-20",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/Information-Security-Co-op---Identity---Access-Management---Summer-2027_R71591",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-20"
    }
   },
   {
@@ -3768,5 +3806,5 @@
    }
   }
  ],
- "count": 198
+ "count": 200
 }
