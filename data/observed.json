@@ -730,9 +730,10 @@
       "smartrecruiters:InfiniteQuant:744000143287594",
       "smartrecruiters:InfiniteQuant:744000143292044",
       "smartrecruiters:InfiniteQuant:744000143307421",
-      "smartrecruiters:InfiniteQuant:744000144281579"
+      "smartrecruiters:InfiniteQuant:744000144281579",
+      "smartrecruiters:InfiniteQuant:744000144592181"
      ],
-     "count": 6
+     "count": 7
     }
    }
   },
@@ -1472,9 +1473,10 @@
      "role_ids": [
       "greenhouse:toshibaglobalcommercesolutions:5177892007",
       "greenhouse:toshibaglobalcommercesolutions:5190937007",
-      "greenhouse:toshibaglobalcommercesolutions:5192820007"
+      "greenhouse:toshibaglobalcommercesolutions:5192820007",
+      "greenhouse:toshibaglobalcommercesolutions:5214224007"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -1672,5 +1674,5 @@
    }
   }
  },
- "updated_at": "2026-08-20T15:23:40Z"
+ "updated_at": "2026-08-20T16:19:31Z"
 }

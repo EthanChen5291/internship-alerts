@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-20T15:23:40Z</updated>
+  <updated>2026-08-20T16:19:31Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:toshibaglobalcommercesolutions:5214224007</id>
+    <title>Toshiba Global Commerce: AI Software Engineering Intern 🛂</title>
+    <link href="https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5214224007"/>
+    <updated>2026-08-20T16:19:31Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Durham, NC · Java, C++, JavaScript, LLMs, React · sponsorship: no-sponsorship</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:fanniemae:/job/Washington-DC/Campus---Data-Science-Intern--Analytics---Modeling-Program-_JR2815</id>
     <title>Fannie Mae: Campus – Data Science Intern (Analytics &amp; Modeling Program) 🛂</title>
@@ -733,7 +741,7 @@
     <link href="https://jobs.smartrecruiters.com/InfiniteQuant/744000143307421"/>
     <updated>2026-08-13T14:21:04Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · New York, NY, United States · Python, C++, Pandas</summary>
+    <summary>2 openings · Summer 2027 · Quant · New York, NY, United States · Python, C++, Pandas</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:InfiniteQuant:744000143287594</id>
@@ -798,13 +806,5 @@
     <updated>2026-08-13T05:36:50Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Software · New York, NY, United States · $30/hr · Python, Java, C#, JavaScript, React · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:newbalance:/job/Sports-Research-Lab-Brighton-MA/Sports-Research-Engineer-Intern_R40740</id>
-    <title>New Balance: Sports Research Engineer Intern</title>
-    <link href="https://newbalance.wd1.myworkdayjobs.com/careers/job/Sports-Research-Lab-Brighton-MA/Sports-Research-Engineer-Intern_R40740"/>
-    <updated>2026-08-12T17:50:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Sports Research Lab, Brighton MA</summary>
   </entry>
 </feed>
