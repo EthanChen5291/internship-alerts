@@ -1,6 +1,14 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ226237-1",
+      "workday:microchiphr:/job/AZ---Chandler/Intern---Engineering--Device-Software-and-Test-_R3573-26",
+      "workday:sonyglobal:/job/New-York/Intern--Information-Security-Risk-and-Compliance_JR-119512"
+    ],
+    "telegram": [
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ226237-1",
+      "workday:microchiphr:/job/AZ---Chandler/Intern---Engineering--Device-Software-and-Test-_R3573-26",
+      "workday:sonyglobal:/job/New-York/Intern--Information-Security-Risk-and-Compliance_JR-119512"
+    ]
   }
 }
