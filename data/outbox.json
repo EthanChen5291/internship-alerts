@@ -1,16 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "smartrecruiters:AbbVie:3743990014697918",
-      "workday:fifththird:/job/Cincinnati-OH/Information-Security-Co-op---Identity---Access-Management---Summer-2027_R71591",
-      "workday:fifththird:/job/Cincinnati-OH/Information-Security-Co-op---Cyber-Threat-Interdiction---Summer-2027_R71582",
-      "workday:fifththird:/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Summer-2027_R71588"
-    ],
-    "telegram": [
-      "smartrecruiters:AbbVie:3743990014697918",
-      "workday:fifththird:/job/Cincinnati-OH/Information-Security-Co-op---Identity---Access-Management---Summer-2027_R71591",
-      "workday:fifththird:/job/Cincinnati-OH/Information-Security-Co-op---Cyber-Threat-Interdiction---Summer-2027_R71582",
-      "workday:fifththird:/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Summer-2027_R71588"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
