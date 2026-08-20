@@ -8,7 +8,7 @@
 
 ### 234 open roles (186 listed below) · 75 new this week
 
-4,249 employers tracked · data as of Aug 20, 2026 at 10:59 UTC
+4,249 employers tracked · data as of Aug 20, 2026 at 11:53 UTC
 
 _148 have a cycle the employer stated · 86 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -217,7 +217,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Detroit Lions | Quantitative Research Intern 🆕 | Quant | Allen Park, MI 48101 | Python | Aug 19, 2026 | [Apply](https://job-boards.greenhouse.io/detroitlions/jobs/4723291005) |
 | Garda Capital Partners | Software Engineer Intern 🆕 | Software | New York, New York, United States | Python, SQL | Aug 18, 2026 | [Apply](https://job-boards.greenhouse.io/gardacp/jobs/6146213004) |
 | Sherwin-Williams ✓ | Year-Round IT Database Engineer Co-Op 🆕 | Software | Cleveland, OH, United States | No skills listed | Aug 18, 2026 | [Apply](https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2621017) |
-| Amcor | Intern - AI Innovation Engineer 🆕 | Data & ML/AI | ASC Atlanta HQ GA | Python, C#, TypeScript, JavaScript | Aug 18, 2026 | [Apply](https://amcor.wd5.myworkdayjobs.com/amcor_external_career_site/job/ASC-Atlanta-HQ-GA/AI-Innovation-Engineer_REQ_93190) |
+| Amcor | Intern - AI Innovation Engineer | Data & ML/AI | ASC Atlanta HQ GA | Python, C#, TypeScript, JavaScript | Aug 18, 2026 | [Apply](https://amcor.wd5.myworkdayjobs.com/amcor_external_career_site/job/ASC-Atlanta-HQ-GA/AI-Innovation-Engineer_REQ_93190) |
 | Intel ✓ | Software Development Graduate Intern | Software | US, California, Folsom | Python, C++, PyTorch, TensorFlow | Aug 17, 2026 | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1) |
 | ACDS | Align AI Software Development Intern | Data & ML/AI | Bentonville, AR | Python, TypeScript, JavaScript | Aug 17, 2026 | [Apply](https://jobs.lever.co/acds/5a872bb7-8d9f-46e3-9e72-f5c69445e787) |
 | Photon 🆁 | Software Engineering / AI Intern - US - Remote | Data & ML/AI | United States | No skills listed | Aug 15, 2026 | [Apply](https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26738) |
@@ -376,7 +376,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,235 of 4,492 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 94% of the full registry) · completed in 897.6s · 593 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,109 of 4,492 registered boards returned successfully across 12 ATS platforms (96% of boards attempted, 91% of the full registry) · completed in 934.3s · 554 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
