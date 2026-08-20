@@ -1526,9 +1526,11 @@
      "role_ids": [
       "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Analyst--NC-_177677-1",
       "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_177682-1",
-      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_177680-1"
+      "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_181765",
+      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_177680-1",
+      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_181766"
      ],
-     "count": 3
+     "count": 5
     }
    }
   },
@@ -1676,5 +1678,5 @@
    }
   }
  },
- "updated_at": "2026-08-20T19:11:36Z"
+ "updated_at": "2026-08-20T19:55:49Z"
 }
