@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-21T10:05:27Z",
- "data_as_of": "2026-08-21T10:05:27Z",
- "rendered_at": "2026-08-21T10:05:27Z",
+ "generated_at": "2026-08-21T10:57:52Z",
+ "data_as_of": "2026-08-21T10:57:52Z",
+ "rendered_at": "2026-08-21T10:57:52Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
  "count": 246,
@@ -11,12 +11,7 @@
    "company": "Phoebe",
    "title": "Software Engineering Intern",
    "season": "Fall 2026",
-   "seasons": [
-    "Fall 2026",
-    "Winter 2026",
-    "Winter 2027",
-    "Spring 2027"
-   ],
+   "seasons": null,
    "season_inferred": false,
    "category": "Software",
    "location": "New York City",
