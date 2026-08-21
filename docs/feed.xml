@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-21T19:08:59Z</updated>
+  <updated>2026-08-21T19:50:14Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:brunswick:/job/Tulsa-OK/Software-Engineering-Intern_JR-051321</id>
+    <title>Brunswick: Software Engineering Intern 🛂</title>
+    <link href="https://brunswick.wd1.myworkdayjobs.com/search/job/Tulsa-OK/Software-Engineering-Intern_JR-051321"/>
+    <updated>2026-08-21T19:50:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Tulsa, OK · $18–$27/hr · Python, Java, C++, Kotlin, Git · sponsorship: no-sponsorship · H-1B track record: ~54 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:hp:/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906-1</id>
     <title>Hewlett Packard (HP): Software Internship Roles - HP Solutions (HPS) 🛂</title>
@@ -798,13 +806,5 @@
     <updated>2026-08-14T11:22:20Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Rochester, New York, United States · Python, Java, C++, C#, TypeScript</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:crowe:/job/Chicago-IL-USA/AI-Engineering-Intern_R-51782</id>
-    <title>Crowe: AI Engineering Intern</title>
-    <link href="https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/AI-Engineering-Intern_R-51782"/>
-    <updated>2026-08-13T19:31:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Chicago IL USA · $27–$42/hr · Python, PyTorch, TensorFlow, LLMs, AWS · H-1B track record: ~37 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
