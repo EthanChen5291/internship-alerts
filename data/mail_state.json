@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-08-20T10:05:55Z",
-  "last_digest_roles": 9,
+  "last_digest_at": "2026-08-21T10:06:10Z",
+  "last_digest_roles": 17,
   "last_digest_sent": 224,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -269,13 +269,30 @@
     "workday:moog:/job/Buffalo-NY/Intern--IT-Computer-Science_R-26-19378",
     "greenhouse:detroitlions:4723291005",
     "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01868241",
-    "smartrecruiters:InfiniteQuant:744000144281579"
+    "smartrecruiters:InfiniteQuant:744000144281579",
+    "ashby:phoebe-work:1ffe3e63-2163-447e-a8b0-1fff8b87e0ca",
+    "workable:fooji:6563DA99B5",
+    "workday:philips:/job/Plymouth-Minnesota-United-States/Graduate-Level-Co-op---Data-Scientist---Plymouth--MN---Summer-2027_590567",
+    "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Analyst--NC-_181767",
+    "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_181765",
+    "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_181766",
+    "workday:microchiphr:/job/AZ---Chandler/Intern---Engineering--Device-Software-and-Test-_R3573-26",
+    "workday:sonyglobal:/job/New-York/Intern--Information-Security-Risk-and-Compliance_JR-119512",
+    "workday:intel:/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489",
+    "workday:intel:/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491",
+    "greenhouse:toshibaglobalcommercesolutions:5214224007",
+    "smartrecruiters:InfiniteQuant:744000144592181",
+    "workday:fanniemae:/job/Washington-DC/Campus---Data-Science-Intern--Analytics---Modeling-Program-_JR2815",
+    "smartrecruiters:AbbVie:3743990014697918",
+    "workday:fifththird:/job/Cincinnati-OH/Information-Security-Co-op---Cyber-Threat-Interdiction---Summer-2027_R71582",
+    "workday:fifththird:/job/Cincinnati-OH/Information-Security-Co-op---Identity---Access-Management---Summer-2027_R71591",
+    "workday:fifththird:/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Summer-2027_R71588"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 224,
   "send_attempts": [
     {
-      "at": "2026-08-20T10:05:55Z",
+      "at": "2026-08-21T10:06:10Z",
       "count": 224
     }
   ]
