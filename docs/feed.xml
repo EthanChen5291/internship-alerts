@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-21T16:05:00Z</updated>
+  <updated>2026-08-21T17:06:24Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:h3x-technologies:d406e4b4-9b48-438c-a2af-b7feb8563a40</id>
+    <title>H3X Technologies: Embedded Controls Intern (Spring)</title>
+    <link href="https://jobs.ashbyhq.com/h3x-technologies/d406e4b4-9b48-438c-a2af-b7feb8563a40"/>
+    <updated>2026-08-21T17:06:24Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Louisville, Colorado · $23–$37/hr · Python, C++, Git</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:phoebe-work:1ffe3e63-2163-447e-a8b0-1fff8b87e0ca</id>
     <title>Phoebe: Software Engineering Intern</title>
@@ -798,13 +806,5 @@
     <updated>2026-08-13T19:31:29Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Chicago IL USA · $27–$42/hr · LLMs, Azure · H-1B track record: ~37 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:flir:/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193</id>
-    <title>Teledyne: NHRC Software Engineering Internship (Summer 2027) 🇺🇸</title>
-    <link href="https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193"/>
-    <updated>2026-08-13T19:31:29Z</updated>
-    <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Software · US - Huntsville, AL · Java, C++, C#, .NET, Azure · sponsorship: citizens-only</summary>
   </entry>
 </feed>
