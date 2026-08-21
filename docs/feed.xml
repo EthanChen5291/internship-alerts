@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-21T17:57:46Z</updated>
+  <updated>2026-08-21T19:08:59Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:hp:/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906-1</id>
+    <title>Hewlett Packard (HP): Software Internship Roles - HP Solutions (HPS) 🛂</title>
+    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906-1"/>
+    <updated>2026-08-21T19:08:59Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Spring, Texas, United States of America · $31–$37/hr · Python, Java, C++, TypeScript, JavaScript · sponsorship: no-sponsorship</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:h3x-technologies:d406e4b4-9b48-438c-a2af-b7feb8563a40</id>
     <title>H3X Technologies: Embedded Controls Intern (Spring)</title>
@@ -798,13 +806,5 @@
     <updated>2026-08-13T19:31:29Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Chicago IL USA · $27–$42/hr · Python, PyTorch, TensorFlow, LLMs, AWS · H-1B track record: ~37 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:crowe:/job/Chicago-IL-USA/AI-Functional-Intern_R-71008</id>
-    <title>Crowe: AI Functional Intern</title>
-    <link href="https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/AI-Functional-Intern_R-71008"/>
-    <updated>2026-08-13T19:31:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Chicago IL USA · $27–$42/hr · LLMs, Azure · H-1B track record: ~37 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
