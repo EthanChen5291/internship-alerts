@@ -8,7 +8,7 @@
 
 ### 247 open roles (197 listed below) · 81 new this week
 
-4,259 employers tracked · data as of Aug 21, 2026 at 20:10 UTC
+4,259 employers tracked · data as of Aug 21, 2026 at 20:50 UTC
 
 _156 have a cycle the employer stated · 91 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -225,7 +225,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Western Magnetics | Software Engineering Intern 🆕 | Software | South San Francisco +2 more | Python, TypeScript, JavaScript, LLMs | Aug 20, 2026 | [Apply](https://apply.workable.com/western-magnetics/j/E366930F3F/) |
 | Fooji | Software Engineering Intern 🆕 | Software | Lexington, Kentucky, United States | TypeScript, JavaScript, SQL, Node.js | Aug 19, 2026 | [Apply](https://apply.workable.com/fooji/j/6563DA99B5/) |
 | Copart ✓ | Site Reliability Engineer Intern 🆕 | Software | Dallas, TX - Headquarters | Python, AWS, GCP, Kubernetes | Aug 19, 2026 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631) |
-| N1 | Software Engineer Intern (Backend, Rust) 🆕 | Software | New York City | Rust, C++ | Aug 19, 2026 | [Apply](https://jobs.ashbyhq.com/n1/afe7deb5-9cfd-4926-bcb4-058d418592a6) |
+| N1 | Software Engineer Intern (Backend, Rust) | Software | New York City | Rust, C++ | Aug 19, 2026 | [Apply](https://jobs.ashbyhq.com/n1/afe7deb5-9cfd-4926-bcb4-058d418592a6) |
 | Detroit Lions | Quantitative Research Intern | Quant | Allen Park, MI 48101 | Python | Aug 19, 2026 | [Apply](https://job-boards.greenhouse.io/detroitlions/jobs/4723291005) |
 | Garda Capital Partners | Software Engineer Intern | Software | New York, New York, United States | Python, SQL | Aug 18, 2026 | [Apply](https://job-boards.greenhouse.io/gardacp/jobs/6146213004) |
 | Sherwin-Williams ✓ | Year-Round IT Database Engineer Co-Op | Software | Cleveland, OH, United States | No skills listed | Aug 18, 2026 | [Apply](https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2621017) |
@@ -383,7 +383,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,158 of 4,502 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 953.8s · 551 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,200 of 4,502 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 835.6s · 568 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
