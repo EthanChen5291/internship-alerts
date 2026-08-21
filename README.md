@@ -8,7 +8,7 @@
 
 ### 245 open roles (195 listed below) · 85 new this week
 
-4,249 employers tracked · data as of Aug 21, 2026 at 00:14 UTC
+4,249 employers tracked · data as of Aug 21, 2026 at 02:09 UTC
 
 _156 have a cycle the employer stated · 89 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -330,7 +330,7 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 _202 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **68** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 32 roles that left the list in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 27 roles that left the list in the last 14 days</summary>
 
 _Why each one left is in the last column, because the two reasons carry different evidence. **Gone from feed** = two consecutive complete reads of the employer's board no longer returned it (strong, but not the employer telling us directly). **Out of scope** = still posted, but it no longer passes our filters — our call, not theirs. **Not recorded** = closed before we started tracking the reason._
 
@@ -363,11 +363,6 @@ _Why each one left is in the last column, because the two reasons carry differen
 | Lego | Firmware Engineering Co-Op - Fall 2026 | Fall 2026 | 2026-08-08 | gone from feed |
 | Atoms | Software Engineer Intern - Summer 2027 | Summer 2027 | 2026-08-07 | out of scope |
 | CNO Financial Group | Cyber Security IT Intern - REMOTE | Summer 2027 | 2026-08-07 | gone from feed |
-| Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 | Summer 2027 | 2026-08-07 | out of scope |
-| Chevron Corporation | 2026-2027 Information Technology - Software Engineer - Intern | Summer 2027 | 2026-08-07 | out of scope |
-| Northrop Grumman | 2027 Returning Intern Software Engineer | Summer 2027 | 2026-08-07 | out of scope |
-| Regions Bank | 2027 ETP Intern – Corporate Banking Group, Commercial Credit Products, Mobile, AL | Summer 2027 | 2026-08-07 | out of scope |
-| Sony Pictures Entertainment | Current Programming Intern, Sony Pictures Television – Fall 2026 | Fall 2026 | 2026-08-07 | out of scope |
 
 </details>
 
@@ -386,7 +381,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,140 of 4,492 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 92% of the full registry) · completed in 900.1s · 538 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,168 of 4,492 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 92% of the full registry) · completed in 868.8s · 552 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
