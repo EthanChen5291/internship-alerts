@@ -8,7 +8,7 @@
 
 ### 250 open roles (200 listed below) · 75 new this week
 
-4,271 employers tracked · data as of Aug 22, 2026 at 19:04 UTC
+4,271 employers tracked · data as of Aug 22, 2026 at 19:48 UTC
 
 _155 have a cycle the employer stated · 95 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -220,8 +220,8 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Availity 🆁 | Software Engineering Intern 🆕 | Software | Remote - United States | Python, JavaScript, SQL, React | Aug 21, 2026 | [Apply](https://availity.wd1.myworkdayjobs.com/availity_careers_us/job/Remote---United-States/Software-Engineering-Intern_R0008436) |
 | Brunswick ✓ | Software Engineering Intern 🛂 🆕 | Software | Tulsa, OK | Python, Java, C++, Kotlin | Aug 21, 2026 | [Apply](https://brunswick.wd1.myworkdayjobs.com/search/job/Tulsa-OK/Software-Engineering-Intern_JR-051321) |
 | H3X Technologies | Embedded Controls Intern (Spring) 🆕 | Software | Louisville, Colorado | Python, C++, Git | Aug 21, 2026 | [Apply](https://jobs.ashbyhq.com/h3x-technologies/d406e4b4-9b48-438c-a2af-b7feb8563a40) |
-| Microchip Technology ✓ | Intern - Engineering (Device Software and Test) 🆕 | Software | AZ - Chandler | Python, Java, C#, Linux | Aug 20, 2026 | [Apply](https://microchiphr.wd5.myworkdayjobs.com/external/job/AZ---Chandler/Intern---Engineering--Device-Software-and-Test-_R3573-26) |
-| Sony | Intern, Information Security Risk and Compliance 🆕 | Security | New York | No skills listed | Aug 20, 2026 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/New-York/Intern--Information-Security-Risk-and-Compliance_JR-119512) |
+| Microchip Technology ✓ | Intern - Engineering (Device Software and Test) | Software | AZ - Chandler | Python, Java, C#, Linux | Aug 20, 2026 | [Apply](https://microchiphr.wd5.myworkdayjobs.com/external/job/AZ---Chandler/Intern---Engineering--Device-Software-and-Test-_R3573-26) |
+| Sony | Intern, Information Security Risk and Compliance | Security | New York | No skills listed | Aug 20, 2026 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/New-York/Intern--Information-Security-Risk-and-Compliance_JR-119512) |
 | Intel ✓ | Software Engineer Graduate Intern | Software | US, Arizona, Phoenix | Java, C#, .NET | Aug 20, 2026 | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489) |
 | Intel ✓ | Software Engineer Graduate Intern | Software | US, Oregon, Hillsboro | Python, C#, .NET | Aug 20, 2026 | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491) |
 | E-Space | Embedded Software Engineering Intern | Software | Arlington, TX | Python, Git | Aug 20, 2026 | [Apply](https://jobs.lever.co/espace/1e189295-a315-414d-8c0b-686f204e3cb3) |
@@ -383,7 +383,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,164 of 4,514 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 1087.1s · 551 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,239 of 4,514 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 989.9s · 578 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
