@@ -8,7 +8,7 @@
 
 ### 251 open roles (201 listed below) · 77 new this week
 
-4,271 employers tracked · data as of Aug 22, 2026 at 15:12 UTC
+4,271 employers tracked · data as of Aug 22, 2026 at 15:46 UTC
 
 _156 have a cycle the employer stated · 95 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -92,7 +92,7 @@ If it helps you, a star means a lot and tells me to keep going.
 | Hewlett Packard (HP) | Software Internship Roles - HP Solutions (HPS) 🛂 🆕 | Software | Spring, Texas, United States of America | Python, Java, C++, TypeScript | Aug 21, 2026 | [Apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906-1) |
 | Philips | Graduate Level Co-op – Data Scientist – Plymouth, MN – Summer 2027 🆕 | Data & ML/AI | Plymouth, Minnesota, United States | PyTorch, TensorFlow | Aug 20, 2026 | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Graduate-Level-Co-op---Data-Scientist---Plymouth--MN---Summer-2027_590567) |
 | InfiniteQuant | Quantitative Researcher - Internship - Summer 2027 🆕 | Quant | New York, NY, United States | Python, C++, Pandas | Aug 20, 2026 | [Apply](https://jobs.smartrecruiters.com/InfiniteQuant/744000144592181) |
-| Fannie Mae ✓ | Campus – Data Science Intern (Analytics & Modeling Program) 🛂 🆕 | Data & ML/AI | Washington, DC | Python, SQL, Git | Aug 20, 2026 | [Apply](https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Washington-DC/Campus---Data-Science-Intern--Analytics---Modeling-Program-_JR2815) |
+| Fannie Mae ✓ | Campus – Data Science Intern (Analytics & Modeling Program) 🛂 | Data & ML/AI | Washington, DC | Python, SQL, Git | Aug 20, 2026 | [Apply](https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Washington-DC/Campus---Data-Science-Intern--Analytics---Modeling-Program-_JR2815) |
 | AbbVie ✓ | 2027 Business Technology Solutions Intern - Data & Software Engineering (Undergraduate) | Data & ML/AI | North Chicago +2 more | Python, Java, TypeScript, JavaScript | Aug 20, 2026 | [Apply](https://jobs.smartrecruiters.com/AbbVie/3743990014697918) |
 | Fifth Third Bank | Information Security Co-op - Cyber Threat Interdiction - Summer 2027 | Security | Cincinnati, OH | No skills listed | Aug 20, 2026 | [Apply](https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/Information-Security-Co-op---Cyber-Threat-Interdiction---Summer-2027_R71582) |
 | Fifth Third Bank | Information Security Co-op – Identity & Access Management – Summer 2027 | Security | Cincinnati, OH | No skills listed | Aug 20, 2026 | [Apply](https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/Information-Security-Co-op---Identity---Access-Management---Summer-2027_R71591) |
@@ -383,7 +383,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,090 of 4,514 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 90% of the full registry) · completed in 906.0s · 524 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,179 of 4,514 registered boards returned successfully across 12 ATS platforms (99% of boards attempted, 92% of the full registry) · completed in 805.4s · 552 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
