@@ -8,7 +8,7 @@
 
 ### 248 open roles (198 listed below) · 75 new this week
 
-4,259 employers tracked · data as of Aug 22, 2026 at 03:20 UTC
+4,259 employers tracked · data as of Aug 22, 2026 at 04:09 UTC
 
 _156 have a cycle the employer stated · 92 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -333,7 +333,7 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 _202 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **68** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
-<summary><strong>Recently closed</strong> — 26 roles that left the list in the last 14 days</summary>
+<summary><strong>Recently closed</strong> — 25 roles that left the list in the last 14 days</summary>
 
 _Why each one left is in the last column, because the two reasons carry different evidence. **Gone from feed** = two consecutive complete reads of the employer's board no longer returned it (strong, but not the employer telling us directly). **Out of scope** = still posted, but it no longer passes our filters — our call, not theirs. **Not recorded** = closed before we started tracking the reason._
 
@@ -364,7 +364,6 @@ _Why each one left is in the last column, because the two reasons carry differen
 | InfiniteQuant | Quantitative Researcher - Internship - Summer 2027 | Summer 2027 | 2026-08-10 | gone from feed |
 | Netsmart | Cloud Engineer Future  (Summer 2027 Internship) | Summer 2027 | 2026-08-08 | gone from feed |
 | Netsmart | Software Engineer Intern (Summer 2027 Internship) | Summer 2027 | 2026-08-08 | gone from feed |
-| Duke Energy | Asc Cybersecurity Gov&Risk Analyst - Intern/Co-op Conversion 2027 (Souza) | Summer 2027 | 2026-08-08 | out of scope |
 
 </details>
 
@@ -383,7 +382,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,118 of 4,502 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 91% of the full registry) · completed in 907.5s · 527 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,185 of 4,502 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 93% of the full registry) · completed in 919.7s · 557 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
