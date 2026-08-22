@@ -1,6 +1,6 @@
 {
-  "last_digest_at": "2026-08-21T10:06:10Z",
-  "last_digest_roles": 17,
+  "last_digest_at": "2026-08-22T10:52:11Z",
+  "last_digest_roles": 7,
   "last_digest_sent": 224,
   "sent_role_ids": [
     "ashby:anthelioncap:5e2ea37b-2369-474e-b717-c24c60976e96",
@@ -286,13 +286,21 @@
     "smartrecruiters:AbbVie:3743990014697918",
     "workday:fifththird:/job/Cincinnati-OH/Information-Security-Co-op---Cyber-Threat-Interdiction---Summer-2027_R71582",
     "workday:fifththird:/job/Cincinnati-OH/Information-Security-Co-op---Identity---Access-Management---Summer-2027_R71591",
-    "workday:fifththird:/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Summer-2027_R71588"
+    "workday:fifththird:/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Summer-2027_R71588",
+    "ashby:ambrook:e458b046-aa7f-4022-bca5-63cdfd495456",
+    "ashby:weave:1318e017-3ea6-4a1f-aac7-1c11a46cda8d",
+    "greenhouse:syskahennessy:8147733",
+    "workday:availity:/job/Remote---United-States/Software-Engineering-Intern_R0008436",
+    "workday:brunswick:/job/Tulsa-OK/Software-Engineering-Intern_JR-051321",
+    "workday:hp:/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906",
+    "workday:hp:/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906-1",
+    "ashby:h3x-technologies:d406e4b4-9b48-438c-a2af-b7feb8563a40"
   ],
   "last_digest_failed": 0,
   "subscribers_total": 224,
   "send_attempts": [
     {
-      "at": "2026-08-21T10:06:10Z",
+      "at": "2026-08-22T10:52:11Z",
       "count": 224
     }
   ]
