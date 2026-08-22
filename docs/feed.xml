@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-22T08:58:17Z</updated>
+  <updated>2026-08-22T09:52:26Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:ambrook:e458b046-aa7f-4022-bca5-63cdfd495456</id>
+    <title>Ambrook: Software Engineering Intern</title>
+    <link href="https://jobs.ashbyhq.com/ambrook/e458b046-aa7f-4022-bca5-63cdfd495456"/>
+    <updated>2026-08-22T09:52:26Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · New York · $2K per week • + housing stipend. · TypeScript, React, Next.js, GCP, PostgreSQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:weave:1318e017-3ea6-4a1f-aac7-1c11a46cda8d</id>
+    <title>Weave: Data Engineer Intern</title>
+    <link href="https://jobs.ashbyhq.com/weave/1318e017-3ea6-4a1f-aac7-1c11a46cda8d"/>
+    <updated>2026-08-22T09:52:26Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Weave - Headquarters (Lehi, UT) · Python, SQL, Git, Snowflake</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:syskahennessy:8147733</id>
+    <title>Syska Hennessy Group: Innovations Intern (Full Stack/Front End Engineering)</title>
+    <link href="https://job-boards.greenhouse.io/syskahennessy/jobs/8147733"/>
+    <updated>2026-08-22T09:52:26Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · New York · JavaScript</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:availity:/job/Remote---United-States/Software-Engineering-Intern_R0008436</id>
     <title>Availity: Software Engineering Intern</title>
@@ -782,29 +806,5 @@
     <updated>2026-08-14T16:20:12Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Chicago, Illinois, United States · Python, C++, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:crowe:/job/Chicago-IL-USA/AI-Project-Coordinator-Intern_R-71007</id>
-    <title>Crowe: AI Project Coordinator Intern</title>
-    <link href="https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/AI-Project-Coordinator-Intern_R-71007"/>
-    <updated>2026-08-14T16:20:12Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Chicago IL USA · $27–$42/hr · LLMs, Azure · H-1B track record: ~37 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1</id>
-    <title>Motorola: Android Platform Software Engineering Intern - Summer 2027 🇺🇸</title>
-    <link href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1"/>
-    <updated>2026-08-14T14:54:40Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Plantation, FL, More... · Python, Java, C++, Linux · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:Interco:744000143346169</id>
-    <title>Interco: Paid Internship -- Software Development -- React 🛂</title>
-    <link href="https://jobs.smartrecruiters.com/Interco/744000143346169"/>
-    <updated>2026-08-14T11:22:20Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · St. Louis, MO, United States · $15/hr · React, JavaScript, HTML/CSS · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>
