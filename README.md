@@ -6,9 +6,9 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 251 open roles (201 listed below) · 78 new this week
+### 251 open roles (201 listed below) · 77 new this week
 
-4,271 employers tracked · data as of Aug 22, 2026 at 09:52 UTC
+4,271 employers tracked · data as of Aug 22, 2026 at 10:51 UTC
 
 _156 have a cycle the employer stated · 95 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -225,8 +225,8 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Sony | Intern, Information Security Risk and Compliance 🆕 | Security | New York | No skills listed | Aug 20, 2026 | [Apply](https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/New-York/Intern--Information-Security-Risk-and-Compliance_JR-119512) |
 | Intel ✓ | Software Engineer Graduate Intern 🆕 | Software | US, Arizona, Phoenix | Java, C#, .NET | Aug 20, 2026 | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489) |
 | Intel ✓ | Software Engineer Graduate Intern 🆕 | Software | US, Oregon, Hillsboro | Python, C#, .NET | Aug 20, 2026 | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491) |
-| E-Space | Embedded Software Engineering Intern 🆕 | Software | Arlington, TX | Python, Git | Aug 20, 2026 | [Apply](https://jobs.lever.co/espace/1e189295-a315-414d-8c0b-686f204e3cb3) |
-| Western Magnetics | Software Engineering Intern 🆕 | Software | South San Francisco +2 more | Python, TypeScript, JavaScript, LLMs | Aug 20, 2026 | [Apply](https://apply.workable.com/western-magnetics/j/E366930F3F/) |
+| E-Space | Embedded Software Engineering Intern | Software | Arlington, TX | Python, Git | Aug 20, 2026 | [Apply](https://jobs.lever.co/espace/1e189295-a315-414d-8c0b-686f204e3cb3) |
+| Western Magnetics | Software Engineering Intern | Software | South San Francisco +2 more | Python, TypeScript, JavaScript, LLMs | Aug 20, 2026 | [Apply](https://apply.workable.com/western-magnetics/j/E366930F3F/) |
 | Fooji | Software Engineering Intern 🆕 | Software | Lexington, Kentucky, United States | TypeScript, JavaScript, SQL, Node.js | Aug 19, 2026 | [Apply](https://apply.workable.com/fooji/j/6563DA99B5/) |
 | Copart ✓ | Site Reliability Engineer Intern | Software | Dallas, TX - Headquarters | Python, AWS, GCP, Kubernetes | Aug 19, 2026 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631) |
 | N1 | Software Engineer Intern (Backend, Rust) | Software | New York City | Rust, C++ | Aug 19, 2026 | [Apply](https://jobs.ashbyhq.com/n1/afe7deb5-9cfd-4926-bcb4-058d418592a6) |
@@ -383,7 +383,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,108 of 4,514 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 91% of the full registry) · completed in 862.2s · 530 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,102 of 4,514 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 90% of the full registry) · completed in 871.3s · 512 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
