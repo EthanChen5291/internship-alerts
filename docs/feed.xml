@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-24T19:11:02Z</updated>
+  <updated>2026-08-24T19:56:32Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:thehartford:/job/Hartford-CT/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Hartford-_R2626103-1</id>
+    <title>The Hartford: Tech &amp; Data Program Summer 2027 – Data Engineer Intern (Hartford) 🛂</title>
+    <link href="https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Hartford-_R2626103-1"/>
+    <updated>2026-08-24T19:56:32Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Hartford, CT · Python, SQL, LLMs, AWS, GCP · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:thehartford:/job/Columbus-OH/Tech---Data-Summer-Program-2027---Software-Engineer-Intern--Columbus-_R2626609</id>
+    <title>The Hartford: Tech &amp; Data Summer Program 2027 - Software Engineer Intern (Columbus) 🛂</title>
+    <link href="https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Columbus-OH/Tech---Data-Summer-Program-2027---Software-Engineer-Intern--Columbus-_R2626609"/>
+    <updated>2026-08-24T19:56:32Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Columbus, OH · Python, Java, C#, JavaScript, SQL · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:thehartford:/job/Hartford-CT/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Hartford-_R2626105-1</id>
+    <title>The Hartford: Tech &amp; Data Program Summer 2027 - Software Engineer Intern (Hartford) 🛂</title>
+    <link href="https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Hartford-_R2626105-1"/>
+    <updated>2026-08-24T19:56:32Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Hartford, CT · Python, Java, C#, JavaScript, SQL · sponsorship: no-sponsorship</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:freddiemac:/job/McLean-VA/Multifamily-Software-Development-Intern---Summer-2027_JR17564</id>
     <title>Freddie Mac: Multifamily Software Development Intern – Summer 2027</title>
@@ -782,29 +806,5 @@
     <updated>2026-08-17T15:51:18Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Bentonville, AR · 15 USD/hr · Python, TypeScript, JavaScript</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:datadog:8052095</id>
-    <title>Datadog: Software Engineering Intern</title>
-    <link href="https://careers.datadoghq.com/detail/8052095/?gh_jid=8052095"/>
-    <updated>2026-08-17T14:54:42Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · Boston, Massachusetts, USA; New York, New York, USA · Kubernetes · status: closed · H-1B track record: ~62 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487</id>
-    <title>RTX: Software Engineering Intern (Summer 2027) 🇺🇸</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487"/>
-    <updated>2026-08-17T14:54:42Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-166 ~ 855 35Th St NE ~ BLDG 166 · Python, C++, Bash, Linux, Git · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011082</id>
-    <title>American Express: Campus Graduate Masters Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- New York, NY</title>
-    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082"/>
-    <updated>2026-08-17T04:37:50Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY, United States · Python, Java, C#, Go, TypeScript · H-1B track record: ~133 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
