@@ -214,6 +214,18 @@
     }
    }
   },
+  "audax group": {
+   "name": "Audax Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-24",
+     "role_ids": [
+      "greenhouse:audaxgroup:4722770005"
+     ],
+     "count": 1
+    }
+   }
+  },
   "axon": {
    "name": "Axon",
    "cycles": {
@@ -1705,5 +1717,5 @@
    }
   }
  },
- "updated_at": "2026-08-24T09:44:25Z"
+ "updated_at": "2026-08-24T10:35:13Z"
 }
