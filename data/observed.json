@@ -49,6 +49,20 @@
     }
    }
   },
+  "advanced space": {
+   "name": "Advanced Space",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-24",
+     "role_ids": [
+      "greenhouse:advancedspace:4324855009",
+      "greenhouse:advancedspace:4324875009",
+      "greenhouse:advancedspace:4333179009"
+     ],
+     "count": 3
+    }
+   }
+  },
   "akuna capital": {
    "name": "Akuna Capital",
    "cycles": {
@@ -679,11 +693,12 @@
     "Summer 2027": {
      "first_posted": "2026-08-24",
      "role_ids": [
+      "workday:thehartford:/job/Columbus-OH/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Columbus-_R2626610",
       "workday:thehartford:/job/Columbus-OH/Tech---Data-Summer-Program-2027---Software-Engineer-Intern--Columbus-_R2626609",
       "workday:thehartford:/job/Hartford-CT/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Hartford-_R2626103-1",
       "workday:thehartford:/job/Hartford-CT/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Hartford-_R2626105-1"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -1301,6 +1316,18 @@
     }
    }
   },
+  "rivet industries": {
+   "name": "Rivet Industries",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-08-24",
+     "role_ids": [
+      "ashby:rivet:4e02461a-9f6c-4d3c-a511-6d54f31999bc"
+     ],
+     "count": 1
+    }
+   }
+  },
   "roblox": {
    "name": "Roblox",
    "cycles": {
@@ -1767,5 +1794,5 @@
    }
   }
  },
- "updated_at": "2026-08-24T19:56:32Z"
+ "updated_at": "2026-08-24T21:01:56Z"
 }

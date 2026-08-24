@@ -5,15 +5,55 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-24T19:56:32Z</updated>
+  <updated>2026-08-24T21:01:56Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:thehartford:/job/Hartford-CT/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Hartford-_R2626103-1</id>
-    <title>The Hartford: Tech &amp; Data Program Summer 2027 – Data Engineer Intern (Hartford) 🛂</title>
-    <link href="https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Hartford-_R2626103-1"/>
-    <updated>2026-08-24T19:56:32Z</updated>
+    <id>urn:intern-engine:ashby:rivet:4e02461a-9f6c-4d3c-a511-6d54f31999bc</id>
+    <title>Rivet Industries: Software Engineer Intern, XR Team (Fall 2026)</title>
+    <link href="https://jobs.ashbyhq.com/rivet/4e02461a-9f6c-4d3c-a511-6d54f31999bc"/>
+    <updated>2026-08-24T21:01:56Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Bellevue, WA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:advancedspace:4333179009</id>
+    <title>Advanced Space: 2027 DevOps Summer Internship</title>
+    <link href="https://job-boards.greenhouse.io/advancedspace/jobs/4333179009"/>
+    <updated>2026-08-24T21:01:56Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Hartford, CT · Python, SQL, LLMs, AWS, GCP · sponsorship: no-sponsorship</summary>
+    <summary>Summer 2027 · Software · Westminster, CO · $26–$35/hr · Python, Bash, AWS, Kubernetes, Docker</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:advancedspace:4324875009</id>
+    <title>Advanced Space: 2027 Machine Learning Summer Internship</title>
+    <link href="https://job-boards.greenhouse.io/advancedspace/jobs/4324875009"/>
+    <updated>2026-08-24T21:01:56Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Westminster, CO · $28–$37/hr · Python, C++, PyTorch, TensorFlow, scikit-learn</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:advancedspace:4324855009</id>
+    <title>Advanced Space: 2027 Software Engineering Summer Internship</title>
+    <link href="https://job-boards.greenhouse.io/advancedspace/jobs/4324855009"/>
+    <updated>2026-08-24T21:01:56Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Westminster, CO · $26–$35/hr · Python, C++, Bash, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:canadiansolar:/job/Mesquite-TX/Data-Analyst--Quality-Intern_10001414</id>
+    <title>Canadian Solar: Data Analyst, Quality Intern</title>
+    <link href="https://canadiansolar.wd5.myworkdayjobs.com/CanadianSolar/job/Mesquite-TX/Data-Analyst--Quality-Intern_10001414"/>
+    <updated>2026-08-24T21:01:56Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Mesquite, TX · SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:thehartford:/job/Columbus-OH/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Columbus-_R2626610</id>
+    <title>The Hartford: Tech &amp; Data Program Summer 2027 - Data Engineer Intern (Columbus) 🛂</title>
+    <link href="https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Columbus-OH/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Columbus-_R2626610"/>
+    <updated>2026-08-24T21:01:56Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Columbus, OH · Python, SQL, LLMs, AWS, GCP · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:thehartford:/job/Columbus-OH/Tech---Data-Summer-Program-2027---Software-Engineer-Intern--Columbus-_R2626609</id>
@@ -22,6 +62,14 @@
     <updated>2026-08-24T19:56:32Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Columbus, OH · Python, Java, C#, JavaScript, SQL · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:thehartford:/job/Hartford-CT/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Hartford-_R2626103-1</id>
+    <title>The Hartford: Tech &amp; Data Program Summer 2027 – Data Engineer Intern (Hartford) 🛂</title>
+    <link href="https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Hartford-_R2626103-1"/>
+    <updated>2026-08-24T19:56:32Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Hartford, CT · Python, SQL, LLMs, AWS, GCP · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:thehartford:/job/Hartford-CT/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Hartford-_R2626105-1</id>
@@ -758,53 +806,5 @@
     <updated>2026-08-17T20:53:05Z</updated>
     <category term="Summer 2027"/>
     <summary>2 openings · Summer 2027 · Data &amp; ML/AI · Charlotte, NC</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_177680-1</id>
-    <title>Vanguard: College to Corporate IT Internship - Data Science (PA)</title>
-    <link href="https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_177680-1"/>
-    <updated>2026-08-17T20:53:05Z</updated>
-    <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Data &amp; ML/AI · Malvern, PA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:point72:8721562002</id>
-    <title>Point72: Quantitative Developer Intern</title>
-    <link href="https://boards.greenhouse.io/point72/jobs/8721562002?gh_jid=8721562002"/>
-    <updated>2026-08-17T19:10:25Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Quant · New York · Java, SQL, Bash, Docker, Linux · status: closed · H-1B track record: ~48 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:Wabtec:3743990014629016</id>
-    <title>Wabtec: Firmware Engineering Co-Op</title>
-    <link href="https://jobs.smartrecruiters.com/Wabtec/3743990014629016"/>
-    <updated>2026-08-17T19:10:25Z</updated>
-    <category term="Winter 2027"/>
-    <summary>2 openings · Winter 2027 · Hardware · Waltham, MA, United States · $25–$28/hr · Python, Java, C++, Bash, Linux · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011679</id>
-    <title>American Express: Campus Undergraduate Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Charlotte, NC</title>
-    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011679"/>
-    <updated>2026-08-17T17:56:46Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Charlotte, NC, United States · Python, Java, C#, Go, TypeScript · H-1B track record: ~133 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:keybank:/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384</id>
-    <title>KeyBank: 2027 Summer Key Technology &amp; Services: Cyber/Information Security Track Internship- Cleveland</title>
-    <link href="https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Cyber-Information-Security-Track-Internship--Cleveland_R-41384"/>
-    <updated>2026-08-17T16:55:16Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Brooklyn, OH · $25/hr · Python, C#, JavaScript, SQL, HTML/CSS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:acds:5a872bb7-8d9f-46e3-9e72-f5c69445e787</id>
-    <title>ACDS: Align AI Software Development Intern</title>
-    <link href="https://jobs.lever.co/acds/5a872bb7-8d9f-46e3-9e72-f5c69445e787"/>
-    <updated>2026-08-17T15:51:18Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Bentonville, AR · 15 USD/hr · Python, TypeScript, JavaScript</summary>
   </entry>
 </feed>
