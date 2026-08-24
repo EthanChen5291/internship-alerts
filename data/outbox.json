@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:freddiemac:/job/McLean-VA/Multifamily-Software-Development-Intern---Summer-2027_JR17564",
-      "workday:monolithicpower:/job/San-Jose---California/AI-Developer-Intern_R-1756"
-    ],
-    "telegram": [
-      "workday:freddiemac:/job/McLean-VA/Multifamily-Software-Development-Intern---Summer-2027_JR17564",
-      "workday:monolithicpower:/job/San-Jose---California/AI-Developer-Intern_R-1756"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
