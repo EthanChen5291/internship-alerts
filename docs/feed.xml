@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-24T21:01:56Z</updated>
+  <updated>2026-08-24T21:54:11Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
     <id>urn:intern-engine:ashby:rivet:4e02461a-9f6c-4d3c-a511-6d54f31999bc</id>
@@ -16,12 +16,12 @@
     <summary>Fall 2026 · Software · Bellevue, WA</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:advancedspace:4333179009</id>
-    <title>Advanced Space: 2027 DevOps Summer Internship</title>
-    <link href="https://job-boards.greenhouse.io/advancedspace/jobs/4333179009"/>
+    <id>urn:intern-engine:greenhouse:advancedspace:4324855009</id>
+    <title>Advanced Space: 2027 Software Engineering Summer Internship</title>
+    <link href="https://job-boards.greenhouse.io/advancedspace/jobs/4324855009"/>
     <updated>2026-08-24T21:01:56Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Westminster, CO · $26–$35/hr · Python, Bash, AWS, Kubernetes, Docker</summary>
+    <summary>Summer 2027 · Software · Westminster, CO · $26–$35/hr · Python, C++, Bash, Linux</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:advancedspace:4324875009</id>
@@ -32,12 +32,12 @@
     <summary>Summer 2027 · Data &amp; ML/AI · Westminster, CO · $28–$37/hr · Python, C++, PyTorch, TensorFlow, scikit-learn</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:advancedspace:4324855009</id>
-    <title>Advanced Space: 2027 Software Engineering Summer Internship</title>
-    <link href="https://job-boards.greenhouse.io/advancedspace/jobs/4324855009"/>
+    <id>urn:intern-engine:greenhouse:advancedspace:4333179009</id>
+    <title>Advanced Space: 2027 DevOps Summer Internship</title>
+    <link href="https://job-boards.greenhouse.io/advancedspace/jobs/4333179009"/>
     <updated>2026-08-24T21:01:56Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Westminster, CO · $26–$35/hr · Python, C++, Bash, Linux</summary>
+    <summary>Summer 2027 · Software · Westminster, CO · $26–$35/hr · Python, Bash, AWS, Kubernetes, Docker</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:canadiansolar:/job/Mesquite-TX/Data-Analyst--Quality-Intern_10001414</id>
