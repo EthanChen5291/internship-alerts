@@ -970,9 +970,10 @@
     "Summer 2027": {
      "first_posted": "2026-08-14",
      "role_ids": [
+      "workday:motorolasolutions:/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R67740",
       "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -1738,5 +1739,5 @@
    }
   }
  },
- "updated_at": "2026-08-24T14:35:35Z"
+ "updated_at": "2026-08-24T15:35:32Z"
 }
