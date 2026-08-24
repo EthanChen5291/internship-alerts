@@ -274,6 +274,25 @@
     }
    }
   },
+  "bny": {
+   "name": "BNY",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-24",
+     "role_ids": [
+      "oracle:eofe.fa.us2.oraclecloud.com:81238",
+      "oracle:eofe.fa.us2.oraclecloud.com:81239",
+      "oracle:eofe.fa.us2.oraclecloud.com:81240",
+      "oracle:eofe.fa.us2.oraclecloud.com:81241",
+      "oracle:eofe.fa.us2.oraclecloud.com:81251",
+      "oracle:eofe.fa.us2.oraclecloud.com:81252",
+      "oracle:eofe.fa.us2.oraclecloud.com:81253",
+      "oracle:eofe.fa.us2.oraclecloud.com:81254"
+     ],
+     "count": 8
+    }
+   }
+  },
   "caci": {
    "name": "CACI",
    "cycles": {
@@ -746,9 +765,11 @@
       "smartrecruiters:InfiniteQuant:744000143307421",
       "smartrecruiters:InfiniteQuant:744000144281579",
       "smartrecruiters:InfiniteQuant:744000144592181",
-      "smartrecruiters:InfiniteQuant:744000145205764"
+      "smartrecruiters:InfiniteQuant:744000145205764",
+      "smartrecruiters:InfiniteQuant:744000145263134",
+      "smartrecruiters:InfiniteQuant:744000145264634"
      ],
-     "count": 8
+     "count": 10
     }
    }
   },
@@ -1717,5 +1738,5 @@
    }
   }
  },
- "updated_at": "2026-08-24T11:56:15Z"
+ "updated_at": "2026-08-24T13:27:59Z"
 }

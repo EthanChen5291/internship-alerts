@@ -1,6 +1,28 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:eofe.fa.us2.oraclecloud.com:81254",
+      "oracle:eofe.fa.us2.oraclecloud.com:81241",
+      "oracle:eofe.fa.us2.oraclecloud.com:81252",
+      "oracle:eofe.fa.us2.oraclecloud.com:81253",
+      "oracle:eofe.fa.us2.oraclecloud.com:81251",
+      "oracle:eofe.fa.us2.oraclecloud.com:81238",
+      "oracle:eofe.fa.us2.oraclecloud.com:81239",
+      "oracle:eofe.fa.us2.oraclecloud.com:81240",
+      "smartrecruiters:InfiniteQuant:744000145263134",
+      "smartrecruiters:InfiniteQuant:744000145264634"
+    ],
+    "telegram": [
+      "oracle:eofe.fa.us2.oraclecloud.com:81254",
+      "oracle:eofe.fa.us2.oraclecloud.com:81241",
+      "oracle:eofe.fa.us2.oraclecloud.com:81252",
+      "oracle:eofe.fa.us2.oraclecloud.com:81253",
+      "oracle:eofe.fa.us2.oraclecloud.com:81251",
+      "oracle:eofe.fa.us2.oraclecloud.com:81238",
+      "oracle:eofe.fa.us2.oraclecloud.com:81239",
+      "oracle:eofe.fa.us2.oraclecloud.com:81240",
+      "smartrecruiters:InfiniteQuant:744000145263134",
+      "smartrecruiters:InfiniteQuant:744000145264634"
+    ]
   }
 }
