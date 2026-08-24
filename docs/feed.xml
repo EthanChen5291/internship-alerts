@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-24T16:23:37Z</updated>
+  <updated>2026-08-24T17:26:09Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:freddiemac:/job/McLean-VA/Single-Family-Software-Developer-Intern--Summer-2027_JR17544</id>
+    <title>Freddie Mac: Single-Family Software Developer Intern- Summer 2027</title>
+    <link href="https://freddiemac.wd5.myworkdayjobs.com/External/job/McLean-VA/Single-Family-Software-Developer-Intern--Summer-2027_JR17544"/>
+    <updated>2026-08-24T17:26:09Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · McLean, VA · $32/hr · Python, Java, C++, Angular, Spring</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Intuitive:744000145329669</id>
+    <title>Intuitive Surgical: Computer Vision Engineering Intern - Fall 2026</title>
+    <link href="https://jobs.smartrecruiters.com/Intuitive/744000145329669"/>
+    <updated>2026-08-24T17:26:09Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Sunnyvale, CA, United States (Hybrid) · Computer Vision, Python, C++, PyTorch · H-1B track record: ~14 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:availity:/job/Remote---United-States/Data-Science-Intern_R0008485</id>
     <title>Availity: Data Science Intern</title>
@@ -203,9 +219,9 @@
     <id>urn:intern-engine:workday:philips:/job/Plymouth-Minnesota-United-States/Graduate-Level-Co-op---Data-Scientist---Plymouth--MN---Summer-2027_590567</id>
     <title>Philips: Graduate Level Co-op – Data Scientist – Plymouth, MN – Summer 2027</title>
     <link href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Graduate-Level-Co-op---Data-Scientist---Plymouth--MN---Summer-2027_590567"/>
-    <updated>2026-08-20T21:52:33Z</updated>
+    <updated>2026-08-24T17:26:09Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Plymouth, Minnesota, United States · PyTorch, TensorFlow</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Plymouth, Minnesota, United States · PyTorch, TensorFlow · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ226237-1</id>
@@ -790,21 +806,5 @@
     <updated>2026-08-15T23:47:56Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:replit:7e0dafe8-3eec-442e-aa76-a4d84d779fb1</id>
-    <title>Replit: Software Engineering Intern (Summer 2027)</title>
-    <link href="https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1"/>
-    <updated>2026-08-15T18:59:37Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Foster City, CA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:oneok:/job/Tulsa-OK/Cyber-Security-Intern---Tulsa--OK_R8449</id>
-    <title>ONEOK: Cyber Security Intern - Tulsa, OK</title>
-    <link href="https://oneok.wd1.myworkdayjobs.com/ONEOK_Early_Careers/job/Tulsa-OK/Cyber-Security-Intern---Tulsa--OK_R8449"/>
-    <updated>2026-08-15T09:53:47Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Tulsa, OK</summary>
   </entry>
 </feed>

@@ -594,6 +594,18 @@
     }
    }
   },
+  "freddie mac": {
+   "name": "Freddie Mac",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-24",
+     "role_ids": [
+      "workday:freddiemac:/job/McLean-VA/Single-Family-Software-Developer-Intern--Summer-2027_JR17544"
+     ],
+     "count": 1
+    }
+   }
+  },
   "freeform": {
    "name": "Freeform",
    "cycles": {
@@ -791,9 +803,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-22",
-     "count": 1,
+     "count": 2,
      "role_ids": [
-      "smartrecruiters:Intuitive:744000133458290"
+      "smartrecruiters:Intuitive:744000133458290",
+      "smartrecruiters:Intuitive:744000145329669"
      ]
     }
    }
@@ -1739,5 +1752,5 @@
    }
   }
  },
- "updated_at": "2026-08-24T16:23:37Z"
+ "updated_at": "2026-08-24T17:26:09Z"
 }
