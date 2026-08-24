@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-24T21:54:11Z",
- "fetched_at": "2026-08-24T21:54:11Z",
- "duration_seconds": 793.7,
+ "generated_at": "2026-08-24T22:56:21Z",
+ "fetched_at": "2026-08-24T22:56:21Z",
+ "duration_seconds": 962.4,
  "companies_total": 4514,
  "companies_by_source": {
   "greenhouse": 1028,
@@ -17,28 +17,28 @@
   "breezy": 12,
   "eightfold": 1
  },
- "quarantined": 287,
- "fetched_ok": 4218,
- "fetch_errors": 9,
+ "quarantined": 284,
+ "fetched_ok": 4142,
+ "fetch_errors": 88,
  "errors_by_source": {
-  "workday": 9
+  "workday": 88
  },
- "fetch_success_rate": 0.998,
- "fetch_success_rate_registry": 0.934,
- "snapshots_complete": 3647,
- "snapshots_partial": 571,
+ "fetch_success_rate": 0.979,
+ "fetch_success_rate_registry": 0.918,
+ "snapshots_complete": 3609,
+ "snapshots_partial": 533,
  "partial_by_reason": {
-  "result-cap": 521,
-  "malformed-response": 50
+  "result-cap": 509,
+  "malformed-response": 24
  },
- "degraded_fetches": 50,
+ "degraded_fetches": 24,
  "roles_matched": 216,
- "dropped_no_year_in_title": 417,
- "dropped_offcycle_by_text": 86,
+ "dropped_no_year_in_title": 412,
+ "dropped_offcycle_by_text": 85,
  "roles_cycle_inferred": 89,
  "roles_by_source": {
   "amazon": 5,
-  "ashby": 20,
+  "ashby": 19,
   "greenhouse": 58,
   "lever": 12,
   "oracle": 50,
@@ -49,13 +49,13 @@
  "roles_by_cycle": {
   "Fall 2026": 28,
   "Not stated": 89,
-  "Summer 2027": 145
+  "Summer 2027": 144
  },
  "roles_by_region": {
-  "US": 261
+  "US": 260
  },
  "sponsorship_counts": {
-  "unknown": 214,
+  "unknown": 213,
   "offers": 1,
   "citizens-only": 30,
   "no-sponsorship": 16
@@ -65,7 +65,7 @@
  "enrichment_detail_fetches": 0,
  "purged_this_run": 0,
  "new_this_run": 0,
- "open_total": 261,
+ "open_total": 260,
  "detection_latency": {
   "median_minutes": 36.7,
   "p95_minutes": 1016.1,
@@ -74,8 +74,8 @@
   "basis": "roles published in the window with an exact source timestamp"
  },
  "posting_lifetime": {
-  "median_days": 8.5,
-  "sample_size": 96
+  "median_days": 9,
+  "sample_size": 97
  },
- "rendered_at": "2026-08-24T21:54:11Z"
+ "rendered_at": "2026-08-24T22:56:21Z"
 }
