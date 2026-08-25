@@ -5,16 +5,8 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-25T14:42:24Z</updated>
+  <updated>2026-08-25T15:43:04Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39743</id>
-    <title>Nokia: Data Analytics &amp; AI Co-op</title>
-    <link href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39743"/>
-    <updated>2026-08-25T14:42:24Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · United States · Python, SQL</summary>
-  </entry>
   <entry>
     <id>urn:intern-engine:ashby:voleon:57f1b666-2f4b-4bad-aac0-fa42a1c8fdf6</id>
     <title>The Voleon Group: Software Engineer Intern - (Summer 2027)</title>
@@ -22,6 +14,14 @@
     <updated>2026-08-25T14:42:24Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Berkeley, CA · $14,583 per month · Linux, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39743</id>
+    <title>Nokia: Data Analytics &amp; AI Co-op</title>
+    <link href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39743"/>
+    <updated>2026-08-25T14:42:24Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · United States · Python, SQL</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:globalfoundries:/job/USA---New-York---Malta/Cybersecurity-Intern--Summer-2027-_JR-2604459</id>
