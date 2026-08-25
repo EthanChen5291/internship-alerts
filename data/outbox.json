@@ -1,18 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:verkada:5210813007",
-      "greenhouse:verkada:5211595007",
-      "greenhouse:verkada:5210942007",
-      "greenhouse:verkada:5219131007",
-      "greenhouse:verkada:5213881007"
-    ],
-    "telegram": [
-      "greenhouse:verkada:5210813007",
-      "greenhouse:verkada:5211595007",
-      "greenhouse:verkada:5210942007",
-      "greenhouse:verkada:5219131007",
-      "greenhouse:verkada:5213881007"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
