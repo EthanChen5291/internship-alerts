@@ -1,6 +1,14 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "greenhouse:bti36021:8155152",
+      "greenhouse:sage49:6131191004",
+      "greenhouse:sage49:6131185004"
+    ],
+    "telegram": [
+      "greenhouse:bti36021:8155152",
+      "greenhouse:sage49:6131191004",
+      "greenhouse:sage49:6131185004"
+    ]
   }
 }
