@@ -307,6 +307,18 @@
     }
    }
   },
+  "brunswick": {
+   "name": "Brunswick",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-25",
+     "role_ids": [
+      "workday:brunswick:/job/Fond-du-Lac-WI/Mercury-Marine---Systems-Software-Engineering-Co-op_JR-051212"
+     ],
+     "count": 1
+    }
+   }
+  },
   "bti360": {
    "name": "BTI360",
    "cycles": {
@@ -1725,6 +1737,17 @@
      "role_ids": [
       "greenhouse:verkada:5099422007"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-08-25",
+     "role_ids": [
+      "greenhouse:verkada:5210813007",
+      "greenhouse:verkada:5210942007",
+      "greenhouse:verkada:5211595007",
+      "greenhouse:verkada:5213881007",
+      "greenhouse:verkada:5219131007"
+     ],
+     "count": 5
     }
    }
   },
@@ -1860,5 +1883,5 @@
    }
   }
  },
- "updated_at": "2026-08-25T17:26:09Z"
+ "updated_at": "2026-08-25T18:17:31Z"
 }
