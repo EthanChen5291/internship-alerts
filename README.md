@@ -8,7 +8,7 @@
 
 ### 284 open roles (220 listed below) · 81 new this week
 
-4,284 employers tracked · data as of Aug 25, 2026 at 18:17 UTC
+4,284 employers tracked · data as of Aug 25, 2026 at 19:08 UTC
 
 _186 have a cycle the employer stated · 98 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -90,8 +90,8 @@ If it helps you, a star means a lot and tells me to keep going.
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
 | Verkada ✓ | Backend Software Engineering Intern 2027 🆕 | Software | San Mateo, CA United States | Python, Go, Computer Vision, AWS | Aug 25, 2026 | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5210813007) |
-| Verkada ✓ | Embedded Software Engineering Intern 2027 🆕 | Software | San Mateo, CA United States | C++, Linux | Aug 25, 2026 | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5211595007) |
 | Verkada ✓ | Frontend Software Engineering Intern 2027 🆕 | Software | San Mateo, CA United States | TypeScript, JavaScript, React, Angular | Aug 25, 2026 | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5210942007) |
+| Verkada ✓ | Embedded Software Engineering Intern 2027 🆕 | Software | San Mateo, CA United States | C++, Linux | Aug 25, 2026 | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5211595007) |
 | Honeywell | Artificial Intelligence/Machine Learning - Summer 2027 Intern 🆕 | Data & ML/AI | United States | Python, C++, JavaScript | Aug 25, 2026 | [Apply](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155522) |
 | GlobalFoundries | Cybersecurity Intern (Summer 2027) 🆕 | Security | USA - New York - Malta | No skills listed | Aug 25, 2026 | [Apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Cybersecurity-Intern--Summer-2027-_JR-2604459) |
 | RTX | Software Engineering Co-op (Summer/Fall 2027) (Onsite) 🇺🇸 🆕 | Software | US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE… | No skills listed | Aug 25, 2026 | [Apply](https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Summer-Fall-2027---Onsite-_01869518) |
@@ -406,7 +406,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,180 of 4,528 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 962.2s · 561 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,160 of 4,528 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 91% of the full registry) · completed in 867.1s · 542 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
