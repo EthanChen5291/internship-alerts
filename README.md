@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 277 open roles (217 listed below) · 73 new this week
+### 280 open roles (218 listed below) · 76 new this week
 
-4,284 employers tracked · data as of Aug 25, 2026 at 16:32 UTC
+4,284 employers tracked · data as of Aug 25, 2026 at 17:26 UTC
 
-_179 have a cycle the employer stated · 98 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_181 have a cycle the employer stated · 99 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -85,14 +85,15 @@ If it helps you, a star means a lot and tells me to keep going.
 
 ---
 
-## Summer 2027  (103 employer-stated)
+## Summer 2027  (104 employer-stated)
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
+| Honeywell | Artificial Intelligence/Machine Learning - Summer 2027 Intern 🆕 | Data & ML/AI | United States | Python, C++, JavaScript | Aug 25, 2026 | [Apply](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155522) |
 | GlobalFoundries | Cybersecurity Intern (Summer 2027) 🆕 | Security | USA - New York - Malta | No skills listed | Aug 25, 2026 | [Apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Cybersecurity-Intern--Summer-2027-_JR-2604459) |
 | RTX | Software Engineering Co-op (Summer/Fall 2027) (Onsite) 🇺🇸 🆕 | Software | US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE… | No skills listed | Aug 25, 2026 | [Apply](https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Summer-Fall-2027---Onsite-_01869518) |
 | Northrop Grumman | 2027 Software Engineering Intern- Huntsville AL 🇺🇸 🆕 | Software | United States-Alabama-Huntsville | No skills listed | Aug 25, 2026 | [Apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486) |
-| Northrop Grumman | 2027 Software Test Engineering Intern- Huntsville AL 🇺🇸 🆕 _(2 openings)_ | Software | United States-Alabama-Huntsville | Python, Java, C++, Git | Aug 25, 2026 | [Apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483) [#2](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247485) |
+| Northrop Grumman | 2027 Software Test Engineering Intern- Huntsville AL 🇺🇸 🆕 _(3 openings)_ | Software | United States-Alabama-Huntsville | Python, Java, C++, Git | Aug 25, 2026 | [Apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483) [#2](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247485) [#3](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247487) |
 | BTI360 | Software Engineering Intern 🆕 | Software | Herndon,VA | Python, Java, C++, SQL | Aug 24, 2026 | [Apply](https://job-boards.greenhouse.io/bti36021/jobs/8155152) |
 | Sage | Software Engineering Intern (Full Stack) – Summer 2027 🆕 | Software | New York, New York, United States | Python, Java, TypeScript, JavaScript | Aug 24, 2026 | [Apply](https://job-boards.greenhouse.io/sage49/jobs/6131185004) |
 | Sage | Software Engineering Intern (Edge) – Summer 2027 🆕 | Software | New York, New York, United States | Python, Java, AWS, Linux | Aug 24, 2026 | [Apply](https://job-boards.greenhouse.io/sage49/jobs/6131191004) |
@@ -231,6 +232,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
+| Nokia | Deepfield Software Engineer Co-op 🆕 | Software | United States | Python, Rust, JavaScript, LLMs | Aug 25, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39908) |
 | Nokia | Data Analytics & AI Co-op 🆕 | Data & ML/AI | United States | Python, SQL | Aug 25, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39743) |
 | Bosch ✓ | AI Security Research Intern 🆕 | Data & ML/AI | Pittsburgh, PA, United States | Python, PyTorch, LLMs | Aug 25, 2026 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000145507908) |
 | Brunswick ✓ | Software Engineering Intern 🆕 | Software | Champaign, IL | Python, Rust, TypeScript, Azure | Aug 24, 2026 | [Apply](https://brunswick.wd1.myworkdayjobs.com/search/job/Champaign-IL/Software-Engineering-Intern_JR-051316) |
@@ -282,7 +284,6 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Copart ✓ | Database Engineering Intern | Software | Dallas, TX - Headquarters | Python, JavaScript, SQL, Pandas | Aug 07, 2026 | [Apply](https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Database-Engineering-Intern_JR109636) |
 | Centerfield | Frontend Engineer Intern (6 month internship) | Software | Los Angeles, California | Java, TypeScript, JavaScript, React | Aug 06, 2026 | [Apply](https://jobs.ashbyhq.com/centerfield/1d7eacc1-37f7-478c-9b0a-fa7974f1a9e4) |
 | Nokia | AI R&D Engineer Co-op _(3 openings)_ | Data & ML/AI | United States | PyTorch, TensorFlow, Kafka | Aug 06, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39284) [#2](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39285) [#3](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39286) |
-| Nokia | AI R&D Engineering Co-op _(2 openings)_ | Data & ML/AI | United States | PyTorch, TensorFlow, Kafka | Aug 06, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39287) [#2](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39288) |
 | KBR ✓ | Software Intern | Software | Houston, Texas | Python, C#, JavaScript, HTML/CSS | Aug 06, 2026 | [Apply](https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Houston-Texas/Software-Intern_R2127863) |
 | Draper | Embedded Quality & Fielded Systems Intern | Software | Cambridge, MA | Python, C# | Aug 05, 2026 | [Apply](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718) |
 | PlusAI ✓ | Deep Learning Research Intern — Multimodal BEV Perception | Data & ML/AI | Santa Clara, CA | Python, PyTorch, TensorFlow, Computer Vision | Aug 04, 2026 | [Apply](https://jobs.lever.co/plus-2/2ee24f85-bfa1-47fc-bfe3-fd07521a7b62) |
@@ -348,7 +349,7 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 | Airbnb | ~Sep | ~Sep · in ~7d | ⏳ waiting |
 | AMD | ~Sep | ~Sep · in ~7d | ⏳ waiting |
 
-_211 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **77** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
+_211 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **78** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
 <details>
 <summary><strong>Recently closed</strong> — 28 roles that left the list in the last 14 days</summary>
@@ -403,7 +404,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,172 of 4,528 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 891.9s · 558 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,182 of 4,528 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 962.5s · 560 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 

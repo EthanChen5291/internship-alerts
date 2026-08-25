@@ -1,6 +1,14 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:ibqbjb.fa.ocs.oraclecloud.com:155522",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39908",
+      "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247487"
+    ],
+    "telegram": [
+      "oracle:ibqbjb.fa.ocs.oraclecloud.com:155522",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39908",
+      "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247487"
+    ]
   }
 }
