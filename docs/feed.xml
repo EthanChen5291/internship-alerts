@@ -5,23 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-25T20:57:28Z</updated>
+  <updated>2026-08-25T21:54:18Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:oracle:ebxr.fa.us2.oraclecloud.com:214487</id>
-    <title>DTCC: Cyber Security Risk Intern [2027 Internship Program]</title>
-    <link href="https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214487"/>
-    <updated>2026-08-25T20:57:28Z</updated>
+    <id>urn:intern-engine:oracle:ibqbjb.fa.ocs.oraclecloud.com:155558</id>
+    <title>Honeywell: Software Engineer &amp; Computer Science - Summer 2027 Intern</title>
+    <link href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155558"/>
+    <updated>2026-08-25T21:54:18Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Jersey City, NJ, United States; Tampa, FL, United States; Dallas, TX, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ebxr.fa.us2.oraclecloud.com:214476</id>
-    <title>DTCC: Information Security Intern [2027 Intern Program]</title>
-    <link href="https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214476"/>
-    <updated>2026-08-25T20:57:28Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Jersey City, NJ, United States; Tampa, FL, United States; Dallas, TX, United States</summary>
+    <summary>Summer 2027 · Software · United States · $25.5/hr</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:ebxr.fa.us2.oraclecloud.com:214459</id>
@@ -40,6 +32,22 @@
     <summary>Summer 2027 · Software · Jersey City, NJ, United States; Tampa, FL, United States; Dallas, TX, United States · Python, SQL, Bash, AWS, Azure</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:oracle:ebxr.fa.us2.oraclecloud.com:214476</id>
+    <title>DTCC: Information Security Intern [2027 Intern Program]</title>
+    <link href="https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214476"/>
+    <updated>2026-08-25T20:57:28Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Jersey City, NJ, United States; Tampa, FL, United States; Dallas, TX, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:ebxr.fa.us2.oraclecloud.com:214487</id>
+    <title>DTCC: Cyber Security Risk Intern [2027 Internship Program]</title>
+    <link href="https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214487"/>
+    <updated>2026-08-25T20:57:28Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Jersey City, NJ, United States; Tampa, FL, United States; Dallas, TX, United States</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:oracle:ehzq.fa.us2.oraclecloud.com:115637</id>
     <title>Grant Thornton: Cybersecurity and Privacy Intern - Summer 2027 🛂</title>
     <link href="https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115637"/>
@@ -48,20 +56,12 @@
     <summary>Summer 2027 · Security · New York, NY, United States · $40/hr · sponsorship: no-sponsorship · H-1B track record: ~118 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:ibqbjb.fa.ocs.oraclecloud.com:155562</id>
-    <title>Honeywell: Embedded Engineer - Summer 2027 Intern</title>
-    <link href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155562"/>
+    <id>urn:intern-engine:oracle:ibqbjb.fa.ocs.oraclecloud.com:155554</id>
+    <title>Honeywell: Information Systems, IT, Cyber Engineer &amp; Data Science - Summer 2027 Intern (US Person Required) 🇺🇸</title>
+    <link href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155554"/>
     <updated>2026-08-25T20:57:28Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States · $24/hr · Python, C++, MATLAB</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ibqbjb.fa.ocs.oraclecloud.com:155561</id>
-    <title>Honeywell: Embedded Engineer - Summer 2027 Intern (US Person Required) 🇺🇸</title>
-    <link href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155561"/>
-    <updated>2026-08-25T20:57:28Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States · $24/hr · Python, C++, MATLAB · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · United States · $23/hr · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:ibqbjb.fa.ocs.oraclecloud.com:155555</id>
@@ -72,12 +72,20 @@
     <summary>Summer 2027 · Data &amp; ML/AI · United States · $23/hr</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:ibqbjb.fa.ocs.oraclecloud.com:155554</id>
-    <title>Honeywell: Information Systems, IT, Cyber Engineer &amp; Data Science - Summer 2027 Intern (US Person Required) 🇺🇸</title>
-    <link href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155554"/>
+    <id>urn:intern-engine:oracle:ibqbjb.fa.ocs.oraclecloud.com:155561</id>
+    <title>Honeywell: Embedded Engineer - Summer 2027 Intern (US Person Required) 🇺🇸</title>
+    <link href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155561"/>
     <updated>2026-08-25T20:57:28Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · United States · $23/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States · $24/hr · Python, C++, MATLAB · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:ibqbjb.fa.ocs.oraclecloud.com:155562</id>
+    <title>Honeywell: Embedded Engineer - Summer 2027 Intern</title>
+    <link href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155562"/>
+    <updated>2026-08-25T20:57:28Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States · $24/hr · Python, C++, MATLAB</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:brunswick:/job/Oshkosh-WI/Mercury-Marine--Software-Validation-Intern_JR-051160</id>
@@ -798,13 +806,5 @@
     <updated>2026-08-18T20:51:25Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · New York, New York, United States · Python, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:assurant:/job/Atlanta-GA/Digital---AI-Transformation-Intern-1_R-115202</id>
-    <title>Assurant: Digital &amp; AI Transformation Intern-1</title>
-    <link href="https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/Atlanta-GA/Digital---AI-Transformation-Intern-1_R-115202"/>
-    <updated>2026-08-19T05:22:04Z</updated>
-    <category term="Not stated"/>
-    <summary>2 openings · Not stated · Data &amp; ML/AI · Atlanta, GA · Python, SQL, LLMs, AWS, Azure · status: closed</summary>
   </entry>
 </feed>
