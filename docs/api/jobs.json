@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-25T15:43:04Z",
- "data_as_of": "2026-08-25T15:43:04Z",
- "rendered_at": "2026-08-25T15:43:04Z",
+ "generated_at": "2026-08-25T16:32:18Z",
+ "data_as_of": "2026-08-25T16:32:18Z",
+ "rendered_at": "2026-08-25T16:32:18Z",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "h1b_window": "FY2022–2023",
  "count": 277,
@@ -5748,6 +5748,30 @@
    "remote": false
   },
   {
+   "id": "workday:bcbsla:/job/Corporate---Baton-Rouge-LA/Healthcare-Price-and-Transparency-Data-Analyst-Intern_R11903",
+   "company": "Louisiana Blue",
+   "title": "Healthcare Price and Transparency Data Analyst Intern",
+   "season": "Fall 2026",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "Corporate - Baton Rouge, LA",
+   "url": "https://bcbsla.wd1.myworkdayjobs.com/Generation_Blue/job/Corporate---Baton-Rouge-LA/Healthcare-Price-and-Transparency-Data-Analyst-Intern_R11903",
+   "posted_at": "2026-07-20T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-07T10:45:44Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "SQL",
+    "Tableau"
+   ],
+   "source": "workday",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
    "id": "greenhouse:ctccampusboard:4708188005",
    "company": "Chicago Trading Company",
    "title": "Quant Trading Internship - Summer 2027",
@@ -5797,34 +5821,6 @@
    ],
    "source": "workday",
    "h1b_approvals": 83,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "greenhouse:axontalentcommunity:7800617003",
-   "company": "Axon",
-   "title": "2027 US Software Engineering Internship",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Seattle, Washington, United States",
-   "url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837133003",
-   "posted_at": "2026-07-20T21:57:41-04:00",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-07-21T02:57:41Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "Java",
-    "C#",
-    "SQL",
-    "Scala",
-    "Linux"
-   ],
-   "source": "greenhouse",
-   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },

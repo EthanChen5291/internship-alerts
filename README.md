@@ -8,7 +8,7 @@
 
 ### 277 open roles (217 listed below) · 73 new this week
 
-4,284 employers tracked · data as of Aug 25, 2026 at 15:43 UTC
+4,284 employers tracked · data as of Aug 25, 2026 at 16:32 UTC
 
 _179 have a cycle the employer stated · 98 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -85,7 +85,7 @@ If it helps you, a star means a lot and tells me to keep going.
 
 ---
 
-## Summer 2027  (104 employer-stated)
+## Summer 2027  (103 employer-stated)
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
@@ -168,7 +168,6 @@ If it helps you, a star means a lot and tells me to keep going.
 | Virtu Financial | 2027 Internship - Quantitative Trading | Quant | Austin, TX; Chicago; New York | Python, Java, C++, SQL | Jul 21, 2026 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8624408002) |
 | Virtu Financial | 2027 Internship - Frontend Engineer (UI) | Software | New York | Python, Java, C++, JavaScript | Jul 21, 2026 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8657500002) |
 | Chicago Trading Company | Quant Trading Internship - Summer 2027 | Quant | Chicago, Illinois, United States | Python | Jul 20, 2026 | [Apply](https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005) |
-| Axon | 2027 US Software Engineering Internship | Software | Seattle, Washington, United States | Python, Java, C#, SQL | Jul 20, 2026 | [Apply](https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837133003) |
 | Chicago Trading Company | Software Engineering Internship - Summer 2027 | Software | Chicago, Illinois, United States | Python, Java, C++ | Jul 20, 2026 | [Apply](https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005) |
 | Deepgram 🆁 | Software Engineering- Internship (Fall 2026/Summer 2027) _(also open for Fall 2026)_ | Software | USA / Remote | LLMs | Jul 17, 2026 | [Apply](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
 | Old Mission Capital | Software Engineer – 2027 Internship Program (June Start) | Software | Chicago, IL, United States | Python, C++, TypeScript | Jul 15, 2026 | [Apply](https://www.oldmissioncapital.com/careers/?gh_jid=7796180003) |
@@ -194,7 +193,7 @@ If it helps you, a star means a lot and tells me to keep going.
 | Virtu Financial | 2027 Internship - Quantitative Researcher (Undergrad) | Quant | New York | Python, C++, Pandas | Sep 12, 2025 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/8142539002) |
 | Point72 ✓ | Summer 2027 Quantitative Research Internship | Quant | New York | Python, C++ | Aug 15, 2024 | [Apply](https://boards.greenhouse.io/point72/jobs/7297642002?gh_jid=7297642002) |
 
-## Fall 2026  (26 employer-stated)
+## Fall 2026  (27 employer-stated)
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
@@ -211,6 +210,7 @@ If it helps you, a star means a lot and tells me to keep going.
 | Melius | Software Engineering Intern [Fall/Winter 2026] | Software | New York City | TypeScript, LLMs, React, Next.js | Jul 30, 2026 | [Apply](https://jobs.ashbyhq.com/melius/6a944911-dbbf-44c7-ba52-7866f7b433cf) |
 | Astranis | Software Engineer Intern - Enterprise Systems (Fall 2026) 🇺🇸 | Software | San Francisco, CA | Python | Jul 23, 2026 | [Apply](https://job-boards.greenhouse.io/astranis/jobs/4699071006) |
 | Red Bull | 2026 Internship, Fall - Data Science | Data & ML/AI | Morristown, NJ, United States | SQL | Jul 22, 2026 | [Apply](https://jobs.smartrecruiters.com/RedBull/744000139168339) |
+| Louisiana Blue | Healthcare Price and Transparency Data Analyst Intern | Data & ML/AI | Corporate - Baton Rouge, LA | SQL, Tableau | Jul 20, 2026 | [Apply](https://bcbsla.wd1.myworkdayjobs.com/Generation_Blue/job/Corporate---Baton-Rouge-LA/Healthcare-Price-and-Transparency-Data-Analyst-Intern_R11903) |
 | Deepgram 🆁 | Software Engineering- Internship (Fall 2026/Summer 2027) _(also open for Summer 2027)_ | Software | USA / Remote | LLMs | Jul 17, 2026 | [Apply](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
 | Moog | Intern, IT Computer Science - Data Analytics | Data & ML/AI | Buffalo, NY | No skills listed | Jul 16, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Data-Analytics_R-26-17145) |
 | NVIDIA ✓ | Applied Research Intern, NLP - Fall 2026 | Data & ML/AI | US, CA, Santa Clara | Python, PyTorch | Jul 01, 2026 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488) |
@@ -357,6 +357,7 @@ _Why each one left is in the last column, because the two reasons carry differen
 
 | Company | Role | Cycle | Closed | Why |
 |---|---|---|---|---|
+| Axon | 2027 US Software Engineering Internship | Summer 2027 | 2026-08-25 | out of scope |
 | The Hartford | Tech & Data Summer Program 2027 - Software Engineer Intern (Columbus) | Summer 2027 | 2026-08-25 | gone from feed |
 | Replit | Software Engineering Intern (Summer 2027) | Summer 2027 | 2026-08-24 | gone from feed |
 | Northrop Grumman | 2027 Intern Software Engineer | Summer 2027 | 2026-08-24 | out of scope |
@@ -366,7 +367,6 @@ _Why each one left is in the last column, because the two reasons carry differen
 | InfiniteQuant | Quantitative Developer - Internship - Summer 2027 | Summer 2027 | 2026-08-24 | gone from feed |
 | InfiniteQuant | Quantitative Developer - Internship - Summer 2027 | Summer 2027 | 2026-08-24 | gone from feed |
 | Toshiba Global Commerce | AI Software Engineering Intern | Fall 2026 | 2026-08-22 | gone from feed |
-| Louisiana Blue | Healthcare Price and Transparency Data Analyst Intern | Fall 2026 | 2026-08-21 | gone from feed |
 | Astranis | Software Engineer- Backend Intern (Fall 2026) | Fall 2026 | 2026-08-21 | gone from feed |
 | General Dynamics Information Technology | Summer 2027 Software Development Internship | Summer 2027 | 2026-08-20 | gone from feed |
 | Axon | US Firmware Engineering Internship | Summer 2027 | 2026-08-20 | gone from feed |
@@ -403,7 +403,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,184 of 4,528 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 1049.7s · 570 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,172 of 4,528 registered boards returned successfully across 12 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 891.9s · 558 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
