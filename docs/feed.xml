@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-25T02:04:46Z</updated>
+  <updated>2026-08-25T03:26:35Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:morsecorpcoop:7968605003</id>
+    <title>Meridian Partners: Embedded Software Engineer Co-op 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968605003"/>
+    <updated>2026-08-25T03:26:35Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Cambridge, MA · Python, C++, Rust · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:morsecorpcoop:7968308003</id>
+    <title>Meridian Partners: Machine Learning Engineer Co-op 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968308003"/>
+    <updated>2026-08-25T03:26:35Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Cambridge, MA, Arlington, VA, Seattle, WA · Python, LLMs, Computer Vision, AWS, Azure · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:morsecorpcoop:7968485003</id>
+    <title>Meridian Partners: Python Software Engineer Graduate Co-op 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968485003"/>
+    <updated>2026-08-25T03:26:35Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Cambridge, MA, Arlington, VA, Seattle, WA · Python, AWS, Azure, Docker, Git · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:morsecorpcoop:7967400003</id>
+    <title>Meridian Partners: Flight Software Engineer Co-op</title>
+    <link href="https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967400003"/>
+    <updated>2026-08-25T02:04:46Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Cambridge, MA · Python, C++, Rust, Linux</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:morsecorpcoop:7967614003</id>
     <title>Meridian Partners: Cloud Software Engineer Co-op</title>
@@ -22,14 +54,6 @@
     <updated>2026-08-25T02:04:46Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Cambridge, MA, Arlington, VA · Python, scikit-learn, Pandas, LLMs, Computer Vision · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:morsecorpcoop:7967400003</id>
-    <title>Meridian Partners: Flight Software Engineer Co-op</title>
-    <link href="https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967400003"/>
-    <updated>2026-08-25T02:04:46Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Cambridge, MA · Python, C++, Rust, Linux</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:morsecorpcoop:7968076003</id>
@@ -782,29 +806,5 @@
     <updated>2026-08-17T21:50:30Z</updated>
     <category term="Winter 2027"/>
     <summary>Winter 2027 · Security · Oklahoma City, Oklahoma · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:americanfidelity:/job/Oklahoma-City-Oklahoma/Software-Mobile-Intern--OKC-Local-Only-_JR1021</id>
-    <title>American Fidelity: Software Mobile Intern (OKC Local Only)</title>
-    <link href="https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Mobile-Intern--OKC-Local-Only-_JR1021"/>
-    <updated>2026-08-17T21:50:30Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · Oklahoma City, Oklahoma · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:conagrabrands:/job/Omaha-Nebraska/IT-Infrastructure-Internship---Summer-2027_Req-039788</id>
-    <title>Conagra Brands: IT Infrastructure Internship - Summer 2027</title>
-    <link href="https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/IT-Infrastructure-Internship---Summer-2027_Req-039788"/>
-    <updated>2026-08-17T21:50:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Omaha, Nebraska · H-1B track record: ~14 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:conagrabrands:/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787</id>
-    <title>Conagra Brands: Software Development Internship - Summer 2027</title>
-    <link href="https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787"/>
-    <updated>2026-08-17T21:50:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Omaha, Nebraska · $23/hr · Azure, Git · H-1B track record: ~14 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
