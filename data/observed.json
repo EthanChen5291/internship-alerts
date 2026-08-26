@@ -763,12 +763,15 @@
     "Summer 2027": {
      "first_posted": "2026-08-24",
      "role_ids": [
+      "workday:thehartford:/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Charlotte-_R2626648",
+      "workday:thehartford:/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Charlotte-_R2626649",
+      "workday:thehartford:/job/Chicago-IL/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Chicago-_R2626650",
       "workday:thehartford:/job/Columbus-OH/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Columbus-_R2626610",
       "workday:thehartford:/job/Columbus-OH/Tech---Data-Summer-Program-2027---Software-Engineer-Intern--Columbus-_R2626609",
       "workday:thehartford:/job/Hartford-CT/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Hartford-_R2626103-1",
       "workday:thehartford:/job/Hartford-CT/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Hartford-_R2626105-1"
      ],
-     "count": 4
+     "count": 7
     }
    }
   },
@@ -1001,9 +1004,15 @@
     "Summer 2027": {
      "first_posted": "2026-07-29",
      "role_ids": [
-      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311"
+      "workday:leidos:/job/Alexandria-VA/Cybersecurity-Analyst-Intern_R-00190671",
+      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311",
+      "workday:leidos:/job/Odenton-MD/Cybersecurity-Analyst-Intern_R-00190663",
+      "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00190665",
+      "workday:leidos:/job/Shiloh-IL/Cybersecurity-Analyst-Intern_R-00190667",
+      "workday:leidos:/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664",
+      "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 1
+     "count": 7
     }
    }
   },
@@ -1906,6 +1915,18 @@
     }
    }
   },
+  "wavetronix": {
+   "name": "Wavetronix",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-26",
+     "role_ids": [
+      "breezy:wavetronix:565668353504"
+     ],
+     "count": 1
+    }
+   }
+  },
   "western digital": {
    "name": "Western Digital",
    "cycles": {
@@ -1959,5 +1980,5 @@
    }
   }
  },
- "updated_at": "2026-08-26T17:14:22Z"
+ "updated_at": "2026-08-26T19:35:41Z"
 }
