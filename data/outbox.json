@@ -1,18 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "smartrecruiters:AbbVie:3743990014860391",
-      "smartrecruiters:AbbVie:3743990014860456",
-      "smartrecruiters:AbbVie:3743990014860211",
-      "smartrecruiters:AbbVie:3743990014860386",
-      "smartrecruiters:AbbVie:3743990014860306"
-    ],
-    "telegram": [
-      "smartrecruiters:AbbVie:3743990014860391",
-      "smartrecruiters:AbbVie:3743990014860456",
-      "smartrecruiters:AbbVie:3743990014860211",
-      "smartrecruiters:AbbVie:3743990014860386",
-      "smartrecruiters:AbbVie:3743990014860306"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
