@@ -1,16 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "workday:aoins:/job/Lansing-MI/Software-Developer-Internship_R_2121",
-      "lever:economicmodeling:a6d45716-c743-4013-a1d8-310850c115f9",
-      "workday:ancestry:/job/Draper-Utah/Software-Engineer---Observability--Co-op_R003434",
-      "workday:chemours:/job/US---Remote/AI---Data-Science-Intern_JR15013"
-    ],
-    "telegram": [
-      "workday:aoins:/job/Lansing-MI/Software-Developer-Internship_R_2121",
-      "lever:economicmodeling:a6d45716-c743-4013-a1d8-310850c115f9",
-      "workday:ancestry:/job/Draper-Utah/Software-Engineer---Observability--Co-op_R003434",
-      "workday:chemours:/job/US---Remote/AI---Data-Science-Intern_JR15013"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
