@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-26T11:06:00Z</updated>
+  <updated>2026-08-26T11:59:04Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:fanniemae:/job/Washington-DC/Campus---Treasury---Capital-Markets-Program-Intern--Quantitative-Research-Track-_JR2872</id>
+    <title>Fannie Mae: Campus – Treasury &amp; Capital Markets Program Intern (Quantitative Research Track) 🛂</title>
+    <link href="https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Washington-DC/Campus---Treasury---Capital-Markets-Program-Intern--Quantitative-Research-Track-_JR2872"/>
+    <updated>2026-08-26T11:59:04Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Quant · Washington, DC · Python, SQL · sponsorship: no-sponsorship · H-1B track record: ~66 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:maximor:3ff6e57d-5430-4836-b6f0-19044d8ee6d8</id>
     <title>Maximor AI: Software engineering Intern</title>
@@ -798,13 +806,5 @@
     <updated>2026-08-19T22:52:54Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Los Angeles, CA · $32–$46/hr · Python, C++, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:copart:/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631</id>
-    <title>Copart: Site Reliability Engineer Intern</title>
-    <link href="https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631"/>
-    <updated>2026-08-19T22:14:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Dallas, TX - Headquarters · Python, AWS, GCP, Kubernetes, Linux · H-1B track record: ~83 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
