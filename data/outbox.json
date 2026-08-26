@@ -1,6 +1,12 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "greenhouse:cssmerge:8695475002",
+      "greenhouse:whitewatermidstream:5217853007"
+    ],
+    "telegram": [
+      "greenhouse:cssmerge:8695475002",
+      "greenhouse:whitewatermidstream:5217853007"
+    ]
   }
 }

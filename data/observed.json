@@ -1909,6 +1909,18 @@
     }
    }
   },
+  "whitewater midstream": {
+   "name": "WhiteWater Midstream",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-26",
+     "role_ids": [
+      "greenhouse:whitewatermidstream:5217853007"
+     ],
+     "count": 1
+    }
+   }
+  },
   "xantium": {
    "name": "Xantium",
    "cycles": {
@@ -1935,5 +1947,5 @@
    }
   }
  },
- "updated_at": "2026-08-26T14:40:42Z"
+ "updated_at": "2026-08-26T16:20:35Z"
 }
