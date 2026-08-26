@@ -1324,6 +1324,18 @@
     }
    }
   },
+  "qts": {
+   "name": "QTS",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-26",
+     "role_ids": [
+      "workday:qtsdatacenters:/job/Irving-TX/Summer-2027-Internship--Internal-Data-Center-Infrastructure-Projects_R2026-1906"
+     ],
+     "count": 1
+    }
+   }
+  },
   "quadrillion": {
    "name": "Quadrillion",
    "cycles": {
@@ -1923,5 +1935,5 @@
    }
   }
  },
- "updated_at": "2026-08-26T13:29:18Z"
+ "updated_at": "2026-08-26T14:40:42Z"
 }
