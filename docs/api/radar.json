@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-26T19:35:41Z",
- "data_as_of": "2026-08-26T19:35:41Z",
- "rendered_at": "2026-08-26T19:35:42Z",
+ "generated_at": "2026-08-26T22:45:27Z",
+ "data_as_of": "2026-08-26T22:45:27Z",
+ "rendered_at": "2026-08-26T22:45:27Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -415,7 +415,7 @@
    "expected": "2026-07-29",
    "days_until": -28,
    "status": "open",
-   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Odenton-MD/Cybersecurity-Analyst-Intern_R-00190663",
+   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Alexandria-VA/Cybersecurity-Analyst-Intern_R-00190671",
    "note": "fall opening, clearance common",
    "provenance": {
     "type": "engine-observed",
@@ -1137,7 +1137,7 @@
    "expected": "2026-08-24",
    "days_until": -2,
    "status": "open",
-   "url": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Columbus-OH/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Columbus-_R2626610",
+   "url": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Charlotte-NC/Tech---Data-Program-Summer-2027---Data-Engineer-Intern--Charlotte-_R2626648",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -1238,6 +1238,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-25"
+   }
+  },
+  {
+   "company": "Auto-Owners Insurance",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-26",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-26",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Software-Developer-Internship_R_2121",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-26"
    }
   },
   {
@@ -4148,5 +4167,5 @@
    }
   }
  ],
- "count": 218
+ "count": 219
 }

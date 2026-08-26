@@ -245,6 +245,18 @@
     }
    }
   },
+  "auto owners insurance": {
+   "name": "Auto-Owners Insurance",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-26",
+     "role_ids": [
+      "workday:aoins:/job/Lansing-MI/Software-Developer-Internship_R_2121"
+     ],
+     "count": 1
+    }
+   }
+  },
   "axon": {
    "name": "Axon",
    "cycles": {
@@ -1980,5 +1992,5 @@
    }
   }
  },
- "updated_at": "2026-08-26T19:35:41Z"
+ "updated_at": "2026-08-26T22:45:27Z"
 }
