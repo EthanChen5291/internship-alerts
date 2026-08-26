@@ -1,6 +1,12 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com:4682",
+      "smartrecruiters:BoschGroup:744000145785190"
+    ],
+    "telegram": [
+      "oracle:fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com:4682",
+      "smartrecruiters:BoschGroup:744000145785190"
+    ]
   }
 }

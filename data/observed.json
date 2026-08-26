@@ -1780,6 +1780,18 @@
     }
    }
   },
+  "verisk": {
+   "name": "Verisk",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-26",
+     "role_ids": [
+      "oracle:fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com:4682"
+     ],
+     "count": 1
+    }
+   }
+  },
   "verkada": {
    "name": "Verkada",
    "cycles": {
@@ -1947,5 +1959,5 @@
    }
   }
  },
- "updated_at": "2026-08-26T16:20:35Z"
+ "updated_at": "2026-08-26T17:14:22Z"
 }
