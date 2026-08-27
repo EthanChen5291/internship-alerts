@@ -1,6 +1,32 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:ehzq.fa.us2.oraclecloud.com:115640",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115681",
+      "workday:ambarella:/job/US-Headquarters/Software-Development-Engineer-Intern_JR100366-1",
+      "workday:ambarella:/job/US-Headquarters/Software-Architecture-Engineer-Intern_JR100365",
+      "workday:ambarella:/job/US-Headquarters/Software-Engineer-Intern_JR100363",
+      "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Data-Scientist-Intern---McLean--VA_R0248037",
+      "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Data-Scientist-Intern---San-Diego--CA_R0248045",
+      "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Software-Developer-Intern---El-Segundo--CA_R0248046",
+      "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Cyber-Security-Intern---El-Segundo--CA_R0248047",
+      "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0248038",
+      "workday:psecu:/job/Harrisburg-PA/Data-Analyst-Intern_JR100964",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Software-Engineering-Intern-Summer-2027-_01870349-1"
+    ],
+    "telegram": [
+      "oracle:ehzq.fa.us2.oraclecloud.com:115640",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115681",
+      "workday:ambarella:/job/US-Headquarters/Software-Development-Engineer-Intern_JR100366-1",
+      "workday:ambarella:/job/US-Headquarters/Software-Architecture-Engineer-Intern_JR100365",
+      "workday:ambarella:/job/US-Headquarters/Software-Engineer-Intern_JR100363",
+      "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Data-Scientist-Intern---McLean--VA_R0248037",
+      "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Data-Scientist-Intern---San-Diego--CA_R0248045",
+      "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Software-Developer-Intern---El-Segundo--CA_R0248046",
+      "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Cyber-Security-Intern---El-Segundo--CA_R0248047",
+      "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0248038",
+      "workday:psecu:/job/Harrisburg-PA/Data-Analyst-Intern_JR100964",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Software-Engineering-Intern-Summer-2027-_01870349-1"
+    ]
   }
 }

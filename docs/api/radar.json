@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-27T03:49:14Z",
- "data_as_of": "2026-08-27T03:49:14Z",
- "rendered_at": "2026-08-27T03:49:14Z",
+ "generated_at": "2026-08-27T14:52:42Z",
+ "data_as_of": "2026-08-27T14:52:42Z",
+ "rendered_at": "2026-08-27T14:52:42Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships",
  "companies": [
@@ -1352,6 +1352,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-26"
+   }
+  },
+  {
+   "company": "Booz Allen",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-27",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-27",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---2027-Summer-Games-Data-Scientist-Intern---McLean--VA_R0248037",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-27"
    }
   },
   {
@@ -4167,5 +4186,5 @@
    }
   }
  ],
- "count": 219
+ "count": 220
 }

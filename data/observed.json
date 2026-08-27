@@ -324,6 +324,22 @@
     }
    }
   },
+  "booz allen": {
+   "name": "Booz Allen",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-27",
+     "role_ids": [
+      "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Cyber-Security-Intern---El-Segundo--CA_R0248047",
+      "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Software-Developer-Intern---El-Segundo--CA_R0248046",
+      "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Data-Scientist-Intern---McLean--VA_R0248037",
+      "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Data-Scientist-Intern---San-Diego--CA_R0248045",
+      "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0248038"
+     ],
+     "count": 5
+    }
+   }
+  },
   "brunswick": {
    "name": "Brunswick",
    "cycles": {
@@ -763,9 +779,11 @@
      "first_posted": "2026-08-25",
      "role_ids": [
       "oracle:ehzq.fa.us2.oraclecloud.com:115449",
-      "oracle:ehzq.fa.us2.oraclecloud.com:115637"
+      "oracle:ehzq.fa.us2.oraclecloud.com:115637",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115640",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115681"
      ],
-     "count": 2
+     "count": 4
     }
    }
   },
@@ -1484,6 +1502,7 @@
      "first_posted": "2026-08-04",
      "role_ids": [
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01867129",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Software-Engineering-Intern-Summer-2027-_01870349-1",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01868241",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Summer-Fall-2027---Onsite-_01869518",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern--Summer-2027-_01866136",
@@ -1492,7 +1511,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324"
      ],
-     "count": 8
+     "count": 9
     }
    }
   },
@@ -1992,5 +2011,5 @@
    }
   }
  },
- "updated_at": "2026-08-27T03:49:14Z"
+ "updated_at": "2026-08-27T14:52:42Z"
 }

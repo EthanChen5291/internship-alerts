@@ -5,8 +5,96 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-27T03:49:14Z</updated>
+  <updated>2026-08-27T14:52:42Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:ehzq.fa.us2.oraclecloud.com:115640</id>
+    <title>Grant Thornton: Cybersecurity and Privacy Intern - Summer 2027 🛂</title>
+    <link href="https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115640"/>
+    <updated>2026-08-27T14:52:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Chicago, IL, United States · $37/hr · sponsorship: no-sponsorship · H-1B track record: ~118 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:ehzq.fa.us2.oraclecloud.com:115681</id>
+    <title>Grant Thornton: AI, Data &amp; Technology Intern - Summer 2027 🛂</title>
+    <link href="https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115681"/>
+    <updated>2026-08-27T14:52:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Chicago, IL, United States · $37/hr · sponsorship: no-sponsorship · H-1B track record: ~118 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ambarella:/job/US-Headquarters/Software-Development-Engineer-Intern_JR100366-1</id>
+    <title>Ambarella: Software Development Engineer Intern</title>
+    <link href="https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Development-Engineer-Intern_JR100366-1"/>
+    <updated>2026-08-27T14:52:42Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · US Headquarters · Python, C++, Computer Vision · H-1B track record: ~26 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ambarella:/job/US-Headquarters/Software-Architecture-Engineer-Intern_JR100365</id>
+    <title>Ambarella: Software Architecture Engineer Intern</title>
+    <link href="https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Architecture-Engineer-Intern_JR100365"/>
+    <updated>2026-08-27T14:52:42Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · US Headquarters · Python, C++, TensorFlow, Computer Vision · H-1B track record: ~26 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ambarella:/job/US-Headquarters/Software-Engineer-Intern_JR100363</id>
+    <title>Ambarella: Software Engineer Intern</title>
+    <link href="https://ambarella.wd108.myworkdayjobs.com/ambarella/job/US-Headquarters/Software-Engineer-Intern_JR100363"/>
+    <updated>2026-08-27T14:52:42Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · US Headquarters · Python, C++, PyTorch, TensorFlow · H-1B track record: ~26 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/McLean-VA/University---2027-Summer-Games-Data-Scientist-Intern---McLean--VA_R0248037</id>
+    <title>Booz Allen: University - 2027 Summer Games Data Scientist Intern - McLean, VA 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---2027-Summer-Games-Data-Scientist-Intern---McLean--VA_R0248037"/>
+    <updated>2026-08-27T14:52:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · McLean, VA · $141k/yr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Data-Scientist-Intern---San-Diego--CA_R0248045</id>
+    <title>Booz Allen: University - 2027 Summer Games Data Scientist Intern - San Diego, CA 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/University---2027-Summer-Games-Data-Scientist-Intern---San-Diego--CA_R0248045"/>
+    <updated>2026-08-27T14:52:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · San Diego, CA · $141k/yr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Software-Developer-Intern---El-Segundo--CA_R0248046</id>
+    <title>Booz Allen: University - 2027 Summer Games Software Developer Intern - El Segundo, CA 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/El-Segundo-CA/University---2027-Summer-Games-Software-Developer-Intern---El-Segundo--CA_R0248046"/>
+    <updated>2026-08-27T14:52:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · El Segundo, CA · $108k/yr · Python, Java, C++, JavaScript, Bash · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Cyber-Security-Intern---El-Segundo--CA_R0248047</id>
+    <title>Booz Allen: University - 2027 Summer Games Cyber Security Intern - El Segundo, CA 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/El-Segundo-CA/University---2027-Summer-Games-Cyber-Security-Intern---El-Segundo--CA_R0248047"/>
+    <updated>2026-08-27T14:52:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · El Segundo, CA · $108k/yr · Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0248038</id>
+    <title>Booz Allen: University - 2027 Summer Games Software Developer Intern - San Diego, CA 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0248038"/>
+    <updated>2026-08-27T14:52:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Diego, CA · $108k/yr · Python, Java, C++, JavaScript, Bash · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Software-Engineering-Intern-Summer-2027-_01870349-1</id>
+    <title>RTX: Software Engineering Intern(Summer 2027)</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Software-Engineering-Intern-Summer-2027-_01870349-1"/>
+    <updated>2026-08-27T14:52:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-106 ~ 400 Collins Rd NE ~ BLDG 106 · Python, C++, Git</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:oracle:egua.fa.us2.oraclecloud.com:25529</id>
     <title>Conduent: Applied AI Engineer Intern</title>
@@ -718,93 +806,5 @@
     <updated>2026-08-24T13:27:59Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Pittsburgh, PA, United States · Python, Java, JavaScript, HTML/CSS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:eofe.fa.us2.oraclecloud.com:81251</id>
-    <title>BNY: 2027 BNY Summer Internship Program - Engineering (Developer) - Jersey City, NJ</title>
-    <link href="https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81251"/>
-    <updated>2026-08-24T13:27:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Jersey City, NJ, United States · Python, Java, JavaScript, HTML/CSS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:eofe.fa.us2.oraclecloud.com:81252</id>
-    <title>BNY: 2027 BNY Summer Internship Program - Engineering (Developer) - Lake Mary, FL</title>
-    <link href="https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81252"/>
-    <updated>2026-08-24T13:27:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Lake Mary, FL, United States · Python, Java, JavaScript, HTML/CSS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:eofe.fa.us2.oraclecloud.com:81253</id>
-    <title>BNY: 2027 BNY Summer Internship Program - Engineering (Developer) - New York, NY</title>
-    <link href="https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81253"/>
-    <updated>2026-08-24T13:27:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY, United States · Python, Java, JavaScript, HTML/CSS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:eofe.fa.us2.oraclecloud.com:81254</id>
-    <title>BNY: 2027 BNY Summer Internship Program - Engineering (Developer) - Pittsburgh, PA</title>
-    <link href="https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81254"/>
-    <updated>2026-08-24T13:27:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Pittsburgh, PA, United States · Python, Java, JavaScript, HTML/CSS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:InfiniteQuant:744000145263134</id>
-    <title>InfiniteQuant: Quantitative Developer - Internship - Summer 2027</title>
-    <link href="https://jobs.smartrecruiters.com/InfiniteQuant/744000145263134"/>
-    <updated>2026-08-24T13:27:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · New York, New York, United States (Remote) · Python, C++</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:InfiniteQuant:744000145264634</id>
-    <title>InfiniteQuant: Quantitative Researcher - Internship - Summer 2027</title>
-    <link href="https://jobs.smartrecruiters.com/InfiniteQuant/744000145264634"/>
-    <updated>2026-08-24T13:27:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · New York, NY, United States · Python, C++, Pandas</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:audaxgroup:4722770005</id>
-    <title>Audax Group: Data Engineer Co-Op</title>
-    <link href="https://job-boards.greenhouse.io/audaxgroup/jobs/4722770005"/>
-    <updated>2026-08-24T10:35:13Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Data &amp; ML/AI · New York, New York, United States · Python, Java, SQL · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:audaxgroup:4722779005</id>
-    <title>Audax Group: Data Engineer CO-OP</title>
-    <link href="https://job-boards.greenhouse.io/audaxgroup/jobs/4722779005"/>
-    <updated>2026-08-24T10:35:13Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Data &amp; ML/AI · Boston, MA · Python, Java, SQL · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:audaxgroup:4722801005</id>
-    <title>Audax Group: AI Engineer Co-Op</title>
-    <link href="https://job-boards.greenhouse.io/audaxgroup/jobs/4722801005"/>
-    <updated>2026-08-24T10:35:13Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Data &amp; ML/AI · Boston, MA · Python, SQL, Azure, Git, Snowflake · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:ambrook:e458b046-aa7f-4022-bca5-63cdfd495456</id>
-    <title>Ambrook: Software Engineering Intern</title>
-    <link href="https://jobs.ashbyhq.com/ambrook/e458b046-aa7f-4022-bca5-63cdfd495456"/>
-    <updated>2026-08-22T09:52:26Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York · $2K per week • + housing stipend. · TypeScript, React, Next.js, GCP, PostgreSQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:weave:1318e017-3ea6-4a1f-aac7-1c11a46cda8d</id>
-    <title>Weave: Data Engineer Intern</title>
-    <link href="https://jobs.ashbyhq.com/weave/1318e017-3ea6-4a1f-aac7-1c11a46cda8d"/>
-    <updated>2026-08-22T09:52:26Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Weave - Headquarters (Lehi, UT) · Python, SQL, Git, Snowflake</summary>
   </entry>
 </feed>
