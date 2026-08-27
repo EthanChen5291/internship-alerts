@@ -1,12 +1,6 @@
 {
   "pending": {
-    "discord": [
-      "oracle:egua.fa.us2.oraclecloud.com:25529",
-      "greenhouse:axontalentcommunity:7800628003"
-    ],
-    "telegram": [
-      "oracle:egua.fa.us2.oraclecloud.com:25529",
-      "greenhouse:axontalentcommunity:7800628003"
-    ]
+    "discord": [],
+    "telegram": []
   }
 }
