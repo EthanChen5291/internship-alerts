@@ -178,6 +178,18 @@
     }
    }
   },
+  "anavation": {
+   "name": "AnaVation",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-27",
+     "role_ids": [
+      "lever:anavationllc:f7c83978-8510-409c-a5a3-17618511f819"
+     ],
+     "count": 1
+    }
+   }
+  },
   "anduril": {
    "name": "Anduril",
    "cycles": {
@@ -349,13 +361,29 @@
     "Summer 2027": {
      "first_posted": "2026-08-27",
      "role_ids": [
+      "workday:bah:/job/Atlanta-GA/University---2027-Summer-Games-Cyber-Security-Intern---Atlanta--GA_R0248139",
+      "workday:bah:/job/Atlanta-GA/University---2027-Summer-Games-Software-Developer-Intern---Atlanta--GA_R0248138",
+      "workday:bah:/job/Atlanta-GA/University--2027-Summer-Games-Data-Scientist-Intern_R0248140",
+      "workday:bah:/job/Charleston-SC/University---2027-Summer-Games-Cyber-Security-Intern---Charleston--SC_R0248136",
+      "workday:bah:/job/Charleston-SC/University---2027-Summer-Games-Data-Scientist-Intern_R0248137",
+      "workday:bah:/job/Charleston-SC/University---2027-Summer-Games-Software-Developer-Intern_R0248134",
+      "workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Cybersecurity-Intern_R0248131",
+      "workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Data-Scientist-Intern_R0248132",
+      "workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Software-Developer-Intern_R0248130",
       "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Cyber-Security-Intern---El-Segundo--CA_R0248047",
       "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Software-Developer-Intern---El-Segundo--CA_R0248046",
+      "workday:bah:/job/El-Segundo-CA/University--2027-Summer-Games-Data-Scientist-Intern_R0248050",
+      "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0248034",
       "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Data-Scientist-Intern---McLean--VA_R0248037",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern_R0248029",
+      "workday:bah:/job/Rome-NY/University--2027-Summer-Games-Cyber-Security-Intern_R0248142",
+      "workday:bah:/job/Rome-NY/University--2027-Summer-Games-Data-Scientist-Intern_R0248143",
+      "workday:bah:/job/Rome-NY/University--2027-Summer-Games-Software-Developer-Intern_R0248141",
       "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Data-Scientist-Intern---San-Diego--CA_R0248045",
-      "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0248038"
+      "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0248038",
+      "workday:bah:/job/San-Diego-CA/University--2027-Summer-Games-Cyber-Security-Intern_R0248043"
      ],
-     "count": 5
+     "count": 21
     }
    }
   },
@@ -433,6 +461,18 @@
     }
    }
   },
+  "charles river associates cra": {
+   "name": "Charles River Associates (CRA)",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-28",
+     "role_ids": [
+      "greenhouse:charlesriverassociates:8128811"
+     ],
+     "count": 1
+    }
+   }
+  },
   "charlesriveranalytics90": {
    "name": "Charlesriveranalytics90",
    "cycles": {
@@ -487,10 +527,11 @@
     "Summer 2027": {
      "first_posted": "2026-08-17",
      "role_ids": [
+      "workday:conagrabrands:/job/Omaha-Nebraska/Cybersecurity-Internship---Summer-2027_Req-039965",
       "workday:conagrabrands:/job/Omaha-Nebraska/IT-Infrastructure-Internship---Summer-2027_Req-039788",
       "workday:conagrabrands:/job/Omaha-Nebraska/Software-Development-Internship---Summer-2027_Req-039787"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -800,9 +841,10 @@
       "oracle:ehzq.fa.us2.oraclecloud.com:115449",
       "oracle:ehzq.fa.us2.oraclecloud.com:115637",
       "oracle:ehzq.fa.us2.oraclecloud.com:115640",
-      "oracle:ehzq.fa.us2.oraclecloud.com:115681"
+      "oracle:ehzq.fa.us2.oraclecloud.com:115681",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115687"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -857,10 +899,11 @@
     "Summer 2027": {
      "first_posted": "2026-08-11",
      "role_ids": [
+      "workday:hp:/job/Corvallis-Oregon-United-States-of-America/Software-and-Engineering-Intern-Roles---Imaging-and-Print_3168142-1",
       "workday:hp:/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-2",
       "workday:hp:/job/Spring-Texas-United-States-of-America/Software-Internship-Roles---HP-Solutions--HPS-_3167906-1"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -1092,6 +1135,18 @@
     }
    }
   },
+  "mastercard": {
+   "name": "Mastercard",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-28",
+     "role_ids": [
+      "workday:mastercard:/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284869"
+     ],
+     "count": 1
+    }
+   }
+  },
   "medtronic": {
    "name": "Medtronic",
    "cycles": {
@@ -1175,9 +1230,10 @@
      "first_posted": "2026-08-14",
      "role_ids": [
       "workday:motorolasolutions:/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R67740",
-      "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1"
+      "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
+      "workday:motorolasolutions:/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -1689,6 +1745,18 @@
     }
    }
   },
+  "stantec": {
+   "name": "Stantec",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-28",
+     "role_ids": [
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007361"
+     ],
+     "count": 1
+    }
+   }
+  },
   "state street": {
    "name": "State Street",
    "cycles": {
@@ -2045,5 +2113,5 @@
    }
   }
  },
- "updated_at": "2026-08-28T12:28:43Z"
+ "updated_at": "2026-08-28T22:53:36Z"
 }
