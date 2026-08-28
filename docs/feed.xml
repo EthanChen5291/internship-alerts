@@ -5,23 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-28T00:39:24Z</updated>
+  <updated>2026-08-28T12:28:43Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:leidos:/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764</id>
-    <title>Leidos: Cybersecurity Engineer Co-op</title>
-    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764"/>
+    <id>urn:intern-engine:amazon:amazon:10517149</id>
+    <title>Amazon: Robotics - Software Development Engineer Fall Intern/Co-op - 2026</title>
+    <link href="https://www.amazon.jobs/en/jobs/10517149/robotics-software-development-engineer-fall-intern-co-op-2026"/>
     <updated>2026-08-28T00:39:24Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Security · Bethesda, MD · Linux · status: closed · H-1B track record: ~79 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:leidos:/job/Bethesda-MD/Software-Developer-Co-op_R-00190766</id>
-    <title>Leidos: Software Developer Co-op</title>
-    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Software-Developer-Co-op_R-00190766"/>
-    <updated>2026-08-28T00:39:24Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · Bethesda, MD · C++, Linux · status: closed · H-1B track record: ~79 approvals (FY2022–2023)</summary>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Hardware · Westboro, Massachusetts, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10517567</id>
@@ -32,14 +24,6 @@
     <summary>Summer 2027 · Software · Cupertino, California, USA · Python, Java, C++, PyTorch, TensorFlow · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:amazon:amazon:10517149</id>
-    <title>Amazon: Robotics - Software Development Engineer Fall Intern/Co-op - 2026</title>
-    <link href="https://www.amazon.jobs/en/jobs/10517149/robotics-software-development-engineer-fall-intern-co-op-2026"/>
-    <updated>2026-08-28T00:39:24Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Hardware · Westboro, Massachusetts, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:ashby:blockhouse:2e9fbde8-709c-4c1f-b908-cd51a53c8529</id>
     <title>Blockhouse: Applied AI Engineering Intern</title>
     <link href="https://jobs.ashbyhq.com/blockhouse/2e9fbde8-709c-4c1f-b908-cd51a53c8529"/>
@@ -48,28 +32,12 @@
     <summary>Not stated · Data &amp; ML/AI · New York City Area · $30–$40/hr · Python, Rust, LLMs, Kubernetes, Docker</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:abb:/job/Milpitas-California-USA/Physical-AI-Robotics-Simulation-Intern--Fall-2026_JR00044848-1</id>
-    <title>ABB: Physical AI Robotics Simulation Intern- Fall 2026</title>
-    <link href="https://abb.wd3.myworkdayjobs.com/external_career_page/job/Milpitas-California-USA/Physical-AI-Robotics-Simulation-Intern--Fall-2026_JR00044848-1"/>
-    <updated>2026-08-28T00:39:24Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Milpitas, California, USA · $20–$34/hr · H-1B track record: ~69 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:abb:/job/Milpitas-California-USA/AI-Robotics-UI-UX-Intern--Fall-2026_JR00044847-1</id>
-    <title>ABB: AI Robotics UI/UX Intern- Fall 2026</title>
-    <link href="https://abb.wd3.myworkdayjobs.com/external_career_page/job/Milpitas-California-USA/AI-Robotics-UI-UX-Intern--Fall-2026_JR00044847-1"/>
-    <updated>2026-08-28T00:39:24Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Milpitas, California, USA · $20–$34/hr · TypeScript, JavaScript, React, Angular, HTML/CSS · H-1B track record: ~69 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:AbbVie:3743990014900536</id>
+    <id>urn:intern-engine:smartrecruiters:AbbVie:3743990014896329</id>
     <title>AbbVie: 2027 Business Technology Solutions Intern - Cybersecurity (Undergraduate)</title>
-    <link href="https://jobs.smartrecruiters.com/AbbVie/3743990014900536"/>
+    <link href="https://jobs.smartrecruiters.com/AbbVie/3743990014896329"/>
     <updated>2026-08-28T00:39:24Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · South San Francisco, CA, United States (Hybrid) · Python, Java, C#, JavaScript, HTML/CSS · H-1B track record: ~303 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Security · North Chicago, IL, United States (Hybrid) · Python, Java, C#, JavaScript, HTML/CSS · H-1B track record: ~303 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:AbbVie:3743990014900496</id>
@@ -80,12 +48,28 @@
     <summary>Summer 2027 · Security · Irvine, CA, United States (Hybrid) · Python, Java, C#, JavaScript, HTML/CSS · H-1B track record: ~303 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:AbbVie:3743990014896329</id>
+    <id>urn:intern-engine:smartrecruiters:AbbVie:3743990014900536</id>
     <title>AbbVie: 2027 Business Technology Solutions Intern - Cybersecurity (Undergraduate)</title>
-    <link href="https://jobs.smartrecruiters.com/AbbVie/3743990014896329"/>
+    <link href="https://jobs.smartrecruiters.com/AbbVie/3743990014900536"/>
     <updated>2026-08-28T00:39:24Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · North Chicago, IL, United States (Hybrid) · Python, Java, C#, JavaScript, HTML/CSS · H-1B track record: ~303 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Security · South San Francisco, CA, United States (Hybrid) · Python, Java, C#, JavaScript, HTML/CSS · H-1B track record: ~303 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:abb:/job/Milpitas-California-USA/AI-Robotics-UI-UX-Intern--Fall-2026_JR00044847-1</id>
+    <title>ABB: AI Robotics UI/UX Intern- Fall 2026</title>
+    <link href="https://abb.wd3.myworkdayjobs.com/external_career_page/job/Milpitas-California-USA/AI-Robotics-UI-UX-Intern--Fall-2026_JR00044847-1"/>
+    <updated>2026-08-28T00:39:24Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Milpitas, California, USA · $20–$34/hr · TypeScript, JavaScript, React, Angular, HTML/CSS · H-1B track record: ~69 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:abb:/job/Milpitas-California-USA/Physical-AI-Robotics-Simulation-Intern--Fall-2026_JR00044848-1</id>
+    <title>ABB: Physical AI Robotics Simulation Intern- Fall 2026</title>
+    <link href="https://abb.wd3.myworkdayjobs.com/external_career_page/job/Milpitas-California-USA/Physical-AI-Robotics-Simulation-Intern--Fall-2026_JR00044848-1"/>
+    <updated>2026-08-28T00:39:24Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Milpitas, California, USA · $20–$34/hr · H-1B track record: ~69 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:airproducts:/job/Allentown-Pennsylvania/Summer-Intern--IT---Cyber-Audit--2027-_JR-2026-21954</id>
@@ -110,6 +94,22 @@
     <updated>2026-08-28T00:39:24Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Malvern, PA · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:leidos:/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764</id>
+    <title>Leidos: Cybersecurity Engineer Co-op</title>
+    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764"/>
+    <updated>2026-08-28T00:39:24Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Security · Bethesda, MD · Linux · status: closed · H-1B track record: ~79 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:leidos:/job/Bethesda-MD/Software-Developer-Co-op_R-00190766</id>
+    <title>Leidos: Software Developer Co-op</title>
+    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Software-Developer-Co-op_R-00190766"/>
+    <updated>2026-08-28T00:39:24Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Software · Bethesda, MD · C++, Linux · status: closed · H-1B track record: ~79 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:manulife:/job/Boston-Massachusetts/Summer-Intern-2027---AI_JR26081682</id>
