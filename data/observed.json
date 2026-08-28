@@ -18,8 +18,10 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-18",
-     "count": 1,
+     "count": 3,
      "role_ids": [
+      "workday:abb:/job/Milpitas-California-USA/AI-Robotics-UI-UX-Intern--Fall-2026_JR00044847-1",
+      "workday:abb:/job/Milpitas-California-USA/Physical-AI-Robotics-Simulation-Intern--Fall-2026_JR00044848-1",
       "workday:abb:/job/USA-NC-Cary/AI---Data-Scientist-AI-Intern---Fall-2026_JR00036225"
      ]
     }
@@ -36,9 +38,12 @@
       "smartrecruiters:AbbVie:3743990014860306",
       "smartrecruiters:AbbVie:3743990014860386",
       "smartrecruiters:AbbVie:3743990014860391",
-      "smartrecruiters:AbbVie:3743990014860456"
+      "smartrecruiters:AbbVie:3743990014860456",
+      "smartrecruiters:AbbVie:3743990014896329",
+      "smartrecruiters:AbbVie:3743990014900496",
+      "smartrecruiters:AbbVie:3743990014900536"
      ],
-     "count": 6
+     "count": 9
     }
    }
   },
@@ -68,6 +73,18 @@
     }
    }
   },
+  "air products": {
+   "name": "Air Products",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-27",
+     "role_ids": [
+      "workday:airproducts:/job/Allentown-Pennsylvania/Summer-Intern--IT---Cyber-Audit--2027-_JR-2026-21954"
+     ],
+     "count": 1
+    }
+   }
+  },
   "akuna capital": {
    "name": "Akuna Capital",
    "cycles": {
@@ -90,7 +107,7 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2025-10-08",
-     "count": 19,
+     "count": 20,
      "role_ids": [
       "amazon:amazon:10375983",
       "amazon:amazon:10375998",
@@ -103,6 +120,7 @@
       "amazon:amazon:10394507",
       "amazon:amazon:10395459",
       "amazon:amazon:10412530",
+      "amazon:amazon:10517149",
       "amazon:amazon:3104589",
       "amazon:amazon:3116030",
       "amazon:amazon:3122111",
@@ -115,11 +133,12 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 3,
+     "count": 4,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
-      "amazon:amazon:10459543"
+      "amazon:amazon:10459543",
+      "amazon:amazon:10517567"
      ]
     }
    }
@@ -1036,13 +1055,15 @@
      "role_ids": [
       "workday:leidos:/job/Alexandria-VA/Cybersecurity-Analyst-Intern_R-00190671",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311",
+      "workday:leidos:/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
+      "workday:leidos:/job/Bethesda-MD/Software-Developer-Co-op_R-00190766",
       "workday:leidos:/job/Odenton-MD/Cybersecurity-Analyst-Intern_R-00190663",
       "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00190665",
       "workday:leidos:/job/Shiloh-IL/Cybersecurity-Analyst-Intern_R-00190667",
       "workday:leidos:/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664",
       "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 7
+     "count": 9
     }
    }
   },
@@ -1055,6 +1076,19 @@
       "workday:bcbsla:/job/Corporate---Baton-Rouge-LA/Healthcare-Price-and-Transparency-Data-Analyst-Intern_R11903"
      ],
      "count": 1
+    }
+   }
+  },
+  "manulife financial": {
+   "name": "Manulife Financial",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-27",
+     "role_ids": [
+      "workday:manulife:/job/Boston-Massachusetts/Summer-Intern-2027---AI_JR26081682",
+      "workday:manulife:/job/Boston-Massachusetts/Summer-Intern-2027---Software-Engineering_JR26081680"
+     ],
+     "count": 2
     }
    }
   },
@@ -2011,5 +2045,5 @@
    }
   }
  },
- "updated_at": "2026-08-27T14:52:42Z"
+ "updated_at": "2026-08-28T00:39:24Z"
 }
