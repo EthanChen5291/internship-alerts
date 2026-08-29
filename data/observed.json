@@ -2101,6 +2101,19 @@
     }
    }
   },
+  "workiva": {
+   "name": "Workiva",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-27",
+     "role_ids": [
+      "workday:workiva:/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1",
+      "workday:workiva:/job/USA---Remote/Summer-2027-Intern---Software-Engineering_R12190"
+     ],
+     "count": 2
+    }
+   }
+  },
   "xantium": {
    "name": "Xantium",
    "cycles": {
@@ -2127,5 +2140,5 @@
    }
   }
  },
- "updated_at": "2026-08-29T11:17:55Z"
+ "updated_at": "2026-08-29T15:52:02Z"
 }
