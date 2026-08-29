@@ -1282,6 +1282,19 @@
     }
    }
   },
+  "northwood space": {
+   "name": "Northwood Space",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-29",
+     "role_ids": [
+      "ashby:northwoodspace:ce3d4b73-461e-4128-a6f1-f933897e8119",
+      "ashby:northwoodspace:d0cca9dd-ea90-4c3b-94b4-17761932d11c"
+     ],
+     "count": 2
+    }
+   }
+  },
   "notion": {
    "name": "Notion",
    "cycles": {
@@ -1411,9 +1424,10 @@
     "Summer 2027": {
      "first_posted": "2026-08-20",
      "role_ids": [
-      "workday:philips:/job/Plymouth-Minnesota-United-States/Graduate-Level-Co-op---Data-Scientist---Plymouth--MN---Summer-2027_590567"
+      "workday:philips:/job/Plymouth-Minnesota-United-States/Graduate-Level-Co-op---Data-Scientist---Plymouth--MN---Summer-2027_590567",
+      "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2113,5 +2127,5 @@
    }
   }
  },
- "updated_at": "2026-08-28T22:53:36Z"
+ "updated_at": "2026-08-29T04:09:44Z"
 }
