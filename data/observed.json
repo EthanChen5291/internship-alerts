@@ -665,6 +665,18 @@
     }
    }
   },
+  "equifax": {
+   "name": "Equifax",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-30",
+     "role_ids": [
+      "workday:equifax:/job/USA---Missouri---St-Louis---Lackland/Site-Reliability-Engineer-Intern_J00178674"
+     ],
+     "count": 1
+    }
+   }
+  },
   "fannie mae": {
    "name": "Fannie Mae",
    "cycles": {
@@ -2140,5 +2152,5 @@
    }
   }
  },
- "updated_at": "2026-08-30T20:03:52Z"
+ "updated_at": "2026-08-30T22:56:49Z"
 }

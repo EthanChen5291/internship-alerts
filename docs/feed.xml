@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-30T20:03:52Z</updated>
+  <updated>2026-08-30T22:56:49Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:equifax:/job/USA---Missouri---St-Louis---Lackland/Site-Reliability-Engineer-Intern_J00178674</id>
+    <title>Equifax: Site Reliability Engineer Intern</title>
+    <link href="https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Missouri---St-Louis---Lackland/Site-Reliability-Engineer-Intern_J00178674"/>
+    <updated>2026-08-30T22:56:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · USA - Missouri - St. Louis - Lackland · Python, Java, GCP · H-1B track record: ~378 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:workiva:/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1</id>
     <title>Workiva: Summer 2027 Intern - Machine Learning Engineering</title>
@@ -798,13 +806,5 @@
     <updated>2026-08-25T20:57:28Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Jersey City, NJ, United States; Tampa, FL, United States; Dallas, TX, United States · Python, SQL, Bash, AWS, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ebxr.fa.us2.oraclecloud.com:214476</id>
-    <title>DTCC: Information Security Intern [2027 Intern Program]</title>
-    <link href="https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214476"/>
-    <updated>2026-08-25T20:57:28Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Jersey City, NJ, United States; Tampa, FL, United States; Dallas, TX, United States</summary>
   </entry>
 </feed>
