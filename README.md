@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fzshah101.github.io%2FAutomated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)
 
-### 363 open roles (266 listed below) · 146 new this week
+### 360 open roles (263 listed below) · 146 new this week
 
-4,325 employers tracked · data as of Aug 29, 2026 at 21:58 UTC
+4,325 employers tracked · data as of Aug 30, 2026 at 00:31 UTC
 
-_250 have a cycle the employer stated · 113 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_250 have a cycle the employer stated · 110 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/)** · **[📡 RSS](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml)** · **[⚙️ JSON API](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/api/jobs.json)** · **[✉️ Email alerts](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#subscribe)**
 
@@ -262,7 +262,7 @@ If it helps you, a star means a lot and tells me to keep going.
 | Hermeus | Flight Software Engineering Intern - Fall 2026 🇺🇸 | Software | Atlanta, GA | C++ | Mar 04, 2026 | [Apply](https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440) |
 | Amazon ✓ | Software Development Engineer Internship - Fall 2026 (US) | Software | Seattle, Washington, USA | Python, Java, C++, C# | Oct 27, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3116030/software-development-engineer-internship-fall-2026-us) |
 
-## Recently posted — cycle not stated  (89 roles)
+## Recently posted — cycle not stated  (86 roles)
 
 These postings never name a cycle — not in the title, not in the posting text — so neither do we. They're recent tech internships (posted within the last few weeks), often exactly the early drops worth applying to first; we just can't tell you which cycle they're for, and we'd rather say so than guess. The moment a posting's own text states a cycle, the role moves up into that section automatically.
 
@@ -354,9 +354,6 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Pony.ai ✓ | Software Engineer Intern - Generalist | Software | Fremont, California, United States | Python, C++ | Jul 22, 2026 | [Apply](https://apply.workable.com/pony-dot-ai/j/BA5FFDBC71/) |
 | Moog | Intern, Software Engineering | Software | Buffalo, NY | No skills listed | Jul 22, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1) |
 | ACDS | AI Operations Intern-Caddell Reynolds | Data & ML/AI | Fort Smith, AR | LLMs | Jul 20, 2026 | [Apply](https://jobs.lever.co/acds/01fdf41b-a835-4e00-8d01-0275677a8f08) |
-| WallStreetQuants | Quantitative Researcher - Internship | Quant | New York, New York, United States | Python, SQL, scikit-learn, Pandas | Jul 15, 2026 | [Apply](https://apply.workable.com/wallstreetquants/j/494E392FD3/) |
-| WallStreetQuants | Quantitative Trading Intern | Quant | Miami, Florida, United States | Python | Jul 15, 2026 | [Apply](https://apply.workable.com/wallstreetquants/j/8CB119E789/) |
-| Tencent | Research Intern – Video World Models (Research & ML Systems) | Data & ML/AI | US-California-Palo Alto | Python, PyTorch, LLMs, CUDA | Jul 15, 2026 | [Apply](https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Research-Intern---Video-World-Models--Research---ML-Systems-_R107752-1) |
 
 <a id="drop-radar"></a>
 
@@ -393,11 +390,11 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 | Uber | ~Aug | ~Aug · any day now | ⏳ waiting |
 | Visa | ~Aug | ~Aug · any day now | ⏳ waiting |
 | Walmart | ~Aug | ~Aug · any day now | ⏳ waiting |
-| 3M | ~Sep | ~Sep · in ~3d | ⏳ waiting |
-| Adobe | ~Sep | ~Sep · in ~3d | ⏳ waiting |
-| Airbnb | ~Sep | ~Sep · in ~3d | ⏳ waiting |
-| AMD | ~Sep | ~Sep · in ~3d | ⏳ waiting |
-| Anduril Industries | ~Sep | ~Sep · in ~3d | ⏳ waiting |
+| 3M | ~Sep | ~Sep · in ~2d | ⏳ waiting |
+| Adobe | ~Sep | ~Sep · in ~2d | ⏳ waiting |
+| Airbnb | ~Sep | ~Sep · in ~2d | ⏳ waiting |
+| AMD | ~Sep | ~Sep · in ~2d | ⏳ waiting |
+| Anduril Industries | ~Sep | ~Sep · in ~2d | ⏳ waiting |
 
 _227 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **96** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
@@ -462,7 +459,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,206 of 4,570 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 92% of the full registry) · completed in 998.7s · 553 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,199 of 4,570 registered boards returned successfully across 12 ATS platforms (97% of boards attempted, 91% of the full registry) · completed in 974.8s · 551 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
