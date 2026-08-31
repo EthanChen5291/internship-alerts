@@ -8,7 +8,7 @@
 
 ### 361 open roles (264 listed below) · 147 new this week
 
-4,327 employers tracked · data as of Aug 30, 2026 at 22:56 UTC
+4,327 employers tracked · data as of Aug 31, 2026 at 01:37 UTC
 
 _251 have a cycle the employer stated · 110 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -391,11 +391,11 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 | Uber | ~Aug | ~Aug · any day now | ⏳ waiting |
 | Visa | ~Aug | ~Aug · any day now | ⏳ waiting |
 | Walmart | ~Aug | ~Aug · any day now | ⏳ waiting |
-| 3M | ~Sep | ~Sep · in ~2d | ⏳ waiting |
-| Adobe | ~Sep | ~Sep · in ~2d | ⏳ waiting |
-| Airbnb | ~Sep | ~Sep · in ~2d | ⏳ waiting |
-| AMD | ~Sep | ~Sep · in ~2d | ⏳ waiting |
-| Anduril Industries | ~Sep | ~Sep · in ~2d | ⏳ waiting |
+| 3M | ~Sep | ~Sep · in ~1d | ⏳ waiting |
+| Adobe | ~Sep | ~Sep · in ~1d | ⏳ waiting |
+| Airbnb | ~Sep | ~Sep · in ~1d | ⏳ waiting |
+| AMD | ~Sep | ~Sep · in ~1d | ⏳ waiting |
+| Anduril Industries | ~Sep | ~Sep · in ~1d | ⏳ waiting |
 
 _228 companies on the [full radar](https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/#radar). **97** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
@@ -460,7 +460,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,141 of 4,572 registered boards returned successfully across 12 ATS platforms (96% of boards attempted, 90% of the full registry) · completed in 889.9s · 530 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,198 of 4,572 registered boards returned successfully across 12 ATS platforms (96% of boards attempted, 91% of the full registry) · completed in 966.0s · 552 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
