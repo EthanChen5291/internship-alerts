@@ -1795,6 +1795,20 @@
     }
    }
   },
+  "stryker": {
+   "name": "Stryker",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-31",
+     "role_ids": [
+      "workday:stryker:/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1",
+      "workday:stryker:/job/Fort-Wayne-Indiana/Summer-2027-Internship---Software-Engineering---Indiana_R572631",
+      "workday:stryker:/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1"
+     ],
+     "count": 3
+    }
+   }
+  },
   "td bank": {
    "name": "TD Bank",
    "cycles": {
@@ -2152,5 +2166,5 @@
    }
   }
  },
- "updated_at": "2026-08-31T01:37:19Z"
+ "updated_at": "2026-08-31T07:53:34Z"
 }
