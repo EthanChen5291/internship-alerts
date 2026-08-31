@@ -1,6 +1,22 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:ehzq.fa.us2.oraclecloud.com:115639",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115704",
+      "oracle:fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com:4682",
+      "greenhouse:awetomaton:5394046008",
+      "workday:draftkings:/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14928",
+      "workday:igsenergy:/job/Ohio-Remote/Software-Engineer-Intern_R6263",
+      "workday:intel:/job/US-Oregon-Hillsboro/AI-Solutions-Engineering-Graduate-Intern_JR0286546"
+    ],
+    "telegram": [
+      "oracle:ehzq.fa.us2.oraclecloud.com:115639",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115704",
+      "oracle:fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com:4682",
+      "greenhouse:awetomaton:5394046008",
+      "workday:draftkings:/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14928",
+      "workday:igsenergy:/job/Ohio-Remote/Software-Engineer-Intern_R6263",
+      "workday:intel:/job/US-Oregon-Hillsboro/AI-Solutions-Engineering-Graduate-Intern_JR0286546"
+    ]
   }
 }

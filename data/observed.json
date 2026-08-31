@@ -288,6 +288,18 @@
     }
    }
   },
+  "awetomaton": {
+   "name": "Awetomaton",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-31",
+     "role_ids": [
+      "greenhouse:awetomaton:5394046008"
+     ],
+     "count": 1
+    }
+   }
+  },
   "axon": {
    "name": "Axon",
    "cycles": {
@@ -602,6 +614,18 @@
     }
    }
   },
+  "draftkings": {
+   "name": "DraftKings",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-31",
+     "role_ids": [
+      "workday:draftkings:/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14928"
+     ],
+     "count": 1
+    }
+   }
+  },
   "draper": {
    "name": "Draper",
    "cycles": {
@@ -852,11 +876,13 @@
      "role_ids": [
       "oracle:ehzq.fa.us2.oraclecloud.com:115449",
       "oracle:ehzq.fa.us2.oraclecloud.com:115637",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115639",
       "oracle:ehzq.fa.us2.oraclecloud.com:115640",
       "oracle:ehzq.fa.us2.oraclecloud.com:115681",
-      "oracle:ehzq.fa.us2.oraclecloud.com:115687"
+      "oracle:ehzq.fa.us2.oraclecloud.com:115687",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115704"
      ],
-     "count": 5
+     "count": 7
     }
    }
   },
@@ -2166,5 +2192,5 @@
    }
   }
  },
- "updated_at": "2026-08-31T07:53:34Z"
+ "updated_at": "2026-08-31T15:44:52Z"
 }

@@ -5,8 +5,56 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://zshah101.github.io/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/feed.xml" rel="self"/>
   <link href="https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships"/>
-  <updated>2026-08-31T07:53:34Z</updated>
+  <updated>2026-08-31T15:44:52Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:ehzq.fa.us2.oraclecloud.com:115639</id>
+    <title>Grant Thornton: Cybersecurity and Privacy Intern - Summer 2027 🛂</title>
+    <link href="https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115639"/>
+    <updated>2026-08-31T15:44:51Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Charlotte, NC, United States · sponsorship: no-sponsorship · H-1B track record: ~118 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:ehzq.fa.us2.oraclecloud.com:115704</id>
+    <title>Grant Thornton: AI, Data &amp; Technology Intern - Summer 2027 🛂</title>
+    <link href="https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115704"/>
+    <updated>2026-08-31T15:44:51Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Charlotte, NC, United States · sponsorship: no-sponsorship · H-1B track record: ~118 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:awetomaton:5394046008</id>
+    <title>Awetomaton: Platform Engineering Intern 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/awetomaton/jobs/5394046008"/>
+    <updated>2026-08-31T15:44:51Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Beavercreek, OH · Python, Java, AWS, GCP, Azure · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:draftkings:/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14928</id>
+    <title>DraftKings: Software Engineer Intern (Summer 2027)</title>
+    <link href="https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14928"/>
+    <updated>2026-08-31T15:44:51Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Boston, MA · Java, C#, TypeScript, Git · H-1B track record: ~52 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:igsenergy:/job/Ohio-Remote/Software-Engineer-Intern_R6263</id>
+    <title>IGS Energy: Software Engineer Intern 🛂</title>
+    <link href="https://igsenergy.wd1.myworkdayjobs.com/IGS/job/Ohio-Remote/Software-Engineer-Intern_R6263"/>
+    <updated>2026-08-31T15:44:51Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Ohio Remote · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:intel:/job/US-Oregon-Hillsboro/AI-Solutions-Engineering-Graduate-Intern_JR0286546</id>
+    <title>Intel: AI Solutions Engineering Graduate Intern</title>
+    <link href="https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-Solutions-Engineering-Graduate-Intern_JR0286546"/>
+    <updated>2026-08-31T15:44:51Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · US, Oregon, Hillsboro · Python, C++, PyTorch, TensorFlow · H-1B track record: ~4.8k approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:stryker:/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1</id>
     <title>Stryker: Summer 2027 Internship - Software Engineering - Florida</title>
@@ -16,20 +64,20 @@
     <summary>Summer 2027 · Software · Fort Lauderdale, Florida · H-1B track record: ~104 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:stryker:/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1</id>
-    <title>Stryker: Summer 2027 Internship - Software Engineering - Michigan</title>
-    <link href="https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1"/>
-    <updated>2026-08-31T07:53:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Portage, Michigan · H-1B track record: ~104 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:stryker:/job/Fort-Wayne-Indiana/Summer-2027-Internship---Software-Engineering---Indiana_R572631</id>
     <title>Stryker: Summer 2027 Internship - Software Engineering - Indiana</title>
     <link href="https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Wayne-Indiana/Summer-2027-Internship---Software-Engineering---Indiana_R572631"/>
     <updated>2026-08-31T07:53:34Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Fort Wayne, Indiana · H-1B track record: ~104 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:stryker:/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1</id>
+    <title>Stryker: Summer 2027 Internship - Software Engineering - Michigan</title>
+    <link href="https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1"/>
+    <updated>2026-08-31T07:53:34Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Portage, Michigan · H-1B track record: ~104 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:equifax:/job/USA---Missouri---St-Louis---Lackland/Site-Reliability-Engineer-Intern_J00178674</id>
@@ -699,9 +747,9 @@
     <id>urn:intern-engine:oracle:fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com:4682</id>
     <title>Verisk: AI Intern | Summer Internship Program</title>
     <link href="https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4682"/>
-    <updated>2026-08-28T22:53:36Z</updated>
+    <updated>2026-08-26T17:14:22Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Jersey City, NJ, United States · LLMs, Tableau · status: closed</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Jersey City, NJ, United States · LLMs, Tableau</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:BoschGroup:744000145785190</id>
@@ -758,53 +806,5 @@
     <updated>2026-08-26T02:09:57Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Irvine, CA, United States (Hybrid) · HTML/CSS, AWS, GCP, Azure, Kubernetes · H-1B track record: ~303 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:AbbVie:3743990014860306</id>
-    <title>AbbVie: 2027 Business Technology Solutions Intern - Data &amp; Software Engineering (Undergraduate)</title>
-    <link href="https://jobs.smartrecruiters.com/AbbVie/3743990014860306"/>
-    <updated>2026-08-26T02:09:57Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Irvine, CA, United States (Hybrid) · Python, Java, TypeScript, JavaScript, SQL · H-1B track record: ~303 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:AbbVie:3743990014860386</id>
-    <title>AbbVie: 2027 Business Technology Solutions Intern - Cloud Engineering (Undergraduate)</title>
-    <link href="https://jobs.smartrecruiters.com/AbbVie/3743990014860386"/>
-    <updated>2026-08-26T02:09:57Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · North Chicago, IL, United States (Hybrid) · HTML/CSS, AWS, GCP, Azure, Kubernetes · H-1B track record: ~303 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:AbbVie:3743990014860391</id>
-    <title>AbbVie: 2027 Business Technology Solutions Intern - Data &amp; Software Engineering (Undergraduate)</title>
-    <link href="https://jobs.smartrecruiters.com/AbbVie/3743990014860391"/>
-    <updated>2026-08-26T02:09:57Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · South San Francisco, CA, United States (Hybrid) · Python, Java, TypeScript, JavaScript, SQL · H-1B track record: ~303 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:AbbVie:3743990014860456</id>
-    <title>AbbVie: 2027 Business Technology Solutions Intern - Cloud Engineering (Undergraduate)</title>
-    <link href="https://jobs.smartrecruiters.com/AbbVie/3743990014860456"/>
-    <updated>2026-08-26T02:09:57Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · South San Francisco, CA, United States (Hybrid) · HTML/CSS, AWS, GCP, Azure, Kubernetes · H-1B track record: ~303 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ehzq.fa.us2.oraclecloud.com:115449</id>
-    <title>Grant Thornton: Cybersecurity and Privacy Intern - Summer 2027 🛂</title>
-    <link href="https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115449"/>
-    <updated>2026-08-25T22:57:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · San Francisco, CA, United States · $42.5/hr · sponsorship: no-sponsorship · H-1B track record: ~118 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ibqbjb.fa.ocs.oraclecloud.com:155557</id>
-    <title>Honeywell: Software Engineer &amp; Computer Science - Summer 2027 Intern (US Person Required) 🇺🇸</title>
-    <link href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155557"/>
-    <updated>2026-08-25T22:57:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States · $25.5/hr · sponsorship: citizens-only</summary>
   </entry>
 </feed>
