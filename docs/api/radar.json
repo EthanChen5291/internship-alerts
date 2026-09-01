@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-01T20:24:24Z",
- "data_as_of": "2026-09-01T20:24:24Z",
- "rendered_at": "2026-09-01T20:24:24Z",
+ "generated_at": "2026-09-01T23:04:14Z",
+ "data_as_of": "2026-09-01T23:04:14Z",
+ "rendered_at": "2026-09-01T23:04:15Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1659,25 +1659,6 @@
    }
   },
   {
-   "company": "Ercot",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-31",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-31",
-   "days_until": -1,
-   "status": "open",
-   "url": "https://ercot.wd1.myworkdayjobs.com/ercot_careers/job/Taylor-TX/Summer-Intern----Cyber-Security_R2404",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-31"
-   }
-  },
-  {
    "company": "HP IQ",
    "last_cycle_posted": "",
    "posted_on": "2026-08-31",
@@ -1802,7 +1783,7 @@
    "expected": "2026-09-01",
    "days_until": 0,
    "status": "open",
-   "url": "https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-AI-and-Innovation-Intern---Pittsburgh--PA_2026-01811",
+   "url": "https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-AI-ML-Modeler-Intern_2026-01851",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -1821,7 +1802,7 @@
    "expected": "2026-09-01",
    "days_until": 0,
    "status": "open",
-   "url": "https://jobs.lever.co/hermeus/d87ed913-affc-475e-b721-c5b5f11c3c7b",
+   "url": "https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4681,6 +4662,25 @@
   },
   {
    "company": "Bosch",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-31",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-31",
+   "days_until": -1,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-31"
+   }
+  },
+  {
+   "company": "Ercot",
    "last_cycle_posted": "",
    "posted_on": "2026-08-31",
    "precision": "day",

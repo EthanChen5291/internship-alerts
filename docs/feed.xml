@@ -5,15 +5,111 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-01T20:24:24Z</updated>
+  <updated>2026-09-01T23:04:14Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:lever:hermeus:d87ed913-affc-475e-b721-c5b5f11c3c7b</id>
-    <title>Hermeus: Software Engineering Intern (HIL) - Spring/Summer 2027 🇺🇸</title>
-    <link href="https://jobs.lever.co/hermeus/d87ed913-affc-475e-b721-c5b5f11c3c7b"/>
+    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Platform-Engineering-Intern_R26_0000029141</id>
+    <title>Genuine Parts Company: Platform Engineering Intern</title>
+    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Platform-Engineering-Intern_R26_0000029141"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Birmingham, AL, USA · GCP · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Software-Developer-Intern_R26_0000029140</id>
+    <title>Genuine Parts Company: Software Developer Intern</title>
+    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Software-Developer-Intern_R26_0000029140"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Birmingham, AL, USA · Java, SQL, GCP, Linux, Git · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/GRC-Cybersecurity-Analyst-Intern_R26_0000029137</id>
+    <title>Genuine Parts Company: GRC/Cybersecurity Analyst Intern</title>
+    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/GRC-Cybersecurity-Analyst-Intern_R26_0000029137"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Birmingham, AL, USA · Linux · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Customer-Software-Development-Intern_R26_0000029135</id>
+    <title>Genuine Parts Company: Customer Software Development Intern</title>
+    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Customer-Software-Development-Intern_R26_0000029135"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Birmingham, AL, USA · Java, SQL · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134</id>
+    <title>Genuine Parts Company: Cloud SRE Intern</title>
+    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Birmingham, AL, USA · GCP · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133</id>
+    <title>Genuine Parts Company: Cloud Developer Intern</title>
+    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Birmingham, AL, USA · Java, GCP, Linux, Git · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:valon:b5a62c0c-823c-42dd-8cb5-e4b1455bcc64</id>
+    <title>Valon: Software Engineer Intern</title>
+    <link href="https://jobs.ashbyhq.com/valon/b5a62c0c-823c-42dd-8cb5-e4b1455bcc64"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · New York · $60/hr · Python, React, GCP, Kubernetes, Docker</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:eulerity:4709040006</id>
+    <title>Eulerity: Backend Developer Intern</title>
+    <link href="https://job-boards.greenhouse.io/eulerity/jobs/4709040006"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · New York, New York · $17–$19/hr · Java, LLMs, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ntrs:/job/Chicago-IL/Technology-Intern---Software-Engineering_R160832-1</id>
+    <title>Northern Trust: Technology Intern – Software Engineering 🛂</title>
+    <link href="https://ntrs.wd1.myworkdayjobs.com/northerntrust/job/Chicago-IL/Technology-Intern---Software-Engineering_R160832-1"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Chicago, IL · Python, Java, SQL, Bash, LLMs · sponsorship: no-sponsorship · H-1B track record: ~144 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ntrs:/job/Chicago-IL/Technology-Intern---Information-Security_R160869-1</id>
+    <title>Northern Trust: Technology Intern – Information Security 🛂</title>
+    <link href="https://ntrs.wd1.myworkdayjobs.com/northerntrust/job/Chicago-IL/Technology-Intern---Information-Security_R160869-1"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Chicago, IL · Python, Java, SQL, Bash, LLMs · sponsorship: no-sponsorship · H-1B track record: ~144 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ntrs:/job/Chicago-IL/Technology-Intern---Infrastructure-and-IT-Management_R160872-1</id>
+    <title>Northern Trust: Technology Intern – Infrastructure and IT Management 🛂</title>
+    <link href="https://ntrs.wd1.myworkdayjobs.com/northerntrust/job/Chicago-IL/Technology-Intern---Infrastructure-and-IT-Management_R160872-1"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Chicago, IL · Bash, LLMs · sponsorship: no-sponsorship · H-1B track record: ~144 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:stryker:/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769</id>
+    <title>Stryker: Summer 2027 Internship - Statistical Programming - California</title>
+    <link href="https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Irvine, California · H-1B track record: ~104 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:hpiq:6176783004</id>
+    <title>HP IQ: Software Engineering Intern, Connectivity (Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/hpiq/jobs/6176783004"/>
     <updated>2026-09-01T20:24:24Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Atlanta, GA · 25–33 USD/hr · Python, C++, MATLAB · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · San Francisco, CA · $45–$51/hr · Python, C++</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:hermeus:445db430-6f81-41cf-847a-56a947afb936</id>
@@ -22,6 +118,14 @@
     <updated>2026-09-01T20:24:24Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Los Angeles, CA · 25–33 USD/hr · Python, C++, MATLAB · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:hermeus:d87ed913-affc-475e-b721-c5b5f11c3c7b</id>
+    <title>Hermeus: Software Engineering Intern (HIL) - Spring/Summer 2027 🇺🇸</title>
+    <link href="https://jobs.lever.co/hermeus/d87ed913-affc-475e-b721-c5b5f11c3c7b"/>
+    <updated>2026-09-01T20:24:24Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Atlanta, GA · 25–33 USD/hr · Python, C++, MATLAB · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:draftkings:/job/Boston-MA/Software-Engineer-Intern-Referral--Summer-2027-_JR14932</id>
@@ -38,14 +142,6 @@
     <updated>2026-09-01T20:24:24Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Pittsburgh, PA · Python, SQL, scikit-learn, Pandas, Docker · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:hpiq:6176783004</id>
-    <title>HP IQ: Software Engineering Intern, Connectivity (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/hpiq/jobs/6176783004"/>
-    <updated>2026-09-01T20:24:24Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA · $45–$51/hr · Python, C++</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:jj:/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743</id>
@@ -563,9 +659,9 @@
     <id>urn:intern-engine:workday:ercot:/job/Taylor-TX/Summer-Intern----Cyber-Security_R2404</id>
     <title>Ercot: Summer Intern -- Cyber Security</title>
     <link href="https://ercot.wd1.myworkdayjobs.com/ercot_careers/job/Taylor-TX/Summer-Intern----Cyber-Security_R2404"/>
-    <updated>2026-08-31T21:22:18Z</updated>
+    <updated>2026-09-01T23:04:14Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Taylor, TX</summary>
+    <summary>Summer 2027 · Security · Taylor, TX · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01871019</id>
@@ -710,101 +806,5 @@
     <updated>2026-08-31T07:53:34Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Fort Lauderdale, Florida · H-1B track record: ~104 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:stryker:/job/Fort-Wayne-Indiana/Summer-2027-Internship---Software-Engineering---Indiana_R572631</id>
-    <title>Stryker: Summer 2027 Internship - Software Engineering - Indiana</title>
-    <link href="https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Wayne-Indiana/Summer-2027-Internship---Software-Engineering---Indiana_R572631"/>
-    <updated>2026-08-31T07:53:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Fort Wayne, Indiana · H-1B track record: ~104 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:stryker:/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1</id>
-    <title>Stryker: Summer 2027 Internship - Software Engineering - Michigan</title>
-    <link href="https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1"/>
-    <updated>2026-08-31T07:53:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Portage, Michigan · H-1B track record: ~104 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:equifax:/job/USA---Missouri---St-Louis---Lackland/Site-Reliability-Engineer-Intern_J00178674</id>
-    <title>Equifax: Site Reliability Engineer Intern</title>
-    <link href="https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Missouri---St-Louis---Lackland/Site-Reliability-Engineer-Intern_J00178674"/>
-    <updated>2026-08-30T22:56:49Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · USA - Missouri - St. Louis - Lackland · Python, Java, GCP · H-1B track record: ~378 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:workiva:/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1</id>
-    <title>Workiva: Summer 2027 Intern - Machine Learning Engineering</title>
-    <link href="https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1"/>
-    <updated>2026-08-29T15:52:02Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · USA - Remote · Python, AWS, Kubernetes, Docker, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:workiva:/job/USA---Remote/Summer-2027-Intern---Software-Engineering_R12190</id>
-    <title>Workiva: Summer 2027 Intern - Software Engineering</title>
-    <link href="https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Summer-2027-Intern---Software-Engineering_R12190"/>
-    <updated>2026-08-29T15:52:02Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · USA - Remote · Python, Java, C++, C#, TypeScript</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:northwoodspace:ce3d4b73-461e-4128-a6f1-f933897e8119</id>
-    <title>Northwood Space: Software Engineering Intern (2027 Summer Internship) 🇺🇸</title>
-    <link href="https://jobs.ashbyhq.com/northwoodspace/ce3d4b73-461e-4128-a6f1-f933897e8119"/>
-    <updated>2026-08-29T04:09:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Torrance, CA · $36 per hour · C++, Go, Rust, AWS, GCP · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:northwoodspace:d0cca9dd-ea90-4c3b-94b4-17761932d11c</id>
-    <title>Northwood Space: Embedded Software Engineering Intern (2027 Summer Internship) 🇺🇸</title>
-    <link href="https://jobs.ashbyhq.com/northwoodspace/d0cca9dd-ea90-4c3b-94b4-17761932d11c"/>
-    <updated>2026-08-29T04:09:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Torrance, CA · $36 per hour · Python, C++, Rust, Linux, Git · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404</id>
-    <title>Philips: Intern – Data AI/ML Engineering – Plymouth, MN – Summer 2027</title>
-    <link href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404"/>
-    <updated>2026-08-29T04:09:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Plymouth, Minnesota, United States · Azure, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:charlesriverassociates:8128811</id>
-    <title>Charles River Associates (CRA): (2028 Bachelor's/Master's graduates) Cyber and Forensic Technology Consulting Analyst/Associate Intern (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/charlesriverassociates/jobs/8128811"/>
-    <updated>2026-08-28T22:53:36Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Boston, MA, United States; Chicago, IL, United States; Dallas, Texas, United States; Washington, DC, United States · $30–$37.5/hr · Python, C#, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:xairatherapeutics:5225658007</id>
-    <title>Xaira Therapeutics: AI Scientist Intern, Computational Protein Design</title>
-    <link href="https://job-boards.greenhouse.io/xairatherapeutics/jobs/5225658007"/>
-    <updated>2026-08-28T22:53:36Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Seattle, Washington, United States; South San Francisco, California, United States · PyTorch, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:anavationllc:f7c83978-8510-409c-a5a3-17618511f819</id>
-    <title>AnaVation: Computer Science Internship Summer 2027 🇺🇸</title>
-    <link href="https://jobs.lever.co/anavationllc/f7c83978-8510-409c-a5a3-17618511f819"/>
-    <updated>2026-08-28T22:53:36Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Huntsville, AL · Python, Java, Node.js, AWS, GCP · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ehzq.fa.us2.oraclecloud.com:115687</id>
-    <title>Grant Thornton: AI, Data &amp; Technology Intern - Summer 2027 🛂</title>
-    <link href="https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115687"/>
-    <updated>2026-08-28T22:53:36Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Philadelphia, PA, United States · sponsorship: no-sponsorship · H-1B track record: ~118 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
