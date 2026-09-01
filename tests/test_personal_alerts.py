@@ -28,6 +28,9 @@ class Response:
     def raise_for_status(self):
         return None
 
+    def json(self):
+        return {"messageId": "test-message-id"}
+
 
 def test_email_contains_company_role_keywords_and_apply_link():
     subject, html = personal_alerts.build_email([_record()])
@@ -68,8 +71,9 @@ def test_setup_email_uses_expected_subject_and_destination(monkeypatch):
         lambda url, **kwargs: (sent.append((url, kwargs)), Response())[1],
     )
 
-    personal_alerts.send_test_email()
+    message_id = personal_alerts.send_test_email()
 
+    assert message_id == "test-message-id"
     assert sent[0][1]["json"]["subject"] == "Internship Alerts email test"
     assert sent[0][1]["json"]["to"] == [{"email": "me@example.com"}]
     assert "email alerts are working" in sent[0][1]["json"]["htmlContent"]

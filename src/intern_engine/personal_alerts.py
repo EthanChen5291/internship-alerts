@@ -90,9 +90,9 @@ def build_email(records: list[dict]) -> tuple[str, str]:
     return subject, html
 
 
-def _post_email(subject: str, html: str) -> None:
-    """Post one transactional email, raising when Brevo rejects it."""
-    httpx.post(
+def _post_email(subject: str, html: str) -> str:
+    """Post one transactional email and return Brevo's delivery-tracking id."""
+    response = httpx.post(
         _BREVO_URL,
         headers={"api-key": os.environ["BREVO_API_KEY"], "Content-Type": "application/json"},
         json={
@@ -102,15 +102,17 @@ def _post_email(subject: str, html: str) -> None:
             "htmlContent": html,
         },
         timeout=_TIMEOUT,
-    ).raise_for_status()
+    )
+    response.raise_for_status()
+    return str(response.json().get("messageId") or "")
 
 
-def send_test_email() -> None:
+def send_test_email() -> str:
     """Send a harmless configuration test without touching alert state."""
     if not email_configured():
         raise RuntimeError("BREVO_API_KEY, MAIL_FROM, and ALERT_EMAIL_TO are required")
     dashboard = escape(config.pages_base() + "/", quote=True)
-    _post_email(
+    return _post_email(
         "Internship Alerts email test",
         (
             '<div style="font:15px system-ui,sans-serif;max-width:640px;margin:auto">'
