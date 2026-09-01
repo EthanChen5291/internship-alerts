@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-01T03:17:46Z",
- "data_as_of": "2026-09-01T03:17:46Z",
- "rendered_at": "2026-09-01T03:17:46Z",
+ "generated_at": "2026-09-01T08:14:32Z",
+ "data_as_of": "2026-09-01T08:14:32Z",
+ "rendered_at": "2026-09-01T08:14:32Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1732,6 +1732,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-31"
+   }
+  },
+  {
+   "company": "Vermeer",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-01",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Corporate-Office/Embedded-Software-Engineer-Internship-Summer-2027_REQ-22165",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-01"
    }
   },
   {
@@ -4509,5 +4528,5 @@
    }
   }
  ],
- "count": 237
+ "count": 238
 }

@@ -159,6 +159,8 @@
       "oracle:egug.fa.us2.oraclecloud.com:26011781",
       "oracle:egug.fa.us2.oraclecloud.com:26011784",
       "oracle:egug.fa.us2.oraclecloud.com:26011796",
+      "oracle:egug.fa.us2.oraclecloud.com:26011828",
+      "oracle:egug.fa.us2.oraclecloud.com:26011831",
       "oracle:egug.fa.us2.oraclecloud.com:26011878",
       "oracle:egug.fa.us2.oraclecloud.com:26011893",
       "oracle:egug.fa.us2.oraclecloud.com:26011908",
@@ -168,13 +170,19 @@
       "oracle:egug.fa.us2.oraclecloud.com:26011991",
       "oracle:egug.fa.us2.oraclecloud.com:26011999",
       "oracle:egug.fa.us2.oraclecloud.com:26012000",
+      "oracle:egug.fa.us2.oraclecloud.com:26012333",
+      "oracle:egug.fa.us2.oraclecloud.com:26012339",
       "oracle:egug.fa.us2.oraclecloud.com:26012375",
       "oracle:egug.fa.us2.oraclecloud.com:26012392",
       "oracle:egug.fa.us2.oraclecloud.com:26012444",
       "oracle:egug.fa.us2.oraclecloud.com:26012460",
-      "oracle:egug.fa.us2.oraclecloud.com:26012462"
+      "oracle:egug.fa.us2.oraclecloud.com:26012462",
+      "oracle:egug.fa.us2.oraclecloud.com:26012764",
+      "oracle:egug.fa.us2.oraclecloud.com:26012781",
+      "oracle:egug.fa.us2.oraclecloud.com:26013190",
+      "oracle:egug.fa.us2.oraclecloud.com:26013191"
      ],
-     "count": 24
+     "count": 32
     }
    }
   },
@@ -1566,9 +1574,10 @@
     "Summer 2027": {
      "first_posted": "2026-08-18",
      "role_ids": [
-      "workday:pimco:/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745"
+      "workday:pimco:/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Technology-Analyst--Software-Engineering_R106745",
+      "workday:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Masters-Quant-Research-Analyst--Client-Solutions---Analytics--US_R106816"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2116,6 +2125,18 @@
     }
    }
   },
+  "vermeer": {
+   "name": "Vermeer",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "workday:vermeer:/job/Pella-Iowa-USA---Corporate-Office/Embedded-Software-Engineer-Internship-Summer-2027_REQ-22165"
+     ],
+     "count": 1
+    }
+   }
+  },
   "vertex pharmaceuticals": {
    "name": "Vertex Pharmaceuticals",
    "cycles": {
@@ -2297,5 +2318,5 @@
    }
   }
  },
- "updated_at": "2026-09-01T03:17:46Z"
+ "updated_at": "2026-09-01T08:14:32Z"
 }
