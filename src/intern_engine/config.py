@@ -8,6 +8,8 @@ Change behavior without touching code:
   - regions       : ["US"] for United States only, ["US", "Canada"] for both,
                     or ["Global"] to disable the location filter entirely.
   - role_scope    : "tech" (SWE/data/ML/quant/hardware/...) or "all" internships.
+  - excluded_categories  : role categories to suppress, e.g. ["Hardware"].
+  - excluded_title_terms : title phrases to suppress, e.g. ["data science"].
 """
 
 from __future__ import annotations
@@ -23,6 +25,8 @@ DEFAULTS = {
     "default_cycle": "Summer 2027",
     "regions": ["US"],
     "role_scope": "tech",
+    "excluded_categories": [],
+    "excluded_title_terms": [],
 }
 
 
@@ -101,6 +105,12 @@ def validate_config(raw: object) -> dict:
 
     if cfg.get("role_scope") not in {"tech", "all"}:
         raise ConfigError("role_scope must be 'tech' or 'all'")
+    cfg["excluded_categories"] = _string_list(
+        cfg.get("excluded_categories", []), "excluded_categories", allow_empty=True
+    )
+    cfg["excluded_title_terms"] = _string_list(
+        cfg.get("excluded_title_terms", []), "excluded_title_terms", allow_empty=True
+    )
     default_cycle = cfg.get("default_cycle")
     if default_cycle not in cfg["cycles"]:
         raise ConfigError("default_cycle must be one of cycles")
@@ -148,6 +158,19 @@ def load_config() -> dict:
 
 def cycles(cfg: dict) -> list[str]:
     return list(cfg.get("cycles") or DEFAULTS["cycles"])
+
+
+def role_excluded(cfg: dict, title: str, category: str = "") -> bool:
+    """True when a personal role-family preference excludes this posting."""
+    blocked_categories = {
+        str(value).strip().casefold() for value in cfg.get("excluded_categories") or []
+    }
+    if str(category or "").strip().casefold() in blocked_categories:
+        return True
+    for term in cfg.get("excluded_title_terms") or []:
+        if re.search(rf"(?<!\w){re.escape(str(term).strip())}(?!\w)", title or "", re.I):
+            return True
+    return False
 
 
 def restrict_region(cfg: dict) -> bool:

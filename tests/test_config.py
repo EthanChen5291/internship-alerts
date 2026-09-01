@@ -38,3 +38,20 @@ def test_scope_configuration_rejects_unsafe_shapes(raw, message):
 def test_empty_regions_fail_closed_even_for_unvalidated_callers():
     assert config.restrict_region({"regions": []}) is True
 
+
+def test_personal_role_exclusions_match_category_and_title_phrases():
+    cfg = {
+        "excluded_categories": ["Hardware"],
+        "excluded_title_terms": ["data science", "data scientist"],
+    }
+    assert config.role_excluded(cfg, "Firmware Engineering Intern", "Hardware")
+    assert config.role_excluded(cfg, "Summer Data Science Intern", "Data & ML/AI")
+    assert config.role_excluded(cfg, "Data Scientist Intern", "Data & ML/AI")
+    assert not config.role_excluded(cfg, "Machine Learning Intern", "Data & ML/AI")
+    assert not config.role_excluded(cfg, "Embedded Software Intern", "Software")
+
+
+@pytest.mark.parametrize("field", ["excluded_categories", "excluded_title_terms"])
+def test_personal_role_exclusions_require_string_lists(field):
+    with pytest.raises(config.ConfigError, match=field):
+        config.validate_config({field: "Hardware"})

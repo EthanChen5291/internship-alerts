@@ -8,20 +8,12 @@
   <updated>2026-09-01T13:42:42Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:trumpf:/job/Farmington-CT/CNC-Programming-Intern_R00042595</id>
-    <title>TRUMPF: CNC Programming Intern</title>
-    <link href="https://trumpf.wd3.myworkdayjobs.com/TRUMPF_Students/job/Farmington-CT/CNC-Programming-Intern_R00042595"/>
-    <updated>2026-09-01T13:42:42Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · Farmington, CT · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ebgj.fa.us2.oraclecloud.com:253304</id>
-    <title>Texas Instruments: Data Engineer Intern - Summer 2027</title>
-    <link href="https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253304"/>
+    <id>urn:intern-engine:oracle:ebgj.fa.us2.oraclecloud.com:253297</id>
+    <title>Texas Instruments: IT Infrastructure Intern - Summer 2027</title>
+    <link href="https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253297"/>
     <updated>2026-09-01T13:42:42Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Pella, IA, United States; Urbandale, IA, United States · $29/hr · Python, SQL, LLMs, Git · H-1B track record: ~234 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Software · Pella, IA, United States · $27.25/hr · LLMs · H-1B track record: ~234 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:ebgj.fa.us2.oraclecloud.com:253299</id>
@@ -32,12 +24,20 @@
     <summary>Summer 2027 · Software · Pella, IA, United States; Urbandale, IA, United States · $27.25/hr · Python, Java, C++, JavaScript, LLMs · H-1B track record: ~234 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:ebgj.fa.us2.oraclecloud.com:253297</id>
-    <title>Texas Instruments: IT Infrastructure Intern - Summer 2027</title>
-    <link href="https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253297"/>
+    <id>urn:intern-engine:oracle:ebgj.fa.us2.oraclecloud.com:253304</id>
+    <title>Texas Instruments: Data Engineer Intern - Summer 2027</title>
+    <link href="https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253304"/>
     <updated>2026-09-01T13:42:42Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Pella, IA, United States · $27.25/hr · LLMs · H-1B track record: ~234 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Pella, IA, United States; Urbandale, IA, United States · $29/hr · Python, SQL, LLMs, Git · H-1B track record: ~234 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:trumpf:/job/Farmington-CT/CNC-Programming-Intern_R00042595</id>
+    <title>TRUMPF: CNC Programming Intern</title>
+    <link href="https://trumpf.wd3.myworkdayjobs.com/TRUMPF_Students/job/Farmington-CT/CNC-Programming-Intern_R00042595"/>
+    <updated>2026-09-01T13:42:42Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Software · Farmington, CT · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011828</id>
@@ -91,17 +91,17 @@
     <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26013190</id>
     <title>American Express: Campus Graduate I Summer Internship Program - 2027 Data Science, Finance - New York, NY</title>
     <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013190"/>
-    <updated>2026-09-01T08:14:32Z</updated>
+    <updated>2026-09-01T15:54:59Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY, United States · Python, SQL, LLMs · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY, United States · Python, SQL, LLMs · status: closed · H-1B track record: ~133 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26013191</id>
     <title>American Express: Campus Graduate II Summer Internship Program - 2027 Data Science, Finance - New York, NY</title>
     <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013191"/>
-    <updated>2026-09-01T08:14:32Z</updated>
+    <updated>2026-09-01T15:54:59Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY, United States · Python, SQL, LLMs · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY, United States · Python, SQL, LLMs · status: closed · H-1B track record: ~133 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:brunswick:/job/Fond-du-Lac-WI/Mercury-Marine--Software-Controls-Engineering-Intern_JR-051436</id>
@@ -131,9 +131,9 @@
     <id>urn:intern-engine:greenhouse:katalyst:6176711004</id>
     <title>Katalyst Space Technologies: Engineering Intern (Electrical / Mechanical / GNC / Software)</title>
     <link href="https://job-boards.greenhouse.io/katalyst/jobs/6176711004"/>
-    <updated>2026-09-01T00:52:19Z</updated>
+    <updated>2026-09-01T15:54:59Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Hardware · Broomfield, Colorado, United States · Python, C++, MATLAB, Linux</summary>
+    <summary>Not stated · Hardware · Broomfield, Colorado, United States · Python, C++, MATLAB, Linux · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:stripe:8128745</id>
@@ -171,9 +171,9 @@
     <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26008761</id>
     <title>Emerson Electric: Firmware Engineer Co-Op</title>
     <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008761"/>
-    <updated>2026-09-01T00:52:19Z</updated>
+    <updated>2026-09-01T15:54:59Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Hardware · Marshalltown, IA, United States · C++, Azure, Git</summary>
+    <summary>Not stated · Hardware · Marshalltown, IA, United States · C++, Azure, Git · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26008762</id>
@@ -227,9 +227,9 @@
     <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009488</id>
     <title>Emerson Electric: Data Science Engineering Intern</title>
     <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009488"/>
-    <updated>2026-09-01T00:52:19Z</updated>
+    <updated>2026-09-01T15:54:59Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Boulder, CO, United States · Python, SQL, Tableau</summary>
+    <summary>Not stated · Data &amp; ML/AI · Boulder, CO, United States · Python, SQL, Tableau · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009500</id>
@@ -387,9 +387,9 @@
     <id>urn:intern-engine:workday:dairynet:/job/La-Crosse-Wisconsin/Intern--Energy-Data-Science_JR101053</id>
     <title>Dairyland Power Cooperative: Intern, Energy Data Science</title>
     <link href="https://dairynet.wd1.myworkdayjobs.com/DPCcareers/job/La-Crosse-Wisconsin/Intern--Energy-Data-Science_JR101053"/>
-    <updated>2026-08-31T21:22:18Z</updated>
+    <updated>2026-09-01T15:54:59Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · La Crosse, Wisconsin · Python, SQL, AWS, Git</summary>
+    <summary>Not stated · Data &amp; ML/AI · La Crosse, Wisconsin · Python, SQL, AWS, Git · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ercot:/job/Taylor-TX/Summer-Intern----Cyber-Security_R2404</id>
@@ -675,9 +675,9 @@
     <id>urn:intern-engine:workday:bah:/job/Atlanta-GA/University--2027-Summer-Games-Data-Scientist-Intern_R0248140</id>
     <title>Booz Allen: University, 2027 Summer Games Data Scientist Intern 🇺🇸</title>
     <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Atlanta-GA/University--2027-Summer-Games-Data-Scientist-Intern_R0248140"/>
-    <updated>2026-08-28T22:53:36Z</updated>
+    <updated>2026-09-01T15:54:59Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Atlanta, GA · $141k/yr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Atlanta, GA · $141k/yr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:bah:/job/Charleston-SC/University---2027-Summer-Games-Cyber-Security-Intern---Charleston--SC_R0248136</id>
@@ -691,9 +691,9 @@
     <id>urn:intern-engine:workday:bah:/job/Charleston-SC/University---2027-Summer-Games-Data-Scientist-Intern_R0248137</id>
     <title>Booz Allen: University - 2027 Summer Games Data Scientist Intern 🇺🇸</title>
     <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Charleston-SC/University---2027-Summer-Games-Data-Scientist-Intern_R0248137"/>
-    <updated>2026-08-28T22:53:36Z</updated>
+    <updated>2026-09-01T15:54:59Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Charleston, SC · $141k/yr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Charleston, SC · $141k/yr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:bah:/job/Charleston-SC/University---2027-Summer-Games-Software-Developer-Intern_R0248134</id>
@@ -715,9 +715,9 @@
     <id>urn:intern-engine:workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Data-Scientist-Intern_R0248132</id>
     <title>Booz Allen: University, 2027 Summer Games Data Scientist Intern 🇺🇸</title>
     <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Colorado-Springs-CO/University--2027-Summer-Games-Data-Scientist-Intern_R0248132"/>
-    <updated>2026-08-28T22:53:36Z</updated>
+    <updated>2026-09-01T15:54:59Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Colorado Springs, CO · $141k/yr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Colorado Springs, CO · $141k/yr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Software-Developer-Intern_R0248130</id>
@@ -731,9 +731,9 @@
     <id>urn:intern-engine:workday:bah:/job/El-Segundo-CA/University--2027-Summer-Games-Data-Scientist-Intern_R0248050</id>
     <title>Booz Allen: University, 2027 Summer Games Data Scientist Intern 🇺🇸</title>
     <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/El-Segundo-CA/University--2027-Summer-Games-Data-Scientist-Intern_R0248050"/>
-    <updated>2026-08-28T22:53:36Z</updated>
+    <updated>2026-09-01T15:54:59Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · El Segundo, CA · $141k/yr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · El Segundo, CA · $141k/yr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0248034</id>
@@ -771,9 +771,9 @@
     <id>urn:intern-engine:workday:bah:/job/Rome-NY/University--2027-Summer-Games-Data-Scientist-Intern_R0248143</id>
     <title>Booz Allen: University, 2027 Summer Games Data Scientist Intern 🇺🇸</title>
     <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/University--2027-Summer-Games-Data-Scientist-Intern_R0248143"/>
-    <updated>2026-08-28T22:53:36Z</updated>
+    <updated>2026-09-01T15:54:59Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Rome, NY · $141k/yr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Rome, NY · $141k/yr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:bah:/job/Rome-NY/University--2027-Summer-Games-Software-Developer-Intern_R0248141</id>

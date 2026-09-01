@@ -7,6 +7,13 @@
     "US"
   ],
   "role_scope": "tech",
+  "excluded_categories": [
+    "Hardware"
+  ],
+  "excluded_title_terms": [
+    "data science",
+    "data scientist"
+  ],
   "max_age_days": 270,
   "max_per_company": 3,
   "allowlist_only": false,

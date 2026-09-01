@@ -437,6 +437,37 @@ class TestOutOfScopeSweep:
         assert _close_out_of_scope(existing, cfg) == 0
         assert existing["a"]["is_open"] is True
 
+    def test_personal_role_preferences_close_existing_records(self):
+        from intern_engine.pipeline import _close_out_of_scope
+
+        cfg = {
+            "regions": ["US"],
+            "excluded_categories": ["Hardware"],
+            "excluded_title_terms": ["data science", "data scientist"],
+        }
+        existing = {
+            "data": {
+                "is_open": True,
+                "title": "Data Science Intern",
+                "category": "Data & ML/AI",
+            },
+            "hardware": {
+                "is_open": True,
+                "title": "Firmware Engineering Intern",
+                "category": "Hardware",
+            },
+            "ml": {
+                "is_open": True,
+                "title": "Machine Learning Intern",
+                "category": "Data & ML/AI",
+            },
+        }
+
+        assert _close_out_of_scope(existing, cfg) == 2
+        assert existing["data"]["is_open"] is False
+        assert existing["hardware"]["is_open"] is False
+        assert existing["ml"]["is_open"] is True
+
 
 class TestRetireGuessedCycles:
     """Legacy records must lose cycle labels that came from the old guess."""

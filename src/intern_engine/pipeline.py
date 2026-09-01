@@ -553,6 +553,8 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
                 if len(stated_all) > 1:
                     job.seasons = stated_all
             job.category = filters.categorize(job.title)
+            if config.role_excluded(cfg, job.title, job.category):
+                continue
             job.company = names.display(job.company, job.company_slug)
             if job.posted_at and not job.posted_at_source:
                 job.posted_at_source = models.date_source(job.posted_at)
@@ -667,9 +669,11 @@ def _close_out_of_scope(existing: dict, cfg: dict, blocklist: dict | None = None
         expired_unstated = bool(
             record.get("season_inferred") and posted and posted.date() < infer_cutoff
         )
+        category = str(record.get("category") or filters.categorize(title))
         rejected = (
             (bool(title) and not filters.is_internship(title))
             or (bool(title) and tech_only and not filters.is_tech(title))
+            or config.role_excluded(cfg, title, category)
             or (
                 has_cycle_evidence
                 and not assigned.intersection(cycles | {filters.NOT_STATED})
