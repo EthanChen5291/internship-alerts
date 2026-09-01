@@ -14,7 +14,18 @@ from datetime import UTC, datetime
 from html import escape
 from urllib.parse import quote
 
-from . import config, filters, grouping, h1b, paths, radar, resume_page, sponsorship, trends
+from . import (
+    competitiveness,
+    config,
+    filters,
+    grouping,
+    h1b,
+    paths,
+    radar,
+    resume_page,
+    sponsorship,
+    trends,
+)
 
 
 def _hero(stats: dict, open_jobs: list[dict], proven_roles: int) -> str:
@@ -165,6 +176,12 @@ def _rows(open_jobs: list[dict]) -> str:
             f' <span class="ok" title="~{h1b.pretty_count(approvals)} H-1B approvals '
             f'({escape(window)}, USCIS)">✓</span>' if proven == "1" else ""
         )
+        competition = competitiveness.estimate(r)
+        competition_badge = (
+            f'<span class="competition competition-{escape(competition.key)}" '
+            f'title="{escape(competition.explanation)}">'
+            f'{escape(competition.label)}</span>'
+        )
         salary = r.get("salary") or ""
         skills = [s for s in (r.get("skills") or []) if s][:6]
         chips = (
@@ -242,7 +259,8 @@ def _rows(open_jobs: list[dict]) -> str:
             f'data-ids="{escape("|".join(r.get("opening_ids") or [jid]))}" '
             f'data-text="{escape(haystack)}">'
             f"<td class='c-save'>{save}</td>"
-            f"<td>{escape(r.get('company', ''))}{check}{rmark}</td>"
+            f"<td>{escape(r.get('company', ''))}{check}{rmark}"
+            f"<span class='competition-line'>Competition: {competition_badge}</span></td>"
             f"<td><span class='rt'>{escape(r.get('title', ''))}</span> "
             f"{flag}{count_tag}{chips}</td>"
             f"<td>{cycle_tag}</td>"
@@ -590,6 +608,16 @@ def generate(store_data: dict, stats: dict) -> None:
             font:700 11px/1 ui-monospace,SFMono-Regular,"SF Mono",Menlo,monospace;
             letter-spacing:0; margin-left:6px; cursor:help;
             box-shadow:0 0 0 1px #2ea04355; }}
+  .competition-line {{ display:block; margin-top:4px; color:var(--muted);
+                       font-size:10.5px; white-space:nowrap; }}
+  .competition {{ display:inline-block; border:1px solid var(--line);
+                  border-radius:20px; padding:0 6px; cursor:help; font-weight:650; }}
+  .competition-very-high {{ color:#ff9b9b; border-color:#f8514966;
+                            background:#f8514918; }}
+  .competition-high {{ color:#e3b341; border-color:#d2992266;
+                       background:#d2992218; }}
+  .competition-moderate {{ color:#8ecbff; border-color:#1f6feb55;
+                           background:#1f6feb18; }}
   @media(max-width:680px) {{
     /* Give the columns room to be readable while scrolling, rather than
        squeezing nine of them into 390px and wrapping every title to four
@@ -729,7 +757,9 @@ def generate(store_data: dict, stats: dict) -> None:
   class="note-long"> — no account, no sign-in, nothing sent anywhere</span>.
   <span class="tag tag-guess">not stated</span> = the posting names no cycle
   anywhere, so we don't guess one<span class="note-long">; a plain tag is the
-  cycle the employer actually stated, in the title or the posting text</span>.</p>
+  cycle the employer actually stated, in the title or the posting text</span>.
+  Competition is a relative estimate from employer recognition and role demand,
+  not an applicant count or acceptance rate.</p>
   <div class="tscroll">
   <table><thead><tr><th class="c-save" title="Save"></th><th>Company</th><th>Role</th>
   <th>Cycle</th><th>Category</th>

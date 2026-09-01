@@ -45,6 +45,8 @@ def test_email_contains_company_role_keywords_and_apply_link():
     assert "Tailor resume" in html
     assert "resume.html?job=job-1" in html
     assert "Your application angle" in html
+    assert "Competition estimate" in html
+    assert "relative estimate" in html
     assert "Summer 2027 availability" in html
 
 

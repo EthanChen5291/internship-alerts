@@ -7,15 +7,15 @@
     "linkedin": "linkedin.com/in/jordan-student",
     "github": "github.com/jordan-student"
   },
-  "summary": "Computer science student focused on reliable software and data systems.",
   "education": [
     {
       "school": "Example University",
       "degree": "B.S. Computer Science",
-      "start": "Aug 2024",
-      "end": "May 2028",
+      "gpa": "3.9/4.0 GPA",
+      "location": "Chicago, IL",
+      "end": "Expected Graduation May 2028",
       "details": [
-        "Relevant coursework: Data Structures, Algorithms, Databases"
+        "Relevant Courses: Data Structures, Algorithms, Databases"
       ]
     }
   ],
@@ -42,6 +42,7 @@
   "experience": [
     {
       "company": "Example Lab",
+      "url": "https://example.com",
       "role": "Software Assistant",
       "start": "Jan 2026",
       "end": "Present",
@@ -54,6 +55,8 @@
   "projects": [
     {
       "name": "Campus Events App",
+      "url": "https://github.com/example/campus-events",
+      "role": "Full-Stack Application",
       "technologies": [
         "React",
         "Python",
@@ -62,6 +65,15 @@
       "bullets": [
         "Created a React interface for searching campus events.",
         "Designed a Python API backed by PostgreSQL."
+      ]
+    }
+  ],
+  "honors": [
+    {
+      "name": "University Hackathon Winner",
+      "date": "Feb 2026",
+      "bullets": [
+        "First place in the accessibility track."
       ]
     }
   ]

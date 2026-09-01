@@ -18,7 +18,7 @@ from urllib.parse import quote
 
 import httpx
 
-from . import config, grouping
+from . import competitiveness, config, grouping
 
 _BREVO_URL = "https://api.brevo.com/v3/smtp/email"
 _TIMEOUT = 12
@@ -201,6 +201,10 @@ def build_email(records: list[dict]) -> tuple[str, str]:
                 _fact("Cycle", record.get("season")),
                 _fact("Location", record.get("location")),
                 _fact("Role focus", record.get("category")),
+                _fact(
+                    "Competition estimate",
+                    f"{competitiveness.estimate(record).label} (relative estimate)",
+                ),
                 _fact("Key terms", skills),
                 _fact("Sponsorship", record.get("sponsorship")),
                 _fact("Posted", posted),

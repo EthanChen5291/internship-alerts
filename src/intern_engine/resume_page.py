@@ -1,4 +1,9 @@
-"""Private, browser-local resume tailoring page."""
+"""Private, browser-local resume tailoring page.
+
+The renderer deliberately keeps the base resume's section and entry order.
+Targeting is limited to moving truthful, existing bullets and individual skills
+within their original containers.
+"""
 
 from __future__ import annotations
 
@@ -16,13 +21,13 @@ _EXAMPLE = {
         "linkedin": "linkedin.com/in/jordan-student",
         "github": "github.com/jordan-student",
     },
-    "summary": "Computer science student focused on reliable software and data systems.",
     "education": [{
         "school": "Example University",
         "degree": "B.S. Computer Science",
-        "start": "Aug 2024",
-        "end": "May 2028",
-        "details": ["Relevant coursework: Data Structures, Algorithms, Databases"],
+        "gpa": "3.9/4.0 GPA",
+        "location": "Chicago, IL",
+        "end": "Expected Graduation May 2028",
+        "details": ["Relevant Courses: Data Structures, Algorithms, Databases"],
     }],
     "skills": [
         {"category": "Languages", "items": ["Python", "Java", "JavaScript", "SQL"]},
@@ -30,6 +35,7 @@ _EXAMPLE = {
     ],
     "experience": [{
         "company": "Example Lab",
+        "url": "https://example.com",
         "role": "Software Assistant",
         "start": "Jan 2026",
         "end": "Present",
@@ -40,11 +46,18 @@ _EXAMPLE = {
     }],
     "projects": [{
         "name": "Campus Events App",
+        "url": "https://github.com/example/campus-events",
+        "role": "Full-Stack Application",
         "technologies": ["React", "Python", "PostgreSQL"],
         "bullets": [
             "Created a React interface for searching campus events.",
             "Designed a Python API backed by PostgreSQL.",
         ],
+    }],
+    "honors": [{
+        "name": "University Hackathon Winner",
+        "date": "Feb 2026",
+        "bullets": ["First place in the accessibility track."],
     }],
 }
 
@@ -58,22 +71,23 @@ _PAGE = r'''<!DOCTYPE html>
 .toolbar{max-width:920px;margin:24px auto;padding:20px;background:var(--panel);border:1px solid var(--border);border-radius:12px}
 h1{margin:0 0 6px;font-size:22px}.muted{color:var(--muted)}button,.file{display:inline-block;margin:8px 8px 0 0;padding:9px 13px;border:1px solid var(--border);border-radius:7px;background:#21262d;color:var(--text);cursor:pointer}
 button.primary{background:#238636;border-color:#2ea043}input[type=file]{max-width:100%}.status{margin-top:10px}.match{color:#3fb950}
-.paper{width:8.5in;min-height:11in;margin:18px auto 40px;padding:.42in .55in;background:white;color:#111;box-shadow:0 8px 35px #0008;font:9.5pt/1.25 Arial,sans-serif}
-.paper h2{text-align:center;font-size:18pt;line-height:1.05;margin:0 0 3px}.contact{text-align:center;font-size:8.5pt;margin-bottom:7px}.section{font-size:10.5pt;font-weight:bold;color:#17365d;border-bottom:1px solid #17365d;margin:7px 0 3px;padding-bottom:1px}.entry{margin:2px 0 4px}.entry-head{display:flex;justify-content:space-between;gap:12px;font-weight:bold}.dates{white-space:nowrap;font-weight:normal}.sub{font-size:8.5pt}.paper ul{margin:2px 0 2px 17px;padding:0}.paper li{margin:0 0 1px}.skill{margin:1px 0}.setup{padding:28px;text-align:center;color:#555}.target{font-size:12px;margin-top:6px}
+.paper{width:8.5in;min-height:11in;margin:18px auto 40px;padding:.32in .5in .38in;background:white;color:#111;box-shadow:0 8px 35px #0008;font:10pt/1.12 "Times New Roman",Times,serif}
+.paper h2{text-align:center;font-size:21pt;line-height:1;margin:0 0 5px}.paper a{color:#0645d1;text-decoration:underline}.contact{text-align:center;font-size:9.5pt;margin-bottom:13px}.section{font-size:12pt;line-height:1.05;font-weight:bold;color:#111;border-bottom:2px solid #111;margin:11px 0 3px;padding-bottom:1px}.entry{margin:1px 0 3px}.entry-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px}.entry-title{min-width:0}.entry-title strong{font-weight:bold}.entry-title em{font-weight:normal}.dates{white-space:nowrap;font-weight:normal}.edu-main{font-size:10.2pt}.edu-meta{margin-top:1px}.paper ul{margin:1px 0 2px 35px;padding:0}.paper li{margin:0 0 1px;padding-left:2px}.skill{margin:1px 0}.setup{padding:28px;text-align:center;color:#555}.target{font-size:12px;margin-top:6px}
 @media(max-width:900px){.paper{width:calc(100% - 20px);min-height:0;padding:24px}.toolbar{margin:10px}}
 @media print{@page{size:letter;margin:0}.toolbar{display:none}.paper{margin:0;box-shadow:none;width:8.5in;min-height:11in}.target{display:none}body{background:white}}
 </style></head><body>
 <div class="toolbar">
   <h1>Private resume tailor</h1>
-  <div class="muted">Nothing is uploaded. The tool only reorders your existing bullets and skills for the selected role; it never rewrites or invents claims.</div>
+  <div class="muted">Your resume stays on this browser. Its sections, entries, wording, and visual structure are preserved; the tool only reorders existing bullets and individual skills for the selected role.</div>
   <label class="file">Load base resume JSON <input id="file" type="file" accept="application/json,.json"></label>
   <button id="remember">Remember on this browser</button>
   <button id="clear">Clear saved resume</button>
   <button id="print" class="primary" disabled>Save as PDF</button>
-  <a class="file" href="resume.example.json" download>Download template</a>
+  <a class="file" href="resume.example.json" download>Download JSON template</a>
+  <a class="file" href="./">Back to dashboard</a>
   <div id="status" class="status muted">Loading job...</div>
 </div>
-<main id="paper" class="paper"><div class="setup">Choose your resume JSON above. The selected role will be applied automatically.</div></main>
+<main id="paper" class="paper"><div class="setup">Load your resume JSON once, then choose "Remember on this browser." The selected role will be applied automatically.</div></main>
 <script>
 (function(){
   'use strict';
@@ -81,38 +95,41 @@ button.primary{background:#238636;border-color:#2ea043}input[type=file]{max-widt
   var paper=document.getElementById('paper'), status=document.getElementById('status'), print=document.getElementById('print');
   function node(tag, cls, text){var e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=String(text);return e}
   function safeUrl(value){try{var u=new URL(value.indexOf('://')<0?'https://'+value:value);return /^https?:$/.test(u.protocol)?u.href:''}catch(e){return ''}}
+  function bulletText(value){return typeof value==='string'?value:String((value||{}).text||'')}
   function words(value){return String(value||'').toLowerCase().match(/[a-z0-9+#.]{2,}/g)||[]}
   function termsFor(j){
     var generic={and:1,the:1,for:1,with:1,intern:1,internship:1,engineering:1,engineer:1,software:1,summer:1,fall:1,role:1,technology:1};
     var raw=(j.skills||[]).concat(words((j.title||'')+' '+(j.category||''))), seen={}, out=[];
     raw.forEach(function(v){var key=String(v).toLowerCase();if(!seen[key]&&!generic[key]){seen[key]=1;out.push(String(v))}});return out;
   }
-  function score(value,terms){var text=String(value||'').toLowerCase(),n=0;terms.forEach(function(t){if(text.indexOf(t.toLowerCase())!==-1)n+=3});return n}
+  function hasTerm(value,term){var hay=words(value),needle=words(term);if(!needle.length)return false;for(var i=0;i<=hay.length-needle.length;i++){var yes=true;for(var j=0;j<needle.length;j++){if(hay[i+j]!==needle[j]){yes=false;break}}if(yes)return true}return false}
+  function score(value,terms){var n=0;terms.forEach(function(t){if(hasTerm(value,t))n+=3});return n}
   function ordered(values,fn){return (values||[]).map(function(v,i){return{v:v,i:i,s:fn(v)}}).sort(function(a,b){return b.s-a.s||a.i-b.i}).map(function(x){return x.v})}
   function tailored(base,j){
     var out=JSON.parse(JSON.stringify(base)), terms=termsFor(j);
-    out.skills=ordered(out.skills||[],function(g){return(g.items||[]).reduce(function(n,v){return n+score(v,terms)},0)});
     out.skills.forEach(function(g){g.items=ordered(g.items||[],function(v){return score(v,terms)})});
-    ['experience','projects'].forEach(function(section){
-      (out[section]||[]).forEach(function(item){item.bullets=ordered(item.bullets||[],function(v){return score(v,terms)})});
-      out[section]=ordered(out[section]||[],function(item){return(item.bullets||[]).reduce(function(n,v){return n+score(v,terms)},0)});
+    ['experience','projects','honors'].forEach(function(section){
+      (out[section]||[]).forEach(function(item){item.bullets=ordered(item.bullets||[],function(v){return score(bulletText(v),terms)})});
     });
     return{resume:out,terms:terms};
   }
   function section(title){paper.appendChild(node('div','section',title))}
-  function bullets(values,parent){if(!values||!values.length)return;var ul=node('ul');values.forEach(function(v){ul.appendChild(node('li','',v))});parent.appendChild(ul)}
+  function highlighted(parent,value){var text=bulletText(value),marks=(value&&typeof value==='object'&&value.highlights)||[],at=0;marks.slice().sort(function(a,b){return text.indexOf(a)-text.indexOf(b)}).forEach(function(mark){var i=text.indexOf(mark,at);if(i<0)return;parent.appendChild(document.createTextNode(text.slice(at,i)));parent.appendChild(node('strong','',mark));at=i+mark.length});parent.appendChild(document.createTextNode(text.slice(at)))}
+  function bullets(values,parent){if(!values||!values.length)return;var ul=node('ul');values.forEach(function(v){var li=node('li');highlighted(li,v);ul.appendChild(li)});parent.appendChild(ul)}
+  function linkedLabel(parent,label,url){var href=safeUrl(String(url||''));if(href){var a=node('a','',label);a.href=href;a.target='_blank';a.rel='noopener';parent.appendChild(a)}else{parent.appendChild(document.createTextNode(label))}}
+  function entryHeading(item,kind){var h=node('div','entry-head'),left=node('span','entry-title'),strong=node('strong'),label=kind==='project'?(item.name||''):(item.company||item.name||'');linkedLabel(strong,label,item.url);left.appendChild(strong);var descriptor=item.role||'';if(descriptor){left.appendChild(document.createTextNode(', '));left.appendChild(node('em','',descriptor))}h.appendChild(left);h.appendChild(node('span','dates',item.date||[item.start,item.end].filter(Boolean).join(' - ')));return h}
   function render(){
     if(!job||!resume)return;
     var result=tailored(resume,job), r=result.resume;paper.replaceChildren();
     paper.appendChild(node('h2','',r.name||'Your Name'));
-    var c=r.contact||{}, contact=['email','phone','location','linkedin','github','website'].map(function(k){return c[k]}).filter(Boolean).join(' | ');
-    paper.appendChild(node('div','contact',contact));
-    paper.appendChild(node('div','target','Prepared for '+(job.company||'')+' - '+(job.title||'')));
+    var c=r.contact||{}, contactNode=node('div','contact'),contactKeys=['location','phone','email','github','linkedin','website'],hasContact=false;
+    contactKeys.forEach(function(k){if(!c[k])return;if(hasContact)contactNode.appendChild(document.createTextNode(' | '));var label=String(c[k]),url=c[k+'_url']||((k==='email')?'mailto:'+label:'');if(url){var a=node('a','',label);a.href=url;contactNode.appendChild(a)}else contactNode.appendChild(document.createTextNode(label));hasContact=true});
+    if(hasContact)paper.appendChild(contactNode);
     if(r.summary){section('SUMMARY');paper.appendChild(node('div','',r.summary))}
-    if((r.education||[]).length){section('EDUCATION');r.education.forEach(function(x){var e=node('div','entry'),h=node('div','entry-head');h.appendChild(node('span','',(x.school||'')+(x.degree?' - '+x.degree:'')));h.appendChild(node('span','dates',[x.start,x.end].filter(Boolean).join(' - ')));e.appendChild(h);bullets(x.details,e);paper.appendChild(e)})}
-    if((r.skills||[]).length){section('SKILLS');r.skills.forEach(function(g){var line=node('div','skill'),b=node('b','',(g.category||'Skills')+': ');line.appendChild(b);line.appendChild(document.createTextNode((g.items||[]).join(', ')));paper.appendChild(line)})}
-    function entries(title,key){if(!(r[key]||[]).length)return;section(title);r[key].forEach(function(x){var e=node('div','entry'),h=node('div','entry-head'),label=x.role||x.name||'',org=x.company||'';h.appendChild(node('span','',label+(org?' - '+org:'')));h.appendChild(node('span','dates',[x.start,x.end].filter(Boolean).join(' - ')));e.appendChild(h);if((x.technologies||[]).length)e.appendChild(node('div','sub',x.technologies.join(', ')));bullets(x.bullets,e);paper.appendChild(e)})}
-    entries('EXPERIENCE','experience');entries('PROJECTS','projects');
+    if((r.education||[]).length){section('EDUCATION');r.education.forEach(function(x){var e=node('div','entry'),main=node('div','edu-main'),school=node('strong','',x.school||'');main.appendChild(school);if(x.degree){main.appendChild(document.createTextNode(', '));main.appendChild(node('em','',x.degree))}if(x.gpa){main.appendChild(document.createTextNode(', '));main.appendChild(node('strong','',x.gpa))}e.appendChild(main);var meta=[x.location,x.end].filter(Boolean).join(' | ');if(meta)e.appendChild(node('div','edu-meta',meta));(x.details||[]).forEach(function(v){e.appendChild(node('div','',v))});paper.appendChild(e)})}
+    function entries(title,key,kind){if(!(r[key]||[]).length)return;section(title);r[key].forEach(function(x){var e=node('div','entry');e.appendChild(entryHeading(x,kind));bullets(x.bullets,e);paper.appendChild(e)})}
+    entries('EXPERIENCE','experience','experience');entries('PROJECTS','projects','project');entries('HONORS','honors','honor');
+    if((r.skills||[]).length){section('TECHNICAL SKILLS');r.skills.forEach(function(g){var line=node('div','skill'),b=node('b','',(g.category||'Skills')+': ');line.appendChild(b);line.appendChild(document.createTextNode((g.items||[]).join(', ')));paper.appendChild(line)})}
     var matched=result.terms.filter(function(t){return score(JSON.stringify(r),[t])>0});
     status.replaceChildren(document.createTextNode(job.company+' - '+job.title+' | '));var m=node('span','match',matched.length?'Matched existing keywords: '+matched.join(', '):'No exact keyword matches; original order preserved.');status.appendChild(m);print.disabled=false;
   }
@@ -123,7 +140,8 @@ button.primary{background:#238636;border-color:#2ea043}input[type=file]{max-widt
   print.addEventListener('click',function(){window.print()});
   try{var saved=JSON.parse(localStorage.getItem(KEY)||'null');if(saved)resume=saved}catch(e){localStorage.removeItem(KEY)}
   var id=new URLSearchParams(location.search).get('job');
-  fetch('api/jobs.json').then(function(r){if(!r.ok)throw new Error('jobs API unavailable');return r.json()}).then(function(data){job=(data.jobs||[]).find(function(x){return x.id===id});if(!job)throw new Error('Role not found or no longer open.');status.textContent=job.company+' - '+job.title;if(resume)render()}).catch(function(e){status.textContent=e.message});
+  if(!id){status.textContent='Choose Resume next to a current role on the dashboard.';return}
+  fetch('api/jobs.json').then(function(r){if(!r.ok)throw new Error('jobs API unavailable');return r.json()}).then(function(data){job=(data.jobs||[]).find(function(x){return x.id===id||(x.opening_ids||[]).indexOf(id)!==-1||(x.aliases||[]).indexOf(id)!==-1});if(!job)throw new Error('This role is no longer open. Choose a current role from the dashboard.');status.textContent=job.company+' - '+job.title;if(resume)render()}).catch(function(e){status.textContent=e.message});
 })();
 </script></body></html>'''
 

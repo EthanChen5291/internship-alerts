@@ -48,6 +48,27 @@ def test_tailoring_only_reorders_existing_claims():
     assert before["experience"][0]["bullets"][0].startswith("Documented")
 
 
+def test_tailoring_preserves_section_group_and_entry_order():
+    before = _resume()
+    before["skills"].append({"category": "Tools", "items": ["Git"]})
+    before["experience"].append({
+        "company": "Second Lab", "role": "Developer",
+        "bullets": ["Built a PyTorch model."],
+    })
+    after = resume_tailor.tailor(before, _job())
+    assert [group["category"] for group in after["skills"]] == ["Languages", "Tools"]
+    assert [item["company"] for item in after["experience"]] == ["Lab", "Second Lab"]
+
+
+def test_java_keyword_does_not_match_javascript():
+    before = _resume()
+    before["skills"][0]["items"] = ["JavaScript", "Java"]
+    job = _job()
+    job["skills"] = ["Java"]
+    after = resume_tailor.tailor(before, job)
+    assert after["skills"][0]["items"] == ["Java", "JavaScript"]
+
+
 def test_pdf_is_readable_and_contains_the_original_facts(tmp_path):
     output = tmp_path / "tailored.pdf"
     resume_tailor.write_pdf(resume_tailor.tailor(_resume(), _job()), output)

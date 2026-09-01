@@ -25,8 +25,13 @@ def test_dashboard_uses_fetch_time_and_prunes_ghost_saves():
     assert "if (!currentIds[id]) delete saved[id]" in html
     assert "/rest/v1/rpc/request_email_subscription" not in html
     assert "resume.html?job=a" in html
+    assert "Competition: " in html
+    assert "not an applicant count or acceptance rate" in html
     resume = open(f"{paths.DOCS_DIR}/resume.html", encoding="utf-8").read()
-    assert "Nothing is uploaded" in resume
+    assert "visual structure are preserved" in resume
+    assert "TECHNICAL SKILLS" in resume
+    assert "entries('HONORS','honors','honor')" in resume
+    assert "out[section]=ordered" not in resume
     assert "window.print()" in resume
 
 

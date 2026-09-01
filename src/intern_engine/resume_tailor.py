@@ -48,8 +48,17 @@ def keywords(job: dict) -> list[str]:
 
 
 def _score(text: str, terms: list[str]) -> int:
-    haystack = text.casefold()
-    return sum(3 if term.casefold() in haystack else 0 for term in terms)
+    haystack = _WORD.findall(text.casefold())
+
+    def contains(term: str) -> bool:
+        needle = _WORD.findall(term.casefold())
+        if not needle:
+            return False
+        width = len(needle)
+        return any(haystack[index:index + width] == needle
+                   for index in range(len(haystack) - width + 1))
+
+    return sum(3 if contains(term) else 0 for term in terms)
 
 
 def _stable_reorder(values: list, score) -> list:
@@ -59,26 +68,21 @@ def _stable_reorder(values: list, score) -> list:
 
 
 def tailor(resume: dict, job: dict) -> dict:
-    """Return a deep copy with relevant existing material moved earlier."""
+    """Move relevant bullets/skills without changing section or entry order."""
     result = copy.deepcopy(resume)
     terms = keywords(job)
     for group in result.get("skills") or []:
         items = list(group.get("items") or [])
         group["items"] = _stable_reorder(items, lambda value: _score(str(value), terms))
-    result["skills"] = _stable_reorder(
-        list(result.get("skills") or []),
-        lambda group: sum(_score(str(value), terms) for value in (group.get("items") or [])),
-    )
-    for section in ("experience", "projects"):
+    for section in ("experience", "projects", "honors"):
         for item in result.get(section) or []:
             bullets = list(item.get("bullets") or [])
             item["bullets"] = _stable_reorder(
-                bullets, lambda value: _score(str(value), terms)
+                bullets,
+                lambda value: _score(
+                    str(value.get("text") if isinstance(value, dict) else value), terms
+                ),
             )
-        result[section] = _stable_reorder(
-            list(result.get(section) or []),
-            lambda item: sum(_score(str(value), terms) for value in (item.get("bullets") or [])),
-        )
     result["target"] = {
         "job_id": job.get("id"),
         "company": job.get("company"),
