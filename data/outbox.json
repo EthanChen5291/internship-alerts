@@ -1,7 +1,13 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:tencent:/job/US-California-Palo-Alto/AI-Business-Analyst-Intern_R108039-1"
+    ],
+    "telegram": [
+      "workday:tencent:/job/US-California-Palo-Alto/AI-Business-Analyst-Intern_R108039-1"
+    ],
+    "personal_email": [
+      "workday:tencent:/job/US-California-Palo-Alto/AI-Business-Analyst-Intern_R108039-1"
+    ]
   }
 }

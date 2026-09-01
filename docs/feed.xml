@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-01T16:14:31Z</updated>
+  <updated>2026-09-01T17:47:06Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:tencent:/job/US-California-Palo-Alto/AI-Business-Analyst-Intern_R108039-1</id>
+    <title>Tencent: AI Business Analyst Intern</title>
+    <link href="https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/AI-Business-Analyst-Intern_R108039-1"/>
+    <updated>2026-09-01T17:47:06Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · US-California-Palo Alto · $24.81–$42.7/hr</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:pluralis-research:c8f78978-a693-4863-bcc0-66af5c3fd0be</id>
     <title>Pluralis Research: Research Scientist Intern</title>
@@ -16,20 +24,20 @@
     <summary>Not stated · Data &amp; ML/AI · USA or Australia · PyTorch</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:nebraskablue:/job/Omaha-NE/Cyber-Intern--Summer-2027_JR101407</id>
-    <title>BlueCross BlueShield of Nebraska: Cyber Intern: Summer 2027</title>
-    <link href="https://nebraskablue.wd1.myworkdayjobs.com/BCBSNE/job/Omaha-NE/Cyber-Intern--Summer-2027_JR101407"/>
+    <id>urn:intern-engine:workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1</id>
+    <title>CACI: Software Engineering Co-op - Spring &amp; Summer 2027</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1"/>
     <updated>2026-09-01T16:14:31Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Omaha, NE · Azure</summary>
+    <summary>Summer 2027 · Software · Danbury, CT, US · Python, Java, C++, C#, MATLAB</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:nebraskablue:/job/Omaha-NE/IS-Intern--Summer-2027_JR101411</id>
-    <title>BlueCross BlueShield of Nebraska: IS Intern: AI &amp; Automation (Managed Services) Summer 2027</title>
-    <link href="https://nebraskablue.wd1.myworkdayjobs.com/BCBSNE/job/Omaha-NE/IS-Intern--Summer-2027_JR101411"/>
+    <id>urn:intern-engine:workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354</id>
+    <title>CACI: Software Engineering Co-op - Summer &amp; Fall 2027</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354"/>
     <updated>2026-09-01T16:14:31Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Omaha, NE · Python, SQL, Bash, Azure</summary>
+    <summary>Summer 2027 · Software · Danbury, CT, US · Python, Java, C++, C#, MATLAB</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437</id>
@@ -48,22 +56,6 @@
     <summary>Summer 2027 · Software · Sarasota, FL, US</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354</id>
-    <title>CACI: Software Engineering Co-op - Summer &amp; Fall 2027</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354"/>
-    <updated>2026-09-01T16:14:31Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Danbury, CT, US · Python, Java, C++, C#, MATLAB</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1</id>
-    <title>CACI: Software Engineering Co-op - Spring &amp; Summer 2027</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1"/>
-    <updated>2026-09-01T16:14:31Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Danbury, CT, US · Python, Java, C++, C#, MATLAB</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:clarios:/job/United-States-Wisconsin-Milwaukee/IT-Digital-AI-Intern--Summer-2027-_WD49910</id>
     <title>Clarios: IT Digital/AI Intern (Summer 2027) 🛂</title>
     <link href="https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Wisconsin-Milwaukee/IT-Digital-AI-Intern--Summer-2027-_WD49910"/>
@@ -72,12 +64,36 @@
     <summary>Summer 2027 · Data &amp; ML/AI · United States, Wisconsin, Milwaukee · sponsorship: no-sponsorship · H-1B track record: ~18 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:workday:flir:/job/US---Huntsville-AL/EADSIM-Software-Engineering-Intern--Summer-2027-_REQ36667</id>
+    <title>Teledyne: EADSIM Software Engineering Intern (Summer 2027) 🇺🇸</title>
+    <link href="https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/EADSIM-Software-Engineering-Intern--Summer-2027-_REQ36667"/>
+    <updated>2026-09-01T16:14:31Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · US - Huntsville, AL · Python, C++, Git · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:workday:fnbcorp:/job/Pittsburgh-PA/Summer-2027-AI-and-Innovation-Intern---Pittsburgh--PA_2026-01811</id>
     <title>First National Bank: Summer 2027 AI and Innovation Intern - Pittsburgh, PA 🛂</title>
     <link href="https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Summer-2027-AI-and-Innovation-Intern---Pittsburgh--PA_2026-01811"/>
     <updated>2026-09-01T16:14:31Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Pittsburgh, PA · LLMs · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:nebraskablue:/job/Omaha-NE/Cyber-Intern--Summer-2027_JR101407</id>
+    <title>BlueCross BlueShield of Nebraska: Cyber Intern: Summer 2027</title>
+    <link href="https://nebraskablue.wd1.myworkdayjobs.com/BCBSNE/job/Omaha-NE/Cyber-Intern--Summer-2027_JR101407"/>
+    <updated>2026-09-01T16:14:31Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Omaha, NE · Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:nebraskablue:/job/Omaha-NE/IS-Intern--Summer-2027_JR101411</id>
+    <title>BlueCross BlueShield of Nebraska: IS Intern: AI &amp; Automation (Managed Services) Summer 2027</title>
+    <link href="https://nebraskablue.wd1.myworkdayjobs.com/BCBSNE/job/Omaha-NE/IS-Intern--Summer-2027_JR101411"/>
+    <updated>2026-09-01T16:14:31Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Omaha, NE · Python, SQL, Bash, Azure</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:newrez:/job/TX-Coppell/XMLNAME-2027-Summer-Internship---Software-Developer_R10390</id>
@@ -94,14 +110,6 @@
     <updated>2026-09-01T16:14:31Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · United States-Colorado-Boulder · $22.25–$27.25/hr · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:flir:/job/US---Huntsville-AL/EADSIM-Software-Engineering-Intern--Summer-2027-_REQ36667</id>
-    <title>Teledyne: EADSIM Software Engineering Intern (Summer 2027) 🇺🇸</title>
-    <link href="https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/EADSIM-Software-Engineering-Intern--Summer-2027-_REQ36667"/>
-    <updated>2026-09-01T16:14:31Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US - Huntsville, AL · Python, C++, Git · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:ebgj.fa.us2.oraclecloud.com:253297</id>
@@ -798,13 +806,5 @@
     <updated>2026-08-28T22:53:36Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Charleston, SC · $108k/yr · Python, Java, C++, JavaScript, Bash · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/Colorado-Springs-CO/University--2027-Summer-Games-Cybersecurity-Intern_R0248131</id>
-    <title>Booz Allen: University, 2027 Summer Games Cyber Security Intern 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Colorado-Springs-CO/University--2027-Summer-Games-Cybersecurity-Intern_R0248131"/>
-    <updated>2026-08-28T22:53:36Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Colorado Springs, CO · $108k/yr · Linux · sponsorship: citizens-only</summary>
   </entry>
 </feed>
