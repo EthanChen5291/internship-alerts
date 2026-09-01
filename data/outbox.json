@@ -1,19 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "oracle:ebgj.fa.us2.oraclecloud.com:253304",
-      "oracle:ebgj.fa.us2.oraclecloud.com:253299",
-      "oracle:ebgj.fa.us2.oraclecloud.com:253297"
-    ],
-    "telegram": [
-      "oracle:ebgj.fa.us2.oraclecloud.com:253304",
-      "oracle:ebgj.fa.us2.oraclecloud.com:253299",
-      "oracle:ebgj.fa.us2.oraclecloud.com:253297"
-    ],
-    "personal_email": [
-      "oracle:ebgj.fa.us2.oraclecloud.com:253304",
-      "oracle:ebgj.fa.us2.oraclecloud.com:253299",
-      "oracle:ebgj.fa.us2.oraclecloud.com:253297"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
