@@ -1,43 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "oracle:egug.fa.us2.oraclecloud.com:26013190",
-      "oracle:egug.fa.us2.oraclecloud.com:26013191",
-      "oracle:egug.fa.us2.oraclecloud.com:26011828",
-      "oracle:egug.fa.us2.oraclecloud.com:26011831",
-      "oracle:egug.fa.us2.oraclecloud.com:26012333",
-      "oracle:egug.fa.us2.oraclecloud.com:26012339",
-      "oracle:egug.fa.us2.oraclecloud.com:26012764",
-      "oracle:egug.fa.us2.oraclecloud.com:26012781",
-      "workday:brunswick:/job/Fond-du-Lac-WI/Mercury-Marine--Software-Controls-Engineering-Intern_JR-051436",
-      "workday:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Masters-Quant-Research-Analyst--Client-Solutions---Analytics--US_R106816",
-      "workday:vermeer:/job/Pella-Iowa-USA---Corporate-Office/Embedded-Software-Engineer-Internship-Summer-2027_REQ-22165"
-    ],
-    "telegram": [
-      "oracle:egug.fa.us2.oraclecloud.com:26013190",
-      "oracle:egug.fa.us2.oraclecloud.com:26013191",
-      "oracle:egug.fa.us2.oraclecloud.com:26011828",
-      "oracle:egug.fa.us2.oraclecloud.com:26011831",
-      "oracle:egug.fa.us2.oraclecloud.com:26012333",
-      "oracle:egug.fa.us2.oraclecloud.com:26012339",
-      "oracle:egug.fa.us2.oraclecloud.com:26012764",
-      "oracle:egug.fa.us2.oraclecloud.com:26012781",
-      "workday:brunswick:/job/Fond-du-Lac-WI/Mercury-Marine--Software-Controls-Engineering-Intern_JR-051436",
-      "workday:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Masters-Quant-Research-Analyst--Client-Solutions---Analytics--US_R106816",
-      "workday:vermeer:/job/Pella-Iowa-USA---Corporate-Office/Embedded-Software-Engineer-Internship-Summer-2027_REQ-22165"
-    ],
-    "personal_email": [
-      "oracle:egug.fa.us2.oraclecloud.com:26013190",
-      "oracle:egug.fa.us2.oraclecloud.com:26013191",
-      "oracle:egug.fa.us2.oraclecloud.com:26011828",
-      "oracle:egug.fa.us2.oraclecloud.com:26011831",
-      "oracle:egug.fa.us2.oraclecloud.com:26012333",
-      "oracle:egug.fa.us2.oraclecloud.com:26012339",
-      "oracle:egug.fa.us2.oraclecloud.com:26012764",
-      "oracle:egug.fa.us2.oraclecloud.com:26012781",
-      "workday:brunswick:/job/Fond-du-Lac-WI/Mercury-Marine--Software-Controls-Engineering-Intern_JR-051436",
-      "workday:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Masters-Quant-Research-Analyst--Client-Solutions---Analytics--US_R106816",
-      "workday:vermeer:/job/Pella-Iowa-USA---Corporate-Office/Embedded-Software-Engineer-Internship-Summer-2027_REQ-22165"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
