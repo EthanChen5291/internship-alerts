@@ -5,23 +5,39 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-01T08:14:32Z</updated>
+  <updated>2026-09-01T13:42:42Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26013190</id>
-    <title>American Express: Campus Graduate I Summer Internship Program - 2027 Data Science, Finance - New York, NY</title>
-    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013190"/>
-    <updated>2026-09-01T08:14:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY, United States · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+    <id>urn:intern-engine:workday:trumpf:/job/Farmington-CT/CNC-Programming-Intern_R00042595</id>
+    <title>TRUMPF: CNC Programming Intern</title>
+    <link href="https://trumpf.wd3.myworkdayjobs.com/TRUMPF_Students/job/Farmington-CT/CNC-Programming-Intern_R00042595"/>
+    <updated>2026-09-01T13:42:42Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Software · Farmington, CT · status: closed</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26013191</id>
-    <title>American Express: Campus Graduate II Summer Internship Program - 2027 Data Science, Finance - New York, NY</title>
-    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013191"/>
-    <updated>2026-09-01T08:14:32Z</updated>
+    <id>urn:intern-engine:oracle:ebgj.fa.us2.oraclecloud.com:253304</id>
+    <title>Texas Instruments: Data Engineer Intern - Summer 2027</title>
+    <link href="https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253304"/>
+    <updated>2026-09-01T13:42:42Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY, United States · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Pella, IA, United States; Urbandale, IA, United States · $29/hr · Python, SQL, LLMs, Git · H-1B track record: ~234 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:ebgj.fa.us2.oraclecloud.com:253299</id>
+    <title>Texas Instruments: Software Intern - Summer 2027</title>
+    <link href="https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253299"/>
+    <updated>2026-09-01T13:42:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Pella, IA, United States; Urbandale, IA, United States · $27.25/hr · Python, Java, C++, JavaScript, LLMs · H-1B track record: ~234 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:ebgj.fa.us2.oraclecloud.com:253297</id>
+    <title>Texas Instruments: IT Infrastructure Intern - Summer 2027</title>
+    <link href="https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253297"/>
+    <updated>2026-09-01T13:42:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Pella, IA, United States · $27.25/hr · LLMs · H-1B track record: ~234 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011828</id>
@@ -29,7 +45,7 @@
     <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011828"/>
     <updated>2026-09-01T08:14:32Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Charlotte, NC, United States · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Charlotte, NC, United States · Python, Java, SQL, AWS, GCP · H-1B track record: ~133 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011831</id>
@@ -37,7 +53,7 @@
     <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011831"/>
     <updated>2026-09-01T08:14:32Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Sunrise, FL, United States · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Sunrise, FL, United States · Python, Java, SQL, AWS, GCP · H-1B track record: ~133 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26012333</id>
@@ -45,7 +61,7 @@
     <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012333"/>
     <updated>2026-09-01T08:14:32Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Phoenix, AZ, United States · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Phoenix, AZ, United States · Python, Java, SQL, AWS, GCP · H-1B track record: ~133 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26012339</id>
@@ -53,7 +69,7 @@
     <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012339"/>
     <updated>2026-09-01T08:14:32Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Phoenix, AZ, United States · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Phoenix, AZ, United States · Python, Java, SQL, PostgreSQL, MongoDB · H-1B track record: ~133 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26012764</id>
@@ -61,7 +77,7 @@
     <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012764"/>
     <updated>2026-09-01T08:14:32Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Charlotte, NC, United States · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Charlotte, NC, United States · Python, Java, SQL, PostgreSQL, MongoDB · H-1B track record: ~133 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26012781</id>
@@ -69,7 +85,23 @@
     <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012781"/>
     <updated>2026-09-01T08:14:32Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Sunrise, FL, United States · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Sunrise, FL, United States · Python, Java, SQL, PostgreSQL, MongoDB · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26013190</id>
+    <title>American Express: Campus Graduate I Summer Internship Program - 2027 Data Science, Finance - New York, NY</title>
+    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013190"/>
+    <updated>2026-09-01T08:14:32Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY, United States · Python, SQL, LLMs · H-1B track record: ~133 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26013191</id>
+    <title>American Express: Campus Graduate II Summer Internship Program - 2027 Data Science, Finance - New York, NY</title>
+    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013191"/>
+    <updated>2026-09-01T08:14:32Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · New York, NY, United States · Python, SQL, LLMs · H-1B track record: ~133 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:brunswick:/job/Fond-du-Lac-WI/Mercury-Marine--Software-Controls-Engineering-Intern_JR-051436</id>
@@ -774,37 +806,5 @@
     <updated>2026-08-28T22:53:36Z</updated>
     <category term="Spring 2027"/>
     <summary>Spring 2027 · Software · Champaign, IL · $18–$27/hr · Python, C++, ROS, Unreal · status: closed · H-1B track record: ~54 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:brunswick:/job/Menomonee-Falls-WI/Software-Engineer-Intern_JR-051426-1</id>
-    <title>Brunswick: Software Engineer Intern 🛂</title>
-    <link href="https://brunswick.wd1.myworkdayjobs.com/search/job/Menomonee-Falls-WI/Software-Engineer-Intern_JR-051426-1"/>
-    <updated>2026-08-28T22:53:36Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Menomonee Falls, WI · $18–$27/hr · Python, JavaScript, SQL · sponsorship: no-sponsorship · H-1B track record: ~54 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cccis:/job/Chicago-Green-St-IL/AI-Enablement-Intern_0014872</id>
-    <title>CCC Intelligent Solutions: AI Enablement Intern</title>
-    <link href="https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/AI-Enablement-Intern_0014872"/>
-    <updated>2026-09-01T03:17:46Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Chicago (Green St), IL · $20–$43/hr · Python, Java, JavaScript, Bash, LLMs · status: closed · H-1B track record: ~101 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:conagrabrands:/job/Omaha-Nebraska/Cybersecurity-Internship---Summer-2027_Req-039965</id>
-    <title>Conagra Brands: Cybersecurity Internship - Summer 2027</title>
-    <link href="https://conagrabrands.wd1.myworkdayjobs.com/Careers_US/job/Omaha-Nebraska/Cybersecurity-Internship---Summer-2027_Req-039965"/>
-    <updated>2026-08-28T22:53:36Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Omaha, Nebraska · $23/hr · H-1B track record: ~14 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hp:/job/Corvallis-Oregon-United-States-of-America/Software-and-Engineering-Intern-Roles---Imaging-and-Print_3168142-1</id>
-    <title>Hewlett Packard (HP): Software and Engineering Intern Roles - Imaging and Print 🛂</title>
-    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Corvallis-Oregon-United-States-of-America/Software-and-Engineering-Intern-Roles---Imaging-and-Print_3168142-1"/>
-    <updated>2026-08-28T22:53:36Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Corvallis, Oregon, United States of America · $29–$35/hr · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>

@@ -1985,6 +1985,20 @@
     }
    }
   },
+  "texas instruments": {
+   "name": "Texas Instruments",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "oracle:ebgj.fa.us2.oraclecloud.com:253297",
+      "oracle:ebgj.fa.us2.oraclecloud.com:253299",
+      "oracle:ebgj.fa.us2.oraclecloud.com:253304"
+     ],
+     "count": 3
+    }
+   }
+  },
   "tmeic": {
    "name": "TMEIC",
    "cycles": {
@@ -2034,6 +2048,18 @@
      "role_ids": [
       "greenhouse:thetradedesk:5187605007"
      ]
+    }
+   }
+  },
+  "trumpf": {
+   "name": "TRUMPF",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "workday:trumpf:/job/Farmington-CT/CNC-Programming-Intern_R00042595"
+     ],
+     "count": 1
     }
    }
   },
@@ -2318,5 +2344,5 @@
    }
   }
  },
- "updated_at": "2026-09-01T08:14:32Z"
+ "updated_at": "2026-09-01T13:42:42Z"
 }
