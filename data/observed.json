@@ -678,9 +678,10 @@
      "first_posted": "2026-08-31",
      "role_ids": [
       "workday:draftkings:/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14928",
-      "workday:draftkings:/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14929"
+      "workday:draftkings:/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14929",
+      "workday:draftkings:/job/Boston-MA/Software-Engineer-Intern-Referral--Summer-2027-_JR14932"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -816,9 +817,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-01",
      "role_ids": [
+      "workday:fnbcorp:/job/Pittsburgh-PA/Summer-2027-AI-ML-Modeler-Intern_2026-01851",
       "workday:fnbcorp:/job/Pittsburgh-PA/Summer-2027-AI-and-Innovation-Intern---Pittsburgh--PA_2026-01811"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -1012,6 +1014,14 @@
       "lever:hermeus:51378fa0-0327-45fd-9420-b6e7d8b56440",
       "lever:hermeus:a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "lever:hermeus:445db430-6f81-41cf-847a-56a947afb936",
+      "lever:hermeus:d87ed913-affc-475e-b721-c5b5f11c3c7b"
+     ],
+     "count": 2
     }
    }
   },
@@ -1070,9 +1080,10 @@
       "greenhouse:hpiq:6114890004",
       "greenhouse:hpiq:6114912004",
       "greenhouse:hpiq:6116398004",
-      "greenhouse:hpiq:6140119004"
+      "greenhouse:hpiq:6140119004",
+      "greenhouse:hpiq:6176783004"
      ],
-     "count": 6
+     "count": 7
     }
    }
   },
@@ -1170,6 +1181,13 @@
      "first_posted": "2026-08-07",
      "role_ids": [
       "workday:jj:/job/Cincinnati-Ohio-United-States-of-America/Software-Engineer-Coop_R-092820"
+     ],
+     "count": 1
+    },
+    "Summer 2027": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "workday:jj:/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743"
      ],
      "count": 1
     }
@@ -1283,9 +1301,10 @@
       "workday:mastercard:/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284869",
       "workday:mastercard:/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284879",
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
+      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284873",
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -1801,10 +1820,12 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Engineering-Intern--Summer-2027-_01871278",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Engineering-Intern--Summer-2027-_01871442",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Engineering-Intern--Summer-2027-_01871444",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324"
      ],
-     "count": 11
+     "count": 13
     }
    }
   },
@@ -1943,6 +1964,18 @@
      "first_posted": "2026-07-29",
      "role_ids": [
       "workday:spe:/job/Culver-City-California/Current-Programming-Intern--Sony-Pictures-Television---Fall-2026_JR113893"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "stanley black decker": {
+   "name": "Stanley Black & Decker",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "workday:sbdinc:/job/Towson-MD-United-States/Embedded-Engineering-Summer-Intern-2027_REQ-1000052019"
      ],
      "count": 1
     }
@@ -2219,9 +2252,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-01",
      "role_ids": [
-      "workday:vermeer:/job/Pella-Iowa-USA---Corporate-Office/Embedded-Software-Engineer-Internship-Summer-2027_REQ-22165"
+      "workday:vermeer:/job/Pella-Iowa-USA---Corporate-Office/Embedded-Software-Engineer-Internship-Summer-2027_REQ-22165",
+      "workday:vermeer:/job/Pella-Iowa-USA---Corporate-Office/IT-Software-Engineer-Internship-Summer-2027_REQ-22178"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2406,5 +2440,5 @@
    }
   }
  },
- "updated_at": "2026-09-01T17:47:06Z"
+ "updated_at": "2026-09-01T20:24:24Z"
 }
