@@ -36,7 +36,7 @@ _MAX_PENDING = 200
 # Every channel that announces individual roles. The email digest is NOT here:
 # it is driven by the store's own news window and its own per-role sent list,
 # not by this queue.
-CHANNELS = ("discord", "telegram")
+CHANNELS = ("discord", "telegram", "personal_email")
 
 
 class OutboxStateCorrupt(RuntimeError):

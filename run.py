@@ -28,6 +28,7 @@ from intern_engine import (  # noqa: E402
     notify,
     outbox,
     paths,
+    personal_alerts,
     pipeline,
     publish,
     readme,
@@ -136,6 +137,7 @@ def cmd_notify() -> None:
     for channel, send, label in (
         ("discord", notify.send_new_roles, "Discord alert"),
         ("telegram", telegram.send_new_roles, "Telegram push"),
+        ("personal_email", personal_alerts.send_email, "Personal email"),
     ):
         pending = outbox.load(channel)
         if not pending:

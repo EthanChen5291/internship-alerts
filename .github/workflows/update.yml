@@ -173,6 +173,9 @@ jobs:
           # daily email digest to the subscriber list (see mailer.py).
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          # Personal-fork instant delivery. This bypasses the public subscriber
+          # database and goes only to the configured owner.
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: python run.py notify

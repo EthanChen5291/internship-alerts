@@ -1,4 +1,4 @@
-"""Static dashboard contracts for freshness, saves, and double opt-in."""
+"""Static dashboard contracts for freshness, saves, and resume actions."""
 
 from intern_engine import dashboard, paths
 
@@ -23,10 +23,11 @@ def test_dashboard_uses_fetch_time_and_prunes_ghost_saves():
     html = open(paths.DASHBOARD_PATH, encoding="utf-8").read()
     assert "Data as of Aug 06, 2026 at 14:08 UTC" in html
     assert "if (!currentIds[id]) delete saved[id]" in html
-    assert "/rest/v1/rpc/request_email_subscription" in html
-    confirm = open(f"{paths.DOCS_DIR}/confirm.html", encoding="utf-8").read()
-    assert "/rest/v1/rpc/confirm_email_subscription" in confirm
-    assert "go.addEventListener('click'" in confirm
+    assert "/rest/v1/rpc/request_email_subscription" not in html
+    assert "resume.html?job=a" in html
+    resume = open(f"{paths.DOCS_DIR}/resume.html", encoding="utf-8").read()
+    assert "Nothing is uploaded" in resume
+    assert "window.print()" in resume
 
 
 def _opening(jid, **extra):

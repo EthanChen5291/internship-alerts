@@ -252,6 +252,11 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
     cycles = config.cycles(cfg)
     cycles_phrase = " and ".join(cycles)
     pages = config.pages_base()
+    alerts_link = (
+        f"**[✉️ Email alerts]({pages}/#subscribe)**"
+        if config.signup_endpoint(cfg)
+        else "**[🔔 Personal alerts](PERSONAL_SETUP.md)**"
+    )
 
     repo = config.repo_slug()
     stats_url = quote(f"{pages}/api/stats.json", safe="")
@@ -287,8 +292,7 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "",
         f"**[🖥️ Live dashboard]({pages}/)** · "
         f"**[📡 RSS]({pages}/feed.xml)** · "
-        f"**[⚙️ JSON API]({pages}/api/jobs.json)** · "
-        f"**[✉️ Email alerts]({pages}/#subscribe)**",
+        f"**[⚙️ JSON API]({pages}/api/jobs.json)** · {alerts_link}",
         "",
         "</div>",
         "",
@@ -299,14 +303,16 @@ def _header(cfg: dict, total_open: int, companies: int, new_week: int,
         "hiring feeds directly and keeps one live list — newest roles on top, "
         "refreshed automatically throughout the day.",
         "",
-        # Native signup posts into our own Supabase list (RLS: insert-only).
-        # The Feedrabbit link is the zero-account fallback via the raw feed URL,
-        # which works even when GitHub Pages is off.
-        f"**🔔 New roles in your inbox:** [subscribe by email]({pages}/#subscribe) "
-        "- one email a day, only when new internships actually appeared, "
-        f"unsubscribe from any email in two clicks. (Prefer RSS-to-email? "
-        "[Feedrabbit works too]"
-        f"({_email_subscribe_url()}).)",
+        (
+            f"**🔔 New roles in your inbox:** [subscribe by email]({pages}/#subscribe) "
+            "- one email a day, only when new internships actually appeared, "
+            f"unsubscribe from any email in two clicks. (Prefer RSS-to-email? "
+            f"[Feedrabbit works too]({_email_subscribe_url()}).)"
+            if config.signup_endpoint(cfg)
+            else "**🔔 Personal instant alerts:** this fork can email one private "
+                 "destination after every successful 30-minute scan. See "
+                 "[PERSONAL_SETUP.md](PERSONAL_SETUP.md)."
+        ),
         "",
         "---",
         "",

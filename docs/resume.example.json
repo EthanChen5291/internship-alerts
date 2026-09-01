@@ -1,0 +1,68 @@
+{
+  "name": "Jordan Student",
+  "contact": {
+    "email": "jordan@example.com",
+    "phone": "(312) 555-0100",
+    "location": "Chicago, IL",
+    "linkedin": "linkedin.com/in/jordan-student",
+    "github": "github.com/jordan-student"
+  },
+  "summary": "Computer science student focused on reliable software and data systems.",
+  "education": [
+    {
+      "school": "Example University",
+      "degree": "B.S. Computer Science",
+      "start": "Aug 2024",
+      "end": "May 2028",
+      "details": [
+        "Relevant coursework: Data Structures, Algorithms, Databases"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "SQL"
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "Git",
+        "Docker",
+        "React",
+        "PostgreSQL"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Example Lab",
+      "role": "Software Assistant",
+      "start": "Jan 2026",
+      "end": "Present",
+      "bullets": [
+        "Built Python data validation scripts for research datasets.",
+        "Collaborated with three researchers using Git and code review."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Campus Events App",
+      "technologies": [
+        "React",
+        "Python",
+        "PostgreSQL"
+      ],
+      "bullets": [
+        "Created a React interface for searching campus events.",
+        "Designed a Python API backed by PostgreSQL."
+      ]
+    }
+  ]
+}

@@ -28,3 +28,7 @@ output/
 outputs/
 tmp/
 work/
+
+# Never publish a real resume or generated application copies.
+private/
+tailored-resumes/

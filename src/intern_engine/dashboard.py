@@ -12,8 +12,9 @@ import json
 import os
 from datetime import UTC, datetime
 from html import escape
+from urllib.parse import quote
 
-from . import config, filters, grouping, h1b, paths, radar, sponsorship, trends
+from . import config, filters, grouping, h1b, paths, radar, resume_page, sponsorship, trends
 
 
 def _hero(stats: dict, open_jobs: list[dict], proven_roles: int) -> str:
@@ -196,6 +197,10 @@ def _rows(open_jobs: list[dict]) -> str:
                                           r.get("title") or "") else "0"
         program = filters.program_type(r.get("title") or "")
         jid = r.get("id") or ""
+        tailor = (
+            f'<a class="tailor" href="resume.html?job={quote(jid, safe="")}" '
+            f'target="_blank" rel="noopener">Resume</a>'
+        )
         # No account, no server: the star writes to this browser's localStorage.
         save = (f'<button class="star" type="button" data-id="{escape(jid)}" '
                 f'aria-label="Save this role" title="Save to your list">☆</button>')
@@ -245,7 +250,7 @@ def _rows(open_jobs: list[dict]) -> str:
             f"<td>{loc}</td>"
             f"<td class='muted'>{escape(salary[:36])}</td>"
             f"<td class='nowrap'>{escape(posted)}</td>"
-            f"<td>{apply}</td>"
+            f"<td class='actions'>{apply}<br>{tailor}</td>"
             "</tr>"
         )
     return "".join(rows)
@@ -949,6 +954,7 @@ def generate(store_data: dict, stats: dict) -> None:
     with open(paths.DASHBOARD_PATH, "w", encoding="utf-8") as f:
         f.write(html_doc)
 
+    resume_page.write()
     _write_unsubscribe(cfg)
     _write_confirmation(cfg)
 
@@ -967,6 +973,10 @@ def _write_unsubscribe(cfg: dict) -> None:
     """
     endpoint = config.signup_endpoint(cfg)
     if not endpoint:
+        try:
+            os.remove(os.path.join(paths.DOCS_DIR, "unsubscribe.html"))
+        except FileNotFoundError:
+            pass
         return
     url, key = endpoint
     page = f"""<!DOCTYPE html>
@@ -1039,6 +1049,10 @@ def _write_confirmation(cfg: dict) -> None:
     """Click-gated double-opt-in target; scanners cannot confirm on page load."""
     endpoint = config.signup_endpoint(cfg)
     if not endpoint:
+        try:
+            os.remove(os.path.join(paths.DOCS_DIR, "confirm.html"))
+        except FileNotFoundError:
+            pass
         return
     url, key = endpoint
     page = f"""<!DOCTYPE html>

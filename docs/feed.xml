@@ -8,60 +8,20 @@
   <updated>2026-09-01T00:52:19Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships</uri></author>
   <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009324</id>
-    <title>Emerson Electric: Cybersecurity Engineering Intern</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009324"/>
+    <id>urn:intern-engine:greenhouse:katalyst:6176711004</id>
+    <title>Katalyst Space Technologies: Engineering Intern (Electrical / Mechanical / GNC / Software)</title>
+    <link href="https://job-boards.greenhouse.io/katalyst/jobs/6176711004"/>
     <updated>2026-09-01T00:52:19Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Security · Shakopee, MN, United States · Python, C++</summary>
+    <summary>Not stated · Hardware · Broomfield, Colorado, United States · Python, C++, MATLAB, Linux</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009478</id>
-    <title>Emerson Electric: Cybersecurity Engineering Intern</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009478"/>
+    <id>urn:intern-engine:greenhouse:stripe:8128745</id>
+    <title>Stripe: Software Engineer, Intern (Summer or Winter)</title>
+    <link href="https://stripe.com/jobs/search?gh_jid=8128745"/>
     <updated>2026-09-01T00:52:19Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Security · Boulder, CO, United States · Python, C++</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009500</id>
-    <title>Emerson Electric: Software Engineering Intern</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009500"/>
-    <updated>2026-09-01T00:52:19Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Houston, TX, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009673</id>
-    <title>Emerson Electric: Software Engineering Intern</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009673"/>
-    <updated>2026-09-01T00:52:19Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Shakopee, MN, United States; Chanhassen, MN, United States; Eden Prairie, MN, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009488</id>
-    <title>Emerson Electric: Data Science Engineering Intern</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009488"/>
-    <updated>2026-09-01T00:52:19Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Boulder, CO, United States · Python, SQL, Tableau</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009321</id>
-    <title>Emerson Electric: Cybersecurity Engineering Co-op (Jan27-May27)</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009321"/>
-    <updated>2026-09-01T00:52:19Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Shakopee, MN, United States · Python, C++</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009454</id>
-    <title>Emerson Electric: Software Engineering Spring Co-op (Jan27- May27)</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009454"/>
-    <updated>2026-09-01T00:52:19Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Shakopee, MN, United States</summary>
+    <summary>Not stated · Software · San Francisco, Seattle, New York City · Java, JavaScript, Scala, Ruby · H-1B track record: ~441 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26007510</id>
@@ -112,20 +72,60 @@
     <summary>Not stated · Data &amp; ML/AI · Marshalltown, IA, United States · Python, Java, C++, C#, SQL</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:katalyst:6176711004</id>
-    <title>Katalyst Space Technologies: Engineering Intern (Electrical / Mechanical / GNC / Software)</title>
-    <link href="https://job-boards.greenhouse.io/katalyst/jobs/6176711004"/>
+    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009321</id>
+    <title>Emerson Electric: Cybersecurity Engineering Co-op (Jan27-May27)</title>
+    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009321"/>
     <updated>2026-09-01T00:52:19Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Hardware · Broomfield, Colorado, United States · Python, C++, MATLAB, Linux</summary>
+    <summary>Not stated · Security · Shakopee, MN, United States · Python, C++</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:stripe:8128745</id>
-    <title>Stripe: Software Engineer, Intern (Summer or Winter)</title>
-    <link href="https://stripe.com/jobs/search?gh_jid=8128745"/>
+    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009324</id>
+    <title>Emerson Electric: Cybersecurity Engineering Intern</title>
+    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009324"/>
     <updated>2026-09-01T00:52:19Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · San Francisco, Seattle, New York City · Java, JavaScript, Scala, Ruby · H-1B track record: ~441 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Security · Shakopee, MN, United States · Python, C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009454</id>
+    <title>Emerson Electric: Software Engineering Spring Co-op (Jan27- May27)</title>
+    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009454"/>
+    <updated>2026-09-01T00:52:19Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Shakopee, MN, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009478</id>
+    <title>Emerson Electric: Cybersecurity Engineering Intern</title>
+    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009478"/>
+    <updated>2026-09-01T00:52:19Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Boulder, CO, United States · Python, C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009488</id>
+    <title>Emerson Electric: Data Science Engineering Intern</title>
+    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009488"/>
+    <updated>2026-09-01T00:52:19Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Boulder, CO, United States · Python, SQL, Tableau</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009500</id>
+    <title>Emerson Electric: Software Engineering Intern</title>
+    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009500"/>
+    <updated>2026-09-01T00:52:19Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Houston, TX, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009673</id>
+    <title>Emerson Electric: Software Engineering Intern</title>
+    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009673"/>
+    <updated>2026-09-01T00:52:19Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Shakopee, MN, United States; Chanhassen, MN, United States; Eden Prairie, MN, United States</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:epicgames:6173862004</id>
