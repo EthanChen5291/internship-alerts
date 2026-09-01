@@ -14,6 +14,8 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."
 from intern_engine.personal_alerts import send_test_email  # noqa: E402
 
 _EVENTS_URL = "https://api.brevo.com/v3/smtp/statistics/events"
+_EMAILS_URL = "https://api.brevo.com/v3/smtp/emails"
+_ACCOUNT_URL = "https://api.brevo.com/v3/account"
 _FAILURE_EVENTS = {
     "blocked",
     "complaint",
@@ -44,6 +46,53 @@ def _safe_text(value: object) -> str:
     return re.sub(r"(?:xkeysib-|eyJ)[A-Za-z0-9._-]+", "[redacted key]", text)
 
 
+def _headers() -> dict[str, str]:
+    return {"api-key": os.environ["BREVO_API_KEY"]}
+
+
+def _account_summary() -> str:
+    response = httpx.get(_ACCOUNT_URL, headers=_headers(), timeout=12)
+    response.raise_for_status()
+    account = response.json()
+    enabled = bool((account.get("relay") or {}).get("enabled"))
+    credits = [
+        str(item.get("credits"))
+        for item in account.get("plan") or []
+        if item.get("creditsType") == "sendLimit" and item.get("credits") is not None
+    ]
+    remaining = ", ".join(credits) if credits else "not reported"
+    return f"transactional relay enabled={enabled}; send credits={remaining}"
+
+
+def _recent_activity() -> str:
+    recipient = os.environ["ALERT_EMAIL_TO"].strip()
+    emails_response = httpx.get(
+        _EMAILS_URL,
+        headers=_headers(),
+        params={"email": recipient, "limit": 20, "sort": "desc"},
+        timeout=12,
+    )
+    emails_response.raise_for_status()
+    messages = emails_response.json().get("transactionalEmails") or []
+    test_messages = sum(
+        item.get("subject") == "Internship Alerts email test" for item in messages
+    )
+
+    events_response = httpx.get(
+        _EVENTS_URL,
+        headers=_headers(),
+        params={"email": recipient, "days": 1, "limit": 50, "sort": "desc"},
+        timeout=12,
+    )
+    events_response.raise_for_status()
+    events = events_response.json().get("events") or []
+    statuses = sorted({str(item.get("event") or "unknown") for item in events})
+    reasons = sorted({_safe_text(item.get("reason")) for item in events if item.get("reason")})
+    event_text = ", ".join(statuses) if statuses else "none"
+    reason_text = f"; reasons={'; '.join(reasons)}" if reasons else ""
+    return f"test messages recorded={test_messages}; recent events={event_text}{reason_text}"
+
+
 def _wait_for_delivery(message_id: str) -> str:
     if not message_id:
         raise SystemExit("Brevo accepted the message but returned no tracking id.")
@@ -71,11 +120,14 @@ def _wait_for_delivery(message_id: str) -> str:
             raise SystemExit(f"Brevo reports {sorted(failed)[0]}{suffix}")
         time.sleep(5)
     status = ", ".join(observed) if observed else "no events returned"
-    raise SystemExit(f"Brevo did not report delivery within 45 seconds ({status}).")
+    raise SystemExit(
+        f"Brevo did not report delivery within 45 seconds ({status}); {_recent_activity()}."
+    )
 
 
 if __name__ == "__main__":
     try:
+        print(f"Brevo account: {_account_summary()}")
         tracking_id = send_test_email()
         delivery = _wait_for_delivery(tracking_id)
     except httpx.HTTPStatusError as exc:
