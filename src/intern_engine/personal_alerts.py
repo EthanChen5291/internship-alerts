@@ -13,6 +13,7 @@ from __future__ import annotations
 import os
 import re
 from html import escape
+from urllib.parse import quote
 
 import httpx
 
@@ -52,40 +53,120 @@ def _ids(record: dict) -> list[str]:
     return [value for value in (record.get("opening_ids") or [record.get("id")]) if value]
 
 
+def _short(value: object, limit: int) -> str:
+    text = str(value or "").strip()
+    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
+
+
+def _subject(records: list[dict]) -> str:
+    first = records[0]
+    company = _short(first.get("company") or "New opening", 55)
+    count = sum(len(_ids(record)) for record in records)
+    if len(records) == 1:
+        title = _short(first.get("title") or "Tech internship", 80)
+        season = _short(first.get("season") or "", 30)
+        suffix = f" — {season}" if season else ""
+        return f"[{company}] {title}{suffix}"
+    companies = {str(record.get("company") or "").strip() for record in records}
+    more = max(0, len(companies) - 1)
+    company_label = f"{company} + {more} more" if more else company
+    return f"[{company_label}] {count} new internships"
+
+
+def _application_advice(record: dict) -> str:
+    skills = [str(value).strip() for value in record.get("skills") or [] if str(value).strip()]
+    keywords = ", ".join(skills[:4])
+    category = str(record.get("category") or "").lower()
+    if any(term in category for term in ("data", "ml", "ai")):
+        proof = "Put your strongest data or ML project first"
+    elif any(term in category for term in ("hardware", "embedded", "robotics")):
+        proof = "Lead with the project that best shows hands-on systems or hardware work"
+    elif any(term in category for term in ("security", "cyber")):
+        proof = "Lead with the project that best demonstrates secure engineering judgment"
+    else:
+        proof = "Put your strongest relevant software project first"
+    keyword_note = f" Emphasize truthful evidence of {keywords}." if keywords else ""
+    season = str(record.get("season") or "").strip()
+    availability = f" Make your {season} availability obvious." if season else ""
+    return (
+        f"{proof}; quantify what you built and the result.{keyword_note}{availability} "
+        "Use the listed wording only where it accurately describes your experience."
+    )
+
+
+def _fact(label: str, value: object) -> str:
+    text = str(value or "").strip()
+    if not text or text.lower() == "unknown" or text == "Not stated":
+        return ""
+    return (
+        '<div style="margin:3px 0">'
+        f'<span style="color:#64748b">{escape(label)}:</span> {escape(_short(text, 260))}'
+        "</div>"
+    )
+
+
 def build_email(records: list[dict]) -> tuple[str, str]:
     count = sum(len(_ids(record)) for record in records)
-    subject = f"{count} new tech internship{'s' if count != 1 else ''}"
+    subject = _subject(records)
     rows = []
     for record in records:
         company = escape(str(record.get("company") or "")[:180])
         title = escape(str(record.get("title") or "")[:400])
         url = escape(str(record.get("url") or "")[:1500], quote=True)
-        role = f'<a href="{url}">{title}</a>' if url else title
-        details = " · ".join(
-            str(value)[:180]
-            for value in (
-                record.get("season"),
-                record.get("location"),
-                record.get("salary"),
-                ", ".join(record.get("skills") or []),
+        resume_url = escape(
+            f"{config.pages_base()}/resume.html?job={quote(str(record.get('id') or ''), safe='')}",
+            quote=True,
+        )
+        skills = ", ".join(str(value) for value in (record.get("skills") or [])[:6])
+        posted = str(record.get("posted_at") or "").split("T", 1)[0]
+        facts = "".join(
+            (
+                _fact("Cycle", record.get("season")),
+                _fact("Location", record.get("location")),
+                _fact("Role focus", record.get("category")),
+                _fact("Key terms", skills),
+                _fact("Sponsorship", record.get("sponsorship")),
+                _fact("Posted", posted),
             )
-            if value and value != "Not stated"
         )
         openings = len(_ids(record))
-        if openings > 1:
-            details = f"{openings} openings" + (f" · {details}" if details else "")
+        opening_note = f" · {openings} openings" if openings > 1 else ""
+        advice = escape(_application_advice(record))
+        apply_button = (
+            f'<a href="{url}" style="display:inline-block;background:#111827;color:#fff;'
+            'text-decoration:none;padding:10px 15px;border-radius:7px;font-weight:700">'
+            "Apply now</a>"
+            if url
+            else ""
+        )
         rows.append(
-            "<tr>"
-            f'<td style="padding:12px;border-bottom:1px solid #ddd"><b>{company}</b><br>{role}'
-            f'<div style="color:#666;margin-top:4px">{escape(details)}</div></td>'
-            "</tr>"
+            '<section style="border:1px solid #e2e8f0;border-radius:12px;padding:18px;'
+            'margin:0 0 14px;background:#fff">'
+            f'<div style="color:#2563eb;font-weight:700;font-size:13px">{company}{opening_note}</div>'
+            f'<h2 style="font-size:20px;line-height:1.25;margin:5px 0 12px">{title}</h2>'
+            f'<div style="font-size:14px;line-height:1.45">{facts}</div>'
+            '<div style="background:#f8fafc;border-left:3px solid #2563eb;padding:10px 12px;'
+            'margin:14px 0;font-size:14px;line-height:1.45">'
+            f'<b>Your application angle</b><br>{advice}</div>'
+            f'<div style="display:flex;gap:9px;flex-wrap:wrap">{apply_button}'
+            f'<a href="{resume_url}" style="display:inline-block;border:1px solid #94a3b8;'
+            'color:#0f172a;text-decoration:none;padding:9px 14px;border-radius:7px;font-weight:700">'
+            "Tailor resume</a></div></section>"
         )
     dashboard = escape(config.pages_base() + "/", quote=True)
+    first_company = escape(_short(records[0].get("company") or "New internships", 80))
+    heading = first_company if len(records) == 1 else f"{first_company} and more"
+    intro = f"{count} newly published opening{'s' if count != 1 else ''}"
     html = (
-        '<div style="font:15px system-ui,sans-serif;max-width:720px;margin:auto">'
-        f"<h2>{escape(subject)}</h2><table style=\"border-collapse:collapse;width:100%\">"
+        '<div style="font:15px system-ui,sans-serif;max-width:680px;margin:auto;color:#0f172a">'
+        '<div style="color:#2563eb;font-size:12px;font-weight:800;letter-spacing:.08em">'
+        "NEW INTERNSHIP ALERT</div>"
+        f'<h1 style="font-size:26px;margin:5px 0">{heading}</h1>'
+        f'<p style="color:#64748b;margin:0 0 18px">{intro}</p>'
         + "".join(rows)
-        + f'</table><p><a href="{dashboard}">Open the internship dashboard</a></p></div>'
+        + f'<p style="font-size:13px"><a href="{dashboard}">View every open internship</a></p>'
+        '<p style="color:#94a3b8;font-size:12px">Advice is based on listing keywords. '
+        "Only claim skills and experience you actually have.</p></div>"
     )
     return subject, html
 
@@ -122,6 +203,15 @@ def send_test_email() -> str:
             f'<p><a href="{dashboard}">Open the internship dashboard</a></p></div>'
         ),
     )
+
+
+def send_preview_email(record: dict) -> str:
+    """Send the production layout for one real role without advancing alert state."""
+    if not email_configured():
+        raise RuntimeError("BREVO_API_KEY, MAIL_FROM, and ALERT_EMAIL_TO are required")
+    subject, html = build_email([record])
+    html = html.replace("NEW INTERNSHIP ALERT", "EMAIL FORMAT PREVIEW", 1)
+    return _post_email(f"[PREVIEW] {subject}", html)
 
 
 def send_email(store_data: dict, new_ids: list[str]) -> list[str]:

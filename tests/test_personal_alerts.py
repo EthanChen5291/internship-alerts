@@ -34,11 +34,25 @@ class Response:
 
 def test_email_contains_company_role_keywords_and_apply_link():
     subject, html = personal_alerts.build_email([_record()])
-    assert subject == "1 new tech internship"
+    assert subject == "[Acme] Software Engineering Intern — Summer 2027"
     assert "Acme" in html
     assert "Software Engineering Intern" in html
     assert "Python, React" in html
     assert "https://example.com/jobs/1" in html
+    assert "Apply now" in html
+    assert "Tailor resume" in html
+    assert "resume.html?job=job-1" in html
+    assert "Your application angle" in html
+    assert "Summer 2027 availability" in html
+
+
+def test_multi_job_subject_starts_with_company_name():
+    subject, html = personal_alerts.build_email(
+        [_record(), _record(id="job-2", company="Beta", title="Data Intern")]
+    )
+    assert subject == "[Acme + 1 more] 2 new internships"
+    assert "Acme and more" in html
+    assert "Beta" in html
 
 
 def test_unconfigured_email_settles_instead_of_growing_forever(monkeypatch):
@@ -77,6 +91,23 @@ def test_setup_email_uses_expected_subject_and_destination(monkeypatch):
     assert sent[0][1]["json"]["subject"] == "Internship Alerts email test"
     assert sent[0][1]["json"]["to"] == [{"email": "me@example.com"}]
     assert "email alerts are working" in sent[0][1]["json"]["htmlContent"]
+
+
+def test_preview_email_uses_production_layout_without_touching_state(monkeypatch):
+    _email_env(monkeypatch)
+    sent = []
+    monkeypatch.setattr(
+        personal_alerts.httpx,
+        "post",
+        lambda url, **kwargs: (sent.append((url, kwargs)), Response())[1],
+    )
+
+    message_id = personal_alerts.send_preview_email(_record())
+
+    assert message_id == "test-message-id"
+    assert sent[0][1]["json"]["subject"].startswith("[PREVIEW] [Acme]")
+    assert "EMAIL FORMAT PREVIEW" in sent[0][1]["json"]["htmlContent"]
+    assert "Your application angle" in sent[0][1]["json"]["htmlContent"]
 
 
 def test_email_failure_keeps_open_roles_queued(monkeypatch):
