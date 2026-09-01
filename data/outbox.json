@@ -1,6 +1,38 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": []
+    "discord": [
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009324",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009478",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009500",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009673",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009488",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009321",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009454",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26007510",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26008442",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26008443",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26008761",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26008762",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009200",
+      "greenhouse:katalyst:6176711004",
+      "greenhouse:stripe:8128745"
+    ],
+    "telegram": [
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009324",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009478",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009500",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009673",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009488",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009321",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009454",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26007510",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26008442",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26008443",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26008761",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26008762",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26009200",
+      "greenhouse:katalyst:6176711004",
+      "greenhouse:stripe:8128745"
+    ]
   }
 }
