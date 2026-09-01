@@ -1,7 +1,49 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:pluralis-research:c8f78978-a693-4863-bcc0-66af5c3fd0be",
+      "workday:nebraskablue:/job/Omaha-NE/Cyber-Intern--Summer-2027_JR101407",
+      "workday:nebraskablue:/job/Omaha-NE/IS-Intern--Summer-2027_JR101411",
+      "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
+      "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
+      "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
+      "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
+      "workday:clarios:/job/United-States-Wisconsin-Milwaukee/IT-Digital-AI-Intern--Summer-2027-_WD49910",
+      "workday:fnbcorp:/job/Pittsburgh-PA/Summer-2027-AI-and-Innovation-Intern---Pittsburgh--PA_2026-01811",
+      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
+      "workday:newrez:/job/TX-Coppell/XMLNAME-2027-Summer-Internship---Software-Developer_R10390",
+      "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677",
+      "workday:flir:/job/US---Huntsville-AL/EADSIM-Software-Engineering-Intern--Summer-2027-_REQ36667"
+    ],
+    "telegram": [
+      "ashby:pluralis-research:c8f78978-a693-4863-bcc0-66af5c3fd0be",
+      "workday:nebraskablue:/job/Omaha-NE/Cyber-Intern--Summer-2027_JR101407",
+      "workday:nebraskablue:/job/Omaha-NE/IS-Intern--Summer-2027_JR101411",
+      "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
+      "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
+      "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
+      "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
+      "workday:clarios:/job/United-States-Wisconsin-Milwaukee/IT-Digital-AI-Intern--Summer-2027-_WD49910",
+      "workday:fnbcorp:/job/Pittsburgh-PA/Summer-2027-AI-and-Innovation-Intern---Pittsburgh--PA_2026-01811",
+      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
+      "workday:newrez:/job/TX-Coppell/XMLNAME-2027-Summer-Internship---Software-Developer_R10390",
+      "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677",
+      "workday:flir:/job/US---Huntsville-AL/EADSIM-Software-Engineering-Intern--Summer-2027-_REQ36667"
+    ],
+    "personal_email": [
+      "ashby:pluralis-research:c8f78978-a693-4863-bcc0-66af5c3fd0be",
+      "workday:nebraskablue:/job/Omaha-NE/Cyber-Intern--Summer-2027_JR101407",
+      "workday:nebraskablue:/job/Omaha-NE/IS-Intern--Summer-2027_JR101411",
+      "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
+      "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
+      "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
+      "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
+      "workday:clarios:/job/United-States-Wisconsin-Milwaukee/IT-Digital-AI-Intern--Summer-2027-_WD49910",
+      "workday:fnbcorp:/job/Pittsburgh-PA/Summer-2027-AI-and-Innovation-Intern---Pittsburgh--PA_2026-01811",
+      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
+      "workday:newrez:/job/TX-Coppell/XMLNAME-2027-Summer-Internship---Software-Developer_R10390",
+      "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677",
+      "workday:flir:/job/US---Huntsville-AL/EADSIM-Software-Engineering-Intern--Summer-2027-_REQ36667"
+    ]
   }
 }

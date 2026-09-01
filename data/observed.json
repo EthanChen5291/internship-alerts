@@ -356,6 +356,19 @@
     }
    }
   },
+  "bluecross blueshield of nebraska": {
+   "name": "BlueCross BlueShield of Nebraska",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-31",
+     "role_ids": [
+      "workday:nebraskablue:/job/Omaha-NE/Cyber-Intern--Summer-2027_JR101407",
+      "workday:nebraskablue:/job/Omaha-NE/IS-Intern--Summer-2027_JR101411"
+     ],
+     "count": 2
+    }
+   }
+  },
   "bny": {
    "name": "BNY",
    "cycles": {
@@ -456,6 +469,16 @@
       "workday:caci:/job/King-of-Prussia-PA-US/AI-ML-Engineering-Co-op---Fall-2026_327839",
       "workday:caci:/job/King-of-Prussia-PA-US/AI-ML-Engineering-Co-op---Fall-2026_328403"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-08-31",
+     "role_ids": [
+      "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
+      "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
+      "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
+      "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359"
+     ],
+     "count": 4
     }
    }
   },
@@ -539,6 +562,18 @@
       "greenhouse:ctccampusboard:4708188005",
       "greenhouse:ctccampusboard:4708230005"
      ]
+    }
+   }
+  },
+  "clarios": {
+   "name": "Clarios",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "workday:clarios:/job/United-States-Wisconsin-Milwaukee/IT-Digital-AI-Intern--Summer-2027-_WD49910"
+     ],
+     "count": 1
     }
    }
   },
@@ -772,6 +807,18 @@
      "role_ids": [
       "greenhouse:figureai:4691070006"
      ]
+    }
+   }
+  },
+  "first national bank": {
+   "name": "First National Bank",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "workday:fnbcorp:/job/Pittsburgh-PA/Summer-2027-AI-and-Innovation-Intern---Pittsburgh--PA_2026-01811"
+     ],
+     "count": 1
     }
    }
   },
@@ -1235,9 +1282,10 @@
      "role_ids": [
       "workday:mastercard:/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284869",
       "workday:mastercard:/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284879",
+      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -1344,17 +1392,30 @@
     }
    }
   },
+  "newrez": {
+   "name": "Newrez",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "workday:newrez:/job/TX-Coppell/XMLNAME-2027-Summer-Internship---Software-Developer_R10390"
+     ],
+     "count": 1
+    }
+   }
+  },
   "northrop grumman": {
    "name": "Northrop Grumman",
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 9,
+     "count": 10,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247485",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247487",
+      "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573",
@@ -1945,10 +2006,11 @@
     "Summer 2027": {
      "first_posted": "2026-08-13",
      "role_ids": [
+      "workday:flir:/job/US---Huntsville-AL/EADSIM-Software-Engineering-Intern--Summer-2027-_REQ36667",
       "workday:flir:/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193",
       "workday:flir:/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36194-2"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -2344,5 +2406,5 @@
    }
   }
  },
- "updated_at": "2026-09-01T13:42:42Z"
+ "updated_at": "2026-09-01T16:14:31Z"
 }
