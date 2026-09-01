@@ -59,6 +59,22 @@ def test_email_success_sends_to_the_personal_destination(monkeypatch):
     }
 
 
+def test_setup_email_uses_expected_subject_and_destination(monkeypatch):
+    _email_env(monkeypatch)
+    sent = []
+    monkeypatch.setattr(
+        personal_alerts.httpx,
+        "post",
+        lambda url, **kwargs: (sent.append((url, kwargs)), Response())[1],
+    )
+
+    personal_alerts.send_test_email()
+
+    assert sent[0][1]["json"]["subject"] == "Internship Alerts email test"
+    assert sent[0][1]["json"]["to"] == [{"email": "me@example.com"}]
+    assert "email alerts are working" in sent[0][1]["json"]["htmlContent"]
+
+
 def test_email_failure_keeps_open_roles_queued(monkeypatch):
     _email_env(monkeypatch)
     monkeypatch.setattr(

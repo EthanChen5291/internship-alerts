@@ -90,6 +90,38 @@ def build_email(records: list[dict]) -> tuple[str, str]:
     return subject, html
 
 
+def _post_email(subject: str, html: str) -> None:
+    """Post one transactional email, raising when Brevo rejects it."""
+    httpx.post(
+        _BREVO_URL,
+        headers={"api-key": os.environ["BREVO_API_KEY"], "Content-Type": "application/json"},
+        json={
+            "sender": _sender(os.environ["MAIL_FROM"]),
+            "to": [{"email": os.environ["ALERT_EMAIL_TO"].strip()}],
+            "subject": subject,
+            "htmlContent": html,
+        },
+        timeout=_TIMEOUT,
+    ).raise_for_status()
+
+
+def send_test_email() -> None:
+    """Send a harmless configuration test without touching alert state."""
+    if not email_configured():
+        raise RuntimeError("BREVO_API_KEY, MAIL_FROM, and ALERT_EMAIL_TO are required")
+    dashboard = escape(config.pages_base() + "/", quote=True)
+    _post_email(
+        "Internship Alerts email test",
+        (
+            '<div style="font:15px system-ui,sans-serif;max-width:640px;margin:auto">'
+            "<h2>Your internship email alerts are working</h2>"
+            "<p>This is a one-time setup test. Future messages will only be sent when "
+            "new internship openings are published.</p>"
+            f'<p><a href="{dashboard}">Open the internship dashboard</a></p></div>'
+        ),
+    )
+
+
 def send_email(store_data: dict, new_ids: list[str]) -> list[str]:
     if not email_configured():
         return list(new_ids)
@@ -99,17 +131,7 @@ def send_email(store_data: dict, new_ids: list[str]) -> list[str]:
         return settled
     subject, html = build_email(shown)
     try:
-        httpx.post(
-            _BREVO_URL,
-            headers={"api-key": os.environ["BREVO_API_KEY"], "Content-Type": "application/json"},
-            json={
-                "sender": _sender(os.environ["MAIL_FROM"]),
-                "to": [{"email": os.environ["ALERT_EMAIL_TO"].strip()}],
-                "subject": subject,
-                "htmlContent": html,
-            },
-            timeout=_TIMEOUT,
-        ).raise_for_status()
+        _post_email(subject, html)
     except Exception:  # noqa: BLE001 - notification failures retry through the outbox
         return settled
     return settled + [jid for record in shown for jid in _ids(record)]
