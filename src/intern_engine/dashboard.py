@@ -763,7 +763,7 @@ def generate(store_data: dict, stats: dict) -> None:
   <div class="tscroll">
   <table><thead><tr><th class="c-save" title="Save"></th><th>Company</th><th>Role</th>
   <th>Cycle</th><th>Category</th>
-  <th>Location</th><th>Salary</th><th>Posted</th><th></th></tr></thead>
+  <th>Location</th><th>Compensation</th><th>Posted</th><th></th></tr></thead>
   <tbody id="rows">{_rows(display_jobs)}</tbody></table>
   </div>
   <p id="empty" class="muted empty" hidden>No roles match those filters.

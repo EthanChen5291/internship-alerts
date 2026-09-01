@@ -34,12 +34,14 @@ class Response:
         return {"messageId": "test-message-id"}
 
 
-def test_email_contains_company_role_keywords_and_apply_link():
-    subject, html = personal_alerts.build_email([_record()])
+def test_email_contains_company_role_keywords_compensation_and_apply_link():
+    subject, html = personal_alerts.build_email([_record(salary="$45-$55/hr")])
     assert subject == "[Acme] Software Engineering Intern — Summer 2027"
     assert "Acme" in html
     assert "Software Engineering Intern" in html
     assert "Python, React" in html
+    assert "Compensation" in html
+    assert "$45-$55/hr" in html
     assert "https://example.com/jobs/1" in html
     assert "Apply now" in html
     assert "Tailor resume" in html

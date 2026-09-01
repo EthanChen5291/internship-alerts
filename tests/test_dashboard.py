@@ -28,7 +28,13 @@ def test_dashboard_uses_fetch_time_and_prunes_ghost_saves():
     assert "Competition: " in html
     assert "not an applicant count or acceptance rate" in html
     resume = open(f"{paths.DOCS_DIR}/resume.html", encoding="utf-8").read()
-    assert "visual structure are preserved" in resume
+    assert "visual structure stay unchanged" in resume
+    assert "saved automatically on this browser" in resume
+    assert 'id="remember"' not in resume
+    assert "Highlighted on screen" in resume
+    assert "Compensation: " in resume
+    assert "document.title=outputTitle()" in resume
+    assert ">Download PDF</button>" in resume
     assert "TECHNICAL SKILLS" in resume
     assert "entries('HONORS','honors','honor')" in resume
     assert "out[section]=ordered" not in resume

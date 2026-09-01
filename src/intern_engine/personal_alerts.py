@@ -200,6 +200,7 @@ def build_email(records: list[dict]) -> tuple[str, str]:
             (
                 _fact("Cycle", record.get("season")),
                 _fact("Location", record.get("location")),
+                _fact("Compensation", record.get("salary")),
                 _fact("Role focus", record.get("category")),
                 _fact(
                     "Competition estimate",

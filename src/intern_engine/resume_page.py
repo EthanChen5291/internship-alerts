@@ -70,29 +70,30 @@ _PAGE = r'''<!DOCTYPE html>
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,sans-serif}
 .toolbar{max-width:920px;margin:24px auto;padding:20px;background:var(--panel);border:1px solid var(--border);border-radius:12px}
 h1{margin:0 0 6px;font-size:22px}.muted{color:var(--muted)}button,.file{display:inline-block;margin:8px 8px 0 0;padding:9px 13px;border:1px solid var(--border);border-radius:7px;background:#21262d;color:var(--text);cursor:pointer}
-button.primary{background:#238636;border-color:#2ea043}input[type=file]{max-width:100%}.status{margin-top:10px}.match{color:#3fb950}
+button.primary{background:#238636;border-color:#2ea043}input[type=file]{max-width:100%}.status{margin-top:10px}.match{color:#3fb950}.job-card{margin-top:12px;padding:10px 12px;border:1px solid var(--border);border-radius:8px;background:#0d1117}.job-title{font-weight:700}.job-meta{color:var(--muted);font-size:13px;margin-top:3px}.legend{display:none;margin-top:8px;color:#d29922;font-size:13px}.legend.show{display:block}
 .paper{width:8.5in;min-height:11in;margin:18px auto 40px;padding:.32in .5in .38in;background:white;color:#111;box-shadow:0 8px 35px #0008;font:10pt/1.12 "Times New Roman",Times,serif}
-.paper h2{text-align:center;font-size:21pt;line-height:1;margin:0 0 5px}.paper a{color:#0645d1;text-decoration:underline}.contact{text-align:center;font-size:9.5pt;margin-bottom:13px}.section{font-size:12pt;line-height:1.05;font-weight:bold;color:#111;border-bottom:2px solid #111;margin:11px 0 3px;padding-bottom:1px}.entry{margin:1px 0 3px}.entry-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px}.entry-title{min-width:0}.entry-title strong{font-weight:bold}.entry-title em{font-weight:normal}.dates{white-space:nowrap;font-weight:normal}.edu-main{font-size:10.2pt}.edu-meta{margin-top:1px}.paper ul{margin:1px 0 2px 35px;padding:0}.paper li{margin:0 0 1px;padding-left:2px}.skill{margin:1px 0}.setup{padding:28px;text-align:center;color:#555}.target{font-size:12px;margin-top:6px}
+.paper h2{text-align:center;font-size:21pt;line-height:1;margin:0 0 5px}.paper a{color:#0645d1;text-decoration:underline}.contact{text-align:center;font-size:9.5pt;margin-bottom:13px}.section{font-size:12pt;line-height:1.05;font-weight:bold;color:#111;border-bottom:2px solid #111;margin:11px 0 3px;padding-bottom:1px}.entry{margin:1px 0 3px}.entry-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px}.entry-title{min-width:0}.entry-title strong{font-weight:bold}.entry-title em{font-weight:normal}.dates{white-space:nowrap;font-weight:normal}.edu-main{font-size:10.2pt}.edu-meta{margin-top:1px}.paper ul{margin:1px 0 2px 35px;padding:0}.paper li{margin:0 0 1px;padding-left:2px}.skill{margin:1px 0}.changed{background:#fff3a3;outline:2px solid #d29922;outline-offset:1px;border-radius:2px}.skill .changed{padding:0 2px}.setup{padding:28px;text-align:center;color:#555}.target{font-size:12px;margin-top:6px}
 @media(max-width:900px){.paper{width:calc(100% - 20px);min-height:0;padding:24px}.toolbar{margin:10px}}
-@media print{@page{size:letter;margin:0}.toolbar{display:none}.paper{margin:0;box-shadow:none;width:8.5in;min-height:11in}.target{display:none}body{background:white}}
+@media print{@page{size:letter;margin:0}.toolbar{display:none}.paper{margin:0;box-shadow:none;width:8.5in;min-height:11in}.target{display:none}.changed{background:transparent!important;outline:0!important;padding:0!important}body{background:white}}
 </style></head><body>
 <div class="toolbar">
   <h1>Private resume tailor</h1>
-  <div class="muted">Your resume stays on this browser. Its sections, entries, wording, and visual structure are preserved; the tool only reorders existing bullets and individual skills for the selected role.</div>
+  <div class="muted">Load your JSON once. It is saved automatically on this browser and autofills every future Tailored Resume link. Sections, entries, wording, and visual structure stay unchanged; only existing bullets and individual skills can move.</div>
   <label class="file">Load base resume JSON <input id="file" type="file" accept="application/json,.json"></label>
-  <button id="remember">Remember on this browser</button>
   <button id="clear">Clear saved resume</button>
-  <button id="print" class="primary" disabled>Save as PDF</button>
+  <button id="print" class="primary" title="Opens the Save as PDF dialog with the correct filename" disabled>Download PDF</button>
   <a class="file" href="resume.example.json" download>Download JSON template</a>
   <a class="file" href="./">Back to dashboard</a>
+  <div id="target" class="job-card"><div class="muted">Loading selected role...</div></div>
+  <div id="legend" class="legend">Highlighted on screen = an existing item moved higher for this role. Highlights are removed from the downloaded PDF.</div>
   <div id="status" class="status muted">Loading job...</div>
 </div>
-<main id="paper" class="paper"><div class="setup">Load your resume JSON once, then choose "Remember on this browser." The selected role will be applied automatically.</div></main>
+<main id="paper" class="paper"><div class="setup">Load your resume JSON once. It will autofill here and on every future Tailored Resume page in this browser.</div></main>
 <script>
 (function(){
   'use strict';
-  var KEY='ie.resume.v1', job=null, resume=null;
-  var paper=document.getElementById('paper'), status=document.getElementById('status'), print=document.getElementById('print');
+  var KEY='ie.resume.v1', job=null, resume=null, baseTitle='Private resume tailor';
+  var paper=document.getElementById('paper'), status=document.getElementById('status'), print=document.getElementById('print'),target=document.getElementById('target'),legend=document.getElementById('legend');
   function node(tag, cls, text){var e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=String(text);return e}
   function safeUrl(value){try{var u=new URL(value.indexOf('://')<0?'https://'+value:value);return /^https?:$/.test(u.protocol)?u.href:''}catch(e){return ''}}
   function bulletText(value){return typeof value==='string'?value:String((value||{}).text||'')}
@@ -104,18 +105,19 @@ button.primary{background:#238636;border-color:#2ea043}input[type=file]{max-widt
   }
   function hasTerm(value,term){var hay=words(value),needle=words(term);if(!needle.length)return false;for(var i=0;i<=hay.length-needle.length;i++){var yes=true;for(var j=0;j<needle.length;j++){if(hay[i+j]!==needle[j]){yes=false;break}}if(yes)return true}return false}
   function score(value,terms){var n=0;terms.forEach(function(t){if(hasTerm(value,t))n+=3});return n}
-  function ordered(values,fn){return (values||[]).map(function(v,i){return{v:v,i:i,s:fn(v)}}).sort(function(a,b){return b.s-a.s||a.i-b.i}).map(function(x){return x.v})}
+  function changeKey(prefix,value){return prefix+'|'+JSON.stringify(value)}
+  function ordered(values,fn,prefix,moves){var ranked=(values||[]).map(function(v,i){return{v:v,i:i,s:fn(v)}}).sort(function(a,b){return b.s-a.s||a.i-b.i});ranked.forEach(function(x,newIndex){if(x.s>0&&x.i>newIndex)moves[changeKey(prefix,x.v)]=true});return ranked.map(function(x){return x.v})}
   function tailored(base,j){
-    var out=JSON.parse(JSON.stringify(base)), terms=termsFor(j);
-    out.skills.forEach(function(g){g.items=ordered(g.items||[],function(v){return score(v,terms)})});
+    var out=JSON.parse(JSON.stringify(base)), terms=termsFor(j),moves={};
+    (out.skills||[]).forEach(function(g,gi){g.items=ordered(g.items||[],function(v){return score(v,terms)},'skill:'+gi,moves)});
     ['experience','projects','honors'].forEach(function(section){
-      (out[section]||[]).forEach(function(item){item.bullets=ordered(item.bullets||[],function(v){return score(bulletText(v),terms)})});
+      (out[section]||[]).forEach(function(item,ii){item.bullets=ordered(item.bullets||[],function(v){return score(bulletText(v),terms)},'bullet:'+section+':'+ii,moves)});
     });
-    return{resume:out,terms:terms};
+    return{resume:out,terms:terms,moves:moves,changeCount:Object.keys(moves).length};
   }
   function section(title){paper.appendChild(node('div','section',title))}
   function highlighted(parent,value){var text=bulletText(value),marks=(value&&typeof value==='object'&&value.highlights)||[],at=0;marks.slice().sort(function(a,b){return text.indexOf(a)-text.indexOf(b)}).forEach(function(mark){var i=text.indexOf(mark,at);if(i<0)return;parent.appendChild(document.createTextNode(text.slice(at,i)));parent.appendChild(node('strong','',mark));at=i+mark.length});parent.appendChild(document.createTextNode(text.slice(at)))}
-  function bullets(values,parent){if(!values||!values.length)return;var ul=node('ul');values.forEach(function(v){var li=node('li');highlighted(li,v);ul.appendChild(li)});parent.appendChild(ul)}
+  function bullets(values,parent,prefix,moves){if(!values||!values.length)return;var ul=node('ul');values.forEach(function(v){var li=node('li',moves[changeKey(prefix,v)]?'changed':'');highlighted(li,v);ul.appendChild(li)});parent.appendChild(ul)}
   function linkedLabel(parent,label,url){var href=safeUrl(String(url||''));if(href){var a=node('a','',label);a.href=href;a.target='_blank';a.rel='noopener';parent.appendChild(a)}else{parent.appendChild(document.createTextNode(label))}}
   function entryHeading(item,kind){var h=node('div','entry-head'),left=node('span','entry-title'),strong=node('strong'),label=kind==='project'?(item.name||''):(item.company||item.name||'');linkedLabel(strong,label,item.url);left.appendChild(strong);var descriptor=item.role||'';if(descriptor){left.appendChild(document.createTextNode(', '));left.appendChild(node('em','',descriptor))}h.appendChild(left);h.appendChild(node('span','dates',item.date||[item.start,item.end].filter(Boolean).join(' - ')));return h}
   function render(){
@@ -127,21 +129,23 @@ button.primary{background:#238636;border-color:#2ea043}input[type=file]{max-widt
     if(hasContact)paper.appendChild(contactNode);
     if(r.summary){section('SUMMARY');paper.appendChild(node('div','',r.summary))}
     if((r.education||[]).length){section('EDUCATION');r.education.forEach(function(x){var e=node('div','entry'),main=node('div','edu-main'),school=node('strong','',x.school||'');main.appendChild(school);if(x.degree){main.appendChild(document.createTextNode(', '));main.appendChild(node('em','',x.degree))}if(x.gpa){main.appendChild(document.createTextNode(', '));main.appendChild(node('strong','',x.gpa))}e.appendChild(main);var meta=[x.location,x.end].filter(Boolean).join(' | ');if(meta)e.appendChild(node('div','edu-meta',meta));(x.details||[]).forEach(function(v){e.appendChild(node('div','',v))});paper.appendChild(e)})}
-    function entries(title,key,kind){if(!(r[key]||[]).length)return;section(title);r[key].forEach(function(x){var e=node('div','entry');e.appendChild(entryHeading(x,kind));bullets(x.bullets,e);paper.appendChild(e)})}
+    function entries(title,key,kind){if(!(r[key]||[]).length)return;section(title);r[key].forEach(function(x,ii){var e=node('div','entry');e.appendChild(entryHeading(x,kind));bullets(x.bullets,e,'bullet:'+key+':'+ii,result.moves);paper.appendChild(e)})}
     entries('EXPERIENCE','experience','experience');entries('PROJECTS','projects','project');entries('HONORS','honors','honor');
-    if((r.skills||[]).length){section('TECHNICAL SKILLS');r.skills.forEach(function(g){var line=node('div','skill'),b=node('b','',(g.category||'Skills')+': ');line.appendChild(b);line.appendChild(document.createTextNode((g.items||[]).join(', ')));paper.appendChild(line)})}
+    if((r.skills||[]).length){section('TECHNICAL SKILLS');r.skills.forEach(function(g,gi){var line=node('div','skill'),b=node('b','',(g.category||'Skills')+': ');line.appendChild(b);(g.items||[]).forEach(function(value,i){if(i)line.appendChild(document.createTextNode(', '));line.appendChild(node('span',result.moves[changeKey('skill:'+gi,value)]?'changed':'',value))});paper.appendChild(line)})}
     var matched=result.terms.filter(function(t){return score(JSON.stringify(r),[t])>0});
-    status.replaceChildren(document.createTextNode(job.company+' - '+job.title+' | '));var m=node('span','match',matched.length?'Matched existing keywords: '+matched.join(', '):'No exact keyword matches; original order preserved.');status.appendChild(m);print.disabled=false;
+    var changeNote=result.changeCount?result.changeCount+' existing item'+(result.changeCount===1?'':'s')+' moved higher. ':'No items needed to move. ';
+    status.replaceChildren(document.createTextNode('Saved automatically in this browser. '+changeNote));var m=node('span','match',matched.length?'Matched existing keywords: '+matched.join(', '):'No exact keyword matches; original order preserved.');status.appendChild(m);legend.classList.toggle('show',result.changeCount>0);document.title=outputTitle();print.disabled=false;
   }
-  function accept(value){if(!value||typeof value!=='object'||!value.name)throw new Error('Resume JSON needs at least a name field.');resume=value;render()}
-  document.getElementById('file').addEventListener('change',function(ev){var f=ev.target.files&&ev.target.files[0];if(!f)return;f.text().then(function(text){accept(JSON.parse(text));status.textContent='Resume loaded locally.'}).catch(function(e){status.textContent='Could not read resume: '+e.message})});
-  document.getElementById('remember').addEventListener('click',function(){if(!resume){status.textContent='Load a resume first.';return}localStorage.setItem(KEY,JSON.stringify(resume));status.textContent='Saved only in this browser.'});
-  document.getElementById('clear').addEventListener('click',function(){localStorage.removeItem(KEY);resume=null;print.disabled=true;paper.innerHTML='<div class="setup">Saved resume cleared. Load a JSON file to continue.</div>';status.textContent='Saved resume cleared.'});
-  print.addEventListener('click',function(){window.print()});
+  function cleanName(value){return String(value||'').replace(/[<>:"/\\|?*\x00-\x1f]/g,' ').replace(/\s+/g,' ').trim()}
+  function outputTitle(){return cleanName((resume&&resume.name)||'Resume')+' - '+cleanName((job&&job.company)||'Company')+' Resume'}
+  function accept(value){if(!value||typeof value!=='object'||!value.name)throw new Error('Resume JSON needs at least a name field.');resume=value;localStorage.setItem(KEY,JSON.stringify(resume));render()}
+  document.getElementById('file').addEventListener('change',function(ev){var f=ev.target.files&&ev.target.files[0];if(!f)return;f.text().then(function(text){accept(JSON.parse(text))}).catch(function(e){status.textContent='Could not read resume: '+e.message})});
+  document.getElementById('clear').addEventListener('click',function(){localStorage.removeItem(KEY);resume=null;print.disabled=true;legend.classList.remove('show');document.title=baseTitle;paper.innerHTML='<div class="setup">Saved resume cleared. Load your JSON once to enable automatic tailoring.</div>';status.textContent='Saved resume cleared from this browser.'});
+  print.addEventListener('click',function(){document.title=outputTitle();window.print()});
   try{var saved=JSON.parse(localStorage.getItem(KEY)||'null');if(saved)resume=saved}catch(e){localStorage.removeItem(KEY)}
   var id=new URLSearchParams(location.search).get('job');
   if(!id){status.textContent='Choose Resume next to a current role on the dashboard.';return}
-  fetch('api/jobs.json').then(function(r){if(!r.ok)throw new Error('jobs API unavailable');return r.json()}).then(function(data){job=(data.jobs||[]).find(function(x){return x.id===id||(x.opening_ids||[]).indexOf(id)!==-1||(x.aliases||[]).indexOf(id)!==-1});if(!job)throw new Error('This role is no longer open. Choose a current role from the dashboard.');status.textContent=job.company+' - '+job.title;if(resume)render()}).catch(function(e){status.textContent=e.message});
+  fetch('api/jobs.json').then(function(r){if(!r.ok)throw new Error('jobs API unavailable');return r.json()}).then(function(data){job=(data.jobs||[]).find(function(x){return x.id===id||(x.opening_ids||[]).indexOf(id)!==-1||(x.aliases||[]).indexOf(id)!==-1});if(!job)throw new Error('This role is no longer open. Choose a current role from the dashboard.');target.replaceChildren();target.appendChild(node('div','job-title',job.company+' - '+job.title));target.appendChild(node('div','job-meta',[job.season,job.location,'Compensation: '+(job.salary||'Not listed')].filter(Boolean).join(' | ')));status.textContent=resume?'Applying saved resume...':'Load your resume JSON once; it will be saved automatically on this browser.';if(resume)render()}).catch(function(e){target.textContent=e.message;status.textContent=e.message});
 })();
 </script></body></html>'''
 
