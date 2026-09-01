@@ -1,5 +1,7 @@
 """Instant personal email delivery and outbox behavior."""
 
+import json
+
 from intern_engine import personal_alerts
 
 
@@ -53,6 +55,29 @@ def test_multi_job_subject_starts_with_company_name():
     assert subject == "[Acme + 1 more] 2 new internships"
     assert "Acme and more" in html
     assert "Beta" in html
+
+
+def test_advice_uses_private_resume_profile_without_inventing_matches(monkeypatch):
+    profile = {
+        "graduation": "May 2029",
+        "skills": ["Python", "React", "Docker"],
+        "evidence": [
+            {
+                "name": "ShapeUp",
+                "proof": "built a Python pipeline and deployed containerized inference",
+                "skills": ["Python", "Docker"],
+            }
+        ],
+    }
+    monkeypatch.setenv("APPLICANT_PROFILE_JSON", json.dumps(profile))
+    record = _record(skills=["Python", "React", "Java"], category="Software")
+
+    _, html = personal_alerts.build_email([record])
+
+    assert "Best resume proof: ShapeUp" in html
+    assert "Direct matches: Python, React" in html
+    assert "unmatched terms such as Java" in html
+    assert "May 2029 graduation" in html
 
 
 def test_unconfigured_email_settles_instead_of_growing_forever(monkeypatch):

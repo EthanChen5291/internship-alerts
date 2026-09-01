@@ -33,6 +33,7 @@ repository secrets:
 | `BREVO_API_KEY` | your transactional API key |
 | `MAIL_FROM` | `Internship Alerts <verified-sender@example.com>` |
 | `ALERT_EMAIL_TO` | the private address that should receive alerts |
+| `APPLICANT_PROFILE_JSON` | optional private resume-derived profile for personalized advice |
 
 New roles found in one scan are bundled into one email with direct application
 links.
@@ -54,6 +55,11 @@ The browser tool never uploads the resume. It only reorders existing skills,
 projects, and bullet points by exact keyword relevance. It never rewrites or
 adds claims. The target company and job title appear in the preview but are
 hidden from the printed resume.
+
+The optional `APPLICANT_PROFILE_JSON` Actions secret can contain a minimal set
+of skills and project evidence for personalized alert advice. Keep contact
+details out of it. GitHub makes the secret available to the private notification
+step without committing it to this public repository.
 
 For a direct command-line PDF instead:
 

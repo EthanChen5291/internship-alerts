@@ -27,4 +27,5 @@ jobs:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           MAIL_FROM: ${{ secrets.MAIL_FROM }}
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+          APPLICANT_PROFILE_JSON: ${{ secrets.APPLICANT_PROFILE_JSON }}
         run: python tools/test_personal_email.py

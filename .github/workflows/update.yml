@@ -175,6 +175,8 @@ jobs:
           # Personal-fork instant delivery. This bypasses the public subscriber
           # database and goes only to the configured owner.
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+          # Optional private, resume-derived facts used for truthful job-specific advice.
+          APPLICANT_PROFILE_JSON: ${{ secrets.APPLICANT_PROFILE_JSON }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: python run.py notify

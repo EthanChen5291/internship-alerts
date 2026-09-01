@@ -10,6 +10,7 @@ can never be sent. Transient failures remain queued for the next workflow run.
 
 from __future__ import annotations
 
+import json
 import os
 import re
 from html import escape
@@ -22,6 +23,14 @@ from . import config, grouping
 _BREVO_URL = "https://api.brevo.com/v3/smtp/email"
 _TIMEOUT = 12
 _MAX_EMAIL_GROUPS = 50
+_SKILL_ALIASES = {
+    "c++": "cpp",
+    "c#": "csharp",
+    "js": "javascript",
+    "ts": "typescript",
+    "amazonwebservices": "aws",
+    "restapis": "restapi",
+}
 
 
 def email_configured() -> bool:
@@ -73,7 +82,74 @@ def _subject(records: list[dict]) -> str:
     return f"[{company_label}] {count} new internships"
 
 
-def _application_advice(record: dict) -> str:
+def _canonical(value: object) -> str:
+    raw = str(value or "").strip().lower()
+    compact = re.sub(r"[^a-z0-9+#]+", "", raw)
+    return _SKILL_ALIASES.get(compact, compact)
+
+
+def _applicant_profile() -> dict:
+    raw = (os.environ.get("APPLICANT_PROFILE_JSON") or "").strip()
+    if not raw:
+        return {}
+    try:
+        value = json.loads(raw)
+    except (TypeError, ValueError):
+        return {}
+    return value if isinstance(value, dict) else {}
+
+
+def _profile_advice(record: dict, profile: dict) -> str:
+    job_skills = [str(value).strip() for value in record.get("skills") or [] if str(value).strip()]
+    profile_skills = {
+        _canonical(value)
+        for value in profile.get("skills") or []
+        if str(value).strip()
+    }
+    matches = [value for value in job_skills if _canonical(value) in profile_skills]
+    gaps = [value for value in job_skills if _canonical(value) not in profile_skills]
+    query = {_canonical(value) for value in job_skills}
+
+    evidence = []
+    for item in profile.get("evidence") or []:
+        item_skills = {_canonical(value) for value in item.get("skills") or []}
+        evidence.append((len(query & item_skills), item))
+    evidence.sort(key=lambda pair: pair[0], reverse=True)
+
+    parts = []
+    if evidence and evidence[0][0] > 0:
+        item = evidence[0][1]
+        name = _short(item.get("name") or "Relevant project", 60)
+        proof = _short(item.get("proof") or "", 180)
+        parts.append(f"Best resume proof: {name}{f' — {proof}' if proof else ''}.")
+    if matches:
+        parts.append(f"Direct matches: {', '.join(matches[:4])}.")
+    if gaps:
+        parts.append(
+            f"Do not force unmatched terms such as {', '.join(gaps[:2])}; add them only if you "
+            "have real supporting work."
+        )
+    graduation = str(profile.get("graduation") or "").strip()
+    season = str(record.get("season") or "").strip()
+    if graduation or season:
+        details = " and ".join(
+            value
+            for value in (
+                f"your {graduation} graduation" if graduation else "",
+                f"{season} availability" if season else "",
+            )
+            if value
+        )
+        parts.append(f"Keep {details} easy to spot.")
+    return " ".join(parts)
+
+
+def _application_advice(record: dict, profile: dict | None = None) -> str:
+    profile = profile if profile is not None else _applicant_profile()
+    if profile:
+        tailored = _profile_advice(record, profile)
+        if tailored:
+            return tailored
     skills = [str(value).strip() for value in record.get("skills") or [] if str(value).strip()]
     keywords = ", ".join(skills[:4])
     category = str(record.get("category") or "").lower()
@@ -108,6 +184,7 @@ def _fact(label: str, value: object) -> str:
 def build_email(records: list[dict]) -> tuple[str, str]:
     count = sum(len(_ids(record)) for record in records)
     subject = _subject(records)
+    profile = _applicant_profile()
     rows = []
     for record in records:
         company = escape(str(record.get("company") or "")[:180])
@@ -131,7 +208,7 @@ def build_email(records: list[dict]) -> tuple[str, str]:
         )
         openings = len(_ids(record))
         opening_note = f" · {openings} openings" if openings > 1 else ""
-        advice = escape(_application_advice(record))
+        advice = escape(_application_advice(record, profile))
         apply_button = (
             f'<a href="{url}" style="display:inline-block;background:#111827;color:#fff;'
             'text-decoration:none;padding:10px 15px;border-radius:7px;font-weight:700">'
