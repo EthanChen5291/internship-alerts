@@ -1,46 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:genpt:/job/Birmingham-AL-USA/Platform-Engineering-Intern_R26_0000029141",
-      "workday:genpt:/job/Birmingham-AL-USA/Software-Developer-Intern_R26_0000029140",
-      "workday:genpt:/job/Birmingham-AL-USA/GRC-Cybersecurity-Analyst-Intern_R26_0000029137",
-      "workday:genpt:/job/Birmingham-AL-USA/Customer-Software-Development-Intern_R26_0000029135",
-      "workday:genpt:/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134",
-      "workday:genpt:/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133",
-      "ashby:valon:b5a62c0c-823c-42dd-8cb5-e4b1455bcc64",
-      "greenhouse:eulerity:4709040006",
-      "workday:ntrs:/job/Chicago-IL/Technology-Intern---Software-Engineering_R160832-1",
-      "workday:ntrs:/job/Chicago-IL/Technology-Intern---Information-Security_R160869-1",
-      "workday:ntrs:/job/Chicago-IL/Technology-Intern---Infrastructure-and-IT-Management_R160872-1",
-      "workday:stryker:/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769"
-    ],
-    "telegram": [
-      "workday:genpt:/job/Birmingham-AL-USA/Platform-Engineering-Intern_R26_0000029141",
-      "workday:genpt:/job/Birmingham-AL-USA/Software-Developer-Intern_R26_0000029140",
-      "workday:genpt:/job/Birmingham-AL-USA/GRC-Cybersecurity-Analyst-Intern_R26_0000029137",
-      "workday:genpt:/job/Birmingham-AL-USA/Customer-Software-Development-Intern_R26_0000029135",
-      "workday:genpt:/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134",
-      "workday:genpt:/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133",
-      "ashby:valon:b5a62c0c-823c-42dd-8cb5-e4b1455bcc64",
-      "greenhouse:eulerity:4709040006",
-      "workday:ntrs:/job/Chicago-IL/Technology-Intern---Software-Engineering_R160832-1",
-      "workday:ntrs:/job/Chicago-IL/Technology-Intern---Information-Security_R160869-1",
-      "workday:ntrs:/job/Chicago-IL/Technology-Intern---Infrastructure-and-IT-Management_R160872-1",
-      "workday:stryker:/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769"
-    ],
-    "personal_email": [
-      "workday:genpt:/job/Birmingham-AL-USA/Platform-Engineering-Intern_R26_0000029141",
-      "workday:genpt:/job/Birmingham-AL-USA/Software-Developer-Intern_R26_0000029140",
-      "workday:genpt:/job/Birmingham-AL-USA/GRC-Cybersecurity-Analyst-Intern_R26_0000029137",
-      "workday:genpt:/job/Birmingham-AL-USA/Customer-Software-Development-Intern_R26_0000029135",
-      "workday:genpt:/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134",
-      "workday:genpt:/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133",
-      "ashby:valon:b5a62c0c-823c-42dd-8cb5-e4b1455bcc64",
-      "greenhouse:eulerity:4709040006",
-      "workday:ntrs:/job/Chicago-IL/Technology-Intern---Software-Engineering_R160832-1",
-      "workday:ntrs:/job/Chicago-IL/Technology-Intern---Information-Security_R160869-1",
-      "workday:ntrs:/job/Chicago-IL/Technology-Intern---Infrastructure-and-IT-Management_R160872-1",
-      "workday:stryker:/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
