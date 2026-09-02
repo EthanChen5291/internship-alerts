@@ -5,23 +5,55 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-02T19:14:01Z</updated>
+  <updated>2026-09-02T21:28:07Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Web-Developer-Intern_R26_0000029238</id>
-    <title>Genuine Parts Company: Web Developer Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Web-Developer-Intern_R26_0000029238"/>
-    <updated>2026-09-02T19:14:01Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Birmingham, AL, USA · Java, React, Next.js, Angular, GCP · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+    <id>urn:intern-engine:workday:alliedsolutions:/job/Carmel-IN/Software-Engineering-Intern_R-011087</id>
+    <title>Allied Solutions: Software Engineering Intern</title>
+    <link href="https://alliedsolutions.wd501.myworkdayjobs.com/Allied_External/job/Carmel-IN/Software-Engineering-Intern_R-011087"/>
+    <updated>2026-09-02T21:28:07Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Carmel, IN · Python, Java, C#, JavaScript, SQL</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029235</id>
-    <title>Genuine Parts Company: Software Engineer - QA Analyst Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029235"/>
+    <id>urn:intern-engine:workday:alliedsolutions:/job/Carmel-IN/Software-Delivery-Management-Intern_R-011086</id>
+    <title>Allied Solutions: Software Delivery Management Intern</title>
+    <link href="https://alliedsolutions.wd501.myworkdayjobs.com/Allied_External/job/Carmel-IN/Software-Delivery-Management-Intern_R-011086"/>
+    <updated>2026-09-02T21:28:07Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Carmel, IN · Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:generalmatter:5377131008</id>
+    <title>General Matter: Summer 2027 Internship - Embedded Software Engineering</title>
+    <link href="https://job-boards.greenhouse.io/generalmatter/jobs/5377131008"/>
+    <updated>2026-09-02T21:28:07Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Los Angeles, CA · $32–$46/hr · Python, C++, Go, Rust</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hp:/job/Spring-Texas-United-States-of-America/Software-Product-Security-Engineer-Intern_UNI4744-1</id>
+    <title>Hewlett Packard (HP): Software Product Security Engineer Intern 🛂</title>
+    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Software-Product-Security-Engineer-Intern_UNI4744-1"/>
+    <updated>2026-09-02T21:28:07Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Spring, Texas, United States of America · $35–$40/hr · Python, C++, C#, TypeScript · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:testnisc:8167886</id>
+    <title>National Information Solutions Cooperative (NISC): Intern - Data Engineer</title>
+    <link href="https://job-boards.greenhouse.io/testnisc/jobs/8167886"/>
     <updated>2026-09-02T19:14:01Z</updated>
     <category term="Not stated"/>
-    <summary>2 openings · Not stated · Software · Birmingham, AL, USA · Java, SQL, Selenium · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Data &amp; ML/AI · Mandan, ND · Python, Java, SQL, Scala, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:testnisc:8174096</id>
+    <title>National Information Solutions Cooperative (NISC): Intern - Software Development</title>
+    <link href="https://job-boards.greenhouse.io/testnisc/jobs/8174096"/>
+    <updated>2026-09-02T19:14:01Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Mandan, ND · Java, TypeScript, JavaScript, Angular, HTML/CSS</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:ehzq.fa.us2.oraclecloud.com:115752</id>
@@ -56,36 +88,20 @@
     <summary>Summer 2027 · Data &amp; ML/AI · NC, Raleigh, 701 Corporate Center Dr STE 200 · $25–$27/hr · Python, SQL, LLMs</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:iatinsurancegroup:/job/Raleigh-NC/Cyber-Security-Internship_JR100410</id>
-    <title>IAT Insurance Group: Cyber Security Internship 🛂</title>
-    <link href="https://iatinsurancegroup.wd1.myworkdayjobs.com/iat/job/Raleigh-NC/Cyber-Security-Internship_JR100410"/>
-    <updated>2026-09-02T19:14:01Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Raleigh NC · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:testnisc:8167886</id>
-    <title>National Information Solutions Cooperative (NISC): Intern - Data Engineer</title>
-    <link href="https://job-boards.greenhouse.io/testnisc/jobs/8167886"/>
+    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029235</id>
+    <title>Genuine Parts Company: Software Engineer - QA Analyst Intern</title>
+    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029235"/>
     <updated>2026-09-02T19:14:01Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Mandan, ND · Python, Java, SQL, Scala, LLMs</summary>
+    <summary>2 openings · Not stated · Software · Birmingham, AL, USA · Java, SQL, Selenium · H-1B track record: ~63 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:testnisc:8174096</id>
-    <title>National Information Solutions Cooperative (NISC): Intern - Software Development</title>
-    <link href="https://job-boards.greenhouse.io/testnisc/jobs/8174096"/>
+    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Web-Developer-Intern_R26_0000029238</id>
+    <title>Genuine Parts Company: Web Developer Intern</title>
+    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Web-Developer-Intern_R26_0000029238"/>
     <updated>2026-09-02T19:14:01Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Mandan, ND · Java, TypeScript, JavaScript, Angular, HTML/CSS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:philips:/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Development-Engineer--Automation----Cambridge--MA---Fall-2026_590708</id>
-    <title>Philips: Co-op - Software Development Engineer (Automation) – Cambridge, MA – Fall 2026</title>
-    <link href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Development-Engineer--Automation----Cambridge--MA---Fall-2026_590708"/>
-    <updated>2026-09-02T19:14:01Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Cambridge (US), Massachusetts, United States · Python, Java, C#, Azure, Git</summary>
+    <summary>Not stated · Software · Birmingham, AL, USA · Java, React, Next.js, Angular, GCP · H-1B track record: ~63 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194</id>
@@ -94,6 +110,22 @@
     <updated>2026-09-02T19:14:01Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105 · Python, C++ · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:iatinsurancegroup:/job/Raleigh-NC/Cyber-Security-Internship_JR100410</id>
+    <title>IAT Insurance Group: Cyber Security Internship 🛂</title>
+    <link href="https://iatinsurancegroup.wd1.myworkdayjobs.com/iat/job/Raleigh-NC/Cyber-Security-Internship_JR100410"/>
+    <updated>2026-09-02T19:14:01Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Raleigh NC · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:philips:/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Development-Engineer--Automation----Cambridge--MA---Fall-2026_590708</id>
+    <title>Philips: Co-op - Software Development Engineer (Automation) – Cambridge, MA – Fall 2026</title>
+    <link href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Development-Engineer--Automation----Cambridge--MA---Fall-2026_590708"/>
+    <updated>2026-09-02T19:14:01Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Cambridge (US), Massachusetts, United States · Python, Java, C#, Azure, Git</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:devtechnology:8726074002</id>
@@ -260,8 +292,8 @@
     <title>Altera Corporation: Graduate Intern - Engineering Infrastructure</title>
     <link href="https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/Graduate-Intern---Engineering-Infrastructure_R03066"/>
     <updated>2026-09-02T05:54:51Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · San Jose, California, United States · Python, Bash, AWS, Terraform, Linux</summary>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · San Jose, California, United States · Python, Bash, AWS, Terraform, Linux</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:clearwateranalytics:/job/Office---New-York/Quant-Developer-Intern_R12182</id>
@@ -774,37 +806,5 @@
     <updated>2026-09-01T15:54:59Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Boulder, CO, United States · Python, SQL, Tableau · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009500</id>
-    <title>Emerson Electric: Software Engineering Intern</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009500"/>
-    <updated>2026-09-01T00:52:19Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Houston, TX, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009673</id>
-    <title>Emerson Electric: Software Engineering Intern</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009673"/>
-    <updated>2026-09-01T00:52:19Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Shakopee, MN, United States; Chanhassen, MN, United States; Eden Prairie, MN, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:epicgames:6173862004</id>
-    <title>Epic Games: Frontend Programmer Intern</title>
-    <link href="https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004"/>
-    <updated>2026-08-31T21:22:18Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Cary,North Carolina,United States · TypeScript, JavaScript, React, Unreal · H-1B track record: ~28 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:hpiq:6111955004</id>
-    <title>HP IQ: Software Engineer Intern, Cloud Services (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/hpiq/jobs/6111955004"/>
-    <updated>2026-08-31T21:22:18Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA · $45–$51/hr · Spring</summary>
   </entry>
 </feed>

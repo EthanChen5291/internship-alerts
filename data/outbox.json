@@ -1,7 +1,25 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:alliedsolutions:/job/Carmel-IN/Software-Engineering-Intern_R-011087",
+      "workday:alliedsolutions:/job/Carmel-IN/Software-Delivery-Management-Intern_R-011086",
+      "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR111173",
+      "greenhouse:generalmatter:5377131008",
+      "workday:hp:/job/Spring-Texas-United-States-of-America/Software-Product-Security-Engineer-Intern_UNI4744-1"
+    ],
+    "telegram": [
+      "workday:alliedsolutions:/job/Carmel-IN/Software-Engineering-Intern_R-011087",
+      "workday:alliedsolutions:/job/Carmel-IN/Software-Delivery-Management-Intern_R-011086",
+      "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR111173",
+      "greenhouse:generalmatter:5377131008",
+      "workday:hp:/job/Spring-Texas-United-States-of-America/Software-Product-Security-Engineer-Intern_UNI4744-1"
+    ],
+    "personal_email": [
+      "workday:alliedsolutions:/job/Carmel-IN/Software-Engineering-Intern_R-011087",
+      "workday:alliedsolutions:/job/Carmel-IN/Software-Delivery-Management-Intern_R-011086",
+      "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR111173",
+      "greenhouse:generalmatter:5377131008",
+      "workday:hp:/job/Spring-Texas-United-States-of-America/Software-Product-Security-Engineer-Intern_UNI4744-1"
+    ]
   }
 }

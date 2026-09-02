@@ -108,7 +108,21 @@
     "Summer 2027": {
      "first_posted": "2026-09-02",
      "role_ids": [
-      "workday:alliedsolutions:/job/Carmel-IN/AI-Solutions-Intern_R-011074"
+      "workday:alliedsolutions:/job/Carmel-IN/AI-Solutions-Intern_R-011074",
+      "workday:alliedsolutions:/job/Carmel-IN/Software-Delivery-Management-Intern_R-011086",
+      "workday:alliedsolutions:/job/Carmel-IN/Software-Engineering-Intern_R-011087"
+     ],
+     "count": 3
+    }
+   }
+  },
+  "altera": {
+   "name": "Altera Corporation",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "workday:altera:/job/San-Jose-California-United-States/Graduate-Intern---Engineering-Infrastructure_R03066"
      ],
      "count": 1
     }
@@ -963,9 +977,10 @@
     "Summer 2027": {
      "first_posted": "2026-08-19",
      "role_ids": [
-      "greenhouse:generalmatter:5377118008"
+      "greenhouse:generalmatter:5377118008",
+      "greenhouse:generalmatter:5377131008"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2523,5 +2538,5 @@
    }
   }
  },
- "updated_at": "2026-09-02T19:14:01Z"
+ "updated_at": "2026-09-02T21:28:07Z"
 }
