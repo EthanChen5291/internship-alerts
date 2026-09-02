@@ -5,55 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-01T23:04:14Z</updated>
+  <updated>2026-09-02T01:15:24Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Platform-Engineering-Intern_R26_0000029141</id>
-    <title>Genuine Parts Company: Platform Engineering Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Platform-Engineering-Intern_R26_0000029141"/>
-    <updated>2026-09-01T23:04:14Z</updated>
+    <id>urn:intern-engine:workday:rockwellautomation:/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-2</id>
+    <title>Rockwell Automation: Intern, Cyber Professional Services (LCS) 🛂</title>
+    <link href="https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-2"/>
+    <updated>2026-09-02T01:15:24Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Birmingham, AL, USA · GCP · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Security · Mayfield Heights, Ohio, United States · sponsorship: no-sponsorship · H-1B track record: ~90 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Software-Developer-Intern_R26_0000029140</id>
-    <title>Genuine Parts Company: Software Developer Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Software-Developer-Intern_R26_0000029140"/>
-    <updated>2026-09-01T23:04:14Z</updated>
+    <id>urn:intern-engine:workday:rockwellautomation:/job/Mayfield-Heights-Ohio-United-States/Intern--Content-IDE-Software-Development--LCS-_R26-5010-2</id>
+    <title>Rockwell Automation: Intern, Content IDE Software Development (LCS) 🛂</title>
+    <link href="https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Content-IDE-Software-Development--LCS-_R26-5010-2"/>
+    <updated>2026-09-02T01:15:24Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Birmingham, AL, USA · Java, SQL, GCP, Linux, Git · H-1B track record: ~63 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/GRC-Cybersecurity-Analyst-Intern_R26_0000029137</id>
-    <title>Genuine Parts Company: GRC/Cybersecurity Analyst Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/GRC-Cybersecurity-Analyst-Intern_R26_0000029137"/>
-    <updated>2026-09-01T23:04:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Birmingham, AL, USA · Linux · H-1B track record: ~63 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Customer-Software-Development-Intern_R26_0000029135</id>
-    <title>Genuine Parts Company: Customer Software Development Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Customer-Software-Development-Intern_R26_0000029135"/>
-    <updated>2026-09-01T23:04:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Birmingham, AL, USA · Java, SQL · H-1B track record: ~63 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134</id>
-    <title>Genuine Parts Company: Cloud SRE Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134"/>
-    <updated>2026-09-01T23:04:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Birmingham, AL, USA · GCP · H-1B track record: ~63 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133</id>
-    <title>Genuine Parts Company: Cloud Developer Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133"/>
-    <updated>2026-09-01T23:04:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Birmingham, AL, USA · Java, GCP, Linux, Git · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Software · Mayfield Heights, Ohio, United States · Git · sponsorship: no-sponsorship · H-1B track record: ~90 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:valon:b5a62c0c-823c-42dd-8cb5-e4b1455bcc64</id>
@@ -72,12 +40,52 @@
     <summary>Not stated · Software · New York, New York · $17–$19/hr · Java, LLMs, Git</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:ntrs:/job/Chicago-IL/Technology-Intern---Software-Engineering_R160832-1</id>
-    <title>Northern Trust: Technology Intern – Software Engineering 🛂</title>
-    <link href="https://ntrs.wd1.myworkdayjobs.com/northerntrust/job/Chicago-IL/Technology-Intern---Software-Engineering_R160832-1"/>
+    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133</id>
+    <title>Genuine Parts Company: Cloud Developer Intern</title>
+    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133"/>
     <updated>2026-09-01T23:04:14Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Chicago, IL · Python, Java, SQL, Bash, LLMs · sponsorship: no-sponsorship · H-1B track record: ~144 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Software · Birmingham, AL, USA · Java, GCP, Linux, Git · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134</id>
+    <title>Genuine Parts Company: Cloud SRE Intern</title>
+    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Birmingham, AL, USA · GCP · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Customer-Software-Development-Intern_R26_0000029135</id>
+    <title>Genuine Parts Company: Customer Software Development Intern</title>
+    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Customer-Software-Development-Intern_R26_0000029135"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Birmingham, AL, USA · Java, SQL · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/GRC-Cybersecurity-Analyst-Intern_R26_0000029137</id>
+    <title>Genuine Parts Company: GRC/Cybersecurity Analyst Intern</title>
+    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/GRC-Cybersecurity-Analyst-Intern_R26_0000029137"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Birmingham, AL, USA · Linux · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Platform-Engineering-Intern_R26_0000029141</id>
+    <title>Genuine Parts Company: Platform Engineering Intern</title>
+    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Platform-Engineering-Intern_R26_0000029141"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Birmingham, AL, USA · GCP · H-1B track record: ~63 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Software-Developer-Intern_R26_0000029140</id>
+    <title>Genuine Parts Company: Software Developer Intern</title>
+    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Software-Developer-Intern_R26_0000029140"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Birmingham, AL, USA · Java, SQL, GCP, Linux, Git · H-1B track record: ~63 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ntrs:/job/Chicago-IL/Technology-Intern---Information-Security_R160869-1</id>
@@ -94,6 +102,14 @@
     <updated>2026-09-01T23:04:14Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Chicago, IL · Bash, LLMs · sponsorship: no-sponsorship · H-1B track record: ~144 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ntrs:/job/Chicago-IL/Technology-Intern---Software-Engineering_R160832-1</id>
+    <title>Northern Trust: Technology Intern – Software Engineering 🛂</title>
+    <link href="https://ntrs.wd1.myworkdayjobs.com/northerntrust/job/Chicago-IL/Technology-Intern---Software-Engineering_R160832-1"/>
+    <updated>2026-09-01T23:04:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Chicago, IL · Python, Java, SQL, Bash, LLMs · sponsorship: no-sponsorship · H-1B track record: ~144 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:stryker:/job/Irvine-California/Summer-2027-Internship---Statistical-Programming---California_R572769</id>
@@ -790,21 +806,5 @@
     <updated>2026-08-31T15:44:51Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Ohio Remote · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:intel:/job/US-Oregon-Hillsboro/AI-Solutions-Engineering-Graduate-Intern_JR0286546</id>
-    <title>Intel: AI Solutions Engineering Graduate Intern</title>
-    <link href="https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-Solutions-Engineering-Graduate-Intern_JR0286546"/>
-    <updated>2026-08-31T15:44:51Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · US, Oregon, Hillsboro · Python, C++, PyTorch, TensorFlow · H-1B track record: ~4.8k approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:stryker:/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1</id>
-    <title>Stryker: Summer 2027 Internship - Software Engineering - Florida</title>
-    <link href="https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1"/>
-    <updated>2026-08-31T07:53:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Fort Lauderdale, Florida · H-1B track record: ~104 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
