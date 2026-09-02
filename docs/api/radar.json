@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-02T21:28:07Z",
- "data_as_of": "2026-09-02T21:28:07Z",
- "rendered_at": "2026-09-02T21:28:07Z",
+ "generated_at": "2026-09-02T21:59:09Z",
+ "data_as_of": "2026-09-02T21:59:09Z",
+ "rendered_at": "2026-09-02T21:59:09Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -227,25 +227,6 @@
    "status": "open",
    "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166",
    "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-08"
-   }
-  },
-  {
-   "company": "Northrop Grumman",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-08",
-   "days_until": -56,
-   "status": "open",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677",
-   "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -516,6 +497,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-01"
+   }
+  },
+  {
+   "company": "CNO Financial Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-03",
+   "days_until": -30,
+   "status": "open",
+   "url": "https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-03"
    }
   },
   {
@@ -1974,6 +1974,25 @@
    "days_until": 0,
    "status": "open",
    "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-02"
+   }
+  },
+  {
+   "company": "Hadrian",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/hadrian-automation/2b0423c6-947d-4226-8d23-90743bd5e63e",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4471,6 +4490,25 @@
    }
   },
   {
+   "company": "Northrop Grumman",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-08",
+   "days_until": -56,
+   "status": "dropped",
+   "url": "",
+   "note": "fall opening, many roles need clearance",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-08"
+   }
+  },
+  {
    "company": "Chevron Corporation",
    "last_cycle_posted": "",
    "posted_on": "2026-07-16",
@@ -4563,25 +4601,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-01"
-   }
-  },
-  {
-   "company": "CNO Financial Group",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-03",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-03",
-   "days_until": -30,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-03"
    }
   },
   {
@@ -4813,5 +4832,5 @@
    }
   }
  ],
- "count": 253
+ "count": 254
 }

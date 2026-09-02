@@ -1,7 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:hadrian-automation:2b0423c6-947d-4226-8d23-90743bd5e63e",
+      "workday:caci:/job/King-of-Prussia-PA-US/Software-Engineering-Co-op---Fall-2026_331472"
+    ],
+    "telegram": [
+      "ashby:hadrian-automation:2b0423c6-947d-4226-8d23-90743bd5e63e",
+      "workday:caci:/job/King-of-Prussia-PA-US/Software-Engineering-Co-op---Fall-2026_331472"
+    ],
+    "personal_email": [
+      "ashby:hadrian-automation:2b0423c6-947d-4226-8d23-90743bd5e63e",
+      "workday:caci:/job/King-of-Prussia-PA-US/Software-Engineering-Co-op---Fall-2026_331472"
+    ]
   }
 }

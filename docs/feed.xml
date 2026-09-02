@@ -5,15 +5,31 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-02T21:28:07Z</updated>
+  <updated>2026-09-02T21:59:09Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:alliedsolutions:/job/Carmel-IN/Software-Engineering-Intern_R-011087</id>
-    <title>Allied Solutions: Software Engineering Intern</title>
-    <link href="https://alliedsolutions.wd501.myworkdayjobs.com/Allied_External/job/Carmel-IN/Software-Engineering-Intern_R-011087"/>
+    <id>urn:intern-engine:ashby:hadrian-automation:2b0423c6-947d-4226-8d23-90743bd5e63e</id>
+    <title>Hadrian: Software Engineer Intern 🇺🇸</title>
+    <link href="https://jobs.ashbyhq.com/hadrian-automation/2b0423c6-947d-4226-8d23-90743bd5e63e"/>
+    <updated>2026-09-02T21:59:09Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Los Angeles, CA · Python, TypeScript · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:caci:/job/King-of-Prussia-PA-US/Software-Engineering-Co-op---Fall-2026_331472</id>
+    <title>CACI: Software Engineering Co-op - Fall 2026</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/King-of-Prussia-PA-US/Software-Engineering-Co-op---Fall-2026_331472"/>
+    <updated>2026-09-02T21:59:09Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · King of Prussia, PA, US · Python, Java, C++, React, AWS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:generalmatter:5377131008</id>
+    <title>General Matter: Summer 2027 Internship - Embedded Software Engineering</title>
+    <link href="https://job-boards.greenhouse.io/generalmatter/jobs/5377131008"/>
     <updated>2026-09-02T21:28:07Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Carmel, IN · Python, Java, C#, JavaScript, SQL</summary>
+    <summary>Summer 2027 · Software · Los Angeles, CA · $32–$46/hr · Python, C++, Go, Rust</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:alliedsolutions:/job/Carmel-IN/Software-Delivery-Management-Intern_R-011086</id>
@@ -24,12 +40,12 @@
     <summary>Summer 2027 · Software · Carmel, IN · Azure</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:generalmatter:5377131008</id>
-    <title>General Matter: Summer 2027 Internship - Embedded Software Engineering</title>
-    <link href="https://job-boards.greenhouse.io/generalmatter/jobs/5377131008"/>
+    <id>urn:intern-engine:workday:alliedsolutions:/job/Carmel-IN/Software-Engineering-Intern_R-011087</id>
+    <title>Allied Solutions: Software Engineering Intern</title>
+    <link href="https://alliedsolutions.wd501.myworkdayjobs.com/Allied_External/job/Carmel-IN/Software-Engineering-Intern_R-011087"/>
     <updated>2026-09-02T21:28:07Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Los Angeles, CA · $32–$46/hr · Python, C++, Go, Rust</summary>
+    <summary>Summer 2027 · Software · Carmel, IN · Python, Java, C#, JavaScript, SQL</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:hp:/job/Spring-Texas-United-States-of-America/Software-Product-Security-Engineer-Intern_UNI4744-1</id>
@@ -211,9 +227,9 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910</id>
     <title>Northrop Grumman: 2027 Software Engineer Intern - Linthicum Maryland 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910"/>
-    <updated>2026-09-02T15:31:00Z</updated>
+    <updated>2026-09-02T21:44:43Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Maryland-Linthicum · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-Maryland-Linthicum · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:stryker:/job/Flower-Mound-Texas/Commercial-Operations-Software-Engineering-Intern---Flower-Mound--TX_R572941</id>
@@ -579,9 +595,9 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677</id>
     <title>Northrop Grumman: 2027 Cybersecurity Analyst Intern -  Boulder CO 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677"/>
-    <updated>2026-09-01T16:14:31Z</updated>
+    <updated>2026-09-02T21:44:43Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Colorado-Boulder · $22.25–$27.25/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · United States-Colorado-Boulder · $22.25–$27.25/hr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:ebgj.fa.us2.oraclecloud.com:253297</id>
@@ -790,21 +806,5 @@
     <updated>2026-09-01T00:52:19Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Shakopee, MN, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009478</id>
-    <title>Emerson Electric: Cybersecurity Engineering Intern</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009478"/>
-    <updated>2026-09-01T00:52:19Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Boulder, CO, United States · Python, C++</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009488</id>
-    <title>Emerson Electric: Data Science Engineering Intern</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009488"/>
-    <updated>2026-09-01T15:54:59Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Boulder, CO, United States · Python, SQL, Tableau · status: closed</summary>
   </entry>
 </feed>

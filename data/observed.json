@@ -490,11 +490,12 @@
    "cycles": {
     "Fall 2026": {
      "first_posted": "2026-06-30",
-     "count": 3,
+     "count": 4,
      "role_ids": [
       "workday:caci:/job/Jessup-MD-US/Software-Engineering-Intern---Fall-2026_328740",
       "workday:caci:/job/King-of-Prussia-PA-US/AI-ML-Engineering-Co-op---Fall-2026_327839",
-      "workday:caci:/job/King-of-Prussia-PA-US/AI-ML-Engineering-Co-op---Fall-2026_328403"
+      "workday:caci:/job/King-of-Prussia-PA-US/AI-ML-Engineering-Co-op---Fall-2026_328403",
+      "workday:caci:/job/King-of-Prussia-PA-US/Software-Engineering-Co-op---Fall-2026_331472"
      ]
     },
     "Summer 2027": {
@@ -1026,6 +1027,25 @@
       "oracle:ehzq.fa.us2.oraclecloud.com:115752"
      ],
      "count": 10
+    }
+   }
+  },
+  "hadrian": {
+   "name": "Hadrian",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-02",
+     "role_ids": [
+      "ashby:hadrian-automation:2b0423c6-947d-4226-8d23-90743bd5e63e"
+     ],
+     "count": 1
+    },
+    "Summer 2027": {
+     "first_posted": "2026-09-02",
+     "role_ids": [
+      "ashby:hadrian-automation:2b0423c6-947d-4226-8d23-90743bd5e63e"
+     ],
+     "count": 1
     }
    }
   },
@@ -2538,5 +2558,5 @@
    }
   }
  },
- "updated_at": "2026-09-02T21:28:07Z"
+ "updated_at": "2026-09-02T21:59:09Z"
 }
