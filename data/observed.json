@@ -290,9 +290,10 @@
     "Summer 2027": {
      "first_posted": "2026-08-26",
      "role_ids": [
+      "workday:aoins:/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14417",
       "workday:aoins:/job/Lansing-MI/Software-Developer-Internship_R_2121"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -476,9 +477,10 @@
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
       "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
-      "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359"
+      "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
+      "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -656,6 +658,21 @@
       "greenhouse:densityai:4336452009"
      ],
      "count": 1
+    }
+   }
+  },
+  "dev technology group": {
+   "name": "Dev Technology Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-19",
+     "role_ids": [
+      "greenhouse:devtechnology:8726074002",
+      "greenhouse:devtechnology:8726212002",
+      "greenhouse:devtechnology:8726259002",
+      "greenhouse:devtechnology:8728292002"
+     ],
+     "count": 4
     }
    }
   },
@@ -1428,7 +1445,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 10,
+     "count": 11,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -1439,7 +1456,8 @@
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
-      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378"
+      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378",
+      "workday:ngc:/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910"
      ]
     },
     "Fall 2026": {
@@ -2020,6 +2038,18 @@
     }
    }
   },
+  "tarrant regional water district": {
+   "name": "Tarrant Regional Water District",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "workday:trwd:/job/Fort-Worth-TX/Summer-2027-Infrastructure-Engineering-Intern--T036-_JR100218"
+     ],
+     "count": 1
+    }
+   }
+  },
   "td bank": {
    "name": "TD Bank",
    "cycles": {
@@ -2441,5 +2471,5 @@
    }
   }
  },
- "updated_at": "2026-09-02T11:25:55Z"
+ "updated_at": "2026-09-02T15:31:00Z"
 }

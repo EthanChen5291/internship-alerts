@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-02T11:25:55Z",
- "data_as_of": "2026-09-02T11:25:55Z",
- "rendered_at": "2026-09-02T11:25:55Z",
+ "generated_at": "2026-09-02T15:31:00Z",
+ "data_as_of": "2026-09-02T15:31:00Z",
+ "rendered_at": "2026-09-02T15:31:00Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1013,6 +1013,25 @@
    }
   },
   {
+   "company": "Dev Technology Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-19",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-19",
+   "days_until": -14,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/devtechnology/jobs/8728292002",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-19"
+   }
+  },
+  {
    "company": "General Matter",
    "last_cycle_posted": "",
    "posted_on": "2026-08-19",
@@ -1860,6 +1879,25 @@
    "days_until": -1,
    "status": "open",
    "url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Embedded-Engineering-Summer-Intern-2027_REQ-1000052019",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-01"
+   }
+  },
+  {
+   "company": "Tarrant Regional Water District",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-01",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://trwd.wd1.myworkdayjobs.com/TRWDCareers/job/Fort-Worth-TX/Summer-2027-Infrastructure-Engineering-Intern--T036-_JR100218",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4718,5 +4756,5 @@
    }
   }
  ],
- "count": 248
+ "count": 250
 }
