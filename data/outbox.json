@@ -1,16 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:rockwellautomation:/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-2",
-      "workday:rockwellautomation:/job/Mayfield-Heights-Ohio-United-States/Intern--Content-IDE-Software-Development--LCS-_R26-5010-2"
-    ],
-    "telegram": [
-      "workday:rockwellautomation:/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-2",
-      "workday:rockwellautomation:/job/Mayfield-Heights-Ohio-United-States/Intern--Content-IDE-Software-Development--LCS-_R26-5010-2"
-    ],
-    "personal_email": [
-      "workday:rockwellautomation:/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-2",
-      "workday:rockwellautomation:/job/Mayfield-Heights-Ohio-United-States/Intern--Content-IDE-Software-Development--LCS-_R26-5010-2"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
