@@ -1,25 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:altera:/job/San-Jose-California-United-States/Graduate-Intern---Engineering-Infrastructure_R03066",
-      "workday:clearwateranalytics:/job/Office---New-York/Quant-Developer-Intern_R12185",
-      "workday:clearwateranalytics:/job/Office---New-York/Quant-Developer-Intern_R12184",
-      "workday:clearwateranalytics:/job/Office---New-York/Quant-Developer-Intern_R12182",
-      "workday:clearwateranalytics:/job/Office---New-York/Quant-Developer-Intern_R12183"
-    ],
-    "telegram": [
-      "workday:altera:/job/San-Jose-California-United-States/Graduate-Intern---Engineering-Infrastructure_R03066",
-      "workday:clearwateranalytics:/job/Office---New-York/Quant-Developer-Intern_R12185",
-      "workday:clearwateranalytics:/job/Office---New-York/Quant-Developer-Intern_R12184",
-      "workday:clearwateranalytics:/job/Office---New-York/Quant-Developer-Intern_R12182",
-      "workday:clearwateranalytics:/job/Office---New-York/Quant-Developer-Intern_R12183"
-    ],
-    "personal_email": [
-      "workday:altera:/job/San-Jose-California-United-States/Graduate-Intern---Engineering-Infrastructure_R03066",
-      "workday:clearwateranalytics:/job/Office---New-York/Quant-Developer-Intern_R12185",
-      "workday:clearwateranalytics:/job/Office---New-York/Quant-Developer-Intern_R12184",
-      "workday:clearwateranalytics:/job/Office---New-York/Quant-Developer-Intern_R12182",
-      "workday:clearwateranalytics:/job/Office---New-York/Quant-Developer-Intern_R12183"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
