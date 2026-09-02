@@ -210,6 +210,10 @@ def upsert(existing: dict, jobs: list[dict], complete_keys: set[str],
                 record["salary"] = job["salary"]
             if job.get("skills") is not None:
                 record["skills"] = job["skills"]
+            if jid in enriched_ids:
+                # Fresh posting text is authoritative in both directions: it
+                # can add a class-year label or clear one the employer removed.
+                record["class_year"] = job.get("class_year")
             # A verdict from fresh text this run always lands — including a
             # downgrade to "unknown", which is how a re-versioned classifier
             # retracts an old false positive. Otherwise unknown never clobbers.

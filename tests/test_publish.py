@@ -12,6 +12,7 @@ STORE = {
         "category": "Software", "location": "SF", "url": "https://stripe.com/jobs/1",
         "posted_at": "2026-06-01T00:00:00Z", "first_seen_at": "2026-06-02T00:00:00Z",
         "sponsorship": "no-sponsorship", "salary": None, "source": "greenhouse",
+        "class_year": "Juniors+",
         "is_open": True,
     },
     "b": {
@@ -75,6 +76,7 @@ class TestApi:
         job = payload["jobs"][0]
         assert job["company"] == "Stripe"
         assert job["sponsorship"] == "no-sponsorship"
+        assert job["class_year"] == "Juniors+"
         assert "is_open" not in job  # only open roles ship, flag is redundant
 
 

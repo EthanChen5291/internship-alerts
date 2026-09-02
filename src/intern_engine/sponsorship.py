@@ -21,7 +21,9 @@ from html import unescape
 # re-reads a posting whose stored verdict came from an older version, so
 # classifier improvements propagate to the whole live list instead of only to
 # roles discovered after the change.
-VERSION = 4
+# Version 5 also backfills employer-stated class-year eligibility from the same
+# posting text. Reusing this enrichment version avoids a second detail fetch.
+VERSION = 5
 
 # ITAR / export control and security clearances require citizenship (or at
 # minimum a green card), which excludes F-1/OPT candidates the same way.

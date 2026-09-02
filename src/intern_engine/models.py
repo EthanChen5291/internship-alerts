@@ -125,6 +125,7 @@ class Job:
     # requisition.  Keeping them prevents a board-alias change from looking
     # like a brand-new role (and therefore sending a duplicate alert).
     aliases: list[str] | None = None
+    class_year: str | None = None  # employer-stated applicant standing, e.g. Juniors+
 
 
 @dataclass

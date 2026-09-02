@@ -183,6 +183,12 @@ def _rows(open_jobs: list[dict]) -> str:
             f'{escape(competition.label)}</span>'
         )
         salary = r.get("salary") or ""
+        class_year = r.get("class_year") or ""
+        class_year_label = (
+            f'<span class="class-year" title="Employer-stated applicant class year; '
+            f'not inferred">{escape(class_year)}</span>'
+            if class_year else ""
+        )
         skills = [s for s in (r.get("skills") or []) if s][:6]
         chips = (
             '<span class="sks">'
@@ -191,7 +197,8 @@ def _rows(open_jobs: list[dict]) -> str:
         ) if skills else ""
         haystack = " ".join(
             [str(r.get(k) or "") for k in
-             ("company", "title", "location", "category", "season", "salary")]
+             ("company", "title", "location", "category", "season", "salary",
+              "class_year")]
             + skills
         ).lower()
         seasons = r.get("seasons") or [r.get("season", "")]
@@ -262,7 +269,7 @@ def _rows(open_jobs: list[dict]) -> str:
             f"<td>{escape(r.get('company', ''))}{check}{rmark}"
             f"<span class='competition-line'>Competition: {competition_badge}</span></td>"
             f"<td><span class='rt'>{escape(r.get('title', ''))}</span> "
-            f"{flag}{count_tag}{chips}</td>"
+            f"{flag}{class_year_label}{count_tag}{chips}</td>"
             f"<td>{cycle_tag}</td>"
             f"<td>{escape(r.get('category', ''))}</td>"
             f"<td>{loc}</td>"
@@ -653,6 +660,9 @@ def generate(store_data: dict, stats: dict) -> None:
   .opens {{ display:inline-block; border:1px solid #d2992255; color:#e3b341;
             background:#d2992214; padding:0 7px; border-radius:20px;
             font-size:11.5px; margin-left:6px; white-space:nowrap; cursor:help; }}
+  .class-year {{ display:inline-block; border:1px solid #a371f766; color:#d2a8ff;
+                 background:#a371f71a; padding:0 7px; border-radius:20px;
+                 font-size:11.5px; margin-left:6px; white-space:nowrap; cursor:help; }}
   .sks {{ display:block; margin-top:3px; }}
   .sk {{ display:inline-block; background:#8b949e1a; color:var(--muted);
          border:1px solid var(--line); padding:0 6px; border-radius:10px;

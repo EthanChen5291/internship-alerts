@@ -13,7 +13,7 @@ from __future__ import annotations
 import asyncio
 import re
 
-from . import filters, skills, sponsorship
+from . import eligibility, filters, skills, sponsorship
 from .models import Job
 from .net import Net
 
@@ -141,6 +141,7 @@ async def enrich_jobs(jobs: list[Job], existing: dict, net: Net) -> tuple[set[st
         )
         if settled and prior.get("skills") is not None and not has_inline_evidence:
             job.sponsorship = prior.get("sponsorship", "unknown")
+            job.class_year = prior.get("class_year")
             return None  # already settled on an earlier run
         # (settled but skills missing = record predates skill tags; re-fetch once)
         if job.description is None:
@@ -162,17 +163,20 @@ async def enrich_jobs(jobs: list[Job], existing: dict, net: Net) -> tuple[set[st
                 if settled:
                     job.sponsorship = prior.get("sponsorship", "unknown")
                     job.skills = prior.get("skills")
+                    job.class_year = prior.get("class_year")
                 return None
         text = sponsorship.strip_html(job.description) if job.description else ""
         if settled and not text.strip():
             job.sponsorship = prior.get("sponsorship", "unknown")
             job.skills = prior.get("skills")
+            job.class_year = prior.get("class_year")
             return None
         # A description carried by the current list payload, or fetched now to
         # backfill old metadata, is fresher evidence than a stored verdict. The
         # old short-circuit froze changed Lever/Ashby-style postings forever.
         job.sponsorship = sponsorship.classify(text)
         job.skills = skills.extract(text, job.title)
+        job.class_year = eligibility.classify(text)
         if not job.salary:
             job.salary = skills.extract_pay(text)
         if job.season_inferred:

@@ -246,6 +246,16 @@ class TestDatePrecision:
         store.upsert(existing, [_job_dict("a")], self.KEYS)  # not re-enriched
         assert existing["a"]["sponsorship"] == "no-sponsorship"
 
+    def test_fresh_text_can_add_and_remove_class_year_label(self):
+        existing: dict = {}
+        labeled = _job_dict("a") | {"class_year": "Juniors+"}
+        store.upsert(existing, [labeled], self.KEYS, enriched_ids={"a"})
+        assert existing["a"]["class_year"] == "Juniors+"
+
+        cleared = _job_dict("a") | {"class_year": None}
+        store.upsert(existing, [cleared], self.KEYS, enriched_ids={"a"})
+        assert existing["a"]["class_year"] is None
+
 
 class TestPurge:
     def test_drops_long_closed_keeps_recent_and_open(self):

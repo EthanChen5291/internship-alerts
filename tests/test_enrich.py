@@ -39,6 +39,14 @@ class TestEnrich:
         assert enriched == {job.id}
         assert fetched == 0 and net.calls == 0
 
+    def test_inline_description_extracts_employer_stated_class_year(self):
+        net = FakeNet({})
+        job = _job(description="Applicants must be rising juniors or seniors.")
+        enriched, fetched = _run(enrich.enrich_jobs([job], {}, net))
+        assert job.class_year == "Juniors+"
+        assert enriched == {job.id}
+        assert fetched == 0
+
     def test_stored_verdict_carried_over_no_refetch(self):
         net = FakeNet({})
         job = _job(jid="greenhouse:acme:9", source="greenhouse")
@@ -48,6 +56,7 @@ class TestEnrich:
         }}
         enriched, fetched = _run(enrich.enrich_jobs([job], existing, net))
         assert job.sponsorship == "citizens-only"
+        assert job.class_year is None
         assert enriched == set() and net.calls == 0
 
     def test_fresh_inline_description_replaces_stale_stored_evidence(self):

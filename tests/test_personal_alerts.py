@@ -35,13 +35,16 @@ class Response:
 
 
 def test_email_contains_company_role_keywords_compensation_and_apply_link():
-    subject, html = personal_alerts.build_email([_record(salary="$45-$55/hr")])
+    subject, html = personal_alerts.build_email([
+        _record(salary="$45-$55/hr", class_year="Juniors+")
+    ])
     assert subject == "[Acme] Software Engineering Intern — Summer 2027"
     assert "Acme" in html
     assert "Software Engineering Intern" in html
     assert "Python, React" in html
     assert "Compensation" in html
     assert "$45-$55/hr" in html
+    assert "Juniors+ (employer-stated)" in html
     assert "https://example.com/jobs/1" in html
     assert "Apply now" in html
     assert "Tailor resume" in html
@@ -82,6 +85,38 @@ def test_advice_uses_private_resume_profile_without_inventing_matches(monkeypatc
     assert "Direct matches: Python, React" in html
     assert "unmatched terms such as Java" in html
     assert "May 2029 graduation" in html
+
+
+def test_big_company_strong_match_gets_personalized_urgency(monkeypatch):
+    monkeypatch.setenv("APPLICANT_PROFILE_JSON", json.dumps({
+        "skills": ["Python", "React", "Docker"],
+    }))
+
+    subject, html = personal_alerts.build_email([
+        _record(company="Google", skills=["Python", "React", "Java"])
+    ])
+
+    assert subject.startswith("[Google · PRIORITY]")
+    assert "Apply promptly" in html
+    assert "Priority match for Google" in html
+    assert "directly matches Python, React" in html
+    assert "highly competitive employer" in html
+
+
+def test_urgency_requires_both_high_competition_and_strong_match(monkeypatch):
+    monkeypatch.setenv("APPLICANT_PROFILE_JSON", json.dumps({
+        "skills": ["Python", "React"],
+    }))
+
+    ordinary_subject, ordinary_html = personal_alerts.build_email([_record()])
+    weak_subject, weak_html = personal_alerts.build_email([
+        _record(company="Google", skills=["Python", "Java", "Go"])
+    ])
+
+    assert "PRIORITY" not in ordinary_subject
+    assert "Apply promptly" not in ordinary_html
+    assert "PRIORITY" not in weak_subject
+    assert "Apply promptly" not in weak_html
 
 
 def test_unconfigured_email_settles_instead_of_growing_forever(monkeypatch):

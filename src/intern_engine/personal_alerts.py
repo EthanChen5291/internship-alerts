@@ -67,9 +67,16 @@ def _short(value: object, limit: int) -> str:
     return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
 
 
-def _subject(records: list[dict]) -> str:
+def _subject(records: list[dict], profile: dict | None = None) -> str:
     first = records[0]
     company = _short(first.get("company") or "New opening", 55)
+    priority_match = next(
+        (record for record in records if _priority_match(record, profile or {})),
+        None,
+    )
+    if priority_match is not None:
+        company = _short(priority_match.get("company") or company, 55)
+        company = f"{company} · PRIORITY"
     count = sum(len(_ids(record)) for record in records)
     if len(records) == 1:
         title = _short(first.get("title") or "Tech internship", 80)
@@ -97,6 +104,42 @@ def _applicant_profile() -> dict:
     except (TypeError, ValueError):
         return {}
     return value if isinstance(value, dict) else {}
+
+
+def _matching_skills(record: dict, profile: dict) -> list[str]:
+    profile_skills = {
+        _canonical(value)
+        for value in profile.get("skills") or []
+        if str(value).strip()
+    }
+    return [
+        str(value).strip()
+        for value in record.get("skills") or []
+        if str(value).strip() and _canonical(value) in profile_skills
+    ]
+
+
+def _priority_match(record: dict, profile: dict) -> bool:
+    """True only for a very competitive employer and a strong resume match."""
+    job_skills = [value for value in record.get("skills") or [] if str(value).strip()]
+    matches = _matching_skills(record, profile)
+    return (
+        competitiveness.estimate(record).key == "very-high"
+        and len(matches) >= 2
+        and len(matches) / max(1, len(job_skills)) >= 0.6
+    )
+
+
+def _urgency_callout(record: dict, profile: dict) -> str:
+    if not _priority_match(record, profile):
+        return ""
+    company = _short(record.get("company") or "this company", 80)
+    matches = ", ".join(_matching_skills(record, profile)[:4])
+    return (
+        f"Priority match for {company}: your resume directly matches {matches}. "
+        "This is a highly competitive employer, so tailor and apply promptly if the "
+        "role fits your goals."
+    )
 
 
 def _profile_advice(record: dict, profile: dict) -> str:
@@ -183,8 +226,8 @@ def _fact(label: str, value: object) -> str:
 
 def build_email(records: list[dict]) -> tuple[str, str]:
     count = sum(len(_ids(record)) for record in records)
-    subject = _subject(records)
     profile = _applicant_profile()
+    subject = _subject(records, profile)
     rows = []
     for record in records:
         company = escape(str(record.get("company") or "")[:180])
@@ -201,6 +244,11 @@ def build_email(records: list[dict]) -> tuple[str, str]:
                 _fact("Cycle", record.get("season")),
                 _fact("Location", record.get("location")),
                 _fact("Compensation", record.get("salary")),
+                _fact(
+                    "Class year",
+                    f"{record.get('class_year')} (employer-stated)"
+                    if record.get("class_year") else "",
+                ),
                 _fact("Role focus", record.get("category")),
                 _fact(
                     "Competition estimate",
@@ -214,6 +262,14 @@ def build_email(records: list[dict]) -> tuple[str, str]:
         openings = len(_ids(record))
         opening_note = f" · {openings} openings" if openings > 1 else ""
         advice = escape(_application_advice(record, profile))
+        urgency = _urgency_callout(record, profile)
+        urgency_html = (
+            '<div style="background:#fff7ed;border:1px solid #fb923c;color:#9a3412;'
+            'padding:10px 12px;border-radius:8px;margin:0 0 13px;font-size:14px;'
+            'line-height:1.45"><b>Apply promptly</b><br>'
+            f'{escape(urgency)}</div>'
+            if urgency else ""
+        )
         apply_button = (
             f'<a href="{url}" style="display:inline-block;background:#111827;color:#fff;'
             'text-decoration:none;padding:10px 15px;border-radius:7px;font-weight:700">'
@@ -226,6 +282,7 @@ def build_email(records: list[dict]) -> tuple[str, str]:
             'margin:0 0 14px;background:#fff">'
             f'<div style="color:#2563eb;font-weight:700;font-size:13px">{company}{opening_note}</div>'
             f'<h2 style="font-size:20px;line-height:1.25;margin:5px 0 12px">{title}</h2>'
+            f'{urgency_html}'
             f'<div style="font-size:14px;line-height:1.45">{facts}</div>'
             '<div style="background:#f8fafc;border-left:3px solid #2563eb;padding:10px 12px;'
             'margin:14px 0;font-size:14px;line-height:1.45">'

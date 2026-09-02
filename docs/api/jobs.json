@@ -7,173 +7,6 @@
  "count": 460,
  "jobs": [
   {
-   "id": "workday:genpt:/job/Birmingham-AL-USA/Web-Developer-Intern_R26_0000029238",
-   "company": "Genuine Parts Company",
-   "title": "Web Developer Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Birmingham, AL, USA",
-   "url": "https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Web-Developer-Intern_R26_0000029238",
-   "posted_at": "2026-09-02T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-02T19:14:01Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Java",
-    "React",
-    "Next.js",
-    "Angular",
-    "GCP",
-    "Linux",
-    "Git"
-   ],
-   "source": "workday",
-   "h1b_approvals": 63,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:genpt:/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029236",
-   "company": "Genuine Parts Company",
-   "title": "Software Engineer - QA Analyst Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Birmingham, AL, USA",
-   "url": "https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029236",
-   "posted_at": "2026-09-02T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-02T19:14:01Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Java",
-    "SQL",
-    "Selenium"
-   ],
-   "source": "workday",
-   "h1b_approvals": 63,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:genpt:/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029235",
-   "company": "Genuine Parts Company",
-   "title": "Software Engineer - QA Analyst Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Birmingham, AL, USA",
-   "url": "https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029235",
-   "posted_at": "2026-09-02T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-02T19:14:01Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Java",
-    "SQL",
-    "Selenium"
-   ],
-   "source": "workday",
-   "h1b_approvals": 63,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "oracle:ehzq.fa.us2.oraclecloud.com:115752",
-   "company": "Grant Thornton",
-   "title": "Cybersecurity and Privacy Intern - Summer 2027",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Security",
-   "location": "Los Angeles, CA, United States",
-   "url": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115752",
-   "posted_at": "2026-09-02",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-02T19:14:01Z",
-   "sponsorship": "no-sponsorship",
-   "salary": "$40/hr",
-   "skills": [],
-   "source": "oracle",
-   "h1b_approvals": 118,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "oracle:hdhl.fa.us6.oraclecloud.com:1007497",
-   "company": "Stantec",
-   "title": "Roadway Design Co-op Student - Infrastructure (Fall 2026)",
-   "season": "Fall 2026",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "Raleigh, NC, United States",
-   "url": "https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007497",
-   "posted_at": "2026-09-02",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-02T19:14:01Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [],
-   "source": "oracle",
-   "h1b_approvals": null,
-   "program": "Co-op",
-   "remote": false
-  },
-  {
-   "id": "workday:alliedsolutions:/job/Carmel-IN/AI-Solutions-Intern_R-011074",
-   "company": "Allied Solutions",
-   "title": "AI Solutions Intern",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "Carmel, IN",
-   "url": "https://alliedsolutions.wd501.myworkdayjobs.com/Allied_External/job/Carmel-IN/AI-Solutions-Intern_R-011074",
-   "posted_at": "2026-09-02T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-02T19:14:01Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [],
-   "source": "workday",
-   "h1b_approvals": 2,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:cigna:/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
-   "company": "Cigna Group",
-   "title": "Artificial Intelligence Innovation Development Program (AIIDP) Summer Internship",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Data & ML/AI",
-   "location": "NC, Raleigh, 701 Corporate Center Dr STE 200",
-   "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
-   "posted_at": "2026-09-02T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-02T19:14:01Z",
-   "sponsorship": "unknown",
-   "salary": "$25–$27/hr",
-   "skills": [
-    "Python",
-    "SQL",
-    "LLMs"
-   ],
-   "source": "workday",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
    "id": "greenhouse:testnisc:8167886",
    "company": "National Information Solutions Cooperative (NISC)",
    "title": "Intern - Data Engineer",
@@ -198,6 +31,7 @@
     "Git",
     "Airflow"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -228,9 +62,209 @@
     "Linux",
     "PostgreSQL"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "oracle:ehzq.fa.us2.oraclecloud.com:115752",
+   "company": "Grant Thornton",
+   "title": "Cybersecurity and Privacy Intern - Summer 2027",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Security",
+   "location": "Los Angeles, CA, United States",
+   "url": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115752",
+   "posted_at": "2026-09-02",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-09-02T19:14:01Z",
+   "sponsorship": "no-sponsorship",
+   "salary": "$40/hr",
+   "skills": [],
+   "class_year": null,
+   "source": "oracle",
+   "h1b_approvals": 118,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "oracle:hdhl.fa.us6.oraclecloud.com:1007497",
+   "company": "Stantec",
+   "title": "Roadway Design Co-op Student - Infrastructure (Fall 2026)",
+   "season": "Fall 2026",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Software",
+   "location": "Raleigh, NC, United States",
+   "url": "https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007497",
+   "posted_at": "2026-09-02",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-09-02T19:14:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [],
+   "class_year": null,
+   "source": "oracle",
+   "h1b_approvals": null,
+   "program": "Co-op",
+   "remote": false
+  },
+  {
+   "id": "workday:alliedsolutions:/job/Carmel-IN/AI-Solutions-Intern_R-011074",
+   "company": "Allied Solutions",
+   "title": "AI Solutions Intern",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "Carmel, IN",
+   "url": "https://alliedsolutions.wd501.myworkdayjobs.com/Allied_External/job/Carmel-IN/AI-Solutions-Intern_R-011074",
+   "posted_at": "2026-09-02T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-09-02T19:14:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [],
+   "class_year": null,
+   "source": "workday",
+   "h1b_approvals": 2,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:cigna:/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
+   "company": "Cigna Group",
+   "title": "Artificial Intelligence Innovation Development Program (AIIDP) Summer Internship",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Data & ML/AI",
+   "location": "NC, Raleigh, 701 Corporate Center Dr STE 200",
+   "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
+   "posted_at": "2026-09-02T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-09-02T19:14:01Z",
+   "sponsorship": "unknown",
+   "salary": "$25–$27/hr",
+   "skills": [
+    "Python",
+    "SQL",
+    "LLMs"
+   ],
+   "class_year": null,
+   "source": "workday",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:genpt:/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029235",
+   "company": "Genuine Parts Company",
+   "title": "Software Engineer - QA Analyst Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Birmingham, AL, USA",
+   "url": "https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029235",
+   "posted_at": "2026-09-02T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-09-02T19:14:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Java",
+    "SQL",
+    "Selenium"
+   ],
+   "class_year": null,
+   "source": "workday",
+   "h1b_approvals": 63,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:genpt:/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029236",
+   "company": "Genuine Parts Company",
+   "title": "Software Engineer - QA Analyst Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Birmingham, AL, USA",
+   "url": "https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029236",
+   "posted_at": "2026-09-02T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-09-02T19:14:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Java",
+    "SQL",
+    "Selenium"
+   ],
+   "class_year": null,
+   "source": "workday",
+   "h1b_approvals": 63,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:genpt:/job/Birmingham-AL-USA/Web-Developer-Intern_R26_0000029238",
+   "company": "Genuine Parts Company",
+   "title": "Web Developer Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Birmingham, AL, USA",
+   "url": "https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Web-Developer-Intern_R26_0000029238",
+   "posted_at": "2026-09-02T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-09-02T19:14:01Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Java",
+    "React",
+    "Next.js",
+    "Angular",
+    "GCP",
+    "Linux",
+    "Git"
+   ],
+   "class_year": null,
+   "source": "workday",
+   "h1b_approvals": 63,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194",
+   "company": "RTX",
+   "title": "Software Engineering Co-op (Summer/Fall 2027)",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Software",
+   "location": "US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194",
+   "posted_at": "2026-09-02T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-09-02T19:14:01Z",
+   "sponsorship": "no-sponsorship",
+   "salary": null,
+   "skills": [
+    "Python",
+    "C++"
+   ],
+   "class_year": null,
+   "source": "workday",
+   "h1b_approvals": null,
+   "program": "Co-op",
    "remote": false
   },
   {
@@ -255,30 +289,7 @@
     "Azure",
     "Git"
    ],
-   "source": "workday",
-   "h1b_approvals": null,
-   "program": "Co-op",
-   "remote": false
-  },
-  {
-   "id": "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194",
-   "company": "RTX",
-   "title": "Software Engineering Co-op (Summer/Fall 2027)",
-   "season": "Summer 2027",
-   "seasons": null,
-   "season_inferred": false,
-   "category": "Software",
-   "location": "US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194",
-   "posted_at": "2026-09-02T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-02T19:14:01Z",
-   "sponsorship": "no-sponsorship",
-   "salary": null,
-   "skills": [
-    "Python",
-    "C++"
-   ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -302,6 +313,7 @@
    "skills": [
     "Python"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 6,
    "program": "Co-op",
@@ -323,6 +335,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 94,
    "program": "Co-op",
@@ -348,6 +361,7 @@
     "Java",
     "Angular"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 13,
    "program": "Internship",
@@ -373,6 +387,7 @@
     "SQL",
     "Tableau"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -399,6 +414,7 @@
     "Linux",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -426,6 +442,7 @@
     "Linux",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 141,
    "program": "Internship",
@@ -447,6 +464,7 @@
    "sponsorship": "citizens-only",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -468,6 +486,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 104,
    "program": "Internship",
@@ -489,6 +508,7 @@
    "sponsorship": "no-sponsorship",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -510,6 +530,7 @@
    "sponsorship": "unknown",
    "salary": "$18.54–$27.82/hr",
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -533,6 +554,7 @@
    "skills": [
     "LLMs"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 10,
    "program": "Internship",
@@ -558,6 +580,7 @@
     "Bash",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 10,
    "program": "Internship",
@@ -579,6 +602,7 @@
    "sponsorship": "no-sponsorship",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 10,
    "program": "Internship",
@@ -600,6 +624,7 @@
    "sponsorship": "no-sponsorship",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 10,
    "program": "Internship",
@@ -630,6 +655,7 @@
     "Git",
     "Kafka"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 10,
    "program": "Internship",
@@ -660,6 +686,7 @@
     "Docker",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 10,
    "program": "Internship",
@@ -683,6 +710,7 @@
    "skills": [
     "SQL"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 10,
    "program": "Internship",
@@ -710,6 +738,7 @@
     "Terraform",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -733,6 +762,7 @@
    "skills": [
     "Java"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -756,6 +786,7 @@
    "skills": [
     "Java"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -779,6 +810,7 @@
    "skills": [
     "Java"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -802,6 +834,7 @@
    "skills": [
     "Java"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -825,6 +858,7 @@
    "skills": [
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 90,
    "program": "Internship",
@@ -846,6 +880,7 @@
    "sponsorship": "no-sponsorship",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 90,
    "program": "Internship",
@@ -873,6 +908,7 @@
     "Kubernetes",
     "Docker"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -898,6 +934,7 @@
     "LLMs",
     "Git"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -924,6 +961,7 @@
     "Linux",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 63,
    "program": "Internship",
@@ -947,6 +985,7 @@
    "skills": [
     "GCP"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 63,
    "program": "Internship",
@@ -971,6 +1010,7 @@
     "Java",
     "SQL"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 63,
    "program": "Internship",
@@ -994,6 +1034,7 @@
    "skills": [
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 63,
    "program": "Internship",
@@ -1017,6 +1058,7 @@
    "skills": [
     "GCP"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 63,
    "program": "Internship",
@@ -1044,6 +1086,7 @@
     "Linux",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 63,
    "program": "Internship",
@@ -1072,6 +1115,7 @@
     "LLMs",
     "Azure"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 144,
    "program": "Internship",
@@ -1096,6 +1140,7 @@
     "Bash",
     "LLMs"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 144,
    "program": "Internship",
@@ -1125,6 +1170,7 @@
     "Azure",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 144,
    "program": "Internship",
@@ -1146,6 +1192,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 104,
    "program": "Internship",
@@ -1170,6 +1217,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1195,6 +1243,7 @@
     "C++",
     "MATLAB"
    ],
+   "class_year": null,
    "source": "lever",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1220,6 +1269,7 @@
     "C++",
     "MATLAB"
    ],
+   "class_year": null,
    "source": "lever",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1241,6 +1291,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 52,
    "program": "Internship",
@@ -1269,6 +1320,7 @@
     "Docker",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1293,6 +1345,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1317,6 +1370,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1342,6 +1396,7 @@
     "C++",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 8,
    "program": "Co-op",
@@ -1369,6 +1424,7 @@
     "MongoDB",
     "Redis"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1390,6 +1446,7 @@
    "sponsorship": "unknown",
    "salary": "$22–$27/hr",
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 124,
    "program": "Internship",
@@ -1416,6 +1473,7 @@
     "JavaScript",
     "Azure"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1437,6 +1495,7 @@
    "sponsorship": "unknown",
    "salary": "$24.81–$42.7/hr",
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1465,6 +1524,7 @@
     "Node.js",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1486,6 +1546,7 @@
    "sponsorship": "no-sponsorship",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 18,
    "program": "Internship",
@@ -1511,6 +1572,7 @@
     "C++",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1534,6 +1596,7 @@
    "skills": [
     "LLMs"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1563,6 +1626,7 @@
     "Terraform",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1589,6 +1653,7 @@
     "Git",
     "Tableau"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 24,
    "program": "Internship",
@@ -1610,6 +1675,7 @@
    "sponsorship": "citizens-only",
    "salary": "$22.25–$27.25/hr",
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1633,6 +1699,7 @@
    "skills": [
     "LLMs"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 234,
    "program": "Internship",
@@ -1661,6 +1728,7 @@
     "LLMs",
     "Git"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 234,
    "program": "Internship",
@@ -1687,6 +1755,7 @@
     "LLMs",
     "Git"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 234,
    "program": "Internship",
@@ -1717,6 +1786,7 @@
     "PostgreSQL",
     "MongoDB"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -1747,6 +1817,7 @@
     "PostgreSQL",
     "MongoDB"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -1777,6 +1848,7 @@
     "PostgreSQL",
     "MongoDB"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -1805,6 +1877,7 @@
     "MongoDB",
     "Redis"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -1833,6 +1906,7 @@
     "MongoDB",
     "Redis"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -1861,6 +1935,7 @@
     "MongoDB",
     "Redis"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -1884,6 +1959,7 @@
    "skills": [
     "Python"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 42,
    "program": "Internship",
@@ -1909,6 +1985,7 @@
     "MATLAB",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -1934,6 +2011,7 @@
     "LLMs",
     "Git"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 8,
    "program": "Co-op",
@@ -1960,6 +2038,7 @@
     "SQL",
     "HTML/CSS"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 8,
    "program": "Co-op",
@@ -1984,6 +2063,7 @@
     "C++",
     "C#"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 8,
    "program": "Co-op",
@@ -2012,6 +2092,7 @@
     "scikit-learn",
     "Pandas"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 8,
    "program": "Co-op",
@@ -2039,6 +2120,7 @@
     "C#",
     "SQL"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 8,
    "program": "Co-op",
@@ -2063,6 +2145,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 8,
    "program": "Co-op",
@@ -2087,6 +2170,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 8,
    "program": "Internship",
@@ -2108,6 +2192,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 8,
    "program": "Co-op",
@@ -2132,6 +2217,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 8,
    "program": "Internship",
@@ -2153,6 +2239,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 8,
    "program": "Internship",
@@ -2174,6 +2261,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 8,
    "program": "Internship",
@@ -2197,6 +2285,7 @@
    "skills": [
     "PyTorch"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2224,6 +2313,7 @@
     "C#",
     "MATLAB"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -2251,6 +2341,7 @@
     "C#",
     "MATLAB"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -2272,6 +2363,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2295,6 +2387,7 @@
    "skills": [
     "Azure"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2321,6 +2414,7 @@
     "Bash",
     "Azure"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2344,6 +2438,7 @@
    "skills": [
     "MATLAB"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 54,
    "program": "Internship",
@@ -2370,6 +2465,7 @@
     "Scala",
     "Ruby"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 441,
    "program": "Internship",
@@ -2396,6 +2492,7 @@
     "React",
     "Unreal"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 28,
    "program": "Internship",
@@ -2419,6 +2516,7 @@
    "skills": [
     "Spring"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2444,6 +2542,7 @@
     "PyTorch",
     "TensorFlow"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2467,6 +2566,7 @@
    "skills": [
     "LLMs"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2491,6 +2591,7 @@
     "Java",
     "C++"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2516,6 +2617,7 @@
     "Java",
     "C++"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2540,6 +2642,7 @@
     "C++",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2564,6 +2667,7 @@
     "Python",
     "SQL"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2588,6 +2692,7 @@
     "Python",
     "SQL"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2609,6 +2714,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 2,
    "program": "Internship",
@@ -2630,6 +2736,7 @@
    "sponsorship": "no-sponsorship",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 118,
    "program": "Internship",
@@ -2651,6 +2758,7 @@
    "sponsorship": "no-sponsorship",
    "salary": "$37/hr",
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 118,
    "program": "Internship",
@@ -2681,6 +2789,7 @@
     "Pandas",
     "LLMs"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 83,
    "program": "Internship",
@@ -2704,6 +2813,7 @@
    "skills": [
     "SQL"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2730,6 +2840,7 @@
     "TypeScript",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 52,
    "program": "Internship",
@@ -2755,6 +2866,7 @@
     "C++",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2779,6 +2891,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2808,6 +2921,7 @@
     "Azure",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2829,6 +2943,7 @@
    "sponsorship": "unknown",
    "salary": "$20–$22/hr",
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2855,6 +2970,7 @@
     "Linux",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2883,6 +2999,7 @@
     "CUDA",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 489,
    "program": "Internship",
@@ -2904,6 +3021,7 @@
    "sponsorship": "citizens-only",
    "salary": "$20.5–$38/hr",
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -2933,6 +3051,7 @@
     "Databricks",
     "Tableau"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 484,
    "program": "Internship",
@@ -2963,6 +3082,7 @@
     "Node.js",
     "AWS"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 484,
    "program": "Internship",
@@ -2986,6 +3106,7 @@
    "skills": [
     "C++"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 2,
    "program": "Internship",
@@ -3009,6 +3130,7 @@
    "skills": [
     "Python"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3039,6 +3161,7 @@
     "Docker",
     "Terraform"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3060,6 +3183,7 @@
    "sponsorship": "no-sponsorship",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 118,
    "program": "Internship",
@@ -3081,6 +3205,7 @@
    "sponsorship": "no-sponsorship",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 118,
    "program": "Internship",
@@ -3107,6 +3232,7 @@
     "TypeScript",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 52,
    "program": "Internship",
@@ -3128,6 +3254,7 @@
    "sponsorship": "no-sponsorship",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3154,6 +3281,7 @@
     "PyTorch",
     "TensorFlow"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 4758,
    "program": "Internship",
@@ -3175,6 +3303,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 104,
    "program": "Internship",
@@ -3196,6 +3325,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 104,
    "program": "Internship",
@@ -3217,6 +3347,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 104,
    "program": "Internship",
@@ -3242,6 +3373,7 @@
     "Java",
     "GCP"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 378,
    "program": "Internship",
@@ -3272,6 +3404,7 @@
     "Docker",
     "Terraform"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3299,6 +3432,7 @@
     "Linux",
     "Git"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3329,6 +3463,7 @@
     "SQL",
     "React"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 3,
    "program": "Internship",
@@ -3353,6 +3488,7 @@
     "Azure",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3378,6 +3514,7 @@
     "C#",
     "SQL"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3402,6 +3539,7 @@
     "PyTorch",
     "LLMs"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3423,6 +3561,7 @@
    "sponsorship": "no-sponsorship",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 118,
    "program": "Internship",
@@ -3444,6 +3583,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3472,6 +3612,7 @@
     "Computer Vision",
     "CUDA"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 181,
    "program": "Internship",
@@ -3495,6 +3636,7 @@
    "skills": [
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3522,6 +3664,7 @@
     "JavaScript",
     "Bash"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3545,6 +3688,7 @@
    "skills": [
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3572,6 +3716,7 @@
     "JavaScript",
     "Bash"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3595,6 +3740,7 @@
    "skills": [
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3622,6 +3768,7 @@
     "JavaScript",
     "Bash"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3649,6 +3796,7 @@
     "JavaScript",
     "Bash"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3672,6 +3820,7 @@
    "skills": [
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3699,6 +3848,7 @@
     "JavaScript",
     "Bash"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3729,6 +3879,7 @@
     "GCP",
     "Azure"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3754,6 +3905,7 @@
     "JavaScript",
     "SQL"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 54,
    "program": "Internship",
@@ -3775,6 +3927,7 @@
    "sponsorship": "unknown",
    "salary": "$23/hr",
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 14,
    "program": "Internship",
@@ -3805,6 +3958,7 @@
     "MATLAB",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3828,6 +3982,7 @@
    "skills": [
     "C++"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -3853,6 +4008,7 @@
     "SQL",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3880,6 +4036,7 @@
     "Docker",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 3,
    "program": "Internship",
@@ -3909,6 +4066,7 @@
     "Azure",
     "Git"
    ],
+   "class_year": null,
    "source": "lever",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3932,6 +4090,7 @@
    "skills": [
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3959,6 +4118,7 @@
     "JavaScript",
     "Bash"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -3982,6 +4142,7 @@
    "skills": [
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4010,6 +4171,7 @@
     "TensorFlow",
     "Linux"
    ],
+   "class_year": null,
    "source": "amazon",
    "h1b_approvals": 23139,
    "program": "Internship",
@@ -4040,6 +4202,7 @@
     "GCP",
     "Azure"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 303,
    "program": "Internship",
@@ -4070,6 +4233,7 @@
     "GCP",
     "Azure"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 303,
    "program": "Internship",
@@ -4100,6 +4264,7 @@
     "GCP",
     "Azure"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 303,
    "program": "Internship",
@@ -4129,6 +4294,7 @@
     ".NET",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 69,
    "program": "Internship",
@@ -4150,6 +4316,7 @@
    "sponsorship": "unknown",
    "salary": "$20–$34/hr",
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 69,
    "program": "Internship",
@@ -4171,6 +4338,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4198,6 +4366,7 @@
     "JavaScript",
     "SQL"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4228,6 +4397,7 @@
     "HTML/CSS",
     "AWS"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4255,6 +4425,7 @@
     "HTML/CSS",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4279,6 +4450,7 @@
     "Python",
     "SQL"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 489,
    "program": "Internship",
@@ -4300,6 +4472,7 @@
    "sponsorship": "no-sponsorship",
    "salary": "$37/hr",
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 118,
    "program": "Internship",
@@ -4321,6 +4494,7 @@
    "sponsorship": "no-sponsorship",
    "salary": "$37/hr",
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 118,
    "program": "Internship",
@@ -4347,6 +4521,7 @@
     "TensorFlow",
     "Computer Vision"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 26,
    "program": "Internship",
@@ -4372,6 +4547,7 @@
     "C++",
     "Computer Vision"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 26,
    "program": "Internship",
@@ -4398,6 +4574,7 @@
     "PyTorch",
     "TensorFlow"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 26,
    "program": "Internship",
@@ -4421,6 +4598,7 @@
    "skills": [
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4448,6 +4626,7 @@
     "JavaScript",
     "Bash"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4475,6 +4654,7 @@
     "JavaScript",
     "Bash"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4496,6 +4676,7 @@
    "sponsorship": "no-sponsorship",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -4526,6 +4707,7 @@
     "React",
     "Node.js"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -4554,6 +4736,7 @@
     "Angular",
     "HTML/CSS"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4575,6 +4758,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "breezy",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4605,6 +4789,7 @@
     ".NET",
     "AWS"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4626,6 +4811,7 @@
    "sponsorship": "citizens-only",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 79,
    "program": "Internship",
@@ -4651,6 +4837,7 @@
     "Bash",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 79,
    "program": "Internship",
@@ -4676,6 +4863,7 @@
     "Bash",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 79,
    "program": "Internship",
@@ -4701,6 +4889,7 @@
     "Bash",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 79,
    "program": "Internship",
@@ -4726,6 +4915,7 @@
     "Bash",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 79,
    "program": "Internship",
@@ -4751,6 +4941,7 @@
     "Bash",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 79,
    "program": "Internship",
@@ -4776,6 +4967,7 @@
     "Computer Vision",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4806,6 +4998,7 @@
     "Git",
     "Snowflake"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4836,6 +5029,7 @@
     "React",
     "Angular"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4866,6 +5060,7 @@
     "Git",
     "Snowflake"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4890,6 +5085,7 @@
     "LLMs",
     "Tableau"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4915,6 +5111,7 @@
     "C++",
     "ROS"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 188,
    "program": "Internship",
@@ -4936,6 +5133,7 @@
    "sponsorship": "citizens-only",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -4960,6 +5158,7 @@
     "Python",
     "SQL"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 66,
    "program": "Internship",
@@ -4988,6 +5187,7 @@
     "Kubernetes",
     "Docker"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 303,
    "program": "Internship",
@@ -5018,6 +5218,7 @@
     "Node.js",
     "Vue"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 303,
    "program": "Internship",
@@ -5046,6 +5247,7 @@
     "Kubernetes",
     "Docker"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 303,
    "program": "Internship",
@@ -5076,6 +5278,7 @@
     "Node.js",
     "Vue"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 303,
    "program": "Internship",
@@ -5104,6 +5307,7 @@
     "Kubernetes",
     "Docker"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 303,
    "program": "Internship",
@@ -5134,6 +5338,7 @@
     "GCP",
     "Kubernetes"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -5155,6 +5360,7 @@
    "sponsorship": "no-sponsorship",
    "salary": "$42.5/hr",
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 118,
    "program": "Internship",
@@ -5176,6 +5382,7 @@
    "sponsorship": "citizens-only",
    "salary": "$25.5/hr",
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -5197,6 +5404,7 @@
    "sponsorship": "unknown",
    "salary": "$25.5/hr",
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -5227,6 +5435,7 @@
     "Angular",
     "Spring"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -5256,6 +5465,7 @@
     "Linux",
     "Git"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -5277,6 +5487,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -5298,6 +5509,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -5319,6 +5531,7 @@
    "sponsorship": "no-sponsorship",
    "salary": "$40/hr",
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 118,
    "program": "Internship",
@@ -5344,6 +5557,7 @@
     "C++",
     "MATLAB"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -5369,6 +5583,7 @@
     "C++",
     "MATLAB"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -5394,6 +5609,7 @@
     "C++",
     "C#"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 54,
    "program": "Internship",
@@ -5424,6 +5640,7 @@
     "Terraform",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 67,
    "program": "Internship",
@@ -5452,6 +5669,7 @@
     "Vue",
     "HTML/CSS"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 67,
    "program": "Internship",
@@ -5476,6 +5694,7 @@
     "C++",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 67,
    "program": "Internship",
@@ -5506,6 +5725,7 @@
     "Terraform",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 67,
    "program": "Internship",
@@ -5530,6 +5750,7 @@
     "Swift",
     "Kotlin"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 67,
    "program": "Internship",
@@ -5559,6 +5780,7 @@
     "HTML/CSS",
     "Linux"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -5584,6 +5806,7 @@
     "C++",
     "JavaScript"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -5608,6 +5831,7 @@
     "Python",
     "SQL"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -5629,6 +5853,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -5654,6 +5879,7 @@
     "PyTorch",
     "LLMs"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 188,
    "program": "Internship",
@@ -5684,6 +5910,7 @@
     "Spring",
     "AWS"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -5714,6 +5941,7 @@
     "Node.js",
     "Git"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -5740,6 +5968,7 @@
     "AWS",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -5767,6 +5996,7 @@
     "Azure",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 54,
    "program": "Internship",
@@ -5796,6 +6026,7 @@
     "Docker",
     "Airflow"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -5823,6 +6054,7 @@
     "Docker",
     "Git"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -5848,6 +6080,7 @@
     "C++",
     "Rust"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -5874,6 +6107,7 @@
     "Rust",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -5904,6 +6138,7 @@
     "Terraform",
     "Git"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -5929,6 +6164,7 @@
     "React",
     "Git"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -5957,6 +6193,7 @@
     "Docker",
     "Git"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -5978,6 +6215,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6004,6 +6242,7 @@
     "Bash",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6034,6 +6273,7 @@
     "Computer Vision",
     "CUDA"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6064,6 +6304,7 @@
     "Linux",
     "Git"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6087,6 +6328,7 @@
    "skills": [
     "SQL"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6117,6 +6359,7 @@
     "Git",
     "Snowflake"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6147,6 +6390,7 @@
     "Angular",
     "HTML/CSS"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6177,6 +6421,7 @@
     "Git",
     "Snowflake"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6207,6 +6452,7 @@
     "React",
     "Angular"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6233,6 +6479,7 @@
     "Spring",
     "AWS"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6259,6 +6506,7 @@
     "PyTorch",
     "TensorFlow"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 20,
    "program": "Internship",
@@ -6287,6 +6535,7 @@
     "Spring",
     "Tableau"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6311,6 +6560,7 @@
     "Kotlin",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6337,6 +6587,7 @@
     "JavaScript",
     "HTML/CSS"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6363,6 +6614,7 @@
     "JavaScript",
     "HTML/CSS"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6389,6 +6641,7 @@
     "JavaScript",
     "HTML/CSS"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6415,6 +6668,7 @@
     "JavaScript",
     "HTML/CSS"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6439,6 +6693,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6464,6 +6719,7 @@
     "C++",
     "Pandas"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6491,6 +6747,7 @@
     "GCP",
     "PostgreSQL"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6517,6 +6774,7 @@
     "Git",
     "Snowflake"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6540,6 +6798,7 @@
    "skills": [
     "JavaScript"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6567,6 +6826,7 @@
     "Kotlin",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 54,
    "program": "Internship",
@@ -6597,6 +6857,7 @@
     "PyTorch",
     "TensorFlow"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6622,6 +6883,7 @@
     "C++",
     "Git"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6652,6 +6914,7 @@
     "HTML/CSS",
     "AWS"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6680,6 +6943,7 @@
     "AWS",
     "PostgreSQL"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6701,6 +6965,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6727,6 +6992,7 @@
     "C#",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 143,
    "program": "Internship",
@@ -6752,6 +7018,7 @@
     "C#",
     ".NET"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 4758,
    "program": "Internship",
@@ -6777,6 +7044,7 @@
     "C#",
     ".NET"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 4758,
    "program": "Internship",
@@ -6807,6 +7075,7 @@
     "Node.js",
     "Vue"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 303,
    "program": "Internship",
@@ -6828,6 +7097,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -6849,6 +7119,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -6876,6 +7147,7 @@
     "Angular",
     "Spring"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -6904,6 +7176,7 @@
     "Computer Vision",
     "Git"
    ],
+   "class_year": null,
    "source": "workable",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6930,6 +7203,7 @@
     "PyTorch",
     "TensorFlow"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6958,6 +7232,7 @@
     "LLMs",
     "Azure"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -6988,6 +7263,7 @@
     "AWS",
     "Azure"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -7013,6 +7289,7 @@
     "C++",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -7040,6 +7317,7 @@
     "Kubernetes",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 83,
    "program": "Internship",
@@ -7064,6 +7342,7 @@
     "Rust",
     "C++"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -7087,6 +7366,7 @@
    "skills": [
     "SQL"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 2,
    "program": "Internship",
@@ -7112,6 +7392,7 @@
     "SQL",
     "HTML/CSS"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -7136,6 +7417,7 @@
     "Python",
     "SQL"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 6,
    "program": "Internship",
@@ -7166,6 +7448,7 @@
     "Swift",
     "Kotlin"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7193,6 +7476,7 @@
     "C#",
     "SQL"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 42,
    "program": "Internship",
@@ -7214,6 +7498,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 94,
    "program": "Co-op",
@@ -7244,6 +7529,7 @@
     "Azure",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -7268,6 +7554,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -7289,6 +7576,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -7310,6 +7598,7 @@
    "sponsorship": "unknown",
    "salary": "$25/hr",
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -7340,6 +7629,7 @@
     "Swift",
     "Kotlin"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7370,6 +7660,7 @@
     "Swift",
     "Kotlin"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7394,6 +7685,7 @@
     "Python",
     "Bash"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7418,6 +7710,7 @@
     "Python",
     "Bash"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7442,6 +7735,7 @@
     "Python",
     "Bash"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7466,6 +7760,7 @@
     "Python",
     "Bash"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7490,6 +7785,7 @@
     "Python",
     "Bash"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7517,6 +7813,7 @@
     "SQL",
     "LLMs"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7544,6 +7841,7 @@
     "SQL",
     "LLMs"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7568,6 +7866,7 @@
     "Python",
     "Bash"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7595,6 +7894,7 @@
     "SQL",
     "LLMs"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7619,6 +7919,7 @@
     "Python",
     "Bash"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7643,6 +7944,7 @@
     "Python",
     "Bash"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7664,6 +7966,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -7694,6 +7997,7 @@
     "Swift",
     "Kotlin"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7724,6 +8028,7 @@
     "Swift",
     "Kotlin"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7751,6 +8056,7 @@
     "SQL",
     "LLMs"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7778,6 +8084,7 @@
     "SQL",
     "LLMs"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7805,6 +8112,7 @@
     "SQL",
     "LLMs"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7832,6 +8140,7 @@
     "SQL",
     "LLMs"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7859,6 +8168,7 @@
     "SQL",
     "LLMs"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7880,6 +8190,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 14,
    "program": "Internship",
@@ -7904,6 +8215,7 @@
     "Azure",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 14,
    "program": "Internship",
@@ -7933,6 +8245,7 @@
     "LLMs",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 4758,
    "program": "Internship",
@@ -7963,6 +8276,7 @@
     "Swift",
     "Kotlin"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -7992,6 +8306,7 @@
     "GCP",
     "Tableau"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8017,6 +8332,7 @@
     "TypeScript",
     "JavaScript"
    ],
+   "class_year": null,
    "source": "lever",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8047,6 +8363,7 @@
     "Swift",
     "Kotlin"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -8077,6 +8394,7 @@
     "Swift",
     "Kotlin"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 133,
    "program": "Internship",
@@ -8101,6 +8419,7 @@
     "Linux",
     "Git"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8122,6 +8441,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8146,6 +8466,7 @@
     "C++",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8176,6 +8497,7 @@
     "Kubernetes",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8206,6 +8528,7 @@
     "Kubernetes",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8227,6 +8550,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8251,6 +8575,7 @@
     "Python",
     "PyTorch"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8278,6 +8603,7 @@
     "React",
     "Node.js"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8303,6 +8629,7 @@
     "Azure",
     "Tableau"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 37,
    "program": "Internship",
@@ -8328,6 +8655,7 @@
     "C++",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8353,6 +8681,7 @@
     "C++",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8377,6 +8706,7 @@
     "LLMs",
     "Azure"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 37,
    "program": "Internship",
@@ -8403,6 +8733,7 @@
     "C++",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8428,6 +8759,7 @@
     "JavaScript",
     "HTML/CSS"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8458,6 +8790,7 @@
     "Azure",
     "Kubernetes"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 37,
    "program": "Internship",
@@ -8482,6 +8815,7 @@
     "LLMs",
     "Azure"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 37,
    "program": "Internship",
@@ -8509,6 +8843,7 @@
     ".NET",
     "Azure"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8536,6 +8871,7 @@
     ".NET",
     "Azure"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8560,6 +8896,7 @@
     "C++",
     "Rust"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8586,6 +8923,7 @@
     "Pandas",
     "Tableau"
    ],
+   "class_year": null,
    "source": "workable",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8611,6 +8949,7 @@
     "JavaScript",
     "SQL"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8641,6 +8980,7 @@
     "Linux",
     "Git"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8668,6 +9008,7 @@
     "Snowflake",
     "Tableau"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8689,6 +9030,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8713,6 +9055,7 @@
     "Python",
     "Rust"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8741,6 +9084,7 @@
     "TypeScript",
     "JavaScript"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 28,
    "program": "Internship",
@@ -8762,6 +9106,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8792,6 +9137,7 @@
     "Ruby",
     "Bash"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8813,6 +9159,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": null,
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 83,
    "program": "Internship",
@@ -8840,6 +9187,7 @@
     "TensorFlow",
     "Kubernetes"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8864,6 +9212,7 @@
     "MATLAB",
     "Linux"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 188,
    "program": "Internship",
@@ -8888,6 +9237,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8915,6 +9265,7 @@
     "TensorFlow",
     "Kubernetes"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8938,6 +9289,7 @@
    "skills": [
     "Azure"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8962,6 +9314,7 @@
     "LLMs",
     "Computer Vision"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Internship",
@@ -8985,6 +9338,7 @@
    "skills": [
     "Python"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -9010,6 +9364,7 @@
     "Azure",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -9033,6 +9388,7 @@
    "skills": [
     "Python"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 28,
    "program": "Internship",
@@ -9059,6 +9415,7 @@
     "LLMs",
     "AWS"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -9085,6 +9442,7 @@
     "LLMs",
     "AWS"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -9114,6 +9472,7 @@
     "LLMs",
     "AWS"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -9144,6 +9503,7 @@
     "Flask",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 83,
    "program": "Internship",
@@ -9174,6 +9534,7 @@
     "React",
     "Next.js"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 83,
    "program": "Internship",
@@ -9199,6 +9560,7 @@
     "C++",
     "Linux"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 8,
    "program": "Co-op",
@@ -9227,6 +9589,7 @@
     "TypeScript",
     "JavaScript"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 28,
    "program": "Internship",
@@ -9255,6 +9618,7 @@
     "TypeScript",
     "JavaScript"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 28,
    "program": "Internship",
@@ -9283,6 +9647,7 @@
     "TypeScript",
     "JavaScript"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 28,
    "program": "Internship",
@@ -9313,6 +9678,7 @@
     "HTML/CSS",
     "AWS"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -9338,6 +9704,7 @@
     "TensorFlow",
     "Kafka"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -9363,6 +9730,7 @@
     "TensorFlow",
     "Kafka"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -9388,6 +9756,7 @@
     "TensorFlow",
     "Kafka"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -9413,6 +9782,7 @@
     "TensorFlow",
     "Kafka"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -9438,6 +9808,7 @@
     "TensorFlow",
     "Kafka"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -9459,6 +9830,7 @@
    "sponsorship": "unknown",
    "salary": "$19/hr",
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -9485,6 +9857,7 @@
     "JavaScript",
     "HTML/CSS"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 12,
    "program": "Internship",
@@ -9506,6 +9879,7 @@
    "sponsorship": "citizens-only",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 28,
    "program": "Internship",
@@ -9530,6 +9904,7 @@
     "Python",
     "C#"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -9558,6 +9933,7 @@
     "Kubernetes",
     "Git"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 1526,
    "program": "Internship",
@@ -9588,6 +9964,7 @@
     "LLMs",
     "Node.js"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 186,
    "program": "Internship",
@@ -9613,6 +9990,7 @@
     "C++",
     "C#"
    ],
+   "class_year": null,
    "source": "lever",
    "h1b_approvals": null,
    "program": "Internship",
@@ -9638,6 +10016,7 @@
     "C++",
     "C#"
    ],
+   "class_year": null,
    "source": "lever",
    "h1b_approvals": null,
    "program": "Internship",
@@ -9662,6 +10041,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 4656,
    "program": "Internship",
@@ -9686,6 +10066,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 4656,
    "program": "Internship",
@@ -9714,6 +10095,7 @@
     "MATLAB",
     "Tableau"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 4656,
    "program": "Internship",
@@ -9735,6 +10117,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -9756,6 +10139,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "lever",
    "h1b_approvals": null,
    "program": "Co-op",
@@ -9782,6 +10166,7 @@
     "SQL",
     "MATLAB"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 4656,
    "program": "Internship",
@@ -9803,6 +10188,7 @@
    "sponsorship": "no-sponsorship",
    "salary": "$31/hr",
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -9824,6 +10210,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -9845,6 +10232,7 @@
    "sponsorship": "unknown",
    "salary": "$20–$30/hr",
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -9871,6 +10259,7 @@
     "Computer Vision",
     "Git"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 188,
    "program": "Internship",
@@ -9892,6 +10281,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 4656,
    "program": "Internship",
@@ -9920,6 +10310,7 @@
     "Databricks",
     "Snowflake"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 4656,
    "program": "Internship",
@@ -9948,6 +10339,7 @@
     "Databricks",
     "Snowflake"
    ],
+   "class_year": null,
    "source": "oracle",
    "h1b_approvals": 4656,
    "program": "Internship",
@@ -9977,6 +10369,7 @@
     "AWS",
     "Git"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10007,6 +10400,7 @@
     "React",
     "Next.js"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 83,
    "program": "Internship",
@@ -10033,6 +10427,7 @@
     "Bash",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10059,6 +10454,7 @@
     "PyTorch",
     "TensorFlow"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 4758,
    "program": "Internship",
@@ -10084,6 +10480,7 @@
     "SQL",
     "Tableau"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10111,6 +10508,7 @@
     "Next.js",
     "PostgreSQL"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10137,6 +10535,7 @@
     "Rust",
     "TypeScript"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10164,6 +10563,7 @@
     "Next.js",
     "PostgreSQL"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10194,6 +10594,7 @@
     "AWS",
     "Azure"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 79,
    "program": "Internship",
@@ -10220,6 +10621,7 @@
     "Azure",
     "Linux"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 188,
    "program": "Internship",
@@ -10243,6 +10645,7 @@
    "skills": [
     "Git"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10268,6 +10671,7 @@
     "C++",
     "Computer Vision"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 188,
    "program": "Internship",
@@ -10292,6 +10696,7 @@
     "MATLAB",
     "Linux"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 188,
    "program": "Internship",
@@ -10322,6 +10727,7 @@
     "GCP",
     "Azure"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 101,
    "program": "Internship",
@@ -10345,6 +10751,7 @@
    "skills": [
     "LLMs"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 44,
    "program": "Internship",
@@ -10366,6 +10773,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 4,
    "program": "Internship",
@@ -10392,6 +10800,7 @@
     "Azure",
     "Linux"
    ],
+   "class_year": null,
    "source": "smartrecruiters",
    "h1b_approvals": 188,
    "program": "Internship",
@@ -10417,6 +10826,7 @@
     "Pandas",
     "React"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10440,6 +10850,7 @@
    "skills": [
     "LLMs"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 44,
    "program": "Internship",
@@ -10466,6 +10877,7 @@
     "LLMs",
     "Git"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10492,6 +10904,7 @@
     "LLMs",
     "CUDA"
    ],
+   "class_year": null,
    "source": "workable",
    "h1b_approvals": 35,
    "program": "Internship",
@@ -10516,6 +10929,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "workable",
    "h1b_approvals": 35,
    "program": "Internship",
@@ -10537,6 +10951,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 2,
    "program": "Internship",
@@ -10563,6 +10978,7 @@
     "C++",
     "SQL"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10589,6 +11005,7 @@
     "C++",
     "JavaScript"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10613,6 +11030,7 @@
     "SQL",
     "Tableau"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10636,6 +11054,7 @@
    "skills": [
     "Python"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10666,6 +11085,7 @@
     "React",
     "Next.js"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 83,
    "program": "Internship",
@@ -10693,6 +11113,7 @@
     "Rust",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10718,6 +11139,7 @@
     "Java",
     "C++"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10741,6 +11163,7 @@
    "skills": [
     "LLMs"
    ],
+   "class_year": null,
    "source": "lever",
    "h1b_approvals": null,
    "program": "Internship",
@@ -10762,6 +11185,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 2,
    "program": "Internship",
@@ -10787,6 +11211,7 @@
     "C++",
     "TypeScript"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 8,
    "program": "Internship",
@@ -10808,6 +11233,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 43,
    "program": "Internship",
@@ -10829,6 +11255,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 7,
    "program": "Internship",
@@ -10854,6 +11281,7 @@
     "C++",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 7,
    "program": "Internship",
@@ -10877,6 +11305,7 @@
    "skills": [
     "Python"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 40,
    "program": "Internship",
@@ -10903,6 +11332,7 @@
     "MATLAB",
     "Pandas"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 29,
    "program": "Internship",
@@ -10927,6 +11357,7 @@
     "C++",
     "Python"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 40,
    "program": "Internship",
@@ -10950,6 +11381,7 @@
    "skills": [
     "Python"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 40,
    "program": "Internship",
@@ -10974,6 +11406,7 @@
     "AWS",
     "Kubernetes"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 40,
    "program": "Internship",
@@ -10999,6 +11432,7 @@
     ".NET",
     "Git"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 40,
    "program": "Internship",
@@ -11028,6 +11462,7 @@
     "Linux",
     "Git"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 40,
    "program": "Internship",
@@ -11052,6 +11487,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 29,
    "program": "Internship",
@@ -11073,6 +11509,7 @@
    "sponsorship": "unknown",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -11098,6 +11535,7 @@
     "C++",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 38,
    "program": "Internship",
@@ -11123,6 +11561,7 @@
     "C++",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 38,
    "program": "Internship",
@@ -11147,6 +11586,7 @@
     "Python",
     "MATLAB"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 13,
    "program": "Internship",
@@ -11171,6 +11611,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 13,
    "program": "Internship",
@@ -11195,6 +11636,7 @@
     "Python",
     "PyTorch"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 1526,
    "program": "Internship",
@@ -11219,6 +11661,7 @@
     "Java",
     "C++"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 13,
    "program": "Internship",
@@ -11244,6 +11687,7 @@
     "PyTorch",
     "TensorFlow"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 13,
    "program": "Internship",
@@ -11270,6 +11714,7 @@
     "LLMs",
     "Next.js"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -11297,6 +11742,7 @@
     "Kafka",
     "Redis"
    ],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": 83,
    "program": "Internship",
@@ -11323,6 +11769,7 @@
     "PyTorch",
     "CUDA"
    ],
+   "class_year": null,
    "source": "lever",
    "h1b_approvals": null,
    "program": "Internship / Co-op",
@@ -11346,6 +11793,7 @@
    "skills": [
     "Python"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -11372,6 +11820,7 @@
     "C#",
     "SQL"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -11399,6 +11848,7 @@
     "Rust",
     "Computer Vision"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -11428,6 +11878,7 @@
     "Snowflake",
     "PostgreSQL"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -11457,6 +11908,7 @@
     "LLMs",
     "Linux"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -11487,6 +11939,7 @@
     "TypeScript",
     "SQL"
    ],
+   "class_year": null,
    "source": "amazon",
    "h1b_approvals": 23139,
    "program": "Internship",
@@ -11514,6 +11967,7 @@
     "React",
     "Angular"
    ],
+   "class_year": null,
    "source": "lever",
    "h1b_approvals": null,
    "program": "Internship",
@@ -11535,6 +11989,7 @@
    "sponsorship": "citizens-only",
    "salary": null,
    "skills": [],
+   "class_year": null,
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
@@ -11565,6 +12020,7 @@
     "React",
     "Docker"
    ],
+   "class_year": null,
    "source": "ashby",
    "h1b_approvals": null,
    "program": "Internship",
@@ -11588,6 +12044,7 @@
    "skills": [
     "C++"
    ],
+   "class_year": null,
    "source": "lever",
    "h1b_approvals": null,
    "program": "Internship",
@@ -11615,6 +12072,7 @@
     "C++",
     "LLMs"
    ],
+   "class_year": null,
    "source": "amazon",
    "h1b_approvals": 23139,
    "program": "Internship / Co-op",
@@ -11640,6 +12098,7 @@
     "C++",
     "Pandas"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": null,
    "program": "Internship",
@@ -11664,6 +12123,7 @@
     "Python",
     "C++"
    ],
+   "class_year": null,
    "source": "greenhouse",
    "h1b_approvals": 48,
    "program": "Internship",
