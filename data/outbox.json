@@ -1,7 +1,46 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:genpt:/job/Birmingham-AL-USA/Web-Developer-Intern_R26_0000029238",
+      "workday:genpt:/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029236",
+      "workday:genpt:/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029235",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115752",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007497",
+      "workday:alliedsolutions:/job/Carmel-IN/AI-Solutions-Intern_R-011074",
+      "workday:cigna:/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
+      "workday:iatinsurancegroup:/job/Raleigh-NC/Cyber-Security-Internship_JR100410",
+      "greenhouse:testnisc:8167886",
+      "greenhouse:testnisc:8174096",
+      "workday:philips:/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Development-Engineer--Automation----Cambridge--MA---Fall-2026_590708",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194"
+    ],
+    "telegram": [
+      "workday:genpt:/job/Birmingham-AL-USA/Web-Developer-Intern_R26_0000029238",
+      "workday:genpt:/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029236",
+      "workday:genpt:/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029235",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115752",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007497",
+      "workday:alliedsolutions:/job/Carmel-IN/AI-Solutions-Intern_R-011074",
+      "workday:cigna:/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
+      "workday:iatinsurancegroup:/job/Raleigh-NC/Cyber-Security-Internship_JR100410",
+      "greenhouse:testnisc:8167886",
+      "greenhouse:testnisc:8174096",
+      "workday:philips:/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Development-Engineer--Automation----Cambridge--MA---Fall-2026_590708",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194"
+    ],
+    "personal_email": [
+      "workday:genpt:/job/Birmingham-AL-USA/Web-Developer-Intern_R26_0000029238",
+      "workday:genpt:/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029236",
+      "workday:genpt:/job/Birmingham-AL-USA/Software-Engineer---QA-Analyst-Intern_R26_0000029235",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115752",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007497",
+      "workday:alliedsolutions:/job/Carmel-IN/AI-Solutions-Intern_R-011074",
+      "workday:cigna:/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
+      "workday:iatinsurancegroup:/job/Raleigh-NC/Cyber-Security-Internship_JR100410",
+      "greenhouse:testnisc:8167886",
+      "greenhouse:testnisc:8174096",
+      "workday:philips:/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Development-Engineer--Automation----Cambridge--MA---Fall-2026_590708",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194"
+    ]
   }
 }

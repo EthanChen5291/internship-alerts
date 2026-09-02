@@ -102,6 +102,18 @@
     }
    }
   },
+  "allied solutions": {
+   "name": "Allied Solutions",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-02",
+     "role_ids": [
+      "workday:alliedsolutions:/job/Carmel-IN/AI-Solutions-Intern_R-011074"
+     ],
+     "count": 1
+    }
+   }
+  },
   "amazon": {
    "name": "Amazon",
    "cycles": {
@@ -567,6 +579,18 @@
     }
    }
   },
+  "cigna group": {
+   "name": "Cigna Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-02",
+     "role_ids": [
+      "workday:cigna:/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712"
+     ],
+     "count": 1
+    }
+   }
+  },
   "clarios": {
    "name": "Clarios",
    "cycles": {
@@ -983,9 +1007,10 @@
       "oracle:ehzq.fa.us2.oraclecloud.com:115687",
       "oracle:ehzq.fa.us2.oraclecloud.com:115704",
       "oracle:ehzq.fa.us2.oraclecloud.com:115733",
-      "oracle:ehzq.fa.us2.oraclecloud.com:115750"
+      "oracle:ehzq.fa.us2.oraclecloud.com:115750",
+      "oracle:ehzq.fa.us2.oraclecloud.com:115752"
      ],
-     "count": 9
+     "count": 10
     }
    }
   },
@@ -1126,6 +1151,18 @@
       "greenhouse:wehrtyou:7964062",
       "greenhouse:wehrtyou:8052083"
      ]
+    }
+   }
+  },
+  "iat insurance group": {
+   "name": "IAT Insurance Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "workday:iatinsurancegroup:/job/Raleigh-NC/Cyber-Security-Internship_JR100410"
+     ],
+     "count": 1
     }
    }
   },
@@ -1651,6 +1688,13 @@
       "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404"
      ],
      "count": 2
+    },
+    "Fall 2026": {
+     "first_posted": "2026-09-02",
+     "role_ids": [
+      "workday:philips:/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Development-Engineer--Automation----Cambridge--MA---Fall-2026_590708"
+     ],
+     "count": 1
     }
    }
   },
@@ -1829,6 +1873,7 @@
     "Summer 2027": {
      "first_posted": "2026-08-04",
      "role_ids": [
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01867129",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Software-Engineering-Intern-Summer-2027-_01870349-1",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01868241",
@@ -1843,7 +1888,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324"
      ],
-     "count": 13
+     "count": 14
     }
    }
   },
@@ -2006,6 +2051,13 @@
      "first_posted": "2026-08-28",
      "role_ids": [
       "oracle:hdhl.fa.us6.oraclecloud.com:1007361"
+     ],
+     "count": 1
+    },
+    "Fall 2026": {
+     "first_posted": "2026-09-02",
+     "role_ids": [
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007497"
      ],
      "count": 1
     }
@@ -2471,5 +2523,5 @@
    }
   }
  },
- "updated_at": "2026-09-02T15:31:00Z"
+ "updated_at": "2026-09-02T19:14:01Z"
 }

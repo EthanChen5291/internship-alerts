@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-02T15:31:00Z",
- "data_as_of": "2026-09-02T15:31:00Z",
- "rendered_at": "2026-09-02T15:31:00Z",
+ "generated_at": "2026-09-02T19:14:01Z",
+ "data_as_of": "2026-09-02T19:14:01Z",
+ "rendered_at": "2026-09-02T19:14:02Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -605,7 +605,7 @@
    "expected": "2026-08-04",
    "days_until": -29,
    "status": "open",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Software-Engineering-Intern-Summer-2027-_01870349-1",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01871019",
    "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
@@ -1023,7 +1023,7 @@
    "expected": "2026-08-19",
    "days_until": -14,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/devtechnology/jobs/8728292002",
+   "url": "https://job-boards.greenhouse.io/devtechnology/jobs/8726074002",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -1346,7 +1346,7 @@
    "expected": "2026-08-26",
    "days_until": -7,
    "status": "open",
-   "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Software-Developer-Internship_R_2121",
+   "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14417",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -1830,6 +1830,25 @@
    }
   },
   {
+   "company": "IAT Insurance Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-01",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://iatinsurancegroup.wd1.myworkdayjobs.com/iat/job/Raleigh-NC/Cyber-Security-Internship_JR100410",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-01"
+   }
+  },
+  {
    "company": "Johnson & Johnson",
    "last_cycle_posted": "",
    "posted_on": "2026-09-01",
@@ -1941,6 +1960,44 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-01"
+   }
+  },
+  {
+   "company": "Allied Solutions",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://alliedsolutions.wd501.myworkdayjobs.com/Allied_External/job/Carmel-IN/AI-Solutions-Intern_R-011074",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-02"
+   }
+  },
+  {
+   "company": "Cigna Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-02"
    }
   },
   {
@@ -4756,5 +4813,5 @@
    }
   }
  ],
- "count": 250
+ "count": 253
 }
