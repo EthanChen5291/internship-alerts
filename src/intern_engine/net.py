@@ -101,10 +101,13 @@ class Net:
         self._limiter = limiter
 
     async def get_json(self, url: str, **kwargs):
-        return await self._request("GET", url, **kwargs)
+        return (await self._request("GET", url, **kwargs)).json()
 
     async def post_json(self, url: str, **kwargs):
-        return await self._request("POST", url, **kwargs)
+        return (await self._request("POST", url, **kwargs)).json()
+
+    async def get_text(self, url: str, **kwargs) -> str:
+        return (await self._request("GET", url, **kwargs)).text
 
     async def _request(self, method: str, url: str, *, retries: int = 3, **kwargs):
         host = httpx.URL(url).host
@@ -127,7 +130,7 @@ class Net:
                 continue
 
             response.raise_for_status()
-            return response.json()
+            return response
 
         # Only reached if every attempt hit a retryable status without resolving.
         raise last_error or httpx.HTTPError(f"request to {url} failed after retries")

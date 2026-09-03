@@ -119,6 +119,21 @@ def test_urgency_requires_both_high_competition_and_strong_match(monkeypatch):
     assert "Apply promptly" not in weak_html
 
 
+def test_underclassman_program_gets_the_loudest_notice():
+    subject, html = personal_alerts.build_email([_record(
+        company="NVIDIA",
+        title="NVIDIA Ignite Software Intern",
+        underclass_program_key="nvidia-ignite",
+        underclass_program="NVIDIA Ignite",
+        underclass_audience="Current freshmen and sophomores",
+    )])
+
+    assert subject.startswith("[🚨 NVIDIA Ignite OPEN]")
+    assert "UNDERCLASSMAN PROGRAM JUST OPENED" in html
+    assert "Current freshmen and sophomores" in html
+    assert "Apply as soon as you can" in html
+
+
 def test_unconfigured_email_settles_instead_of_growing_forever(monkeypatch):
     for name in ("BREVO_API_KEY", "MAIL_FROM", "ALERT_EMAIL_TO"):
         monkeypatch.delenv(name, raising=False)

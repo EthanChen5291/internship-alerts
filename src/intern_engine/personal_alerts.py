@@ -69,6 +69,13 @@ def _short(value: object, limit: int) -> str:
 
 def _subject(records: list[dict], profile: dict | None = None) -> str:
     first = records[0]
+    special = next((r for r in records if r.get("underclass_program")), None)
+    if special is not None:
+        program = _short(special["underclass_program"], 60)
+        title = _short(special.get("title") or "Underclassman internship", 75)
+        more = sum(len(_ids(record)) for record in records) - 1
+        suffix = f" + {more} more" if more > 0 else ""
+        return f"[🚨 {program} OPEN{suffix}] {title}"
     company = _short(first.get("company") or "New opening", 55)
     priority_match = next(
         (record for record in records if _priority_match(record, profile or {})),
@@ -249,6 +256,8 @@ def build_email(records: list[dict]) -> tuple[str, str]:
                     f"{record.get('class_year')} (employer-stated)"
                     if record.get("class_year") else "",
                 ),
+                _fact("Underclassman program", record.get("underclass_program")),
+                _fact("Intended for", record.get("underclass_audience")),
                 _fact("Role focus", record.get("category")),
                 _fact(
                     "Competition estimate",
@@ -270,6 +279,18 @@ def build_email(records: list[dict]) -> tuple[str, str]:
             f'{escape(urgency)}</div>'
             if urgency else ""
         )
+        special_program = record.get("underclass_program")
+        program_html = (
+            '<div style="background:#7f1d1d;color:#fff;border:3px solid #ef4444;'
+            'padding:16px;border-radius:10px;margin:0 0 13px;text-align:center">'
+            '<div style="font-size:13px;font-weight:900;letter-spacing:.09em">'
+            '🚨 UNDERCLASSMAN PROGRAM JUST OPENED 🚨</div>'
+            f'<div style="font-size:24px;font-weight:900;margin-top:4px">'
+            f'{escape(str(special_program))}</div>'
+            f'<div style="margin-top:4px">For {escape(str(record.get("underclass_audience") or "underclassmen"))}. '
+            'Apply as soon as you can.</div></div>'
+            if special_program else ""
+        )
         apply_button = (
             f'<a href="{url}" style="display:inline-block;background:#111827;color:#fff;'
             'text-decoration:none;padding:10px 15px;border-radius:7px;font-weight:700">'
@@ -282,6 +303,7 @@ def build_email(records: list[dict]) -> tuple[str, str]:
             'margin:0 0 14px;background:#fff">'
             f'<div style="color:#2563eb;font-weight:700;font-size:13px">{company}{opening_note}</div>'
             f'<h2 style="font-size:20px;line-height:1.25;margin:5px 0 12px">{title}</h2>'
+            f'{program_html}'
             f'{urgency_html}'
             f'<div style="font-size:14px;line-height:1.45">{facts}</div>'
             '<div style="background:#f8fafc;border-left:3px solid #2563eb;padding:10px 12px;'
@@ -296,10 +318,11 @@ def build_email(records: list[dict]) -> tuple[str, str]:
     first_company = escape(_short(records[0].get("company") or "New internships", 80))
     heading = first_company if len(records) == 1 else f"{first_company} and more"
     intro = f"{count} newly published opening{'s' if count != 1 else ''}"
+    special_heading = any(record.get("underclass_program") for record in records)
     html = (
         '<div style="font:15px system-ui,sans-serif;max-width:680px;margin:auto;color:#0f172a">'
         '<div style="color:#2563eb;font-size:12px;font-weight:800;letter-spacing:.08em">'
-        "NEW INTERNSHIP ALERT</div>"
+        f'{"UNDERCLASSMAN PROGRAM OPEN" if special_heading else "NEW INTERNSHIP ALERT"}</div>'
         f'<h1 style="font-size:26px;margin:5px 0">{heading}</h1>'
         f'<p style="color:#64748b;margin:0 0 18px">{intro}</p>'
         + "".join(rows)

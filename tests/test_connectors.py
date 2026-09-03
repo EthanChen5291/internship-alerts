@@ -13,6 +13,7 @@ from intern_engine.connectors import (
     eightfold,
     greenhouse,
     lever,
+    microsoft_program,
     oracle,
     recruitee,
     rippling,
@@ -43,6 +44,40 @@ class FakeNet:
     async def post_json(self, url, **kwargs):
         self.urls.append(url)
         return self.payload
+
+    async def get_text(self, url, **kwargs):
+        self.urls.append(url)
+        return self.payload
+
+
+def test_microsoft_explore_page_keeps_only_real_program_cards():
+    page = '''
+    <div class="careers-joblistResponsive-main">
+      <div class="careers-joblistResponsive-columnList">
+        <h3 class="careers-joblistResponsive-subheading">Explore Microsoft Intern, First Year</h3>
+        <div class="careers-joblistResponsive-postdate">2026-09-12</div>
+        <div class="careers-joblistResponsive-primarylocation">United States, Washington</div>
+        <a href="https://apply.careers.microsoft.com/careers/job/123?hl=en"
+           class="careers-joblistResponsive-button">Details</a>
+      </div>
+      <div class="careers-joblistResponsive-columnList">
+        <h3 class="careers-joblistResponsive-subheading">Principal Manager - Search</h3>
+        <a href="https://apply.careers.microsoft.com/careers/job/999?hl=en"
+           class="careers-joblistResponsive-button">Details</a>
+      </div>
+    </div>'''
+    company = {
+        "name": "Microsoft", "slug": "microsoft-explore",
+        "url": "https://careers.microsoft.com/explore",
+    }
+
+    result = _fetch(microsoft_program.fetch(company, FakeNet(page)))
+
+    assert result.complete is True
+    assert len(result.jobs) == 1
+    assert result.jobs[0].id == "microsoft_program:microsoft-explore:123"
+    assert result.jobs[0].location == "United States, Washington"
+    assert result.jobs[0].posted_at == "2026-09-12"
 
 
 def _run(coro):

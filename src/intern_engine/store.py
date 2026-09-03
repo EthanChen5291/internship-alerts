@@ -77,7 +77,10 @@ def _validate_record(jid: str, record: dict) -> None:
             not isinstance(value, list) or not all(isinstance(v, str) for v in value)
         ):
             raise StateCorrupt(f"{jid}: {field} must be a list of strings")
-    for field in ("canonical_id", "requisition_id", "board_key"):
+    for field in (
+        "canonical_id", "requisition_id", "board_key", "class_year",
+        "underclass_program_key", "underclass_program", "underclass_audience",
+    ):
         if record.get(field) is not None and not isinstance(record[field], str):
             raise StateCorrupt(f"{jid}: {field} must be a string")
 
@@ -189,6 +192,13 @@ def upsert(existing: dict, jobs: list[dict], complete_keys: set[str],
             for key in _REFRESH_FIELDS:
                 if key in job:
                     record[key] = job[key]
+            for key in (
+                "underclass_program_key", "underclass_program", "underclass_audience",
+            ):
+                if job.get(key):
+                    record[key] = job[key]
+                else:
+                    record.pop(key, None)
             for key in ("board_key", "canonical_id", "requisition_id"):
                 if job.get(key):
                     record[key] = job[key]

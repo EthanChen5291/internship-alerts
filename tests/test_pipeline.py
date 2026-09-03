@@ -165,6 +165,32 @@ def test_alias_change_reuses_the_stored_verified_cycle():
     assert kept[0].season_inferred is False
 
 
+def test_verified_underclass_program_bypasses_generic_title_wording():
+    job = models.Job(
+        id="microsoft_program:microsoft-explore:1",
+        source="microsoft_program",
+        company="Microsoft",
+        company_slug="microsoft-explore",
+        title="Explore Microsoft Program - Summer 2027",
+        location="Redmond, WA",
+        url="https://apply.careers.microsoft.com/careers/job/1",
+    )
+    company = {
+        "name": "Microsoft", "slug": "microsoft-explore",
+        "ats": "microsoft_program",
+    }
+    config = {
+        "cycles": ["Summer 2027"], "regions": ["US"],
+        "role_scope": "tech", "infer_undated": True,
+    }
+
+    kept, *_ = pipeline._keep_matching([(company, Fetch([job]), None)], config, {})
+
+    assert len(kept) == 1
+    assert kept[0].underclass_program == "Microsoft Explore"
+    assert kept[0].underclass_audience == "First- and second-year students"
+
+
 class TestStatsState:
     def test_stats_write_is_atomic_and_preserves_fetch_time(self, tmp_path, monkeypatch):
         path = tmp_path / "stats.json"

@@ -15,7 +15,8 @@ class RegistryCorrupt(RuntimeError):
 
 _SUPPORTED_ATS = {
     "amazon", "ashby", "breezy", "eightfold", "greenhouse", "lever",
-    "oracle", "recruitee", "rippling", "smartrecruiters", "workable", "workday",
+    "microsoft_program", "oracle", "recruitee", "rippling", "smartrecruiters",
+    "workable", "workday",
 }
 
 
@@ -88,6 +89,9 @@ def validate_company(company: object, index: int | None = None) -> dict:
         for field in ("host", "site"):
             if not isinstance(company.get(field), str) or not company[field].strip():
                 raise RegistryCorrupt(f"{label}: Oracle record requires {field}")
+    if company["ats"] == "microsoft_program":
+        if not isinstance(company.get("url"), str) or not company["url"].startswith("https://"):
+            raise RegistryCorrupt(f"{label}: Microsoft program record requires HTTPS url")
     normalized = dict(company)
     normalized["name"] = normalized["name"].strip()
     normalized["slug"] = normalized["slug"].strip()

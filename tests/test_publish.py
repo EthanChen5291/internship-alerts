@@ -13,6 +13,9 @@ STORE = {
         "posted_at": "2026-06-01T00:00:00Z", "first_seen_at": "2026-06-02T00:00:00Z",
         "sponsorship": "no-sponsorship", "salary": None, "source": "greenhouse",
         "class_year": "Juniors+",
+        "underclass_program_key": "nvidia-ignite",
+        "underclass_program": "NVIDIA Ignite",
+        "underclass_audience": "Current freshmen and sophomores",
         "is_open": True,
     },
     "b": {
@@ -77,6 +80,7 @@ class TestApi:
         assert job["company"] == "Stripe"
         assert job["sponsorship"] == "no-sponsorship"
         assert job["class_year"] == "Juniors+"
+        assert job["underclass_program"] == "NVIDIA Ignite"
         assert "is_open" not in job  # only open roles ship, flag is redundant
 
 

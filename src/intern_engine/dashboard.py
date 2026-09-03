@@ -21,6 +21,7 @@ from . import (
     grouping,
     h1b,
     paths,
+    programs,
     radar,
     resume_page,
     sponsorship,
@@ -189,6 +190,13 @@ def _rows(open_jobs: list[dict]) -> str:
             f'not inferred">{escape(class_year)}</span>'
             if class_year else ""
         )
+        underclass = r.get("underclass_program") or ""
+        underclass_label = (
+            f'<span class="underclass" title="Employer-verified program for '
+            f'{escape(r.get("underclass_audience") or "underclassmen")}">'
+            f'🚨 {escape(underclass)}</span>'
+            if underclass else ""
+        )
         skills = [s for s in (r.get("skills") or []) if s][:6]
         chips = (
             '<span class="sks">'
@@ -198,7 +206,7 @@ def _rows(open_jobs: list[dict]) -> str:
         haystack = " ".join(
             [str(r.get(k) or "") for k in
              ("company", "title", "location", "category", "season", "salary",
-              "class_year")]
+              "class_year", "underclass_program", "underclass_audience")]
             + skills
         ).lower()
         seasons = r.get("seasons") or [r.get("season", "")]
@@ -269,7 +277,7 @@ def _rows(open_jobs: list[dict]) -> str:
             f"<td>{escape(r.get('company', ''))}{check}{rmark}"
             f"<span class='competition-line'>Competition: {competition_badge}</span></td>"
             f"<td><span class='rt'>{escape(r.get('title', ''))}</span> "
-            f"{flag}{class_year_label}{count_tag}{chips}</td>"
+            f"{flag}{underclass_label}{class_year_label}{count_tag}{chips}</td>"
             f"<td>{cycle_tag}</td>"
             f"<td>{escape(r.get('category', ''))}</td>"
             f"<td>{loc}</td>"
@@ -283,6 +291,37 @@ def _rows(open_jobs: list[dict]) -> str:
 
 def _options(values: list[str]) -> str:
     return "".join(f'<option value="{escape(v)}">{escape(v)}</option>' for v in values)
+
+
+def _underclass_section(store_data: dict) -> str:
+    live = programs.open_programs(store_data)
+    cards = []
+    for program in programs.PROGRAMS:
+        record = live.get(program["key"])
+        if record:
+            status = '<strong class="watch-open">OPEN — APPLY NOW</strong>'
+            action = (
+                f'<a href="{escape(record.get("url") or program["official_url"])}" '
+                'target="_blank" rel="noopener">Application</a>'
+            )
+        else:
+            status = '<strong class="watch-wait">Watching</strong>'
+            action = (
+                f'<a href="{escape(program["official_url"])}" target="_blank" '
+                'rel="noopener">Official program page</a>'
+            )
+        cards.append(
+            '<div class="watch-card">'
+            f'<div class="watch-name">{escape(program["name"])}</div>'
+            f'<div>{escape(program["audience"])}</div><div>{status} · {action}</div>'
+            f'<small>Official source checked {escape(program["verified_at"])}</small></div>'
+        )
+    return (
+        '<section class="underclass-watch"><h2>🚨 Underclassman program watch</h2>'
+        '<p class="muted">Non-finance programs confirmed on current employer pages. '
+        'When an application appears, it gets the loudest email alert.</p>'
+        f'<div class="watch-grid">{"".join(cards)}</div></section>'
+    )
 
 
 _CF_TITLE = {
@@ -663,6 +702,17 @@ def generate(store_data: dict, stats: dict) -> None:
   .class-year {{ display:inline-block; border:1px solid #a371f766; color:#d2a8ff;
                  background:#a371f71a; padding:0 7px; border-radius:20px;
                  font-size:11.5px; margin-left:6px; white-space:nowrap; cursor:help; }}
+  .underclass {{ display:inline-block; border:1px solid #f8514988; color:#ffb4b4;
+                 background:#f8514924; padding:0 7px; border-radius:20px;
+                 font-size:11.5px; margin-left:6px; white-space:nowrap; font-weight:700; }}
+  .underclass-watch {{ margin:24px 0; }}
+  .watch-grid {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+                 gap:10px; }}
+  .watch-card {{ border:1px solid var(--line); border-radius:var(--r); padding:13px;
+                 background:var(--card); line-height:1.5; box-shadow:var(--shadow); }}
+  .watch-name {{ font-weight:750; font-size:15px; }}
+  .watch-open {{ color:#ff7b72; }} .watch-wait {{ color:#e3b341; }}
+  .watch-card small {{ color:var(--muted); display:block; margin-top:4px; }}
   .sks {{ display:block; margin-top:3px; }}
   .sk {{ display:inline-block; background:#8b949e1a; color:var(--muted);
          border:1px solid var(--line); padding:0 6px; border-radius:10px;
@@ -719,6 +769,7 @@ def generate(store_data: dict, stats: dict) -> None:
     <a href="https://github.com/{escape(repo)}/blob/main/METHODOLOGY.md">methodology</a></p>
   </header>
   <div class="hero">{_hero(stats, open_jobs, proven_roles)}</div>
+  {_underclass_section(store_data)}
 
   <h2 id="roles">Open roles <span class="muted">(<span id="count">{len(open_jobs)}</span>
     showing)</span></h2>

@@ -14,6 +14,9 @@ def test_dashboard_uses_fetch_time_and_prunes_ghost_saves():
             "first_seen_at": "2026-08-05T01:00:00Z",
             "sponsorship": "unknown", "skills": [], "source": "greenhouse",
             "class_year": "Juniors+",
+            "underclass_program_key": "nvidia-ignite",
+            "underclass_program": "NVIDIA Ignite",
+            "underclass_audience": "Current freshmen and sophomores",
         }
     }
     stats = {
@@ -30,6 +33,10 @@ def test_dashboard_uses_fetch_time_and_prunes_ghost_saves():
     assert "not an applicant count or acceptance rate" in html
     assert "Employer-stated applicant class year" in html
     assert ">Juniors+</span>" in html
+    assert "Underclassman program watch" in html
+    assert "NVIDIA Ignite" in html
+    assert "OPEN — APPLY NOW" in html
+    assert "UNDERCLASSMAN" not in html  # email wording does not leak into dashboard
     resume = open(f"{paths.DOCS_DIR}/resume.html", encoding="utf-8").read()
     assert "visual structure stay unchanged" in resume
     assert "saved automatically on this browser" in resume

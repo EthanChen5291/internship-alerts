@@ -31,6 +31,7 @@ from . import (
     names,
     observe,
     paths,
+    programs,
     quality,
     registry,
     sponsorship,
@@ -44,6 +45,7 @@ from .connectors import (
     eightfold,
     greenhouse,
     lever,
+    microsoft_program,
     oracle,
     recruitee,
     rippling,
@@ -56,6 +58,7 @@ from .net import HostLimiter, Net
 CONNECTORS = {
     "greenhouse": greenhouse.fetch,
     "lever": lever.fetch,
+    "microsoft_program": microsoft_program.fetch,
     "ashby": ashby.fetch,
     "smartrecruiters": smartrecruiters.fetch,
     "workday": workday.fetch,
@@ -492,9 +495,14 @@ def _keep_matching(results, cfg, blocklist, existing=None) -> tuple[list, set[st
         if allowlist_only and not quality.is_recognized(company["name"]):
             continue
         for job in jobs:
-            if not filters.is_internship(job.title):
+            watched = programs.match(job.company, job.title)
+            if watched:
+                job.underclass_program_key = watched["key"]
+                job.underclass_program = watched["name"]
+                job.underclass_audience = watched["audience"]
+            if not watched and not filters.is_internship(job.title):
                 continue
-            if tech_only and not filters.is_tech(job.title):
+            if not watched and tech_only and not filters.is_tech(job.title):
                 continue
             season = filters.detect_season(job.title, cycles)
             inferred = False
@@ -670,9 +678,10 @@ def _close_out_of_scope(existing: dict, cfg: dict, blocklist: dict | None = None
             record.get("season_inferred") and posted and posted.date() < infer_cutoff
         )
         category = str(record.get("category") or filters.categorize(title))
+        watched = bool(record.get("underclass_program_key") or programs.match(company, title))
         rejected = (
-            (bool(title) and not filters.is_internship(title))
-            or (bool(title) and tech_only and not filters.is_tech(title))
+            (bool(title) and not watched and not filters.is_internship(title))
+            or (bool(title) and not watched and tech_only and not filters.is_tech(title))
             or config.role_excluded(cfg, title, category)
             or (
                 has_cycle_evidence
