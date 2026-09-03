@@ -1,7 +1,61 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "lever:foth:072d5e17-c095-49bc-ac02-4cd558bb5d64",
+      "lever:foth:95f75d08-ec27-48ff-8c60-dcf2d5720885",
+      "lever:hermeus:555263f6-c5ec-4489-ab07-1aea546b70e7",
+      "ashby:the-exploration-company:86270058-8eec-4692-b49d-97ce59fd54ac",
+      "greenhouse:axq:6181069004",
+      "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Data-Engineer-Intern--Summer-2027-_R16300",
+      "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294",
+      "workday:mastercard:/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654",
+      "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R68363",
+      "workday:premierinc:/job/Charlotte-NC/Software-Engineer-Intern_R0008480",
+      "workday:snc:/job/Folsom-CA/Software-Engineering-Intern--Summer-2027-_R0030761-1",
+      "workday:snc:/job/Southern-Pines-NC/Software-Engineering-Intern--Summer-2027-_R0030759",
+      "workday:snc:/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760",
+      "workday:snc:/job/Dayton-OH/Software-Engineering-Intern--Summer-2027-_R0030754",
+      "workday:snc:/job/Lone-Tree-CO/Software-Engineering-Intern--Summer-2027-_R0030757",
+      "workday:snc:/job/Plano-TX/Software-Engineering-Intern--Summer-2027-_R0030758",
+      "greenhouse:waymo:8174504"
+    ],
+    "telegram": [
+      "lever:foth:072d5e17-c095-49bc-ac02-4cd558bb5d64",
+      "lever:foth:95f75d08-ec27-48ff-8c60-dcf2d5720885",
+      "lever:hermeus:555263f6-c5ec-4489-ab07-1aea546b70e7",
+      "ashby:the-exploration-company:86270058-8eec-4692-b49d-97ce59fd54ac",
+      "greenhouse:axq:6181069004",
+      "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Data-Engineer-Intern--Summer-2027-_R16300",
+      "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294",
+      "workday:mastercard:/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654",
+      "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R68363",
+      "workday:premierinc:/job/Charlotte-NC/Software-Engineer-Intern_R0008480",
+      "workday:snc:/job/Folsom-CA/Software-Engineering-Intern--Summer-2027-_R0030761-1",
+      "workday:snc:/job/Southern-Pines-NC/Software-Engineering-Intern--Summer-2027-_R0030759",
+      "workday:snc:/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760",
+      "workday:snc:/job/Dayton-OH/Software-Engineering-Intern--Summer-2027-_R0030754",
+      "workday:snc:/job/Lone-Tree-CO/Software-Engineering-Intern--Summer-2027-_R0030757",
+      "workday:snc:/job/Plano-TX/Software-Engineering-Intern--Summer-2027-_R0030758",
+      "greenhouse:waymo:8174504"
+    ],
+    "personal_email": [
+      "lever:foth:072d5e17-c095-49bc-ac02-4cd558bb5d64",
+      "lever:foth:95f75d08-ec27-48ff-8c60-dcf2d5720885",
+      "lever:hermeus:555263f6-c5ec-4489-ab07-1aea546b70e7",
+      "ashby:the-exploration-company:86270058-8eec-4692-b49d-97ce59fd54ac",
+      "greenhouse:axq:6181069004",
+      "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Data-Engineer-Intern--Summer-2027-_R16300",
+      "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294",
+      "workday:mastercard:/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654",
+      "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R68363",
+      "workday:premierinc:/job/Charlotte-NC/Software-Engineer-Intern_R0008480",
+      "workday:snc:/job/Folsom-CA/Software-Engineering-Intern--Summer-2027-_R0030761-1",
+      "workday:snc:/job/Southern-Pines-NC/Software-Engineering-Intern--Summer-2027-_R0030759",
+      "workday:snc:/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760",
+      "workday:snc:/job/Dayton-OH/Software-Engineering-Intern--Summer-2027-_R0030754",
+      "workday:snc:/job/Lone-Tree-CO/Software-Engineering-Intern--Summer-2027-_R0030757",
+      "workday:snc:/job/Plano-TX/Software-Engineering-Intern--Summer-2027-_R0030758",
+      "greenhouse:waymo:8174504"
+    ]
   }
 }

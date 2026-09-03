@@ -348,6 +348,18 @@
     }
    }
   },
+  "axq capital": {
+   "name": "AXQ Capital",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "greenhouse:axq:6181069004"
+     ],
+     "count": 1
+    }
+   }
+  },
   "beacon software": {
    "name": "Beacon Software",
    "cycles": {
@@ -761,6 +773,19 @@
     }
    }
   },
+  "drivetime": {
+   "name": "DriveTime",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Data-Engineer-Intern--Summer-2027-_R16300",
+      "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294"
+     ],
+     "count": 2
+    }
+   }
+  },
   "dtcc": {
    "name": "DTCC",
    "cycles": {
@@ -848,6 +873,18 @@
     }
    }
   },
+  "exploration": {
+   "name": "The Exploration Company",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "ashby:the-exploration-company:86270058-8eec-4692-b49d-97ce59fd54ac"
+     ],
+     "count": 1
+    }
+   }
+  },
   "fannie mae": {
    "name": "Fannie Mae",
    "cycles": {
@@ -922,6 +959,19 @@
       "greenhouse:flowtraders:8047166"
      ],
      "count": 1
+    }
+   }
+  },
+  "foth": {
+   "name": "FOTH",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "lever:foth:072d5e17-c095-49bc-ac02-4cd558bb5d64",
+      "lever:foth:95f75d08-ec27-48ff-8c60-dcf2d5720885"
+     ],
+     "count": 2
     }
    }
   },
@@ -1116,10 +1166,11 @@
      "first_posted": "2026-09-01",
      "role_ids": [
       "lever:hermeus:445db430-6f81-41cf-847a-56a947afb936",
+      "lever:hermeus:555263f6-c5ec-4489-ab07-1aea546b70e7",
       "lever:hermeus:5b08e2df-c9db-4831-aece-67d89e744796",
       "lever:hermeus:d87ed913-affc-475e-b721-c5b5f11c3c7b"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -1414,9 +1465,10 @@
       "workday:mastercard:/job/OFallon-Missouri/Data-Scientist-Intern--Summer-2027---St-Louis--MO--US_R-284879",
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284873",
-      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875"
+      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875",
+      "workday:mastercard:/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -1532,9 +1584,10 @@
      "role_ids": [
       "workday:motorolasolutions:/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R67740",
       "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
+      "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R68363",
       "workday:motorolasolutions:/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -2090,6 +2143,23 @@
     }
    }
   },
+  "sierra nevada": {
+   "name": "Sierra Nevada Corporation",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "workday:snc:/job/Dayton-OH/Software-Engineering-Intern--Summer-2027-_R0030754",
+      "workday:snc:/job/Folsom-CA/Software-Engineering-Intern--Summer-2027-_R0030761-1",
+      "workday:snc:/job/Lone-Tree-CO/Software-Engineering-Intern--Summer-2027-_R0030757",
+      "workday:snc:/job/Plano-TX/Software-Engineering-Intern--Summer-2027-_R0030758",
+      "workday:snc:/job/Southern-Pines-NC/Software-Engineering-Intern--Summer-2027-_R0030759",
+      "workday:snc:/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760"
+     ],
+     "count": 6
+    }
+   }
+  },
   "skydio": {
    "name": "Skydio",
    "cycles": {
@@ -2573,9 +2643,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-03",
      "role_ids": [
-      "greenhouse:waymo:8174099"
+      "greenhouse:waymo:8174099",
+      "greenhouse:waymo:8174504"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2657,5 +2728,5 @@
    }
   }
  },
- "updated_at": "2026-09-03T18:05:22Z"
+ "updated_at": "2026-09-03T21:13:16Z"
 }
