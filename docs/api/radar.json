@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-03T09:23:04Z",
- "data_as_of": "2026-09-03T09:23:04Z",
- "rendered_at": "2026-09-03T09:23:05Z",
+ "generated_at": "2026-09-03T14:06:29Z",
+ "data_as_of": "2026-09-03T14:06:29Z",
+ "rendered_at": "2026-09-03T14:06:30Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -92,7 +92,7 @@
    "expected": "2026-05-29",
    "days_until": -97,
    "status": "open",
-   "url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000145263134",
+   "url": "https://jobs.smartrecruiters.com/InfiniteQuant/744000147161390",
    "note": "",
    "provenance": {
     "type": "engine-observed",

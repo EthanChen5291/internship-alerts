@@ -5,8 +5,64 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-03T09:23:04Z</updated>
+  <updated>2026-09-03T14:06:29Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:lever:dynamiccatholic:603f082e-07c8-4b1c-ac09-8963c51229ad</id>
+    <title>Dynamic Catholic: Internship - Front-End UX Intern 🛂</title>
+    <link href="https://jobs.lever.co/dynamiccatholic/603f082e-07c8-4b1c-ac09-8963c51229ad"/>
+    <updated>2026-09-03T14:06:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Other · Erlanger, Kentucky · JavaScript, HTML/CSS · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:dynamiccatholic:e94fa581-892c-4958-9515-0221f862ce57</id>
+    <title>Dynamic Catholic: Internship - Software Developer - Commerce Cloud</title>
+    <link href="https://jobs.lever.co/dynamiccatholic/e94fa581-892c-4958-9515-0221f862ce57"/>
+    <updated>2026-09-03T14:06:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Erlanger, Kentucky · JavaScript, HTML/CSS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Acumatica:744000146749696</id>
+    <title>Acumatica: AI &amp; Automation Intern, Office of the CFO</title>
+    <link href="https://jobs.smartrecruiters.com/Acumatica/744000146749696"/>
+    <updated>2026-09-03T14:06:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Bellevue, WA, United States (Remote) · $20/hr · Python, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Eurofins:744000147214369</id>
+    <title>Eurofins: AI &amp; Automation Intern</title>
+    <link href="https://jobs.smartrecruiters.com/Eurofins/744000147214369"/>
+    <updated>2026-09-03T14:06:29Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Barcelona, CT, International (ES) · Python, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Winsupply1:3743990015046116</id>
+    <title>Winsupply: Data Analyst Intern</title>
+    <link href="https://jobs.smartrecruiters.com/Winsupply1/3743990015046116"/>
+    <updated>2026-09-03T14:06:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Moraine, OH, United States · H-1B track record: ~13 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:InfiniteQuant:744000147161390</id>
+    <title>InfiniteQuant: Quantitative Researcher - Internship - Summer 2027</title>
+    <link href="https://jobs.smartrecruiters.com/InfiniteQuant/744000147161390"/>
+    <updated>2026-09-03T09:23:04Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Quant · New York, NY, United States · Python, C++, Pandas</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:InfiniteQuant:744000147163879</id>
+    <title>InfiniteQuant: Quantitative Developer - Internship - Summer 2027</title>
+    <link href="https://jobs.smartrecruiters.com/InfiniteQuant/744000147163879"/>
+    <updated>2026-09-03T09:23:04Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Quant · New York, New York, United States (Remote) · Python, C++</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:momentive:/job/US-NY-Niskayuna/Summer-2027-Intern---Software-Development_R9756</id>
     <title>Momentive: Summer 2027 Intern - Software Development</title>
@@ -750,61 +806,5 @@
     <updated>2026-09-01T13:42:42Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Pella, IA, United States; Urbandale, IA, United States · $29/hr · Python, SQL, LLMs, Git · H-1B track record: ~234 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:trumpf:/job/Farmington-CT/CNC-Programming-Intern_R00042595</id>
-    <title>TRUMPF: CNC Programming Intern</title>
-    <link href="https://trumpf.wd3.myworkdayjobs.com/TRUMPF_Students/job/Farmington-CT/CNC-Programming-Intern_R00042595"/>
-    <updated>2026-09-01T13:42:42Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · Farmington, CT · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011828</id>
-    <title>American Express: Campus Undergraduate Summer Internship Program - 2027 Data Engineer, Enterprise Technology Services- Charlotte, NC</title>
-    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011828"/>
-    <updated>2026-09-01T08:14:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Charlotte, NC, United States · Python, Java, SQL, AWS, GCP · H-1B track record: ~133 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26011831</id>
-    <title>American Express: Campus Undergraduate Summer Internship Program - 2027 Data Engineer, Enterprise Technology Services- Sunrise, FL</title>
-    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011831"/>
-    <updated>2026-09-01T08:14:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Sunrise, FL, United States · Python, Java, SQL, AWS, GCP · H-1B track record: ~133 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26012333</id>
-    <title>American Express: Campus Undergraduate Summer Internship Program - 2027 Data Engineer, Enterprise Technology Services- Phoenix, AZ</title>
-    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012333"/>
-    <updated>2026-09-01T08:14:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Phoenix, AZ, United States · Python, Java, SQL, AWS, GCP · H-1B track record: ~133 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26012339</id>
-    <title>American Express: Campus Graduate Masters Summer Internship Program - 2027 Data Engineer, Enterprise Technology Services- Phoenix, AZ</title>
-    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012339"/>
-    <updated>2026-09-01T08:14:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Phoenix, AZ, United States · Python, Java, SQL, PostgreSQL, MongoDB · H-1B track record: ~133 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26012764</id>
-    <title>American Express: Campus Graduate Masters Summer Internship Program - 2027 Data Engineer, Enterprise Technology Services- Charlotte, NC</title>
-    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012764"/>
-    <updated>2026-09-01T08:14:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Charlotte, NC, United States · Python, Java, SQL, PostgreSQL, MongoDB · H-1B track record: ~133 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26012781</id>
-    <title>American Express: Campus Graduate Masters Summer Internship Program - 2027 Data Engineer, Enterprise Technology Services- Sunrise, FL</title>
-    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012781"/>
-    <updated>2026-09-01T08:14:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Sunrise, FL, United States · Python, Java, SQL, PostgreSQL, MongoDB · H-1B track record: ~133 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

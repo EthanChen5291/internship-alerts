@@ -836,6 +836,18 @@
     }
    }
   },
+  "eurofins": {
+   "name": "Eurofins",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "smartrecruiters:Eurofins:744000147214369"
+     ],
+     "count": 1
+    }
+   }
+  },
   "fannie mae": {
    "name": "Fannie Mae",
    "cycles": {
@@ -2597,5 +2609,5 @@
    }
   }
  },
- "updated_at": "2026-09-03T09:23:04Z"
+ "updated_at": "2026-09-03T14:06:29Z"
 }
