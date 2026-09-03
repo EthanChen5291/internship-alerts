@@ -1240,9 +1240,11 @@
       "smartrecruiters:InfiniteQuant:744000144592181",
       "smartrecruiters:InfiniteQuant:744000145205764",
       "smartrecruiters:InfiniteQuant:744000145263134",
-      "smartrecruiters:InfiniteQuant:744000145264634"
+      "smartrecruiters:InfiniteQuant:744000145264634",
+      "smartrecruiters:InfiniteQuant:744000147161390",
+      "smartrecruiters:InfiniteQuant:744000147163879"
      ],
-     "count": 10
+     "count": 12
     }
    }
   },
@@ -1448,6 +1450,18 @@
      "first_posted": "2026-07-31",
      "role_ids": [
       "ashby:melius:b61f063a-4f94-4e50-a4ef-05aaab552280"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "momentive": {
+   "name": "Momentive",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "workday:momentive:/job/US-NY-Niskayuna/Summer-2027-Intern---Software-Development_R9756"
      ],
      "count": 1
     }
@@ -2583,5 +2597,5 @@
    }
   }
  },
- "updated_at": "2026-09-03T04:53:03Z"
+ "updated_at": "2026-09-03T09:23:04Z"
 }

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-03T04:53:03Z",
- "data_as_of": "2026-09-03T04:53:03Z",
- "rendered_at": "2026-09-03T04:53:04Z",
+ "generated_at": "2026-09-03T09:23:04Z",
+ "data_as_of": "2026-09-03T09:23:04Z",
+ "rendered_at": "2026-09-03T09:23:05Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -244,7 +244,7 @@
    "expected": "2026-07-08",
    "days_until": -57,
    "status": "open",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
    "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
@@ -2017,6 +2017,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-02"
+   }
+  },
+  {
+   "company": "Momentive",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-03",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Niskayuna/Summer-2027-Intern---Software-Development_R9756",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-03"
    }
   },
   {
@@ -4851,5 +4870,5 @@
    }
   }
  ],
- "count": 255
+ "count": 256
 }

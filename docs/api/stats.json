@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-03T04:53:03Z",
- "fetched_at": "2026-09-03T04:53:03Z",
- "duration_seconds": 1007.4,
+ "generated_at": "2026-09-03T09:23:04Z",
+ "fetched_at": "2026-09-03T09:23:04Z",
+ "duration_seconds": 894.0,
  "companies_total": 4603,
  "companies_by_source": {
   "greenhouse": 1040,
@@ -18,25 +18,25 @@
   "microsoft_program": 1,
   "eightfold": 1
  },
- "quarantined": 300,
- "fetched_ok": 4211,
- "fetch_errors": 92,
+ "quarantined": 287,
+ "fetched_ok": 4219,
+ "fetch_errors": 97,
  "errors_by_source": {
-  "workday": 87,
-  "workable": 5
+  "workday": 94,
+  "workable": 3
  },
- "fetch_success_rate": 0.979,
- "fetch_success_rate_registry": 0.915,
+ "fetch_success_rate": 0.978,
+ "fetch_success_rate_registry": 0.917,
  "snapshots_complete": 3661,
- "snapshots_partial": 550,
+ "snapshots_partial": 558,
  "partial_by_reason": {
-  "result-cap": 538,
-  "malformed-response": 12
+  "result-cap": 522,
+  "malformed-response": 36
  },
- "degraded_fetches": 12,
- "roles_matched": 425,
- "dropped_no_year_in_title": 383,
- "dropped_offcycle_by_text": 138,
+ "degraded_fetches": 36,
+ "roles_matched": 407,
+ "dropped_no_year_in_title": 389,
+ "dropped_offcycle_by_text": 139,
  "roles_cycle_inferred": 163,
  "roles_by_source": {
   "amazon": 3,
@@ -45,34 +45,34 @@
   "greenhouse": 90,
   "lever": 11,
   "oracle": 90,
-  "smartrecruiters": 23,
+  "smartrecruiters": 25,
   "workable": 4,
   "workday": 233
  },
  "roles_by_cycle": {
   "Fall 2026": 28,
-  "Summer 2027": 290,
+  "Summer 2027": 292,
   "Not stated": 163
  },
  "roles_by_region": {
-  "US": 481
+  "US": 483
  },
  "sponsorship_counts": {
-  "unknown": 347,
+  "unknown": 350,
   "offers": 6,
-  "citizens-only": 82,
+  "citizens-only": 81,
   "no-sponsorship": 46
  },
  "posted_date_coverage": 1.0,
- "enriched_this_run": 40,
- "enrichment_detail_fetches": 0,
+ "enriched_this_run": 45,
+ "enrichment_detail_fetches": 5,
  "purged_this_run": 0,
- "new_this_run": 0,
- "open_total": 481,
+ "new_this_run": 3,
+ "open_total": 483,
  "detection_latency": {
-  "median_minutes": 120.5,
-  "p95_minutes": 1081.2,
-  "sample_size": 40,
+  "median_minutes": 120.8,
+  "p95_minutes": 505.7,
+  "sample_size": 42,
   "window_days": 7,
   "basis": "roles published in the window with an exact source timestamp"
  },
@@ -80,5 +80,5 @@
   "median_days": 10.0,
   "sample_size": 118
  },
- "rendered_at": "2026-09-03T04:53:04Z"
+ "rendered_at": "2026-09-03T09:23:05Z"
 }
