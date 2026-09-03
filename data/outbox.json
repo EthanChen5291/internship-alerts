@@ -1,7 +1,25 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:reflect-orbital:d2ad1427-89aa-404d-8678-7b8e6dace5e2",
+      "smartrecruiters:LLNL:3743990015035697",
+      "workday:mckesson:/job/USA-TX-Irving/Software-Development-Intern---Summer-2027_JR0152635",
+      "workday:mckesson:/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152469",
+      "workday:mckesson:/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152742"
+    ],
+    "telegram": [
+      "ashby:reflect-orbital:d2ad1427-89aa-404d-8678-7b8e6dace5e2",
+      "smartrecruiters:LLNL:3743990015035697",
+      "workday:mckesson:/job/USA-TX-Irving/Software-Development-Intern---Summer-2027_JR0152635",
+      "workday:mckesson:/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152469",
+      "workday:mckesson:/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152742"
+    ],
+    "personal_email": [
+      "ashby:reflect-orbital:d2ad1427-89aa-404d-8678-7b8e6dace5e2",
+      "smartrecruiters:LLNL:3743990015035697",
+      "workday:mckesson:/job/USA-TX-Irving/Software-Development-Intern---Summer-2027_JR0152635",
+      "workday:mckesson:/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152469",
+      "workday:mckesson:/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152742"
+    ]
   }
 }

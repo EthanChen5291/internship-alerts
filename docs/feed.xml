@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-02T21:59:09Z</updated>
+  <updated>2026-09-03T00:20:07Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:reflect-orbital:d2ad1427-89aa-404d-8678-7b8e6dace5e2</id>
+    <title>Reflect Orbital: Flight Software Engineering Intern</title>
+    <link href="https://jobs.ashbyhq.com/reflect-orbital/d2ad1427-89aa-404d-8678-7b8e6dace5e2"/>
+    <updated>2026-09-03T00:20:06Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Hawthorne, CA · $27 – $31 per hour</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LLNL:3743990015035697</id>
+    <title>Lawrence Livermore National Laboratory (LLNL): Protocol and Special Events Undergraduate AI and Digital Solutions Intern 🇺🇸</title>
+    <link href="https://jobs.smartrecruiters.com/LLNL/3743990015035697"/>
+    <updated>2026-09-03T00:20:06Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Livermore, CA, United States (Remote) · LLMs · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:mckesson:/job/USA-TX-Irving/Software-Development-Intern---Summer-2027_JR0152635</id>
+    <title>McKesson: Software Development Intern - Summer 2027</title>
+    <link href="https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-TX-Irving/Software-Development-Intern---Summer-2027_JR0152635"/>
+    <updated>2026-09-03T00:20:06Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · USA, TX, Irving · Python, Java, C# · H-1B track record: ~147 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:mckesson:/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152469</id>
+    <title>McKesson: Software Engineer Intern - Summer 2027</title>
+    <link href="https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152469"/>
+    <updated>2026-09-03T00:20:06Z</updated>
+    <category term="Summer 2027"/>
+    <summary>2 openings · Summer 2027 · Software · USA, CO, Longmont · Python, Java, C++, C#, Git · H-1B track record: ~147 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:hadrian-automation:2b0423c6-947d-4226-8d23-90743bd5e63e</id>
     <title>Hadrian: Software Engineer Intern 🇺🇸</title>
@@ -227,9 +259,9 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910</id>
     <title>Northrop Grumman: 2027 Software Engineer Intern - Linthicum Maryland 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910"/>
-    <updated>2026-09-02T21:44:43Z</updated>
+    <updated>2026-09-02T15:31:00Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Maryland-Linthicum · sponsorship: citizens-only · status: closed</summary>
+    <summary>Summer 2027 · Software · United States-Maryland-Linthicum · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:stryker:/job/Flower-Mound-Texas/Commercial-Operations-Software-Engineering-Intern---Flower-Mound--TX_R572941</id>
@@ -595,9 +627,9 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677</id>
     <title>Northrop Grumman: 2027 Cybersecurity Analyst Intern -  Boulder CO 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677"/>
-    <updated>2026-09-02T21:44:43Z</updated>
+    <updated>2026-09-01T16:14:31Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Colorado-Boulder · $22.25–$27.25/hr · sponsorship: citizens-only · status: closed</summary>
+    <summary>Summer 2027 · Security · United States-Colorado-Boulder · $22.25–$27.25/hr · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:ebgj.fa.us2.oraclecloud.com:253297</id>
@@ -774,37 +806,5 @@
     <updated>2026-09-01T00:52:19Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Marshalltown, IA, United States · Python, MATLAB, PyTorch, TensorFlow, scikit-learn</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009200</id>
-    <title>Emerson Electric: Data Analyst Co-Op</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009200"/>
-    <updated>2026-09-01T00:52:19Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Marshalltown, IA, United States · Python, Java, C++, C#, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009321</id>
-    <title>Emerson Electric: Cybersecurity Engineering Co-op (Jan27-May27)</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009321"/>
-    <updated>2026-09-01T00:52:19Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Shakopee, MN, United States · Python, C++</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009324</id>
-    <title>Emerson Electric: Cybersecurity Engineering Intern</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009324"/>
-    <updated>2026-09-01T00:52:19Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Shakopee, MN, United States · Python, C++</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26009454</id>
-    <title>Emerson Electric: Software Engineering Spring Co-op (Jan27- May27)</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009454"/>
-    <updated>2026-09-01T00:52:19Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Shakopee, MN, United States</summary>
   </entry>
 </feed>
