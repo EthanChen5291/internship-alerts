@@ -1,19 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "smartrecruiters:InfiniteQuant:744000147161390",
-      "smartrecruiters:InfiniteQuant:744000147163879",
-      "workday:momentive:/job/US-NY-Niskayuna/Summer-2027-Intern---Software-Development_R9756"
-    ],
-    "telegram": [
-      "smartrecruiters:InfiniteQuant:744000147161390",
-      "smartrecruiters:InfiniteQuant:744000147163879",
-      "workday:momentive:/job/US-NY-Niskayuna/Summer-2027-Intern---Software-Development_R9756"
-    ],
-    "personal_email": [
-      "smartrecruiters:InfiniteQuant:744000147161390",
-      "smartrecruiters:InfiniteQuant:744000147163879",
-      "workday:momentive:/job/US-NY-Niskayuna/Summer-2027-Intern---Software-Development_R9756"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
