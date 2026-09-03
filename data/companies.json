@@ -15688,6 +15688,12 @@
     "site": "External"
   },
   {
+    "name": "Microsoft",
+    "slug": "microsoft-explore",
+    "ats": "microsoft_program",
+    "url": "https://careers.microsoft.com/v2/global/en/exploremicrosoft"
+  },
+  {
     "name": "Middesk",
     "slug": "middesk",
     "ats": "ashby"
