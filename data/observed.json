@@ -1538,6 +1538,18 @@
     }
    }
   },
+  "neighbor": {
+   "name": "Neighbor",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "lever:neighbor:7d66629f-3f4b-41ee-a324-fe0154e13c46"
+     ],
+     "count": 1
+    }
+   }
+  },
   "netsmart": {
    "name": "Netsmart",
    "cycles": {
@@ -1978,6 +1990,18 @@
     }
    }
   },
+  "saab": {
+   "name": "Saab",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "workday:saabusa:/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Summer-2027-_R-03237-1"
+     ],
+     "count": 1
+    }
+   }
+  },
   "sage": {
    "name": "Sage",
    "cycles": {
@@ -2076,6 +2100,18 @@
       "ashby:skydio:7d9dbb60-4ca1-4ba8-8bae-5ebfded4a915",
       "ashby:skydio:f6320e9b-4eed-408d-8d37-d509fb0406ee"
      ]
+    }
+   }
+  },
+  "skyward": {
+   "name": "Skyward",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "smartrecruiters:Skyward1:744000147320799"
+     ],
+     "count": 1
     }
    }
   },
@@ -2531,6 +2567,18 @@
     }
    }
   },
+  "waymo": {
+   "name": "Waymo",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "greenhouse:waymo:8174099"
+     ],
+     "count": 1
+    }
+   }
+  },
   "western digital": {
    "name": "Western Digital",
    "cycles": {
@@ -2609,5 +2657,5 @@
    }
   }
  },
- "updated_at": "2026-09-03T14:06:29Z"
+ "updated_at": "2026-09-03T18:05:22Z"
 }

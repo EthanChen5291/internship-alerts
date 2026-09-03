@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-03T14:06:29Z</updated>
+  <updated>2026-09-03T18:05:22Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:lever:neighbor:7d66629f-3f4b-41ee-a324-fe0154e13c46</id>
+    <title>Neighbor: Software Engineer Intern 2027</title>
+    <link href="https://jobs.lever.co/neighbor/7d66629f-3f4b-41ee-a324-fe0154e13c46"/>
+    <updated>2026-09-03T18:05:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Lehi, UT · Python, Java, C++, Go, TypeScript</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:saabusa:/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Summer-2027-_R-03237-1</id>
+    <title>Saab: Software Engineering Co-Op (Summer 2027) 🇺🇸</title>
+    <link href="https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Summer-2027-_R-03237-1"/>
+    <updated>2026-09-03T18:05:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · East Syracuse, NY (Collamer) · $20.27–$22.3/hr · Python, Java, C++, JavaScript, SQL · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Skyward1:744000147320799</id>
+    <title>Skyward: Software Engineer - Intern</title>
+    <link href="https://jobs.smartrecruiters.com/Skyward1/744000147320799"/>
+    <updated>2026-09-03T18:05:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Stevens Point, WI, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:waymo:8174099</id>
+    <title>Waymo: 2027 Summer Intern, BS, SysEng Software Engineer</title>
+    <link href="https://careers.withwaymo.com/jobs?gh_jid=8174099"/>
+    <updated>2026-09-03T18:05:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Mountain View, California, USA · Python, C++ · H-1B track record: ~284 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:lever:dynamiccatholic:603f082e-07c8-4b1c-ac09-8963c51229ad</id>
     <title>Dynamic Catholic: Internship - Front-End UX Intern 🛂</title>
@@ -774,37 +806,5 @@
     <updated>2026-09-01T16:14:31Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · TX, Coppell · C#, SQL, Git, Tableau · H-1B track record: ~24 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677</id>
-    <title>Northrop Grumman: 2027 Cybersecurity Analyst Intern -  Boulder CO 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677"/>
-    <updated>2026-09-03T09:08:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Colorado-Boulder · $22.25–$27.25/hr · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ebgj.fa.us2.oraclecloud.com:253297</id>
-    <title>Texas Instruments: IT Infrastructure Intern - Summer 2027</title>
-    <link href="https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253297"/>
-    <updated>2026-09-01T13:42:42Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Pella, IA, United States · $27.25/hr · LLMs · H-1B track record: ~234 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ebgj.fa.us2.oraclecloud.com:253299</id>
-    <title>Texas Instruments: Software Intern - Summer 2027</title>
-    <link href="https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253299"/>
-    <updated>2026-09-01T13:42:42Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Pella, IA, United States; Urbandale, IA, United States · $27.25/hr · Python, Java, C++, JavaScript, LLMs · H-1B track record: ~234 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ebgj.fa.us2.oraclecloud.com:253304</id>
-    <title>Texas Instruments: Data Engineer Intern - Summer 2027</title>
-    <link href="https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253304"/>
-    <updated>2026-09-01T13:42:42Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Pella, IA, United States; Urbandale, IA, United States · $29/hr · Python, SQL, LLMs, Git · H-1B track record: ~234 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

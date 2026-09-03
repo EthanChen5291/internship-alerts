@@ -1,7 +1,22 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "lever:neighbor:7d66629f-3f4b-41ee-a324-fe0154e13c46",
+      "workday:saabusa:/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Summer-2027-_R-03237-1",
+      "smartrecruiters:Skyward1:744000147320799",
+      "greenhouse:waymo:8174099"
+    ],
+    "telegram": [
+      "lever:neighbor:7d66629f-3f4b-41ee-a324-fe0154e13c46",
+      "workday:saabusa:/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Summer-2027-_R-03237-1",
+      "smartrecruiters:Skyward1:744000147320799",
+      "greenhouse:waymo:8174099"
+    ],
+    "personal_email": [
+      "lever:neighbor:7d66629f-3f4b-41ee-a324-fe0154e13c46",
+      "workday:saabusa:/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Summer-2027-_R-03237-1",
+      "smartrecruiters:Skyward1:744000147320799",
+      "greenhouse:waymo:8174099"
+    ]
   }
 }
