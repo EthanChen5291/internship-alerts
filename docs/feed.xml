@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-03T04:28:36Z</updated>
+  <updated>2026-09-03T04:53:03Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
     <id>urn:intern-engine:lever:hermeus:5b08e2df-c9db-4831-aece-67d89e744796</id>
@@ -16,36 +16,12 @@
     <summary>Summer 2027 · Software · Atlanta, GA · 25–33 USD/hr · C++, TypeScript, JavaScript, React, Angular · sponsorship: citizens-only</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:bah:/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0248394</id>
-    <title>Booz Allen: University - 2027 Summer Games Software Developer Intern - Huntsville, AL 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0248394"/>
+    <id>urn:intern-engine:workday:bah:/job/Annapolis-Junction-MD/University---2027-Summer-Games-Cyber-Security-Intern---Annapolis-Junction--MD_R0248414</id>
+    <title>Booz Allen: University - 2027 Summer Games Cyber Security Intern - Annapolis Junction, MD 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Cyber-Security-Intern---Annapolis-Junction--MD_R0248414"/>
     <updated>2026-09-03T04:28:36Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Huntsville, AL · $108k/yr · Python, Java, C++, JavaScript, Bash · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/Honolulu-HI/University---2027-Summer-Games-Software-Developer-Intern---Honolulu--HI_R0248393</id>
-    <title>Booz Allen: University - 2027 Summer Games Software Developer Intern - Honolulu, HI 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/University---2027-Summer-Games-Software-Developer-Intern---Honolulu--HI_R0248393"/>
-    <updated>2026-09-03T04:28:36Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Honolulu, HI · $108k/yr · Python, Java, C++, JavaScript, Bash · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/Honolulu-HI/University---2027-Summer-Games-Cyber-Security-Intern---Honolulu--HI_R0248411</id>
-    <title>Booz Allen: University - 2027 Summer Games Cyber Security Intern - Honolulu, HI 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/University---2027-Summer-Games-Cyber-Security-Intern---Honolulu--HI_R0248411"/>
-    <updated>2026-09-03T04:28:36Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Honolulu, HI · $108k/yr · Linux · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/Huntsville-AL/University---2027-Summer-Games-Cyber-Security-Intern---Huntsville--AL_R0248412</id>
-    <title>Booz Allen: University - 2027 Summer Games Cyber Security Intern - Huntsville, AL 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Cyber-Security-Intern---Huntsville--AL_R0248412"/>
-    <updated>2026-09-03T04:28:36Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Huntsville, AL · $108k/yr · Linux · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · Annapolis Junction, MD · $108k/yr · Linux · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:bah:/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0248403</id>
@@ -56,12 +32,12 @@
     <summary>Summer 2027 · Software · Annapolis Junction, MD · $108k/yr · Python, Java, C++, JavaScript, Bash · sponsorship: citizens-only</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:bah:/job/Annapolis-Junction-MD/University---2027-Summer-Games-Cyber-Security-Intern---Annapolis-Junction--MD_R0248414</id>
-    <title>Booz Allen: University - 2027 Summer Games Cyber Security Intern - Annapolis Junction, MD 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Cyber-Security-Intern---Annapolis-Junction--MD_R0248414"/>
+    <id>urn:intern-engine:workday:bah:/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Cyber-Security-Intern---Ft-Walton-Beach--FL_R0248416</id>
+    <title>Booz Allen: University - 2027 Summer Games Cyber Security Intern - Ft. Walton Beach, FL 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Cyber-Security-Intern---Ft-Walton-Beach--FL_R0248416"/>
     <updated>2026-09-03T04:28:36Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Annapolis Junction, MD · $108k/yr · Linux · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · Fort Walton Beach, FL · $108k/yr · Linux · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:bah:/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Software-Developer-Intern---Ft-Walton-Beach--FL_R0248404</id>
@@ -72,12 +48,36 @@
     <summary>Summer 2027 · Software · Fort Walton Beach, FL · $108k/yr · Python, Java, C++, JavaScript, Bash · sponsorship: citizens-only</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:bah:/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Cyber-Security-Intern---Ft-Walton-Beach--FL_R0248416</id>
-    <title>Booz Allen: University - 2027 Summer Games Cyber Security Intern - Ft. Walton Beach, FL 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Cyber-Security-Intern---Ft-Walton-Beach--FL_R0248416"/>
+    <id>urn:intern-engine:workday:bah:/job/Honolulu-HI/University---2027-Summer-Games-Cyber-Security-Intern---Honolulu--HI_R0248411</id>
+    <title>Booz Allen: University - 2027 Summer Games Cyber Security Intern - Honolulu, HI 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/University---2027-Summer-Games-Cyber-Security-Intern---Honolulu--HI_R0248411"/>
     <updated>2026-09-03T04:28:36Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Fort Walton Beach, FL · $108k/yr · Linux · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · Honolulu, HI · $108k/yr · Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/Honolulu-HI/University---2027-Summer-Games-Software-Developer-Intern---Honolulu--HI_R0248393</id>
+    <title>Booz Allen: University - 2027 Summer Games Software Developer Intern - Honolulu, HI 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/University---2027-Summer-Games-Software-Developer-Intern---Honolulu--HI_R0248393"/>
+    <updated>2026-09-03T04:28:36Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Honolulu, HI · $108k/yr · Python, Java, C++, JavaScript, Bash · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/Huntsville-AL/University---2027-Summer-Games-Cyber-Security-Intern---Huntsville--AL_R0248412</id>
+    <title>Booz Allen: University - 2027 Summer Games Cyber Security Intern - Huntsville, AL 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Cyber-Security-Intern---Huntsville--AL_R0248412"/>
+    <updated>2026-09-03T04:28:36Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Huntsville, AL · $108k/yr · Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0248394</id>
+    <title>Booz Allen: University - 2027 Summer Games Software Developer Intern - Huntsville, AL 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0248394"/>
+    <updated>2026-09-03T04:28:36Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Huntsville, AL · $108k/yr · Python, Java, C++, JavaScript, Bash · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:mckesson:/job/USA-CO-Longmont/Software-Installation---IT-Support-Intern---Summer-2027_JR0152304</id>
