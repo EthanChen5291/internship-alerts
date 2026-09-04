@@ -5,47 +5,55 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-04T16:31:29Z</updated>
+  <updated>2026-09-04T19:22:44Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:greenhouse:skillzinc:8168006</id>
-    <title>skillz: Co-op, Software Engineer</title>
-    <link href="https://job-boards.greenhouse.io/skillzinc/jobs/8168006"/>
-    <updated>2026-09-04T16:31:29Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · Las Vegas, Nevada, United States · $32/hr · Java, AWS, Git · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workable:enfos-inc:CA15908E0A</id>
-    <title>ENFOS: Software Engineer Intern (Summer 2027)</title>
-    <link href="https://apply.workable.com/enfos-inc/j/CA15908E0A/"/>
-    <updated>2026-09-04T16:31:29Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Durham, North Carolina, United States; Chicago, Illinois, United States · Python, Java, TypeScript, JavaScript, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1007589</id>
-    <title>Stantec: Digital Practice Co-op/Intern - Infrastructure (Spring/Summer 2027)</title>
-    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007589"/>
-    <updated>2026-09-04T16:31:29Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Washington, DC, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:edbz.fa.us2.oraclecloud.com:25017705</id>
-    <title>Texas Instruments: Systems Engineering Intern - Machine Learning Expert</title>
-    <link href="https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25017705"/>
-    <updated>2026-09-04T16:31:29Z</updated>
+    <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39978</id>
+    <title>Nokia: AI-Agent Development Co-op</title>
+    <link href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39978"/>
+    <updated>2026-09-04T19:22:44Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Dallas, TX, United States · Python, C++, PyTorch, LLMs · H-1B track record: ~234 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Data &amp; ML/AI · United States · Python, LLMs, Git</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553</id>
-    <title>Direct Supply: AI Engineer Intern</title>
-    <link href="https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553"/>
-    <updated>2026-09-04T16:31:29Z</updated>
+    <id>urn:intern-engine:workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648</id>
+    <title>CACI: Software Engineer Intern - Summer 2027 🇺🇸</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"/>
+    <updated>2026-09-04T19:22:44Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Ypsilanti, MI, US · Python, Java, C++, Rust, CUDA · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cibc:/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1</id>
+    <title>CIBC: 2027 Summer Intern - Software Engineering 🛂</title>
+    <link href="https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1"/>
+    <updated>2026-09-04T19:22:44Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Chicago, IL · $36–$40/hr · Python, SQL · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Loram1:3743990015082845</id>
+    <title>Loram: Machine Learning / Artificial Intelligence (AI) Intern</title>
+    <link href="https://jobs.smartrecruiters.com/Loram1/3743990015082845"/>
+    <updated>2026-09-04T19:22:44Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Milwaukee, WI · Python, React, Node.js, AWS · H-1B track record: ~11 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Data &amp; ML/AI · Hamel, MN, United States · Python, C#, SQL, PyTorch, Pandas</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:schonfeld:8171696</id>
+    <title>Schonfeld: 2027 Cybersecurity Operations Intern</title>
+    <link href="https://job-boards.greenhouse.io/schonfeld/jobs/8171696"/>
+    <updated>2026-09-04T19:22:44Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · New York, New York, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:schonfeld:8180089</id>
+    <title>Schonfeld: 2027 Software Engineering Intern</title>
+    <link href="https://job-boards.greenhouse.io/schonfeld/jobs/8180089"/>
+    <updated>2026-09-04T19:22:44Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York, New York, United States · Python, Java, C++, Git</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:idmeuniversityrecruiting:7980429003</id>
@@ -56,20 +64,60 @@
     <summary>Summer 2027 · Software · Mountain View, CA · Python, Java, JavaScript, Ruby, LLMs</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:jci:/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1</id>
-    <title>Johnson Controls: Software/Controls Engineering Grad Intern</title>
-    <link href="https://jci.wd5.myworkdayjobs.com/JCI/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1"/>
-    <updated>2026-09-04T16:31:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Salem-Virginia-United States of America · C++ · H-1B track record: ~104 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:greenhouse:scaleai:4730845005</id>
     <title>Scale AI: Software Engineering Intern (Summer 2027)</title>
     <link href="https://job-boards.greenhouse.io/scaleai/jobs/4730845005"/>
     <updated>2026-09-04T16:31:29Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · San Francisco, CA · Python, TypeScript, LLMs, React, MongoDB · H-1B track record: ~26 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:skillzinc:8168006</id>
+    <title>skillz: Co-op, Software Engineer</title>
+    <link href="https://job-boards.greenhouse.io/skillzinc/jobs/8168006"/>
+    <updated>2026-09-04T16:31:29Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Software · Las Vegas, Nevada, United States · $32/hr · Java, AWS, Git · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:edbz.fa.us2.oraclecloud.com:25017705</id>
+    <title>Texas Instruments: Systems Engineering Intern - Machine Learning Expert</title>
+    <link href="https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25017705"/>
+    <updated>2026-09-04T16:31:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Dallas, TX, United States · Python, C++, PyTorch, LLMs · H-1B track record: ~234 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1007589</id>
+    <title>Stantec: Digital Practice Co-op/Intern - Infrastructure (Spring/Summer 2027)</title>
+    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007589"/>
+    <updated>2026-09-04T16:31:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Washington, DC, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workable:enfos-inc:CA15908E0A</id>
+    <title>ENFOS: Software Engineer Intern (Summer 2027)</title>
+    <link href="https://apply.workable.com/enfos-inc/j/CA15908E0A/"/>
+    <updated>2026-09-04T16:31:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Durham, North Carolina, United States; Chicago, Illinois, United States · Python, Java, TypeScript, JavaScript, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553</id>
+    <title>Direct Supply: AI Engineer Intern</title>
+    <link href="https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553"/>
+    <updated>2026-09-04T16:31:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Milwaukee, WI · Python, React, Node.js, AWS · H-1B track record: ~11 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:jci:/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1</id>
+    <title>Johnson Controls: Software/Controls Engineering Grad Intern</title>
+    <link href="https://jci.wd5.myworkdayjobs.com/JCI/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1"/>
+    <updated>2026-09-04T16:31:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Salem-Virginia-United States of America · C++ · H-1B track record: ~104 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:stryker:/job/Cary-Illinois/Customer-One-Intern--Data-Analyst----Cary--IL_R572734</id>
@@ -651,9 +699,9 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910</id>
     <title>Northrop Grumman: 2027 Software Engineer Intern - Linthicum Maryland 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910"/>
-    <updated>2026-09-02T15:31:00Z</updated>
+    <updated>2026-09-04T19:05:16Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Maryland-Linthicum · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-Maryland-Linthicum · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:stryker:/job/Flower-Mound-Texas/Commercial-Operations-Software-Engineering-Intern---Flower-Mound--TX_R572941</id>
@@ -758,53 +806,5 @@
     <updated>2026-09-02T01:15:24Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Security · Mayfield Heights, Ohio, United States · sponsorship: no-sponsorship · H-1B track record: ~90 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:valon:b5a62c0c-823c-42dd-8cb5-e4b1455bcc64</id>
-    <title>Valon: Software Engineer Intern</title>
-    <link href="https://jobs.ashbyhq.com/valon/b5a62c0c-823c-42dd-8cb5-e4b1455bcc64"/>
-    <updated>2026-09-01T23:04:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York · $60/hr · Python, React, GCP, Kubernetes, Docker</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:eulerity:4709040006</id>
-    <title>Eulerity: Backend Developer Intern</title>
-    <link href="https://job-boards.greenhouse.io/eulerity/jobs/4709040006"/>
-    <updated>2026-09-01T23:04:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York, New York · $17–$19/hr · Java, LLMs, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133</id>
-    <title>Genuine Parts Company: Cloud Developer Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Cloud-Developer-Intern_R26_0000029133"/>
-    <updated>2026-09-01T23:04:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Birmingham, AL, USA · Java, GCP, Linux, Git · H-1B track record: ~63 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134</id>
-    <title>Genuine Parts Company: Cloud SRE Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Cloud-SRE-Intern_R26_0000029134"/>
-    <updated>2026-09-01T23:04:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Birmingham, AL, USA · GCP · H-1B track record: ~63 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/Customer-Software-Development-Intern_R26_0000029135</id>
-    <title>Genuine Parts Company: Customer Software Development Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Customer-Software-Development-Intern_R26_0000029135"/>
-    <updated>2026-09-01T23:04:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Birmingham, AL, USA · Java, SQL · H-1B track record: ~63 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:genpt:/job/Birmingham-AL-USA/GRC-Cybersecurity-Analyst-Intern_R26_0000029137</id>
-    <title>Genuine Parts Company: GRC/Cybersecurity Analyst Intern</title>
-    <link href="https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/GRC-Cybersecurity-Analyst-Intern_R26_0000029137"/>
-    <updated>2026-09-01T23:04:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Birmingham, AL, USA · Linux · H-1B track record: ~63 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

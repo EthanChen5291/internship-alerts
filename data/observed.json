@@ -525,9 +525,10 @@
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
       "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
       "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
-      "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466"
+      "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466",
+      "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -611,6 +612,18 @@
       "greenhouse:ctccampusboard:4708188005",
       "greenhouse:ctccampusboard:4708230005"
      ]
+    }
+   }
+  },
+  "cibc": {
+   "name": "CIBC",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-04",
+     "role_ids": [
+      "workday:cibc:/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1"
+     ],
+     "count": 1
     }
    }
   },
@@ -2142,6 +2155,19 @@
     }
    }
   },
+  "schonfeld": {
+   "name": "Schonfeld",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-04",
+     "role_ids": [
+      "greenhouse:schonfeld:8171696",
+      "greenhouse:schonfeld:8180089"
+     ],
+     "count": 2
+    }
+   }
+  },
   "sentara health": {
    "name": "Sentara Health",
    "cycles": {
@@ -2784,5 +2810,5 @@
    }
   }
  },
- "updated_at": "2026-09-04T16:31:29Z"
+ "updated_at": "2026-09-04T19:22:44Z"
 }
