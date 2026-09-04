@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-04T06:46:21Z",
- "data_as_of": "2026-09-04T06:46:21Z",
- "rendered_at": "2026-09-04T06:46:21Z",
+ "generated_at": "2026-09-04T11:55:51Z",
+ "data_as_of": "2026-09-04T11:55:51Z",
+ "rendered_at": "2026-09-04T11:55:52Z",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "h1b_window": "FY2022–2023",
- "count": 499,
+ "count": 498,
  "jobs": [
   {
    "id": "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9",
@@ -12198,34 +12198,6 @@
    "underclass_audience": null,
    "source": "workday",
    "h1b_approvals": 28,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:draper:/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718",
-   "company": "Draper",
-   "title": "Embedded Quality & Fielded Systems Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Cambridge, MA",
-   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718",
-   "posted_at": "2026-08-05T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-08-05T21:52:50Z",
-   "sponsorship": "unknown",
-   "salary": null,
-   "skills": [
-    "Python",
-    "C#"
-   ],
-   "class_year": null,
-   "underclass_program_key": null,
-   "underclass_program": null,
-   "underclass_audience": null,
-   "source": "workday",
-   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
