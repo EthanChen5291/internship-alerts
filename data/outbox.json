@@ -1,7 +1,13 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"
+    ],
+    "telegram": [
+      "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"
+    ],
+    "personal_email": [
+      "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"
+    ]
   }
 }

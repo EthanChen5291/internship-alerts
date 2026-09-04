@@ -2170,6 +2170,13 @@
       "ashby:skydio:7d9dbb60-4ca1-4ba8-8bae-5ebfded4a915",
       "ashby:skydio:f6320e9b-4eed-408d-8d37-d509fb0406ee"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"
+     ],
+     "count": 1
     }
    }
   },
@@ -2728,5 +2735,5 @@
    }
   }
  },
- "updated_at": "2026-09-03T23:29:45Z"
+ "updated_at": "2026-09-04T01:32:40Z"
 }

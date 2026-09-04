@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-03T23:29:45Z</updated>
+  <updated>2026-09-04T01:32:40Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9</id>
+    <title>Skydio: Autonomy Engineer Intern - Computer Vision/Deep Learning Summer 2027</title>
+    <link href="https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"/>
+    <updated>2026-09-04T01:32:39Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · San Mateo, California, United States · $47/hr · Computer Vision, Python, C++, PyTorch · H-1B track record: ~26 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:the-exploration-company:86270058-8eec-4692-b49d-97ce59fd54ac</id>
     <title>The Exploration Company: Summer 2027 Internship (Software) 🇺🇸</title>
@@ -798,13 +806,5 @@
     <updated>2026-09-01T20:24:24Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Atlanta, GA · 25–33 USD/hr · Python, C++, MATLAB · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:draftkings:/job/Boston-MA/Software-Engineer-Intern-Referral--Summer-2027-_JR14932</id>
-    <title>DraftKings: Software Engineer Intern-Referral (Summer 2027)</title>
-    <link href="https://draftkings.wd1.myworkdayjobs.com/Employee_Referral_Portal/job/Boston-MA/Software-Engineer-Intern-Referral--Summer-2027-_JR14932"/>
-    <updated>2026-09-01T20:24:24Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Boston, MA · H-1B track record: ~52 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
