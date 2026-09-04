@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-04T19:22:44Z",
- "data_as_of": "2026-09-04T19:22:44Z",
- "rendered_at": "2026-09-04T19:22:45Z",
+ "generated_at": "2026-09-04T21:40:37Z",
+ "data_as_of": "2026-09-04T21:40:37Z",
+ "rendered_at": "2026-09-04T21:40:37Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2221,6 +2221,25 @@
    "days_until": 0,
    "status": "open",
    "url": "https://apply.workable.com/enfos-inc/j/CA15908E0A/",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-04"
+   }
+  },
+  {
+   "company": "Hy-Vee",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-04",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://hyvee.wd1.myworkdayjobs.com/HyVeeCareers/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Cyber-Security-Intern--Summer-2027_R250153",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5136,5 +5155,5 @@
    }
   }
  ],
- "count": 270
+ "count": 271
 }

@@ -5,39 +5,31 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-04T19:22:44Z</updated>
+  <updated>2026-09-04T21:40:37Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39978</id>
-    <title>Nokia: AI-Agent Development Co-op</title>
-    <link href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39978"/>
-    <updated>2026-09-04T19:22:44Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · United States · Python, LLMs, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648</id>
-    <title>CACI: Software Engineer Intern - Summer 2027 🇺🇸</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"/>
-    <updated>2026-09-04T19:22:44Z</updated>
+    <id>urn:intern-engine:workday:hyvee:/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Cyber-Security-Intern--Summer-2027_R250153</id>
+    <title>Hy-Vee: Cyber Security Intern- Summer 2027</title>
+    <link href="https://hyvee.wd1.myworkdayjobs.com/HyVeeCareers/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Cyber-Security-Intern--Summer-2027_R250153"/>
+    <updated>2026-09-04T21:40:37Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Ypsilanti, MI, US · Python, Java, C++, Rust, CUDA · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · Corporate Office, Westown Pkwy., West Des Moines, IA</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:cibc:/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1</id>
-    <title>CIBC: 2027 Summer Intern - Software Engineering 🛂</title>
-    <link href="https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1"/>
-    <updated>2026-09-04T19:22:44Z</updated>
+    <id>urn:intern-engine:workday:hyvee:/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Digital-Software-Engineering-Intern---Summer-2027_R250133</id>
+    <title>Hy-Vee: Digital Software Engineering Intern - Summer 2027</title>
+    <link href="https://hyvee.wd1.myworkdayjobs.com/HyVeeCareers/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Digital-Software-Engineering-Intern---Summer-2027_R250133"/>
+    <updated>2026-09-04T21:40:37Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Chicago, IL · $36–$40/hr · Python, SQL · sponsorship: no-sponsorship</summary>
+    <summary>Summer 2027 · Software · Corporate Office, Westown Pkwy., West Des Moines, IA · SQL</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:Loram1:3743990015082845</id>
-    <title>Loram: Machine Learning / Artificial Intelligence (AI) Intern</title>
-    <link href="https://jobs.smartrecruiters.com/Loram1/3743990015082845"/>
-    <updated>2026-09-04T19:22:44Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Hamel, MN, United States · Python, C#, SQL, PyTorch, Pandas</summary>
+    <id>urn:intern-engine:workday:saabusa:/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Spring---Summer-2027-_R-03240-1</id>
+    <title>Saab: Software Engineering Co-Op (Spring - Summer 2027) 🇺🇸</title>
+    <link href="https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Spring---Summer-2027-_R-03240-1"/>
+    <updated>2026-09-04T21:40:37Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · East Syracuse, NY (Collamer) · $20.27–$22.3/hr · Java, JavaScript, SQL, HTML/CSS, Linux · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:schonfeld:8171696</id>
@@ -56,8 +48,40 @@
     <summary>Summer 2027 · Software · New York, New York, United States · Python, Java, C++, Git</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39978</id>
+    <title>Nokia: AI-Agent Development Co-op</title>
+    <link href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39978"/>
+    <updated>2026-09-04T19:22:44Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · United States · Python, LLMs, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Loram1:3743990015082845</id>
+    <title>Loram: Machine Learning / Artificial Intelligence (AI) Intern</title>
+    <link href="https://jobs.smartrecruiters.com/Loram1/3743990015082845"/>
+    <updated>2026-09-04T19:22:44Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Hamel, MN, United States · Python, C#, SQL, PyTorch, Pandas</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648</id>
+    <title>CACI: Software Engineer Intern - Summer 2027 🇺🇸</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"/>
+    <updated>2026-09-04T19:22:44Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Ypsilanti, MI, US · Python, Java, C++, Rust, CUDA · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cibc:/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1</id>
+    <title>CIBC: 2027 Summer Intern - Software Engineering 🛂</title>
+    <link href="https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1"/>
+    <updated>2026-09-04T19:22:44Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Chicago, IL · $36–$40/hr · Python, SQL · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:greenhouse:idmeuniversityrecruiting:7980429003</id>
-    <title>ID.me: Summer Intern 2027 - Software Development Engineer</title>
+    <title>ID.me: Summer Intern 2027 - Software Development Engineer Intern</title>
     <link href="https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7980429003"/>
     <updated>2026-09-04T16:31:29Z</updated>
     <category term="Summer 2027"/>
@@ -107,9 +131,9 @@
     <id>urn:intern-engine:workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553</id>
     <title>Direct Supply: AI Engineer Intern</title>
     <link href="https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553"/>
-    <updated>2026-09-04T16:31:29Z</updated>
+    <updated>2026-09-04T21:40:37Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Milwaukee, WI · Python, React, Node.js, AWS · H-1B track record: ~11 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Data &amp; ML/AI · Milwaukee, WI · Python, React, Node.js, AWS · status: closed · H-1B track record: ~11 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:jci:/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1</id>
@@ -782,29 +806,5 @@
     <updated>2026-09-02T05:54:51Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Software · San Jose, California, United States · Python, Bash, AWS, Terraform, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:clearwateranalytics:/job/Office---New-York/Quant-Developer-Intern_R12182</id>
-    <title>CWAN: Quant Developer Intern</title>
-    <link href="https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Quant-Developer-Intern_R12182"/>
-    <updated>2026-09-02T05:54:51Z</updated>
-    <category term="Not stated"/>
-    <summary>4 openings · Not stated · Quant · Office - New York · Java</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:rockwellautomation:/job/Mayfield-Heights-Ohio-United-States/Intern--Content-IDE-Software-Development--LCS-_R26-5010-2</id>
-    <title>Rockwell Automation: Intern, Content IDE Software Development (LCS) 🛂</title>
-    <link href="https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Content-IDE-Software-Development--LCS-_R26-5010-2"/>
-    <updated>2026-09-02T01:15:24Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Mayfield Heights, Ohio, United States · Git · sponsorship: no-sponsorship · H-1B track record: ~90 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:rockwellautomation:/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-2</id>
-    <title>Rockwell Automation: Intern, Cyber Professional Services (LCS) 🛂</title>
-    <link href="https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-2"/>
-    <updated>2026-09-02T01:15:24Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Mayfield Heights, Ohio, United States · sponsorship: no-sponsorship · H-1B track record: ~90 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
