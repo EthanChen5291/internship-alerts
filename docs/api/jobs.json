@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-04T01:32:40Z",
- "data_as_of": "2026-09-04T01:32:40Z",
- "rendered_at": "2026-09-04T01:32:40Z",
+ "generated_at": "2026-09-04T06:46:21Z",
+ "data_as_of": "2026-09-04T06:46:21Z",
+ "rendered_at": "2026-09-04T06:46:21Z",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "h1b_window": "FY2022–2023",
  "count": 499,
@@ -9,7 +9,7 @@
   {
    "id": "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9",
    "company": "Skydio",
-   "title": "Autonomy Engineer Intern - Computer Vision/Deep Learning Summer 2027",
+   "title": "Autonomy Engineer Intern, Computer Vision / Deep Learning, Summer 2027",
    "season": "Summer 2027",
    "seasons": null,
    "season_inferred": false,
