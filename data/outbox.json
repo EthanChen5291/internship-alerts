@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:garnerhealth:6164698004"
-    ],
-    "telegram": [
-      "greenhouse:garnerhealth:6164698004"
-    ],
-    "personal_email": [
-      "greenhouse:garnerhealth:6164698004"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
