@@ -1,7 +1,34 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workable:enfos-inc:CA15908E0A",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007589",
+      "oracle:edbz.fa.us2.oraclecloud.com:25017705",
+      "workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553",
+      "greenhouse:idmeuniversityrecruiting:7980429003",
+      "workday:jci:/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1",
+      "greenhouse:scaleai:4730845005",
+      "workday:stryker:/job/Cary-Illinois/Customer-One-Intern--Data-Analyst----Cary--IL_R572734"
+    ],
+    "telegram": [
+      "workable:enfos-inc:CA15908E0A",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007589",
+      "oracle:edbz.fa.us2.oraclecloud.com:25017705",
+      "workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553",
+      "greenhouse:idmeuniversityrecruiting:7980429003",
+      "workday:jci:/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1",
+      "greenhouse:scaleai:4730845005",
+      "workday:stryker:/job/Cary-Illinois/Customer-One-Intern--Data-Analyst----Cary--IL_R572734"
+    ],
+    "personal_email": [
+      "workable:enfos-inc:CA15908E0A",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007589",
+      "oracle:edbz.fa.us2.oraclecloud.com:25017705",
+      "workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553",
+      "greenhouse:idmeuniversityrecruiting:7980429003",
+      "workday:jci:/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1",
+      "greenhouse:scaleai:4730845005",
+      "workday:stryker:/job/Cary-Illinois/Customer-One-Intern--Data-Analyst----Cary--IL_R572734"
+    ]
   }
 }

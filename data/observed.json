@@ -837,6 +837,18 @@
     }
    }
   },
+  "enfos": {
+   "name": "ENFOS",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-04",
+     "role_ids": [
+      "workable:enfos-inc:CA15908E0A"
+     ],
+     "count": 1
+    }
+   }
+  },
   "equifax": {
    "name": "Equifax",
    "cycles": {
@@ -1268,6 +1280,18 @@
      "first_posted": "2026-09-01",
      "role_ids": [
       "workday:iatinsurancegroup:/job/Raleigh-NC/Cyber-Security-Internship_JR100410"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "id me": {
+   "name": "ID.me",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "greenhouse:idmeuniversityrecruiting:7980429003"
      ],
      "count": 1
     }
@@ -2106,6 +2130,18 @@
     }
    }
   },
+  "scale ai": {
+   "name": "Scale AI",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-04",
+     "role_ids": [
+      "greenhouse:scaleai:4730845005"
+     ],
+     "count": 1
+    }
+   }
+  },
   "sentara health": {
    "name": "Sentara Health",
    "cycles": {
@@ -2157,6 +2193,18 @@
       "workday:snc:/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760"
      ],
      "count": 6
+    }
+   }
+  },
+  "skillz": {
+   "name": "skillz",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-03",
+     "role_ids": [
+      "greenhouse:skillzinc:8168006"
+     ],
+     "count": 1
     }
    }
   },
@@ -2249,9 +2297,10 @@
     "Summer 2027": {
      "first_posted": "2026-08-28",
      "role_ids": [
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007361"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007361",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007589"
      ],
-     "count": 1
+     "count": 2
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -2735,5 +2784,5 @@
    }
   }
  },
- "updated_at": "2026-09-04T11:55:51Z"
+ "updated_at": "2026-09-04T16:31:29Z"
 }
