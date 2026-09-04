@@ -1,28 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39978",
-      "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648",
-      "workday:cibc:/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1",
-      "smartrecruiters:Loram1:3743990015082845",
-      "greenhouse:schonfeld:8171696",
-      "greenhouse:schonfeld:8180089"
-    ],
-    "telegram": [
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39978",
-      "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648",
-      "workday:cibc:/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1",
-      "smartrecruiters:Loram1:3743990015082845",
-      "greenhouse:schonfeld:8171696",
-      "greenhouse:schonfeld:8180089"
-    ],
-    "personal_email": [
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39978",
-      "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648",
-      "workday:cibc:/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1",
-      "smartrecruiters:Loram1:3743990015082845",
-      "greenhouse:schonfeld:8171696",
-      "greenhouse:schonfeld:8180089"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
