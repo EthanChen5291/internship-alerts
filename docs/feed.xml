@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-04T21:40:37Z</updated>
+  <updated>2026-09-04T23:30:29Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:garnerhealth:6164698004</id>
+    <title>Garner Health: Software Engineering Intern 🛂</title>
+    <link href="https://job-boards.greenhouse.io/garnerhealth/jobs/6164698004"/>
+    <updated>2026-09-04T23:30:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · New York City, New York · Python, TypeScript, JavaScript, React, Node.js · sponsorship: no-sponsorship</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:hyvee:/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Cyber-Security-Intern--Summer-2027_R250153</id>
     <title>Hy-Vee: Cyber Security Intern- Summer 2027</title>
@@ -798,13 +806,5 @@
     <updated>2026-09-02T15:31:00Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Rosemont IL · SQL · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:altera:/job/San-Jose-California-United-States/Graduate-Intern---Engineering-Infrastructure_R03066</id>
-    <title>Altera Corporation: Graduate Intern - Engineering Infrastructure</title>
-    <link href="https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/Graduate-Intern---Engineering-Infrastructure_R03066"/>
-    <updated>2026-09-02T05:54:51Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · San Jose, California, United States · Python, Bash, AWS, Terraform, Linux</summary>
   </entry>
 </feed>
