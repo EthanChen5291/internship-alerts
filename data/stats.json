@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T23:30:29Z",
-  "fetched_at": "2026-09-04T23:30:29Z",
-  "duration_seconds": 1000.4,
+  "generated_at": "2026-09-05T01:36:48Z",
+  "fetched_at": "2026-09-05T01:36:48Z",
+  "duration_seconds": 1009.0,
   "companies_total": 4713,
   "companies_by_source": {
     "greenhouse": 1054,
@@ -18,25 +18,27 @@
     "microsoft_program": 1,
     "eightfold": 1
   },
-  "quarantined": 320,
-  "fetched_ok": 4294,
-  "fetch_errors": 99,
+  "quarantined": 314,
+  "fetched_ok": 4263,
+  "fetch_errors": 136,
   "errors_by_source": {
-    "workday": 96,
-    "workable": 3
+    "workday": 123,
+    "greenhouse": 1,
+    "ashby": 1,
+    "workable": 11
   },
-  "fetch_success_rate": 0.977,
-  "fetch_success_rate_registry": 0.911,
-  "snapshots_complete": 3741,
-  "snapshots_partial": 553,
+  "fetch_success_rate": 0.969,
+  "fetch_success_rate_registry": 0.905,
+  "snapshots_complete": 3704,
+  "snapshots_partial": 559,
   "partial_by_reason": {
-    "result-cap": 544,
-    "malformed-response": 9
+    "result-cap": 558,
+    "malformed-response": 1
   },
-  "degraded_fetches": 9,
-  "roles_matched": 407,
-  "dropped_no_year_in_title": 397,
-  "dropped_offcycle_by_text": 156,
+  "degraded_fetches": 1,
+  "roles_matched": 413,
+  "dropped_no_year_in_title": 407,
+  "dropped_offcycle_by_text": 158,
   "roles_cycle_inferred": 169,
   "roles_by_source": {
     "amazon": 3,
@@ -64,15 +66,15 @@
     "no-sponsorship": 48
   },
   "posted_date_coverage": 1.0,
-  "enriched_this_run": 47,
-  "enrichment_detail_fetches": 1,
+  "enriched_this_run": 46,
+  "enrichment_detail_fetches": 0,
   "purged_this_run": 0,
-  "new_this_run": 1,
+  "new_this_run": 0,
   "open_total": 511,
   "detection_latency": {
-    "median_minutes": 122.3,
+    "median_minutes": 121.0,
     "p95_minutes": 2830.1,
-    "sample_size": 57,
+    "sample_size": 55,
     "window_days": 7,
     "basis": "roles published in the window with an exact source timestamp"
   },
@@ -80,5 +82,5 @@
     "median_days": 9.0,
     "sample_size": 128
   },
-  "rendered_at": "2026-09-04T23:30:30Z"
+  "rendered_at": "2026-09-05T01:36:48Z"
 }
