@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-05T01:36:48Z",
- "data_as_of": "2026-09-05T01:36:48Z",
- "rendered_at": "2026-09-05T01:36:48Z",
+ "generated_at": "2026-09-05T11:08:53Z",
+ "data_as_of": "2026-09-05T11:08:53Z",
+ "rendered_at": "2026-09-05T11:08:53Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2191,6 +2191,25 @@
    }
   },
   {
+   "company": "Applied Materials",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-04",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://amat.wd1.myworkdayjobs.com/External/job/AlbanyNY/Summer-2027-Global-Technical-Learning-Center-Data-Analyst-Intern--Bachelor-s-Master-s--Albany--NY-_R2627551",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-04"
+   }
+  },
+  {
    "company": "CIBC",
    "last_cycle_posted": "",
    "posted_on": "2026-09-04",
@@ -2202,6 +2221,25 @@
    "days_until": -1,
    "status": "open",
    "url": "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-04"
+   }
+  },
+  {
+   "company": "Cox",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-04",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Long-Island-NY/Software-Engineering-Intern---Summer-2027--North-Hills--NY-_R202682171-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5155,5 +5193,5 @@
    }
   }
  ],
- "count": 271
+ "count": 273
 }

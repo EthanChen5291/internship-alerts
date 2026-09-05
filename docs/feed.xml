@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-05T01:36:48Z</updated>
+  <updated>2026-09-05T11:08:53Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:amat:/job/AlbanyNY/Summer-2027-Global-Technical-Learning-Center-Data-Analyst-Intern--Bachelor-s-Master-s--Albany--NY-_R2627551</id>
+    <title>Applied Materials: Summer 2027 Global Technical Learning Center Data Analyst Intern- Bachelor's/Master's (Albany, NY)</title>
+    <link href="https://amat.wd1.myworkdayjobs.com/External/job/AlbanyNY/Summer-2027-Global-Technical-Learning-Center-Data-Analyst-Intern--Bachelor-s-Master-s--Albany--NY-_R2627551"/>
+    <updated>2026-09-05T11:08:53Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Albany,NY · Python, SQL, LLMs, Tableau · H-1B track record: ~650 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cox:/job/Long-Island-NY/Software-Engineering-Intern---Summer-2027--North-Hills--NY-_R202682171-1</id>
+    <title>Cox: Software Engineering Intern - Summer 2027 (North Hills, NY)</title>
+    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Long-Island-NY/Software-Engineering-Intern---Summer-2027--North-Hills--NY-_R202682171-1"/>
+    <updated>2026-09-05T11:08:53Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Long Island NY · $29.09–$43.61/hr · AWS, Linux</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:garnerhealth:6164698004</id>
     <title>Garner Health: Software Engineering Intern 🛂</title>
@@ -790,21 +806,5 @@
     <updated>2026-09-02T15:31:00Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Rosemont IL · Python, SQL, Pandas, LLMs, AWS · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:usfoods:/job/Rosemont-IL/Intern---Software-Engineer--Digital-Commerce--Hybrid--Onsite---Remote-_R282111</id>
-    <title>US Foods: Intern – Software Engineer, Digital Commerce (Hybrid: Onsite &amp; Remote) 🛂</title>
-    <link href="https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal/job/Rosemont-IL/Intern---Software-Engineer--Digital-Commerce--Hybrid--Onsite---Remote-_R282111"/>
-    <updated>2026-09-02T15:31:00Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Rosemont IL · Java, JavaScript, Angular, HTML/CSS, AWS · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:usfoods:/job/Rosemont-IL/Intern---Software-Engineer--Legacy-Systems--Hybrid--Onsite---Remote-_R282106</id>
-    <title>US Foods: Intern – Software Engineer, Legacy Systems (Hybrid: Onsite &amp; Remote) 🛂</title>
-    <link href="https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal/job/Rosemont-IL/Intern---Software-Engineer--Legacy-Systems--Hybrid--Onsite---Remote-_R282106"/>
-    <updated>2026-09-02T15:31:00Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Rosemont IL · SQL · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
