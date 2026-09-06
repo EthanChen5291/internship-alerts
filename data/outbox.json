@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:stokespacetechnologies:6176786004"
-    ],
-    "telegram": [
-      "greenhouse:stokespacetechnologies:6176786004"
-    ],
-    "personal_email": [
-      "greenhouse:stokespacetechnologies:6176786004"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
