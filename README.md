@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/EthanChen5291/internship-alerts/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/EthanChen5291/internship-alerts/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fethanchen5291.github.io%2Finternship-alerts%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://ethanchen5291.github.io/internship-alerts/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://ethanchen5291.github.io/internship-alerts/feed.xml)
 
-### 511 open roles (376 listed below) · 203 new this week
+### 515 open roles (379 listed below) · 207 new this week
 
-4,480 employers tracked · data as of Sep 06, 2026 at 14:24 UTC
+4,480 employers tracked · data as of Sep 06, 2026 at 17:15 UTC
 
-_344 have a cycle the employer stated · 167 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_344 have a cycle the employer stated · 171 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://ethanchen5291.github.io/internship-alerts/)** · **[📡 RSS](https://ethanchen5291.github.io/internship-alerts/feed.xml)** · **[⚙️ JSON API](https://ethanchen5291.github.io/internship-alerts/api/jobs.json)** · **[🔔 Personal alerts](PERSONAL_SETUP.md)**
 
@@ -98,10 +98,10 @@ If it helps you, a star means a lot and tells me to keep going.
 | Schonfeld | 2027 Software Engineering Intern 🆕 | Software | New York, New York, United States | Python, Java, C++, Git | Sep 04, 2026 | [Apply](https://job-boards.greenhouse.io/schonfeld/jobs/8180089) |
 | CACI | Software Engineer Intern - Summer 2027 🇺🇸 🆕 | Software | Ypsilanti, MI, US | Python, Java, C++, Rust | Sep 04, 2026 | [Apply](https://caci.wd1.myworkdayjobs.com/external/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648) |
 | CIBC | 2027 Summer Intern - Software Engineering 🛂 🆕 | Software | Chicago, IL | Python, SQL | Sep 04, 2026 | [Apply](https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1) |
-| Scale AI ✓ | Software Engineering Intern (Summer 2027) 🆕 | Software | San Francisco, CA | Python, TypeScript, LLMs, React | Sep 04, 2026 | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4730845005) |
-| Stantec | Digital Practice Co-op/Intern - Infrastructure (Spring/Summer 2027) 🆕 | Software | Washington, DC, United States | No skills listed | Sep 04, 2026 | [Apply](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007589) |
-| ENFOS | Software Engineer Intern (Summer 2027) 🆕 | Software | Durham +5 more | Python, Java, TypeScript, JavaScript | Sep 04, 2026 | [Apply](https://apply.workable.com/enfos-inc/j/CA15908E0A/) |
-| ID.me | Summer Intern 2027 - Software Development Engineer Intern 🆕 | Software | Mountain View, CA | Python, Java, JavaScript, Ruby | Sep 03, 2026 | [Apply](https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7980429003) |
+| Scale AI ✓ | Software Engineering Intern (Summer 2027) | Software | San Francisco, CA | Python, TypeScript, LLMs, React | Sep 04, 2026 | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4730845005) |
+| Stantec | Digital Practice Co-op/Intern - Infrastructure (Spring/Summer 2027) | Software | Washington, DC, United States | No skills listed | Sep 04, 2026 | [Apply](https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007589) |
+| ENFOS | Software Engineer Intern (Summer 2027) | Software | Durham +5 more | Python, Java, TypeScript, JavaScript | Sep 04, 2026 | [Apply](https://apply.workable.com/enfos-inc/j/CA15908E0A/) |
+| ID.me | Summer Intern 2027 - Software Development Engineer Intern | Software | Mountain View, CA | Python, Java, JavaScript, Ruby | Sep 03, 2026 | [Apply](https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7980429003) |
 | Skydio ✓ | Autonomy Engineer Intern, Computer Vision / Deep Learning, Summer 2027 | Data & ML/AI | San Mateo, California, United States | Computer Vision, Python, C++, PyTorch | Sep 03, 2026 | [Apply](https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9) |
 | The Exploration Company | Summer 2027 Internship (Software) 🇺🇸 | Software | California | No skills listed | Sep 03, 2026 | [Apply](https://jobs.ashbyhq.com/the-exploration-company/86270058-8eec-4692-b49d-97ce59fd54ac) |
 | AXQ Capital | Quantitative Research Intern (Summer 2027) | Quant | New York | Python | Sep 03, 2026 | [Apply](https://job-boards.greenhouse.io/axq/jobs/6181069004) |
@@ -335,22 +335,25 @@ If it helps you, a star means a lot and tells me to keep going.
 | Hermeus | Flight Software Engineering Intern - Fall 2026 🇺🇸 | Software | Atlanta, GA | C++ | Mar 04, 2026 | [Apply](https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440) |
 | Amazon ✓ | Robotics - Applied Scientist II Intern / Co-op - 2026 (Robotics, Manipulation, Perception, Motion Planning, Autonomous Mobile Robots, Computer Vision, Machine Learning, Controls, and more) | Data & ML/AI | North Reading, Massachusetts, USA | Computer Vision, Python, Java, C++ | Oct 08, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3104589/robotics-applied-scientist-ii-intern-co-op-2026-robotics-manipulation-perception-motion-planning-autonomous-mobile-robots-computer-vision-machine-learning-controls-and-more) |
 
-## Recently posted — cycle not stated  (121 roles)
+## Recently posted — cycle not stated  (124 roles)
 
 These postings never name a cycle — not in the title, not in the posting text — so neither do we. They're recent tech internships (posted within the last few weeks), often exactly the early drops worth applying to first; we just can't tell you which cycle they're for, and we'd rather say so than guess. The moment a posting's own text states a cycle, the role moves up into that section automatically.
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
 | Harbinger Motors | Intern, Cybersecurity 🆕 | Security | Garden Grove, CA | Python, Bash | Sep 05, 2026 | [Apply](https://job-boards.greenhouse.io/harbingermotors/jobs/5231842007) |
+| CNA Insurance | Technology Internship Program (Cybersecurity) 🛂 🆕 | Security | Chicago, IL, USA | No skills listed | Sep 04, 2026 | [Apply](https://cna.wd1.myworkdayjobs.com/CNA_Careers/job/Chicago-IL-USA/Technology-Internship-Program--Cybersecurity-_R-8130-1) |
+| CNA Insurance | Technology Internship Program (AI Strategy) 🛂 🆕 | Data & ML/AI | Chicago, IL, USA | LLMs | Sep 04, 2026 | [Apply](https://cna.wd1.myworkdayjobs.com/CNA_Careers/job/Chicago-IL-USA/Technology-Internship-Program--AI-Strategy-_R-8127-1) |
+| CNA Insurance | Technology Internship Program (AI Engineering) 🛂 🆕 | Data & ML/AI | Chicago, IL, USA | Python, SQL, Terraform | Sep 04, 2026 | [Apply](https://cna.wd1.myworkdayjobs.com/CNA_Careers/job/Chicago-IL-USA/Technology-Internship-Program--AI-Engineering-_R-8126) |
 | Simon Property Group | Intern - Data Engineering (Data Analytics, Information Sciences, Computer Science Majors) 🆕 | Data & ML/AI | Indianapolis, IN | Python, SQL, Snowflake, Tableau | Sep 04, 2026 | [Apply](https://simon.wd1.myworkdayjobs.com/Simon/job/Indianapolis-IN/Intern---Data-Engineering--Data-Analytics--Information-Sciences--Computer-Science-Majors-_R13976) |
 | Simon Property Group | Intern - Front End Developer (Computer Science, Web Development, or Information Sciences Majors) 🆕 | Software | Indianapolis, IN | JavaScript, HTML/CSS, Git | Sep 04, 2026 | [Apply](https://simon.wd1.myworkdayjobs.com/Simon/job/Indianapolis-IN/Intern---Front-End-Developer--Computer-Science--Web-Development--or-Information-Sciences-Majors-_R13975) |
 | Simon Property Group | Intern - Project Delivery (Information Services / Computer Science Majors) 🆕 | Software | Indianapolis, IN | No skills listed | Sep 04, 2026 | [Apply](https://simon.wd1.myworkdayjobs.com/Simon/job/Indianapolis-IN/Intern---Project-Delivery--Information-Services---Computer-Science-Majors-_R13947) |
 | Garner Health | Software Engineering Intern 🛂 🆕 | Software | New York City, New York | Python, TypeScript, JavaScript, React | Sep 04, 2026 | [Apply](https://job-boards.greenhouse.io/garnerhealth/jobs/6164698004) |
 | Nokia | AI-Agent Development Co-op 🆕 | Data & ML/AI | United States | Python, LLMs, Git | Sep 04, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39978) |
 | Loram | Machine Learning / Artificial Intelligence (AI) Intern 🆕 | Data & ML/AI | Hamel, MN, United States | Python, C#, SQL, PyTorch | Sep 04, 2026 | [Apply](https://jobs.smartrecruiters.com/Loram1/3743990015082845) |
-| Texas Instruments ✓ | Systems Engineering Intern - Machine Learning Expert 🆕 | Data & ML/AI | Dallas, TX, United States | Python, C++, PyTorch, LLMs | Sep 04, 2026 | [Apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25017705) |
-| Johnson Controls ✓ | Software/Controls Engineering Grad Intern 🆕 | Software | Salem-Virginia-United States of America | C++ | Sep 04, 2026 | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1) |
-| Stryker ✓ | Customer One Intern (Data Analyst) - Cary, IL 🆕 | Data & ML/AI | Cary, Illinois | No skills listed | Sep 04, 2026 | [Apply](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Cary-Illinois/Customer-One-Intern--Data-Analyst----Cary--IL_R572734) |
+| Texas Instruments ✓ | Systems Engineering Intern - Machine Learning Expert | Data & ML/AI | Dallas, TX, United States | Python, C++, PyTorch, LLMs | Sep 04, 2026 | [Apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25017705) |
+| Johnson Controls ✓ | Software/Controls Engineering Grad Intern | Software | Salem-Virginia-United States of America | C++ | Sep 04, 2026 | [Apply](https://jci.wd5.myworkdayjobs.com/JCI/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1) |
+| Stryker ✓ | Customer One Intern (Data Analyst) - Cary, IL | Data & ML/AI | Cary, Illinois | No skills listed | Sep 04, 2026 | [Apply](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Cary-Illinois/Customer-One-Intern--Data-Analyst----Cary--IL_R572734) |
 | Premier ✓ | Software Engineer Intern | Software | Charlotte, NC | JavaScript, React | Sep 03, 2026 | [Apply](https://premierinc.wd1.myworkdayjobs.com/External_Professional/job/Charlotte-NC/Software-Engineer-Intern_R0008480) |
 | Winsupply ✓ | Data Analyst Intern | Data & ML/AI | Moraine, OH, United States | No skills listed | Sep 03, 2026 | [Apply](https://jobs.smartrecruiters.com/Winsupply1/3743990015046116) |
 | Dynamic Catholic | Internship - Front-End UX Intern 🛂 | Other | Erlanger, Kentucky | JavaScript, HTML/CSS | Sep 02, 2026 | [Apply](https://jobs.lever.co/dynamiccatholic/603f082e-07c8-4b1c-ac09-8963c51229ad) |
@@ -571,7 +574,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,323 of 4,728 registered boards returned successfully across 13 ATS platforms (97% of boards attempted, 91% of the full registry) · completed in 1070.4s · 564 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
+_Engine (last run): 4,338 of 4,728 registered boards returned successfully across 13 ATS platforms (98% of boards attempted, 91% of the full registry) · completed in 1040.7s · 579 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 100% of open roles._
 
 ## How this list is built
 
