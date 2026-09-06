@@ -1,11 +1,39 @@
 {
- "generated_at": "2026-09-06T01:06:15Z",
- "data_as_of": "2026-09-06T01:06:15Z",
- "rendered_at": "2026-09-06T01:06:15Z",
+ "generated_at": "2026-09-06T06:05:28Z",
+ "data_as_of": "2026-09-06T06:05:28Z",
+ "rendered_at": "2026-09-06T06:05:28Z",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "h1b_window": "FY2022–2023",
- "count": 512,
+ "count": 513,
  "jobs": [
+  {
+   "id": "greenhouse:harbingermotors:5231842007",
+   "company": "Harbinger Motors",
+   "title": "Intern, Cybersecurity",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Security",
+   "location": "Garden Grove, CA",
+   "url": "https://job-boards.greenhouse.io/harbingermotors/jobs/5231842007",
+   "posted_at": "2026-09-05T23:34:20-04:00",
+   "posted_at_source": "exact",
+   "first_seen_at": "2026-09-06T06:05:28Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "Bash"
+   ],
+   "class_year": null,
+   "underclass_program_key": null,
+   "underclass_program": null,
+   "underclass_audience": null,
+   "source": "greenhouse",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "workday:simon:/job/Indianapolis-IN/Intern---Data-Engineering--Data-Analytics--Information-Sciences--Computer-Science-Majors-_R13976",
    "company": "Simon Property Group",

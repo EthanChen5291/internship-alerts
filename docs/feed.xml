@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-06T01:06:15Z</updated>
+  <updated>2026-09-06T06:05:28Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:harbingermotors:5231842007</id>
+    <title>Harbinger Motors: Intern, Cybersecurity</title>
+    <link href="https://job-boards.greenhouse.io/harbingermotors/jobs/5231842007"/>
+    <updated>2026-09-06T06:05:28Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Garden Grove, CA · Python, Bash</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:simon:/job/Indianapolis-IN/Intern---Data-Engineering--Data-Analytics--Information-Sciences--Computer-Science-Majors-_R13976</id>
     <title>Simon Property Group: Intern - Data Engineering (Data Analytics, Information Sciences, Computer Science Majors)</title>
@@ -798,13 +806,5 @@
     <updated>2026-09-02T15:31:00Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Rosemont IL · LLMs · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:usfoods:/job/Rosemont-IL/Intern---Cybersecurity-Operations--Hybrid--Onsite---Remote-_R282117</id>
-    <title>US Foods: Intern – Cybersecurity Operations (Hybrid: Onsite &amp; Remote) 🛂</title>
-    <link href="https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal/job/Rosemont-IL/Intern---Cybersecurity-Operations--Hybrid--Onsite---Remote-_R282117"/>
-    <updated>2026-09-02T15:31:00Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Rosemont IL · Python, Bash, Linux · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
