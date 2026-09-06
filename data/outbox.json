@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:harbingermotors:5231842007"
-    ],
-    "telegram": [
-      "greenhouse:harbingermotors:5231842007"
-    ],
-    "personal_email": [
-      "greenhouse:harbingermotors:5231842007"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
