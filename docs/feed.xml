@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-06T11:04:59Z</updated>
+  <updated>2026-09-06T14:24:37Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:stokespacetechnologies:6176786004</id>
+    <title>Stokespacetechnologies: Summer 2027 Internship - Software 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/stokespacetechnologies/jobs/6176786004"/>
+    <updated>2026-09-06T14:24:37Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Kent, Washington · $28/hr · Python, C++, Rust, TypeScript, JavaScript · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:harbingermotors:5231842007</id>
     <title>Harbinger Motors: Intern, Cybersecurity</title>
@@ -798,13 +806,5 @@
     <updated>2026-09-02T15:31:00Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Fort Worth, TX · $18.54–$27.82/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:usfoods:/job/Rosemont-IL/Intern---AI-Automation--Hybrid--Onsite---Remote-_R282109</id>
-    <title>US Foods: Intern – AI Automation (Hybrid: Onsite &amp; Remote) 🛂</title>
-    <link href="https://usfoods.wd1.myworkdayjobs.com/usfoodscareersExternal/job/Rosemont-IL/Intern---AI-Automation--Hybrid--Onsite---Remote-_R282109"/>
-    <updated>2026-09-02T15:31:00Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Rosemont IL · LLMs · sponsorship: no-sponsorship · H-1B track record: ~10 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
