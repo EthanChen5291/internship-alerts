@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-06T23:21:47Z",
- "data_as_of": "2026-09-06T23:21:47Z",
- "rendered_at": "2026-09-06T23:21:47Z",
+ "generated_at": "2026-09-07T01:11:54Z",
+ "data_as_of": "2026-09-07T01:11:54Z",
+ "rendered_at": "2026-09-07T01:11:54Z",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "h1b_window": "FY2022–2023",
- "count": 515,
+ "count": 514,
  "jobs": [
   {
    "id": "greenhouse:harbingermotors:5231842007",
@@ -13948,36 +13948,6 @@
    "underclass_audience": null,
    "source": "greenhouse",
    "h1b_approvals": 44,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "greenhouse:tenstorrentuniversity:5186916007",
-   "company": "Tenstorrent",
-   "title": "Software Engineering Intern, Power Modeling & AI Tools",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "Santa Clara, California, United States",
-   "url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5186916007",
-   "posted_at": "2026-07-23T14:30:30-04:00",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-07-23T19:12:57Z",
-   "sponsorship": "unknown",
-   "salary": "$50/hr",
-   "skills": [
-    "Python",
-    "SQL",
-    "LLMs",
-    "Git"
-   ],
-   "class_year": null,
-   "underclass_program_key": null,
-   "underclass_program": null,
-   "underclass_audience": null,
-   "source": "greenhouse",
-   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
