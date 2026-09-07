@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-07T12:37:49Z</updated>
+  <updated>2026-09-07T18:10:42Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:dropbox:8106224</id>
+    <title>Dropbox: Software Engineering Intern (Summer 2027)</title>
+    <link href="https://jobs.dropbox.com/listing/8106224?gh_jid=8106224"/>
+    <updated>2026-09-07T18:10:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Remote - US: All locations · Python, JavaScript · H-1B track record: ~211 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:hpe:/job/Bloomington-Minnesota-United-States-of-America/HPC-AI-Systems-Administrator-Intern_1213396</id>
     <title>Hewlett Packard Enterprise: HPC AI Systems Administrator Intern</title>
@@ -798,13 +806,5 @@
     <updated>2026-09-02T15:31:00Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Reston, Virginia · $21–$30/hr · Python, Rust, TypeScript, JavaScript, React · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:fspco-op012325:8769080002</id>
-    <title>Flagship Pioneering: Pioneering Intelligence: Agentic AI Co-Op</title>
-    <link href="https://job-boards.greenhouse.io/fspco-op012325/jobs/8769080002"/>
-    <updated>2026-09-02T15:31:00Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Cambridge, MA USA · $25–$45/hr · Python</summary>
   </entry>
 </feed>

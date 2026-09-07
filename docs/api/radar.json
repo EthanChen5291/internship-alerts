@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-07T12:37:49Z",
- "data_as_of": "2026-09-07T12:37:49Z",
- "rendered_at": "2026-09-07T12:37:49Z",
+ "generated_at": "2026-09-07T18:10:42Z",
+ "data_as_of": "2026-09-07T18:10:42Z",
+ "rendered_at": "2026-09-07T18:10:42Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -478,25 +478,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-01"
-   }
-  },
-  {
-   "company": "CNO Financial Group",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-03",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-03",
-   "days_until": -35,
-   "status": "open",
-   "url": "https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-03"
    }
   },
   {
@@ -2343,6 +2324,25 @@
    }
   },
   {
+   "company": "Dropbox",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-07",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-07",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.dropbox.com/listing/8106224?gh_jid=8106224",
+   "note": "opens ~Sep",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-07"
+   }
+  },
+  {
    "company": "ICF",
    "last_cycle_posted": "",
    "posted_on": "2026-09-07",
@@ -3673,25 +3673,6 @@
    }
   },
   {
-   "company": "Dropbox",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-09-01",
-   "days_until": -6,
-   "status": "waiting",
-   "url": "",
-   "note": "opens ~Sep",
-   "provenance": {
-    "type": "verified-window",
-    "url": "dropbox.com/jobs",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
    "company": "Elastic",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -4962,6 +4943,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-01"
+   }
+  },
+  {
+   "company": "CNO Financial Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-03",
+   "days_until": -35,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-03"
    }
   },
   {

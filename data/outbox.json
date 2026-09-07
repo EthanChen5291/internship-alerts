@@ -1,7 +1,13 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "greenhouse:dropbox:8106224"
+    ],
+    "telegram": [
+      "greenhouse:dropbox:8106224"
+    ],
+    "personal_email": [
+      "greenhouse:dropbox:8106224"
+    ]
   }
 }
