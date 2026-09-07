@@ -1335,6 +1335,18 @@
     }
    }
   },
+  "icf": {
+   "name": "ICF",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-07",
+     "role_ids": [
+      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002"
+     ],
+     "count": 1
+    }
+   }
+  },
   "id me": {
    "name": "ID.me",
    "cycles": {
@@ -2844,6 +2856,14 @@
       "workday:xcelenergy:/job/Denver-CO-80205/IT-Infrastructure-Intern---CO_JR115917"
      ],
      "count": 1
+    },
+    "Summer 2027": {
+     "first_posted": "2026-09-07",
+     "role_ids": [
+      "workday:xcelenergy:/job/Denver-CO-80205/AI---Automation-Intern--CO_JR115739-1",
+      "workday:xcelenergy:/job/Denver-CO-80223/Reliability-Data-Analyst-Intern--CO_JR115833"
+     ],
+     "count": 2
     }
    }
   },
@@ -2860,5 +2880,5 @@
    }
   }
  },
- "updated_at": "2026-09-07T01:11:54Z"
+ "updated_at": "2026-09-07T06:14:49Z"
 }

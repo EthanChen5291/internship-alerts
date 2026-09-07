@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-07T01:11:54Z</updated>
+  <updated>2026-09-07T06:14:49Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:hpe:/job/Bloomington-Minnesota-United-States-of-America/HPC-AI-Systems-Administrator-Intern_1213396</id>
+    <title>Hewlett Packard Enterprise: HPC AI Systems Administrator Intern</title>
+    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bloomington-Minnesota-United-States-of-America/HPC-AI-Systems-Administrator-Intern_1213396"/>
+    <updated>2026-09-07T06:14:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Bloomington, Minnesota, United States of America · Python, Bash, HTML/CSS, Linux, Git · H-1B track record: ~499 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002</id>
+    <title>ICF: 2027 Summer Intern, Software Developer (Reston, VA) 🛂</title>
+    <link href="https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002"/>
+    <updated>2026-09-07T06:14:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Reston, VA · Python, Java, JavaScript, SQL, HTML/CSS · sponsorship: no-sponsorship · H-1B track record: ~35 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:xcelenergy:/job/Denver-CO-80205/AI---Automation-Intern--CO_JR115739-1</id>
+    <title>Xcel Energy: AI &amp; Automation Intern- CO</title>
+    <link href="https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/AI---Automation-Intern--CO_JR115739-1"/>
+    <updated>2026-09-07T06:14:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Denver, CO, 80205 · $20.9–$22.1/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:xcelenergy:/job/Denver-CO-80223/Reliability-Data-Analyst-Intern--CO_JR115833</id>
+    <title>Xcel Energy: Reliability Data Analyst Intern- CO</title>
+    <link href="https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80223/Reliability-Data-Analyst-Intern--CO_JR115833"/>
+    <updated>2026-09-07T06:14:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Denver, CO, 80223 · $19–$20.9/hr · Python, SQL, Databricks</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--AI-Engineering-_R-8126</id>
     <title>CNA Insurance: Technology Internship Program (AI Engineering) 🛂</title>
@@ -774,37 +806,5 @@
     <updated>2026-09-02T15:31:00Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Cambridge, MA USA · $25–$45/hr · Python</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ejhp.fa.us6.oraclecloud.com:2622615</id>
-    <title>Sherwin-Williams: Year-Round IT Co-op, Cybersecurity</title>
-    <link href="https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2622615"/>
-    <updated>2026-09-02T15:31:00Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Cleveland, OH, United States · H-1B track record: ~94 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:Winsupply1:3743990015014717</id>
-    <title>Winsupply: Software Developer Intern</title>
-    <link href="https://jobs.smartrecruiters.com/Winsupply1/3743990015014717"/>
-    <updated>2026-09-02T15:31:00Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Moraine, OH, United States · Python, Java, Angular · H-1B track record: ~13 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aoins:/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14417</id>
-    <title>Auto-Owners Insurance: Business Intelligence Developer Internship - Summer 2027</title>
-    <link href="https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14417"/>
-    <updated>2026-09-02T15:31:00Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Lansing, MI · Python, SQL, Tableau</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466</id>
-    <title>CACI: DevOps/Software Engineering Intern - Summer 2027</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466"/>
-    <updated>2026-09-02T15:31:00Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Sterling, VA, US · Python, Java, Linux, Git</summary>
   </entry>
 </feed>
