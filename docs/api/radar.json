@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-08T17:40:34Z",
- "data_as_of": "2026-09-08T17:40:34Z",
- "rendered_at": "2026-09-08T17:40:34Z",
+ "generated_at": "2026-09-08T20:26:59Z",
+ "data_as_of": "2026-09-08T20:26:59Z",
+ "rendered_at": "2026-09-08T20:26:59Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -227,6 +227,25 @@
    "status": "open",
    "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166",
    "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-08"
+   }
+  },
+  {
+   "company": "Northrop Grumman",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-08",
+   "days_until": -62,
+   "status": "open",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842",
+   "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -2391,7 +2410,7 @@
    "expected": "2026-09-07",
    "days_until": -1,
    "status": "open",
-   "url": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/AI---Automation-Intern--CO_JR115739-1",
+   "url": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Amarillo-TX-79101/Data-Analyst-Intern--TX_JR115565-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2457,6 +2476,25 @@
    }
   },
   {
+   "company": "Meijer",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://meijer.wd5.myworkdayjobs.com/Meijer/job/Grand-Rapids-MI/Information-Security-Intern--Summer-2027_R000698302",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "Merck",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -2476,6 +2514,25 @@
    }
   },
   {
+   "company": "RF-SMART",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/rfsmart/jobs/5409034008",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "Talos",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -2486,7 +2543,7 @@
    "expected": "2026-09-08",
    "days_until": 0,
    "status": "open",
-   "url": "https://jobs.ashbyhq.com/talos-trading/91fd5274-3b6b-43cf-b366-9f6dc2ae5977",
+   "url": "https://jobs.ashbyhq.com/talos-trading/2c833180-484f-4657-80e3-f822cf1a0285",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4927,25 +4984,6 @@
    }
   },
   {
-   "company": "Northrop Grumman",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-08",
-   "days_until": -62,
-   "status": "dropped",
-   "url": "",
-   "note": "fall opening, many roles need clearance",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-08"
-   }
-  },
-  {
    "company": "The Trade Desk",
    "last_cycle_posted": "",
    "posted_on": "2026-07-15",
@@ -5345,5 +5383,5 @@
    }
   }
  ],
- "count": 281
+ "count": 283
 }

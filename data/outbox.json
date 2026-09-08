@@ -1,7 +1,37 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "amazon:amazon:3117694",
+      "ashby:talos-trading:d6d0c99a-f281-4efe-89c4-026f7f5edc2b",
+      "workday:bah:/job/McLean-VA/University--Applied-AI-Software-Development-Intern_R0248854",
+      "workday:bah:/job/Washington-DC/University--Applied-AI-Intern_R0248853",
+      "greenhouse:eudia:4020078009",
+      "workday:meijer:/job/Grand-Rapids-MI/Information-Security-Intern--Summer-2027_R000698302",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842",
+      "greenhouse:rfsmart:5409034008",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613"
+    ],
+    "telegram": [
+      "amazon:amazon:3117694",
+      "ashby:talos-trading:d6d0c99a-f281-4efe-89c4-026f7f5edc2b",
+      "workday:bah:/job/McLean-VA/University--Applied-AI-Software-Development-Intern_R0248854",
+      "workday:bah:/job/Washington-DC/University--Applied-AI-Intern_R0248853",
+      "greenhouse:eudia:4020078009",
+      "workday:meijer:/job/Grand-Rapids-MI/Information-Security-Intern--Summer-2027_R000698302",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842",
+      "greenhouse:rfsmart:5409034008",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613"
+    ],
+    "personal_email": [
+      "amazon:amazon:3117694",
+      "ashby:talos-trading:d6d0c99a-f281-4efe-89c4-026f7f5edc2b",
+      "workday:bah:/job/McLean-VA/University--Applied-AI-Software-Development-Intern_R0248854",
+      "workday:bah:/job/Washington-DC/University--Applied-AI-Intern_R0248853",
+      "greenhouse:eudia:4020078009",
+      "workday:meijer:/job/Grand-Rapids-MI/Information-Security-Intern--Summer-2027_R000698302",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842",
+      "greenhouse:rfsmart:5409034008",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613"
+    ]
   }
 }
