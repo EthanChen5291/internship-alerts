@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-08T20:26:59Z",
- "data_as_of": "2026-09-08T20:26:59Z",
- "rendered_at": "2026-09-08T20:26:59Z",
+ "generated_at": "2026-09-08T23:15:17Z",
+ "data_as_of": "2026-09-08T23:15:17Z",
+ "rendered_at": "2026-09-08T23:15:17Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2115,6 +2115,25 @@
    }
   },
   {
+   "company": "Neighbor",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-03",
+   "days_until": -5,
+   "status": "open",
+   "url": "https://jobs.lever.co/neighbor/7d66629f-3f4b-41ee-a324-fe0154e13c46",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-03"
+   }
+  },
+  {
    "company": "Saab",
    "last_cycle_posted": "",
    "posted_on": "2026-09-03",
@@ -2419,6 +2438,25 @@
    }
   },
   {
+   "company": "Allen Control Systems",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/allen-control-systems/a7831fef-7125-4c03-b828-5f0472989037",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "AtkinsRéalis",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -2457,6 +2495,25 @@
    }
   },
   {
+   "company": "Coinbase",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://www.coinbase.com/careers/positions/8175471?gh_jid=8175471",
+   "note": "Dec-Jan, peak hiring Feb",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "Datadog",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -2469,6 +2526,25 @@
    "status": "open",
    "url": "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118",
    "note": "posts roles across the year",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
+   "company": "Devon Energy",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://wd5.myworkdaysite.com/recruiting/devonenergy/Careers/job/Oklahoma-City-OK/Cyber-Security-Intern-2027_R26303-1",
+   "note": "",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -4813,25 +4889,6 @@
    }
   },
   {
-   "company": "Coinbase",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-12-01",
-   "days_until": 84,
-   "status": "waiting",
-   "url": "",
-   "note": "Dec-Jan, peak hiring Feb",
-   "provenance": {
-    "type": "verified-window",
-    "url": "coinbase.com/internships",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
    "company": "Ramp",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -5345,25 +5402,6 @@
    }
   },
   {
-   "company": "Neighbor",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-03",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-03",
-   "days_until": -5,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-03"
-   }
-  },
-  {
    "company": "skillz",
    "last_cycle_posted": "",
    "posted_on": "2026-09-03",
@@ -5383,5 +5421,5 @@
    }
   }
  ],
- "count": 283
+ "count": 285
 }
