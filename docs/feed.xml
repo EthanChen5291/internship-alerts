@@ -5,31 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-08T09:20:32Z</updated>
+  <updated>2026-09-08T13:47:25Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:cox:/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173</id>
-    <title>Cox: Software Engineering Intern - Summer 2027 (Irvine, CA)</title>
-    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173"/>
-    <updated>2026-09-08T09:20:32Z</updated>
+    <id>urn:intern-engine:workday:slihrms:/job/USGAAtlanta2018-Powers-Ferry-Rd/Water-Infrastructure-Engineering-Intern---Summer-2027_R-163480-1</id>
+    <title>AtkinsRéalis: Water Infrastructure Engineering Intern - Summer 2027</title>
+    <link href="https://slihrms.wd3.myworkdayjobs.com/careers/job/USGAAtlanta2018-Powers-Ferry-Rd/Water-Infrastructure-Engineering-Intern---Summer-2027_R-163480-1"/>
+    <updated>2026-09-08T13:47:25Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Irvine CA · $29.09–$43.61/hr · AWS, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cox:/job/Draper-UT/Software-Engineering-Intern---Summer-2027--Draper-UT-_R202682169</id>
-    <title>Cox: Software Engineering Intern - Summer 2027 (Draper UT)</title>
-    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Draper-UT/Software-Engineering-Intern---Summer-2027--Draper-UT-_R202682169"/>
-    <updated>2026-09-08T09:20:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Draper UT · $24.23–$36.35/hr · AWS, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cox:/job/Austin-TX/Software-Engineering-Intern---Summer-2027--Austin--TX-_R202682168</id>
-    <title>Cox: Software Engineering Intern - Summer 2027 (Austin, TX)</title>
-    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Austin-TX/Software-Engineering-Intern---Summer-2027--Austin--TX-_R202682168"/>
-    <updated>2026-09-08T09:20:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Austin TX · $26.63–$40/hr · AWS, Linux</summary>
+    <summary>Summer 2027 · Software · US.GA.Atlanta.2018 Powers Ferry Rd</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:cox:/job/Atlanta-GA/Software-Engineering-Intern---Summer-2027--Atlanta--GA-_R202682166</id>
@@ -40,12 +24,36 @@
     <summary>Summer 2027 · Software · Atlanta GA · $24.23–$36.35/hr · AWS, Linux</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:workday:cox:/job/Austin-TX/Software-Engineering-Intern---Summer-2027--Austin--TX-_R202682168</id>
+    <title>Cox: Software Engineering Intern - Summer 2027 (Austin, TX)</title>
+    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Austin-TX/Software-Engineering-Intern---Summer-2027--Austin--TX-_R202682168"/>
+    <updated>2026-09-08T09:20:32Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Austin TX · $26.63–$40/hr · AWS, Linux</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:workday:cox:/job/Burlington-VT/Software-Engineering-Intern---Summer-2027--Burlington--VT-_R202682172-1</id>
     <title>Cox: Software Engineering Intern - Summer 2027 (Burlington, VT)</title>
     <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Burlington-VT/Software-Engineering-Intern---Summer-2027--Burlington--VT-_R202682172-1"/>
     <updated>2026-09-08T09:20:32Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Burlington VT · $24.23–$36.35/hr · AWS, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cox:/job/Draper-UT/Software-Engineering-Intern---Summer-2027--Draper-UT-_R202682169</id>
+    <title>Cox: Software Engineering Intern - Summer 2027 (Draper UT)</title>
+    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Draper-UT/Software-Engineering-Intern---Summer-2027--Draper-UT-_R202682169"/>
+    <updated>2026-09-08T09:20:32Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Draper UT · $24.23–$36.35/hr · AWS, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cox:/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173</id>
+    <title>Cox: Software Engineering Intern - Summer 2027 (Irvine, CA)</title>
+    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173"/>
+    <updated>2026-09-08T09:20:32Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Irvine CA · $29.09–$43.61/hr · AWS, Linux</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Development---CDS-AI-Research-Center_R0054625</id>
@@ -62,6 +70,14 @@
     <updated>2026-09-08T09:20:32Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · United States - California - Foster City · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:micron:/job/Boise-ID---Main-Site/Intern---Software-Engineer_JR108550</id>
+    <title>Micron Technology: Intern - Software Engineer</title>
+    <link href="https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---Software-Engineer_JR108550"/>
+    <updated>2026-09-08T09:20:32Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Boise, ID - Main Site · Python, C#, JavaScript, SQL, LLMs · H-1B track record: ~489 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---AI-ML-Computational-Toxicology---Intern_R412871</id>
@@ -86,14 +102,6 @@
     <updated>2026-09-08T09:20:32Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · USA - Pennsylvania - West Point · Python, C++, C#, SQL, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:micron:/job/Boise-ID---Main-Site/Intern---Software-Engineer_JR108550</id>
-    <title>Micron Technology: Intern - Software Engineer</title>
-    <link href="https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---Software-Engineer_JR108550"/>
-    <updated>2026-09-08T09:20:32Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Boise, ID - Main Site · Python, C#, JavaScript, SQL, LLMs · H-1B track record: ~489 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:gilead:/job/United-States---North-Carolina---Raleigh/Intern---CFO---IT--AI-Engineer-_R0054744</id>
@@ -387,9 +395,9 @@
     <id>urn:intern-engine:workday:stryker:/job/Cary-Illinois/Customer-One-Intern--Data-Analyst----Cary--IL_R572734</id>
     <title>Stryker: Customer One Intern (Data Analyst) - Cary, IL</title>
     <link href="https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Cary-Illinois/Customer-One-Intern--Data-Analyst----Cary--IL_R572734"/>
-    <updated>2026-09-04T16:31:29Z</updated>
+    <updated>2026-09-08T13:47:25Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Cary, Illinois · H-1B track record: ~104 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Data &amp; ML/AI · Cary, Illinois · status: closed · H-1B track record: ~104 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9</id>
@@ -798,13 +806,5 @@
     <updated>2026-09-02T19:14:01Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Mandan, ND · Python, Java, SQL, Scala, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:testnisc:8174096</id>
-    <title>National Information Solutions Cooperative (NISC): Intern - Software Development</title>
-    <link href="https://job-boards.greenhouse.io/testnisc/jobs/8174096"/>
-    <updated>2026-09-02T19:14:01Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Mandan, ND · Java, TypeScript, JavaScript, Angular, HTML/CSS</summary>
   </entry>
 </feed>

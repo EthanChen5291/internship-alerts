@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-08T09:20:32Z",
- "data_as_of": "2026-09-08T09:20:32Z",
- "rendered_at": "2026-09-08T09:20:33Z",
+ "generated_at": "2026-09-08T13:47:25Z",
+ "data_as_of": "2026-09-08T13:47:25Z",
+ "rendered_at": "2026-09-08T13:47:25Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1707,7 +1707,7 @@
    "expected": "2026-08-31",
    "days_until": -8,
    "status": "open",
-   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1",
+   "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Flower-Mound-Texas/Commercial-Operations-Software-Engineering-Intern---Flower-Mound--TX_R572941",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2258,7 +2258,7 @@
    "expected": "2026-09-04",
    "days_until": -4,
    "status": "open",
-   "url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Long-Island-NY/Software-Engineering-Intern---Summer-2027--North-Hills--NY-_R202682171-1",
+   "url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Software-Engineering-Intern---Summer-2027--Atlanta--GA-_R202682166",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2397,6 +2397,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-07"
+   }
+  },
+  {
+   "company": "AtkinsRéalis",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/USGAAtlanta2018-Powers-Ferry-Rd/Water-Infrastructure-Engineering-Intern---Summer-2027_R-163480-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
    }
   },
   {
@@ -5269,5 +5288,5 @@
    }
   }
  ],
- "count": 277
+ "count": 278
 }
