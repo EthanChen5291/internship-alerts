@@ -1,46 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:cox:/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173",
-      "workday:cox:/job/Draper-UT/Software-Engineering-Intern---Summer-2027--Draper-UT-_R202682169",
-      "workday:cox:/job/Austin-TX/Software-Engineering-Intern---Summer-2027--Austin--TX-_R202682168",
-      "workday:cox:/job/Atlanta-GA/Software-Engineering-Intern---Summer-2027--Atlanta--GA-_R202682166",
-      "workday:cox:/job/Burlington-VT/Software-Engineering-Intern---Summer-2027--Burlington--VT-_R202682172-1",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Development---CDS-AI-Research-Center_R0054721",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Development---CDS-AI-Research-Center_R0054625",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Development---DevOps-Business-Strategy-Leader_R0054772",
-      "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---AI-ML-Computational-Toxicology---Intern_R412871",
-      "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Laboratory-Operations-AI---Digital-Transformation---Intern_R413048",
-      "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Standardizing-Automation-Scripting-Practices-Through-AI-Enabled-Knowledge-Repository---Intern_R412939",
-      "workday:micron:/job/Boise-ID---Main-Site/Intern---Software-Engineer_JR108550"
-    ],
-    "telegram": [
-      "workday:cox:/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173",
-      "workday:cox:/job/Draper-UT/Software-Engineering-Intern---Summer-2027--Draper-UT-_R202682169",
-      "workday:cox:/job/Austin-TX/Software-Engineering-Intern---Summer-2027--Austin--TX-_R202682168",
-      "workday:cox:/job/Atlanta-GA/Software-Engineering-Intern---Summer-2027--Atlanta--GA-_R202682166",
-      "workday:cox:/job/Burlington-VT/Software-Engineering-Intern---Summer-2027--Burlington--VT-_R202682172-1",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Development---CDS-AI-Research-Center_R0054721",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Development---CDS-AI-Research-Center_R0054625",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Development---DevOps-Business-Strategy-Leader_R0054772",
-      "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---AI-ML-Computational-Toxicology---Intern_R412871",
-      "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Laboratory-Operations-AI---Digital-Transformation---Intern_R413048",
-      "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Standardizing-Automation-Scripting-Practices-Through-AI-Enabled-Knowledge-Repository---Intern_R412939",
-      "workday:micron:/job/Boise-ID---Main-Site/Intern---Software-Engineer_JR108550"
-    ],
-    "personal_email": [
-      "workday:cox:/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173",
-      "workday:cox:/job/Draper-UT/Software-Engineering-Intern---Summer-2027--Draper-UT-_R202682169",
-      "workday:cox:/job/Austin-TX/Software-Engineering-Intern---Summer-2027--Austin--TX-_R202682168",
-      "workday:cox:/job/Atlanta-GA/Software-Engineering-Intern---Summer-2027--Atlanta--GA-_R202682166",
-      "workday:cox:/job/Burlington-VT/Software-Engineering-Intern---Summer-2027--Burlington--VT-_R202682172-1",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Development---CDS-AI-Research-Center_R0054721",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Development---CDS-AI-Research-Center_R0054625",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Development---DevOps-Business-Strategy-Leader_R0054772",
-      "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---AI-ML-Computational-Toxicology---Intern_R412871",
-      "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Laboratory-Operations-AI---Digital-Transformation---Intern_R413048",
-      "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Standardizing-Automation-Scripting-Practices-Through-AI-Enabled-Knowledge-Repository---Intern_R412939",
-      "workday:micron:/job/Boise-ID---Main-Site/Intern---Software-Engineer_JR108550"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
