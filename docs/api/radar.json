@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-08T04:39:13Z",
- "data_as_of": "2026-09-08T04:39:13Z",
- "rendered_at": "2026-09-08T04:39:13Z",
+ "generated_at": "2026-09-08T09:20:32Z",
+ "data_as_of": "2026-09-08T09:20:32Z",
+ "rendered_at": "2026-09-08T09:20:33Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2397,6 +2397,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-07"
+   }
+  },
+  {
+   "company": "Merck",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---AI-ML-Computational-Toxicology---Intern_R412871",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
    }
   },
   {
@@ -5250,5 +5269,5 @@
    }
   }
  ],
- "count": 276
+ "count": 277
 }
