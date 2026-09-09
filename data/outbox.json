@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "ashby:allen-control-systems:ed5c58a7-6a3c-474b-aa07-43ff2051cb5c"
-    ],
-    "telegram": [
-      "ashby:allen-control-systems:ed5c58a7-6a3c-474b-aa07-43ff2051cb5c"
-    ],
-    "personal_email": [
-      "ashby:allen-control-systems:ed5c58a7-6a3c-474b-aa07-43ff2051cb5c"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
