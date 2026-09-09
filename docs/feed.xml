@@ -5,15 +5,71 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-09T16:49:50Z</updated>
+  <updated>2026-09-09T19:43:02Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:countryfinancial:/job/Bloomington-IL/Automation-Developer-Intern_R26_0000001000</id>
-    <title>COUNTRY Financial: Automation Developer Intern</title>
-    <link href="https://countryfinancial.wd5.myworkdayjobs.com/COUNTRYCorporateInternships/job/Bloomington-IL/Automation-Developer-Intern_R26_0000001000"/>
+    <id>urn:intern-engine:lever:crestoperations:e012721c-e731-483d-a4e3-1a240c48bfbd</id>
+    <title>Crest Industries: Developer Intern</title>
+    <link href="https://jobs.lever.co/crestoperations/e012721c-e731-483d-a4e3-1a240c48bfbd"/>
+    <updated>2026-09-09T19:43:02Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Pineville, Louisiana</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:interplay:bdf67758-1f20-4a01-8bb3-ccebfa79e9ac</id>
+    <title>Internship: AI Labs Intern</title>
+    <link href="https://jobs.ashbyhq.com/interplay/bdf67758-1f20-4a01-8bb3-ccebfa79e9ac"/>
+    <updated>2026-09-09T19:43:02Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · New York · Python, TypeScript, JavaScript, SQL, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:edbz.fa.us2.oraclecloud.com:25017573</id>
+    <title>Texas Instruments: Software Engineering Intern 🛂</title>
+    <link href="https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25017573"/>
+    <updated>2026-09-09T19:43:02Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Dallas, TX, United States; Sugar Land, TX, United States · sponsorship: no-sponsorship · H-1B track record: ~234 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ag:/job/Herndon-Area-VA/Summer-Internship---Digital-AI-Transformation_JR10437881</id>
+    <title>Airbus: Summer Internship - Digital/AI Transformation</title>
+    <link href="https://ag.wd3.myworkdayjobs.com/Airbus/job/Herndon-Area-VA/Summer-Internship---Digital-AI-Transformation_JR10437881"/>
+    <updated>2026-09-09T19:43:02Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Herndon Area, VA · $24–$39.75/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:caci:/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798</id>
+    <title>CACI: DevOps/Software Engineering Intern - Summer 2027</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798"/>
+    <updated>2026-09-09T19:43:02Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Denver, CO, US · Python, Java, Linux, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:caci:/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742</id>
+    <title>CACI: Software Engineering Intern – Summer 2027</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742"/>
+    <updated>2026-09-09T19:43:02Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Lisle, IL, US · Python, C++, Linux, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:graco:/job/Dayton-Minnesota-USA-French-Lake/AI-Intern_R0023511-1</id>
+    <title>Graco: AI Intern 🛂</title>
+    <link href="https://graco.wd501.myworkdayjobs.com/Graco_Careers/job/Dayton-Minnesota-USA-French-Lake/AI-Intern_R0023511-1"/>
+    <updated>2026-09-09T19:43:02Z</updated>
+    <category term="Not stated"/>
+    <summary>2 openings · Not stated · Data &amp; ML/AI · Dayton, Minnesota, USA (French Lake) · Python, LLMs, AWS, Azure, Kubernetes · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:oneapp:7cc2fdfb-a186-4a58-af1b-8255c173244a</id>
+    <title>ONE Finance: AI Research, Intern</title>
+    <link href="https://jobs.ashbyhq.com/oneapp/7cc2fdfb-a186-4a58-af1b-8255c173244a"/>
     <updated>2026-09-09T16:49:50Z</updated>
-    <category term="Fall 2027"/>
-    <summary>Fall 2027 · Software · Bloomington, IL · Python, Java, C#, JavaScript, SQL · status: closed · H-1B track record: ~45 approvals (FY2022–2023)</summary>
+    <category term="Spring 2027"/>
+    <summary>Spring 2027 · Data &amp; ML/AI · United States (Remote) · $32 per hour · LLMs · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:oneapp:ba18d004-3212-44e4-8a0c-bd1215bae770</id>
@@ -24,12 +80,20 @@
     <summary>Spring 2027 · Software · United States (Remote) · $32 per hour · status: closed</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:ashby:oneapp:7cc2fdfb-a186-4a58-af1b-8255c173244a</id>
-    <title>ONE Finance: AI Research, Intern</title>
-    <link href="https://jobs.ashbyhq.com/oneapp/7cc2fdfb-a186-4a58-af1b-8255c173244a"/>
+    <id>urn:intern-engine:greenhouse:chaosindustries:5226636007</id>
+    <title>CHAOS Industries: 2027 Summer- Software Engineer Intern</title>
+    <link href="https://job-boards.greenhouse.io/chaosindustries/jobs/5226636007"/>
     <updated>2026-09-09T16:49:50Z</updated>
-    <category term="Spring 2027"/>
-    <summary>Spring 2027 · Data &amp; ML/AI · United States (Remote) · $32 per hour · LLMs · status: closed</summary>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · El Segundo, California, United States · Python, Java, C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:viamrobotics:6185046004</id>
+    <title>Viam: Software Engineering Intern (Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/viamrobotics/jobs/6185046004"/>
+    <updated>2026-09-09T16:49:50Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York, NY · Go, TypeScript, Vue, Linux, MongoDB</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workable:coretek-services:8D69C6C871</id>
@@ -48,12 +112,20 @@
     <summary>Not stated · Software · Omaha, NE · $28/hr · Java, C#, React, Git</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:chaosindustries:5226636007</id>
-    <title>CHAOS Industries: 2027 Summer- Software Engineer Intern</title>
-    <link href="https://job-boards.greenhouse.io/chaosindustries/jobs/5226636007"/>
+    <id>urn:intern-engine:workday:countryfinancial:/job/Bloomington-IL/Automation-Developer-Intern_R26_0000001000</id>
+    <title>COUNTRY Financial: Automation Developer Intern</title>
+    <link href="https://countryfinancial.wd5.myworkdayjobs.com/COUNTRYCorporateInternships/job/Bloomington-IL/Automation-Developer-Intern_R26_0000001000"/>
+    <updated>2026-09-09T16:49:50Z</updated>
+    <category term="Fall 2027"/>
+    <summary>Fall 2027 · Software · Bloomington, IL · Python, Java, C#, JavaScript, SQL · status: closed · H-1B track record: ~45 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01872878</id>
+    <title>RTX: Software Engineering Intern (Summer 2027) 🇺🇸</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01872878"/>
     <updated>2026-09-09T16:49:50Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · El Segundo, California, United States · Python, Java, C++</summary>
+    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-166 ~ 855 35Th St NE ~ BLDG 166 · Python, C++ · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713</id>
@@ -72,28 +144,12 @@
     <summary>Not stated · Software · Evansville, IN</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01872878</id>
-    <title>RTX: Software Engineering Intern (Summer 2027) 🇺🇸</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01872878"/>
-    <updated>2026-09-09T16:49:50Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-166 ~ 855 35Th St NE ~ BLDG 166 · Python, C++ · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Group--AI-ML-Engineering-Summer-2027-Internship_R-1100605</id>
     <title>Verizon Communications: Verizon Consumer Group: AI/ML Engineering Summer 2027 Internship</title>
     <link href="https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Group--AI-ML-Engineering-Summer-2027-Internship_R-1100605"/>
     <updated>2026-09-09T16:49:50Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Basking Ridge, New Jersey · $27/hr · LLMs, Computer Vision</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:viamrobotics:6185046004</id>
-    <title>Viam: Software Engineering Intern (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/viamrobotics/jobs/6185046004"/>
-    <updated>2026-09-09T16:49:50Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY · Go, TypeScript, Vue, Linux, MongoDB</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:fa-evfm-saasfaprod1.fa.ocs.oraclecloud.com:15624</id>
@@ -750,61 +806,5 @@
     <updated>2026-09-04T21:40:37Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Milwaukee, WI · Python, React, Node.js, AWS · status: closed · H-1B track record: ~11 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:jci:/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1</id>
-    <title>Johnson Controls: Software/Controls Engineering Grad Intern</title>
-    <link href="https://jci.wd5.myworkdayjobs.com/JCI/job/Salem-Virginia-United-States-of-America/Software-Controls-Engineering-Grad-Intern_WD30278205-1"/>
-    <updated>2026-09-04T16:31:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Salem-Virginia-United States of America · C++ · H-1B track record: ~104 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:stryker:/job/Cary-Illinois/Customer-One-Intern--Data-Analyst----Cary--IL_R572734</id>
-    <title>Stryker: Customer One Intern (Data Analyst) - Cary, IL</title>
-    <link href="https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Cary-Illinois/Customer-One-Intern--Data-Analyst----Cary--IL_R572734"/>
-    <updated>2026-09-08T13:47:25Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Cary, Illinois · status: closed · H-1B track record: ~104 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9</id>
-    <title>Skydio: Autonomy Engineer Intern, Computer Vision / Deep Learning, Summer 2027</title>
-    <link href="https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"/>
-    <updated>2026-09-04T01:32:39Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · San Mateo, California, United States · $47/hr · Computer Vision, Python, C++, PyTorch · H-1B track record: ~26 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:the-exploration-company:86270058-8eec-4692-b49d-97ce59fd54ac</id>
-    <title>The Exploration Company: Summer 2027 Internship (Software) 🇺🇸</title>
-    <link href="https://jobs.ashbyhq.com/the-exploration-company/86270058-8eec-4692-b49d-97ce59fd54ac"/>
-    <updated>2026-09-03T21:13:16Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · California · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:axq:6181069004</id>
-    <title>AXQ Capital: Quantitative Research Intern (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/axq/jobs/6181069004"/>
-    <updated>2026-09-03T21:13:16Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · New York · Python</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:waymo:8174504</id>
-    <title>Waymo: 2027 Summer Intern, MS, Software Engineering, Behavior Test</title>
-    <link href="https://careers.withwaymo.com/jobs?gh_jid=8174504"/>
-    <updated>2026-09-03T21:13:16Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, California, USA · Python, SQL · H-1B track record: ~284 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:foth:072d5e17-c095-49bc-ac02-4cd558bb5d64</id>
-    <title>FOTH: Civil Engineering Intern-Coastal Infrastructure (Summer 2027)</title>
-    <link href="https://jobs.lever.co/foth/072d5e17-c095-49bc-ac02-4cd558bb5d64"/>
-    <updated>2026-09-03T21:13:16Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Newport, Rhode Island · 21–26 USD/hr</summary>
   </entry>
 </feed>
