@@ -1,7 +1,37 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workable:coretek-services:8D69C6C871",
+      "workday:buildertrend:/job/Omaha-NE/Software-Engineering-Inter_JR-000467",
+      "greenhouse:chaosindustries:5226636007",
+      "smartrecruiters:Eurofins:744000148531473",
+      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713",
+      "workday:myhrhome:/job/Evansville-IN/Software-Developer-Intern---Document-Shared-Services--Part-Time-_R2608-52284",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01872878",
+      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Group--AI-ML-Engineering-Summer-2027-Internship_R-1100605",
+      "greenhouse:viamrobotics:6185046004"
+    ],
+    "telegram": [
+      "workable:coretek-services:8D69C6C871",
+      "workday:buildertrend:/job/Omaha-NE/Software-Engineering-Inter_JR-000467",
+      "greenhouse:chaosindustries:5226636007",
+      "smartrecruiters:Eurofins:744000148531473",
+      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713",
+      "workday:myhrhome:/job/Evansville-IN/Software-Developer-Intern---Document-Shared-Services--Part-Time-_R2608-52284",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01872878",
+      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Group--AI-ML-Engineering-Summer-2027-Internship_R-1100605",
+      "greenhouse:viamrobotics:6185046004"
+    ],
+    "personal_email": [
+      "workable:coretek-services:8D69C6C871",
+      "workday:buildertrend:/job/Omaha-NE/Software-Engineering-Inter_JR-000467",
+      "greenhouse:chaosindustries:5226636007",
+      "smartrecruiters:Eurofins:744000148531473",
+      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713",
+      "workday:myhrhome:/job/Evansville-IN/Software-Developer-Intern---Document-Shared-Services--Part-Time-_R2608-52284",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01872878",
+      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Group--AI-ML-Engineering-Summer-2027-Internship_R-1100605",
+      "greenhouse:viamrobotics:6185046004"
+    ]
   }
 }
