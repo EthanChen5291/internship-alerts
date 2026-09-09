@@ -5,15 +5,63 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-09T19:43:02Z</updated>
+  <updated>2026-09-09T22:14:20Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:lever:crestoperations:e012721c-e731-483d-a4e3-1a240c48bfbd</id>
-    <title>Crest Industries: Developer Intern</title>
-    <link href="https://jobs.lever.co/crestoperations/e012721c-e731-483d-a4e3-1a240c48bfbd"/>
-    <updated>2026-09-09T19:43:02Z</updated>
+    <id>urn:intern-engine:ashby:saronic:60afb634-5515-4347-824a-3816735541c2</id>
+    <title>Saronic: Software Engineer Intern (Summer 2027) 🇺🇸</title>
+    <link href="https://jobs.ashbyhq.com/saronic/60afb634-5515-4347-824a-3816735541c2"/>
+    <updated>2026-09-09T22:14:20Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Austin, TX · Python, C++, Rust, TypeScript, JavaScript · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:sierra:34b31b67-268c-4270-b48f-72e59064c96e</id>
+    <title>Sierra: Software Engineer Intern, Agent (Summer 2027)</title>
+    <link href="https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e"/>
+    <updated>2026-09-09T22:14:20Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Francisco, CA · TypeScript, LLMs, React</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workable:syntiant:113F994B7B</id>
+    <title>Syntiant: Machine Learning Intern - KWS/AED</title>
+    <link href="https://apply.workable.com/syntiant/j/113F994B7B/"/>
+    <updated>2026-09-09T22:14:20Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Pineville, Louisiana</summary>
+    <summary>Not stated · Data &amp; ML/AI · Redwood City, California, United States · Python, PyTorch, TensorFlow</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071</id>
+    <title>Booz Allen: Enterprise Cybersecurity Education and Execution Intern 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071"/>
+    <updated>2026-09-09T22:14:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · McLean, VA · $108k/yr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085</id>
+    <title>Booz Allen: University – Summer 27, Enterprise Cybersecurity Vulnerability Intern 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085"/>
+    <updated>2026-09-09T22:14:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · McLean, VA · $126k/yr · Python, SQL, AWS, GCP, Azure · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-IT-Policy-Intern_R0249077</id>
+    <title>Booz Allen: University – Summer 27, Enterprise Cybersecurity IT Policy Intern 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-IT-Policy-Intern_R0249077"/>
+    <updated>2026-09-09T22:14:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · McLean, VA · $108k/yr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249083</id>
+    <title>Booz Allen: University – Summer 27, Enterprise Cybersecurity Data Loss Prevention Intern 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249083"/>
+    <updated>2026-09-09T22:14:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · McLean, VA · $108k/yr · AWS, GCP, Azure · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:interplay:bdf67758-1f20-4a01-8bb3-ccebfa79e9ac</id>
@@ -22,6 +70,14 @@
     <updated>2026-09-09T19:43:02Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · New York · Python, TypeScript, JavaScript, SQL, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:crestoperations:e012721c-e731-483d-a4e3-1a240c48bfbd</id>
+    <title>Crest Industries: Developer Intern</title>
+    <link href="https://jobs.lever.co/crestoperations/e012721c-e731-483d-a4e3-1a240c48bfbd"/>
+    <updated>2026-09-09T19:43:02Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Pineville, Louisiana</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:edbz.fa.us2.oraclecloud.com:25017573</id>
@@ -750,61 +806,5 @@
     <updated>2026-09-04T19:22:44Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Chicago, IL · $36–$40/hr · Python, SQL · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:idmeuniversityrecruiting:7980429003</id>
-    <title>ID.me: Summer Intern 2027 - Software Development Engineer Intern</title>
-    <link href="https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7980429003"/>
-    <updated>2026-09-04T16:31:29Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Mountain View, CA · Python, Java, JavaScript, Ruby, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:scaleai:4730845005</id>
-    <title>Scale AI: Software Engineering Intern (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/scaleai/jobs/4730845005"/>
-    <updated>2026-09-04T16:31:29Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA · Python, TypeScript, LLMs, React, MongoDB · H-1B track record: ~26 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:skillzinc:8168006</id>
-    <title>skillz: Co-op, Software Engineer</title>
-    <link href="https://job-boards.greenhouse.io/skillzinc/jobs/8168006"/>
-    <updated>2026-09-04T16:31:29Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · Las Vegas, Nevada, United States · $32/hr · Java, AWS, Git · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:edbz.fa.us2.oraclecloud.com:25017705</id>
-    <title>Texas Instruments: Systems Engineering Intern - Machine Learning Expert</title>
-    <link href="https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25017705"/>
-    <updated>2026-09-04T16:31:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Dallas, TX, United States · Python, C++, PyTorch, LLMs · H-1B track record: ~234 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1007589</id>
-    <title>Stantec: Digital Practice Co-op/Intern - Infrastructure (Spring/Summer 2027)</title>
-    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007589"/>
-    <updated>2026-09-04T16:31:29Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Washington, DC, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workable:enfos-inc:CA15908E0A</id>
-    <title>ENFOS: Software Engineer Intern (Summer 2027)</title>
-    <link href="https://apply.workable.com/enfos-inc/j/CA15908E0A/"/>
-    <updated>2026-09-04T16:31:29Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Durham, North Carolina, United States; Chicago, Illinois, United States · Python, Java, TypeScript, JavaScript, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553</id>
-    <title>Direct Supply: AI Engineer Intern</title>
-    <link href="https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553"/>
-    <updated>2026-09-04T21:40:37Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Milwaukee, WI · Python, React, Node.js, AWS · status: closed · H-1B track record: ~11 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

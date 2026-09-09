@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-09T19:43:02Z",
- "data_as_of": "2026-09-09T19:43:02Z",
- "rendered_at": "2026-09-09T19:43:02Z",
+ "generated_at": "2026-09-09T22:14:20Z",
+ "data_as_of": "2026-09-09T22:14:20Z",
+ "rendered_at": "2026-09-09T22:14:20Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1697,6 +1697,25 @@
    }
   },
   {
+   "company": "Sierra",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-31",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-31",
+   "days_until": -9,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-31"
+   }
+  },
+  {
    "company": "Stryker",
    "last_cycle_posted": "",
    "posted_on": "2026-08-31",
@@ -2677,6 +2696,25 @@
    "days_until": 0,
    "status": "open",
    "url": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Mineral-Wells-TX/Intern--Software-Engineering_R-26-19888-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-09"
+   }
+  },
+  {
+   "company": "Saronic",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-09",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-09",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/saronic/60afb634-5515-4347-824a-3816735541c2",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5497,5 +5535,5 @@
    }
   }
  ],
- "count": 289
+ "count": 291
 }
