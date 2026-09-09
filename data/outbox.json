@@ -1,7 +1,13 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:moog:/job/Mineral-Wells-TX/Intern--Software-Engineering_R-26-19888-1"
+    ],
+    "telegram": [
+      "workday:moog:/job/Mineral-Wells-TX/Intern--Software-Engineering_R-26-19888-1"
+    ],
+    "personal_email": [
+      "workday:moog:/job/Mineral-Wells-TX/Intern--Software-Engineering_R-26-19888-1"
+    ]
   }
 }
