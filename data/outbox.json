@@ -1,31 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "ashby:saronic:60afb634-5515-4347-824a-3816735541c2",
-      "ashby:sierra:34b31b67-268c-4270-b48f-72e59064c96e",
-      "workable:syntiant:113F994B7B",
-      "workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071",
-      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085",
-      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-IT-Policy-Intern_R0249077",
-      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249083"
-    ],
-    "telegram": [
-      "ashby:saronic:60afb634-5515-4347-824a-3816735541c2",
-      "ashby:sierra:34b31b67-268c-4270-b48f-72e59064c96e",
-      "workable:syntiant:113F994B7B",
-      "workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071",
-      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085",
-      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-IT-Policy-Intern_R0249077",
-      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249083"
-    ],
-    "personal_email": [
-      "ashby:saronic:60afb634-5515-4347-824a-3816735541c2",
-      "ashby:sierra:34b31b67-268c-4270-b48f-72e59064c96e",
-      "workable:syntiant:113F994B7B",
-      "workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071",
-      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085",
-      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-IT-Policy-Intern_R0249077",
-      "workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249083"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
