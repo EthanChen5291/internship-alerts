@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-09T06:53:54Z</updated>
+  <updated>2026-09-09T12:06:14Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-evfm-saasfaprod1.fa.ocs.oraclecloud.com:15624</id>
+    <title>Zachry Group: Cyber Security Specialist I - Intern</title>
+    <link href="https://fa-evfm-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1029/job/15624"/>
+    <updated>2026-09-09T12:06:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Stonington, CT, United States; Charlotte, NC, United States · HTML/CSS</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:moog:/job/Mineral-Wells-TX/Intern--Software-Engineering_R-26-19888-1</id>
     <title>Moog: Intern, Software Engineering</title>
@@ -235,9 +243,9 @@
     <id>urn:intern-engine:workday:chrobinson:/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323</id>
     <title>C.H. Robinson: Software Engineering Internship 2027</title>
     <link href="https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323"/>
-    <updated>2026-09-08T17:40:34Z</updated>
+    <updated>2026-09-09T11:48:31Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Eden Prairie, MN United States of America · $15–$30/hr · C#, JavaScript, SQL, React, HTML/CSS</summary>
+    <summary>Summer 2027 · Software · Eden Prairie, MN United States of America · $15–$30/hr · C#, JavaScript, SQL, React, HTML/CSS · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:deluxe:/job/Minneapolis-MN-USA/Software-Engineer---Intern_261115WD</id>
@@ -798,13 +806,5 @@
     <updated>2026-09-03T21:13:16Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Southern Pines, NC · MATLAB</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:snc:/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760</id>
-    <title>Sierra Nevada Corporation: Software Engineering Intern (Summer 2027) 🇺🇸</title>
-    <link href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760"/>
-    <updated>2026-09-03T21:13:16Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Sparks, NV · MATLAB · sponsorship: citizens-only</summary>
   </entry>
 </feed>

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T06:53:54Z",
-  "fetched_at": "2026-09-09T06:53:54Z",
-  "duration_seconds": 1069.9,
+  "generated_at": "2026-09-09T12:06:14Z",
+  "fetched_at": "2026-09-09T12:06:14Z",
+  "duration_seconds": 1062.4,
   "companies_total": 4733,
   "companies_by_source": {
     "greenhouse": 1055,
@@ -18,43 +18,43 @@
     "microsoft_program": 1,
     "eightfold": 1
   },
-  "quarantined": 270,
-  "fetched_ok": 4315,
-  "fetch_errors": 148,
+  "quarantined": 331,
+  "fetched_ok": 4340,
+  "fetch_errors": 62,
   "errors_by_source": {
-    "workday": 103,
-    "greenhouse": 3,
-    "ashby": 3,
-    "workable": 39
+    "workday": 57,
+    "rippling": 1,
+    "ashby": 2,
+    "workable": 2
   },
-  "fetch_success_rate": 0.967,
-  "fetch_success_rate_registry": 0.912,
-  "snapshots_complete": 3749,
-  "snapshots_partial": 566,
+  "fetch_success_rate": 0.986,
+  "fetch_success_rate_registry": 0.917,
+  "snapshots_complete": 3759,
+  "snapshots_partial": 581,
   "partial_by_reason": {
-    "result-cap": 551,
-    "malformed-response": 15
+    "result-cap": 547,
+    "malformed-response": 34
   },
-  "degraded_fetches": 15,
-  "roles_matched": 494,
-  "dropped_no_year_in_title": 402,
-  "dropped_offcycle_by_text": 193,
-  "roles_cycle_inferred": 185,
+  "degraded_fetches": 34,
+  "roles_matched": 452,
+  "dropped_no_year_in_title": 405,
+  "dropped_offcycle_by_text": 192,
+  "roles_cycle_inferred": 187,
   "roles_by_source": {
     "amazon": 4,
     "ashby": 33,
     "breezy": 1,
     "greenhouse": 107,
     "lever": 16,
-    "oracle": 95,
+    "oracle": 96,
     "smartrecruiters": 28,
-    "workable": 2,
-    "workday": 279
+    "workable": 4,
+    "workday": 276
   },
   "roles_by_cycle": {
     "Fall 2026": 27,
-    "Summer 2027": 353,
-    "Not stated": 185
+    "Summer 2027": 351,
+    "Not stated": 187
   },
   "roles_by_region": {
     "US": 565
@@ -82,5 +82,5 @@
     "median_days": 9,
     "sample_size": 133
   },
-  "rendered_at": "2026-09-09T06:53:54Z"
+  "rendered_at": "2026-09-09T12:06:14Z"
 }
