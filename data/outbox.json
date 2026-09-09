@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "oracle:fa-evfm-saasfaprod1.fa.ocs.oraclecloud.com:15624"
-    ],
-    "telegram": [
-      "oracle:fa-evfm-saasfaprod1.fa.ocs.oraclecloud.com:15624"
-    ],
-    "personal_email": [
-      "oracle:fa-evfm-saasfaprod1.fa.ocs.oraclecloud.com:15624"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
