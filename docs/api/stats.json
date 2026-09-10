@@ -47,10 +47,10 @@
   "greenhouse": 111,
   "lever": 19,
   "oracle": 97,
+  "rippling": 2,
   "smartrecruiters": 30,
   "workable": 4,
-  "workday": 294,
-  "rippling": 2
+  "workday": 294
  },
  "roles_by_cycle": {
   "Fall 2026": 29,
@@ -83,5 +83,6 @@
   "median_days": 9.5,
   "sample_size": 138
  },
- "rendered_at": "2026-09-10T13:49:29Z"
+ "rendered_at": "2026-09-10T13:51:47Z",
+ "stats_basis": "counts recomputed from the store; fetch metrics from the last run"
 }

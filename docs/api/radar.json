@@ -1,7 +1,7 @@
 {
  "generated_at": "2026-09-10T13:49:28Z",
  "data_as_of": "2026-09-10T13:49:28Z",
- "rendered_at": "2026-09-10T13:49:29Z",
+ "rendered_at": "2026-09-10T13:51:47Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2695,7 +2695,7 @@
    "expected": "2026-09-09",
    "days_until": -1,
    "status": "open",
-   "url": "https://jobs.lever.co/immuta/b9b21075-74a4-4b64-8f1b-f0be1fb0b24d",
+   "url": "https://jobs.lever.co/immuta/3c4cb235-6138-4a50-add2-666a5216427e",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2828,11 +2828,11 @@
    "expected": "",
    "days_until": null,
    "status": "open",
-   "url": "https://ats.rippling.com/collieraerospace/jobs/b666dbfe-34e5-422f-8879-4d53c0ae1f51",
+   "url": "https://ats.rippling.com/collieraerospace/jobs/4981b0ba-5b6f-4ebe-95c0-9d1cda036b77",
    "note": "",
    "provenance": {
     "type": "live-role",
-    "url": "https://ats.rippling.com/collieraerospace/jobs/b666dbfe-34e5-422f-8879-4d53c0ae1f51"
+    "url": "https://ats.rippling.com/collieraerospace/jobs/4981b0ba-5b6f-4ebe-95c0-9d1cda036b77"
    }
   },
   {

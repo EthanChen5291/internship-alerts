@@ -8,38 +8,6 @@
   <updated>2026-09-10T13:49:28Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:rippling:collieraerospace:b666dbfe-34e5-422f-8879-4d53c0ae1f51</id>
-    <title>Collier Aerospace: Software Engineering Intern (Summer 2027)</title>
-    <link href="https://ats.rippling.com/collieraerospace/jobs/b666dbfe-34e5-422f-8879-4d53c0ae1f51"/>
-    <updated>2026-09-10T13:49:28Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Newport News, VA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:collieraerospace:4981b0ba-5b6f-4ebe-95c0-9d1cda036b77</id>
-    <title>Collier Aerospace: Software Engineering Intern - Web Applications (Summer 2027)</title>
-    <link href="https://ats.rippling.com/collieraerospace/jobs/4981b0ba-5b6f-4ebe-95c0-9d1cda036b77"/>
-    <updated>2026-09-10T13:49:28Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Newport News, VA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:immuta:b9b21075-74a4-4b64-8f1b-f0be1fb0b24d</id>
-    <title>Immuta: Full-Stack Engineering Internship - Summer 2027</title>
-    <link href="https://jobs.lever.co/immuta/b9b21075-74a4-4b64-8f1b-f0be1fb0b24d"/>
-    <updated>2026-09-10T13:49:28Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Columbus, OH · 25–30 USD/hr · TypeScript, JavaScript, Node.js, AWS, GCP</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:immuta:3c4cb235-6138-4a50-add2-666a5216427e</id>
-    <title>Immuta: Platform &amp; Site Reliability Engineering Internship - Summer 2027</title>
-    <link href="https://jobs.lever.co/immuta/3c4cb235-6138-4a50-add2-666a5216427e"/>
-    <updated>2026-09-10T13:49:28Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Columbus, OH · 25–30 USD/hr · AWS, GCP, Azure, Databricks, Snowflake</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:ashby:seqholdings:9dc9a7f3-198a-43c0-be75-a3aba228bf2c</id>
     <title>Sequence Holdings: Software Engineer (Intern)</title>
     <link href="https://jobs.ashbyhq.com/seqholdings/9dc9a7f3-198a-43c0-be75-a3aba228bf2c"/>
@@ -56,6 +24,54 @@
     <summary>Not stated · Software · Reno, Nevada, United States; San Francisco, California, United States · C++, Go, Rust</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:greenhouse:pacificfusion:4398373009</id>
+    <title>Pacific Fusion: Summer 2027 Internship- Software Engineering</title>
+    <link href="https://job-boards.greenhouse.io/pacificfusion/jobs/4398373009"/>
+    <updated>2026-09-10T13:49:28Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Leandro, CA/Fremont, CA or Los Lunas, NM · Python, TypeScript, JavaScript, SQL, MATLAB</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:immuta:3c4cb235-6138-4a50-add2-666a5216427e</id>
+    <title>Immuta: Platform &amp; Site Reliability Engineering Internship - Summer 2027</title>
+    <link href="https://jobs.lever.co/immuta/3c4cb235-6138-4a50-add2-666a5216427e"/>
+    <updated>2026-09-10T13:49:28Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Columbus, OH · 25–30 USD/hr · AWS, GCP, Azure, Databricks, Snowflake</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:immuta:b9b21075-74a4-4b64-8f1b-f0be1fb0b24d</id>
+    <title>Immuta: Full-Stack Engineering Internship - Summer 2027</title>
+    <link href="https://jobs.lever.co/immuta/b9b21075-74a4-4b64-8f1b-f0be1fb0b24d"/>
+    <updated>2026-09-10T13:49:28Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Columbus, OH · 25–30 USD/hr · TypeScript, JavaScript, Node.js, AWS, GCP</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:rippling:collieraerospace:4981b0ba-5b6f-4ebe-95c0-9d1cda036b77</id>
+    <title>Collier Aerospace: Software Engineering Intern - Web Applications (Summer 2027)</title>
+    <link href="https://ats.rippling.com/collieraerospace/jobs/4981b0ba-5b6f-4ebe-95c0-9d1cda036b77"/>
+    <updated>2026-09-10T13:49:28Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Newport News, VA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:rippling:collieraerospace:b666dbfe-34e5-422f-8879-4d53c0ae1f51</id>
+    <title>Collier Aerospace: Software Engineering Intern (Summer 2027)</title>
+    <link href="https://ats.rippling.com/collieraerospace/jobs/b666dbfe-34e5-422f-8879-4d53c0ae1f51"/>
+    <updated>2026-09-10T13:49:28Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Newport News, VA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:PilotCompany:744000148577368</id>
+    <title>Pilot Company: Program Intern, Infrastructure Support</title>
+    <link href="https://jobs.smartrecruiters.com/PilotCompany/744000148577368"/>
+    <updated>2026-09-10T13:49:28Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Knoxville, TN, United States · AWS</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:workday:greatamerica:/job/Cedar-Rapids-IA/Software-Engineer-Intern_JR1221</id>
     <title>GreatAmerica Financial Services: Software Engineer Intern</title>
     <link href="https://greatamerica.wd12.myworkdayjobs.com/greatamericacareers/job/Cedar-Rapids-IA/Software-Engineer-Intern_JR1221"/>
@@ -70,22 +86,6 @@
     <updated>2026-09-10T13:49:28Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Houston, TX · Python, JavaScript, Angular, PostgreSQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:pacificfusion:4398373009</id>
-    <title>Pacific Fusion: Summer 2027 Internship- Software Engineering</title>
-    <link href="https://job-boards.greenhouse.io/pacificfusion/jobs/4398373009"/>
-    <updated>2026-09-10T13:49:28Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Leandro, CA/Fremont, CA or Los Lunas, NM · Python, TypeScript, JavaScript, SQL, MATLAB</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:PilotCompany:744000148577368</id>
-    <title>Pilot Company: Program Intern, Infrastructure Support</title>
-    <link href="https://jobs.smartrecruiters.com/PilotCompany/744000148577368"/>
-    <updated>2026-09-10T13:49:28Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Knoxville, TN, United States · AWS</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:Eurofins:744000148712379</id>
