@@ -5,8 +5,72 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-10T20:18:56Z</updated>
+  <updated>2026-09-10T22:42:38Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:bedrock-robotics:0331551e-c18e-428a-8e91-e6cb25c9c2e8</id>
+    <title>Bedrock Robotics: Internship 2027 Onboard Infrastructure Engineer, ML Inference</title>
+    <link href="https://jobs.ashbyhq.com/bedrock-robotics/0331551e-c18e-428a-8e91-e6cb25c9c2e8"/>
+    <updated>2026-09-10T22:42:38Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA · C++, Rust, PyTorch, LLMs, CUDA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:bedrock-robotics:c51d682e-58ee-44de-886f-4cfacb56d2e1</id>
+    <title>Bedrock Robotics: Internship 2027 Behavior Machine Learning Engineer, World Models</title>
+    <link href="https://jobs.ashbyhq.com/bedrock-robotics/c51d682e-58ee-44de-886f-4cfacb56d2e1"/>
+    <updated>2026-09-10T22:42:38Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA · Python, PyTorch</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249131-1</id>
+    <title>Booz Allen: Enterprise Cybersecurity Data Loss Prevention Intern 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249131-1"/>
+    <updated>2026-09-10T22:42:38Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · McLean, VA · $108k/yr · AWS, GCP, Azure · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cox:/job/Atlanta-GA/Infrastructure-Operations-Intern---Summer-2027_R202682357</id>
+    <title>Cox: Infrastructure Operations Intern - Summer 2027</title>
+    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Infrastructure-Operations-Intern---Summer-2027_R202682357"/>
+    <updated>2026-09-10T22:42:38Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Atlanta GA · $24.23–$36.35/hr · SQL, AWS, Azure, Terraform, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cox:/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342</id>
+    <title>Cox: AI/Automation Intern - Summer 2027</title>
+    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342"/>
+    <updated>2026-09-10T22:42:38Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Atlanta GA · $24.23–$36.35/hr · Python, Java, C#, TypeScript, JavaScript</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cox:/job/Atlanta-GA/Infrastructure-Automation-Intern---Summer-2027_R202682338</id>
+    <title>Cox: Infrastructure Automation Intern - Summer 2027</title>
+    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Infrastructure-Automation-Intern---Summer-2027_R202682338"/>
+    <updated>2026-09-10T22:42:38Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Atlanta GA · $24.23–$36.35/hr · AWS, Azure, Terraform, Linux, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288</id>
+    <title>Cox: Cybersecurity Intern - Summer 2027</title>
+    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288"/>
+    <updated>2026-09-10T22:42:38Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Atlanta GA · $24.23–$36.35/hr · Python, JavaScript</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:rfsmart:5407206008</id>
+    <title>RF-SMART: Product Engineering Software Developer Internship - Spring &amp; Summer 2027 🛂</title>
+    <link href="https://job-boards.greenhouse.io/rfsmart/jobs/5407206008"/>
+    <updated>2026-09-10T22:42:38Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Jacksonville, Florida, United States · $25/hr · C#, TypeScript · sponsorship: no-sponsorship</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:testnisc:8191898</id>
     <title>National Information Solutions Cooperative (NISC): Intern - Database Conversion Programming</title>
@@ -632,6 +696,14 @@
     <summary>Not stated · Data &amp; ML/AI · McLean, VA · $126k/yr · Python, Java, C++, JavaScript, SQL · sponsorship: citizens-only</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:workday:bah:/job/Washington-DC/University--Applied-AI-Intern_R0248853</id>
+    <title>Booz Allen: University, Applied AI Intern 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/Confidential/job/Washington-DC/University--Applied-AI-Intern_R0248853"/>
+    <updated>2026-09-08T20:26:59Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Washington, DC · $158k/yr · Python, Java, C++, JavaScript, SQL · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613</id>
     <title>RTX: Software Engineer Intern ( Summer 2027) 🇺🇸</title>
     <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613"/>
@@ -734,77 +806,5 @@
     <updated>2026-09-08T17:40:34Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Cincinnati, OH · Python</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:xcelenergy:/job/Amarillo-TX-79101/Data-Analyst-Intern--TX_JR115565-1</id>
-    <title>Xcel Energy: Data Analyst Intern- TX</title>
-    <link href="https://xcelenergy.wd1.myworkdayjobs.com/External/job/Amarillo-TX-79101/Data-Analyst-Intern--TX_JR115565-1"/>
-    <updated>2026-09-08T17:40:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Amarillo, TX, 79101 · $20.9–$24.6/hr · Databricks</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:slihrms:/job/USGAAtlanta2018-Powers-Ferry-Rd/Water-Infrastructure-Engineering-Intern---Summer-2027_R-163480-1</id>
-    <title>AtkinsRéalis: Water Infrastructure Engineering Intern - Summer 2027</title>
-    <link href="https://slihrms.wd3.myworkdayjobs.com/careers/job/USGAAtlanta2018-Powers-Ferry-Rd/Water-Infrastructure-Engineering-Intern---Summer-2027_R-163480-1"/>
-    <updated>2026-09-08T13:47:25Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US.GA.Atlanta.2018 Powers Ferry Rd</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cox:/job/Atlanta-GA/Software-Engineering-Intern---Summer-2027--Atlanta--GA-_R202682166</id>
-    <title>Cox: Software Engineering Intern - Summer 2027 (Atlanta, GA)</title>
-    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Software-Engineering-Intern---Summer-2027--Atlanta--GA-_R202682166"/>
-    <updated>2026-09-08T09:20:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Atlanta GA · $24.23–$36.35/hr · AWS, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cox:/job/Austin-TX/Software-Engineering-Intern---Summer-2027--Austin--TX-_R202682168</id>
-    <title>Cox: Software Engineering Intern - Summer 2027 (Austin, TX)</title>
-    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Austin-TX/Software-Engineering-Intern---Summer-2027--Austin--TX-_R202682168"/>
-    <updated>2026-09-08T09:20:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Austin TX · $26.63–$40/hr · AWS, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cox:/job/Burlington-VT/Software-Engineering-Intern---Summer-2027--Burlington--VT-_R202682172-1</id>
-    <title>Cox: Software Engineering Intern - Summer 2027 (Burlington, VT)</title>
-    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Burlington-VT/Software-Engineering-Intern---Summer-2027--Burlington--VT-_R202682172-1"/>
-    <updated>2026-09-08T09:20:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Burlington VT · $24.23–$36.35/hr · AWS, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cox:/job/Draper-UT/Software-Engineering-Intern---Summer-2027--Draper-UT-_R202682169</id>
-    <title>Cox: Software Engineering Intern - Summer 2027 (Draper UT)</title>
-    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Draper-UT/Software-Engineering-Intern---Summer-2027--Draper-UT-_R202682169"/>
-    <updated>2026-09-08T09:20:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Draper UT · $24.23–$36.35/hr · AWS, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cox:/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173</id>
-    <title>Cox: Software Engineering Intern - Summer 2027 (Irvine, CA)</title>
-    <link href="https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173"/>
-    <updated>2026-09-08T09:20:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Irvine CA · $29.09–$43.61/hr · AWS, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Development---CDS-AI-Research-Center_R0054625</id>
-    <title>Gilead Sciences: Intern - Development - CDS AI Research Center 🛂</title>
-    <link href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Development---CDS-AI-Research-Center_R0054625"/>
-    <updated>2026-09-08T09:20:32Z</updated>
-    <category term="Not stated"/>
-    <summary>2 openings · Not stated · Data &amp; ML/AI · United States - California - Foster City · PyTorch, scikit-learn · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Development---DevOps-Business-Strategy-Leader_R0054772</id>
-    <title>Gilead Sciences: Intern - Development - DevOps Business Strategy Leader 🛂</title>
-    <link href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Development---DevOps-Business-Strategy-Leader_R0054772"/>
-    <updated>2026-09-08T09:20:32Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · United States - California - Foster City · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

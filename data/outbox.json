@@ -1,7 +1,34 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:bedrock-robotics:0331551e-c18e-428a-8e91-e6cb25c9c2e8",
+      "ashby:bedrock-robotics:c51d682e-58ee-44de-886f-4cfacb56d2e1",
+      "workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249131-1",
+      "workday:cox:/job/Atlanta-GA/Infrastructure-Operations-Intern---Summer-2027_R202682357",
+      "workday:cox:/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342",
+      "workday:cox:/job/Atlanta-GA/Infrastructure-Automation-Intern---Summer-2027_R202682338",
+      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288",
+      "greenhouse:rfsmart:5407206008"
+    ],
+    "telegram": [
+      "ashby:bedrock-robotics:0331551e-c18e-428a-8e91-e6cb25c9c2e8",
+      "ashby:bedrock-robotics:c51d682e-58ee-44de-886f-4cfacb56d2e1",
+      "workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249131-1",
+      "workday:cox:/job/Atlanta-GA/Infrastructure-Operations-Intern---Summer-2027_R202682357",
+      "workday:cox:/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342",
+      "workday:cox:/job/Atlanta-GA/Infrastructure-Automation-Intern---Summer-2027_R202682338",
+      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288",
+      "greenhouse:rfsmart:5407206008"
+    ],
+    "personal_email": [
+      "ashby:bedrock-robotics:0331551e-c18e-428a-8e91-e6cb25c9c2e8",
+      "ashby:bedrock-robotics:c51d682e-58ee-44de-886f-4cfacb56d2e1",
+      "workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249131-1",
+      "workday:cox:/job/Atlanta-GA/Infrastructure-Operations-Intern---Summer-2027_R202682357",
+      "workday:cox:/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342",
+      "workday:cox:/job/Atlanta-GA/Infrastructure-Automation-Intern---Summer-2027_R202682338",
+      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288",
+      "greenhouse:rfsmart:5407206008"
+    ]
   }
 }

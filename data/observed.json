@@ -435,6 +435,19 @@
     }
    }
   },
+  "bedrock robotics": {
+   "name": "Bedrock Robotics",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "ashby:bedrock-robotics:0331551e-c18e-428a-8e91-e6cb25c9c2e8",
+      "ashby:bedrock-robotics:c51d682e-58ee-44de-886f-4cfacb56d2e1"
+     ],
+     "count": 2
+    }
+   }
+  },
   "belvedere trading": {
    "name": "Belvedere Trading",
    "cycles": {
@@ -804,6 +817,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-04",
      "role_ids": [
+      "workday:cox:/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342",
+      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288",
+      "workday:cox:/job/Atlanta-GA/Infrastructure-Automation-Intern---Summer-2027_R202682338",
+      "workday:cox:/job/Atlanta-GA/Infrastructure-Operations-Intern---Summer-2027_R202682357",
       "workday:cox:/job/Atlanta-GA/Software-Engineering-Intern---Summer-2027--Atlanta--GA-_R202682166",
       "workday:cox:/job/Austin-TX/Software-Engineering-Intern---Summer-2027--Austin--TX-_R202682168",
       "workday:cox:/job/Burlington-VT/Software-Engineering-Intern---Summer-2027--Burlington--VT-_R202682172-1",
@@ -811,7 +828,7 @@
       "workday:cox:/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173",
       "workday:cox:/job/Long-Island-NY/Software-Engineering-Intern---Summer-2027--North-Hills--NY-_R202682171-1"
      ],
-     "count": 6
+     "count": 10
     }
    }
   },
@@ -2347,9 +2364,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-08",
      "role_ids": [
+      "greenhouse:rfsmart:5407206008",
       "greenhouse:rfsmart:5409034008"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3272,5 +3290,5 @@
    }
   }
  },
- "updated_at": "2026-09-10T20:18:56Z"
+ "updated_at": "2026-09-10T22:42:38Z"
 }
