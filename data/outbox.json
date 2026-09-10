@@ -1,7 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "lever:shieldai:8c850c75-081d-4d09-bebf-096379a93010",
+      "greenhouse:rocketlab:7989722003"
+    ],
+    "telegram": [
+      "lever:shieldai:8c850c75-081d-4d09-bebf-096379a93010",
+      "greenhouse:rocketlab:7989722003"
+    ],
+    "personal_email": [
+      "lever:shieldai:8c850c75-081d-4d09-bebf-096379a93010",
+      "greenhouse:rocketlab:7989722003"
+    ]
   }
 }

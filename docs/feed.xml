@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-09T22:14:20Z</updated>
+  <updated>2026-09-10T00:20:59Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:lever:shieldai:8c850c75-081d-4d09-bebf-096379a93010</id>
+    <title>Shield AI: Summer 2027 - Software Engineer Intern</title>
+    <link href="https://jobs.lever.co/shieldai/8c850c75-081d-4d09-bebf-096379a93010"/>
+    <updated>2026-09-10T00:20:59Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Diego, California · 37–97 USD/hr · Python, Java, C++, JavaScript, PyTorch</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:rocketlab:7989722003</id>
+    <title>Rocket Lab: Flight Software Intern Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/rocketlab/jobs/7989722003"/>
+    <updated>2026-09-10T00:20:59Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Littleton, CO · Python, C++, Rust, Git · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:saronic:60afb634-5515-4347-824a-3816735541c2</id>
     <title>Saronic: Software Engineer Intern (Summer 2027) 🇺🇸</title>
@@ -40,12 +56,12 @@
     <summary>Not stated · Security · McLean, VA · $108k/yr · sponsorship: citizens-only</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085</id>
-    <title>Booz Allen: University – Summer 27, Enterprise Cybersecurity Vulnerability Intern 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085"/>
+    <id>urn:intern-engine:workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249083</id>
+    <title>Booz Allen: University – Summer 27, Enterprise Cybersecurity Data Loss Prevention Intern 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249083"/>
     <updated>2026-09-09T22:14:20Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Security · McLean, VA · $126k/yr · Python, SQL, AWS, GCP, Azure · sponsorship: citizens-only</summary>
+    <summary>Not stated · Data &amp; ML/AI · McLean, VA · $108k/yr · AWS, GCP, Azure · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-IT-Policy-Intern_R0249077</id>
@@ -56,12 +72,12 @@
     <summary>Not stated · Security · McLean, VA · $108k/yr · sponsorship: citizens-only</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249083</id>
-    <title>Booz Allen: University – Summer 27, Enterprise Cybersecurity Data Loss Prevention Intern 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249083"/>
+    <id>urn:intern-engine:workday:bah:/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085</id>
+    <title>Booz Allen: University – Summer 27, Enterprise Cybersecurity Vulnerability Intern 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085"/>
     <updated>2026-09-09T22:14:20Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · McLean, VA · $108k/yr · AWS, GCP, Azure · sponsorship: citizens-only</summary>
+    <summary>Not stated · Security · McLean, VA · $126k/yr · Python, SQL, AWS, GCP, Azure · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:interplay:bdf67758-1f20-4a01-8bb3-ccebfa79e9ac</id>
@@ -790,21 +806,5 @@
     <updated>2026-09-04T19:22:44Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Hamel, MN, United States · Python, C#, SQL, PyTorch, Pandas</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648</id>
-    <title>CACI: Software Engineer Intern - Summer 2027 🇺🇸</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"/>
-    <updated>2026-09-04T19:22:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Ypsilanti, MI, US · Python, Java, C++, Rust, CUDA · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cibc:/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1</id>
-    <title>CIBC: 2027 Summer Intern - Software Engineering 🛂</title>
-    <link href="https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Software-Engineering_2618322-1"/>
-    <updated>2026-09-04T19:22:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Chicago, IL · $36–$40/hr · Python, SQL · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>
