@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:epicgames:6183293004"
-    ],
-    "telegram": [
-      "greenhouse:epicgames:6183293004"
-    ],
-    "personal_email": [
-      "greenhouse:epicgames:6183293004"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
