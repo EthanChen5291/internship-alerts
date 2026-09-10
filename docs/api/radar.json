@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-10T17:26:15Z",
- "data_as_of": "2026-09-10T17:26:15Z",
- "rendered_at": "2026-09-10T17:26:15Z",
+ "generated_at": "2026-09-10T20:18:56Z",
+ "data_as_of": "2026-09-10T20:18:56Z",
+ "rendered_at": "2026-09-10T20:18:56Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1393,25 +1393,6 @@
    }
   },
   {
-   "company": "AnaVation",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-27",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-27",
-   "days_until": -14,
-   "status": "open",
-   "url": "https://jobs.lever.co/anavationllc/a5c70b6a-2d16-4774-9043-677456614b1b",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-27"
-   }
-  },
-  {
    "company": "Booz Allen",
    "last_cycle_posted": "",
    "posted_on": "2026-08-27",
@@ -2011,7 +1992,7 @@
    "expected": "2026-09-02",
    "days_until": -8,
    "status": "open",
-   "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
+   "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/CT-Bloomfield-900-Cottage-Grove-Rd-Wilde-Bldg/The-Cigna-Group-s-Technology-Development-Program-----Infrastructure---Cloud-Engineering-Track_26009529",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2476,6 +2457,25 @@
    }
   },
   {
+   "company": "C.H. Robinson",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -2,
+   "status": "open",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "Coinbase",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -2544,25 +2544,6 @@
    "days_until": -2,
    "status": "open",
    "url": "https://meijer.wd5.myworkdayjobs.com/Meijer/job/Grand-Rapids-MI/Information-Security-Intern--Summer-2027_R000698302",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
-   "company": "Merck",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -2,
-   "status": "open",
-   "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---AI-ML-Computational-Toxicology---Intern_R412871",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2856,6 +2837,25 @@
    }
   },
   {
+   "company": "National Information Solutions Cooperative (NISC)",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-10",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/testnisc/jobs/8191898",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-10"
+   }
+  },
+  {
    "company": "Nelnet",
    "last_cycle_posted": "",
    "posted_on": "2026-09-10",
@@ -2868,6 +2868,25 @@
    "status": "open",
    "url": "https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---Software-Engineer---New-Ventures---Starting-Summer-2026_R23098",
    "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-10"
+   }
+  },
+  {
+   "company": "Target",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-10",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Software-Engineering-Summer-Internship-Minneapolis--MN--Starting-June-2027-_R0000451082",
+   "note": "opens late summer",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -3649,25 +3668,6 @@
    "provenance": {
     "type": "verified-window",
     "url": "careers.snowflake.com",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
-   "company": "Target",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-08-01",
-   "days_until": -40,
-   "status": "waiting",
-   "url": "",
-   "note": "opens late summer",
-   "provenance": {
-    "type": "verified-window",
-    "url": "https://corporate.target.com/careers",
     "verified_at": "2026-07-21"
    }
   },
@@ -5591,6 +5591,25 @@
    }
   },
   {
+   "company": "AnaVation",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-27",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-27",
+   "days_until": -14,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-27"
+   }
+  },
+  {
    "company": "Bosch",
    "last_cycle_posted": "",
    "posted_on": "2026-08-31",
@@ -5686,7 +5705,7 @@
    }
   },
   {
-   "company": "C.H. Robinson",
+   "company": "CHAOS Industries",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
    "precision": "day",
@@ -5705,7 +5724,7 @@
    }
   },
   {
-   "company": "CHAOS Industries",
+   "company": "Merck",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
    "precision": "day",
@@ -5724,5 +5743,5 @@
    }
   }
  ],
- "count": 301
+ "count": 302
 }

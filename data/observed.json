@@ -1888,6 +1888,19 @@
     }
    }
   },
+  "national information solutions cooperative nisc": {
+   "name": "National Information Solutions Cooperative (NISC)",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "greenhouse:testnisc:8191898",
+      "greenhouse:testnisc:8191987"
+     ],
+     "count": 2
+    }
+   }
+  },
   "neighbor": {
    "name": "Neighbor",
    "cycles": {
@@ -2394,6 +2407,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Software-Engineering-Intern-Summer-2027-_01870349-1",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01868241",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01871019",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Summer--Fall-2027-_01873293",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Summer-Fall-2027---Onsite-_01869518",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern--Summer-2027-_01866136",
@@ -2407,7 +2421,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-179--855-35Th-St-NE--BLDG-179/Software-Engineering-Intern--Summer-Fall-2027-_01873006",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324"
      ],
-     "count": 17
+     "count": 18
     }
    }
   },
@@ -2752,6 +2766,18 @@
       "ashby:talos-trading:d6d0c99a-f281-4efe-89c4-026f7f5edc2b"
      ],
      "count": 3
+    }
+   }
+  },
+  "target": {
+   "name": "Target",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "workday:target:/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Software-Engineering-Summer-Internship-Minneapolis--MN--Starting-June-2027-_R0000451082"
+     ],
+     "count": 1
     }
    }
   },
@@ -3246,5 +3272,5 @@
    }
   }
  },
- "updated_at": "2026-09-10T17:26:15Z"
+ "updated_at": "2026-09-10T20:18:56Z"
 }
