@@ -1,28 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:magna:/job/Southfield-Michigan-US/Intern---Engineering-Software_R00260232",
-      "greenhouse:testnisc:8191898",
-      "greenhouse:testnisc:8191987",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Summer--Fall-2027-_01873293",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineer-Co-Op---Onsite_01871478",
-      "workday:target:/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Software-Engineering-Summer-Internship-Minneapolis--MN--Starting-June-2027-_R0000451082"
-    ],
-    "telegram": [
-      "workday:magna:/job/Southfield-Michigan-US/Intern---Engineering-Software_R00260232",
-      "greenhouse:testnisc:8191898",
-      "greenhouse:testnisc:8191987",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Summer--Fall-2027-_01873293",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineer-Co-Op---Onsite_01871478",
-      "workday:target:/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Software-Engineering-Summer-Internship-Minneapolis--MN--Starting-June-2027-_R0000451082"
-    ],
-    "personal_email": [
-      "workday:magna:/job/Southfield-Michigan-US/Intern---Engineering-Software_R00260232",
-      "greenhouse:testnisc:8191898",
-      "greenhouse:testnisc:8191987",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Summer--Fall-2027-_01873293",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineer-Co-Op---Onsite_01871478",
-      "workday:target:/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Software-Engineering-Summer-Internship-Minneapolis--MN--Starting-June-2027-_R0000451082"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
