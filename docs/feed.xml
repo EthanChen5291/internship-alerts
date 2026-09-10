@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-10T04:45:10Z</updated>
+  <updated>2026-09-10T09:21:36Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:aoins:/job/Lansing-MI/IT-Document-Automation-Developer-Internship---Summer-2027_R_14471</id>
+    <title>Auto-Owners Insurance: IT Document Automation Developer Internship - Summer 2027</title>
+    <link href="https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/IT-Document-Automation-Developer-Internship---Summer-2027_R_14471"/>
+    <updated>2026-09-10T09:21:36Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Lansing, MI · Java, JavaScript</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aoins:/job/Lansing-MI/Intelligent-Automation-Developer-Internship---Summer-2027_R_14474</id>
+    <title>Auto-Owners Insurance: Intelligent Automation Developer Internship - Summer 2027</title>
+    <link href="https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Intelligent-Automation-Developer-Internship---Summer-2027_R_14474"/>
+    <updated>2026-09-10T09:21:36Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Lansing, MI · Java</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aoins:/job/Lansing-MI/IT-Security-Engineer-Internship---Summer-2027_R_14477</id>
+    <title>Auto-Owners Insurance: IT Security Engineer Internship - Summer 2027</title>
+    <link href="https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/IT-Security-Engineer-Internship---Summer-2027_R_14477"/>
+    <updated>2026-09-10T09:21:36Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Lansing, MI</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Eurofins:744000148712379</id>
+    <title>Eurofins: 6-month paid internship - AI &amp; Automation</title>
+    <link href="https://jobs.smartrecruiters.com/Eurofins/744000148712379"/>
+    <updated>2026-09-10T09:21:36Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Barcelona, CT, International (ES) · Python, SQL</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:epicgames:6183293004</id>
     <title>Epic Games: Backend Services Programmer Intern</title>
@@ -411,9 +443,9 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842</id>
     <title>Northrop Grumman: 2027 Software Engineering Intern - Roy UT 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842"/>
-    <updated>2026-09-10T04:30:48Z</updated>
+    <updated>2026-09-08T20:26:59Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · sponsorship: citizens-only · status: closed</summary>
+    <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:talos-trading:2c833180-484f-4657-80e3-f822cf1a0285</id>
@@ -774,37 +806,5 @@
     <updated>2026-09-04T21:40:37Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Corporate Office, Westown Pkwy., West Des Moines, IA · SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:saabusa:/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Spring---Summer-2027-_R-03240-1</id>
-    <title>Saab: Software Engineering Co-Op (Spring - Summer 2027) 🇺🇸</title>
-    <link href="https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Spring---Summer-2027-_R-03240-1"/>
-    <updated>2026-09-04T21:40:37Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · East Syracuse, NY (Collamer) · $20.27–$22.3/hr · Java, JavaScript, SQL, HTML/CSS, Linux · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:schonfeld:8171696</id>
-    <title>Schonfeld: 2027 Cybersecurity Operations Intern</title>
-    <link href="https://job-boards.greenhouse.io/schonfeld/jobs/8171696"/>
-    <updated>2026-09-04T19:22:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · New York, New York, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:schonfeld:8180089</id>
-    <title>Schonfeld: 2027 Software Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/schonfeld/jobs/8180089"/>
-    <updated>2026-09-04T19:22:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, New York, United States · Python, Java, C++, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:39978</id>
-    <title>Nokia: AI-Agent Development Co-op</title>
-    <link href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39978"/>
-    <updated>2026-09-04T19:22:44Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · United States · Python, LLMs, Git</summary>
   </entry>
 </feed>

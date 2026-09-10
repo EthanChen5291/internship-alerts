@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-10T04:45:10Z",
- "data_as_of": "2026-09-10T04:45:10Z",
- "rendered_at": "2026-09-10T04:45:10Z",
+ "generated_at": "2026-09-10T09:21:36Z",
+ "data_as_of": "2026-09-10T09:21:36Z",
+ "rendered_at": "2026-09-10T09:21:36Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -215,7 +215,7 @@
    }
   },
   {
-   "company": "Flow Traders",
+   "company": "Northrop Grumman",
    "last_cycle_posted": "",
    "posted_on": "2026-07-08",
    "precision": "day",
@@ -225,8 +225,8 @@
    "expected": "2026-07-08",
    "days_until": -64,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166",
-   "note": "",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842",
+   "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -5098,7 +5098,7 @@
    }
   },
   {
-   "company": "Northrop Grumman",
+   "company": "Flow Traders",
    "last_cycle_posted": "",
    "posted_on": "2026-07-08",
    "precision": "day",
@@ -5109,7 +5109,7 @@
    "days_until": -64,
    "status": "dropped",
    "url": "",
-   "note": "fall opening, many roles need clearance",
+   "note": "",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",

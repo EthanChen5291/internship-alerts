@@ -355,9 +355,12 @@
      "first_posted": "2026-08-26",
      "role_ids": [
       "workday:aoins:/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14417",
+      "workday:aoins:/job/Lansing-MI/IT-Document-Automation-Developer-Internship---Summer-2027_R_14471",
+      "workday:aoins:/job/Lansing-MI/IT-Security-Engineer-Internship---Summer-2027_R_14477",
+      "workday:aoins:/job/Lansing-MI/Intelligent-Automation-Developer-Internship---Summer-2027_R_14474",
       "workday:aoins:/job/Lansing-MI/Software-Developer-Internship_R_2121"
      ],
-     "count": 2
+     "count": 5
     }
    }
   },
@@ -1025,9 +1028,10 @@
      "first_posted": "2026-09-03",
      "role_ids": [
       "smartrecruiters:Eurofins:744000147214369",
-      "smartrecruiters:Eurofins:744000148531473"
+      "smartrecruiters:Eurofins:744000148531473",
+      "smartrecruiters:Eurofins:744000148712379"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -3130,5 +3134,5 @@
    }
   }
  },
- "updated_at": "2026-09-10T04:45:10Z"
+ "updated_at": "2026-09-10T09:21:36Z"
 }
