@@ -225,6 +225,18 @@
     }
    }
   },
+  "ameriprise financial": {
+   "name": "Ameriprise Financial",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "workday:ameriprise:/job/Minneapolis-Minnesota/Data-Analytics---AI-Intern---RiverSource_R26_3595"
+     ],
+     "count": 1
+    }
+   }
+  },
   "anavation": {
    "name": "AnaVation",
    "cycles": {
@@ -522,6 +534,18 @@
     }
    }
   },
+  "brevan howard": {
+   "name": "Brevan Howard",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "workday:brevanhoward:/job/New-York/XMLNAME-2027-Summer-Internship-Program---Systematic-Trading-Technology-Software-Engineer--New-York_JR101597"
+     ],
+     "count": 1
+    }
+   }
+  },
   "brunswick": {
    "name": "Brunswick",
    "cycles": {
@@ -700,9 +724,11 @@
     "Summer 2027": {
      "first_posted": "2026-09-02",
      "role_ids": [
-      "workday:cigna:/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712"
+      "workday:cigna:/job/CT-Bloomfield-900-Cottage-Grove-Rd-Wilde-Bldg/The-Cigna-Group-s-Technology-Development-Program-----Infrastructure---Cloud-Engineering-Track_26009529",
+      "workday:cigna:/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
+      "workday:cigna:/job/TX-Austin-11501-Alterra-Pkwy-STE-500/The-Cigna-Group-s-Technology-Development-Program---AI-Engineering-Track-Summer-Internship_26009535"
      ],
-     "count": 1
+     "count": 3
     }
    }
   },
@@ -1422,6 +1448,18 @@
     }
    }
   },
+  "hudl": {
+   "name": "Hudl",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "greenhouse:hudl:8114314"
+     ],
+     "count": 1
+    }
+   }
+  },
   "hudson river trading": {
    "name": "Hudson River Trading",
    "cycles": {
@@ -1862,6 +1900,18 @@
     }
    }
   },
+  "nelnet": {
+   "name": "Nelnet",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "workday:nelnet:/job/Lincoln-NE/Intern---Software-Engineer---New-Ventures---Starting-Summer-2026_R23098"
+     ],
+     "count": 1
+    }
+   }
+  },
   "netsmart": {
    "name": "Netsmart",
    "cycles": {
@@ -2096,6 +2146,18 @@
      "first_posted": "2026-08-03",
      "role_ids": [
       "workday:pentair:/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "perpay": {
+   "name": "Perpay",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2023-09-12",
+     "role_ids": [
+      "greenhouse:perpay:4076988007"
      ],
      "count": 1
     }
@@ -2439,9 +2501,10 @@
      "first_posted": "2026-09-04",
      "role_ids": [
       "greenhouse:schonfeld:8171696",
+      "greenhouse:schonfeld:8171699",
       "greenhouse:schonfeld:8180089"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -3183,5 +3246,5 @@
    }
   }
  },
- "updated_at": "2026-09-10T13:49:28Z"
+ "updated_at": "2026-09-10T17:26:15Z"
 }
