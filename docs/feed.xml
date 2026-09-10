@@ -5,15 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-10T00:20:59Z</updated>
+  <updated>2026-09-10T04:45:10Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:lever:shieldai:8c850c75-081d-4d09-bebf-096379a93010</id>
-    <title>Shield AI: Summer 2027 - Software Engineer Intern</title>
-    <link href="https://jobs.lever.co/shieldai/8c850c75-081d-4d09-bebf-096379a93010"/>
-    <updated>2026-09-10T00:20:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Diego, California · 37–97 USD/hr · Python, Java, C++, JavaScript, PyTorch</summary>
+    <id>urn:intern-engine:greenhouse:epicgames:6183293004</id>
+    <title>Epic Games: Backend Services Programmer Intern</title>
+    <link href="https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004"/>
+    <updated>2026-09-10T04:45:10Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Cary,North Carolina,United States · Java, AWS, Unreal · H-1B track record: ~28 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:rocketlab:7989722003</id>
@@ -22,6 +22,14 @@
     <updated>2026-09-10T00:20:59Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Littleton, CO · Python, C++, Rust, Git · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:shieldai:8c850c75-081d-4d09-bebf-096379a93010</id>
+    <title>Shield AI: Summer 2027 - Software Engineer Intern</title>
+    <link href="https://jobs.lever.co/shieldai/8c850c75-081d-4d09-bebf-096379a93010"/>
+    <updated>2026-09-10T00:20:59Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Diego, California · 37–97 USD/hr · Python, Java, C++, JavaScript, PyTorch</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:saronic:60afb634-5515-4347-824a-3816735541c2</id>
@@ -155,9 +163,9 @@
     <id>urn:intern-engine:greenhouse:chaosindustries:5226636007</id>
     <title>CHAOS Industries: 2027 Summer- Software Engineer Intern</title>
     <link href="https://job-boards.greenhouse.io/chaosindustries/jobs/5226636007"/>
-    <updated>2026-09-09T16:49:50Z</updated>
+    <updated>2026-09-10T04:45:10Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · El Segundo, California, United States · Python, Java, C++</summary>
+    <summary>Summer 2027 · Software · El Segundo, California, United States · Python, Java, C++ · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:viamrobotics:6185046004</id>
@@ -403,9 +411,9 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842</id>
     <title>Northrop Grumman: 2027 Software Engineering Intern - Roy UT 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842"/>
-    <updated>2026-09-08T20:26:59Z</updated>
+    <updated>2026-09-10T04:30:48Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:talos-trading:2c833180-484f-4657-80e3-f822cf1a0285</id>
@@ -459,9 +467,9 @@
     <id>urn:intern-engine:workday:chrobinson:/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323</id>
     <title>C.H. Robinson: Software Engineering Internship 2027</title>
     <link href="https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323"/>
-    <updated>2026-09-08T17:40:34Z</updated>
+    <updated>2026-09-10T04:30:48Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Eden Prairie, MN United States of America · $15–$30/hr · C#, JavaScript, SQL, React, HTML/CSS</summary>
+    <summary>Summer 2027 · Software · Eden Prairie, MN United States of America · $15–$30/hr · C#, JavaScript, SQL, React, HTML/CSS · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:deluxe:/job/Minneapolis-MN-USA/Software-Engineer---Intern_261115WD</id>
@@ -798,13 +806,5 @@
     <updated>2026-09-04T19:22:44Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · United States · Python, LLMs, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:Loram1:3743990015082845</id>
-    <title>Loram: Machine Learning / Artificial Intelligence (AI) Intern</title>
-    <link href="https://jobs.smartrecruiters.com/Loram1/3743990015082845"/>
-    <updated>2026-09-04T19:22:44Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Hamel, MN, United States · Python, C#, SQL, PyTorch, Pandas</summary>
   </entry>
 </feed>
