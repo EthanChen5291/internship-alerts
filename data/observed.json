@@ -1362,6 +1362,18 @@
     }
    }
   },
+  "hmh": {
+   "name": "HMH",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-09",
+     "role_ids": [
+      "workday:hmhw:/job/Houston-TX/Software-Engineering-Intern_JR102384"
+     ],
+     "count": 1
+    }
+   }
+  },
   "honeywell": {
    "name": "Honeywell",
    "cycles": {
@@ -1484,6 +1496,19 @@
       "greenhouse:imc:4907399101",
       "greenhouse:imc:4907430101"
      ]
+    }
+   }
+  },
+  "immuta": {
+   "name": "Immuta",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-09",
+     "role_ids": [
+      "lever:immuta:3c4cb235-6138-4a50-add2-666a5216427e",
+      "lever:immuta:b9b21075-74a4-4b64-8f1b-f0be1fb0b24d"
+     ],
+     "count": 2
     }
    }
   },
@@ -2040,6 +2065,18 @@
     }
    }
   },
+  "pacific fusion": {
+   "name": "Pacific Fusion",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-09",
+     "role_ids": [
+      "greenhouse:pacificfusion:4398373009"
+     ],
+     "count": 1
+    }
+   }
+  },
   "pdt partners": {
    "name": "PDT Partners",
    "cycles": {
@@ -2091,6 +2128,18 @@
      "first_posted": "2026-08-20",
      "role_ids": [
       "ashby:phoebe-work:1ffe3e63-2163-447e-a8b0-1fff8b87e0ca"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "pilot": {
+   "name": "Pilot Company",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-09",
+     "role_ids": [
+      "smartrecruiters:PilotCompany:744000148577368"
      ],
      "count": 1
     }
@@ -3134,5 +3183,5 @@
    }
   }
  },
- "updated_at": "2026-09-10T09:21:36Z"
+ "updated_at": "2026-09-10T13:49:28Z"
 }
