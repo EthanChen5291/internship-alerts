@@ -1,22 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:aoins:/job/Lansing-MI/IT-Document-Automation-Developer-Internship---Summer-2027_R_14471",
-      "workday:aoins:/job/Lansing-MI/Intelligent-Automation-Developer-Internship---Summer-2027_R_14474",
-      "workday:aoins:/job/Lansing-MI/IT-Security-Engineer-Internship---Summer-2027_R_14477",
-      "smartrecruiters:Eurofins:744000148712379"
-    ],
-    "telegram": [
-      "workday:aoins:/job/Lansing-MI/IT-Document-Automation-Developer-Internship---Summer-2027_R_14471",
-      "workday:aoins:/job/Lansing-MI/Intelligent-Automation-Developer-Internship---Summer-2027_R_14474",
-      "workday:aoins:/job/Lansing-MI/IT-Security-Engineer-Internship---Summer-2027_R_14477",
-      "smartrecruiters:Eurofins:744000148712379"
-    ],
-    "personal_email": [
-      "workday:aoins:/job/Lansing-MI/IT-Document-Automation-Developer-Internship---Summer-2027_R_14471",
-      "workday:aoins:/job/Lansing-MI/Intelligent-Automation-Developer-Internship---Summer-2027_R_14474",
-      "workday:aoins:/job/Lansing-MI/IT-Security-Engineer-Internship---Summer-2027_R_14477",
-      "smartrecruiters:Eurofins:744000148712379"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
