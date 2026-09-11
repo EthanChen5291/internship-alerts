@@ -758,6 +758,20 @@
     }
    }
   },
+  "citizens financial group": {
+   "name": "Citizens Financial Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "oracle:hcgn.fa.us2.oraclecloud.com:49284",
+      "oracle:hcgn.fa.us2.oraclecloud.com:49285",
+      "oracle:hcgn.fa.us2.oraclecloud.com:49286"
+     ],
+     "count": 3
+    }
+   }
+  },
   "clarios": {
    "name": "Clarios",
    "cycles": {
@@ -1525,6 +1539,18 @@
       "workday:hyvee:/job/Corporate-Office-Westown-Pkwy-West-Des-Moines-IA/Digital-Software-Engineering-Intern---Summer-2027_R250133"
      ],
      "count": 2
+    }
+   }
+  },
+  "hypertherm": {
+   "name": "Hypertherm",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-09",
+     "role_ids": [
+      "workday:hypertherm:/job/West-Lebanon-NH/Summer-Intern---Software-Engineering_R4005"
+     ],
+     "count": 1
     }
    }
   },
@@ -2812,6 +2838,18 @@
     }
    }
   },
+  "tanium": {
+   "name": "Tanium",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "greenhouse:tanium:8181017"
+     ],
+     "count": 1
+    }
+   }
+  },
   "target": {
    "name": "Target",
    "cycles": {
@@ -2920,6 +2958,19 @@
      "role_ids": [
       "workable:tmeic-corporation-americas:FD4C9770FF"
      ]
+    }
+   }
+  },
+  "toro": {
+   "name": "The Toro Company",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17114",
+      "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17125"
+     ],
+     "count": 2
     }
    }
   },
@@ -3315,5 +3366,5 @@
    }
   }
  },
- "updated_at": "2026-09-11T09:48:02Z"
+ "updated_at": "2026-09-11T14:07:35Z"
 }
