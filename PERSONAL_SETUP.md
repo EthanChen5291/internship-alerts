@@ -36,7 +36,9 @@ repository secrets:
 | `APPLICANT_PROFILE_JSON` | optional private resume-derived profile for personalized advice |
 
 New roles found in one scan are bundled into one email with direct application
-links.
+links. Underclassman program releases are the exception: each one is sent as its
+own email so a rare, briefly open program never arrives buried in a batch. The
+watched programs live in `src/intern_engine/programs.py`.
 
 Do not place any credential or email address in `data/config.json`
 or commit it to the repository. GitHub Actions secrets are the intended storage.
@@ -72,3 +74,13 @@ python tools/tailor_resume.py \
 
 The `private/` and `tailored-resumes/` directories are ignored by Git so your
 resume does not accidentally become part of the public site.
+
+## 4. Brown on-campus passive jobs (local watcher)
+
+`brown/` holds a separate watcher for Brown Workday's **Find Student Jobs** report. It
+cannot run in GitHub Actions because that page sits behind Brown SSO and Duo, so it runs on
+your own machine through launchd and a signed-in Chromium profile. It emails one alert per
+"passive" posting (front desk, key office, building monitor: jobs where you can do your own
+work on shift) through the same Brevo sender and destination as section 2. Setup is in
+[brown/README.md](brown/README.md).
+

@@ -23,6 +23,10 @@ from . import competitiveness, config, grouping
 _BREVO_URL = "https://api.brevo.com/v3/smtp/email"
 _TIMEOUT = 12
 _MAX_EMAIL_GROUPS = 50
+# Program releases send one email each, so this caps a single scan rather than
+# a single message. One program opening in several cities is a handful of
+# alerts; anything past that is a matcher gone wrong, not a real launch day.
+_MAX_PROGRAM_EMAILS = 6
 _SKILL_ALIASES = {
     "c++": "cpp",
     "c#": "csharp",
@@ -377,15 +381,38 @@ def send_preview_email(record: dict) -> str:
 
 
 def send_email(store_data: dict, new_ids: list[str]) -> list[str]:
+    """Send this run's new roles, and return the ids that no longer need sending.
+
+    Underclassman program releases go out one per email, ahead of the ordinary
+    bundle. Bundling them was the bug: a program that opens on a scan that also
+    found twelve routine roles became card 4 of 13, under a subject line that
+    was mostly "+ 12 more". These openings are rare, briefly open and limited to
+    a class year that only comes around once, so each one gets its own message.
+
+    Each send settles only its own ids. A program email that fails leaves that
+    program queued without re-sending the bundle, and vice versa.
+    """
     if not email_configured():
         return list(new_ids)
     settled, records = _records(store_data, new_ids)
-    shown = records[:_MAX_EMAIL_GROUPS]
-    if not shown:
-        return settled
-    subject, html = build_email(shown)
-    try:
-        _post_email(subject, html)
-    except Exception:  # noqa: BLE001 - notification failures retry through the outbox
-        return settled
-    return settled + [jid for record in shown for jid in _ids(record)]
+    programs = [record for record in records if record.get("underclass_program")]
+    ordinary = [record for record in records if not record.get("underclass_program")]
+
+    sent: list[str] = []
+    # Overflow past the ceiling is NOT settled: it stays queued and goes out on
+    # the next run, the same contract notify.py uses for its per-run cap.
+    for record in programs[:_MAX_PROGRAM_EMAILS]:
+        try:
+            _post_email(*build_email([record]))
+        except Exception:  # noqa: BLE001 - stays queued, retries through the outbox
+            continue
+        sent += _ids(record)
+
+    shown = ordinary[:_MAX_EMAIL_GROUPS]
+    if shown:
+        try:
+            _post_email(*build_email(shown))
+        except Exception:  # noqa: BLE001 - notification failures retry through the outbox
+            return settled + sent
+        sent += [jid for record in shown for jid in _ids(record)]
+    return settled + sent

@@ -32,3 +32,8 @@ work/
 # Never publish a real resume or generated application copies.
 private/
 tailored-resumes/
+
+# Brown Workday passive-job watcher (local only; needs a Duo-authenticated browser session)
+brown/node_modules/
+brown/.browser-profile/
+brown/data/

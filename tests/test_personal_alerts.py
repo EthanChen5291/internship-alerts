@@ -209,3 +209,100 @@ def test_closed_and_missing_roles_are_settled_without_delivery(monkeypatch):
     assert personal_alerts.send_email({"closed": _record(is_open=False)}, ["gone", "closed"]) == [
         "gone", "closed"
     ]
+
+
+def _program_record(**extra):
+    return _record(**{
+        "id": "ignite-1",
+        "company": "NVIDIA",
+        "title": "NVIDIA Ignite Software Intern",
+        "underclass_program_key": "nvidia-ignite",
+        "underclass_program": "NVIDIA Ignite",
+        "underclass_audience": "Current freshmen and sophomores",
+        **extra,
+    })
+
+
+def test_program_release_is_sent_as_its_own_email(monkeypatch):
+    _email_env(monkeypatch)
+    sent = []
+    monkeypatch.setattr(
+        personal_alerts.httpx,
+        "post",
+        lambda url, **kwargs: (sent.append(kwargs["json"]), Response())[1],
+    )
+    store = {
+        "ignite-1": _program_record(),
+        "job-1": _record(),
+        "job-2": _record(id="job-2", company="Beta", title="Data Intern"),
+    }
+
+    done = personal_alerts.send_email(store, ["ignite-1", "job-1", "job-2"])
+
+    assert sorted(done) == ["ignite-1", "job-1", "job-2"]
+    assert len(sent) == 2
+    program, bundle = sent
+    assert program["subject"] == "[🚨 NVIDIA Ignite OPEN] NVIDIA Ignite Software Intern"
+    assert "UNDERCLASSMAN PROGRAM JUST OPENED" in program["htmlContent"]
+    assert "Data Intern" not in program["htmlContent"]
+    assert "🚨" not in bundle["subject"]
+    assert "NVIDIA Ignite" not in bundle["htmlContent"]
+
+
+def test_failed_program_email_keeps_only_that_program_queued(monkeypatch):
+    _email_env(monkeypatch)
+    sent = []
+
+    def post(url, **kwargs):
+        if "NVIDIA Ignite" in kwargs["json"]["subject"]:
+            raise RuntimeError("network down")
+        sent.append(kwargs["json"])
+        return Response()
+
+    monkeypatch.setattr(personal_alerts.httpx, "post", post)
+    store = {"ignite-1": _program_record(), "job-1": _record()}
+
+    done = personal_alerts.send_email(store, ["ignite-1", "job-1"])
+
+    assert done == ["job-1"]
+    assert len(sent) == 1
+
+
+def test_failed_bundle_keeps_only_the_bundle_queued(monkeypatch):
+    _email_env(monkeypatch)
+    sent = []
+
+    def post(url, **kwargs):
+        if "NVIDIA Ignite" not in kwargs["json"]["subject"]:
+            raise RuntimeError("network down")
+        sent.append(kwargs["json"])
+        return Response()
+
+    monkeypatch.setattr(personal_alerts.httpx, "post", post)
+    store = {"ignite-1": _program_record(), "job-1": _record()}
+
+    done = personal_alerts.send_email(store, ["ignite-1", "job-1"])
+
+    assert done == ["ignite-1"]
+    assert len(sent) == 1
+
+
+def test_program_overflow_stays_queued_for_the_next_run(monkeypatch):
+    _email_env(monkeypatch)
+    sent = []
+    monkeypatch.setattr(
+        personal_alerts.httpx,
+        "post",
+        lambda url, **kwargs: (sent.append(kwargs["json"]), Response())[1],
+    )
+    cap = personal_alerts._MAX_PROGRAM_EMAILS
+    store = {
+        f"ignite-{i}": _program_record(id=f"ignite-{i}", location=f"City {i}")
+        for i in range(cap + 2)
+    }
+
+    done = personal_alerts.send_email(store, list(store))
+
+    assert len(sent) == cap
+    assert len(done) == cap
+    assert f"ignite-{cap + 1}" not in done

@@ -1,0 +1,33 @@
+{
+  "name": "internship-alerts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "login": "node src/login.mjs",
+    "check": "node src/run.mjs",
+    "check:debug": "node src/run.mjs --debug",
+    "dry": "node src/run.mjs --dry-run",
+    "reset": "rm -f data/seen.json",
+    "schedule:install": "bash launchd/install.sh",
+    "schedule:remove": "bash launchd/uninstall.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanChen5291/internship-alerts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/EthanChen5291/internship-alerts/issues"
+  },
+  "homepage": "https://github.com/EthanChen5291/internship-alerts#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.124.0",
+    "playwright": "^1.63.0",
+    "zod": "^4.6.1"
+  }
+}
