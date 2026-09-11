@@ -1,58 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "ashby:commure:62841aa1-3ee5-4547-8380-637b737b2cb3",
-      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708",
-      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709",
-      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725",
-      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255742",
-      "workday:amgen:/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
-      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719",
-      "workday:amgen:/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745",
-      "workday:corteva:/job/Indianapolis-Indiana-United-States/Agentic-AI-Engineer-Intern_248210W",
-      "workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553",
-      "workday:directsupply:/job/Milwaukee-WI/Software-Engineer-Intern_REQ-2026-2559",
-      "workday:fmr:/job/Boston-MA/Co-op--Software-Engineer_2135200",
-      "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00192042",
-      "greenhouse:lyft:8802198002",
-      "workday:moog:/job/Blacksburg-VA/Intern--Embedded-Design-Engineering_R-26-20053",
-      "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/AI-Intern_R50265"
-    ],
-    "telegram": [
-      "ashby:commure:62841aa1-3ee5-4547-8380-637b737b2cb3",
-      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708",
-      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709",
-      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725",
-      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255742",
-      "workday:amgen:/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
-      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719",
-      "workday:amgen:/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745",
-      "workday:corteva:/job/Indianapolis-Indiana-United-States/Agentic-AI-Engineer-Intern_248210W",
-      "workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553",
-      "workday:directsupply:/job/Milwaukee-WI/Software-Engineer-Intern_REQ-2026-2559",
-      "workday:fmr:/job/Boston-MA/Co-op--Software-Engineer_2135200",
-      "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00192042",
-      "greenhouse:lyft:8802198002",
-      "workday:moog:/job/Blacksburg-VA/Intern--Embedded-Design-Engineering_R-26-20053",
-      "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/AI-Intern_R50265"
-    ],
-    "personal_email": [
-      "ashby:commure:62841aa1-3ee5-4547-8380-637b737b2cb3",
-      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708",
-      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709",
-      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725",
-      "workday:amgen:/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255742",
-      "workday:amgen:/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743",
-      "workday:amgen:/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719",
-      "workday:amgen:/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745",
-      "workday:corteva:/job/Indianapolis-Indiana-United-States/Agentic-AI-Engineer-Intern_248210W",
-      "workday:directsupply:/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553",
-      "workday:directsupply:/job/Milwaukee-WI/Software-Engineer-Intern_REQ-2026-2559",
-      "workday:fmr:/job/Boston-MA/Co-op--Software-Engineer_2135200",
-      "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00192042",
-      "greenhouse:lyft:8802198002",
-      "workday:moog:/job/Blacksburg-VA/Intern--Embedded-Design-Engineering_R-26-20053",
-      "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/AI-Intern_R50265"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
