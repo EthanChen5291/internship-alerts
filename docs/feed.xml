@@ -5,15 +5,39 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-11T05:22:35Z</updated>
+  <updated>2026-09-11T09:48:02Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:WellmarkInc:744000148918178</id>
-    <title>Wellmark: Cyber Security Internship</title>
-    <link href="https://jobs.smartrecruiters.com/WellmarkInc/744000148918178"/>
-    <updated>2026-09-11T05:22:35Z</updated>
+    <id>urn:intern-engine:workday:avav:/job/Centreville-VA/Software-Engineering-Intern_8593</id>
+    <title>Avav: Software Engineering Intern 🇺🇸</title>
+    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Centreville-VA/Software-Engineering-Intern_8593"/>
+    <updated>2026-09-11T09:48:02Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Security · Des Moines, IA, United States (Hybrid) · Python, Bash · H-1B track record: ~15 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Software · Centreville, VA · Python, Java, C++, Bash, Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:avav:/job/Melbourne-FL/Software-Engineering-Intern_8613</id>
+    <title>Avav: Software Engineering Intern 🇺🇸</title>
+    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Melbourne-FL/Software-Engineering-Intern_8613"/>
+    <updated>2026-09-11T09:48:02Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Melbourne, FL · Python, Java, C++, Bash, Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:avav:/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8549</id>
+    <title>Avav: Summer 2027 Embedded Software Engineering Intern</title>
+    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8549"/>
+    <updated>2026-09-11T09:48:02Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Simi Valley, CA · Python, C++, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1</id>
+    <title>CACI: Software Engineering Intern - Summer 2027</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1"/>
+    <updated>2026-09-11T09:48:02Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Denver, CO, US · Python, Java, JavaScript, SQL, Kotlin</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:WellmarkInc:744000148915793</id>
@@ -22,6 +46,14 @@
     <updated>2026-09-11T05:22:35Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Des Moines, IA, United States (Hybrid) · Java, C++, TypeScript, SQL, Node.js · H-1B track record: ~15 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:WellmarkInc:744000148918178</id>
+    <title>Wellmark: Cyber Security Internship</title>
+    <link href="https://jobs.smartrecruiters.com/WellmarkInc/744000148918178"/>
+    <updated>2026-09-11T05:22:35Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Des Moines, IA, United States (Hybrid) · Python, Bash · H-1B track record: ~15 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26010738</id>
@@ -774,37 +806,5 @@
     <updated>2026-09-08T20:26:59Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Grand Rapids, MI</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842</id>
-    <title>Northrop Grumman: 2027 Software Engineering Intern - Roy UT 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842"/>
-    <updated>2026-09-08T20:26:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:talos-trading:2c833180-484f-4657-80e3-f822cf1a0285</id>
-    <title>Talos: Software Engineer Intern, RFQ</title>
-    <link href="https://jobs.ashbyhq.com/talos-trading/2c833180-484f-4657-80e3-f822cf1a0285"/>
-    <updated>2026-09-08T17:40:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York · $50 per hour · Java, C++, Git, PostgreSQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:talos-trading:91fd5274-3b6b-43cf-b366-9f6dc2ae5977</id>
-    <title>Talos: Software Engineer Intern, Dealer</title>
-    <link href="https://jobs.ashbyhq.com/talos-trading/91fd5274-3b6b-43cf-b366-9f6dc2ae5977"/>
-    <updated>2026-09-08T17:40:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York · $50 per hour · Java, C++, Git, PostgreSQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:datadog:8052118</id>
-    <title>Datadog: Software Engineering Intern (Summer)</title>
-    <link href="https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118"/>
-    <updated>2026-09-08T17:40:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Boston, Massachusetts, USA; New York, New York, USA · Kubernetes · H-1B track record: ~62 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

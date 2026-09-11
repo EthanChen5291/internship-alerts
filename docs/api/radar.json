@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-11T05:22:35Z",
- "data_as_of": "2026-09-11T05:22:35Z",
- "rendered_at": "2026-09-11T05:22:36Z",
+ "generated_at": "2026-09-11T09:48:02Z",
+ "data_as_of": "2026-09-11T09:48:02Z",
+ "rendered_at": "2026-09-11T09:48:03Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -231,25 +231,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-07-05"
-   }
-  },
-  {
-   "company": "Northrop Grumman",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-08",
-   "days_until": -65,
-   "status": "open",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842",
-   "note": "fall opening, many roles need clearance",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-08"
    }
   },
   {
@@ -2799,6 +2780,25 @@
    }
   },
   {
+   "company": "Avav",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-10",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8549",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-10"
+   }
+  },
+  {
    "company": "Bedrock Robotics",
    "last_cycle_posted": "",
    "posted_on": "2026-09-10",
@@ -5325,6 +5325,25 @@
    }
   },
   {
+   "company": "Northrop Grumman",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-08",
+   "days_until": -65,
+   "status": "dropped",
+   "url": "",
+   "note": "fall opening, many roles need clearance",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-08"
+   }
+  },
+  {
    "company": "The Trade Desk",
    "last_cycle_posted": "",
    "posted_on": "2026-07-15",
@@ -5781,5 +5800,5 @@
    }
   }
  ],
- "count": 304
+ "count": 305
 }

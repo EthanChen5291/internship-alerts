@@ -1,7 +1,22 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:avav:/job/Centreville-VA/Software-Engineering-Intern_8593",
+      "workday:avav:/job/Melbourne-FL/Software-Engineering-Intern_8613",
+      "workday:avav:/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8549",
+      "workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1"
+    ],
+    "telegram": [
+      "workday:avav:/job/Centreville-VA/Software-Engineering-Intern_8593",
+      "workday:avav:/job/Melbourne-FL/Software-Engineering-Intern_8613",
+      "workday:avav:/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8549",
+      "workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1"
+    ],
+    "personal_email": [
+      "workday:avav:/job/Centreville-VA/Software-Engineering-Intern_8593",
+      "workday:avav:/job/Melbourne-FL/Software-Engineering-Intern_8613",
+      "workday:avav:/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8549",
+      "workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1"
+    ]
   }
 }

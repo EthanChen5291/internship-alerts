@@ -376,6 +376,18 @@
     }
    }
   },
+  "avav": {
+   "name": "Avav",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "workday:avav:/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8549"
+     ],
+     "count": 1
+    }
+   }
+  },
   "awetomaton": {
    "name": "Awetomaton",
    "cycles": {
@@ -614,13 +626,14 @@
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
       "workday:caci:/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798",
+      "workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1",
       "workday:caci:/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742",
       "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
       "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
       "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 8
+     "count": 9
     }
    }
   },
@@ -3302,5 +3315,5 @@
    }
   }
  },
- "updated_at": "2026-09-11T05:22:35Z"
+ "updated_at": "2026-09-11T09:48:02Z"
 }
