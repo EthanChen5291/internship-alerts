@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:newsbreak:4712896006"
-    ],
-    "telegram": [
-      "greenhouse:newsbreak:4712896006"
-    ],
-    "personal_email": [
-      "greenhouse:newsbreak:4712896006"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
