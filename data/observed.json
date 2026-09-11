@@ -1613,6 +1613,18 @@
     }
    }
   },
+  "ibotta": {
+   "name": "ibotta",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "ashby:ibotta:3130669e-16aa-4f63-834d-b83571c8d269"
+     ],
+     "count": 1
+    }
+   }
+  },
   "icf": {
    "name": "ICF",
    "cycles": {
@@ -3433,5 +3445,5 @@
    }
   }
  },
- "updated_at": "2026-09-11T21:11:09Z"
+ "updated_at": "2026-09-11T23:26:57Z"
 }

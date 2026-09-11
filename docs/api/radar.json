@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-11T21:11:09Z",
- "data_as_of": "2026-09-11T21:11:09Z",
- "rendered_at": "2026-09-11T21:11:09Z",
+ "generated_at": "2026-09-11T23:26:57Z",
+ "data_as_of": "2026-09-11T23:26:57Z",
+ "rendered_at": "2026-09-11T23:26:58Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2980,7 +2980,7 @@
    "expected": "2026-09-11",
    "days_until": 0,
    "status": "open",
-   "url": "https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708",
+   "url": "https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5950,7 +5950,26 @@
     "cycle": "Summer 2027",
     "observed_on": "2026-09-08"
    }
+  },
+  {
+   "company": "ibotta",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": 0,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
   }
  ],
- "count": 313
+ "count": 314
 }
