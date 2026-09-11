@@ -1,43 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:bah:/job/Fayetteville-NC/University---Summer-2027--Software-Engineer-Intern_R0249225",
-      "workday:crowe:/job/Chicago-IL-USA/D365-ERP-Technical-Intern_R-71039",
-      "greenhouse:dvtrading:4733133005",
-      "greenhouse:dvtrading:4702083005",
-      "greenhouse:dvtrading:4733138005",
-      "greenhouse:hudl:8155102",
-      "greenhouse:lyft:8767726002",
-      "greenhouse:lyft:8797837002",
-      "workday:motorolasolutions:/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125",
-      "workday:motorolasolutions:/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734",
-      "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/Cyber-Security-Intern_R50267"
-    ],
-    "telegram": [
-      "workday:bah:/job/Fayetteville-NC/University---Summer-2027--Software-Engineer-Intern_R0249225",
-      "workday:crowe:/job/Chicago-IL-USA/D365-ERP-Technical-Intern_R-71039",
-      "greenhouse:dvtrading:4733133005",
-      "greenhouse:dvtrading:4702083005",
-      "greenhouse:dvtrading:4733138005",
-      "greenhouse:hudl:8155102",
-      "greenhouse:lyft:8767726002",
-      "greenhouse:lyft:8797837002",
-      "workday:motorolasolutions:/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125",
-      "workday:motorolasolutions:/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734",
-      "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/Cyber-Security-Intern_R50267"
-    ],
-    "personal_email": [
-      "workday:bah:/job/Fayetteville-NC/University---Summer-2027--Software-Engineer-Intern_R0249225",
-      "workday:crowe:/job/Chicago-IL-USA/D365-ERP-Technical-Intern_R-71039",
-      "greenhouse:dvtrading:4733133005",
-      "greenhouse:dvtrading:4702083005",
-      "greenhouse:dvtrading:4733138005",
-      "greenhouse:hudl:8155102",
-      "greenhouse:lyft:8767726002",
-      "greenhouse:lyft:8797837002",
-      "workday:motorolasolutions:/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125",
-      "workday:motorolasolutions:/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734",
-      "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/Cyber-Security-Intern_R50267"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
