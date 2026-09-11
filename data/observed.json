@@ -1028,6 +1028,18 @@
     }
    }
   },
+  "emerson electric": {
+   "name": "Emerson Electric",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "oracle:hdjq.fa.us2.oraclecloud.com:26010738"
+     ],
+     "count": 1
+    }
+   }
+  },
   "enfos": {
    "name": "ENFOS",
    "cycles": {
@@ -3290,5 +3302,5 @@
    }
   }
  },
- "updated_at": "2026-09-10T22:42:38Z"
+ "updated_at": "2026-09-11T00:46:20Z"
 }
