@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "oracle:hdjq.fa.us2.oraclecloud.com:26010738"
-    ],
-    "telegram": [
-      "oracle:hdjq.fa.us2.oraclecloud.com:26010738"
-    ],
-    "personal_email": [
-      "oracle:hdjq.fa.us2.oraclecloud.com:26010738"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
