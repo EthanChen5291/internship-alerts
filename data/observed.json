@@ -525,6 +525,7 @@
       "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Cyber-Security-Intern---El-Segundo--CA_R0248047",
       "workday:bah:/job/El-Segundo-CA/University---2027-Summer-Games-Software-Developer-Intern---El-Segundo--CA_R0248046",
       "workday:bah:/job/El-Segundo-CA/University--2027-Summer-Games-Data-Scientist-Intern_R0248050",
+      "workday:bah:/job/Fayetteville-NC/University---Summer-2027--Software-Engineer-Intern_R0249225",
       "workday:bah:/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Cyber-Security-Intern---Ft-Walton-Beach--FL_R0248416",
       "workday:bah:/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Software-Developer-Intern---Ft-Walton-Beach--FL_R0248404",
       "workday:bah:/job/Honolulu-HI/University---2027-Summer-Games-Cyber-Security-Intern---Honolulu--HI_R0248411",
@@ -541,7 +542,7 @@
       "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0248038",
       "workday:bah:/job/San-Diego-CA/University--2027-Summer-Games-Cyber-Security-Intern_R0248043"
      ],
-     "count": 29
+     "count": 30
     }
    }
   },
@@ -1037,9 +1038,12 @@
     "Summer 2027": {
      "first_posted": "2026-08-10",
      "role_ids": [
-      "greenhouse:dvtrading:4719119005"
+      "greenhouse:dvtrading:4702083005",
+      "greenhouse:dvtrading:4719119005",
+      "greenhouse:dvtrading:4733133005",
+      "greenhouse:dvtrading:4733138005"
      ],
-     "count": 1
+     "count": 4
     }
    }
   },
@@ -1510,9 +1514,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-10",
      "role_ids": [
-      "greenhouse:hudl:8114314"
+      "greenhouse:hudl:8114314",
+      "greenhouse:hudl:8155102"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -1773,6 +1778,19 @@
     }
    }
   },
+  "lyft": {
+   "name": "Lyft",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "greenhouse:lyft:8767726002",
+      "greenhouse:lyft:8797837002"
+     ],
+     "count": 2
+    }
+   }
+  },
   "manulife financial": {
    "name": "Manulife Financial",
    "cycles": {
@@ -1950,9 +1968,11 @@
       "workday:motorolasolutions:/job/Chicago-IL/Software-Engineering-Intern---Summer-2027_R68388",
       "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
       "workday:motorolasolutions:/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R68363",
+      "workday:motorolasolutions:/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734",
+      "workday:motorolasolutions:/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125",
       "workday:motorolasolutions:/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782"
      ],
-     "count": 5
+     "count": 7
     }
    }
   },
@@ -2190,9 +2210,10 @@
     "Summer 2027": {
      "first_posted": "2026-08-31",
      "role_ids": [
-      "workday:oshkoshcorporation:/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Software--Summer-2026-_R49786"
+      "workday:oshkoshcorporation:/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Software--Summer-2026-_R49786",
+      "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/Data-Engineer-Intern_R49868"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3366,5 +3387,5 @@
    }
   }
  },
- "updated_at": "2026-09-11T14:07:35Z"
+ "updated_at": "2026-09-11T18:00:12Z"
 }

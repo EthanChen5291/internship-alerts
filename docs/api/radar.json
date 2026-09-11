@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-11T14:07:35Z",
- "data_as_of": "2026-09-11T14:07:35Z",
- "rendered_at": "2026-09-11T14:07:35Z",
+ "generated_at": "2026-09-11T18:00:12Z",
+ "data_as_of": "2026-09-11T18:00:12Z",
+ "rendered_at": "2026-09-11T18:00:12Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2989,6 +2989,25 @@
    }
   },
   {
+   "company": "Lyft",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
+  },
+  {
    "company": "The Toro Company",
    "last_cycle_posted": "",
    "posted_on": "2026-09-11",
@@ -2999,7 +3018,7 @@
    "expected": "2026-09-11",
    "days_until": 0,
    "status": "open",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17125",
+   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17114",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5876,5 +5895,5 @@
    }
   }
  ],
- "count": 309
+ "count": 310
 }
