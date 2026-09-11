@@ -1,37 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "oracle:hcgn.fa.us2.oraclecloud.com:49284",
-      "oracle:hcgn.fa.us2.oraclecloud.com:49286",
-      "oracle:hcgn.fa.us2.oraclecloud.com:49285",
-      "workday:abglobal:/job/Nashville-Tennessee/Software-Development-Summer-Intern_R0019771",
-      "workday:abglobal:/job/Nashville-Tennessee/Infrastructure-Engineering-Summer-Intern_R0019749",
-      "workday:hypertherm:/job/West-Lebanon-NH/Summer-Intern---Software-Engineering_R4005",
-      "greenhouse:tanium:8181017",
-      "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17125",
-      "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17114"
-    ],
-    "telegram": [
-      "oracle:hcgn.fa.us2.oraclecloud.com:49284",
-      "oracle:hcgn.fa.us2.oraclecloud.com:49286",
-      "oracle:hcgn.fa.us2.oraclecloud.com:49285",
-      "workday:abglobal:/job/Nashville-Tennessee/Software-Development-Summer-Intern_R0019771",
-      "workday:abglobal:/job/Nashville-Tennessee/Infrastructure-Engineering-Summer-Intern_R0019749",
-      "workday:hypertherm:/job/West-Lebanon-NH/Summer-Intern---Software-Engineering_R4005",
-      "greenhouse:tanium:8181017",
-      "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17125",
-      "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17114"
-    ],
-    "personal_email": [
-      "oracle:hcgn.fa.us2.oraclecloud.com:49284",
-      "oracle:hcgn.fa.us2.oraclecloud.com:49286",
-      "oracle:hcgn.fa.us2.oraclecloud.com:49285",
-      "workday:abglobal:/job/Nashville-Tennessee/Software-Development-Summer-Intern_R0019771",
-      "workday:abglobal:/job/Nashville-Tennessee/Infrastructure-Engineering-Summer-Intern_R0019749",
-      "workday:hypertherm:/job/West-Lebanon-NH/Summer-Intern---Software-Engineering_R4005",
-      "greenhouse:tanium:8181017",
-      "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17125",
-      "workday:ttc:/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17114"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
