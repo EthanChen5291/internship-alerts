@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-11T18:00:12Z",
- "data_as_of": "2026-09-11T18:00:12Z",
- "rendered_at": "2026-09-11T18:00:12Z",
+ "generated_at": "2026-09-11T21:11:09Z",
+ "data_as_of": "2026-09-11T21:11:09Z",
+ "rendered_at": "2026-09-11T21:11:09Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -624,7 +624,7 @@
    "expected": "2026-08-10",
    "days_until": -32,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4719119005",
+   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4702083005",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2970,6 +2970,25 @@
    }
   },
   {
+   "company": "Amgen",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255708",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
+  },
+  {
    "company": "Citizens Financial Group",
    "last_cycle_posted": "",
    "posted_on": "2026-09-11",
@@ -2981,6 +3000,44 @@
    "days_until": 0,
    "status": "open",
    "url": "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/49284",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
+  },
+  {
+   "company": "Commure",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/commure/62841aa1-3ee5-4547-8380-637b737b2cb3",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
+  },
+  {
+   "company": "Corteva",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://corteva.wd5.myworkdayjobs.com/corteva/job/Indianapolis-Indiana-United-States/Agentic-AI-Engineer-Intern_248210W",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5895,5 +5952,5 @@
    }
   }
  ],
- "count": 310
+ "count": 313
 }
