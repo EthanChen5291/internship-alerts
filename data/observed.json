@@ -578,6 +578,18 @@
     }
    }
   },
+  "bracco": {
+   "name": "Bracco",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-10",
+     "role_ids": [
+      "workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern--Co-op--R-D-Sustaining-_JR100327"
+     ],
+     "count": 1
+    }
+   }
+  },
   "brevan howard": {
    "name": "Brevan Howard",
    "cycles": {
@@ -1787,6 +1799,18 @@
     }
    }
   },
+  "klaviyo": {
+   "name": "Klaviyo",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "greenhouse:klaviyocampus:7989364003"
+     ],
+     "count": 1
+    }
+   }
+  },
   "lego": {
    "name": "Lego",
    "cycles": {
@@ -1902,6 +1926,19 @@
      "role_ids": [
       "workday:medtronic:/job/Lausanne-Vaud-Switzerland/Intern-AI-Vision-for-Equipment-Development_R72173"
      ]
+    }
+   }
+  },
+  "megazonecloud": {
+   "name": "MegazoneCloud",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "ashby:megazone:e2889469-cf20-4227-bf24-2a6e885f8dca",
+      "ashby:megazone:fde09888-986f-4207-88fe-3ff5b921a1fa"
+     ],
+     "count": 2
     }
    }
   },
@@ -3432,6 +3469,18 @@
     }
    }
   },
+  "xcimer energy": {
+   "name": "Xcimer Energy",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-11",
+     "role_ids": [
+      "lever:xcimer:fee9965c-8040-4614-8fd1-10bddfe3b911"
+     ],
+     "count": 1
+    }
+   }
+  },
   "zip": {
    "name": "Zip",
    "cycles": {
@@ -3445,5 +3494,5 @@
    }
   }
  },
- "updated_at": "2026-09-12T11:28:09Z"
+ "updated_at": "2026-09-12T14:36:31Z"
 }
