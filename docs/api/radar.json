@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-12T14:36:31Z",
- "data_as_of": "2026-09-12T14:36:31Z",
- "rendered_at": "2026-09-12T14:36:31Z",
+ "generated_at": "2026-09-12T17:41:20Z",
+ "data_as_of": "2026-09-12T17:41:20Z",
+ "rendered_at": "2026-09-12T17:41:20Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1366,6 +1366,25 @@
    "days_until": -16,
    "status": "open",
    "url": "https://airproducts.wd5.myworkdayjobs.com/AP0001/job/Allentown-Pennsylvania/Summer-Intern--IT---Cyber-Audit--2027-_JR-2026-21954",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-27"
+   }
+  },
+  {
+   "company": "AnaVation",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-27",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-27",
+   "days_until": -16,
+   "status": "open",
+   "url": "https://jobs.lever.co/anavationllc/4a82ae00-30f0-410c-bf3c-f1cdd18739e7",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5873,25 +5892,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-26"
-   }
-  },
-  {
-   "company": "AnaVation",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-27",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-27",
-   "days_until": -16,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-27"
    }
   },
   {
