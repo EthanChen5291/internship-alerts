@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-13T21:55:17Z",
- "data_as_of": "2026-09-13T21:55:17Z",
- "rendered_at": "2026-09-13T21:55:17Z",
+ "generated_at": "2026-09-13T23:46:04Z",
+ "data_as_of": "2026-09-13T23:46:04Z",
+ "rendered_at": "2026-09-13T23:46:04Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3198,6 +3198,25 @@
    }
   },
   {
+   "company": "TD Bank",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-13",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-13",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cyber-Security_R_1510795",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-13"
+   }
+  },
+  {
    "company": "Collier Aerospace",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -6066,5 +6085,5 @@
    }
   }
  ],
- "count": 319
+ "count": 320
 }

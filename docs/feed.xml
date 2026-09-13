@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-13T21:55:17Z</updated>
+  <updated>2026-09-13T23:46:04Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cyber-Security_R_1510795</id>
+    <title>TD Bank: 2027 Summer Internship Program - Global Technology &amp; Solutions - Cyber Security</title>
+    <link href="https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cyber-Security_R_1510795"/>
+    <updated>2026-09-13T23:46:04Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Mount Laurel, New Jersey</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workable:twgai:772CD136FF</id>
     <title>TWG Global: AI Engineering Intern - Summer 2027</title>
@@ -798,13 +806,5 @@
     <updated>2026-09-09T22:14:20Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Austin, TX · Python, C++, Rust, TypeScript, JavaScript · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:sierra:34b31b67-268c-4270-b48f-72e59064c96e</id>
-    <title>Sierra: Software Engineer Intern, Agent (Summer 2027)</title>
-    <link href="https://jobs.ashbyhq.com/sierra/34b31b67-268c-4270-b48f-72e59064c96e"/>
-    <updated>2026-09-09T22:14:20Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA · TypeScript, LLMs, React</summary>
   </entry>
 </feed>
