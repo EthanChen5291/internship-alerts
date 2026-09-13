@@ -3143,6 +3143,18 @@
     }
    }
   },
+  "twg global": {
+   "name": "TWG Global",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-01",
+     "role_ids": [
+      "workable:twgai:772CD136FF"
+     ],
+     "count": 1
+    }
+   }
+  },
   "u s bank": {
    "name": "U.S. Bank",
    "cycles": {
@@ -3495,5 +3507,5 @@
    }
   }
  },
- "updated_at": "2026-09-13T12:56:29Z"
+ "updated_at": "2026-09-13T17:14:35Z"
 }

@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-13T12:56:29Z</updated>
+  <updated>2026-09-13T17:14:35Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workable:twgai:772CD136FF</id>
+    <title>TWG Global: AI Engineering Intern - Summer 2027</title>
+    <link href="https://apply.workable.com/twgai/j/772CD136FF/"/>
+    <updated>2026-09-13T17:14:35Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Monica, California, United States · $50/hr · LLMs, Computer Vision</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:autostore:/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692</id>
+    <title>Autostore: Co-Op - Software Engineering</title>
+    <link href="https://autostore.wd3.myworkdayjobs.com/autostore/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692"/>
+    <updated>2026-09-13T17:14:35Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Atlanta, GA, USA · Python, Java, C++, C#, TypeScript</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:lever:anavationllc:4a82ae00-30f0-410c-bf3c-f1cdd18739e7</id>
     <title>AnaVation: Computer Science Internship Summer 2027 🇺🇸</title>
@@ -790,21 +806,5 @@
     <updated>2026-09-09T22:14:20Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · San Francisco, CA · TypeScript, LLMs, React</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workable:syntiant:113F994B7B</id>
-    <title>Syntiant: Machine Learning Intern - KWS/AED</title>
-    <link href="https://apply.workable.com/syntiant/j/113F994B7B/"/>
-    <updated>2026-09-09T22:14:20Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Redwood City, California, United States · Python, PyTorch, TensorFlow</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071</id>
-    <title>Booz Allen: Enterprise Cybersecurity Education and Execution Intern 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071"/>
-    <updated>2026-09-09T22:14:20Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · McLean, VA · $108k/yr · sponsorship: citizens-only</summary>
   </entry>
 </feed>

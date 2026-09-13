@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-13T12:56:29Z",
- "data_as_of": "2026-09-13T12:56:29Z",
- "rendered_at": "2026-09-13T12:56:29Z",
+ "generated_at": "2026-09-13T17:14:35Z",
+ "data_as_of": "2026-09-13T17:14:35Z",
+ "rendered_at": "2026-09-13T17:14:36Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1936,6 +1936,25 @@
    "days_until": -12,
    "status": "open",
    "url": "https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/253297",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-01"
+   }
+  },
+  {
+   "company": "TWG Global",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-01",
+   "days_until": -12,
+   "status": "open",
+   "url": "https://apply.workable.com/twgai/j/772CD136FF/",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -6047,5 +6066,5 @@
    }
   }
  ],
- "count": 318
+ "count": 319
 }
