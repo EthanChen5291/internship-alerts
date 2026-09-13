@@ -8,7 +8,7 @@
 
 ### 665 open roles (500 listed below) · 170 new this week
 
-4,551 employers tracked · data as of Sep 13, 2026 at 19:36 UTC
+4,551 employers tracked · data as of Sep 13, 2026 at 21:55 UTC
 
 _453 have a cycle the employer stated · 212 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
@@ -94,14 +94,14 @@ If it helps you, a star means a lot and tells me to keep going.
 | MegazoneCloud | Data Engineer Co-op 2027 🛂 🆕 | Data & ML/AI | Rochester, NY | Python, SQL, LLMs, AWS | Sep 11, 2026 | [Apply](https://jobs.ashbyhq.com/megazone/fde09888-986f-4207-88fe-3ff5b921a1fa) |
 | Klaviyo ✓ | Software Engineer Intern (Summer 2027) 🛂 🆕 | Software | Boston, MA | Python, TypeScript, React, Django | Sep 11, 2026 | [Apply](https://job-boards.greenhouse.io/klaviyocampus/jobs/7989364003) |
 | Xcimer Energy | Summer 2027 Internship - Computational and Software Engineering 🇺🇸 🆕 | Software | Denver, CO | No skills listed | Sep 11, 2026 | [Apply](https://jobs.lever.co/xcimer/fee9965c-8040-4614-8fd1-10bddfe3b911) |
-| Commure ✓ | Software Engineering Intern, Summer 2027 🆕 | Software | Mountain View, CA | Python, TypeScript, Swift, Kotlin | Sep 11, 2026 | [Apply](https://jobs.ashbyhq.com/commure/62841aa1-3ee5-4547-8380-637b737b2cb3) |
-| Lyft ✓ | Data Analyst Intern (Summer 2027) 🆕 | Data & ML/AI | New York, NY | SQL | Sep 11, 2026 | [Apply](https://app.careerpuck.com/job-board/lyft/job/8802198002?gh_jid=8802198002) |
-| Amgen ✓ 🆁 | Grad Intern – Data Engineer – Amgen’s Technology & Medical Organizations (Summer 2027) 🆕 _(2 openings)_ | Data & ML/AI | United States - Remote | Python, Java, SQL, Scala | Sep 11, 2026 | [Apply](https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725) [#2](https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255742) |
-| Amgen ✓ 🆁 | Grad Intern – Machine Learning Engineer – Amgen’s Technology & Medical Organizations (Summer 2027) 🆕 | Data & ML/AI | United States - Remote | Python, SQL, scikit-learn, Pandas | Sep 11, 2026 | [Apply](https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743) |
-| Amgen ✓ 🆁 | Grad Intern – Software Engineer – Amgen’s Technology & Medical Organizations (Summer 2027) 🆕 | Software | United States - Remote | Python, Java, SQL, Scala | Sep 11, 2026 | [Apply](https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745) |
-| Corteva | Agentic AI Engineer Intern 🆕 | Data & ML/AI | Indianapolis, Indiana, United States | Python, LLMs, AWS, Azure | Sep 11, 2026 | [Apply](https://corteva.wd5.myworkdayjobs.com/corteva/job/Indianapolis-Indiana-United-States/Agentic-AI-Engineer-Intern_248210W) |
-| Leidos ✓ | AI/ML Intern 🇺🇸 🆕 | Data & ML/AI | Huntsville, AL | Python, C++, MATLAB, Linux | Sep 11, 2026 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/AI-ML-Intern_R-00192042) |
-| Oshkosh | AI Intern 🆕 | Data & ML/AI | Oshkosh, Wisconsin, United States | Python, C++, PyTorch, TensorFlow | Sep 11, 2026 | [Apply](https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/AI-Intern_R50265) |
+| Commure ✓ | Software Engineering Intern, Summer 2027 | Software | Mountain View, CA | Python, TypeScript, Swift, Kotlin | Sep 11, 2026 | [Apply](https://jobs.ashbyhq.com/commure/62841aa1-3ee5-4547-8380-637b737b2cb3) |
+| Lyft ✓ | Data Analyst Intern (Summer 2027) | Data & ML/AI | New York, NY | SQL | Sep 11, 2026 | [Apply](https://app.careerpuck.com/job-board/lyft/job/8802198002?gh_jid=8802198002) |
+| Amgen ✓ 🆁 | Grad Intern – Data Engineer – Amgen’s Technology & Medical Organizations (Summer 2027) _(2 openings)_ | Data & ML/AI | United States - Remote | Python, Java, SQL, Scala | Sep 11, 2026 | [Apply](https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725) [#2](https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255742) |
+| Amgen ✓ 🆁 | Grad Intern – Machine Learning Engineer – Amgen’s Technology & Medical Organizations (Summer 2027) | Data & ML/AI | United States - Remote | Python, SQL, scikit-learn, Pandas | Sep 11, 2026 | [Apply](https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743) |
+| Amgen ✓ 🆁 | Grad Intern – Software Engineer – Amgen’s Technology & Medical Organizations (Summer 2027) | Software | United States - Remote | Python, Java, SQL, Scala | Sep 11, 2026 | [Apply](https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745) |
+| Corteva | Agentic AI Engineer Intern | Data & ML/AI | Indianapolis, Indiana, United States | Python, LLMs, AWS, Azure | Sep 11, 2026 | [Apply](https://corteva.wd5.myworkdayjobs.com/corteva/job/Indianapolis-Indiana-United-States/Agentic-AI-Engineer-Intern_248210W) |
+| Leidos ✓ | AI/ML Intern 🇺🇸 | Data & ML/AI | Huntsville, AL | Python, C++, MATLAB, Linux | Sep 11, 2026 | [Apply](https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/AI-ML-Intern_R-00192042) |
+| Oshkosh | AI Intern | Data & ML/AI | Oshkosh, Wisconsin, United States | Python, C++, PyTorch, TensorFlow | Sep 11, 2026 | [Apply](https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/AI-Intern_R50265) |
 | DV Trading | Quantitative Trading Intern - Summer 2027 (DV Equities) | Quant | New York | Python, C++ | Sep 11, 2026 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4702083005) |
 | DV Trading | Quantitative Research Intern - Summer 2027 (DV Equities) | Quant | New York | Python, Pandas | Sep 11, 2026 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4733133005) |
 | DV Trading | Software Developer Intern - Summer 2027 (DV Equities) | Software | New York | Python, C++, Linux | Sep 11, 2026 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4733138005) |
@@ -384,7 +384,7 @@ If it helps you, a star means a lot and tells me to keep going.
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Moog | Intern, Embedded Design Engineering 🆕 | Software | Blacksburg, VA | No skills listed | Sep 11, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Blacksburg-VA/Intern--Embedded-Design-Engineering_R-26-20053) |
+| Moog | Intern, Embedded Design Engineering | Software | Blacksburg, VA | No skills listed | Sep 11, 2026 | [Apply](https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Blacksburg-VA/Intern--Embedded-Design-Engineering_R-26-20053) |
 | Ameriprise Financial ✓ | Data Analytics & AI Intern - RiverSource | Data & ML/AI | Minneapolis, Minnesota | No skills listed | Sep 10, 2026 | [Apply](https://ameriprise.wd5.myworkdayjobs.com/Ameriprise/job/Minneapolis-Minnesota/Data-Analytics---AI-Intern---RiverSource_R26_3595) |
 | Eurofins | 6-month paid internship - AI & Automation | Data & ML/AI | Barcelona, CT, International (ES) | Python, SQL | Sep 10, 2026 | [Apply](https://jobs.smartrecruiters.com/Eurofins/744000148712379) |
 | Eurofins | AI & Automation Intern _(2 openings)_ | Data & ML/AI | Barcelona, CT, International (ES) | Python, SQL | Sep 03, 2026 | [Apply](https://jobs.smartrecruiters.com/Eurofins/744000147214369) [#2](https://jobs.smartrecruiters.com/Eurofins/744000148531473) |
@@ -424,8 +424,8 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Autostore | Co-Op - Software Engineering 🆕 | Software | Atlanta, GA, USA | Python, Java, C++, C# | Sep 13, 2026 | [Apply](https://autostore.wd3.myworkdayjobs.com/autostore/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692) |
 | Kulicke & Soffa | Intern, Software Engineering 🆕 _(2 openings)_ | Software | Fort Washington, PA, United States | Python, C++, MATLAB | Sep 12, 2026 | [Apply](https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11648) [#2](https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11649) |
 | NewsBreak | Nearby AI Internship Program - Engineering Track 🆕 | Data & ML/AI | Mountain View, California, United States | Python, Java, LLMs, Git | Sep 11, 2026 | [Apply](https://job-boards.greenhouse.io/newsbreak/jobs/4712896006) |
-| Direct Supply ✓ | Software Engineer Intern 🆕 | Software | Milwaukee, WI | Python, C#, JavaScript, SQL | Sep 11, 2026 | [Apply](https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers/job/Milwaukee-WI/Software-Engineer-Intern_REQ-2026-2559) |
-| Fidelity Investments ✓ | Co-op, Software Engineer 🆕 | Software | Boston, MA | Python, C#, JavaScript | Sep 11, 2026 | [Apply](https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-op--Software-Engineer_2135200) |
+| Direct Supply ✓ | Software Engineer Intern | Software | Milwaukee, WI | Python, C#, JavaScript, SQL | Sep 11, 2026 | [Apply](https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers/job/Milwaukee-WI/Software-Engineer-Intern_REQ-2026-2559) |
+| Fidelity Investments ✓ | Co-op, Software Engineer | Software | Boston, MA | Python, C#, JavaScript | Sep 11, 2026 | [Apply](https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-op--Software-Engineer_2135200) |
 | Crowe ✓ | MSFT AI Business Solutions Technical Intern | Data & ML/AI | Chicago IL USA | Azure | Sep 11, 2026 | [Apply](https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/D365-ERP-Technical-Intern_R-71039) |
 | Oshkosh | Cyber Security Intern | Security | Oshkosh, Wisconsin, United States | No skills listed | Sep 11, 2026 | [Apply](https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/Cyber-Security-Intern_R50267) |
 | Wellmark ✓ | Software Engineer Internship – User Experience Team | Software | Des Moines, IA, United States (Hybrid) | Java, C++, TypeScript, SQL | Sep 11, 2026 | [Apply](https://jobs.smartrecruiters.com/WellmarkInc/744000148915793) |
@@ -688,7 +688,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,484 of 4,803 registered boards returned successfully across 13 ATS platforms (100% of boards attempted, 93% of the full registry) · completed in 1004.3s · 605 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 4,382 of 4,803 registered boards returned successfully across 13 ATS platforms (94% of boards attempted, 91% of the full registry) · completed in 1087.2s · 560 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 
