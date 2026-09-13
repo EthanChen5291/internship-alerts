@@ -1,16 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workable:twgai:772CD136FF",
-      "workday:autostore:/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692"
-    ],
-    "telegram": [
-      "workable:twgai:772CD136FF",
-      "workday:autostore:/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692"
-    ],
-    "personal_email": [
-      "workable:twgai:772CD136FF",
-      "workday:autostore:/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
