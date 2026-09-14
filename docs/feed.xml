@@ -5,8 +5,48 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-13T23:46:04Z</updated>
+  <updated>2026-09-14T01:47:48Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:lever:acronaviation:34cf5ad0-840a-4c1b-8231-02a433d0479e</id>
+    <title>Acron Aviation: Software Engineer Intern - Phoenix Site</title>
+    <link href="https://jobs.lever.co/acronaviation/34cf5ad0-840a-4c1b-8231-02a433d0479e"/>
+    <updated>2026-09-14T01:47:48Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Phoenix, AZ · Python, C++, C#, SQL, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Analyst_R_1510800</id>
+    <title>TD Bank: 2027 Summer Internship Program - Global Technology &amp; Solutions - Data Analyst</title>
+    <link href="https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Analyst_R_1510800"/>
+    <updated>2026-09-14T01:47:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Mount Laurel, New Jersey</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Software-Engineer--SWE-_R_1510796-1</id>
+    <title>TD Bank: 2027 Summer Internship Program - Global Technology &amp; Solutions - Software Engineer (SWE)</title>
+    <link href="https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Software-Engineer--SWE-_R_1510796-1"/>
+    <updated>2026-09-14T01:47:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Mount Laurel, New Jersey · Java, JavaScript</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Engineer_R_1510797</id>
+    <title>TD Bank: 2027 Summer Internship Program - Global Technology &amp; Solutions - Data Engineer</title>
+    <link href="https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Engineer_R_1510797"/>
+    <updated>2026-09-14T01:47:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Mount Laurel, New Jersey · Hadoop</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cloud-DevOps_R_1510799</id>
+    <title>TD Bank: 2027 Summer Internship Program - Global Technology &amp; Solutions - Cloud/DevOps</title>
+    <link href="https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cloud-DevOps_R_1510799"/>
+    <updated>2026-09-14T01:47:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Mount Laurel, New Jersey · Terraform</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:td:/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cyber-Security_R_1510795</id>
     <title>TD Bank: 2027 Summer Internship Program - Global Technology &amp; Solutions - Cyber Security</title>
@@ -766,45 +806,5 @@
     <updated>2026-09-10T09:21:36Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Lansing, MI</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aoins:/job/Lansing-MI/Intelligent-Automation-Developer-Internship---Summer-2027_R_14474</id>
-    <title>Auto-Owners Insurance: Intelligent Automation Developer Internship - Summer 2027</title>
-    <link href="https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Intelligent-Automation-Developer-Internship---Summer-2027_R_14474"/>
-    <updated>2026-09-10T09:21:36Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Lansing, MI · Java</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:epicgames:6183293004</id>
-    <title>Epic Games: Backend Services Programmer Intern</title>
-    <link href="https://epicgames.com/careers/jobs/6183293004?gh_jid=6183293004"/>
-    <updated>2026-09-10T04:45:10Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Cary,North Carolina,United States · Java, AWS, Unreal · H-1B track record: ~28 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:rocketlab:7989722003</id>
-    <title>Rocket Lab: Flight Software Intern Summer 2027 🇺🇸</title>
-    <link href="https://job-boards.greenhouse.io/rocketlab/jobs/7989722003"/>
-    <updated>2026-09-10T00:20:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Littleton, CO · Python, C++, Rust, Git · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:shieldai:8c850c75-081d-4d09-bebf-096379a93010</id>
-    <title>Shield AI: Summer 2027 - Software Engineer Intern</title>
-    <link href="https://jobs.lever.co/shieldai/8c850c75-081d-4d09-bebf-096379a93010"/>
-    <updated>2026-09-10T00:20:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Diego, California · 37–97 USD/hr · Python, Java, C++, JavaScript, PyTorch</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:saronic:60afb634-5515-4347-824a-3816735541c2</id>
-    <title>Saronic: Software Engineer Intern (Summer 2027) 🇺🇸</title>
-    <link href="https://jobs.ashbyhq.com/saronic/60afb634-5515-4347-824a-3816735541c2"/>
-    <updated>2026-09-09T22:14:20Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Austin, TX · Python, C++, Rust, TypeScript, JavaScript · sponsorship: citizens-only</summary>
   </entry>
 </feed>
