@@ -1866,6 +1866,18 @@
     }
    }
   },
+  "labcorp": {
+   "name": "LabCorp",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "workday:labcorp:/job/Durham-NC/Intern---Software-Developer_2632330"
+     ],
+     "count": 1
+    }
+   }
+  },
   "lego": {
    "name": "Lego",
    "cycles": {
@@ -2353,6 +2365,19 @@
     }
    }
   },
+  "opengov": {
+   "name": "OpenGov",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "ashby:opengov:c31622c1-be01-4d4a-b7cf-d116be84cc08",
+      "ashby:opengov:d036cfd6-5a01-41ed-af73-78fc32854849"
+     ],
+     "count": 2
+    }
+   }
+  },
   "oshkosh": {
    "name": "Oshkosh",
    "cycles": {
@@ -2361,10 +2386,11 @@
      "role_ids": [
       "workday:oshkoshcorporation:/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Software--Summer-2026-_R49786",
       "workday:oshkoshcorporation:/job/Huntersville-North-Carolina-United-States/Software-Engineer-Intern---Summer-2027_R50321",
+      "workday:oshkoshcorporation:/job/McConnellsburg-Pennsylvania-United-States/Robotic-Programming-Welding-Intern--Summer-2027-_R49598",
       "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/AI-Intern_R50265",
       "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/Data-Engineer-Intern_R49868"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -3510,9 +3536,10 @@
      "role_ids": [
       "greenhouse:waymo:8174099",
       "greenhouse:waymo:8174504",
-      "greenhouse:waymo:8193731"
+      "greenhouse:waymo:8193731",
+      "greenhouse:waymo:8198218"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -3615,5 +3642,5 @@
    }
   }
  },
- "updated_at": "2026-09-14T19:33:09Z"
+ "updated_at": "2026-09-14T23:02:02Z"
 }
