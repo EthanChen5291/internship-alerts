@@ -2368,9 +2368,10 @@
      "first_posted": "2026-08-20",
      "role_ids": [
       "workday:philips:/job/Plymouth-Minnesota-United-States/Graduate-Level-Co-op---Data-Scientist---Plymouth--MN---Summer-2027_590567",
-      "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404"
+      "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404",
+      "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403"
      ],
-     "count": 2
+     "count": 3
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -3518,5 +3519,5 @@
    }
   }
  },
- "updated_at": "2026-09-14T01:47:48Z"
+ "updated_at": "2026-09-14T07:15:00Z"
 }
