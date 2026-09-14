@@ -1,7 +1,34 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:costar:/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
+      "workday:costar:/job/US-VA-Richmond/Security-Engineer-Intern---Richmond--VA_R39726",
+      "workday:oshkoshcorporation:/job/Huntersville-North-Carolina-United-States/Software-Engineer-Intern---Summer-2027_R50321",
+      "greenhouse:robinhood:8142961",
+      "greenhouse:robinhood:8123225",
+      "greenhouse:robinhood:8142959",
+      "greenhouse:robinhood:8142963",
+      "workday:viavisolutions:/job/Germantown-MD-USA/Software-Engineering-Co-Op_260005140-1"
+    ],
+    "telegram": [
+      "workday:costar:/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
+      "workday:costar:/job/US-VA-Richmond/Security-Engineer-Intern---Richmond--VA_R39726",
+      "workday:oshkoshcorporation:/job/Huntersville-North-Carolina-United-States/Software-Engineer-Intern---Summer-2027_R50321",
+      "greenhouse:robinhood:8142961",
+      "greenhouse:robinhood:8123225",
+      "greenhouse:robinhood:8142959",
+      "greenhouse:robinhood:8142963",
+      "workday:viavisolutions:/job/Germantown-MD-USA/Software-Engineering-Co-Op_260005140-1"
+    ],
+    "personal_email": [
+      "workday:costar:/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
+      "workday:costar:/job/US-VA-Richmond/Security-Engineer-Intern---Richmond--VA_R39726",
+      "workday:oshkoshcorporation:/job/Huntersville-North-Carolina-United-States/Software-Engineer-Intern---Summer-2027_R50321",
+      "greenhouse:robinhood:8142961",
+      "greenhouse:robinhood:8123225",
+      "greenhouse:robinhood:8142959",
+      "greenhouse:robinhood:8142963",
+      "workday:viavisolutions:/job/Germantown-MD-USA/Software-Engineering-Co-Op_260005140-1"
+    ]
   }
 }

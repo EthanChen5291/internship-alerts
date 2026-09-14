@@ -894,6 +894,19 @@
     }
    }
   },
+  "costar group": {
+   "name": "CoStar Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "workday:costar:/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
+      "workday:costar:/job/US-VA-Richmond/Security-Engineer-Intern---Richmond--VA_R39726"
+     ],
+     "count": 2
+    }
+   }
+  },
   "cox": {
    "name": "Cox",
    "cycles": {
@@ -1250,6 +1263,18 @@
       "greenhouse:fiveringsllc:5139668008",
       "greenhouse:fiveringsllc:5349707008"
      ]
+    }
+   }
+  },
+  "flagship pioneering": {
+   "name": "Flagship Pioneering",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "greenhouse:fspco-op012325:8796996002"
+     ],
+     "count": 1
     }
    }
   },
@@ -2306,10 +2331,11 @@
      "first_posted": "2026-08-31",
      "role_ids": [
       "workday:oshkoshcorporation:/job/Dodge-Center-Minnesota-United-States/Engineer-Intern---Software--Summer-2026-_R49786",
+      "workday:oshkoshcorporation:/job/Huntersville-North-Carolina-United-States/Software-Engineer-Intern---Summer-2027_R50321",
       "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/AI-Intern_R50265",
       "workday:oshkoshcorporation:/job/Oshkosh-Wisconsin-United-States/Data-Engineer-Intern_R49868"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -2549,6 +2575,21 @@
       "ashby:rivet:4e02461a-9f6c-4d3c-a511-6d54f31999bc"
      ],
      "count": 1
+    }
+   }
+  },
+  "robinhood": {
+   "name": "Robinhood",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "greenhouse:robinhood:8123225",
+      "greenhouse:robinhood:8142959",
+      "greenhouse:robinhood:8142961",
+      "greenhouse:robinhood:8142963"
+     ],
+     "count": 4
     }
    }
   },
@@ -3519,5 +3560,5 @@
    }
   }
  },
- "updated_at": "2026-09-14T07:15:00Z"
+ "updated_at": "2026-09-14T14:10:46Z"
 }
