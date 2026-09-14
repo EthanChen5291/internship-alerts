@@ -1,46 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "ashby:opengov:c31622c1-be01-4d4a-b7cf-d116be84cc08",
-      "ashby:opengov:d036cfd6-5a01-41ed-af73-78fc32854849",
-      "workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--Software-Engineering-_R-8107",
-      "workday:labcorp:/job/Durham-NC/Intern---Software-Developer_2632330",
-      "workday:oshkoshcorporation:/job/McConnellsburg-Pennsylvania-United-States/Robotic-Programming-Welding-Intern--Summer-2027-_R49598",
-      "greenhouse:sharkninjaoperatingllc:4669676006",
-      "workday:tencent:/job/US-California-Palo-Alto/Cyber-Security-Engineer-Intern_R108141-2",
-      "greenhouse:waymo:8198218",
-      "workday:wexinc:/job/US---Remote/Data---AI-Intern--Graduate-Master-s-_R22551",
-      "workday:wexinc:/job/US---Remote/DevOps---AI-Engineering-Intern--Undergraduate-_R23056",
-      "workday:wexinc:/job/US---Remote/SRE---Application-Services-Intern--Graduate-Master-s-_R22494",
-      "workday:wexinc:/job/US---Remote/AI---Data-Platform-Engineering-Intern--Undergraduate-_R23055"
-    ],
-    "telegram": [
-      "ashby:opengov:c31622c1-be01-4d4a-b7cf-d116be84cc08",
-      "ashby:opengov:d036cfd6-5a01-41ed-af73-78fc32854849",
-      "workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--Software-Engineering-_R-8107",
-      "workday:labcorp:/job/Durham-NC/Intern---Software-Developer_2632330",
-      "workday:oshkoshcorporation:/job/McConnellsburg-Pennsylvania-United-States/Robotic-Programming-Welding-Intern--Summer-2027-_R49598",
-      "greenhouse:sharkninjaoperatingllc:4669676006",
-      "workday:tencent:/job/US-California-Palo-Alto/Cyber-Security-Engineer-Intern_R108141-2",
-      "greenhouse:waymo:8198218",
-      "workday:wexinc:/job/US---Remote/Data---AI-Intern--Graduate-Master-s-_R22551",
-      "workday:wexinc:/job/US---Remote/DevOps---AI-Engineering-Intern--Undergraduate-_R23056",
-      "workday:wexinc:/job/US---Remote/SRE---Application-Services-Intern--Graduate-Master-s-_R22494",
-      "workday:wexinc:/job/US---Remote/AI---Data-Platform-Engineering-Intern--Undergraduate-_R23055"
-    ],
-    "personal_email": [
-      "ashby:opengov:c31622c1-be01-4d4a-b7cf-d116be84cc08",
-      "ashby:opengov:d036cfd6-5a01-41ed-af73-78fc32854849",
-      "workday:cna:/job/Chicago-IL-USA/Technology-Internship-Program--Software-Engineering-_R-8107",
-      "workday:labcorp:/job/Durham-NC/Intern---Software-Developer_2632330",
-      "workday:oshkoshcorporation:/job/McConnellsburg-Pennsylvania-United-States/Robotic-Programming-Welding-Intern--Summer-2027-_R49598",
-      "greenhouse:sharkninjaoperatingllc:4669676006",
-      "workday:tencent:/job/US-California-Palo-Alto/Cyber-Security-Engineer-Intern_R108141-2",
-      "greenhouse:waymo:8198218",
-      "workday:wexinc:/job/US---Remote/Data---AI-Intern--Graduate-Master-s-_R22551",
-      "workday:wexinc:/job/US---Remote/DevOps---AI-Engineering-Intern--Undergraduate-_R23056",
-      "workday:wexinc:/job/US---Remote/SRE---Application-Services-Intern--Graduate-Master-s-_R22494",
-      "workday:wexinc:/job/US---Remote/AI---Data-Platform-Engineering-Intern--Undergraduate-_R23055"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
