@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-14T14:10:46Z",
- "data_as_of": "2026-09-14T14:10:46Z",
- "rendered_at": "2026-09-14T14:10:46Z",
+ "generated_at": "2026-09-14T19:33:09Z",
+ "data_as_of": "2026-09-14T19:33:09Z",
+ "rendered_at": "2026-09-14T19:33:09Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2989,6 +2989,25 @@
    }
   },
   {
+   "company": "SEP",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-10",
+   "days_until": -4,
+   "status": "open",
+   "url": "https://jobs.lever.co/sep/4efbdbce-a753-41b5-8ed7-0661cd193178",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-10"
+   }
+  },
+  {
    "company": "Tanium",
    "last_cycle_posted": "",
    "posted_on": "2026-09-10",
@@ -3236,6 +3255,44 @@
    }
   },
   {
+   "company": "Figma",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-14",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://boards.greenhouse.io/figma/jobs/6143238004?gh_jid=6143238004",
+   "note": "opens late summer, small cohort",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-14"
+   }
+  },
+  {
+   "company": "Genworth Financial",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-14",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://gnw.wd1.myworkdayjobs.com/GNW/job/Raleigh-North-Carolina/Software-Engineering-Intern_REQ-260367-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-14"
+   }
+  },
+  {
    "company": "Robinhood",
    "last_cycle_posted": "",
    "posted_on": "2026-09-14",
@@ -3246,8 +3303,27 @@
    "expected": "2026-09-14",
    "days_until": 0,
    "status": "open",
-   "url": "https://boards.greenhouse.io/robinhood/jobs/8142961?t=gh_src=&gh_jid=8142961",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/8123225?t=gh_src=&gh_jid=8123225",
    "note": "opens fall",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-14"
+   }
+  },
+  {
+   "company": "Schroders",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-14",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2061",
+   "note": "",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -3820,25 +3896,6 @@
    "provenance": {
     "type": "verified-window",
     "url": "drw.com/work-at-drw",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
-   "company": "Figma",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-08-01",
-   "days_until": -44,
-   "status": "waiting",
-   "url": "",
-   "note": "opens late summer, small cohort",
-   "provenance": {
-    "type": "verified-window",
-    "url": "https://www.figma.com/careers/",
     "verified_at": "2026-07-21"
    }
   },
@@ -6123,5 +6180,5 @@
    }
   }
  ],
- "count": 322
+ "count": 325
 }
