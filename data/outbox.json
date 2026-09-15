@@ -1,7 +1,37 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "oracle:hdjq.fa.us2.oraclecloud.com:26010928",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26008230",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40172",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007774",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007776",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007777",
+      "greenhouse:brevium:4713683006",
+      "workday:philips:/job/Nashville-Tennessee-United-States/Intern--AI-Business-Operations-Nashville--TN-Summer-2027_590986",
+      "greenhouse:singlestore:8205514"
+    ],
+    "telegram": [
+      "oracle:hdjq.fa.us2.oraclecloud.com:26010928",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26008230",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40172",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007774",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007776",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007777",
+      "greenhouse:brevium:4713683006",
+      "workday:philips:/job/Nashville-Tennessee-United-States/Intern--AI-Business-Operations-Nashville--TN-Summer-2027_590986",
+      "greenhouse:singlestore:8205514"
+    ],
+    "personal_email": [
+      "oracle:hdjq.fa.us2.oraclecloud.com:26010928",
+      "oracle:hdjq.fa.us2.oraclecloud.com:26008230",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40172",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007774",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007776",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007777",
+      "greenhouse:brevium:4713683006",
+      "workday:philips:/job/Nashville-Tennessee-United-States/Intern--AI-Business-Operations-Nashville--TN-Summer-2027_590986",
+      "greenhouse:singlestore:8205514"
+    ]
   }
 }
