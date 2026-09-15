@@ -1,7 +1,22 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "greenhouse:andurilindustries:5239083007",
+      "workday:dairynet:/job/La-Crosse-Wisconsin/Intern--Energy-Data-Analyst_JR101052",
+      "workday:ngc:/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
+      "workday:nvidia:/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406"
+    ],
+    "telegram": [
+      "greenhouse:andurilindustries:5239083007",
+      "workday:dairynet:/job/La-Crosse-Wisconsin/Intern--Energy-Data-Analyst_JR101052",
+      "workday:ngc:/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
+      "workday:nvidia:/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406"
+    ],
+    "personal_email": [
+      "greenhouse:andurilindustries:5239083007",
+      "workday:dairynet:/job/La-Crosse-Wisconsin/Intern--Energy-Data-Analyst_JR101052",
+      "workday:ngc:/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
+      "workday:nvidia:/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406"
+    ]
   }
 }

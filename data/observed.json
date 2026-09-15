@@ -73,6 +73,18 @@
     }
    }
   },
+  "ai intern to the ceo": {
+   "name": "AI Intern to the CEO",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "ashby:cyvl:8bfc4116-b0bb-47f8-bca1-7069a37db328"
+     ],
+     "count": 1
+    }
+   }
+  },
   "air products": {
    "name": "Air Products",
    "cycles": {
@@ -276,9 +288,10 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-10",
-     "count": 1,
+     "count": 2,
      "role_ids": [
-      "greenhouse:andurilindustries:5148079007"
+      "greenhouse:andurilindustries:5148079007",
+      "greenhouse:andurilindustries:5239083007"
      ]
     }
    }
@@ -2231,7 +2244,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 13,
+     "count": 14,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -2244,6 +2257,7 @@
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378",
       "workday:ngc:/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
+      "workday:ngc:/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842"
      ]
@@ -2353,6 +2367,13 @@
       "workday:nvidia:/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745",
       "workday:nvidia:/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-09-15",
+     "role_ids": [
+      "workday:nvidia:/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406"
+     ],
+     "count": 1
     }
    }
   },
@@ -3707,5 +3728,5 @@
    }
   }
  },
- "updated_at": "2026-09-15T17:32:41Z"
+ "updated_at": "2026-09-15T20:41:45Z"
 }

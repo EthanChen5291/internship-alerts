@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-15T17:32:41Z",
- "data_as_of": "2026-09-15T17:32:41Z",
- "rendered_at": "2026-09-15T17:32:42Z",
+ "generated_at": "2026-09-15T20:41:45Z",
+ "data_as_of": "2026-09-15T20:41:45Z",
+ "rendered_at": "2026-09-15T20:41:45Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3236,6 +3236,25 @@
    }
   },
   {
+   "company": "AI Intern to the CEO",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-14",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/cyvl/8bfc4116-b0bb-47f8-bca1-7069a37db328",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-14"
+   }
+  },
+  {
    "company": "CoStar Group",
    "last_cycle_posted": "",
    "posted_on": "2026-09-14",
@@ -3426,6 +3445,25 @@
    }
   },
   {
+   "company": "NVIDIA",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-15",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-15",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406",
+   "note": "multiple programs; Ignite ~Oct, SWE ongoing",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-15"
+   }
+  },
+  {
    "company": "Q2",
    "last_cycle_posted": "",
    "posted_on": "2026-09-15",
@@ -3436,7 +3474,7 @@
    "expected": "2026-09-15",
    "days_until": 0,
    "status": "open",
-   "url": "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794",
+   "url": "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12797",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5742,25 +5780,6 @@
    }
   },
   {
-   "company": "NVIDIA",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "day",
-   "rolling": true,
-   "confidence": "rolling",
-   "source": "known",
-   "expected": "",
-   "days_until": null,
-   "status": "waiting",
-   "url": "",
-   "note": "multiple programs; Ignite ~Oct, SWE ongoing",
-   "provenance": {
-    "type": "verified-window",
-    "url": "nvidia.com/careers",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
    "company": "Palantir",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -6312,5 +6331,5 @@
    }
   }
  ],
- "count": 332
+ "count": 333
 }
