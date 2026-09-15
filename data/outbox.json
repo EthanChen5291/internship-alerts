@@ -1,7 +1,19 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:cai:/job/California/Cybersecurity-Analyst-Intern_R8488",
+      "workday:intel:/job/US-Oregon-Hillsboro/AI-Solutions-Engineering-Undergraduate-Intern_JR0286629",
+      "smartrecruiters:Interco:744000149591449"
+    ],
+    "telegram": [
+      "workday:cai:/job/California/Cybersecurity-Analyst-Intern_R8488",
+      "workday:intel:/job/US-Oregon-Hillsboro/AI-Solutions-Engineering-Undergraduate-Intern_JR0286629",
+      "smartrecruiters:Interco:744000149591449"
+    ],
+    "personal_email": [
+      "workday:cai:/job/California/Cybersecurity-Analyst-Intern_R8488",
+      "workday:intel:/job/US-Oregon-Hillsboro/AI-Solutions-Engineering-Undergraduate-Intern_JR0286629",
+      "smartrecruiters:Interco:744000149591449"
+    ]
   }
 }

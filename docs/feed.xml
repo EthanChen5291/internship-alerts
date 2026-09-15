@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-15T06:54:46Z</updated>
+  <updated>2026-09-15T12:55:46Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:cai:/job/California/Cybersecurity-Analyst-Intern_R8488</id>
+    <title>CAI: Cybersecurity Analyst Intern</title>
+    <link href="https://cai.wd5.myworkdayjobs.com/computer_aid/job/California/Cybersecurity-Analyst-Intern_R8488"/>
+    <updated>2026-09-15T12:55:46Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · California · Python, AWS, Azure, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:intel:/job/US-Oregon-Hillsboro/AI-Solutions-Engineering-Undergraduate-Intern_JR0286629</id>
+    <title>Intel: AI Solutions Engineering Undergraduate Intern</title>
+    <link href="https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-Solutions-Engineering-Undergraduate-Intern_JR0286629"/>
+    <updated>2026-09-15T12:55:46Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · US, Oregon, Hillsboro · Python, Java, C++, scikit-learn, Pandas · H-1B track record: ~4.8k approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:tencent:/job/US-California-Palo-Alto/Machine-Learning-Intern_R108140-1</id>
     <title>Tencent: Machine Learning Intern</title>
@@ -790,21 +806,5 @@
     <updated>2026-09-11T14:07:35Z</updated>
     <category term="Summer 2027"/>
     <summary>2 openings · Summer 2027 · Software · Bloomington, MN · C++, C# · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:avav:/job/Centreville-VA/Software-Engineering-Intern_8593</id>
-    <title>Avav: Software Engineering Intern 🇺🇸</title>
-    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Centreville-VA/Software-Engineering-Intern_8593"/>
-    <updated>2026-09-11T09:48:02Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Centreville, VA · Python, Java, C++, Bash, Linux · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:avav:/job/Melbourne-FL/Software-Engineering-Intern_8613</id>
-    <title>Avav: Software Engineering Intern 🇺🇸</title>
-    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Melbourne-FL/Software-Engineering-Intern_8613"/>
-    <updated>2026-09-11T09:48:02Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Melbourne, FL · Python, Java, C++, Bash, Linux · sponsorship: citizens-only</summary>
   </entry>
 </feed>
