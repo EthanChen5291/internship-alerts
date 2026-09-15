@@ -1405,9 +1405,12 @@
       "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1",
       "workday:gdit:/job/USA-VA-Falls-Church---3150-Fairview-Park-Dr-VAS095/GDIT-2027-Summer-AI---ML-Internship_RQ225401",
       "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-AI-Machine-Learning-Internship--DC-Metro-Area_RQ225912",
-      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ226237-1"
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ226237-1",
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404",
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228405",
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228406"
      ],
-     "count": 7
+     "count": 10
     }
    }
   },
@@ -2228,7 +2231,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 12,
+     "count": 13,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -2241,6 +2244,7 @@
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378",
       "workday:ngc:/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842"
      ]
     },
@@ -2292,6 +2296,18 @@
      "first_posted": "2026-08-14",
      "role_ids": [
       "ashby:notion:3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "nov": {
+   "name": "NOV",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-15",
+     "role_ids": [
+      "oracle:egay.fa.us6.oraclecloud.com:44449"
      ],
      "count": 1
     }
@@ -2533,6 +2549,19 @@
       "greenhouse:point72:7297642002"
      ],
      "count": 1
+    }
+   }
+  },
+  "q2": {
+   "name": "Q2",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-15",
+     "role_ids": [
+      "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12797",
+      "workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794"
+     ],
+     "count": 2
     }
    }
   },
@@ -3607,6 +3636,18 @@
     }
    }
   },
+  "workshop": {
+   "name": "Workshop",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "greenhouse:workshop:5237900007"
+     ],
+     "count": 1
+    }
+   }
+  },
   "xantium": {
    "name": "Xantium",
    "cycles": {
@@ -3666,5 +3707,5 @@
    }
   }
  },
- "updated_at": "2026-09-15T12:55:46Z"
+ "updated_at": "2026-09-15T17:32:41Z"
 }
