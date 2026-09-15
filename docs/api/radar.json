@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-15T01:37:39Z",
- "data_as_of": "2026-09-15T01:37:39Z",
- "rendered_at": "2026-09-15T01:37:39Z",
+ "generated_at": "2026-09-15T06:54:46Z",
+ "data_as_of": "2026-09-15T06:54:46Z",
+ "rendered_at": "2026-09-15T06:54:46Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1005,25 +1005,6 @@
    "days_until": -26,
    "status": "open",
    "url": "https://jobs.smartrecruiters.com/AbbVie/3743990014697918",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-20"
-   }
-  },
-  {
-   "company": "Fannie Mae",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-20",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-20",
-   "days_until": -26,
-   "status": "open",
-   "url": "https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Washington-DC/Campus---Treasury---Capital-Markets-Program-Intern--Quantitative-Research-Track-_JR2872",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5987,6 +5968,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-17"
+   }
+  },
+  {
+   "company": "Fannie Mae",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-20",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-20",
+   "days_until": -26,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-20"
    }
   },
   {
