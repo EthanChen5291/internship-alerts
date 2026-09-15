@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-14T23:02:02Z</updated>
+  <updated>2026-09-15T01:37:39Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:doordashusa:8171041</id>
+    <title>DoorDash: Software Engineer, Intern (Summer 2027) - US</title>
+    <link href="https://job-boards.greenhouse.io/doordashusa/jobs/8171041"/>
+    <updated>2026-09-15T01:37:39Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York, NY; San Francisco, CA; Sunnyvale, CA; Los Angeles, CA; Seattle, WA · Python, Java, SQL, Kotlin, AWS · H-1B track record: ~685 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:opengov:c31622c1-be01-4d4a-b7cf-d116be84cc08</id>
     <title>OpenGov: Intern, Software Engineer</title>
@@ -22,6 +30,14 @@
     <updated>2026-09-14T23:02:02Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · US | Georgia | Atlanta · $25 per hour · TypeScript, JavaScript, React, Angular, Git · H-1B track record: ~14 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:waymo:8198218</id>
+    <title>Waymo: 2027 Summer Intern, BS/MS, Software Engineering, Commercialization</title>
+    <link href="https://careers.withwaymo.com/jobs?gh_jid=8198218"/>
+    <updated>2026-09-14T23:02:02Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Mountain View, California, United States; San Francisco, California, United States · C++ · H-1B track record: ~284 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:labcorp:/job/Durham-NC/Intern---Software-Developer_2632330</id>
@@ -48,12 +64,12 @@
     <summary>Not stated · Security · US-California-Palo Alto · $27.12–$51.93/hr · Python, Java, C++, Bash, AWS</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:waymo:8198218</id>
-    <title>Waymo: 2027 Summer Intern, BS/MS, Software Engineering, Commercialization</title>
-    <link href="https://careers.withwaymo.com/jobs?gh_jid=8198218"/>
+    <id>urn:intern-engine:workday:wexinc:/job/US---Remote/AI---Data-Platform-Engineering-Intern--Undergraduate-_R23055</id>
+    <title>Wex: AI &amp; Data Platform Engineering Intern (Undergraduate)</title>
+    <link href="https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/US---Remote/AI---Data-Platform-Engineering-Intern--Undergraduate-_R23055"/>
     <updated>2026-09-14T23:02:02Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Mountain View, California, United States; San Francisco, California, United States · C++ · H-1B track record: ~284 approvals (FY2022–2023)</summary>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · US - Remote · Python, Java, SQL, LLMs, AWS · H-1B track record: ~22 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:wexinc:/job/US---Remote/Data---AI-Intern--Graduate-Master-s-_R22551</id>
@@ -78,14 +94,6 @@
     <updated>2026-09-14T23:02:02Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · US - Remote · Python, Bash, AWS, GCP, Azure · H-1B track record: ~22 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:wexinc:/job/US---Remote/AI---Data-Platform-Engineering-Intern--Undergraduate-_R23055</id>
-    <title>Wex: AI &amp; Data Platform Engineering Intern (Undergraduate)</title>
-    <link href="https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/US---Remote/AI---Data-Platform-Engineering-Intern--Undergraduate-_R23055"/>
-    <updated>2026-09-14T23:02:02Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · US - Remote · Python, Java, SQL, LLMs, AWS · H-1B track record: ~22 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:base-power:5353ea33-57d4-46fa-9a96-e392a3f841bc</id>
@@ -798,13 +806,5 @@
     <updated>2026-09-11T09:48:02Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Simi Valley, CA · Python, C++, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1</id>
-    <title>CACI: Software Engineering Intern - Summer 2027</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1"/>
-    <updated>2026-09-11T09:48:02Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Denver, CO, US · Python, Java, JavaScript, SQL, Kotlin</summary>
   </entry>
 </feed>

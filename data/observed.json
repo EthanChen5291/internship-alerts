@@ -1027,6 +1027,18 @@
     }
    }
   },
+  "doordash": {
+   "name": "DoorDash",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "greenhouse:doordashusa:8171041"
+     ],
+     "count": 1
+    }
+   }
+  },
   "draftkings": {
    "name": "DraftKings",
    "cycles": {
@@ -3642,5 +3654,5 @@
    }
   }
  },
- "updated_at": "2026-09-14T23:02:02Z"
+ "updated_at": "2026-09-15T01:37:39Z"
 }
