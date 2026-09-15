@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:doordashusa:8171041"
-    ],
-    "telegram": [
-      "greenhouse:doordashusa:8171041"
-    ],
-    "personal_email": [
-      "greenhouse:doordashusa:8171041"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
