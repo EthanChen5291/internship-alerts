@@ -1,7 +1,13 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:bedrock-robotics:8927dd7e-a48d-49a2-92eb-09ec059432f4"
+    ],
+    "telegram": [
+      "ashby:bedrock-robotics:8927dd7e-a48d-49a2-92eb-09ec059432f4"
+    ],
+    "personal_email": [
+      "ashby:bedrock-robotics:8927dd7e-a48d-49a2-92eb-09ec059432f4"
+    ]
   }
 }
