@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-16T01:48:05Z",
- "data_as_of": "2026-09-16T01:48:05Z",
- "rendered_at": "2026-09-16T01:48:06Z",
+ "generated_at": "2026-09-16T06:57:21Z",
+ "data_as_of": "2026-09-16T06:57:21Z",
+ "rendered_at": "2026-09-16T06:57:22Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3483,6 +3483,44 @@
    }
   },
   {
+   "company": "The Aerospace Corporation",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-15",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-15",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-15"
+   }
+  },
+  {
+   "company": "Live Oak Bank",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-16",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://liveoakbancshares.wd1.myworkdayjobs.com/Live_Oak/job/Wilmington-NC/Summer-2027-Intern--AI-Enablement---Forward-Deployed-Engineering_R-002624",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-16"
+   }
+  },
+  {
    "company": "APEX Analytix",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -6331,5 +6369,5 @@
    }
   }
  ],
- "count": 333
+ "count": 335
 }

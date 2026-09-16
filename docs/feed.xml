@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-16T01:48:05Z</updated>
+  <updated>2026-09-16T06:57:21Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:liveoakbancshares:/job/Wilmington-NC/Summer-2027-Intern--AI-Enablement---Forward-Deployed-Engineering_R-002624</id>
+    <title>Live Oak Bank: Summer 2027 Intern: AI Enablement &amp; Forward-Deployed Engineering</title>
+    <link href="https://liveoakbancshares.wd1.myworkdayjobs.com/Live_Oak/job/Wilmington-NC/Summer-2027-Intern--AI-Enablement---Forward-Deployed-Engineering_R-002624"/>
+    <updated>2026-09-16T06:57:21Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Wilmington, NC · $19.77–$32.12/hr · Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605</id>
+    <title>The Aerospace Corporation: 2027 Aerospace Software Engineer Undergraduate Intern 🇺🇸</title>
+    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605"/>
+    <updated>2026-09-16T06:57:21Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:brevium:4713683006</id>
     <title>Brevium: Software Engineer Intern</title>
@@ -790,21 +806,5 @@
     <updated>2026-09-11T21:11:09Z</updated>
     <category term="Summer 2027"/>
     <summary>2 openings · Summer 2027 · Data &amp; ML/AI · United States - Remote · $35.34–$41.2/hr · Python, Java, SQL, Scala, AWS · H-1B track record: ~768 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743</id>
-    <title>Amgen: Grad Intern – Machine Learning Engineer – Technology, AI &amp; Data (Summer 2027)</title>
-    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255743"/>
-    <updated>2026-09-11T21:11:09Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · United States - Remote · $35.34–$41.2/hr · Python, SQL, scikit-learn, Pandas, AWS · H-1B track record: ~768 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:amgen:/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745</id>
-    <title>Amgen: Grad Intern – Software Engineer – Technology, AI &amp; Data (Summer 2027)</title>
-    <link href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255745"/>
-    <updated>2026-09-11T21:11:09Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · United States - Remote · $35.34–$41.2/hr · Python, Java, SQL, Scala · H-1B track record: ~768 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
