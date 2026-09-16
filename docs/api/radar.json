@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-16T17:32:53Z",
- "data_as_of": "2026-09-16T17:32:53Z",
- "rendered_at": "2026-09-16T17:32:53Z",
+ "generated_at": "2026-09-16T20:41:20Z",
+ "data_as_of": "2026-09-16T20:41:20Z",
+ "rendered_at": "2026-09-16T20:41:21Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1612,7 +1612,7 @@
    "expected": "2026-08-31",
    "days_until": -16,
    "status": "open",
-   "url": "https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
+   "url": "https://caci.wd1.myworkdayjobs.com/external/job/Colorado-Springs-CO-US/Software-Test-Engineer-Intern---Summer-2027_332003",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3350,25 +3350,6 @@
    }
   },
   {
-   "company": "OpenGov",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-14",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-14",
-   "days_until": -2,
-   "status": "open",
-   "url": "https://jobs.ashbyhq.com/opengov/c31622c1-be01-4d4a-b7cf-d116be84cc08",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-14"
-   }
-  },
-  {
    "company": "Robinhood",
    "last_cycle_posted": "",
    "posted_on": "2026-09-14",
@@ -3502,6 +3483,25 @@
    }
   },
   {
+   "company": "AspenTech",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-16",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Medina-Minnesota/Software-Development-Intern---Digital-Grid-Management---Summer-2027_R9456",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-16"
+   }
+  },
+  {
    "company": "Cartesian",
    "last_cycle_posted": "",
    "posted_on": "2026-09-16",
@@ -3531,7 +3531,7 @@
    "expected": "2026-09-16",
    "days_until": 0,
    "status": "open",
-   "url": "https://jobs.ashbyhq.com/gecko-robotics/c097505b-0a28-4a33-a917-268f463641e8",
+   "url": "https://jobs.ashbyhq.com/gecko-robotics/01138338-ff3c-4982-8ba3-5401386bf082",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3608,6 +3608,25 @@
    "days_until": 0,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/relaypro/jobs/8176774",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-16"
+   }
+  },
+  {
+   "company": "Rendezvous Robotics",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-16",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4408590009",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -6464,6 +6483,25 @@
    }
   },
   {
+   "company": "OpenGov",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-14",
+   "days_until": -2,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-14"
+   }
+  },
+  {
    "company": "Schroders",
    "last_cycle_posted": "",
    "posted_on": "2026-09-14",
@@ -6483,5 +6521,5 @@
    }
   }
  ],
- "count": 341
+ "count": 343
 }

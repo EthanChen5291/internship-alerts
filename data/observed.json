@@ -346,6 +346,18 @@
     }
    }
   },
+  "aspentech": {
+   "name": "AspenTech",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "workday:aspentech:/job/Medina-Minnesota/Software-Development-Intern---Digital-Grid-Management---Summer-2027_R9456"
+     ],
+     "count": 1
+    }
+   }
+  },
   "assured guaranty": {
    "name": "Assured Guaranty",
    "cycles": {
@@ -2769,6 +2781,13 @@
       "greenhouse:rendezvousrobotics:4328555009"
      ],
      "count": 1
+    },
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "greenhouse:rendezvousrobotics:4408590009"
+     ],
+     "count": 1
     }
    }
   },
@@ -3846,5 +3865,5 @@
    }
   }
  },
- "updated_at": "2026-09-16T17:32:53Z"
+ "updated_at": "2026-09-16T20:41:20Z"
 }
