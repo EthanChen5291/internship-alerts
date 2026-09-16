@@ -1,7 +1,22 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:americancentury:/job/Kansas-City-Missouri/Cybersecurity-Intern_R0005729",
+      "workday:avav:/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550",
+      "workday:cisco:/job/RTP-North-Carolina-US/Security-Engineer-I--Intern----United-States_2025885",
+      "workday:cisco:/job/RTP-North-Carolina-US/Software-Engineer-I--Intern----United-States_2025890"
+    ],
+    "telegram": [
+      "workday:americancentury:/job/Kansas-City-Missouri/Cybersecurity-Intern_R0005729",
+      "workday:avav:/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550",
+      "workday:cisco:/job/RTP-North-Carolina-US/Security-Engineer-I--Intern----United-States_2025885",
+      "workday:cisco:/job/RTP-North-Carolina-US/Software-Engineer-I--Intern----United-States_2025890"
+    ],
+    "personal_email": [
+      "workday:americancentury:/job/Kansas-City-Missouri/Cybersecurity-Intern_R0005729",
+      "workday:avav:/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550",
+      "workday:cisco:/job/RTP-North-Carolina-US/Security-Engineer-I--Intern----United-States_2025885",
+      "workday:cisco:/job/RTP-North-Carolina-US/Software-Engineer-I--Intern----United-States_2025890"
+    ]
   }
 }

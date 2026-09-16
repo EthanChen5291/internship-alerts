@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-16T20:41:20Z",
- "data_as_of": "2026-09-16T20:41:20Z",
- "rendered_at": "2026-09-16T20:41:21Z",
+ "generated_at": "2026-09-16T23:26:53Z",
+ "data_as_of": "2026-09-16T23:26:53Z",
+ "rendered_at": "2026-09-16T23:26:53Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3426,25 +3426,6 @@
    }
   },
   {
-   "company": "NVIDIA",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-15",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-15",
-   "days_until": -1,
-   "status": "open",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406",
-   "note": "multiple programs; Ignite ~Oct, SWE ongoing",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-15"
-   }
-  },
-  {
    "company": "Q2",
    "last_cycle_posted": "",
    "posted_on": "2026-09-15",
@@ -6518,6 +6499,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-14"
+   }
+  },
+  {
+   "company": "NVIDIA",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-15",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-15",
+   "days_until": -1,
+   "status": "dropped",
+   "url": "",
+   "note": "multiple programs; Ignite ~Oct, SWE ongoing",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-15"
    }
   }
  ],
