@@ -339,9 +339,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-04",
      "role_ids": [
-      "workday:amat:/job/AlbanyNY/Summer-2027-Global-Technical-Learning-Center-Data-Analyst-Intern--Bachelor-s-Master-s--Albany--NY-_R2627551"
+      "workday:amat:/job/AlbanyNY/Summer-2027-Global-Technical-Learning-Center-Data-Analyst-Intern--Bachelor-s-Master-s--Albany--NY-_R2627551",
+      "workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -685,6 +686,7 @@
     "Summer 2027": {
      "first_posted": "2026-08-31",
      "role_ids": [
+      "workday:caci:/job/Colorado-Springs-CO-US/Software-Test-Engineer-Intern---Summer-2027_332003",
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
       "workday:caci:/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798",
@@ -695,7 +697,7 @@
       "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 9
+     "count": 10
     }
    }
   },
@@ -706,6 +708,18 @@
      "first_posted": "2026-09-15",
      "role_ids": [
       "workday:cai:/job/California/Cybersecurity-Analyst-Intern_R8488"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "cartesian": {
+   "name": "Cartesian",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "greenhouse:cartesiansystems:4408204009"
      ],
      "count": 1
     }
@@ -1404,6 +1418,19 @@
       "greenhouse:freeformfuturecorp:7872198003"
      ],
      "count": 1
+    }
+   }
+  },
+  "gecko robotics": {
+   "name": "Gecko Robotics",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "ashby:gecko-robotics:01138338-ff3c-4982-8ba3-5401386bf082",
+      "ashby:gecko-robotics:c097505b-0a28-4a33-a917-268f463641e8"
+     ],
+     "count": 2
     }
    }
   },
@@ -2202,6 +2229,18 @@
     }
    }
   },
+  "nasdaq": {
+   "name": "Nasdaq",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "workday:nasdaq:/job/GA---Glenridge-Point/Software-Developer--Engineer-Intern---2027-Summer-Internship_R0026972"
+     ],
+     "count": 1
+    }
+   }
+  },
   "national information solutions cooperative nisc": {
    "name": "National Information Solutions Cooperative (NISC)",
    "cycles": {
@@ -2587,6 +2626,18 @@
     }
    }
   },
+  "plastipak": {
+   "name": "Plastipak",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "workday:plastipak:/job/Plastipak-GBTC---Plymouth-MI/Software-Engineering-Intern---Summer-2027_REQ24512"
+     ],
+     "count": 1
+    }
+   }
+  },
   "point72": {
    "name": "Point72",
    "cycles": {
@@ -2636,6 +2687,18 @@
     }
    }
   },
+  "quantiq": {
+   "name": "Quantiq",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-06-17",
+     "role_ids": [
+      "greenhouse:quantiq:4287936009"
+     ],
+     "count": 1
+    }
+   }
+  },
   "red bull": {
    "name": "Red Bull",
    "cycles": {
@@ -2669,6 +2732,19 @@
       "workday:regions:/job/Mobile-AL---RSA-Tower/XMLNAME-2027-ETP-Intern---Corporate-Banking-Group--Commercial-Credit-Products--Mobile--AL_R104975"
      ],
      "count": 1
+    }
+   }
+  },
+  "relay": {
+   "name": "Relay",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "greenhouse:relaypro:8176774",
+      "greenhouse:relaypro:8180836"
+     ],
+     "count": 2
     }
    }
   },
@@ -2787,6 +2863,7 @@
      "role_ids": [
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01867129",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01873099",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Software-Engineering-Intern-Summer-2027-_01870349-1",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01868241",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01871019",
@@ -2804,7 +2881,19 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-179--855-35Th-St-NE--BLDG-179/Software-Engineering-Intern--Summer-Fall-2027-_01873006",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324"
      ],
-     "count": 18
+     "count": 19
+    }
+   }
+  },
+  "s c electric": {
+   "name": "S&C Electric Company",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-16",
+     "role_ids": [
+      "oracle:ejia.fa.us6.oraclecloud.com:107256"
+     ],
+     "count": 1
     }
    }
   },
@@ -3757,5 +3846,5 @@
    }
   }
  },
- "updated_at": "2026-09-16T12:49:35Z"
+ "updated_at": "2026-09-16T17:32:53Z"
 }
