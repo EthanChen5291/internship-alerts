@@ -5,23 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-15T23:26:10Z</updated>
+  <updated>2026-09-16T01:48:05Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26010928</id>
-    <title>Emerson Electric: Software Engineering Intern 🛂</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010928"/>
+    <id>urn:intern-engine:greenhouse:brevium:4713683006</id>
+    <title>Brevium: Software Engineer Intern</title>
+    <link href="https://job-boards.greenhouse.io/brevium/jobs/4713683006"/>
     <updated>2026-09-15T23:26:10Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Austin, TX, United States · Python, C++, C#, Linux · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26008230</id>
-    <title>Emerson Electric: Software Engineering Intern - ADG System R&amp;D</title>
-    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008230"/>
-    <updated>2026-09-15T23:26:10Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Austin, TX, United States · Linux</summary>
+    <summary>Not stated · Software · American Fork, UT · C#, SQL</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40172</id>
@@ -56,12 +48,20 @@
     <summary>Summer 2027 · Software · Austin, TX, United States</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:brevium:4713683006</id>
-    <title>Brevium: Software Engineer Intern</title>
-    <link href="https://job-boards.greenhouse.io/brevium/jobs/4713683006"/>
+    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26008230</id>
+    <title>Emerson Electric: Software Engineering Intern - ADG System R&amp;D</title>
+    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008230"/>
     <updated>2026-09-15T23:26:10Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · American Fork, UT · C#, SQL</summary>
+    <summary>Not stated · Software · Austin, TX, United States · Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26010928</id>
+    <title>Emerson Electric: Software Engineering Intern 🛂</title>
+    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010928"/>
+    <updated>2026-09-15T23:26:10Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Austin, TX, United States · Python, C++, C#, Linux · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:philips:/job/Nashville-Tennessee-United-States/Intern--AI-Business-Operations-Nashville--TN-Summer-2027_590986</id>

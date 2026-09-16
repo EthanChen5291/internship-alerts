@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/EthanChen5291/internship-alerts/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/EthanChen5291/internship-alerts/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fethanchen5291.github.io%2Finternship-alerts%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://ethanchen5291.github.io/internship-alerts/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://ethanchen5291.github.io/internship-alerts/feed.xml)
 
-### 744 open roles (530 listed below) · 202 new this week
+### 743 open roles (529 listed below) · 201 new this week
 
-4,563 employers tracked · data as of Sep 15, 2026 at 23:26 UTC
+4,563 employers tracked · data as of Sep 16, 2026 at 01:48 UTC
 
-_500 have a cycle the employer stated · 244 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_500 have a cycle the employer stated · 243 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://ethanchen5291.github.io/internship-alerts/)** · **[📡 RSS](https://ethanchen5291.github.io/internship-alerts/feed.xml)** · **[⚙️ JSON API](https://ethanchen5291.github.io/internship-alerts/api/jobs.json)** · **[🔔 Personal alerts](PERSONAL_SETUP.md)**
 
@@ -126,9 +126,9 @@ If it helps you, a star means a lot and tells me to keep going.
 | CoStar Group | Security Engineer Intern - Richmond, VA 🛂 🆕 | Security | US-VA Richmond | Python, Bash, Linux | Sep 14, 2026 | [Apply](https://costar.wd1.myworkdayjobs.com/Costar_Campus/job/US-VA-Richmond/Security-Engineer-Intern---Richmond--VA_R39726) |
 | Oshkosh | Software Engineer Intern - Summer 2027 🆕 | Software | Huntersville +2 more | Python, C++, C#, JavaScript | Sep 14, 2026 | [Apply](https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Huntersville-North-Carolina-United-States/Software-Engineer-Intern---Summer-2027_R50321) |
 | Philips | Intern – Software Engineering – Plymouth, MN – Summer 2027 🆕 | Software | Plymouth, Minnesota, United States | Python, Java, C++, C# | Sep 14, 2026 | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403) |
-| TD Bank | 2027 Summer Internship Program - Global Technology & Solutions - Cloud/DevOps 🆕 | Software | Mount Laurel, New Jersey | Terraform | Sep 13, 2026 | [Apply](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cloud-DevOps_R_1510799) |
-| TD Bank | 2027 Summer Internship Program - Global Technology & Solutions - Data Analyst 🆕 | Data & ML/AI | Mount Laurel, New Jersey | No skills listed | Sep 13, 2026 | [Apply](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Analyst_R_1510800) |
-| TD Bank | 2027 Summer Internship Program - Global Technology & Solutions - Data Engineer 🆕 | Data & ML/AI | Mount Laurel, New Jersey | Hadoop | Sep 13, 2026 | [Apply](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Engineer_R_1510797) |
+| TD Bank | 2027 Summer Internship Program - Global Technology & Solutions - Cloud/DevOps | Software | Mount Laurel, New Jersey | Terraform | Sep 13, 2026 | [Apply](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Cloud-DevOps_R_1510799) |
+| TD Bank | 2027 Summer Internship Program - Global Technology & Solutions - Data Analyst | Data & ML/AI | Mount Laurel, New Jersey | No skills listed | Sep 13, 2026 | [Apply](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Analyst_R_1510800) |
+| TD Bank | 2027 Summer Internship Program - Global Technology & Solutions - Data Engineer | Data & ML/AI | Mount Laurel, New Jersey | Hadoop | Sep 13, 2026 | [Apply](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Summer-Internship-Program---Global-Technology---Solutions---Data-Engineer_R_1510797) |
 | AnaVation | Computer Science Internship Summer 2027 🇺🇸 | Software | Chantilly, VA | Python, Java, Node.js, AWS | Sep 12, 2026 | [Apply](https://jobs.lever.co/anavationllc/4a82ae00-30f0-410c-bf3c-f1cdd18739e7) |
 | Lyft ✓ | Data Analyst Intern (Summer 2027) | Data & ML/AI | New York, NY | SQL | Sep 11, 2026 | [Apply](https://app.careerpuck.com/job-board/lyft/job/8802198002?gh_jid=8802198002) |
 | Lyft ✓ | Software Engineer Intern, Backend (Summer 2027) | Software | San Francisco, CA | No skills listed | Sep 11, 2026 | [Apply](https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002) |
@@ -425,16 +425,16 @@ If it helps you, a star means a lot and tells me to keep going.
 | Hermeus | Flight Software Engineering Intern - Fall 2026 🇺🇸 | Software | Atlanta, GA | C++ | Mar 04, 2026 | [Apply](https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440) |
 | Amazon ✓ | Robotics - Applied Scientist II Intern / Co-op - 2026 (Robotics, Manipulation, Perception, Motion Planning, Autonomous Mobile Robots, Computer Vision, Machine Learning, Controls, and more) | Data & ML/AI | North Reading, Massachusetts, USA | Computer Vision, Python, Java, C++ | Oct 08, 2025 | [Apply](https://www.amazon.jobs/en/jobs/3104589/robotics-applied-scientist-ii-intern-co-op-2026-robotics-manipulation-perception-motion-planning-autonomous-mobile-robots-computer-vision-machine-learning-controls-and-more) |
 
-## Recently posted — cycle not stated  (176 roles)
+## Recently posted — cycle not stated  (175 roles)
 
 These postings never name a cycle — not in the title, not in the posting text — so neither do we. They're recent tech internships (posted within the last few weeks), often exactly the early drops worth applying to first; we just can't tell you which cycle they're for, and we'd rather say so than guess. The moment a posting's own text states a cycle, the role moves up into that section automatically.
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
-| Emerson Electric | Software Engineering Intern 🛂 🆕 | Software | Austin, TX, United States | Python, C++, C#, Linux | Sep 15, 2026 | [Apply](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010928) |
-| Emerson Electric | Software Engineering Intern - ADG System R&D 🆕 | Software | Austin, TX, United States | Linux | Sep 15, 2026 | [Apply](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008230) |
-| Nokia | Embedded Software Development Coop 🆕 | Software | United States | C++, Linux | Sep 15, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40172) |
 | Brevium | Software Engineer Intern 🆕 | Software | American Fork, UT | C#, SQL | Sep 15, 2026 | [Apply](https://job-boards.greenhouse.io/brevium/jobs/4713683006) |
+| Nokia | Embedded Software Development Coop 🆕 | Software | United States | C++, Linux | Sep 15, 2026 | [Apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40172) |
+| Emerson Electric | Software Engineering Intern - ADG System R&D 🆕 | Software | Austin, TX, United States | Linux | Sep 15, 2026 | [Apply](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008230) |
+| Emerson Electric | Software Engineering Intern 🛂 🆕 | Software | Austin, TX, United States | Python, C++, C#, Linux | Sep 15, 2026 | [Apply](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010928) |
 | Duolingo ✓ | Software Engineer, Intern 🆕 | Software | New York +11 more | Python, Java, Swift, Kotlin | Sep 15, 2026 | [Apply](https://careers.duolingo.com/jobs/8805925002?gh_jid=8805925002) |
 | Duolingo ✓ | Software Engineer, Thrive Intern 🆕 | Software | Pittsburgh, PA | Python, Java, Swift, Kotlin | Sep 15, 2026 | [Apply](https://careers.duolingo.com/jobs/8806114002?gh_jid=8806114002) |
 | ENSCO | Information Security Intern 🇺🇸 🆕 | Security | Endicott +8 more | Python | Sep 15, 2026 | [Apply](https://job-boards.greenhouse.io/ensco/jobs/5421861008) |
@@ -455,7 +455,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 | SingleStore ✓ | Software Engineer Intern 🆕 _(2 openings)_ | Software | United States | Go, TypeScript, JavaScript, SQL | Sep 14, 2026 | [Apply](https://job-boards.greenhouse.io/singlestore/jobs/8154399) [#2](https://job-boards.greenhouse.io/singlestore/jobs/8205514) |
 | Micron Technology ✓ | Intern - IT Software Engineer 🆕 | Software | Boise, ID - Main Site | Python, C#, JavaScript, SQL | Sep 14, 2026 | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR111582) |
 | Viavi Solutions ✓ | Software Engineering Co-Op 🆕 | Software | Germantown, MD USA | C++, Linux | Sep 14, 2026 | [Apply](https://viavisolutions.wd1.myworkdayjobs.com/careers/job/Germantown-MD-USA/Software-Engineering-Co-Op_260005140-1) |
-| Acron Aviation | Software Engineer Intern - Phoenix Site 🆕 | Software | Phoenix, AZ | Python, C++, C#, SQL | Sep 14, 2026 | [Apply](https://jobs.lever.co/acronaviation/34cf5ad0-840a-4c1b-8231-02a433d0479e) |
+| Acron Aviation | Software Engineer Intern - Phoenix Site | Software | Phoenix, AZ | Python, C++, C#, SQL | Sep 14, 2026 | [Apply](https://jobs.lever.co/acronaviation/34cf5ad0-840a-4c1b-8231-02a433d0479e) |
 | Autostore | Co-Op/Intern - Software Engineering | Software | Atlanta, GA, USA | Python, Java, C++, C# | Sep 13, 2026 | [Apply](https://autostore.wd3.myworkdayjobs.com/autostore/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692) |
 | Kulicke & Soffa | Intern, Software Engineering | Software | Fort Washington, PA, United States | C++ | Sep 12, 2026 | [Apply](https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11649) |
 | NewsBreak | Nearby AI Internship Program - Engineering Track | Data & ML/AI | Mountain View, California, United States | Python, Java, LLMs, Git | Sep 11, 2026 | [Apply](https://job-boards.greenhouse.io/newsbreak/jobs/4712896006) |
@@ -546,7 +546,6 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Northern Trust ✓ | Technology Intern – Infrastructure and IT Management 🛂 | Software | Chicago, IL | Bash, LLMs | Sep 01, 2026 | [Apply](https://ntrs.wd1.myworkdayjobs.com/northerntrust/job/Chicago-IL/Technology-Intern---Infrastructure-and-IT-Management_R160872-1) |
 | Northern Trust ✓ | Technology Intern – Software Engineering 🛂 | Software | Chicago, IL | Python, Java, SQL, Bash | Sep 01, 2026 | [Apply](https://ntrs.wd1.myworkdayjobs.com/northerntrust/job/Chicago-IL/Technology-Intern---Software-Engineering_R160832-1) |
 | Tencent | AI Business Analyst Intern | Data & ML/AI | US-California-Palo Alto | No skills listed | Sep 01, 2026 | [Apply](https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/AI-Business-Analyst-Intern_R108039-1) |
-| Pluralis Research | Research Scientist Intern | Data & ML/AI | USA or Australia | PyTorch | Aug 31, 2026 | [Apply](https://jobs.ashbyhq.com/pluralis-research/c8f78978-a693-4863-bcc0-66af5c3fd0be) |
 | Brunswick ✓ | Mercury Marine: Software Controls Engineering Intern | Software | Fond du Lac, WI | MATLAB | Aug 31, 2026 | [Apply](https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Software-Controls-Engineering-Intern_JR-051436) |
 | Stripe ✓ | Software Engineer, Intern (Summer or Winter) | Software | San Francisco, Seattle, New York City | Java, JavaScript, Scala, Ruby | Aug 31, 2026 | [Apply](https://stripe.com/jobs/search?gh_jid=8128745) |
 | Epic Games ✓ | Frontend Programmer Intern | Software | Cary,North Carolina,United States | TypeScript, JavaScript, React, Unreal | Aug 31, 2026 | [Apply](https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004) |
@@ -618,28 +617,6 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 
 | Company | Typical opening | Expected this cycle | Status |
 |---|---|---|---|
-| Accenture | ~Aug | ~Aug · any day now | ⏳ waiting |
-| AQR Capital Management | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Atlassian | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Bridgewater Associates | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Cisco | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Citadel | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Databricks | ~Aug | ~Aug · any day now | ⏳ waiting |
-| DRW | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Google | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Intuit | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Jane Street | ~Aug | ~Aug · any day now | ⏳ waiting |
-| John Deere | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Meta | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Optiver | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Pinterest | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Salesforce | ~Aug | ~Aug · any day now | ⏳ waiting |
-| SIG | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Snowflake | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Tesla | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Uber | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Visa | ~Aug | ~Aug · any day now | ⏳ waiting |
-| Walmart | ~Aug | ~Aug · any day now | ⏳ waiting |
 | 3M | ~Sep | ~Sep · any day now | ⏳ waiting |
 | Adobe | ~Sep | ~Sep · any day now | ⏳ waiting |
 | Airbnb | ~Sep | ~Sep · any day now | ⏳ waiting |
@@ -648,6 +625,28 @@ Stop refreshing career pages. 🎯 = the employer's **own posted date**, read fr
 | Applied Intuition | ~Sep | ~Sep · any day now | ⏳ waiting |
 | Asana | ~Sep | ~Sep · any day now | ⏳ waiting |
 | Aurora | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Bloomberg | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Blue Origin | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Boeing | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Booz Allen Hamilton | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Boston Scientific | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Carvana | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Caterpillar | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Chewy | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Cloudflare | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Comcast | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Confluent | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Coupang | ~Sep | ~Sep · any day now | ⏳ waiting |
+| CrowdStrike | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Dell Technologies | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Discord | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Elastic | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Electronic Arts | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Epic Games | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Fastly | ~Sep | ~Sep · any day now | ⏳ waiting |
+| Ford | ~Sep | ~Sep · any day now | ⏳ waiting |
+| General Motors | ~Sep | ~Sep · any day now | ⏳ waiting |
+| GitLab | ~Sep | ~Sep · any day now | ⏳ waiting |
 
 _333 companies on the [full radar](https://ethanchen5291.github.io/internship-alerts/#radar). **213** dated from our own live observations 🎯 (this grows every cycle). "~Aug" = hand-verified typical month, not a promise of the day; "rolling" = posts year-round; "waiting" = not seen in our tracked feeds yet, not a guarantee it isn't out somewhere else._
 
@@ -704,7 +703,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,395 of 4,817 registered boards returned successfully across 13 ATS platforms (97% of boards attempted, 91% of the full registry) · completed in 1068.1s · 581 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 4,495 of 4,817 registered boards returned successfully across 13 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 746.5s · 620 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 
