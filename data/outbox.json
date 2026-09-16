@@ -1,37 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "lever:kitware:ff25a349-a362-45d2-b1e4-2487c1df4f75",
-      "lever:kitware:7b6ff8f9-34c6-4338-845d-4e1bbc142906",
-      "workday:aspentech:/job/Medina-Minnesota/Software-Development-Intern---Digital-Grid-Management---Summer-2027_R9456",
-      "workday:graco:/job/Dayton-Minnesota-USA-French-Lake/Software-Engineer-Intern_R0023556",
-      "workday:kbr:/job/Sioux-Falls-South-Dakota/Image-Processing-Software-Engineer-Intern_R2130067",
-      "greenhouse:rendezvousrobotics:4408590009",
-      "smartrecruiters:RenesasElectronics:744000149952164",
-      "workday:valeo:/job/Troy-MI/Systems-Engineering-Co-Op--Software-_REQ2026071241",
-      "workday:wellington:/job/Boston-MA-United-States/Trading-Research---Analytics-Co-Op_R94827-1"
-    ],
-    "telegram": [
-      "lever:kitware:ff25a349-a362-45d2-b1e4-2487c1df4f75",
-      "lever:kitware:7b6ff8f9-34c6-4338-845d-4e1bbc142906",
-      "workday:aspentech:/job/Medina-Minnesota/Software-Development-Intern---Digital-Grid-Management---Summer-2027_R9456",
-      "workday:graco:/job/Dayton-Minnesota-USA-French-Lake/Software-Engineer-Intern_R0023556",
-      "workday:kbr:/job/Sioux-Falls-South-Dakota/Image-Processing-Software-Engineer-Intern_R2130067",
-      "greenhouse:rendezvousrobotics:4408590009",
-      "smartrecruiters:RenesasElectronics:744000149952164",
-      "workday:valeo:/job/Troy-MI/Systems-Engineering-Co-Op--Software-_REQ2026071241",
-      "workday:wellington:/job/Boston-MA-United-States/Trading-Research---Analytics-Co-Op_R94827-1"
-    ],
-    "personal_email": [
-      "lever:kitware:ff25a349-a362-45d2-b1e4-2487c1df4f75",
-      "lever:kitware:7b6ff8f9-34c6-4338-845d-4e1bbc142906",
-      "workday:aspentech:/job/Medina-Minnesota/Software-Development-Intern---Digital-Grid-Management---Summer-2027_R9456",
-      "workday:graco:/job/Dayton-Minnesota-USA-French-Lake/Software-Engineer-Intern_R0023556",
-      "workday:kbr:/job/Sioux-Falls-South-Dakota/Image-Processing-Software-Engineer-Intern_R2130067",
-      "greenhouse:rendezvousrobotics:4408590009",
-      "smartrecruiters:RenesasElectronics:744000149952164",
-      "workday:valeo:/job/Troy-MI/Systems-Engineering-Co-Op--Software-_REQ2026071241",
-      "workday:wellington:/job/Boston-MA-United-States/Trading-Research---Analytics-Co-Op_R94827-1"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
