@@ -1,16 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:amperesand:4409254009",
-      "greenhouse:waymo:8203200"
-    ],
-    "telegram": [
-      "greenhouse:amperesand:4409254009",
-      "greenhouse:waymo:8203200"
-    ],
-    "personal_email": [
-      "greenhouse:amperesand:4409254009",
-      "greenhouse:waymo:8203200"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
