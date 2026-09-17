@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-17T01:55:25Z</updated>
+  <updated>2026-09-17T07:52:00Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:amperesand:4409254009</id>
+    <title>Amperesand: Software Engineering Intern</title>
+    <link href="https://job-boards.greenhouse.io/amperesand/jobs/4409254009"/>
+    <updated>2026-09-17T07:52:00Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Reno, Nevada, United States · TypeScript, LLMs, React, AWS, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:waymo:8203200</id>
+    <title>Waymo: 2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech</title>
+    <link href="https://careers.withwaymo.com/jobs?gh_jid=8203200"/>
+    <updated>2026-09-17T07:52:00Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Francisco, California · Python, C++, SQL · H-1B track record: ~284 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:newsbreak:4711146006</id>
     <title>NewsBreak: New Market Launch Intern (MBA), Nearby AI</title>
@@ -227,9 +243,9 @@
     <id>urn:intern-engine:workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265</id>
     <title>Applied Materials: 2027 Software Engineering Intern (Masters - Santa Clara, CA)</title>
     <link href="https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265"/>
-    <updated>2026-09-16T17:32:53Z</updated>
+    <updated>2026-09-17T07:33:10Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Santa Clara,CA · C++ · H-1B track record: ~650 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Software · Santa Clara,CA · C++ · status: closed · H-1B track record: ~650 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:caci:/job/Colorado-Springs-CO-US/Software-Test-Engineer-Intern---Summer-2027_332003</id>
@@ -790,21 +806,5 @@
     <updated>2026-09-14T19:33:09Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · East Syracuse, NY (Collamer) · $20.27–$22.3/hr · Java, C++, Linux · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:slihrms:/job/USNVHenderson/Water-Infrastructure-Engineering-Intern---Summer-2027_R-160500-2</id>
-    <title>AtkinsRéalis: Water Infrastructure Engineering Intern - Summer 2027</title>
-    <link href="https://slihrms.wd3.myworkdayjobs.com/careers/job/USNVHenderson/Water-Infrastructure-Engineering-Intern---Summer-2027_R-160500-2"/>
-    <updated>2026-09-14T19:33:09Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US.NV.Henderson</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:wexinc:/job/US---Remote/Backend-Software-Engineer-Intern---C---Cloud-Security---AI--Undergraduate-_R22589</id>
-    <title>Wex: Backend Software Engineer Intern - C#, Cloud Security &amp; AI (Undergraduate)</title>
-    <link href="https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/US---Remote/Backend-Software-Engineer-Intern---C---Cloud-Security---AI--Undergraduate-_R22589"/>
-    <updated>2026-09-14T19:33:09Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · US - Remote · C#, Python, AWS, Docker, Git · H-1B track record: ~22 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
