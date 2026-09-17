@@ -1,28 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/Cybersecurity-Intern-Summer-2027_R267444",
-      "workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/IT-Developer-Intern-Summer-2027_R267441-1",
-      "workday:insperity:/job/Kingwood-TX/Rotational-AI-Intern_JR103294",
-      "workday:labcorp:/job/Durham-NC/Intern---Network-Infrastructure---Automation-Engineering_2632795",
-      "workday:leidos:/job/Pittsburgh-PA/Research-Engineer-Intern_R-00192500",
-      "smartrecruiters:RenesasElectronics:744000150194379"
-    ],
-    "telegram": [
-      "workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/Cybersecurity-Intern-Summer-2027_R267444",
-      "workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/IT-Developer-Intern-Summer-2027_R267441-1",
-      "workday:insperity:/job/Kingwood-TX/Rotational-AI-Intern_JR103294",
-      "workday:labcorp:/job/Durham-NC/Intern---Network-Infrastructure---Automation-Engineering_2632795",
-      "workday:leidos:/job/Pittsburgh-PA/Research-Engineer-Intern_R-00192500",
-      "smartrecruiters:RenesasElectronics:744000150194379"
-    ],
-    "personal_email": [
-      "workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/Cybersecurity-Intern-Summer-2027_R267444",
-      "workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/IT-Developer-Intern-Summer-2027_R267441-1",
-      "workday:insperity:/job/Kingwood-TX/Rotational-AI-Intern_JR103294",
-      "workday:labcorp:/job/Durham-NC/Intern---Network-Infrastructure---Automation-Engineering_2632795",
-      "workday:leidos:/job/Pittsburgh-PA/Research-Engineer-Intern_R-00192500",
-      "smartrecruiters:RenesasElectronics:744000150194379"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
