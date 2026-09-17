@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-17T20:48:12Z</updated>
+  <updated>2026-09-17T23:20:45Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10552937</id>
+    <title>Amazon: Software Development Engineer Internship - Summer -2027 (USA)</title>
+    <link href="https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-internship-summer-2027-usa"/>
+    <updated>2026-09-17T23:20:45Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Seattle, Washington, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000150217869</id>
+    <title>Bosch: AI Engineering Intern (October 2026 - August 2027)</title>
+    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000150217869"/>
+    <updated>2026-09-17T23:20:45Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Plymouth, MI, United States · Python, C++, MATLAB, LLMs · H-1B track record: ~188 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:towerresearchcapital:8212158</id>
+    <title>Tower Research Capital: Software Engineer Intern (Summer 2027)</title>
+    <link href="https://www.tower-research.com/open-positions/?gh_jid=8212158"/>
+    <updated>2026-09-17T23:20:45Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York · Python, Java, C++, Go, Rust · H-1B track record: ~38 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:lever:tri:6433edb6-76be-409f-9a73-9b9d9c207f9f</id>
     <title>Toyota Research Institute: Human-Centered AI Research Intern, Causal Reasoning Models</title>
@@ -14,6 +38,14 @@
     <updated>2026-09-17T20:48:12Z</updated>
     <category term="Winter 2027"/>
     <summary>Winter 2027 · Data &amp; ML/AI · Los Altos, CA · $65/hr · Python, PyTorch, LLMs · status: closed · H-1B track record: ~10 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:RenesasElectronics:744000150194379</id>
+    <title>Renesas Electronics: Embedded Systems Intern</title>
+    <link href="https://jobs.smartrecruiters.com/RenesasElectronics/744000150194379"/>
+    <updated>2026-09-17T20:48:12Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Remote, REMOTE, United States (Remote)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:basspro:/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/Cybersecurity-Intern-Summer-2027_R267444</id>
@@ -54,14 +86,6 @@
     <updated>2026-09-17T20:48:12Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Pittsburgh, PA · Python, MATLAB · H-1B track record: ~79 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:RenesasElectronics:744000150194379</id>
-    <title>Renesas Electronics: Embedded Systems Intern</title>
-    <link href="https://jobs.smartrecruiters.com/RenesasElectronics/744000150194379"/>
-    <updated>2026-09-17T20:48:12Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Remote, REMOTE, United States (Remote)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:conductorai:d6a1b110-10ad-4b5e-83a0-88c5fd7bc891</id>
@@ -782,29 +806,5 @@
     <updated>2026-09-17T17:35:49Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · United States-Utah-Roy · $18.5–$33.5/hr · Python, Java, C++, C#, MATLAB · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:oshkoshcorporation:/job/San-Francisco-California-United-States/Software-Engineering-Intern_R49493</id>
-    <title>Oshkosh: Software Engineering Intern</title>
-    <link href="https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/San-Francisco-California-United-States/Software-Engineering-Intern_R49493"/>
-    <updated>2026-09-15T17:32:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · San Francisco, California, United States · Python, C++</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12797</id>
-    <title>Q2: 2027 Summer Internship - Machine Learning Engineer 🛂</title>
-    <link href="https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12797"/>
-    <updated>2026-09-15T17:32:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Austin, Texas · Python, Java, PyTorch, TensorFlow, scikit-learn · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:q2ebanking:/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794</id>
-    <title>Q2: 2027 Summer Internship - Software Engineer 🛂</title>
-    <link href="https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794"/>
-    <updated>2026-09-15T17:32:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Austin, Texas · Python, C#, JavaScript, SQL, Tableau · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>

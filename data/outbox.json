@@ -1,7 +1,19 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "amazon:amazon:10552937",
+      "smartrecruiters:BoschGroup:744000150217869",
+      "greenhouse:towerresearchcapital:8212158"
+    ],
+    "telegram": [
+      "amazon:amazon:10552937",
+      "smartrecruiters:BoschGroup:744000150217869",
+      "greenhouse:towerresearchcapital:8212158"
+    ],
+    "personal_email": [
+      "amazon:amazon:10552937",
+      "smartrecruiters:BoschGroup:744000150217869",
+      "greenhouse:towerresearchcapital:8212158"
+    ]
   }
 }
