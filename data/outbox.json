@@ -1,7 +1,55 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:conductorai:d6a1b110-10ad-4b5e-83a0-88c5fd7bc891",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260818",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260795",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260831",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260804",
+      "oracle:ibqbjb.fa.ocs.oraclecloud.com:158088",
+      "oracle:fa-exty-saasfaprod1.fa.ocs.oraclecloud.com:119494",
+      "oracle:fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com:1067",
+      "greenhouse:covar:5240360007",
+      "workday:jj:/job/Milpitas-California-United-States-of-America/Process-Excellence---AI-Co-op_R-099367",
+      "workday:marvell:/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1",
+      "greenhouse:nanopathinc:4732881005",
+      "greenhouse:sharkninjaoperatingllc:4713793006",
+      "greenhouse:sharkninjaoperatingllc:4713808006",
+      "workday:visa:/job/US---Bellevue-WA/Software-Engineer--Intern--Bellevue---2027_REF088585W-2"
+    ],
+    "telegram": [
+      "ashby:conductorai:d6a1b110-10ad-4b5e-83a0-88c5fd7bc891",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260818",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260795",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260831",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260804",
+      "oracle:ibqbjb.fa.ocs.oraclecloud.com:158088",
+      "oracle:fa-exty-saasfaprod1.fa.ocs.oraclecloud.com:119494",
+      "oracle:fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com:1067",
+      "greenhouse:covar:5240360007",
+      "workday:jj:/job/Milpitas-California-United-States-of-America/Process-Excellence---AI-Co-op_R-099367",
+      "workday:marvell:/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1",
+      "greenhouse:nanopathinc:4732881005",
+      "greenhouse:sharkninjaoperatingllc:4713793006",
+      "greenhouse:sharkninjaoperatingllc:4713808006",
+      "workday:visa:/job/US---Bellevue-WA/Software-Engineer--Intern--Bellevue---2027_REF088585W-2"
+    ],
+    "personal_email": [
+      "ashby:conductorai:d6a1b110-10ad-4b5e-83a0-88c5fd7bc891",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260818",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260795",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260831",
+      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260804",
+      "oracle:ibqbjb.fa.ocs.oraclecloud.com:158088",
+      "oracle:fa-exty-saasfaprod1.fa.ocs.oraclecloud.com:119494",
+      "oracle:fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com:1067",
+      "greenhouse:covar:5240360007",
+      "workday:jj:/job/Milpitas-California-United-States-of-America/Process-Excellence---AI-Co-op_R-099367",
+      "workday:marvell:/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1",
+      "greenhouse:nanopathinc:4732881005",
+      "greenhouse:sharkninjaoperatingllc:4713793006",
+      "greenhouse:sharkninjaoperatingllc:4713808006",
+      "workday:visa:/job/US---Bellevue-WA/Software-Engineer--Intern--Bellevue---2027_REF088585W-2"
+    ]
   }
 }
