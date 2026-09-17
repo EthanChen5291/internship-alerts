@@ -5,39 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-16T23:26:53Z</updated>
+  <updated>2026-09-17T01:55:25Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:wellington:/job/Boston-MA-United-States/Trading-Infrastructure-and-Risk--Alert-Specialist-Co-Op_R94819-1</id>
-    <title>Wellington Management: Trading Infrastructure and Risk, Alert Specialist Co Op</title>
-    <link href="https://wellington.wd5.myworkdayjobs.com/external/job/Boston-MA-United-States/Trading-Infrastructure-and-Risk--Alert-Specialist-Co-Op_R94819-1"/>
-    <updated>2026-09-16T23:26:53Z</updated>
-    <category term="Winter 2026"/>
-    <summary>Winter 2026 · Quant · Boston, MA, United States · $19–$35/hr · status: closed · H-1B track record: ~112 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:wellington:/job/Boston-MA-United-States/Trading-Infrastructure-Risk--Bond-Forward-Co-Op_R94823-1</id>
-    <title>Wellington Management: Trading Infrastructure Risk, Bond Forward Co Op</title>
-    <link href="https://wellington.wd5.myworkdayjobs.com/external/job/Boston-MA-United-States/Trading-Infrastructure-Risk--Bond-Forward-Co-Op_R94823-1"/>
-    <updated>2026-09-16T23:26:53Z</updated>
-    <category term="Winter 2026"/>
-    <summary>Winter 2026 · Quant · Boston, MA, United States · $19–$35/hr · status: closed · H-1B track record: ~112 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:wellington:/job/Boston-MA-United-States/Trading-Infrastructure-and-Risk--Currency-Forward-Specialist-Co-Op_R94821-1</id>
-    <title>Wellington Management: Trading Infrastructure and Risk, Currency Forward Specialist Co Op</title>
-    <link href="https://wellington.wd5.myworkdayjobs.com/external/job/Boston-MA-United-States/Trading-Infrastructure-and-Risk--Currency-Forward-Specialist-Co-Op_R94821-1"/>
-    <updated>2026-09-16T23:26:53Z</updated>
-    <category term="Winter 2026"/>
-    <summary>Winter 2026 · Quant · Boston, MA, United States · $19–$35/hr · status: closed · H-1B track record: ~112 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:wellington:/job/Boston-MA-United-States/Portfolio-Reference-Data-Analyst-Co-op_R94829-1</id>
-    <title>Wellington Management: Portfolio Reference Data Analyst Co-op</title>
-    <link href="https://wellington.wd5.myworkdayjobs.com/Campus/job/Boston-MA-United-States/Portfolio-Reference-Data-Analyst-Co-op_R94829-1"/>
-    <updated>2026-09-16T23:26:53Z</updated>
-    <category term="Winter 2026"/>
-    <summary>Winter 2026 · Data &amp; ML/AI · Boston, MA, United States · $19–$35/hr · Python, SQL · status: closed · H-1B track record: ~112 approvals (FY2022–2023)</summary>
+    <id>urn:intern-engine:greenhouse:newsbreak:4711146006</id>
+    <title>NewsBreak: New Market Launch Intern (MBA), Nearby AI</title>
+    <link href="https://job-boards.greenhouse.io/newsbreak/jobs/4711146006"/>
+    <updated>2026-09-17T01:55:24Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Bellevue, Washington, United States; Mountain View, California, United States; New York, New York, United States; Remote</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:americancentury:/job/Kansas-City-Missouri/Cybersecurity-Intern_R0005729</id>
@@ -70,6 +46,38 @@
     <updated>2026-09-16T23:26:53Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · RTP, North Carolina, US · Python, Java, C++, AWS, GCP · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:wellington:/job/Boston-MA-United-States/Portfolio-Reference-Data-Analyst-Co-op_R94829-1</id>
+    <title>Wellington Management: Portfolio Reference Data Analyst Co-op</title>
+    <link href="https://wellington.wd5.myworkdayjobs.com/Campus/job/Boston-MA-United-States/Portfolio-Reference-Data-Analyst-Co-op_R94829-1"/>
+    <updated>2026-09-16T23:26:53Z</updated>
+    <category term="Winter 2026"/>
+    <summary>Winter 2026 · Data &amp; ML/AI · Boston, MA, United States · $19–$35/hr · Python, SQL · status: closed · H-1B track record: ~112 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:wellington:/job/Boston-MA-United-States/Trading-Infrastructure-Risk--Bond-Forward-Co-Op_R94823-1</id>
+    <title>Wellington Management: Trading Infrastructure Risk, Bond Forward Co Op</title>
+    <link href="https://wellington.wd5.myworkdayjobs.com/external/job/Boston-MA-United-States/Trading-Infrastructure-Risk--Bond-Forward-Co-Op_R94823-1"/>
+    <updated>2026-09-16T23:26:53Z</updated>
+    <category term="Winter 2026"/>
+    <summary>Winter 2026 · Quant · Boston, MA, United States · $19–$35/hr · status: closed · H-1B track record: ~112 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:wellington:/job/Boston-MA-United-States/Trading-Infrastructure-and-Risk--Alert-Specialist-Co-Op_R94819-1</id>
+    <title>Wellington Management: Trading Infrastructure and Risk, Alert Specialist Co Op</title>
+    <link href="https://wellington.wd5.myworkdayjobs.com/external/job/Boston-MA-United-States/Trading-Infrastructure-and-Risk--Alert-Specialist-Co-Op_R94819-1"/>
+    <updated>2026-09-16T23:26:53Z</updated>
+    <category term="Winter 2026"/>
+    <summary>Winter 2026 · Quant · Boston, MA, United States · $19–$35/hr · status: closed · H-1B track record: ~112 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:wellington:/job/Boston-MA-United-States/Trading-Infrastructure-and-Risk--Currency-Forward-Specialist-Co-Op_R94821-1</id>
+    <title>Wellington Management: Trading Infrastructure and Risk, Currency Forward Specialist Co Op</title>
+    <link href="https://wellington.wd5.myworkdayjobs.com/external/job/Boston-MA-United-States/Trading-Infrastructure-and-Risk--Currency-Forward-Specialist-Co-Op_R94821-1"/>
+    <updated>2026-09-16T23:26:53Z</updated>
+    <category term="Winter 2026"/>
+    <summary>Winter 2026 · Quant · Boston, MA, United States · $19–$35/hr · status: closed · H-1B track record: ~112 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:rendezvousrobotics:4408590009</id>
@@ -203,9 +211,9 @@
     <id>urn:intern-engine:oracle:ejia.fa.us6.oraclecloud.com:107256</id>
     <title>S&amp;C Electric Company: Cyber Security Analyst- Intern</title>
     <link href="https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107256"/>
-    <updated>2026-09-16T17:32:53Z</updated>
+    <updated>2026-09-17T01:55:24Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Security · Chicago, IL, United States · $22–$30/hr · H-1B track record: ~10 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Security · Chicago, IL, United States · $22–$30/hr · status: closed · H-1B track record: ~10 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:collieraerospace:5a8bf9a3-c4f5-4c5a-ba9a-188979106827</id>
@@ -798,13 +806,5 @@
     <updated>2026-09-14T19:33:09Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · US - Remote · C#, Python, AWS, Docker, Git · H-1B track record: ~22 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:wexinc:/job/US---Remote/Backend-Software-Engineer-Intern---C--Java---AI-Workflows--Undergraduate-_R22586</id>
-    <title>Wex: Backend Software Engineer Intern - C#/Java &amp; AI Workflows (Undergraduate)</title>
-    <link href="https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/US---Remote/Backend-Software-Engineer-Intern---C--Java---AI-Workflows--Undergraduate-_R22586"/>
-    <updated>2026-09-14T19:33:09Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · US - Remote · Java, C#, SQL, Azure, Kafka · H-1B track record: ~22 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
