@@ -1,7 +1,25 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:cir:/job/Fairfield-IA/Consulting-Services-AI---Automation-Intern_R-2025-223",
+      "workday:centene:/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514",
+      "workday:gfs:/job/Wyoming-Michigan/Software-Engineer-Intern--Low-Code-_R-57375",
+      "workday:gfs:/job/Wyoming-Michigan/Software-Engineer-Internship_R-57377",
+      "smartrecruiters:VeoliaEnvironnementSA:744000150460339"
+    ],
+    "telegram": [
+      "workday:cir:/job/Fairfield-IA/Consulting-Services-AI---Automation-Intern_R-2025-223",
+      "workday:centene:/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514",
+      "workday:gfs:/job/Wyoming-Michigan/Software-Engineer-Intern--Low-Code-_R-57375",
+      "workday:gfs:/job/Wyoming-Michigan/Software-Engineer-Internship_R-57377",
+      "smartrecruiters:VeoliaEnvironnementSA:744000150460339"
+    ],
+    "personal_email": [
+      "workday:cir:/job/Fairfield-IA/Consulting-Services-AI---Automation-Intern_R-2025-223",
+      "workday:centene:/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514",
+      "workday:gfs:/job/Wyoming-Michigan/Software-Engineer-Intern--Low-Code-_R-57375",
+      "workday:gfs:/job/Wyoming-Michigan/Software-Engineer-Internship_R-57377",
+      "smartrecruiters:VeoliaEnvironnementSA:744000150460339"
+    ]
   }
 }

@@ -783,6 +783,18 @@
     }
    }
   },
+  "centene": {
+   "name": "Centene",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-18",
+     "role_ids": [
+      "workday:centene:/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514"
+     ],
+     "count": 1
+    }
+   }
+  },
   "center for ai safety": {
    "name": "Center for AI Safety",
    "cycles": {
@@ -3692,6 +3704,18 @@
     }
    }
   },
+  "veolia": {
+   "name": "Veolia",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-18",
+     "role_ids": [
+      "smartrecruiters:VeoliaEnvironnementSA:744000150460339"
+     ],
+     "count": 1
+    }
+   }
+  },
   "verisk": {
    "name": "Verisk",
    "cycles": {
@@ -4015,5 +4039,5 @@
    }
   }
  },
- "updated_at": "2026-09-18T19:27:42Z"
+ "updated_at": "2026-09-18T22:07:15Z"
 }
