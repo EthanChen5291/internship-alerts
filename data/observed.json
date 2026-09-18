@@ -866,6 +866,18 @@
     }
    }
   },
+  "church dwight": {
+   "name": "Church & Dwight",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-17",
+     "role_ids": [
+      "workday:churchdwight:/job/USA-Ewing-NJ/AI-Developer-Co-op---Graduate-Program--9-Months-_R2026-15686"
+     ],
+     "count": 1
+    }
+   }
+  },
   "cibc": {
    "name": "CIBC",
    "cycles": {
@@ -2164,9 +2176,10 @@
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284868",
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284873",
       "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875",
+      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876",
       "workday:mastercard:/job/OFallon-Missouri/Site-Reliability-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-287654"
      ],
-     "count": 6
+     "count": 7
     }
    }
   },
@@ -3332,16 +3345,18 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1007589",
       "oracle:hdhl.fa.us6.oraclecloud.com:1007774",
       "oracle:hdhl.fa.us6.oraclecloud.com:1007776",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007777"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007777",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007804"
      ],
-     "count": 5
+     "count": 6
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
      "role_ids": [
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007497"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007497",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007850"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3999,5 +4014,5 @@
    }
   }
  },
- "updated_at": "2026-09-18T12:00:31Z"
+ "updated_at": "2026-09-18T16:37:26Z"
 }

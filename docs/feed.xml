@@ -5,8 +5,64 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-18T12:00:31Z</updated>
+  <updated>2026-09-18T16:37:26Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40535</id>
+    <title>Nokia: AI Assisted Software Development Co-op</title>
+    <link href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40535"/>
+    <updated>2026-09-18T16:37:26Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · United States · Python, LLMs, Kubernetes, Docker, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1007804</id>
+    <title>Stantec: Transportation Engineering Intern - Infrastructure (Summer 2027)</title>
+    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007804"/>
+    <updated>2026-09-18T16:37:26Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Lexington, KY, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1007850</id>
+    <title>Stantec: Transportation Engineering Co-op - Infrastructure (Fall 2026/Spring 2027)</title>
+    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007850"/>
+    <updated>2026-09-18T16:37:26Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Louisville, KY, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:churchdwight:/job/USA-Ewing-NJ/AI-Developer-Co-op---Graduate-Program--9-Months-_R2026-15686</id>
+    <title>Church &amp; Dwight: AI Developer Co-op - Graduate Program (9 Months) 🇺🇸</title>
+    <link href="https://churchdwight.wd1.myworkdayjobs.com/chdcareers/job/USA-Ewing-NJ/AI-Developer-Co-op---Graduate-Program--9-Months-_R2026-15686"/>
+    <updated>2026-09-18T16:37:26Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · USA, Ewing, NJ · Python, SQL, LLMs, AWS, GCP · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:greatamerica:/job/Cedar-Rapids-IA/Platform-Engineering-Intern_JR1240-1</id>
+    <title>GreatAmerica Financial Services: Platform Engineering Intern</title>
+    <link href="https://greatamerica.wd12.myworkdayjobs.com/greatamericacareers/job/Cedar-Rapids-IA/Platform-Engineering-Intern_JR1240-1"/>
+    <updated>2026-09-18T16:37:26Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Cedar Rapids, IA · Python, SQL, Bash, AWS, GCP</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:jj:/job/Titusville-New-Jersey-United-States-of-America/XMLNAME--PALM--and-Artificial-Intelligence-Co-Op_R-099389</id>
+    <title>Johnson &amp; Johnson: (PALM) and Artificial Intelligence Co-Op 🛂</title>
+    <link href="https://jj.wd5.myworkdayjobs.com/JJ/job/Titusville-New-Jersey-United-States-of-America/XMLNAME--PALM--and-Artificial-Intelligence-Co-Op_R-099389"/>
+    <updated>2026-09-18T16:37:26Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Titusville, New Jersey, United States of America · $23.5/hr · LLMs · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:sonyglobal:/job/Remote---Texas/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335</id>
+    <title>Sony: Research Intern on Generative and Protective AI for Content Creation</title>
+    <link href="https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---Texas/Research-Intern-on-Generative-and-Protective-AI-for-Content-Creation_JR-119335"/>
+    <updated>2026-09-18T16:37:26Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Remote - Texas · $50/hr · PyTorch, LLMs, Computer Vision</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:k2spacecorporation:5411920008</id>
     <title>K2 Space: Software Engineering Intern – Summer 2027 🇺🇸</title>
@@ -41,8 +97,8 @@
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10552937</id>
-    <title>Amazon: Software Development Engineer Internship - Summer -2027 (USA)</title>
-    <link href="https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-internship-summer-2027-usa"/>
+    <title>Amazon: Software Development Engineer Intern - Summer 2027 (USA)</title>
+    <link href="https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa"/>
     <updated>2026-09-17T23:20:45Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Seattle, Washington, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
@@ -750,61 +806,5 @@
     <updated>2026-09-15T17:32:41Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Pittsburgh, PA; New York, NY; Seattle, WA · Python, Java, Swift, Kotlin · H-1B track record: ~22 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:duolingo:8806114002</id>
-    <title>Duolingo: Software Engineer, Thrive Intern</title>
-    <link href="https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8806115002"/>
-    <updated>2026-09-15T17:32:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Pittsburgh, PA · Python, Java, Swift, Kotlin · H-1B track record: ~22 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:ensco:5421861008</id>
-    <title>ENSCO: Information Security Intern 🇺🇸</title>
-    <link href="https://job-boards.greenhouse.io/ensco/jobs/5421861008"/>
-    <updated>2026-09-16T20:41:20Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Endicott, New York, United States; Melbourne, Florida, United States; Vienna, Virginia, United States · Python · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:testnisc:8204161</id>
-    <title>National Information Solutions Cooperative (NISC): Intern - Software Development (AI Development)</title>
-    <link href="https://job-boards.greenhouse.io/testnisc/jobs/8204161"/>
-    <updated>2026-09-15T17:32:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Lake Saint Louis, MO · Python, Java, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:workshop:5237900007</id>
-    <title>Workshop: Software Engineer Intern (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/workshop/jobs/5237900007"/>
-    <updated>2026-09-15T17:32:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Omaha, Nebraska, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:egay.fa.us6.oraclecloud.com:44449</id>
-    <title>NOV: Software Engineering Intern</title>
-    <link href="https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/44449"/>
-    <updated>2026-09-15T17:32:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Houston, TX, United States · Python, Java, C++, C#, JavaScript</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:apexanalytix-careers:40e4727d-e132-4de0-89ba-b4fdbd5860a7</id>
-    <title>APEX Analytix: Automation Developer Intern (Summer 2027)</title>
-    <link href="https://ats.rippling.com/apexanalytix-careers/jobs/40e4727d-e132-4de0-89ba-b4fdbd5860a7"/>
-    <updated>2026-09-15T17:32:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Greensboro, NC · H-1B track record: ~24 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:apexanalytix-careers:e275fd70-45a3-4a64-8688-cace8a3f87ef</id>
-    <title>APEX Analytix: Data Analyst Intern (Summer 2027)</title>
-    <link href="https://ats.rippling.com/apexanalytix-careers/jobs/e275fd70-45a3-4a64-8688-cace8a3f87ef"/>
-    <updated>2026-09-15T17:32:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Greensboro, NC · H-1B track record: ~24 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
