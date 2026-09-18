@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-17T23:20:45Z</updated>
+  <updated>2026-09-18T01:30:55Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:k2spacecorporation:5418727008</id>
+    <title>K2 Space: Simulation Software Engineering Intern - Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/k2spacecorporation/jobs/5418727008"/>
+    <updated>2026-09-18T01:30:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Los Angeles, CA · $30–$40/hr · Python, C++, Rust, MATLAB, Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:k2spacecorporation:5411920008</id>
+    <title>K2 Space: Software Engineering Intern – Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411920008"/>
+    <updated>2026-09-18T01:30:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Los Angeles, CA · $30–$40/hr · C++, Rust, Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-CO-COLORADO-SPRINGS-9970-CUST--9970-Federal-Dr--FEDERAL-External-Site/Software-Engineering-Intern--Summer-2027-_01876131</id>
+    <title>RTX: Software Engineering Intern (Summer 2027) 🇺🇸</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-CO-COLORADO-SPRINGS-9970-CUST--9970-Federal-Dr--FEDERAL-External-Site/Software-Engineering-Intern--Summer-2027-_01876131"/>
+    <updated>2026-09-18T01:30:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · US-CO-COLORADO SPRINGS-9970-CUST ~ 9970 Federal Dr ~ FEDERAL (External Site) · Python, Java, C++, C#, JavaScript · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:xpengmotors:8819001002</id>
+    <title>XPENG Motors: AI Research Intern – Predictive World Model</title>
+    <link href="https://job-boards.greenhouse.io/xpengmotors/jobs/8819001002"/>
+    <updated>2026-09-18T01:30:55Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Santa Clara, CA · Python, PyTorch, Computer Vision</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10552937</id>
     <title>Amazon: Software Development Engineer Internship - Summer -2027 (USA)</title>
@@ -16,20 +48,20 @@
     <summary>Summer 2027 · Software · Seattle, Washington, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000150217869</id>
-    <title>Bosch: AI Engineering Intern (October 2026 - August 2027)</title>
-    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000150217869"/>
-    <updated>2026-09-17T23:20:45Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Plymouth, MI, United States · Python, C++, MATLAB, LLMs · H-1B track record: ~188 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:greenhouse:towerresearchcapital:8212158</id>
     <title>Tower Research Capital: Software Engineer Intern (Summer 2027)</title>
     <link href="https://www.tower-research.com/open-positions/?gh_jid=8212158"/>
     <updated>2026-09-17T23:20:45Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · New York · Python, Java, C++, Go, Rust · H-1B track record: ~38 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000150217869</id>
+    <title>Bosch: AI Engineering Intern (October 2026 - August 2027)</title>
+    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000150217869"/>
+    <updated>2026-09-17T23:20:45Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Plymouth, MI, United States · Python, C++, MATLAB, LLMs · H-1B track record: ~188 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:tri:6433edb6-76be-409f-9a73-9b9d9c207f9f</id>
@@ -774,37 +806,5 @@
     <updated>2026-09-15T17:32:41Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Greensboro, NC · H-1B track record: ~24 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404</id>
-    <title>General Dynamics Information Technology: Summer 2027 Software Development Internship 🇺🇸</title>
-    <link href="https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404"/>
-    <updated>2026-09-15T17:32:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>3 openings · Summer 2027 · Software · USA VA Falls Church · Python, Java · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hitachi:/job/Pittsburgh-Pennsylvania-United-States/Intern---Onboard-Software-Developer_R0145042</id>
-    <title>Hitachi Energy: Intern - Onboard Software Developer</title>
-    <link href="https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Pittsburgh-Pennsylvania-United-States/Intern---Onboard-Software-Developer_R0145042"/>
-    <updated>2026-09-15T17:32:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Pittsburgh, Pennsylvania, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:micron:/job/Longmont-MAX--Office-CO/Intern---Data-Center-SSD-Firmware_JR111461</id>
-    <title>Micron Technology: Intern - Data Center SSD Firmware</title>
-    <link href="https://micron.wd1.myworkdayjobs.com/External/job/Longmont-MAX--Office-CO/Intern---Data-Center-SSD-Firmware_JR111461"/>
-    <updated>2026-09-15T17:32:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Longmont-MAX- Office, CO · Python, C++, LLMs, Git · H-1B track record: ~489 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471</id>
-    <title>Northrop Grumman: 2027 Cyber Systems Engineer Intern - Roy UT 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471"/>
-    <updated>2026-09-17T17:35:49Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Utah-Roy · $18.5–$33.5/hr · Python, Java, C++, C#, MATLAB · sponsorship: citizens-only · status: closed</summary>
   </entry>
 </feed>
