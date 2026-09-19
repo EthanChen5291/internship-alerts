@@ -655,6 +655,18 @@
     }
    }
   },
+  "bot auto": {
+   "name": "Bot Auto",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-18",
+     "role_ids": [
+      "greenhouse:botauto:5429357008"
+     ],
+     "count": 1
+    }
+   }
+  },
   "bracco": {
    "name": "Bracco",
    "cycles": {
@@ -2077,6 +2089,18 @@
       "workday:labcorp:/job/Durham-NC/Intern---Software-Developer_2632330"
      ],
      "count": 2
+    }
+   }
+  },
+  "lawrence livermore national laboratory llnl": {
+   "name": "Lawrence Livermore National Laboratory (LLNL)",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-18",
+     "role_ids": [
+      "smartrecruiters:LLNL:3743990015408206"
+     ],
+     "count": 1
     }
    }
   },
@@ -4039,5 +4063,5 @@
    }
   }
  },
- "updated_at": "2026-09-18T22:07:15Z"
+ "updated_at": "2026-09-19T00:28:13Z"
 }
