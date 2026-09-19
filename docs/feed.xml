@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-19T09:38:26Z</updated>
+  <updated>2026-09-19T13:38:45Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:fable:3fd04c23-a63d-4b40-bfae-feafaa478caf</id>
+    <title>Fable: Software Engineering Intern</title>
+    <link href="https://jobs.ashbyhq.com/fable/3fd04c23-a63d-4b40-bfae-feafaa478caf"/>
+    <updated>2026-09-19T13:38:45Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · San Francisco, CA (Hybrid) · Python, LLMs, React, GraphQL, AWS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:thrivent:/job/Remote-Minnesota/Associate-Software-Engineer---Junior-Intern-Summer-2027_REQ-48334</id>
+    <title>Thrivent: Associate Software Engineer - Junior Intern Summer 2027 🛂</title>
+    <link href="https://thrivent.wd5.myworkdayjobs.com/external/job/Remote-Minnesota/Associate-Software-Engineer---Junior-Intern-Summer-2027_REQ-48334"/>
+    <updated>2026-09-19T13:38:45Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Remote-Minnesota · $25–$28/hr · JavaScript, HTML/CSS · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:thrivent:/job/Remote-Minnesota/Associate-Software-Engineer---Sophomore-Intern-Summer-2027_REQ-48457</id>
+    <title>Thrivent: Associate Software Engineer - Sophomore Intern Summer 2027 🛂</title>
+    <link href="https://thrivent.wd5.myworkdayjobs.com/external/job/Remote-Minnesota/Associate-Software-Engineer---Sophomore-Intern-Summer-2027_REQ-48457"/>
+    <updated>2026-09-19T13:38:45Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Remote-Minnesota · $25–$28/hr · JavaScript, HTML/CSS · sponsorship: no-sponsorship</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:botauto:5429357008</id>
     <title>Bot Auto: Intern, Software Engineer AI Agents (Fall 2026/Winter 2027)</title>
@@ -187,9 +211,9 @@
     <id>urn:intern-engine:workday:globalhr:/job/US-CO-COLORADO-SPRINGS-9970-CUST--9970-Federal-Dr--FEDERAL-External-Site/Software-Engineering-Intern--Summer-2027-_01876131</id>
     <title>RTX: Software Engineering Intern (Summer 2027) 🇺🇸</title>
     <link href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-CO-COLORADO-SPRINGS-9970-CUST--9970-Federal-Dr--FEDERAL-External-Site/Software-Engineering-Intern--Summer-2027-_01876131"/>
-    <updated>2026-09-18T01:30:55Z</updated>
+    <updated>2026-09-19T13:38:45Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US-CO-COLORADO SPRINGS-9970-CUST ~ 9970 Federal Dr ~ FEDERAL (External Site) · Python, Java, C++, C#, JavaScript · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · US-CO-COLORADO SPRINGS-9970-CUST ~ 9970 Federal Dr ~ FEDERAL (External Site) · Python, Java, C++, C#, JavaScript · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10552937</id>
@@ -782,29 +806,5 @@
     <updated>2026-09-16T12:49:35Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · New York, NY · Python, C++, Rust, TypeScript</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605</id>
-    <title>The Aerospace Corporation: 2027 Aerospace Software Engineer Undergraduate Intern 🇺🇸</title>
-    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605"/>
-    <updated>2026-09-16T06:57:21Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:liveoakbancshares:/job/Wilmington-NC/Summer-2027-Intern--AI-Enablement---Forward-Deployed-Engineering_R-002624</id>
-    <title>Live Oak Bank: Summer 2027 Intern: AI Enablement &amp; Forward-Deployed Engineering</title>
-    <link href="https://liveoakbancshares.wd1.myworkdayjobs.com/Live_Oak/job/Wilmington-NC/Summer-2027-Intern--AI-Enablement---Forward-Deployed-Engineering_R-002624"/>
-    <updated>2026-09-16T06:57:21Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Wilmington, NC · $19.77–$32.12/hr · Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:brevium:4713683006</id>
-    <title>Brevium: Software Engineer Intern</title>
-    <link href="https://job-boards.greenhouse.io/brevium/jobs/4713683006"/>
-    <updated>2026-09-15T23:26:10Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · American Fork, UT · C#, SQL</summary>
   </entry>
 </feed>
