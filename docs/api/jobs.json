@@ -1,11 +1,39 @@
 {
- "generated_at": "2026-09-19T13:38:45Z",
- "data_as_of": "2026-09-19T13:38:45Z",
- "rendered_at": "2026-09-19T13:38:45Z",
+ "generated_at": "2026-09-19T17:04:59Z",
+ "data_as_of": "2026-09-19T17:04:59Z",
+ "rendered_at": "2026-09-19T17:04:59Z",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "h1b_window": "FY2022–2023",
- "count": 811,
+ "count": 812,
  "jobs": [
+  {
+   "id": "workday:bbh:/job/New-York/XMLNAME-2027-Internal-Audit---Information-Technology---Cybersecurity-Summer-Internship_72899",
+   "company": "Brown Brothers Harriman",
+   "title": "2027 Internal Audit - Information Technology & Cybersecurity Summer Internship",
+   "season": "Summer 2027",
+   "seasons": null,
+   "season_inferred": false,
+   "category": "Security",
+   "location": "New York",
+   "url": "https://bbh.wd5.myworkdayjobs.com/BBH/job/New-York/XMLNAME-2027-Internal-Audit---Information-Technology---Cybersecurity-Summer-Internship_72899",
+   "posted_at": "2026-09-19T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-09-19T17:04:59Z",
+   "sponsorship": "unknown",
+   "salary": "$25/hr",
+   "skills": [
+    "SQL",
+    "Linux"
+   ],
+   "class_year": "Juniors+",
+   "underclass_program_key": null,
+   "underclass_program": null,
+   "underclass_audience": null,
+   "source": "workday",
+   "h1b_approvals": 24,
+   "program": "Internship",
+   "remote": false
+  },
   {
    "id": "ashby:fable:3fd04c23-a63d-4b40-bfae-feafaa478caf",
    "company": "Fable",

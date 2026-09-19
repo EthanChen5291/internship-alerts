@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-19T13:38:45Z</updated>
+  <updated>2026-09-19T17:04:59Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:bbh:/job/New-York/XMLNAME-2027-Internal-Audit---Information-Technology---Cybersecurity-Summer-Internship_72899</id>
+    <title>Brown Brothers Harriman: 2027 Internal Audit - Information Technology &amp; Cybersecurity Summer Internship</title>
+    <link href="https://bbh.wd5.myworkdayjobs.com/BBH/job/New-York/XMLNAME-2027-Internal-Audit---Information-Technology---Cybersecurity-Summer-Internship_72899"/>
+    <updated>2026-09-19T17:04:59Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · New York · $25/hr · SQL, Linux · H-1B track record: ~24 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:fable:3fd04c23-a63d-4b40-bfae-feafaa478caf</id>
     <title>Fable: Software Engineering Intern</title>
@@ -798,13 +806,5 @@
     <updated>2026-09-16T17:32:53Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Pella, Iowa, USA - Corporate Office · SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:bedrock-robotics:8927dd7e-a48d-49a2-92eb-09ec059432f4</id>
-    <title>Bedrock Robotics: Internship 2027 Software Engineer, Fleet Platform</title>
-    <link href="https://jobs.ashbyhq.com/bedrock-robotics/8927dd7e-a48d-49a2-92eb-09ec059432f4"/>
-    <updated>2026-09-16T12:49:35Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY · Python, C++, Rust, TypeScript</summary>
   </entry>
 </feed>
