@@ -17724,6 +17724,11 @@
     "ats": "lever"
   },
   {
+    "name": "Ninjaholdings",
+    "slug": "ninjaholdings",
+    "ats": "breezy"
+  },
+  {
     "name": "NinjaTrader",
     "slug": "ninjatrader",
     "ats": "greenhouse"
@@ -19989,6 +19994,13 @@
     "ats": "workday",
     "wd": "wd1",
     "site": "Priceline"
+  },
+  {
+    "name": "Priceline",
+    "slug": "priceline",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "priceline-collegehiring"
   },
   {
     "name": "PricewaterhouseCoopers (PwC)",
@@ -26939,6 +26951,13 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "Visa"
+  },
+  {
+    "name": "Visa",
+    "slug": "visa",
+    "ats": "workday",
+    "wd": "wd5",
+    "site": "visa_early_careers"
   },
   {
     "name": "Vise",
