@@ -1,16 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "breezy:ninjaholdings:12b3ed96c30c",
-      "breezy:ninjaholdings:23a015fea536"
-    ],
-    "telegram": [
-      "breezy:ninjaholdings:12b3ed96c30c",
-      "breezy:ninjaholdings:23a015fea536"
-    ],
-    "personal_email": [
-      "breezy:ninjaholdings:12b3ed96c30c",
-      "breezy:ninjaholdings:23a015fea536"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
