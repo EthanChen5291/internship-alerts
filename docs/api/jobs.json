@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-20T14:19:29Z",
- "data_as_of": "2026-09-20T14:19:29Z",
- "rendered_at": "2026-09-20T14:19:29Z",
+ "generated_at": "2026-09-20T17:44:10Z",
+ "data_as_of": "2026-09-20T17:44:10Z",
+ "rendered_at": "2026-09-20T17:44:10Z",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "h1b_window": "FY2022–2023",
- "count": 814,
+ "count": 815,
  "jobs": [
   {
    "id": "workday:bbh:/job/New-York/XMLNAME-2027-Internal-Audit---Information-Technology---Cybersecurity-Summer-Internship_72899",
@@ -22391,6 +22391,35 @@
    "underclass_audience": null,
    "source": "greenhouse",
    "h1b_approvals": 4,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:coreandmain:/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804",
+   "company": "Core & Main",
+   "title": "Intern - AI Intern - Copilot-  Onsite - St. Louis",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Saint Louis, MO 63146",
+   "url": "https://coreandmain.wd1.myworkdayjobs.com/coreandmain/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804",
+   "posted_at": "2026-07-24T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-07-24T18:20:47Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "SQL",
+    "Azure",
+    "Git"
+   ],
+   "class_year": null,
+   "underclass_program_key": null,
+   "underclass_program": null,
+   "underclass_audience": null,
+   "source": "workday",
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },

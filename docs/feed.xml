@@ -5,24 +5,8 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-20T14:19:29Z</updated>
+  <updated>2026-09-20T17:44:10Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
-  <entry>
-    <id>urn:intern-engine:workday:priceline:/job/New-York/Software-Engineering---Full-Stack--Northeastern-Co-op-_R5822</id>
-    <title>Priceline: Software Engineering - Full Stack (Northeastern Co-op)</title>
-    <link href="https://priceline.wd1.myworkdayjobs.com/priceline-collegehiring/job/New-York/Software-Engineering---Full-Stack--Northeastern-Co-op-_R5822"/>
-    <updated>2026-09-20T14:19:29Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · New York · Python, Java, Go, JavaScript, SQL · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:priceline:/job/New-York/Software-Engineering---Web-Javascript--Northeastern-Co-op-_R5818</id>
-    <title>Priceline: Software Engineering - Web/Javascript (Northeastern Co-op)</title>
-    <link href="https://priceline.wd1.myworkdayjobs.com/priceline-collegehiring/job/New-York/Software-Engineering---Web-Javascript--Northeastern-Co-op-_R5818"/>
-    <updated>2026-09-20T14:19:29Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · New York · JavaScript, Python, Java, Go, SQL · status: closed</summary>
-  </entry>
   <entry>
     <id>urn:intern-engine:breezy:ninjaholdings:12b3ed96c30c</id>
     <title>Ninjaholdings: Data Engineer Intern</title>
@@ -38,6 +22,22 @@
     <updated>2026-09-20T14:19:29Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Chicago, IL · $20 – $25 / hour</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:priceline:/job/New-York/Software-Engineering---Full-Stack--Northeastern-Co-op-_R5822</id>
+    <title>Priceline: Software Engineering - Full Stack (Northeastern Co-op)</title>
+    <link href="https://priceline.wd1.myworkdayjobs.com/priceline-collegehiring/job/New-York/Software-Engineering---Full-Stack--Northeastern-Co-op-_R5822"/>
+    <updated>2026-09-20T14:19:29Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Software · New York · Python, Java, Go, JavaScript, SQL · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:priceline:/job/New-York/Software-Engineering---Web-Javascript--Northeastern-Co-op-_R5818</id>
+    <title>Priceline: Software Engineering - Web/Javascript (Northeastern Co-op)</title>
+    <link href="https://priceline.wd1.myworkdayjobs.com/priceline-collegehiring/job/New-York/Software-Engineering---Web-Javascript--Northeastern-Co-op-_R5818"/>
+    <updated>2026-09-20T14:19:29Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Software · New York · JavaScript, Python, Java, Go, SQL · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:bbh:/job/New-York/XMLNAME-2027-Internal-Audit---Information-Technology---Cybersecurity-Summer-Internship_72899</id>
