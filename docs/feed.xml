@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-20T19:53:56Z</updated>
+  <updated>2026-09-20T22:39:27Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workable:talentpluto:6A02556484</id>
+    <title>Talentpluto: Backend Engineering Intern</title>
+    <link href="https://apply.workable.com/talentpluto/j/6A02556484/"/>
+    <updated>2026-09-20T22:39:27Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · United States (Remote) · $35–$50/hr · Python, TypeScript, JavaScript</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workable:talentpluto:A0CFDD6FBD</id>
+    <title>Talentpluto: AI/ML Engineering Intern</title>
+    <link href="https://apply.workable.com/talentpluto/j/A0CFDD6FBD/"/>
+    <updated>2026-09-20T22:39:27Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · United States (Remote) · $35–$50/hr · Python, TypeScript, JavaScript, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workable:talentpluto:717116FEE8</id>
+    <title>Talentpluto: Full Stack Engineering Intern</title>
+    <link href="https://apply.workable.com/talentpluto/j/717116FEE8/"/>
+    <updated>2026-09-20T22:39:27Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · New York, New York, United States · $35–$50/hr · TypeScript, JavaScript, React, Next.js</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:breezy:ninjaholdings:12b3ed96c30c</id>
     <title>Ninjaholdings: Data Engineer Intern</title>
@@ -782,29 +806,5 @@
     <updated>2026-09-16T17:32:53Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Colorado Springs, CO, US · Python, Linux, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gfs:/job/Atlanta-Georgia/Cloud-DevOps-Internship_R-57259</id>
-    <title>Gordon Food Service: Cloud DevOps Internship</title>
-    <link href="https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Atlanta-Georgia/Cloud-DevOps-Internship_R-57259"/>
-    <updated>2026-09-16T17:32:53Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Atlanta, Georgia · Python, Bash, GCP, Kubernetes, Docker · H-1B track record: ~21 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gfs:/job/Atlanta-Georgia/IT-Infrastructure-Project-Support-Internship_R-56286</id>
-    <title>Gordon Food Service: IT Infrastructure Project Support Internship</title>
-    <link href="https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Atlanta-Georgia/IT-Infrastructure-Project-Support-Internship_R-56286"/>
-    <updated>2026-09-16T17:32:53Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Atlanta, Georgia · H-1B track record: ~21 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01873099</id>
-    <title>RTX: Software Engineering Intern (Summer 2027)</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01873099"/>
-    <updated>2026-09-16T17:32:53Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105 · Python, Java, C++</summary>
   </entry>
 </feed>
