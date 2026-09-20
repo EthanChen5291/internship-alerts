@@ -1,19 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workable:talentpluto:6A02556484",
-      "workable:talentpluto:A0CFDD6FBD",
-      "workable:talentpluto:717116FEE8"
-    ],
-    "telegram": [
-      "workable:talentpluto:6A02556484",
-      "workable:talentpluto:A0CFDD6FBD",
-      "workable:talentpluto:717116FEE8"
-    ],
-    "personal_email": [
-      "workable:talentpluto:6A02556484",
-      "workable:talentpluto:A0CFDD6FBD",
-      "workable:talentpluto:717116FEE8"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
