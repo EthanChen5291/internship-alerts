@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-20T10:00:17Z</updated>
+  <updated>2026-09-20T14:19:29Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:priceline:/job/New-York/Software-Engineering---Full-Stack--Northeastern-Co-op-_R5822</id>
+    <title>Priceline: Software Engineering - Full Stack (Northeastern Co-op)</title>
+    <link href="https://priceline.wd1.myworkdayjobs.com/priceline-collegehiring/job/New-York/Software-Engineering---Full-Stack--Northeastern-Co-op-_R5822"/>
+    <updated>2026-09-20T14:19:29Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Software · New York · Python, Java, Go, JavaScript, SQL · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:priceline:/job/New-York/Software-Engineering---Web-Javascript--Northeastern-Co-op-_R5818</id>
+    <title>Priceline: Software Engineering - Web/Javascript (Northeastern Co-op)</title>
+    <link href="https://priceline.wd1.myworkdayjobs.com/priceline-collegehiring/job/New-York/Software-Engineering---Web-Javascript--Northeastern-Co-op-_R5818"/>
+    <updated>2026-09-20T14:19:29Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Software · New York · JavaScript, Python, Java, Go, SQL · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:breezy:ninjaholdings:12b3ed96c30c</id>
+    <title>Ninjaholdings: Data Engineer Intern</title>
+    <link href="https://ninjaholdings.breezy.hr/p/12b3ed96c30c-data-engineer-intern"/>
+    <updated>2026-09-20T14:19:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Chicago, IL · $20 – $25 / hour</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:breezy:ninjaholdings:23a015fea536</id>
+    <title>Ninjaholdings: Software Engineer Intern</title>
+    <link href="https://ninjaholdings.breezy.hr/p/23a015fea536-software-engineer-intern"/>
+    <updated>2026-09-20T14:19:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Chicago, IL · $20 – $25 / hour</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:bbh:/job/New-York/XMLNAME-2027-Internal-Audit---Information-Technology---Cybersecurity-Summer-Internship_72899</id>
     <title>Brown Brothers Harriman: 2027 Internal Audit - Information Technology &amp; Cybersecurity Summer Internship</title>
@@ -474,7 +506,7 @@
   <entry>
     <id>urn:intern-engine:workday:visa:/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W</id>
     <title>Visa: Software Engineer, Intern, Highlands Ranch, CO - 2027 🛂</title>
-    <link href="https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W"/>
+    <link href="https://visa.wd5.myworkdayjobs.com/visa_early_careers/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W-2"/>
     <updated>2026-09-17T13:03:55Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · US - Denver, CO · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship</summary>
@@ -774,37 +806,5 @@
     <updated>2026-09-16T17:32:53Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105 · Python, Java, C++</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:nasdaq:/job/GA---Glenridge-Point/Software-Developer--Engineer-Intern---2027-Summer-Internship_R0026972</id>
-    <title>Nasdaq: Software Developer/ Engineer Intern - 2027 Summer Internship</title>
-    <link href="https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site/job/GA---Glenridge-Point/Software-Developer--Engineer-Intern---2027-Summer-Internship_R0026972"/>
-    <updated>2026-09-16T17:32:53Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · GA - Glenridge Point · C#, SQL, Vue, .NET, AWS · H-1B track record: ~16 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:plastipak:/job/Plastipak-GBTC---Plymouth-MI/Software-Engineering-Intern---Summer-2027_REQ24512</id>
-    <title>Plastipak: Software Engineering Intern - Summer 2027</title>
-    <link href="https://plastipak.wd1.myworkdayjobs.com/Plastipak/job/Plastipak-GBTC---Plymouth-MI/Software-Engineering-Intern---Summer-2027_REQ24512"/>
-    <updated>2026-09-16T17:32:53Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Plastipak GBTC - Plymouth, MI</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:tihinsurance:/job/Dallas-TX---12377-Merit-Dr/Internship---Software-Engineering_R0000003172</id>
-    <title>Tihinsurance: Internship - Software Engineering</title>
-    <link href="https://tihinsurance.wd1.myworkdayjobs.com/crc_careers/job/Dallas-TX---12377-Merit-Dr/Internship---Software-Engineering_R0000003172"/>
-    <updated>2026-09-16T17:32:53Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Dallas TX - 12377 Merit Dr. · Python, Java, C#, JavaScript</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:vermeer:/job/Pella-Iowa-USA---Corporate-Office/IT-Data-Engineer-Intern_REQ-22171</id>
-    <title>Vermeer: IT Data Engineer Intern</title>
-    <link href="https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Corporate-Office/IT-Data-Engineer-Intern_REQ-22171"/>
-    <updated>2026-09-16T17:32:53Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Pella, Iowa, USA - Corporate Office · SQL</summary>
   </entry>
 </feed>
