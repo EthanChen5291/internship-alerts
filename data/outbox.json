@@ -1,7 +1,55 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:collinear-ai:ae85fd08-dfd8-42e5-9b3b-9921ba24742b",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007837",
+      "workday:upbound:/job/Draper-UT/Software-Engineer-Intern_R-100759-1",
+      "workday:commercebank:/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern-EABI---Data-Analyst-Summer-2027_38484",
+      "workday:fmr:/job/Boston-MA/Strategic-Advisers-Quantitative-Research-Intern---Undergrad_2135905",
+      "workday:fmr:/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Multi-Asset-Systematic-Research-Team_2135128",
+      "workday:fmr:/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Equity-Quantitative-Research-Team_2135122",
+      "workday:gfs:/job/Wyoming-Michigan/Imports---Commodities---Data-Analyst-Internship_R-57384",
+      "greenhouse:headlandstechnologiesllc:4412947009",
+      "workday:leidos:/job/Tucson-AZ/Jr-Software-Engineer-Intern_R-00192184",
+      "workday:liveoakbancshares:/job/Wilmington-NC/Summer-2027-Intern--Information-Security_R-002647",
+      "workday:liveoakbancshares:/job/Wilmington-NC/Summer-2027-Intern--Software-Engineering_R-002643",
+      "workday:upbound:/job/Plano-TX/Software-Engineer-Intern_R-100761",
+      "workday:upbound:/job/Plano-TX/Software-Engineer-Intern_R-100762",
+      "smartrecruiters:WellmarkInc:744000150732768"
+    ],
+    "telegram": [
+      "ashby:collinear-ai:ae85fd08-dfd8-42e5-9b3b-9921ba24742b",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007837",
+      "workday:upbound:/job/Draper-UT/Software-Engineer-Intern_R-100759-1",
+      "workday:commercebank:/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern-EABI---Data-Analyst-Summer-2027_38484",
+      "workday:fmr:/job/Boston-MA/Strategic-Advisers-Quantitative-Research-Intern---Undergrad_2135905",
+      "workday:fmr:/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Multi-Asset-Systematic-Research-Team_2135128",
+      "workday:fmr:/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Equity-Quantitative-Research-Team_2135122",
+      "workday:gfs:/job/Wyoming-Michigan/Imports---Commodities---Data-Analyst-Internship_R-57384",
+      "greenhouse:headlandstechnologiesllc:4412947009",
+      "workday:leidos:/job/Tucson-AZ/Jr-Software-Engineer-Intern_R-00192184",
+      "workday:liveoakbancshares:/job/Wilmington-NC/Summer-2027-Intern--Information-Security_R-002647",
+      "workday:liveoakbancshares:/job/Wilmington-NC/Summer-2027-Intern--Software-Engineering_R-002643",
+      "workday:upbound:/job/Plano-TX/Software-Engineer-Intern_R-100761",
+      "workday:upbound:/job/Plano-TX/Software-Engineer-Intern_R-100762",
+      "smartrecruiters:WellmarkInc:744000150732768"
+    ],
+    "personal_email": [
+      "ashby:collinear-ai:ae85fd08-dfd8-42e5-9b3b-9921ba24742b",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007837",
+      "workday:upbound:/job/Draper-UT/Software-Engineer-Intern_R-100759-1",
+      "workday:commercebank:/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern-EABI---Data-Analyst-Summer-2027_38484",
+      "workday:fmr:/job/Boston-MA/Strategic-Advisers-Quantitative-Research-Intern---Undergrad_2135905",
+      "workday:fmr:/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Multi-Asset-Systematic-Research-Team_2135128",
+      "workday:fmr:/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Equity-Quantitative-Research-Team_2135122",
+      "workday:gfs:/job/Wyoming-Michigan/Imports---Commodities---Data-Analyst-Internship_R-57384",
+      "greenhouse:headlandstechnologiesllc:4412947009",
+      "workday:leidos:/job/Tucson-AZ/Jr-Software-Engineer-Intern_R-00192184",
+      "workday:liveoakbancshares:/job/Wilmington-NC/Summer-2027-Intern--Information-Security_R-002647",
+      "workday:liveoakbancshares:/job/Wilmington-NC/Summer-2027-Intern--Software-Engineering_R-002643",
+      "workday:upbound:/job/Plano-TX/Software-Engineer-Intern_R-100761",
+      "workday:upbound:/job/Plano-TX/Software-Engineer-Intern_R-100762",
+      "smartrecruiters:WellmarkInc:744000150732768"
+    ]
   }
 }
