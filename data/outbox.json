@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:ngc:/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer-Intern---Baltimore-MD_R10251464"
-    ],
-    "telegram": [
-      "workday:ngc:/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer-Intern---Baltimore-MD_R10251464"
-    ],
-    "personal_email": [
-      "workday:ngc:/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer-Intern---Baltimore-MD_R10251464"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
