@@ -632,17 +632,31 @@
       "workday:bah:/job/Honolulu-HI/University---2027-Summer-Games-Software-Developer-Intern---Honolulu--HI_R0248393",
       "workday:bah:/job/Huntsville-AL/University---2027-Summer-Games-Cyber-Security-Intern---Huntsville--AL_R0248412",
       "workday:bah:/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0248394",
+      "workday:bah:/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0249872",
       "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0248034",
+      "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0249878",
       "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Data-Scientist-Intern---McLean--VA_R0248037",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249800",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249801",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249802",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249803",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249804",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249805",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249809",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249815",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249818",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249820",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249823",
       "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern_R0248029",
       "workday:bah:/job/Rome-NY/University--2027-Summer-Games-Cyber-Security-Intern_R0248142",
       "workday:bah:/job/Rome-NY/University--2027-Summer-Games-Data-Scientist-Intern_R0248143",
       "workday:bah:/job/Rome-NY/University--2027-Summer-Games-Software-Developer-Intern_R0248141",
       "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Data-Scientist-Intern---San-Diego--CA_R0248045",
       "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0248038",
+      "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0249799",
       "workday:bah:/job/San-Diego-CA/University--2027-Summer-Games-Cyber-Security-Intern_R0248043"
      ],
-     "count": 30
+     "count": 44
     }
    }
   },
@@ -3438,9 +3452,11 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1007776",
       "oracle:hdhl.fa.us6.oraclecloud.com:1007777",
       "oracle:hdhl.fa.us6.oraclecloud.com:1007804",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007837"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007837",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007876",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007905"
      ],
-     "count": 7
+     "count": 9
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -4144,5 +4160,5 @@
    }
   }
  },
- "updated_at": "2026-09-21T17:16:14Z"
+ "updated_at": "2026-09-21T21:17:44Z"
 }
