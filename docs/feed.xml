@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-20T22:39:27Z</updated>
+  <updated>2026-09-21T00:45:35Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
     <id>urn:intern-engine:workable:talentpluto:6A02556484</id>
@@ -16,20 +16,20 @@
     <summary>Not stated · Software · United States (Remote) · $35–$50/hr · Python, TypeScript, JavaScript</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workable:talentpluto:A0CFDD6FBD</id>
-    <title>Talentpluto: AI/ML Engineering Intern</title>
-    <link href="https://apply.workable.com/talentpluto/j/A0CFDD6FBD/"/>
-    <updated>2026-09-20T22:39:27Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · United States (Remote) · $35–$50/hr · Python, TypeScript, JavaScript, LLMs</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workable:talentpluto:717116FEE8</id>
     <title>Talentpluto: Full Stack Engineering Intern</title>
     <link href="https://apply.workable.com/talentpluto/j/717116FEE8/"/>
     <updated>2026-09-20T22:39:27Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · New York, New York, United States · $35–$50/hr · TypeScript, JavaScript, React, Next.js</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workable:talentpluto:A0CFDD6FBD</id>
+    <title>Talentpluto: AI/ML Engineering Intern</title>
+    <link href="https://apply.workable.com/talentpluto/j/A0CFDD6FBD/"/>
+    <updated>2026-09-20T22:39:27Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · United States (Remote) · $35–$50/hr · Python, TypeScript, JavaScript, LLMs</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:breezy:ninjaholdings:12b3ed96c30c</id>
