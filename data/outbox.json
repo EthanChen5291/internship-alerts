@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835"
-    ],
-    "telegram": [
-      "workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835"
-    ],
-    "personal_email": [
-      "workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
