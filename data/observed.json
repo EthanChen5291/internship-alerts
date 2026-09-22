@@ -91,9 +91,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-15",
      "role_ids": [
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605"
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -268,9 +269,10 @@
       "oracle:egug.fa.us2.oraclecloud.com:26012764",
       "oracle:egug.fa.us2.oraclecloud.com:26012781",
       "oracle:egug.fa.us2.oraclecloud.com:26013190",
-      "oracle:egug.fa.us2.oraclecloud.com:26013191"
+      "oracle:egug.fa.us2.oraclecloud.com:26013191",
+      "oracle:egug.fa.us2.oraclecloud.com:26014224"
      ],
-     "count": 32
+     "count": 33
     }
    }
   },
@@ -2222,6 +2224,7 @@
       "workday:leidos:/job/Alexandria-VA/Cybersecurity-Analyst-Intern_R-00190671",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713",
+      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00192858",
       "workday:leidos:/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
       "workday:leidos:/job/Bethesda-MD/Software-Developer-Co-op_R-00190766",
       "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00192042",
@@ -2231,7 +2234,7 @@
       "workday:leidos:/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664",
       "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 11
+     "count": 12
     }
    }
   },
@@ -4213,5 +4216,5 @@
    }
   }
  },
- "updated_at": "2026-09-22T19:00:47Z"
+ "updated_at": "2026-09-22T22:17:05Z"
 }

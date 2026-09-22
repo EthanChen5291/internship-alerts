@@ -5,31 +5,55 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-22T19:00:47Z</updated>
+  <updated>2026-09-22T22:17:05Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:wellington:/job/Boston-MA-United-States/Information-Security-Co-op_R94910</id>
-    <title>Wellington Management: Information Security Co-op</title>
-    <link href="https://wellington.wd5.myworkdayjobs.com/Campus/job/Boston-MA-United-States/Information-Security-Co-op_R94910"/>
-    <updated>2026-09-22T19:00:47Z</updated>
-    <category term="Winter 2026"/>
-    <summary>Winter 2026 · Security · Boston, MA, United States · $19–$35/hr · status: closed · H-1B track record: ~112 approvals (FY2022–2023)</summary>
+    <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26014224</id>
+    <title>American Express: Campus Undergraduate Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Salt Lake City, UT</title>
+    <link href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014224"/>
+    <updated>2026-09-22T22:17:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Salt Lake City, UT, United States · Python, Java, C#, Go, TypeScript · H-1B track record: ~133 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:rippling:rippling:f64b6158-9534-4bab-9457-45556166b262</id>
-    <title>Rippling: Full Stack Software Engineer Intern - Summer 2027</title>
-    <link href="https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262"/>
-    <updated>2026-09-22T19:00:47Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY</summary>
+    <id>urn:intern-engine:oracle:hdjq.fa.us2.oraclecloud.com:26011295</id>
+    <title>Emerson Electric: Graduate Software Engineering Intern</title>
+    <link href="https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011295"/>
+    <updated>2026-09-22T22:17:05Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Round Rock, TX, United States · Python, C++, C#, LLMs, Computer Vision</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:rippling:rippling:f9de04c3-e2c5-41f9-8e46-a0684707f89d</id>
-    <title>Rippling: Machine Learning Software Engineer Intern - Summer 2027</title>
-    <link href="https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d"/>
+    <id>urn:intern-engine:workday:allegion:/job/Carmel-IN/Summer-Intern---Software-Operations-Engineer_JR37722-1</id>
+    <title>Allegion: Summer Intern – Software Operations Engineer</title>
+    <link href="https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Summer-Intern---Software-Operations-Engineer_JR37722-1"/>
+    <updated>2026-09-22T22:17:05Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Carmel, IN · Python, JavaScript, SQL, Bash</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429</id>
+    <title>The Aerospace Corporation: 2027 Software Tools and Assurance Intern 🇺🇸</title>
+    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429"/>
+    <updated>2026-09-22T22:17:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:maxar:/job/Remote-United-States/AI-Engineer-Intern_R24605</id>
+    <title>Vantor: AI Engineer Intern 🇺🇸</title>
+    <link href="https://maxar.wd1.myworkdayjobs.com/Vantor/job/Remote-United-States/AI-Engineer-Intern_R24605"/>
+    <updated>2026-09-22T22:17:05Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Remote (United States) · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1007919</id>
+    <title>Stantec: Transportation Engineering Co-op/Intern - Infrastructure (Summer 2027)</title>
+    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007919"/>
     <updated>2026-09-22T19:00:47Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA</summary>
+    <summary>Summer 2027 · Software · Portland, ME, United States</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:rippling:a07e4e46-3721-4934-b57b-0d58412e22ba</id>
@@ -40,12 +64,20 @@
     <summary>Summer 2027 · Software · Seattle, WA</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1007919</id>
-    <title>Stantec: Transportation Engineering Co-op/Intern - Infrastructure (Summer 2027)</title>
-    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007919"/>
+    <id>urn:intern-engine:rippling:rippling:f64b6158-9534-4bab-9457-45556166b262</id>
+    <title>Rippling: Full Stack Software Engineer Intern - Summer 2027</title>
+    <link href="https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262"/>
     <updated>2026-09-22T19:00:47Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Portland, ME, United States</summary>
+    <summary>Summer 2027 · Software · San Francisco, CA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:rippling:rippling:f9de04c3-e2c5-41f9-8e46-a0684707f89d</id>
+    <title>Rippling: Machine Learning Software Engineer Intern - Summer 2027</title>
+    <link href="https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d"/>
+    <updated>2026-09-22T19:00:47Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:allegion:/job/Carmel-IN/Summer-Intern---Software-Engineer_JR37747-2</id>
@@ -94,6 +126,14 @@
     <updated>2026-09-22T19:00:47Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · US-California-Palo Alto · $27.12–$51.93/hr · Python, Bash, Kubernetes, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:wellington:/job/Boston-MA-United-States/Information-Security-Co-op_R94910</id>
+    <title>Wellington Management: Information Security Co-op</title>
+    <link href="https://wellington.wd5.myworkdayjobs.com/Campus/job/Boston-MA-United-States/Information-Security-Co-op_R94910"/>
+    <updated>2026-09-22T19:00:47Z</updated>
+    <category term="Winter 2026"/>
+    <summary>Winter 2026 · Security · Boston, MA, United States · $19–$35/hr · status: closed · H-1B track record: ~112 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:cowboyspace:56d1d7e4-fa7e-4c25-aa8b-6828447fc64a</id>
@@ -766,45 +806,5 @@
     <updated>2026-09-17T17:54:42Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Data &amp; ML/AI · Dallas, TX, United States · LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-exty-saasfaprod1.fa.ocs.oraclecloud.com:119494</id>
-    <title>Howmet Aerospace: Intern - Artificial Intelligence (AI) 🛂</title>
-    <link href="https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/119494"/>
-    <updated>2026-09-17T17:54:42Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Pittsburgh, PA, United States · $20–$22/hr · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260795</id>
-    <title>GM financial: Intern - Software Development Engineer</title>
-    <link href="https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260795"/>
-    <updated>2026-09-17T17:54:42Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Arlington, TX, United States · LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260804</id>
-    <title>GM financial: Intern - Oracle Application Developer</title>
-    <link href="https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260804"/>
-    <updated>2026-09-17T17:54:42Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Irving, TX, United States · LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260818</id>
-    <title>GM financial: Intern - Software Development Engineer</title>
-    <link href="https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260818"/>
-    <updated>2026-09-17T17:54:42Z</updated>
-    <category term="Not stated"/>
-    <summary>2 openings · Not stated · Software · Arlington, TX, United States · LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:ibqbjb.fa.ocs.oraclecloud.com:158088</id>
-    <title>Honeywell: Software Engineer Co-Op - Spring/Summer 2027 🇺🇸</title>
-    <link href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/158088"/>
-    <updated>2026-09-17T17:54:42Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Pittsford, NY, United States · $20/hr · sponsorship: citizens-only</summary>
   </entry>
 </feed>
