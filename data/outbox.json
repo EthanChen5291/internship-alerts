@@ -1,7 +1,31 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:cowboyspace:56d1d7e4-fa7e-4c25-aa8b-6828447fc64a",
+      "oracle:fa-exty-saasfaprod1.fa.ocs.oraclecloud.com:119551",
+      "smartrecruiters:Eurofins:744000150986035",
+      "workday:guidestone:/job/Dallas-TX/Summer-Intern---Software-Developer_R2129",
+      "workday:nebraskamed:/job/Omaha-NE/Intern---Forward-Deployed-AI-Engineer_REQ-38924",
+      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship--Rutgers--NJIT--NYU--UT-Dallas--UT-Arlington--Texas-A-M_R-1101169",
+      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship_R-1101167"
+    ],
+    "telegram": [
+      "ashby:cowboyspace:56d1d7e4-fa7e-4c25-aa8b-6828447fc64a",
+      "oracle:fa-exty-saasfaprod1.fa.ocs.oraclecloud.com:119551",
+      "smartrecruiters:Eurofins:744000150986035",
+      "workday:guidestone:/job/Dallas-TX/Summer-Intern---Software-Developer_R2129",
+      "workday:nebraskamed:/job/Omaha-NE/Intern---Forward-Deployed-AI-Engineer_REQ-38924",
+      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship--Rutgers--NJIT--NYU--UT-Dallas--UT-Arlington--Texas-A-M_R-1101169",
+      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship_R-1101167"
+    ],
+    "personal_email": [
+      "ashby:cowboyspace:56d1d7e4-fa7e-4c25-aa8b-6828447fc64a",
+      "oracle:fa-exty-saasfaprod1.fa.ocs.oraclecloud.com:119551",
+      "smartrecruiters:Eurofins:744000150986035",
+      "workday:guidestone:/job/Dallas-TX/Summer-Intern---Software-Developer_R2129",
+      "workday:nebraskamed:/job/Omaha-NE/Intern---Forward-Deployed-AI-Engineer_REQ-38924",
+      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship--Rutgers--NJIT--NYU--UT-Dallas--UT-Arlington--Texas-A-M_R-1101169",
+      "workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship_R-1101167"
+    ]
   }
 }

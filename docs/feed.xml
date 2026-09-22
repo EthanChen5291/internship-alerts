@@ -5,8 +5,56 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-22T10:09:40Z</updated>
+  <updated>2026-09-22T15:00:18Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:cowboyspace:56d1d7e4-fa7e-4c25-aa8b-6828447fc64a</id>
+    <title>Cowboy Space: Intern, Software Engineering, 2027 🇺🇸</title>
+    <link href="https://jobs.ashbyhq.com/cowboyspace/56d1d7e4-fa7e-4c25-aa8b-6828447fc64a"/>
+    <updated>2026-09-22T15:00:18Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Carlos, California · Python, C++, Verilog · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-exty-saasfaprod1.fa.ocs.oraclecloud.com:119551</id>
+    <title>Howmet Aerospace: Cybersecurity Intern 🛂</title>
+    <link href="https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/119551"/>
+    <updated>2026-09-22T15:00:18Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Pittsburgh, PA, United States · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:guidestone:/job/Dallas-TX/Summer-Intern---Software-Developer_R2129</id>
+    <title>GuideStone: Summer Intern - Software Developer 🛂</title>
+    <link href="https://guidestone.wd1.myworkdayjobs.com/guidestone/job/Dallas-TX/Summer-Intern---Software-Developer_R2129"/>
+    <updated>2026-09-22T15:00:18Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Dallas, TX · C#, JavaScript, SQL, HTML/CSS, Azure · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:nebraskamed:/job/Omaha-NE/Intern---Forward-Deployed-AI-Engineer_REQ-38924</id>
+    <title>Nebraska Medicine: Intern - Forward Deployed AI Engineer</title>
+    <link href="https://nebraskamed.wd5.myworkdayjobs.com/nm/job/Omaha-NE/Intern---Forward-Deployed-AI-Engineer_REQ-38924"/>
+    <updated>2026-09-22T15:00:18Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Omaha, NE · Python, TypeScript, SQL, LLMs, Tableau</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship--Rutgers--NJIT--NYU--UT-Dallas--UT-Arlington--Texas-A-M_R-1101169</id>
+    <title>Verizon Communications: Verizon Network and Technology: AI Science 2027 Internship: Rutgers, NJIT, NYU, UT Dallas, UT Arlington, Texas A&amp;M</title>
+    <link href="https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship--Rutgers--NJIT--NYU--UT-Dallas--UT-Arlington--Texas-A-M_R-1101169"/>
+    <updated>2026-09-22T15:00:18Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Basking Ridge, New Jersey · $27/hr · Python, Java</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship_R-1101167</id>
+    <title>Verizon Communications: Verizon Network and Technology: AI Science 2027 Internship</title>
+    <link href="https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship_R-1101167"/>
+    <updated>2026-09-22T15:00:18Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Basking Ridge, New Jersey · $27/hr · Python, Java</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150</id>
     <title>Northrop Grumman: 2027 Software Engineer Intern - San Diego CA 🇺🇸</title>
@@ -42,10 +90,10 @@
   <entry>
     <id>urn:intern-engine:greenhouse:singlestore:8220919</id>
     <title>SingleStore: MIT- Software Engineer Intern | Engine</title>
-    <link href="https://job-boards.greenhouse.io/singlestore/jobs/8221924"/>
+    <link href="https://job-boards.greenhouse.io/singlestore/jobs/8220919"/>
     <updated>2026-09-21T21:17:44Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · San Francisco, CA, United States · C++, SQL, Linux · H-1B track record: ~16 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Software · United States · C++, SQL, Linux · H-1B track record: ~16 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:singlestore:8220941</id>
@@ -758,53 +806,5 @@
     <updated>2026-09-17T13:03:55Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · US - Denver, CO · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:visa:/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1</id>
-    <title>Visa: Software Engineer, Intern - Foster City 2027 🛂</title>
-    <link href="https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1"/>
-    <updated>2026-09-17T13:03:55Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US - Foster City, CA · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:visa:/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF088591W-1</id>
-    <title>Visa: 2027 Sophomore Internship Program - Software Engineer Intern, Foster City 🛂</title>
-    <link href="https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF088591W-1"/>
-    <updated>2026-09-17T13:03:55Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US - Foster City, CA · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:amperesand:4409254009</id>
-    <title>Amperesand: Software Intern, Factory &amp; Ops</title>
-    <link href="https://job-boards.greenhouse.io/amperesand/jobs/4409254009"/>
-    <updated>2026-09-17T07:52:00Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Reno, Nevada, United States · TypeScript, LLMs, React, AWS, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:waymo:8203200</id>
-    <title>Waymo: 2027 Summer Intern, BS/MS, Software Engineering, Maneuvering Tech</title>
-    <link href="https://careers.withwaymo.com/jobs?gh_jid=8203200"/>
-    <updated>2026-09-17T07:52:00Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, California · Python, C++, SQL · H-1B track record: ~284 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:newsbreak:4711146006</id>
-    <title>NewsBreak: New Market Launch Intern (MBA), Nearby AI</title>
-    <link href="https://job-boards.greenhouse.io/newsbreak/jobs/4711146006"/>
-    <updated>2026-09-17T01:55:24Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Bellevue, Washington, United States; Mountain View, California, United States; New York, New York, United States; Remote</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:americancentury:/job/Kansas-City-Missouri/Cybersecurity-Intern_R0005729</id>
-    <title>American Century Investments: Cybersecurity Intern 🛂</title>
-    <link href="https://americancentury.wd5.myworkdayjobs.com/AmericanCenturyInvestments/job/Kansas-City-Missouri/Cybersecurity-Intern_R0005729"/>
-    <updated>2026-09-16T23:26:53Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Security · Kansas City, Missouri · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>

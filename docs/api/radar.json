@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-22T10:09:40Z",
- "data_as_of": "2026-09-22T10:09:40Z",
- "rendered_at": "2026-09-22T10:09:41Z",
+ "generated_at": "2026-09-22T15:00:18Z",
+ "data_as_of": "2026-09-22T15:00:18Z",
+ "rendered_at": "2026-09-22T15:00:19Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3920,6 +3920,25 @@
    }
   },
   {
+   "company": "Cowboy Space",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-21",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/cowboyspace/56d1d7e4-fa7e-4c25-aa8b-6828447fc64a",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-21"
+   }
+  },
+  {
    "company": "Fidelity Investments",
    "last_cycle_posted": "",
    "posted_on": "2026-09-21",
@@ -6843,5 +6862,5 @@
    }
   }
  ],
- "count": 360
+ "count": 361
 }
