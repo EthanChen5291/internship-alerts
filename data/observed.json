@@ -613,6 +613,7 @@
      "role_ids": [
       "workday:bah:/job/Annapolis-Junction-MD/University---2027-Summer-Games-Cyber-Security-Intern---Annapolis-Junction--MD_R0248414",
       "workday:bah:/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0248403",
+      "workday:bah:/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0249873",
       "workday:bah:/job/Atlanta-GA/University---2027-Summer-Games-Cyber-Security-Intern---Atlanta--GA_R0248139",
       "workday:bah:/job/Atlanta-GA/University---2027-Summer-Games-Software-Developer-Intern---Atlanta--GA_R0248138",
       "workday:bah:/job/Atlanta-GA/University--2027-Summer-Games-Data-Scientist-Intern_R0248140",
@@ -634,6 +635,7 @@
       "workday:bah:/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0248394",
       "workday:bah:/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0249872",
       "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0248034",
+      "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0249832",
       "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0249878",
       "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Data-Scientist-Intern---McLean--VA_R0248037",
       "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249800",
@@ -647,6 +649,10 @@
       "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249818",
       "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249820",
       "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249823",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249825",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249826",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249827",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249828",
       "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern_R0248029",
       "workday:bah:/job/Rome-NY/University--2027-Summer-Games-Cyber-Security-Intern_R0248142",
       "workday:bah:/job/Rome-NY/University--2027-Summer-Games-Data-Scientist-Intern_R0248143",
@@ -656,7 +662,7 @@
       "workday:bah:/job/San-Diego-CA/University---2027-Summer-Games-Software-Developer-Intern---San-Diego--CA_R0249799",
       "workday:bah:/job/San-Diego-CA/University--2027-Summer-Games-Cyber-Security-Intern_R0248043"
      ],
-     "count": 44
+     "count": 50
     }
    }
   },
@@ -2559,13 +2565,14 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 16,
+     "count": 17,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247485",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247487",
       "workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835",
+      "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150",
       "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395",
@@ -4174,5 +4181,5 @@
    }
   }
  },
- "updated_at": "2026-09-22T04:58:31Z"
+ "updated_at": "2026-09-22T10:09:40Z"
 }

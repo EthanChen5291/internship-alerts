@@ -1,7 +1,31 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249825",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249826",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249827",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249828",
+      "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0249832",
+      "workday:bah:/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0249873",
+      "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150"
+    ],
+    "telegram": [
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249825",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249826",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249827",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249828",
+      "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0249832",
+      "workday:bah:/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0249873",
+      "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150"
+    ],
+    "personal_email": [
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249825",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249826",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249827",
+      "workday:bah:/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern---McLean--VA_R0249828",
+      "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0249832",
+      "workday:bah:/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0249873",
+      "workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150"
+    ]
   }
 }

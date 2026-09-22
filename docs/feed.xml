@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-22T04:58:31Z</updated>
+  <updated>2026-09-22T10:09:40Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150</id>
+    <title>Northrop Grumman: 2027 Software Engineer Intern - San Diego CA 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150"/>
+    <updated>2026-09-22T10:09:40Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States-California-San Diego · $21.5–$39/hr · Python, Java, C++, Rust, MATLAB · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:g2:64dcc04a-a0e7-493b-b899-dd4c56e561fd</id>
     <title>G2: Intern, AI Agent Evaluations</title>
@@ -83,9 +91,9 @@
     <id>urn:intern-engine:workday:sonyglobal:/job/New-York/Sony-Research---Internship-on-Audio-Processing-and-Machine-Learning_JR-119643</id>
     <title>Sony: Sony Research - Internship on Audio Processing and Machine Learning</title>
     <link href="https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/New-York/Sony-Research---Internship-on-Audio-Processing-and-Machine-Learning_JR-119643"/>
-    <updated>2026-09-21T21:17:44Z</updated>
+    <updated>2026-09-22T10:09:40Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · New York · $50/hr · Python, PyTorch</summary>
+    <summary>Not stated · Data &amp; ML/AI · New York · $50/hr · Python, PyTorch · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:collinear-ai:ae85fd08-dfd8-42e5-9b3b-9921ba24742b</id>
@@ -798,13 +806,5 @@
     <updated>2026-09-16T23:26:53Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Security · Kansas City, Missouri · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:avav:/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550</id>
-    <title>Avav: Summer 2027 Software Engineering Intern</title>
-    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550"/>
-    <updated>2026-09-16T23:26:53Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Melbourne, FL · Python, Java, C++, Bash, Linux</summary>
   </entry>
 </feed>
