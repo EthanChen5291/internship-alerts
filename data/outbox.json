@@ -1,7 +1,22 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:g2:64dcc04a-a0e7-493b-b899-dd4c56e561fd",
+      "workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Quality-Analyst-Intern--Software-_JR100314",
+      "greenhouse:walleyecapital-external-students:4676334006",
+      "greenhouse:waymo:8221198"
+    ],
+    "telegram": [
+      "ashby:g2:64dcc04a-a0e7-493b-b899-dd4c56e561fd",
+      "workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Quality-Analyst-Intern--Software-_JR100314",
+      "greenhouse:walleyecapital-external-students:4676334006",
+      "greenhouse:waymo:8221198"
+    ],
+    "personal_email": [
+      "ashby:g2:64dcc04a-a0e7-493b-b899-dd4c56e561fd",
+      "workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Quality-Analyst-Intern--Software-_JR100314",
+      "greenhouse:walleyecapital-external-students:4676334006",
+      "greenhouse:waymo:8221198"
+    ]
   }
 }

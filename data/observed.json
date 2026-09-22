@@ -699,9 +699,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-10",
      "role_ids": [
+      "workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Quality-Analyst-Intern--Software-_JR100314",
       "workday:bracco:/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern--Co-op--R-D-Sustaining-_JR100327"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -1574,6 +1575,18 @@
      "first_posted": "2026-08-14",
      "role_ids": [
       "greenhouse:freeformfuturecorp:7872198003"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "g2": {
+   "name": "G2",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-21",
+     "role_ids": [
+      "ashby:g2:64dcc04a-a0e7-493b-b899-dd4c56e561fd"
      ],
      "count": 1
     }
@@ -4043,9 +4056,10 @@
       "greenhouse:waymo:8174504",
       "greenhouse:waymo:8193731",
       "greenhouse:waymo:8198218",
-      "greenhouse:waymo:8203200"
+      "greenhouse:waymo:8203200",
+      "greenhouse:waymo:8221198"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -4160,5 +4174,5 @@
    }
   }
  },
- "updated_at": "2026-09-21T21:17:44Z"
+ "updated_at": "2026-09-22T00:17:56Z"
 }
