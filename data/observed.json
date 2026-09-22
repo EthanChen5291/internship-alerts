@@ -798,9 +798,10 @@
       "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
       "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
       "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466",
+      "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 10
+     "count": 11
     }
    }
   },
@@ -2578,7 +2579,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 17,
+     "count": 19,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -2592,6 +2593,8 @@
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Returning-Intern-Software-Engineer_R10242378",
+      "workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530",
+      "workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196",
       "workday:ngc:/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer-Intern---Baltimore-MD_R10251464",
       "workday:ngc:/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
       "workday:ngc:/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
@@ -3378,6 +3381,19 @@
     }
    }
   },
+  "singlestore": {
+   "name": "SingleStore",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-14",
+     "role_ids": [
+      "greenhouse:singlestore:8154399",
+      "greenhouse:singlestore:8205514"
+     ],
+     "count": 2
+    }
+   }
+  },
   "skillz": {
    "name": "skillz",
    "cycles": {
@@ -3487,9 +3503,10 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1007804",
       "oracle:hdhl.fa.us6.oraclecloud.com:1007837",
       "oracle:hdhl.fa.us6.oraclecloud.com:1007876",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007905"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007905",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007919"
      ],
-     "count": 9
+     "count": 10
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -4196,5 +4213,5 @@
    }
   }
  },
- "updated_at": "2026-09-22T15:00:18Z"
+ "updated_at": "2026-09-22T19:00:47Z"
 }

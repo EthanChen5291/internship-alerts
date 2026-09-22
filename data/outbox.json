@@ -1,7 +1,40 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "rippling:rippling:f64b6158-9534-4bab-9457-45556166b262",
+      "rippling:rippling:f9de04c3-e2c5-41f9-8e46-a0684707f89d",
+      "rippling:rippling:a07e4e46-3721-4934-b57b-0d58412e22ba",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007919",
+      "workday:allegion:/job/Carmel-IN/Summer-Intern---Software-Engineer_JR37747-2",
+      "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
+      "workday:emcins:/job/Iowa/Intern---Software-Engineering_R6557-1",
+      "workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530",
+      "workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196",
+      "workday:tencent:/job/US-California-Palo-Alto/Site-Reliability-Engineer--SRE--Intern---AI-Infrastructure_R108158-1"
+    ],
+    "telegram": [
+      "rippling:rippling:f64b6158-9534-4bab-9457-45556166b262",
+      "rippling:rippling:f9de04c3-e2c5-41f9-8e46-a0684707f89d",
+      "rippling:rippling:a07e4e46-3721-4934-b57b-0d58412e22ba",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007919",
+      "workday:allegion:/job/Carmel-IN/Summer-Intern---Software-Engineer_JR37747-2",
+      "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
+      "workday:emcins:/job/Iowa/Intern---Software-Engineering_R6557-1",
+      "workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530",
+      "workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196",
+      "workday:tencent:/job/US-California-Palo-Alto/Site-Reliability-Engineer--SRE--Intern---AI-Infrastructure_R108158-1"
+    ],
+    "personal_email": [
+      "rippling:rippling:f64b6158-9534-4bab-9457-45556166b262",
+      "rippling:rippling:f9de04c3-e2c5-41f9-8e46-a0684707f89d",
+      "rippling:rippling:a07e4e46-3721-4934-b57b-0d58412e22ba",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007919",
+      "workday:allegion:/job/Carmel-IN/Summer-Intern---Software-Engineer_JR37747-2",
+      "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
+      "workday:emcins:/job/Iowa/Intern---Software-Engineering_R6557-1",
+      "workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530",
+      "workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196",
+      "workday:tencent:/job/US-California-Palo-Alto/Site-Reliability-Engineer--SRE--Intern---AI-Infrastructure_R108158-1"
+    ]
   }
 }
