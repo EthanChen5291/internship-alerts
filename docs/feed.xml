@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-22T22:17:05Z</updated>
+  <updated>2026-09-23T00:35:02Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10557133</id>
+    <title>Amazon: Security Engineer Internship – 2027 (US)</title>
+    <link href="https://www.amazon.jobs/en/jobs/10557133/security-engineer-internship-2027-us"/>
+    <updated>2026-09-23T00:35:02Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Seattle, Washington, USA · Python, Java, C++, Ruby, AWS · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:astranis:4705214006</id>
+    <title>Astranis: Software Engineer Backend Intern (Summer 2027) 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/astranis/jobs/4705214006"/>
+    <updated>2026-09-23T00:35:02Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Francisco, CA · $29/hr · Python, Kubernetes, PostgreSQL · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:astranis:4705610006</id>
+    <title>Astranis: Software Engineer - Enterprise Systems Intern (Summer 2027) 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/astranis/jobs/4705610006"/>
+    <updated>2026-09-23T00:35:02Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Francisco, CA · $29/hr · Python, Kubernetes, PostgreSQL · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:oracle:egug.fa.us2.oraclecloud.com:26014224</id>
     <title>American Express: Campus Undergraduate Summer Internship Program - 2027 Software Engineer, Enterprise Technology Services- Salt Lake City, UT</title>
@@ -24,20 +48,20 @@
     <summary>Not stated · Software · Round Rock, TX, United States · Python, C++, C#, LLMs, Computer Vision</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:allegion:/job/Carmel-IN/Summer-Intern---Software-Operations-Engineer_JR37722-1</id>
-    <title>Allegion: Summer Intern – Software Operations Engineer</title>
-    <link href="https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Summer-Intern---Software-Operations-Engineer_JR37722-1"/>
-    <updated>2026-09-22T22:17:05Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Carmel, IN · Python, JavaScript, SQL, Bash</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429</id>
     <title>The Aerospace Corporation: 2027 Software Tools and Assurance Intern 🇺🇸</title>
     <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429"/>
     <updated>2026-09-22T22:17:05Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:allegion:/job/Carmel-IN/Summer-Intern---Software-Operations-Engineer_JR37722-1</id>
+    <title>Allegion: Summer Intern – Software Operations Engineer</title>
+    <link href="https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Summer-Intern---Software-Operations-Engineer_JR37722-1"/>
+    <updated>2026-09-22T22:17:05Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Carmel, IN · Python, JavaScript, SQL, Bash</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:maxar:/job/Remote-United-States/AI-Engineer-Intern_R24605</id>
@@ -107,17 +131,17 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530</id>
     <title>Northrop Grumman: 2027 Cyber Software Engineer Intern - Tampa FL 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530"/>
-    <updated>2026-09-22T19:00:47Z</updated>
+    <updated>2026-09-23T00:18:39Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196</id>
     <title>Northrop Grumman: 2027 Cyber Systems Engineer Intern-Tampa FL 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196"/>
-    <updated>2026-09-22T19:00:47Z</updated>
+    <updated>2026-09-23T00:18:39Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · Python, LLMs · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · Python, LLMs · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:tencent:/job/US-California-Palo-Alto/Site-Reliability-Engineer--SRE--Intern---AI-Infrastructure_R108158-1</id>
@@ -187,9 +211,9 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150</id>
     <title>Northrop Grumman: 2027 Software Engineer Intern - San Diego CA 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150"/>
-    <updated>2026-09-22T10:09:40Z</updated>
+    <updated>2026-09-23T00:18:39Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-California-San Diego · $21.5–$39/hr · Python, Java, C++, Rust, MATLAB · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-California-San Diego · $21.5–$39/hr · Python, Java, C++, Rust, MATLAB · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:g2:64dcc04a-a0e7-493b-b899-dd4c56e561fd</id>
@@ -387,17 +411,17 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835</id>
     <title>Northrop Grumman: 2027 Embedded Software Engineer Intern - Camarillo CA 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835"/>
-    <updated>2026-09-21T11:21:03Z</updated>
+    <updated>2026-09-23T00:18:39Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-California-Camarillo · $20.5–$37.25/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-California-Camarillo · $20.5–$37.25/hr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer-Intern---Baltimore-MD_R10251464</id>
     <title>Northrop Grumman: 2027 Embedded Software Engineer Intern - Baltimore MD 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer-Intern---Baltimore-MD_R10251464"/>
-    <updated>2026-09-21T05:40:00Z</updated>
+    <updated>2026-09-23T00:18:39Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Maryland-Baltimore · $20.5–$37.25/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-Maryland-Baltimore · $20.5–$37.25/hr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workable:talentpluto:6A02556484</id>
@@ -782,29 +806,5 @@
     <updated>2026-09-17T17:54:42Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Cambridge, MA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:sharkninjaoperatingllc:4713793006</id>
-    <title>SharkNinja: Applied AI &amp; Analytics Co-op Opportunities</title>
-    <link href="https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713793006"/>
-    <updated>2026-09-17T17:54:42Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Miami, Florida, United States; Needham, MA, United States; New York, New York, United States · Python, SQL, LLMs, AWS, Tableau</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:sharkninjaoperatingllc:4713808006</id>
-    <title>SharkNinja: Applied AI &amp; Analytics Intern Opportunities</title>
-    <link href="https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713808006"/>
-    <updated>2026-09-17T17:54:42Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Miami, Florida, United States; Needham, MA, United States · Python, SQL, LLMs, AWS, Tableau</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com:1067</id>
-    <title>Hunt Oil Company: AI Business Strategy &amp; Transformation Intern - Fall 2026</title>
-    <link href="https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1067"/>
-    <updated>2026-09-17T17:54:42Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Dallas, TX, United States · LLMs</summary>
   </entry>
 </feed>

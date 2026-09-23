@@ -209,13 +209,14 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 5,
+     "count": 6,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
       "amazon:amazon:10459543",
       "amazon:amazon:10517567",
-      "amazon:amazon:10552937"
+      "amazon:amazon:10552937",
+      "amazon:amazon:10557133"
      ]
     }
    }
@@ -407,6 +408,14 @@
       "greenhouse:astranis:4681183006",
       "greenhouse:astranis:4699071006"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-09-22",
+     "role_ids": [
+      "greenhouse:astranis:4705214006",
+      "greenhouse:astranis:4705610006"
+     ],
+     "count": 2
     }
    }
   },
@@ -4216,5 +4225,5 @@
    }
   }
  },
- "updated_at": "2026-09-22T22:17:05Z"
+ "updated_at": "2026-09-23T00:35:02Z"
 }
