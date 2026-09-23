@@ -1495,9 +1495,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-14",
      "role_ids": [
-      "greenhouse:figma:6143238004"
+      "greenhouse:figma:6143238004",
+      "greenhouse:figma:6178851004"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4260,5 +4261,5 @@
    }
   }
  },
- "updated_at": "2026-09-23T19:17:11Z"
+ "updated_at": "2026-09-23T22:29:30Z"
 }

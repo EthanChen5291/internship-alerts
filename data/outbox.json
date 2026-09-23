@@ -1,7 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "greenhouse:figma:6178851004",
+      "greenhouse:klaviyocampus:8003260003"
+    ],
+    "telegram": [
+      "greenhouse:figma:6178851004",
+      "greenhouse:klaviyocampus:8003260003"
+    ],
+    "personal_email": [
+      "greenhouse:figma:6178851004",
+      "greenhouse:klaviyocampus:8003260003"
+    ]
   }
 }
