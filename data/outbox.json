@@ -1,19 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "amazon:amazon:10557133",
-      "greenhouse:astranis:4705214006",
-      "greenhouse:astranis:4705610006"
-    ],
-    "telegram": [
-      "amazon:amazon:10557133",
-      "greenhouse:astranis:4705214006",
-      "greenhouse:astranis:4705610006"
-    ],
-    "personal_email": [
-      "amazon:amazon:10557133",
-      "greenhouse:astranis:4705214006",
-      "greenhouse:astranis:4705610006"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
