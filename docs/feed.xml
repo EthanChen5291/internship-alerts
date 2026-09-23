@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-23T10:11:46Z</updated>
+  <updated>2026-09-23T15:07:43Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:grow-therapy:92bfe88a-4c23-48c8-8f7b-4959ab6cd8d8</id>
+    <title>Grow Therapy: Software Engineering Intern (Summer 2027)</title>
+    <link href="https://jobs.ashbyhq.com/grow-therapy/92bfe88a-4c23-48c8-8f7b-4959ab6cd8d8"/>
+    <updated>2026-09-23T15:07:43Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York City · $50 per hour · Python, TypeScript, React</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:dxctechnology:/job/ITA---MI---MILAN/Cyber-Security-Intern_51583298</id>
+    <title>DXC Technology: Cyber Security Intern</title>
+    <link href="https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/ITA---MI---MILAN/Cyber-Security-Intern_51583298"/>
+    <updated>2026-09-23T15:07:43Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · ITA - MI - MILAN</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Keenfinity:744000151395769</id>
+    <title>Keenfinity: Software Test Automation Co-Op</title>
+    <link href="https://jobs.smartrecruiters.com/Keenfinity/744000151395769"/>
+    <updated>2026-09-23T15:07:43Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Fairport, NY, United States · $25–$26/hr · Python, C++, Azure, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359</id>
+    <title>Northrop Grumman: 2027 Software Engineer Intern – Woodland Hills CA 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359"/>
+    <updated>2026-09-23T15:07:43Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States-California-Woodland Hills · $21.5–$39/hr · Python, C++ · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2</id>
     <title>KLA: Algorithm Engineering Intern (AI, Computer Vision &amp; Software Engineering)</title>
@@ -109,7 +141,7 @@
     <link href="https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba"/>
     <updated>2026-09-22T19:00:47Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA</summary>
+    <summary>Summer 2027 · Software · Seattle, WA</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:rippling:f64b6158-9534-4bab-9457-45556166b262</id>
@@ -117,7 +149,7 @@
     <link href="https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262"/>
     <updated>2026-09-22T19:00:47Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA</summary>
+    <summary>Summer 2027 · Software · New York, NY</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:rippling:f9de04c3-e2c5-41f9-8e46-a0684707f89d</id>
@@ -141,7 +173,7 @@
     <link href="https://caci.wd1.myworkdayjobs.com/external/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386"/>
     <updated>2026-09-22T19:00:47Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Sterling, VA, US · Linux, Git</summary>
+    <summary>2 openings · Summer 2027 · Software · Sterling, VA, US · Linux, Git</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:emcins:/job/Iowa/Intern---Software-Engineering_R6557-1</id>
@@ -774,37 +806,5 @@
     <updated>2026-09-17T20:48:12Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Springfield, MO (Bass Pro Shops Base Camp)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:insperity:/job/Kingwood-TX/Rotational-AI-Intern_JR103294</id>
-    <title>Insperity: Rotational AI Intern</title>
-    <link href="https://insperity.wd12.myworkdayjobs.com/NSP/job/Kingwood-TX/Rotational-AI-Intern_JR103294"/>
-    <updated>2026-09-17T20:48:12Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Kingwood, TX · Python, SQL, LLMs, Computer Vision · H-1B track record: ~12 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:labcorp:/job/Durham-NC/Intern---Network-Infrastructure---Automation-Engineering_2632795</id>
-    <title>LabCorp: Intern – Network Infrastructure &amp; Automation Engineering 🛂</title>
-    <link href="https://labcorp.wd1.myworkdayjobs.com/external/job/Durham-NC/Intern---Network-Infrastructure---Automation-Engineering_2632795"/>
-    <updated>2026-09-17T20:48:12Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Durham NC · Python, Linux, Git · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:leidos:/job/Pittsburgh-PA/Research-Engineer-Intern_R-00192500</id>
-    <title>Leidos: Research Engineer Intern</title>
-    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Pittsburgh-PA/Research-Engineer-Intern_R-00192500"/>
-    <updated>2026-09-17T20:48:12Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Pittsburgh, PA · Python, MATLAB · H-1B track record: ~79 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:conductorai:d6a1b110-10ad-4b5e-83a0-88c5fd7bc891</id>
-    <title>ConductorAI: Software Engineer Intern 🇺🇸</title>
-    <link href="https://jobs.ashbyhq.com/conductorai/d6a1b110-10ad-4b5e-83a0-88c5fd7bc891"/>
-    <updated>2026-09-17T17:54:42Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York City · Python, TypeScript, LLMs, React, Next.js · sponsorship: citizens-only</summary>
   </entry>
 </feed>
