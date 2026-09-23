@@ -1,7 +1,19 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1",
+      "workday:kla:/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2",
+      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Security-Cybersecurity-Engineer_R10252418"
+    ],
+    "telegram": [
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1",
+      "workday:kla:/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2",
+      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Security-Cybersecurity-Engineer_R10252418"
+    ],
+    "personal_email": [
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1",
+      "workday:kla:/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2",
+      "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Security-Cybersecurity-Engineer_R10252418"
+    ]
   }
 }

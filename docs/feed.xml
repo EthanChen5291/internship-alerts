@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-23T00:35:02Z</updated>
+  <updated>2026-09-23T05:23:00Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1</id>
+    <title>KLA: Software Engineering Intern (C++, Unix)</title>
+    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1"/>
+    <updated>2026-09-23T05:23:00Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Milpitas, CA · $37–$49/hr · C++, Linux, Python · H-1B track record: ~369 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2</id>
+    <title>KLA: Algorithm Engineering Intern (AI, Computer Vision &amp; Software Engineering)</title>
+    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2"/>
+    <updated>2026-09-23T05:23:00Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Milpitas, CA · $58/hr · Computer Vision, Python, C++, PyTorch, TensorFlow · H-1B track record: ~369 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Security-Cybersecurity-Engineer_R10252418</id>
+    <title>Northrop Grumman: 2027 Intern - Systems Security/Cybersecurity Engineer 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Security-Cybersecurity-Engineer_R10252418"/>
+    <updated>2026-09-23T05:23:00Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · United States-Florida-Melbourne · $18.5–$33.5/hr · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10557133</id>
     <title>Amazon: Security Engineer Internship – 2027 (US)</title>
@@ -131,17 +155,17 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530</id>
     <title>Northrop Grumman: 2027 Cyber Software Engineer Intern - Tampa FL 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530"/>
-    <updated>2026-09-23T00:18:39Z</updated>
+    <updated>2026-09-22T19:00:47Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · sponsorship: citizens-only · status: closed</summary>
+    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196</id>
     <title>Northrop Grumman: 2027 Cyber Systems Engineer Intern-Tampa FL 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196"/>
-    <updated>2026-09-23T00:18:39Z</updated>
+    <updated>2026-09-22T19:00:47Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · Python, LLMs · sponsorship: citizens-only · status: closed</summary>
+    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · Python, LLMs · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:tencent:/job/US-California-Palo-Alto/Site-Reliability-Engineer--SRE--Intern---AI-Infrastructure_R108158-1</id>
@@ -211,9 +235,9 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150</id>
     <title>Northrop Grumman: 2027 Software Engineer Intern - San Diego CA 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150"/>
-    <updated>2026-09-23T00:18:39Z</updated>
+    <updated>2026-09-22T10:09:40Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-California-San Diego · $21.5–$39/hr · Python, Java, C++, Rust, MATLAB · sponsorship: citizens-only · status: closed</summary>
+    <summary>Summer 2027 · Software · United States-California-San Diego · $21.5–$39/hr · Python, Java, C++, Rust, MATLAB · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:g2:64dcc04a-a0e7-493b-b899-dd4c56e561fd</id>
@@ -411,17 +435,17 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835</id>
     <title>Northrop Grumman: 2027 Embedded Software Engineer Intern - Camarillo CA 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835"/>
-    <updated>2026-09-23T00:18:39Z</updated>
+    <updated>2026-09-21T11:21:03Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-California-Camarillo · $20.5–$37.25/hr · sponsorship: citizens-only · status: closed</summary>
+    <summary>Summer 2027 · Software · United States-California-Camarillo · $20.5–$37.25/hr · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer-Intern---Baltimore-MD_R10251464</id>
     <title>Northrop Grumman: 2027 Embedded Software Engineer Intern - Baltimore MD 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer-Intern---Baltimore-MD_R10251464"/>
-    <updated>2026-09-23T00:18:39Z</updated>
+    <updated>2026-09-21T05:40:00Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Maryland-Baltimore · $20.5–$37.25/hr · sponsorship: citizens-only · status: closed</summary>
+    <summary>Summer 2027 · Software · United States-Maryland-Baltimore · $20.5–$37.25/hr · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workable:talentpluto:6A02556484</id>
@@ -782,29 +806,5 @@
     <updated>2026-09-17T17:54:42Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · New York City · Python, TypeScript, LLMs, React, Next.js · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:covar:5240360007</id>
-    <title>CoVar: Machine Learning Internship Summer 2027</title>
-    <link href="https://job-boards.greenhouse.io/covar/jobs/5240360007"/>
-    <updated>2026-09-17T17:54:42Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Durham, NC · Python, PyTorch, Pandas, Computer Vision, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:internrecruiting:8204511</id>
-    <title>Internrecruiting: Software Engineer Co-op</title>
-    <link href="https://job-boards.greenhouse.io/internrecruiting/jobs/8204511"/>
-    <updated>2026-09-17T17:54:42Z</updated>
-    <category term="Spring 2027"/>
-    <summary>Spring 2027 · Software · Boston, MA · Python, Java, C#, SQL · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:nanopathinc:4732881005</id>
-    <title>Nanopath: Software Development Co-op (Jan '27 Start)</title>
-    <link href="https://job-boards.greenhouse.io/nanopathinc/jobs/4732881005"/>
-    <updated>2026-09-17T17:54:42Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Cambridge, MA</summary>
   </entry>
 </feed>
