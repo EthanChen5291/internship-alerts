@@ -3425,6 +3425,13 @@
       "workday:snc:/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760"
      ],
      "count": 6
+    },
+    "Fall 2026": {
+     "first_posted": "2026-09-23",
+     "role_ids": [
+      "workday:snc:/job/Plano-TX/Software-Engineer-I--For-2026-Interns-Only-_R0030584"
+     ],
+     "count": 1
     }
    }
   },
@@ -4261,5 +4268,5 @@
    }
   }
  },
- "updated_at": "2026-09-23T22:29:30Z"
+ "updated_at": "2026-09-24T01:09:08Z"
 }
