@@ -5,15 +5,55 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-24T20:14:51Z</updated>
+  <updated>2026-09-24T23:26:05Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260821</id>
-    <title>GM financial: Intern - Data Engineer</title>
-    <link href="https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260821"/>
-    <updated>2026-09-24T20:14:51Z</updated>
+    <id>urn:intern-engine:smartrecruiters:Intuitive:744000151714759</id>
+    <title>Intuitive Surgical: AI Research Intern</title>
+    <link href="https://jobs.smartrecruiters.com/Intuitive/744000151714759"/>
+    <updated>2026-09-24T23:26:05Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Data &amp; ML/AI · Sunnyvale, CA, United States · Python, PyTorch, TensorFlow, LLMs, Computer Vision · status: closed · H-1B track record: ~14 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10559746</id>
+    <title>Amazon: Software Development Engineer Intern - Summer 2027 (USA) , Amazon Dedicated Cloud (ADC)</title>
+    <link href="https://www.amazon.jobs/en/jobs/10559746/software-development-engineer-intern-summer-2027-usa-amazon-dedicated-cloud-adc"/>
+    <updated>2026-09-24T23:26:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Seattle, Washington, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10559762</id>
+    <title>Amazon: Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA) 🇺🇸</title>
+    <link href="https://www.amazon.jobs/en/jobs/10559762/software-development-engineer-intern-amazon-leo-summer-2027-usa"/>
+    <updated>2026-09-24T23:26:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Redmond, Washington, USA · Python, Java, C++, C#, Rust · sponsorship: citizens-only · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workable:rentvision:0F1C7992BF</id>
+    <title>Rentvision: Software Engineering Intern</title>
+    <link href="https://apply.workable.com/rentvision/j/0F1C7992BF/"/>
+    <updated>2026-09-24T23:26:05Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Lincoln, Nebraska, United States · Java, TypeScript, JavaScript, React, HTML/CSS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ameren:/job/St-Louis-MO/Intern--Robotics--AI--OT--Software-development-_033945-1</id>
+    <title>Ameren: Intern (Robotics, AI, OT, Software development)</title>
+    <link href="https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Intern--Robotics--AI--OT--Software-development-_033945-1"/>
+    <updated>2026-09-24T23:26:05Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Arlington, TX, United States · Python, Java, C++, LLMs, Git</summary>
+    <summary>Not stated · Data &amp; ML/AI · St. Louis, MO</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277</id>
+    <title>Johnson &amp; Johnson: Software Engineering Co-Op 🛂</title>
+    <link href="https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277"/>
+    <updated>2026-09-24T23:26:05Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Danvers, Massachusetts, United States of America · $23.5/hr · Rust, JavaScript, Angular, Linux, Git · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:reflect-orbital:c394615d-26c6-4435-ad84-3ca3269c2952</id>
@@ -30,6 +70,14 @@
     <updated>2026-09-24T20:14:51Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Canonsburg, PA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260821</id>
+    <title>GM financial: Intern - Data Engineer</title>
+    <link href="https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260821"/>
+    <updated>2026-09-24T20:14:51Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Arlington, TX, United States · Python, Java, C++, LLMs, Git</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:leidos:/job/St-Louis-MO/Software-Developer-Intern_R-00192632</id>
@@ -363,9 +411,9 @@
     <id>urn:intern-engine:amazon:amazon:10557133</id>
     <title>Amazon: Security Engineer Internship – 2027 (US)</title>
     <link href="https://www.amazon.jobs/en/jobs/10557133/security-engineer-internship-2027-us"/>
-    <updated>2026-09-23T00:35:02Z</updated>
+    <updated>2026-09-24T23:09:51Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Seattle, Washington, USA · Python, Java, C++, Ruby, AWS · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Security · Seattle, Washington, USA · Python, Java, C++, Ruby, AWS · status: closed · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:astranis:4705214006</id>
@@ -437,7 +485,7 @@
     <link href="https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba"/>
     <updated>2026-09-22T19:00:47Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA</summary>
+    <summary>Summer 2027 · Software · New York, NY</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:rippling:f64b6158-9534-4bab-9457-45556166b262</id>
@@ -445,7 +493,7 @@
     <link href="https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262"/>
     <updated>2026-09-22T19:00:47Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA</summary>
+    <summary>Summer 2027 · Software · Seattle, WA</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:rippling:f9de04c3-e2c5-41f9-8e46-a0684707f89d</id>
@@ -758,53 +806,5 @@
     <updated>2026-09-21T17:16:14Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Draper, UT · Python, TypeScript, JavaScript, Ruby, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:upbound:/job/Plano-TX/Software-Engineer-Intern_R-100761</id>
-    <title>Upbound Group: Software Engineer Intern</title>
-    <link href="https://upbound.wd501.myworkdayjobs.com/Upbound/job/Plano-TX/Software-Engineer-Intern_R-100761"/>
-    <updated>2026-09-21T17:16:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Software · Plano, TX · $22/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835</id>
-    <title>Northrop Grumman: 2027 Embedded Software Engineer Intern - Camarillo CA 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Camarillo/XMLNAME-2027-Embedded-Software-Engineer-Intern---Camarillo-CA_R10251835"/>
-    <updated>2026-09-23T18:58:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-California-Camarillo · $20.5–$37.25/hr · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer-Intern---Baltimore-MD_R10251464</id>
-    <title>Northrop Grumman: 2027 Embedded Software Engineer Intern - Baltimore MD 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer-Intern---Baltimore-MD_R10251464"/>
-    <updated>2026-09-23T18:58:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Maryland-Baltimore · $20.5–$37.25/hr · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workable:talentpluto:6A02556484</id>
-    <title>Talentpluto: Backend Engineering Intern</title>
-    <link href="https://apply.workable.com/talentpluto/j/6A02556484/"/>
-    <updated>2026-09-20T22:39:27Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · United States (Remote) · $35–$50/hr · Python, TypeScript, JavaScript</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workable:talentpluto:717116FEE8</id>
-    <title>Talentpluto: Full Stack Engineering Intern</title>
-    <link href="https://apply.workable.com/talentpluto/j/717116FEE8/"/>
-    <updated>2026-09-20T22:39:27Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York, New York, United States · $35–$50/hr · TypeScript, JavaScript, React, Next.js</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workable:talentpluto:A0CFDD6FBD</id>
-    <title>Talentpluto: AI/ML Engineering Intern</title>
-    <link href="https://apply.workable.com/talentpluto/j/A0CFDD6FBD/"/>
-    <updated>2026-09-20T22:39:27Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · United States (Remote) · $35–$50/hr · Python, TypeScript, JavaScript, LLMs</summary>
   </entry>
 </feed>

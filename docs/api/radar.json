@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-24T20:14:51Z",
- "data_as_of": "2026-09-24T20:14:51Z",
- "rendered_at": "2026-09-24T20:14:51Z",
+ "generated_at": "2026-09-24T23:26:05Z",
+ "data_as_of": "2026-09-24T23:26:05Z",
+ "rendered_at": "2026-09-24T23:26:06Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3996,6 +3996,25 @@
    }
   },
   {
+   "company": "Rentvision",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-21",
+   "days_until": -3,
+   "status": "open",
+   "url": "https://apply.workable.com/rentvision/j/0F1C7992BF/",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-21"
+   }
+  },
+  {
    "company": "Upbound Group",
    "last_cycle_posted": "",
    "posted_on": "2026-09-21",
@@ -7013,5 +7032,5 @@
    }
   }
  ],
- "count": 369
+ "count": 370
 }

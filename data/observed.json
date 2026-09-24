@@ -216,14 +216,16 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 6,
+     "count": 8,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
       "amazon:amazon:10459543",
       "amazon:amazon:10517567",
       "amazon:amazon:10552937",
-      "amazon:amazon:10557133"
+      "amazon:amazon:10557133",
+      "amazon:amazon:10559746",
+      "amazon:amazon:10559762"
      ]
     }
    }
@@ -3123,6 +3125,18 @@
     }
    }
   },
+  "rentvision": {
+   "name": "Rentvision",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-21",
+     "role_ids": [
+      "workable:rentvision:0F1C7992BF"
+     ],
+     "count": 1
+    }
+   }
+  },
   "replit": {
    "name": "Replit",
    "cycles": {
@@ -4302,5 +4316,5 @@
    }
   }
  },
- "updated_at": "2026-09-24T20:14:51Z"
+ "updated_at": "2026-09-24T23:26:05Z"
 }
