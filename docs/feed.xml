@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-24T01:09:08Z</updated>
+  <updated>2026-09-24T06:16:35Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:ramp:b66be397-240b-41a6-9b05-493299b270a9</id>
+    <title>Ramp: Software Engineering Intern, iOS</title>
+    <link href="https://jobs.ashbyhq.com/ramp/b66be397-240b-41a6-9b05-493299b270a9"/>
+    <updated>2026-09-24T06:16:35Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · New York, NY (HQ) · $12.5K per month · Swift</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:ramp:a13ae586-f4cb-4385-8822-c42b9b54ed74</id>
     <title>Ramp: Software Engineer Internship, Frontend</title>
@@ -355,17 +363,17 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530</id>
     <title>Northrop Grumman: 2027 Cyber Software Engineer Intern - Tampa FL 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530"/>
-    <updated>2026-09-22T19:00:47Z</updated>
+    <updated>2026-09-24T06:03:51Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196</id>
     <title>Northrop Grumman: 2027 Cyber Systems Engineer Intern-Tampa FL 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196"/>
-    <updated>2026-09-22T19:00:47Z</updated>
+    <updated>2026-09-24T06:03:51Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · Python, LLMs · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · United States-Florida-Tampa · $18.5–$33.5/hr · Python, LLMs · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:tencent:/job/US-California-Palo-Alto/Site-Reliability-Engineer--SRE--Intern---AI-Infrastructure_R108158-1</id>
@@ -419,17 +427,17 @@
     <id>urn:intern-engine:workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship--Rutgers--NJIT--NYU--UT-Dallas--UT-Arlington--Texas-A-M_R-1101169</id>
     <title>Verizon Communications: Verizon Network and Technology: AI Science 2027 Internship: Rutgers, NJIT, NYU, UT Dallas, UT Arlington, Texas A&amp;M</title>
     <link href="https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship--Rutgers--NJIT--NYU--UT-Dallas--UT-Arlington--Texas-A-M_R-1101169"/>
-    <updated>2026-09-22T15:00:18Z</updated>
+    <updated>2026-09-24T06:03:51Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Basking Ridge, New Jersey · $27/hr · Python, Java</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Basking Ridge, New Jersey · $27/hr · Python, Java · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:verizon:/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship_R-1101167</id>
     <title>Verizon Communications: Verizon Network and Technology: AI Science 2027 Internship</title>
     <link href="https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Network-and-Technology--AI-Science-2027-Internship_R-1101167"/>
-    <updated>2026-09-22T15:00:18Z</updated>
+    <updated>2026-09-24T06:03:51Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Basking Ridge, New Jersey · $27/hr · Python, Java</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Basking Ridge, New Jersey · $27/hr · Python, Java · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-California-San-Diego/XMLNAME-2027-Software-Engineer-Intern---San-Diego-CA_R10252150</id>
@@ -798,13 +806,5 @@
     <updated>2026-09-18T22:07:15Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Fairfield, IA · $17–$26/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gfs:/job/Wyoming-Michigan/Software-Engineer-Intern--Low-Code-_R-57375</id>
-    <title>Gordon Food Service: Software Engineer Intern (Low Code)</title>
-    <link href="https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Software-Engineer-Intern--Low-Code-_R-57375"/>
-    <updated>2026-09-18T22:07:15Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Wyoming, Michigan · H-1B track record: ~21 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
