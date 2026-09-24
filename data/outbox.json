@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "lever:kitware:e76197d1-4dc3-4f7c-a30a-597713283bb3"
-    ],
-    "telegram": [
-      "lever:kitware:e76197d1-4dc3-4f7c-a30a-597713283bb3"
-    ],
-    "personal_email": [
-      "lever:kitware:e76197d1-4dc3-4f7c-a30a-597713283bb3"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
