@@ -1,25 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "amazon:amazon:10559746",
-      "amazon:amazon:10559762",
-      "workable:rentvision:0F1C7992BF",
-      "workday:ameren:/job/St-Louis-MO/Intern--Robotics--AI--OT--Software-development-_033945-1",
-      "workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277"
-    ],
-    "telegram": [
-      "amazon:amazon:10559746",
-      "amazon:amazon:10559762",
-      "workable:rentvision:0F1C7992BF",
-      "workday:ameren:/job/St-Louis-MO/Intern--Robotics--AI--OT--Software-development-_033945-1",
-      "workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277"
-    ],
-    "personal_email": [
-      "amazon:amazon:10559746",
-      "amazon:amazon:10559762",
-      "workable:rentvision:0F1C7992BF",
-      "workday:ameren:/job/St-Louis-MO/Intern--Robotics--AI--OT--Software-development-_033945-1",
-      "workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
