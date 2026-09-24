@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-24T06:16:35Z</updated>
+  <updated>2026-09-24T11:56:07Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:lever:kitware:e76197d1-4dc3-4f7c-a30a-597713283bb3</id>
+    <title>Kitware: Computer Vision Co-Op 🇺🇸</title>
+    <link href="https://jobs.lever.co/kitware/e76197d1-4dc3-4f7c-a30a-597713283bb3"/>
+    <updated>2026-09-24T11:56:07Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Clifton Park, New York · 30–45 USD/hr · Computer Vision, Python, C++, JavaScript, PostgreSQL · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:ramp:b66be397-240b-41a6-9b05-493299b270a9</id>
     <title>Ramp: Software Engineering Intern, iOS</title>
@@ -317,7 +325,7 @@
     <link href="https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba"/>
     <updated>2026-09-22T19:00:47Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY</summary>
+    <summary>Summer 2027 · Software · San Francisco, CA</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:rippling:f64b6158-9534-4bab-9457-45556166b262</id>
@@ -325,7 +333,7 @@
     <link href="https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262"/>
     <updated>2026-09-22T19:00:47Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Seattle, WA</summary>
+    <summary>Summer 2027 · Software · New York, NY</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:rippling:f9de04c3-e2c5-41f9-8e46-a0684707f89d</id>
@@ -798,13 +806,5 @@
     <updated>2026-09-18T22:07:15Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Remote-MO · $21–$26/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cir:/job/Fairfield-IA/Consulting-Services-AI---Automation-Intern_R-2025-223</id>
-    <title>Cambridge Investment Research: Consulting Services AI &amp; Automation Intern</title>
-    <link href="https://cir.wd108.myworkdayjobs.com/CIR_External_Career_Site/job/Fairfield-IA/Consulting-Services-AI---Automation-Intern_R-2025-223"/>
-    <updated>2026-09-18T22:07:15Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Fairfield, IA · $17–$26/hr</summary>
   </entry>
 </feed>
