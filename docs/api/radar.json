@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-24T11:56:07Z",
- "data_as_of": "2026-09-24T11:56:07Z",
- "rendered_at": "2026-09-24T11:56:08Z",
+ "generated_at": "2026-09-24T16:13:13Z",
+ "data_as_of": "2026-09-24T16:13:13Z",
+ "rendered_at": "2026-09-24T16:13:14Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -136,25 +136,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-06-01"
-   }
-  },
-  {
-   "company": "Anduril",
-   "last_cycle_posted": "",
-   "posted_on": "2026-06-10",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-06-10",
-   "days_until": -106,
-   "status": "open",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-06-10"
    }
   },
   {
@@ -3806,6 +3787,25 @@
    }
   },
   {
+   "company": "Zekelman Industries",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-17",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-17",
+   "days_until": -7,
+   "status": "open",
+   "url": "https://zekelman.wd12.myworkdayjobs.com/Careers/job/Wheatland-PA---Council-Ave/AI-Intern_JR002752",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-17"
+   }
+  },
+  {
    "company": "Centene",
    "last_cycle_posted": "",
    "posted_on": "2026-09-18",
@@ -3977,6 +3977,25 @@
    }
   },
   {
+   "company": "Formlabsinternships",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-21",
+   "days_until": -3,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/formlabsinternships/jobs/8222268",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-21"
+   }
+  },
+  {
    "company": "Upbound Group",
    "last_cycle_posted": "",
    "posted_on": "2026-09-21",
@@ -4050,6 +4069,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-23"
+   }
+  },
+  {
+   "company": "ABB",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-24",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-24",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/IS-Common-Infrastructure-Intern--Summer-2027_JR00047125",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-24"
    }
   },
   {
@@ -6386,6 +6424,25 @@
    }
   },
   {
+   "company": "Anduril",
+   "last_cycle_posted": "",
+   "posted_on": "2026-06-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-06-10",
+   "days_until": -106,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-06-10"
+   }
+  },
+  {
    "company": "The Trade Desk",
    "last_cycle_posted": "",
    "posted_on": "2026-07-15",
@@ -6956,5 +7013,5 @@
    }
   }
  ],
- "count": 366
+ "count": 369
 }

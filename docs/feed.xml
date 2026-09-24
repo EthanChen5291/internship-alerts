@@ -5,8 +5,72 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-24T11:56:07Z</updated>
+  <updated>2026-09-24T16:13:13Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:abb:/job/USA-NC-Cary/IS-Common-Infrastructure-Intern--Summer-2027_JR00047125</id>
+    <title>ABB: IS Common Infrastructure Intern- Summer 2027 🛂</title>
+    <link href="https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/IS-Common-Infrastructure-Intern--Summer-2027_JR00047125"/>
+    <updated>2026-09-24T16:13:13Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · USA, NC, Cary · $20–$34/hr · sponsorship: no-sponsorship · H-1B track record: ~69 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:chrobinson:/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322</id>
+    <title>C.H. Robinson: Cyber Security Internship 2027</title>
+    <link href="https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322"/>
+    <updated>2026-09-24T16:13:13Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Eden Prairie, MN United States of America · $15–$30/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:formlabsinternships:8222268</id>
+    <title>Formlabsinternships: Embedded Software Intern (Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/formlabsinternships/jobs/8222268"/>
+    <updated>2026-09-24T16:13:13Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Somerville, MA · Python, C++, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:haigroup:4409386009</id>
+    <title>Haigroup: Software Development Intern</title>
+    <link href="https://job-boards.greenhouse.io/haigroup/jobs/4409386009"/>
+    <updated>2026-09-24T16:13:13Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Cheshire, CT · Python, Java, C#, JavaScript, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:clevelandguardiansbops:8827470002</id>
+    <title>Major League Baseball: Software Engineer Intern, Baseball Systems</title>
+    <link href="https://job-boards.greenhouse.io/clevelandguardiansbops/jobs/8827470002"/>
+    <updated>2026-09-24T16:13:13Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Cleveland, Ohio, United States</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:voloridgeinvestmentmanagement:4405530009</id>
+    <title>Voloridge: Quantitative Trading Intern 2027</title>
+    <link href="https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4405530009"/>
+    <updated>2026-09-24T16:13:13Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Quant · Jupiter, FL · Python, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:zekelman:/job/Wheatland-PA---Council-Ave/AI-Intern_JR002752</id>
+    <title>Zekelman Industries: AI Intern</title>
+    <link href="https://zekelman.wd12.myworkdayjobs.com/Careers/job/Wheatland-PA---Council-Ave/AI-Intern_JR002752"/>
+    <updated>2026-09-24T16:13:13Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Wheatland, PA - Council Ave</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:ziprecruiter:8180455</id>
+    <title>ZipRecruiter: Software Engineer - Intern</title>
+    <link href="https://job-boards.greenhouse.io/ziprecruiter/jobs/8180455"/>
+    <updated>2026-09-24T16:13:13Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Santa Monica, CA · $45/hr · Python, Java, JavaScript, React, HTML/CSS · H-1B track record: ~22 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:lever:kitware:e76197d1-4dc3-4f7c-a30a-597713283bb3</id>
     <title>Kitware: Computer Vision Co-Op 🇺🇸</title>
@@ -325,7 +389,7 @@
     <link href="https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba"/>
     <updated>2026-09-22T19:00:47Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA</summary>
+    <summary>Summer 2027 · Software · New York, NY</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:rippling:f64b6158-9534-4bab-9457-45556166b262</id>
@@ -333,7 +397,7 @@
     <link href="https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262"/>
     <updated>2026-09-22T19:00:47Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY</summary>
+    <summary>Summer 2027 · Software · Seattle, WA</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:rippling:rippling:f9de04c3-e2c5-41f9-8e46-a0684707f89d</id>
@@ -742,69 +806,5 @@
     <updated>2026-09-19T13:38:45Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · San Francisco, CA (Hybrid) · Python, LLMs, React, GraphQL, AWS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:thrivent:/job/Remote-Minnesota/Associate-Software-Engineer---Junior-Intern-Summer-2027_REQ-48334</id>
-    <title>Thrivent: Associate Software Engineer - Junior Intern Summer 2027 🛂</title>
-    <link href="https://thrivent.wd5.myworkdayjobs.com/external/job/Remote-Minnesota/Associate-Software-Engineer---Junior-Intern-Summer-2027_REQ-48334"/>
-    <updated>2026-09-19T13:38:45Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Remote-Minnesota · $25–$28/hr · JavaScript, HTML/CSS · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:thrivent:/job/Remote-Minnesota/Associate-Software-Engineer---Sophomore-Intern-Summer-2027_REQ-48457</id>
-    <title>Thrivent: Associate Software Engineer - Sophomore Intern Summer 2027 🛂</title>
-    <link href="https://thrivent.wd5.myworkdayjobs.com/external/job/Remote-Minnesota/Associate-Software-Engineer---Sophomore-Intern-Summer-2027_REQ-48457"/>
-    <updated>2026-09-19T13:38:45Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Remote-Minnesota · $25–$28/hr · JavaScript, HTML/CSS · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:botauto:5429357008</id>
-    <title>Bot Auto: Intern, Software Engineer AI Agents (Fall/Winter 2026)</title>
-    <link href="https://job-boards.greenhouse.io/botauto/jobs/5429357008"/>
-    <updated>2026-09-19T00:28:13Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Houston, TX · Python, Java, TypeScript, JavaScript, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990015408206</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990015408206"/>
-    <updated>2026-09-19T00:28:13Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Livermore, CA, United States · LLMs, Kubernetes, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Medical-Device-Cybersecurity-Co-Op_R-099388</id>
-    <title>Johnson &amp; Johnson: Medical Device Cybersecurity Co-Op 🛂</title>
-    <link href="https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Medical-Device-Cybersecurity-Co-Op_R-099388"/>
-    <updated>2026-09-19T00:28:13Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Danvers, Massachusetts, United States of America · $23.5/hr · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Production-Data-Analyst-Co-Op_R-098904</id>
-    <title>Johnson &amp; Johnson: Production Data Analyst Co-Op 🛂</title>
-    <link href="https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Production-Data-Analyst-Co-Op_R-098904"/>
-    <updated>2026-09-19T00:28:13Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Danvers, Massachusetts, United States of America · $23.5/hr · Tableau · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:VeoliaEnvironnementSA:744000150460339</id>
-    <title>Veolia: SAP &amp; ServiceNow AI Automation Intern 🛂</title>
-    <link href="https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000150460339"/>
-    <updated>2026-09-18T22:07:15Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Trevose, PA, United States (Hybrid) · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:centene:/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514</id>
-    <title>Centene: Cybersecurity Summer 2027 Intern (Undergraduate)</title>
-    <link href="https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514"/>
-    <updated>2026-09-18T22:07:15Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Remote-MO · $21–$26/hr</summary>
   </entry>
 </feed>
