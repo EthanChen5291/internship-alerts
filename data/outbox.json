@@ -1,58 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750",
-      "workday:amfam:/job/WI-Madison/ML-Ops-Intern_R39493",
-      "workday:amfam:/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407",
-      "greenhouse:doordashusa:8204111",
-      "workday:epiqsystems:/job/USA-New-York-NY-1166-Avenue-of-Americas/Software-Engineer-Intern_R0035230",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Pathobiology_R0054579",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Data-Sciences_R0054572",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Drug-Metabolism---AI_R0055519",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Strategy--Innovation---Portfolio_R0054502",
-      "workday:micron:/job/Folsom-CA/Intern---AI-Agentic-Systems-Engineer_JR110474",
-      "workday:novanta:/job/Apex-NC/Computer-Software-Engineering-Co-op_R009760",
-      "smartrecruiters:RRSGroup:744000151931819",
-      "greenhouse:waymo:8224900",
-      "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160",
-      "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020162"
-    ],
-    "telegram": [
-      "workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750",
-      "workday:amfam:/job/WI-Madison/ML-Ops-Intern_R39493",
-      "workday:amfam:/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407",
-      "greenhouse:doordashusa:8204111",
-      "workday:epiqsystems:/job/USA-New-York-NY-1166-Avenue-of-Americas/Software-Engineer-Intern_R0035230",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Pathobiology_R0054579",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Data-Sciences_R0054572",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Drug-Metabolism---AI_R0055519",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Strategy--Innovation---Portfolio_R0054502",
-      "workday:micron:/job/Folsom-CA/Intern---AI-Agentic-Systems-Engineer_JR110474",
-      "workday:novanta:/job/Apex-NC/Computer-Software-Engineering-Co-op_R009760",
-      "smartrecruiters:RRSGroup:744000151931819",
-      "greenhouse:waymo:8224900",
-      "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160",
-      "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020162"
-    ],
-    "personal_email": [
-      "workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750",
-      "workday:amfam:/job/WI-Madison/ML-Ops-Intern_R39493",
-      "workday:amfam:/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407",
-      "greenhouse:doordashusa:8204111",
-      "workday:epiqsystems:/job/USA-New-York-NY-1166-Avenue-of-Americas/Software-Engineer-Intern_R0035230",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Pathobiology_R0054579",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Data-Sciences_R0054572",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Drug-Metabolism---AI_R0055519",
-      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Strategy--Innovation---Portfolio_R0054502",
-      "workday:micron:/job/Folsom-CA/Intern---AI-Agentic-Systems-Engineer_JR110474",
-      "workday:novanta:/job/Apex-NC/Computer-Software-Engineering-Co-op_R009760",
-      "smartrecruiters:RRSGroup:744000151931819",
-      "greenhouse:waymo:8224900",
-      "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160",
-      "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020162"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
