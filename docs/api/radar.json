@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-25T18:46:54Z",
- "data_as_of": "2026-09-25T18:46:54Z",
- "rendered_at": "2026-09-25T18:46:55Z",
+ "generated_at": "2026-09-25T22:06:20Z",
+ "data_as_of": "2026-09-25T22:06:20Z",
+ "rendered_at": "2026-09-25T22:06:21Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1061,7 +1061,7 @@
    "expected": "2026-08-20",
    "days_until": -36,
    "status": "open",
-   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015684626",
+   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015679246",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4129,6 +4129,44 @@
    }
   },
   {
+   "company": "RRS Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-25",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.smartrecruiters.com/RRSGroup/744000151931819",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-25"
+   }
+  },
+  {
+   "company": "Zurn Elkay Water Solutions",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-25",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-25"
+   }
+  },
+  {
    "company": "APEX Analytix",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -7070,5 +7108,5 @@
    }
   }
  ],
- "count": 372
+ "count": 374
 }

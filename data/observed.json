@@ -244,9 +244,10 @@
      "first_posted": "2026-09-16",
      "role_ids": [
       "workday:americancentury:/job/Kansas-City-Missouri/Cybersecurity-Intern_R0005729",
+      "workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750",
       "workday:americancentury:/job/Kansas-City-Missouri/Software-Developer-Intern_R0005749-1"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -1292,9 +1293,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-14",
      "role_ids": [
-      "greenhouse:doordashusa:8171041"
+      "greenhouse:doordashusa:8171041",
+      "greenhouse:doordashusa:8204111"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3252,6 +3254,18 @@
     }
    }
   },
+  "rrs group": {
+   "name": "RRS Group",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-25",
+     "role_ids": [
+      "smartrecruiters:RRSGroup:744000151931819"
+     ],
+     "count": 1
+    }
+   }
+  },
   "rtx": {
    "name": "RTX",
    "cycles": {
@@ -4232,9 +4246,10 @@
       "greenhouse:waymo:8193731",
       "greenhouse:waymo:8198218",
       "greenhouse:waymo:8203200",
-      "greenhouse:waymo:8221198"
+      "greenhouse:waymo:8221198",
+      "greenhouse:waymo:8224900"
      ],
-     "count": 6
+     "count": 7
     }
    }
   },
@@ -4359,7 +4374,20 @@
      ]
     }
    }
+  },
+  "zurn elkay water solutions": {
+   "name": "Zurn Elkay Water Solutions",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-25",
+     "role_ids": [
+      "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160",
+      "workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020162"
+     ],
+     "count": 2
+    }
+   }
   }
  },
- "updated_at": "2026-09-25T18:46:54Z"
+ "updated_at": "2026-09-25T22:06:20Z"
 }
