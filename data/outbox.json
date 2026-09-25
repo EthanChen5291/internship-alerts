@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:leidos:/job/Gaithersburg-MD/Software-Development-Intern_R-00193103"
-    ],
-    "telegram": [
-      "workday:leidos:/job/Gaithersburg-MD/Software-Development-Intern_R-00193103"
-    ],
-    "personal_email": [
-      "workday:leidos:/job/Gaithersburg-MD/Software-Development-Intern_R-00193103"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
