@@ -5,20 +5,28 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-26T00:48:53Z</updated>
+  <updated>2026-09-26T05:41:09Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:VeoliaEnvironnementSA:744000151947749</id>
+    <title>Veolia: SAP &amp; ServiceNow AI Automation Intern 🛂</title>
+    <link href="https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000151947749"/>
+    <updated>2026-09-26T00:48:53Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Trevose, PA, United States (Hybrid) · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cat:/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786</id>
+    <title>Solar Turbines: 2027 Internship: Gas Compressor Data Analyst 🛂</title>
+    <link href="https://cat.wd5.myworkdayjobs.com/solarturbines/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786"/>
+    <updated>2026-09-26T00:48:53Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · San Diego, California · sponsorship: no-sponsorship · H-1B track record: ~17 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526</id>
     <title>Gilead Sciences: Intern - Research - Clinical Virology - AI 🛂</title>
     <link href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526"/>
-    <updated>2026-09-26T00:48:53Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, LLMs · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics_R0054512</id>
-    <title>Gilead Sciences: Intern - Research - Protein Therapeutics - AI 🛂</title>
-    <link href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics_R0054512"/>
     <updated>2026-09-26T00:48:53Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, LLMs · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
@@ -32,20 +40,12 @@
     <summary>Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, LLMs · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:cat:/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786</id>
-    <title>Solar Turbines: 2027 Internship: Gas Compressor Data Analyst 🛂</title>
-    <link href="https://cat.wd5.myworkdayjobs.com/solarturbines/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786"/>
-    <updated>2026-09-26T00:48:53Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · San Diego, California · sponsorship: no-sponsorship · H-1B track record: ~17 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:VeoliaEnvironnementSA:744000151947749</id>
-    <title>Veolia: SAP &amp; ServiceNow AI Automation Intern 🛂</title>
-    <link href="https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000151947749"/>
+    <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics_R0054512</id>
+    <title>Gilead Sciences: Intern - Research - Protein Therapeutics - AI 🛂</title>
+    <link href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics_R0054512"/>
     <updated>2026-09-26T00:48:53Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Trevose, PA, United States (Hybrid) · sponsorship: no-sponsorship</summary>
+    <summary>Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, LLMs · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:doordashusa:8204111</id>
@@ -706,7 +706,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2</id>
     <title>KLA: Algorithm Engineering Intern (AI, Computer Vision &amp; Software Engineering)</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-1"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2"/>
     <updated>2026-09-23T05:23:00Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Milpitas, CA · $58/hr · Computer Vision, Python, C++, PyTorch, TensorFlow · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -714,7 +714,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1</id>
     <title>KLA: Software Engineering Intern (C++, Unix)</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1"/>
     <updated>2026-09-23T05:23:00Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Milpitas, CA · $37–$49/hr · C++, Linux, Python · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -723,9 +723,9 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Security-Cybersecurity-Engineer_R10252418</id>
     <title>Northrop Grumman: 2027 Intern - Systems Security/Cybersecurity Engineer 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Security-Cybersecurity-Engineer_R10252418"/>
-    <updated>2026-09-23T05:23:00Z</updated>
+    <updated>2026-09-26T05:22:59Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Florida-Melbourne · $18.5–$33.5/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · United States-Florida-Melbourne · $18.5–$33.5/hr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10557133</id>
