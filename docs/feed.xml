@@ -5,31 +5,47 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-25T22:06:20Z</updated>
+  <updated>2026-09-26T00:48:53Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750</id>
-    <title>American Century Investments: Infrastructure Automation Engineer Intern 🛂</title>
-    <link href="https://americancentury.wd5.myworkdayjobs.com/AmericanCenturyInvestments/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750"/>
-    <updated>2026-09-25T22:06:20Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Kansas City, Missouri · Python, Bash, Terraform · sponsorship: no-sponsorship</summary>
+    <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526</id>
+    <title>Gilead Sciences: Intern - Research - Clinical Virology - AI 🛂</title>
+    <link href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526"/>
+    <updated>2026-09-26T00:48:53Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, LLMs · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:amfam:/job/WI-Madison/ML-Ops-Intern_R39493</id>
-    <title>American Family Insurance Group: ML Ops Intern</title>
-    <link href="https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/ML-Ops-Intern_R39493"/>
-    <updated>2026-09-25T22:06:20Z</updated>
+    <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics_R0054512</id>
+    <title>Gilead Sciences: Intern - Research - Protein Therapeutics - AI 🛂</title>
+    <link href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics_R0054512"/>
+    <updated>2026-09-26T00:48:53Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · WI Madison · Python</summary>
+    <summary>Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, LLMs · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:amfam:/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407</id>
-    <title>American Family Insurance Group: Intern - Application Billing Center Developer</title>
-    <link href="https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407"/>
-    <updated>2026-09-25T22:06:20Z</updated>
+    <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Discovery-Sciences-and-Technologies---AI_R0055527</id>
+    <title>Gilead Sciences: Intern - Research - Discovery Sciences and Technologies - AI 🛂</title>
+    <link href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Discovery-Sciences-and-Technologies---AI_R0055527"/>
+    <updated>2026-09-26T00:48:53Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · WI Madison · $25–$31/hr</summary>
+    <summary>Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, LLMs · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cat:/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786</id>
+    <title>Solar Turbines: 2027 Internship: Gas Compressor Data Analyst 🛂</title>
+    <link href="https://cat.wd5.myworkdayjobs.com/solarturbines/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786"/>
+    <updated>2026-09-26T00:48:53Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · San Diego, California · sponsorship: no-sponsorship · H-1B track record: ~17 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:VeoliaEnvironnementSA:744000151947749</id>
+    <title>Veolia: SAP &amp; ServiceNow AI Automation Intern 🛂</title>
+    <link href="https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000151947749"/>
+    <updated>2026-09-26T00:48:53Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Trevose, PA, United States (Hybrid) · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:doordashusa:8204111</id>
@@ -40,28 +56,60 @@
     <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA;  Sunnyvale, CA ; New York City, NY; Seattle, WA · Python, Java, C++, Go, Kotlin · H-1B track record: ~685 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:greenhouse:waymo:8224900</id>
+    <title>Waymo: 2027 Summer Intern, BS, Software Engineer, Driver Refinement Foundations</title>
+    <link href="https://careers.withwaymo.com/jobs?gh_jid=8224900"/>
+    <updated>2026-09-25T22:06:20Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Mountain View, CA, USA · C++, Linux · H-1B track record: ~284 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:RRSGroup:744000151931819</id>
+    <title>RRS Group: 2027 Associate Software Engineer Intern - Sophomore Only</title>
+    <link href="https://jobs.smartrecruiters.com/RRSGroup/744000151931819"/>
+    <updated>2026-09-25T22:06:20Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Francisco, , United States (Remote) · Python, Java, C++, JavaScript, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750</id>
+    <title>American Century Investments: Infrastructure Automation Engineer Intern 🛂</title>
+    <link href="https://americancentury.wd5.myworkdayjobs.com/AmericanCenturyInvestments/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750"/>
+    <updated>2026-09-25T22:06:20Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Kansas City, Missouri · Python, Bash, Terraform · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:amfam:/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407</id>
+    <title>American Family Insurance Group: Intern - Application Billing Center Developer</title>
+    <link href="https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407"/>
+    <updated>2026-09-25T22:06:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · WI Madison · $25–$31/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:amfam:/job/WI-Madison/ML-Ops-Intern_R39493</id>
+    <title>American Family Insurance Group: ML Ops Intern</title>
+    <link href="https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/ML-Ops-Intern_R39493"/>
+    <updated>2026-09-25T22:06:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · WI Madison · Python</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160</id>
+    <title>Zurn Elkay Water Solutions: IT Infrastructure Intern (Summer 2027)</title>
+    <link href="https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160"/>
+    <updated>2026-09-25T22:06:20Z</updated>
+    <category term="Summer 2027"/>
+    <summary>2 openings · Summer 2027 · Software · Milwaukee, WI</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:workday:epiqsystems:/job/USA-New-York-NY-1166-Avenue-of-Americas/Software-Engineer-Intern_R0035230</id>
     <title>Epiq Systems: Software Engineer Intern</title>
     <link href="https://epiqsystems.wd503.myworkdayjobs.com/Epiq_Careers/job/USA-New-York-NY-1166-Avenue-of-Americas/Software-Engineer-Intern_R0035230"/>
     <updated>2026-09-25T22:06:20Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · USA-New York-NY-1166 Avenue of Americas</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Pathobiology_R0054579</id>
-    <title>Gilead Sciences: Intern - Research - Pathobiology - AI 🛂</title>
-    <link href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Pathobiology_R0054579"/>
-    <updated>2026-09-25T22:06:20Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, LLMs · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587</id>
-    <title>Gilead Sciences: Intern - Research - Oncology Biomarker - AI 🛂</title>
-    <link href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587"/>
-    <updated>2026-09-25T22:06:20Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, LLMs · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Data-Sciences_R0054572</id>
@@ -78,6 +126,22 @@
     <updated>2026-09-25T22:06:20Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, MATLAB, LLMs, Git · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587</id>
+    <title>Gilead Sciences: Intern - Research - Oncology Biomarker - AI 🛂</title>
+    <link href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Oncology-Biomarker_R0054587"/>
+    <updated>2026-09-25T22:06:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, LLMs · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Pathobiology_R0054579</id>
+    <title>Gilead Sciences: Intern - Research - Pathobiology - AI 🛂</title>
+    <link href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Pathobiology_R0054579"/>
+    <updated>2026-09-25T22:06:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, LLMs · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Strategy--Innovation---Portfolio_R0054502</id>
@@ -104,44 +168,20 @@
     <summary>Not stated · Software · Apex, NC · C++, C# · sponsorship: citizens-only · H-1B track record: ~10 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:RRSGroup:744000151931819</id>
-    <title>RRS Group: 2027 Associate Software Engineer Intern - Sophomore Only</title>
-    <link href="https://jobs.smartrecruiters.com/RRSGroup/744000151931819"/>
-    <updated>2026-09-25T22:06:20Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, , United States (Remote) · Python, Java, C++, JavaScript, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:waymo:8224900</id>
-    <title>Waymo: 2027 Summer Intern, BS, Software Engineer, Driver Refinement Foundations</title>
-    <link href="https://careers.withwaymo.com/jobs?gh_jid=8224900"/>
-    <updated>2026-09-25T22:06:20Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Mountain View, CA, USA · C++, Linux · H-1B track record: ~284 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160</id>
-    <title>Zurn Elkay Water Solutions: IT Infrastructure Intern (Summer 2027)</title>
-    <link href="https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160"/>
-    <updated>2026-09-25T22:06:20Z</updated>
-    <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Software · Milwaukee, WI</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:ashby:genesis-molecular-ai:44e3cbdc-949c-426e-a80a-b41c73ad6a99</id>
     <title>Genesis Molecular AI: Software Engineer Intern - 2027</title>
     <link href="https://jobs.ashbyhq.com/genesis-molecular-ai/44e3cbdc-949c-426e-a80a-b41c73ad6a99"/>
-    <updated>2026-09-25T18:46:54Z</updated>
+    <updated>2026-09-26T00:31:29Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Mateo, CA</summary>
+    <summary>Summer 2027 · Software · San Mateo, CA · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:geocgi:4420076009</id>
     <title>Geospatial Consulting Group International: Application Developer Intern (Remote)</title>
     <link href="https://job-boards.greenhouse.io/geocgi/jobs/4420076009"/>
-    <updated>2026-09-25T18:46:54Z</updated>
+    <updated>2026-09-26T00:48:53Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Remote from US · Python, Java, C#, SQL, LLMs</summary>
+    <summary>Not stated · Software · Remote from US · Python, Java, C#, SQL, LLMs · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:hevenaerotech:4410288009</id>
@@ -666,7 +706,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2</id>
     <title>KLA: Algorithm Engineering Intern (AI, Computer Vision &amp; Software Engineering)</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-1"/>
     <updated>2026-09-23T05:23:00Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Milpitas, CA · $58/hr · Computer Vision, Python, C++, PyTorch, TensorFlow · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -674,7 +714,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1</id>
     <title>KLA: Software Engineering Intern (C++, Unix)</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325"/>
     <updated>2026-09-23T05:23:00Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Milpitas, CA · $37–$49/hr · C++, Linux, Python · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -765,46 +805,6 @@
     <link href="https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba"/>
     <updated>2026-09-22T19:00:47Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:rippling:f64b6158-9534-4bab-9457-45556166b262</id>
-    <title>Rippling: Full Stack Software Engineer Intern - Summer 2027</title>
-    <link href="https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262"/>
-    <updated>2026-09-22T19:00:47Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:rippling:f9de04c3-e2c5-41f9-8e46-a0684707f89d</id>
-    <title>Rippling: Machine Learning Software Engineer Intern - Summer 2027</title>
-    <link href="https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d"/>
-    <updated>2026-09-22T19:00:47Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:allegion:/job/Carmel-IN/Summer-Intern---Software-Engineer_JR37747-2</id>
-    <title>Allegion: Summer Intern - Software Engineer</title>
-    <link href="https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Summer-Intern---Software-Engineer_JR37747-2"/>
-    <updated>2026-09-22T19:00:47Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Carmel, IN · Angular, .NET</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386</id>
-    <title>CACI: Software Engineering Intern - Summer 2027</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386"/>
-    <updated>2026-09-22T19:00:47Z</updated>
-    <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Software · Sterling, VA, US · Linux, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:emcins:/job/Iowa/Intern---Software-Engineering_R6557-1</id>
-    <title>EMC Insurance: Intern - Software Engineering</title>
-    <link href="https://emcins.wd5.myworkdayjobs.com/EMC_Careers/job/Iowa/Intern---Software-Engineering_R6557-1"/>
-    <updated>2026-09-22T19:00:47Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Iowa</summary>
+    <summary>Summer 2027 · Software · San Francisco, CA</summary>
   </entry>
 </feed>

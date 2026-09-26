@@ -1,7 +1,25 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics_R0054512",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Discovery-Sciences-and-Technologies---AI_R0055527",
+      "workday:cat:/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786",
+      "smartrecruiters:VeoliaEnvironnementSA:744000151947749"
+    ],
+    "telegram": [
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics_R0054512",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Discovery-Sciences-and-Technologies---AI_R0055527",
+      "workday:cat:/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786",
+      "smartrecruiters:VeoliaEnvironnementSA:744000151947749"
+    ],
+    "personal_email": [
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Clinical-Virology---AI_R0055526",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics_R0054512",
+      "workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Discovery-Sciences-and-Technologies---AI_R0055527",
+      "workday:cat:/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786",
+      "smartrecruiters:VeoliaEnvironnementSA:744000151947749"
+    ]
   }
 }
