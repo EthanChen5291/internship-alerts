@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-26T10:21:58Z</updated>
+  <updated>2026-09-26T15:00:12Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228939</id>
+    <title>General Dynamics Information Technology: GDIT Summer Internship Program – Summer 2027 AI/ML Software Development and Engineering Internship 🇺🇸</title>
+    <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228939"/>
+    <updated>2026-09-26T15:00:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>6 openings · Summer 2027 · Data &amp; ML/AI · USA LA Bossier City · Python, SQL, PyTorch, TensorFlow, scikit-learn · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Business-Intelligence-Development-Internship_RQ228935</id>
+    <title>General Dynamics Information Technology: GDIT Summer Internship Program – Summer 2027 AI/ML Business Intelligence Development Internship 🇺🇸</title>
+    <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Business-Intelligence-Development-Internship_RQ228935"/>
+    <updated>2026-09-26T15:00:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · USA LA Bossier City · Python, SQL, LLMs, AWS, Tableau · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:VeoliaEnvironnementSA:744000151947749</id>
     <title>Veolia: SAP &amp; ServiceNow AI Automation Intern 🛂</title>
@@ -790,21 +806,5 @@
     <updated>2026-09-22T22:17:05Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Remote (United States) · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1007919</id>
-    <title>Stantec: Transportation Engineering Co-op/Intern - Infrastructure (Summer 2027)</title>
-    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007919"/>
-    <updated>2026-09-22T19:00:47Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Portland, ME, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:rippling:rippling:a07e4e46-3721-4934-b57b-0d58412e22ba</id>
-    <title>Rippling: Software Engineer Intern - Backend Focused - Summer 2027</title>
-    <link href="https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba"/>
-    <updated>2026-09-22T19:00:47Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA</summary>
   </entry>
 </feed>
