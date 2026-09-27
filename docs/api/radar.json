@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-27T05:27:41Z",
- "data_as_of": "2026-09-27T05:27:41Z",
- "rendered_at": "2026-09-27T05:27:42Z",
+ "generated_at": "2026-09-27T10:59:05Z",
+ "data_as_of": "2026-09-27T10:59:05Z",
+ "rendered_at": "2026-09-27T10:59:05Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1233,25 +1233,6 @@
    "days_until": -33,
    "status": "open",
    "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Cybersecurity-Intern--Summer-2027-_JR-2604459",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-25"
-   }
-  },
-  {
-   "company": "Grant Thornton",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-25",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-25",
-   "days_until": -33,
-   "status": "open",
-   "url": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115750",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -6748,6 +6729,25 @@
   },
   {
    "company": "Brunswick",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-25",
+   "days_until": -33,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-25"
+   }
+  },
+  {
+   "company": "Grant Thornton",
    "last_cycle_posted": "",
    "posted_on": "2026-08-25",
    "precision": "day",
