@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-28T07:02:22Z",
- "data_as_of": "2026-09-28T07:02:22Z",
- "rendered_at": "2026-09-28T07:02:22Z",
+ "generated_at": "2026-09-28T15:35:15Z",
+ "data_as_of": "2026-09-28T15:35:15Z",
+ "rendered_at": "2026-09-28T15:35:15Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -4053,25 +4053,6 @@
    }
   },
   {
-   "company": "RRS Group",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-25",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-25",
-   "days_until": -3,
-   "status": "open",
-   "url": "https://jobs.smartrecruiters.com/RRSGroup/744000151931819",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-25"
-   }
-  },
-  {
    "company": "Solar Turbines",
    "last_cycle_posted": "",
    "posted_on": "2026-09-25",
@@ -7105,6 +7086,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-24"
+   }
+  },
+  {
+   "company": "RRS Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-25",
+   "days_until": -3,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-25"
    }
   },
   {
