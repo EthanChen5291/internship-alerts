@@ -5,15 +5,127 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-28T15:35:15Z</updated>
+  <updated>2026-09-28T21:36:03Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:interdigital:/job/Conshohocken-PA/Intern--IT-Infrastructure_REQ26-1141</id>
-    <title>Interdigital: Intern, IT Infrastructure</title>
-    <link href="https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/Intern--IT-Infrastructure_REQ26-1141"/>
+    <id>urn:intern-engine:workday:avav:/job/Simi-Valley-CA/Software-Engineering-Intern_8813</id>
+    <title>Avav: Software Engineering Intern</title>
+    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Software-Engineering-Intern_8813"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Simi Valley, CA · Python, C++, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000152219569</id>
+    <title>Bosch: Radar Sensing AI Research Intern</title>
+    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000152219569"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Pittsburgh, PA, United States · PyTorch · H-1B track record: ~188 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:myhrabc:/job/Conshohocken-PA/AI-Intern_R2613670</id>
+    <title>Cencora: AI Intern 🛂</title>
+    <link href="https://myhrabc.wd5.myworkdayjobs.com/Global/job/Conshohocken-PA/AI-Intern_R2613670"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Conshohocken, PA · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:formlabsinternships:8223362</id>
+    <title>Formlabsinternships: Desktop Software Intern (Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/formlabsinternships/jobs/8223362"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Somerville, MA · C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Keenfinity:744000152241469</id>
+    <title>Keenfinity: Software Engineering Intern</title>
+    <link href="https://jobs.smartrecruiters.com/Keenfinity/744000152241469"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Lincoln, NE, United States · $25–$27/hr · Java, C++, C#, JavaScript, Swift</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:micron:/job/San-Jose-CA/Intern---Memory-Systems-Architecture---AI_JR112524</id>
+    <title>Micron Technology: Intern – Memory Systems Architecture &amp; AI</title>
+    <link href="https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---Memory-Systems-Architecture---AI_JR112524"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · San Jose, CA · Python, C++, LLMs · H-1B track record: ~489 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:poet:/job/Sioux-Falls-SD/Software-Developer-Intern_R101786-1</id>
+    <title>POET: Software Developer Intern</title>
+    <link href="https://poet.wd1.myworkdayjobs.com/POET/job/Sioux-Falls-SD/Software-Developer-Intern_R101786-1"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Sioux Falls, SD · C#, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern-----Summer-2027-_01867602</id>
+    <title>RTX: Software Engineering Intern -  (Summer 2027)</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern-----Summer-2027-_01867602"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>2 openings · Summer 2027 · Software · US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131 · Python, C++, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Co-op--Summer-Fall-2027-_01877158</id>
+    <title>RTX: Software Engineering Co-op (Summer/Fall 2027) 🇺🇸</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Co-op--Summer-Fall-2027-_01877158"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-137 ~ 855 35Th St NE ~ BLDG 137 · Python, C++, Rust, Linux, Git · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Research-Internship--Summer-2027----Onsite_01872177</id>
+    <title>RTX: Cyber Research Internship (Summer 2027) - Onsite 🇺🇸</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Research-Internship--Summer-2027----Onsite_01872177"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · US-IA-CEDAR RAPIDS-166 ~ 855 35Th St NE ~ BLDG 166 · Python, C++ · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/XMLNAME-2027-Summer-Fall-Co-op--AGS-Software-Engineering--Onsite-_01871646</id>
+    <title>RTX: 2027 Summer/Fall Co-op, AGS Software Engineering (Onsite) 🇺🇸</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/XMLNAME-2027-Summer-Fall-Co-op--AGS-Software-Engineering--Onsite-_01871646"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131 · Python, C++ · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aero:/job/Chantilly-VA/XMLNAME-2027-Software-Implementation-and-Integration-Undergrad-Cleared-Intern_R016740</id>
+    <title>The Aerospace Corporation: 2027 Software Implementation and Integration Undergrad Cleared Intern 🇺🇸</title>
+    <link href="https://aero.wd5.myworkdayjobs.com/external/job/Chantilly-VA/XMLNAME-2027-Software-Implementation-and-Integration-Undergrad-Cleared-Intern_R016740"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Chantilly, VA · Python, Java, C++, AWS, Azure · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:upbound:/job/Plano-TX/Cybersecurity-Intern_R-100776</id>
+    <title>Upbound Group: Cybersecurity Intern</title>
+    <link href="https://upbound.wd501.myworkdayjobs.com/Upbound/job/Plano-TX/Cybersecurity-Intern_R-100776"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Plano, TX · $23/hr · Python, SQL, Pandas, LLMs, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:veteransunited:/job/Remote-MO/Intern---Software-Engineer---Summer-2027_R6249</id>
+    <title>Veterans United: Intern - Software Engineer - Summer 2027</title>
+    <link href="https://veteransunited.wd1.myworkdayjobs.com/VUHL/job/Remote-MO/Intern---Software-Engineer---Summer-2027_R6249"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Remote MO</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260805</id>
+    <title>GM financial: Intern - Cybersecurity 🛂</title>
+    <link href="https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260805"/>
     <updated>2026-09-28T15:35:14Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · Conshohocken, PA · Python, AWS, Azure, Terraform, Linux · status: closed</summary>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Irving, TX, United States · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260836</id>
@@ -24,12 +136,44 @@
     <summary>Summer 2027 · Security · Arlington, TX, United States</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260805</id>
-    <title>GM financial: Intern - Cybersecurity 🛂</title>
-    <link href="https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260805"/>
+    <id>urn:intern-engine:workday:danaher:/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1318747</id>
+    <title>Danaher Corporation: Software Engineering Intern</title>
+    <link href="https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1318747"/>
+    <updated>2026-09-28T15:35:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Chaska, Minnesota, United States · Java, C#, JavaScript, SQL, HTML/CSS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01874556</id>
+    <title>RTX: Software Engineering Intern (Summer 2027) 🛂</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01874556"/>
     <updated>2026-09-28T15:35:14Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Irving, TX, United States · sponsorship: no-sponsorship</summary>
+    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-124 ~ 400 Collins Rd NE ~ BLDG 124 · Python, LLMs · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op---Summer-Fall-2027-_01871480</id>
+    <title>RTX: Software Engineering Co-op  (Summer/Fall 2027) 🛂</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op---Summer-Fall-2027-_01871480"/>
+    <updated>2026-09-28T15:35:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>2 openings · Summer 2027 · Software · US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131 · Python, C++ · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040</id>
+    <title>RTX: Flight Control Software Engineering Intern (Summer 2027)</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040"/>
+    <updated>2026-09-28T15:35:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>2 openings · Summer 2027 · Software · US-IA-CEDAR RAPIDS-193 ~ 1120 Collins Rd NE ~ BLDG193 · C++, MATLAB</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:interdigital:/job/Conshohocken-PA/Intern--IT-Infrastructure_REQ26-1141</id>
+    <title>Interdigital: Intern, IT Infrastructure</title>
+    <link href="https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/Intern--IT-Infrastructure_REQ26-1141"/>
+    <updated>2026-09-28T15:35:14Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Software · Conshohocken, PA · Python, AWS, Azure, Terraform, Linux · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:myhrabc:/job/Conshohocken-PA/IT-Software-Development-Intern_R2614039</id>
@@ -48,44 +192,12 @@
     <summary>Summer 2027 · Software · Conshohocken, PA · Java, C++, JavaScript, React · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:danaher:/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1318747</id>
-    <title>Danaher Corporation: Software Engineering Intern</title>
-    <link href="https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1318747"/>
-    <updated>2026-09-28T15:35:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Chaska, Minnesota, United States · Java, C#, JavaScript, SQL, HTML/CSS</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:philips:/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074</id>
     <title>Philips: Intern – Embedded Systems Test Automation Engineer – Bothell, WA – Summer 2027</title>
     <link href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074"/>
     <updated>2026-09-28T15:35:14Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Bothell, Washington, United States · Python, C++</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040</id>
-    <title>RTX: Flight Control Software Engineering Intern (Summer 2027)</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040"/>
-    <updated>2026-09-28T15:35:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Software · US-IA-CEDAR RAPIDS-193 ~ 1120 Collins Rd NE ~ BLDG193 · C++, MATLAB</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01874556</id>
-    <title>RTX: Software Engineering Intern (Summer 2027) 🛂</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01874556"/>
-    <updated>2026-09-28T15:35:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-124 ~ 400 Collins Rd NE ~ BLDG 124 · Python, LLMs · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op---Summer-Fall-2027-_01871480</id>
-    <title>RTX: Software Engineering Co-op  (Summer/Fall 2027) 🛂</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op---Summer-Fall-2027-_01871480"/>
-    <updated>2026-09-28T15:35:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131 · Python, C++ · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:queracomputinginc:5435902008</id>
@@ -201,11 +313,11 @@
   </entry>
   <entry>
     <id>urn:intern-engine:workday:elkay:/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160</id>
-    <title>Zurn Elkay Water Solutions: IT Infrastructure Intern (Summer 2027)</title>
+    <title>Zurn Elkay Water Solutions: IT Infrastructure &amp; AI Enablement Intern (Summer 2027)</title>
     <link href="https://elkay.wd1.myworkdayjobs.com/Elkay_External/job/Milwaukee-WI/IT-Infrastructure-Intern--Summer-2027-_REQ-020160"/>
     <updated>2026-09-25T22:06:20Z</updated>
     <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Software · Milwaukee, WI</summary>
+    <summary>2 openings · Summer 2027 · Data &amp; ML/AI · Milwaukee, WI</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:epiqsystems:/job/USA-New-York-NY-1166-Avenue-of-Americas/Software-Engineer-Intern_R0035230</id>
@@ -390,6 +502,14 @@
     <updated>2026-09-25T18:46:54Z</updated>
     <category term="Winter 2027"/>
     <summary>Winter 2027 · Data &amp; ML/AI · Burbank, CA, USA · $32/hr · Python, SQL, Tableau · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01878082</id>
+    <title>RTX: Software Engineering Intern (Summer 2027) 🇺🇸</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01878082"/>
+    <updated>2026-09-28T21:36:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-137 ~ 855 35Th St NE ~ BLDG 137 · Python, C++, Linux · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:greenheckgroup:/job/Schofield-WI/Application-Developer-Co-op_JR104721</id>
@@ -686,125 +806,5 @@
     <updated>2026-09-23T19:17:10Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Palo Alto, CA · Python, PyTorch, LLMs · H-1B track record: ~28 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1007956</id>
-    <title>Stantec: Civil Engineering Intern/Co-op - Infrastructure (Summer 2027)</title>
-    <link href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1007956"/>
-    <updated>2026-09-23T19:17:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:caci:/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041</id>
-    <title>CACI: Software Engineering Intern - Summer 2027</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041"/>
-    <updated>2026-09-23T19:17:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Reston, VA, US · Python, Java, JavaScript, Angular, HTML/CSS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cae:/job/Arlington-TX/Weapons-Simulation-Software-Co-Op_123873</id>
-    <title>CAE: Weapons Simulation Software Co-Op 🇺🇸</title>
-    <link href="https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Weapons-Simulation-Software-Co-Op_123873"/>
-    <updated>2026-09-23T19:17:10Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Arlington, TX · Python, C++, MATLAB, Docker, Linux · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-Network-Engineering-Internship_RQ228934-2</id>
-    <title>General Dynamics Information Technology: GDIT Summer Internship Program – Summer 2027 AI Network Engineering Internship 🇺🇸</title>
-    <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-Network-Engineering-Internship_RQ228934-2"/>
-    <updated>2026-09-23T19:17:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · USA LA Bossier City · Python, LLMs · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Cybersecurity-Associate-Internship_RQ228929-2</id>
-    <title>General Dynamics Information Technology: GDIT Summer Internship Program – Summer 2027 Cybersecurity Associate Internship 🇺🇸</title>
-    <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Cybersecurity-Associate-Internship_RQ228929-2"/>
-    <updated>2026-09-23T19:17:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · USA LA Bossier City · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Generative-AI-Software-Development-Internship_RQ228933-1</id>
-    <title>General Dynamics Information Technology: GDIT Summer Internship Program – Summer 2027 Generative AI Software Development Internship 🇺🇸</title>
-    <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Generative-AI-Software-Development-Internship_RQ228933-1"/>
-    <updated>2026-09-23T19:17:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · USA LA Bossier City · LLMs, Python, AWS, GCP, Azure · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gdit:/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship_RQ228931-2</id>
-    <title>General Dynamics Information Technology: GDIT Summer Internship Program – Summer 2027 Software Development Internship 🇺🇸</title>
-    <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship_RQ228931-2"/>
-    <updated>2026-09-23T19:17:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · USA LA Bossier City · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:insulet:/job/San-Diego-California/Intern--DevOps-Engineer--June-August-2027--Onsite-_REQ-2026-18202</id>
-    <title>Insulet Corporation: Intern, DevOps Engineer: June-August 2027 (Onsite)</title>
-    <link href="https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/San-Diego-California/Intern--DevOps-Engineer--June-August-2027--Onsite-_REQ-2026-18202"/>
-    <updated>2026-09-23T19:17:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Diego, California · Python, Bash, AWS, Linux · H-1B track record: ~46 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:sonos:/job/Boston-MA/Software-Engineering-Co-op--Cloud-_R2822-2</id>
-    <title>Sonos: Software Engineering Co-op (Cloud) 🛂</title>
-    <link href="https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Software-Engineering-Co-op--Cloud-_R2822-2"/>
-    <updated>2026-09-23T19:17:10Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · Boston, MA · Python, Java, JavaScript, AWS, Kubernetes · sponsorship: no-sponsorship · status: closed · H-1B track record: ~54 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:sonos:/job/Boston-MA/Software-Engineering-Co-op--Signal-Processing-_R2821-2</id>
-    <title>Sonos: Software Engineering Co-op (Signal Processing) 🛂</title>
-    <link href="https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Software-Engineering-Co-op--Signal-Processing-_R2821-2"/>
-    <updated>2026-09-23T19:17:10Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · Boston, MA · Linux · sponsorship: no-sponsorship · status: closed · H-1B track record: ~54 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:swbc:/job/San-Antonio-TX/Application-Security-Intern_R0015572-2</id>
-    <title>SWBC: Application Security Intern</title>
-    <link href="https://swbc.wd1.myworkdayjobs.com/swbccareers/job/San-Antonio-TX/Application-Security-Intern_R0015572-2"/>
-    <updated>2026-09-23T19:17:10Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · San Antonio, TX · Python, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:grow-therapy:92bfe88a-4c23-48c8-8f7b-4959ab6cd8d8</id>
-    <title>Grow Therapy: Software Engineering Intern (Summer 2027)</title>
-    <link href="https://jobs.ashbyhq.com/grow-therapy/92bfe88a-4c23-48c8-8f7b-4959ab6cd8d8"/>
-    <updated>2026-09-23T15:07:43Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York City · $50 per hour · Python, TypeScript, React</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:Keenfinity:744000151395769</id>
-    <title>Keenfinity: Software Test Automation Co-Op</title>
-    <link href="https://jobs.smartrecruiters.com/Keenfinity/744000151395769"/>
-    <updated>2026-09-23T15:07:43Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Fairport, NY, United States · $25–$26/hr · Python, C++, Azure, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:dxctechnology:/job/ITA---MI---MILAN/Cyber-Security-Intern_51583298</id>
-    <title>DXC Technology: Cyber Security Intern</title>
-    <link href="https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/ITA---MI---MILAN/Cyber-Security-Intern_51583298"/>
-    <updated>2026-09-23T15:07:43Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · ITA - MI - MILAN</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359</id>
-    <title>Northrop Grumman: 2027 Software Engineer Intern – Woodland Hills CA 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Woodland-Hills/XMLNAME-2027-Software-Engineer-Intern---Woodland-Hills-CA_R10249359"/>
-    <updated>2026-09-26T10:09:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-California-Woodland Hills · $21.5–$39/hr · Python, C++ · sponsorship: citizens-only · status: closed</summary>
   </entry>
 </feed>

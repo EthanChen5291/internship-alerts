@@ -105,10 +105,11 @@
     "Summer 2027": {
      "first_posted": "2026-09-15",
      "role_ids": [
+      "workday:aero:/job/Chantilly-VA/XMLNAME-2027-Software-Implementation-and-Integration-Undergrad-Cleared-Intern_R016740",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -879,11 +880,12 @@
     "Summer 2027": {
      "first_posted": "2026-09-25",
      "role_ids": [
+      "workday:myhrabc:/job/Conshohocken-PA/AI-Intern_R2613670",
       "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Development-Intern_R2614039",
       "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Intern_R2614031",
       "workday:myhrabc:/job/Remote-USA/Software-Intern_R2613763"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -1604,9 +1606,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-21",
      "role_ids": [
-      "greenhouse:formlabsinternships:8222268"
+      "greenhouse:formlabsinternships:8222268",
+      "greenhouse:formlabsinternships:8223362"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3301,6 +3304,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Co-op--Summer-Fall-2027-_01870194",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01867129",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01873099",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01874696",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Software-Engineering-Intern-Summer-2027-_01870349-1",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01868241",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01871019",
@@ -3309,13 +3313,21 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op---Summer-Fall-2027-_01871480",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Summer-Fall-2027---Onsite-_01869518",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Summer-Fall-2027-_01871232",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern-----Summer-2027-_01867602",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern--Summer-2027-_01866136",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern--Summer-2027-_01869486",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/XMLNAME-2027-Summer-Fall-Co-op--AGS-Software-Engineering--Onsite-_01871646",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Co-op--Summer-Fall-2027-_01877158",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01863980-1",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01865875",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01877155",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01878082",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineering-Intern--Summer-2027-_01878083",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Engineering-Intern--Summer-2027-_01871278",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Engineering-Intern--Summer-2027-_01871442",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Engineering-Intern--Summer-2027-_01871444",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Research-Internship--Summer-2027----Onsite_01872177",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01867487",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Intern--Summer-2027-_01872878",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-179--855-35Th-St-NE--BLDG-179/Software-Engineering-Intern--Summer-Fall-2027-_01873006",
@@ -3323,7 +3335,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084"
      ],
-     "count": 25
+     "count": 34
     }
    }
   },
@@ -4017,10 +4029,11 @@
     "Summer 2027": {
      "first_posted": "2026-09-21",
      "role_ids": [
+      "workday:upbound:/job/Plano-TX/Cybersecurity-Intern_R-100776",
       "workday:upbound:/job/Plano-TX/Software-Engineer-Intern_R-100761",
       "workday:upbound:/job/Plano-TX/Software-Engineer-Intern_R-100762"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -4136,6 +4149,18 @@
      "role_ids": [
       "workday:vrtx:/job/Boston-MA/Vertex-Fall-Co-op-2026--AI-and-Governance_REQ-28615-1"
      ]
+    }
+   }
+  },
+  "veterans united": {
+   "name": "Veterans United",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-28",
+     "role_ids": [
+      "workday:veteransunited:/job/Remote-MO/Intern---Software-Engineer---Summer-2027_R6249"
+     ],
+     "count": 1
     }
    }
   },
@@ -4430,5 +4455,5 @@
    }
   }
  },
- "updated_at": "2026-09-28T15:35:15Z"
+ "updated_at": "2026-09-28T21:36:03Z"
 }
