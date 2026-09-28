@@ -1,40 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260836",
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260805",
-      "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Development-Intern_R2614039",
-      "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Intern_R2614031",
-      "workday:danaher:/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1318747",
-      "workday:philips:/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01874556",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op---Summer-Fall-2027-_01871480"
-    ],
-    "telegram": [
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260836",
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260805",
-      "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Development-Intern_R2614039",
-      "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Intern_R2614031",
-      "workday:danaher:/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1318747",
-      "workday:philips:/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01874556",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op---Summer-Fall-2027-_01871480"
-    ],
-    "personal_email": [
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260836",
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260805",
-      "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Development-Intern_R2614039",
-      "workday:myhrabc:/job/Conshohocken-PA/IT-Software-Intern_R2614031",
-      "workday:danaher:/job/Chaska-Minnesota-United-States/Software-Engineering-Intern_R1318747",
-      "workday:philips:/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01874556",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op---Summer-Fall-2027-_01871480"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
