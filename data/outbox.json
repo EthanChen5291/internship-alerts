@@ -1,34 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "oracle:ejia.fa.us6.oraclecloud.com:107307",
-      "greenhouse:enova:8239619",
-      "greenhouse:gitai:5437128008",
-      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603312-1",
-      "workday:igsenergy:/job/Ohio-Remote/Software-Engineer-Intern_R6263",
-      "workday:moog:/job/Buffalo-NY/Intern--Artificial-Intelligence_R-26-20288",
-      "workday:moog:/job/Torrance-CA/Intern--Software-Engineering_R-26-19948",
-      "workday:nike:/job/Beaverton-Oregon/NIKE--Inc-AI---Machine-Learning--Innovation-Graduate-Internship_R-94412"
-    ],
-    "telegram": [
-      "oracle:ejia.fa.us6.oraclecloud.com:107307",
-      "greenhouse:enova:8239619",
-      "greenhouse:gitai:5437128008",
-      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603312-1",
-      "workday:igsenergy:/job/Ohio-Remote/Software-Engineer-Intern_R6263",
-      "workday:moog:/job/Buffalo-NY/Intern--Artificial-Intelligence_R-26-20288",
-      "workday:moog:/job/Torrance-CA/Intern--Software-Engineering_R-26-19948",
-      "workday:nike:/job/Beaverton-Oregon/NIKE--Inc-AI---Machine-Learning--Innovation-Graduate-Internship_R-94412"
-    ],
-    "personal_email": [
-      "oracle:ejia.fa.us6.oraclecloud.com:107307",
-      "greenhouse:enova:8239619",
-      "greenhouse:gitai:5437128008",
-      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603312-1",
-      "workday:igsenergy:/job/Ohio-Remote/Software-Engineer-Intern_R6263",
-      "workday:moog:/job/Buffalo-NY/Intern--Artificial-Intelligence_R-26-20288",
-      "workday:moog:/job/Torrance-CA/Intern--Software-Engineering_R-26-19948",
-      "workday:nike:/job/Beaverton-Oregon/NIKE--Inc-AI---Machine-Learning--Innovation-Graduate-Internship_R-94412"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
