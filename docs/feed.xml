@@ -5,8 +5,64 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-29T07:40:37Z</updated>
+  <updated>2026-09-29T14:39:55Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:perchwell:194eec78-26db-4d8e-850f-a99ea2733e9f</id>
+    <title>Perchwell: Software Engineering Intern</title>
+    <link href="https://jobs.ashbyhq.com/perchwell/194eec78-26db-4d8e-850f-a99ea2733e9f"/>
+    <updated>2026-09-29T14:39:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York Office · $12K • 10 week internship in NYC · TypeScript, SQL, Ruby, React</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:caci:/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776</id>
+    <title>CACI: Software Engineer Intern - Summer 2027</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776"/>
+    <updated>2026-09-29T14:39:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Omaha, NE, US · Java, JavaScript, Node.js, Angular, Git</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:marvell:/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848-1</id>
+    <title>Marvell: AI-Native Development Platform Engineer Intern, MS - Summer 2027</title>
+    <link href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848-1"/>
+    <updated>2026-09-29T14:39:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CA · Python, Java, C#, TypeScript, JavaScript</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:nationallifeinsurancecompany:4403876009</id>
+    <title>National Life: Digital &amp; AI Experience Intern – Summer 2027 🛂</title>
+    <link href="https://job-boards.greenhouse.io/nationallifeinsurancecompany/jobs/4403876009"/>
+    <updated>2026-09-29T14:39:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Addison, TX; Montpelier, VT · LLMs · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798</id>
+    <title>Q2: 2027 Summer Internship - Software Engineer 🛂</title>
+    <link href="https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798"/>
+    <updated>2026-09-29T14:39:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Cary, North Carolina · Python, C#, JavaScript, SQL, Tableau · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12800</id>
+    <title>Q2: 2027 Summer Internship - Machine Learning Engineer 🛂</title>
+    <link href="https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12800"/>
+    <updated>2026-09-29T14:39:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Cary, North Carolina · Python, Java, PyTorch, TensorFlow, scikit-learn · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:upbound:/job/Plano-TX/User-Experience-Intern_R-100778</id>
+    <title>Upbound Group: ServiceNow Developer Intern</title>
+    <link href="https://upbound.wd501.myworkdayjobs.com/Upbound/job/Plano-TX/User-Experience-Intern_R-100778"/>
+    <updated>2026-09-29T14:39:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Plano, TX · $23/hr · JavaScript</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:lyft:8843341002</id>
     <title>Lyft: Applied Scientist Intern (Summer 2027)</title>
@@ -750,61 +806,5 @@
     <updated>2026-09-24T16:13:13Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Wheatland, PA - Council Ave</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:kitware:e76197d1-4dc3-4f7c-a30a-597713283bb3</id>
-    <title>Kitware: Computer Vision Co-Op 🇺🇸</title>
-    <link href="https://jobs.lever.co/kitware/e76197d1-4dc3-4f7c-a30a-597713283bb3"/>
-    <updated>2026-09-24T11:56:07Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Clifton Park, New York · 30–45 USD/hr · Computer Vision, Python, C++, JavaScript, PostgreSQL · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:ramp:b66be397-240b-41a6-9b05-493299b270a9</id>
-    <title>Ramp: Software Engineering Intern, iOS</title>
-    <link href="https://jobs.ashbyhq.com/ramp/b66be397-240b-41a6-9b05-493299b270a9"/>
-    <updated>2026-09-24T06:16:35Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York, NY (HQ) · $12.5K per month · Swift</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:ramp:a13ae586-f4cb-4385-8822-c42b9b54ed74</id>
-    <title>Ramp: Software Engineer Internship, Frontend</title>
-    <link href="https://jobs.ashbyhq.com/ramp/a13ae586-f4cb-4385-8822-c42b9b54ed74"/>
-    <updated>2026-09-24T01:09:08Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York, NY (HQ) · $12.5K per month · TypeScript, JavaScript, React</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:ramp:fcf118cc-521a-4a62-9d13-945e5b6e3cb8</id>
-    <title>Ramp: Software Engineering Intern, Android</title>
-    <link href="https://jobs.ashbyhq.com/ramp/fcf118cc-521a-4a62-9d13-945e5b6e3cb8"/>
-    <updated>2026-09-24T01:09:08Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York, NY (HQ) · $12.5K per month · Kotlin</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:boxinc:8226667</id>
-    <title>Box: Cloud &amp; AI Finance Intern</title>
-    <link href="https://job-boards.greenhouse.io/boxinc/jobs/8226667"/>
-    <updated>2026-09-29T01:30:45Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Redwood City, CA, United States · SQL, LLMs, AWS, GCP, Tableau · status: closed · H-1B track record: ~108 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:snc:/job/Plano-TX/Software-Engineer-I--For-2026-Interns-Only-_R0030584</id>
-    <title>Sierra Nevada Corporation: Software Engineer I (For 2026 Interns Only) 🇺🇸</title>
-    <link href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Plano-TX/Software-Engineer-I--For-2026-Interns-Only-_R0030584"/>
-    <updated>2026-09-24T01:09:08Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Plano, TX · Python, Java, C++, C#, Bash · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:figma:6178851004</id>
-    <title>Figma: Data Engineer Intern (2027)</title>
-    <link href="https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004"/>
-    <updated>2026-09-23T22:29:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA • New York, NY · Python, SQL · H-1B track record: ~39 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
