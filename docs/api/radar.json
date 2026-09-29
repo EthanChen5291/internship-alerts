@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-29T19:54:27Z",
- "data_as_of": "2026-09-29T19:54:27Z",
- "rendered_at": "2026-09-29T19:54:28Z",
+ "generated_at": "2026-09-29T23:28:30Z",
+ "data_as_of": "2026-09-29T23:28:30Z",
+ "rendered_at": "2026-09-29T23:28:30Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -605,7 +605,7 @@
    "expected": "2026-08-05",
    "days_until": -55,
    "status": "open",
-   "url": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Business-Intelligence-Development-Internship_RQ228935",
+   "url": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228939",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2258,7 +2258,7 @@
    "expected": "2026-09-03",
    "days_until": -26,
    "status": "open",
-   "url": "https://careers.withwaymo.com/jobs?gh_jid=8174099",
+   "url": "https://careers.withwaymo.com/jobs?gh_jid=8174504",
    "note": "fall opening for next summer",
    "provenance": {
     "type": "engine-observed",
@@ -2429,7 +2429,7 @@
    "expected": "2026-09-07",
    "days_until": -22,
    "status": "open",
-   "url": "https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002",
+   "url": "https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603312-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
