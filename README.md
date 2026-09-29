@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/EthanChen5291/internship-alerts/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/EthanChen5291/internship-alerts/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fethanchen5291.github.io%2Finternship-alerts%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://ethanchen5291.github.io/internship-alerts/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://ethanchen5291.github.io/internship-alerts/feed.xml)
 
-### 920 open roles (589 listed below) · 148 new this week
+### 919 open roles (588 listed below) · 148 new this week
 
-4,649 employers tracked · data as of Sep 29, 2026 at 01:30 UTC
+4,649 employers tracked · data as of Sep 29, 2026 at 07:40 UTC
 
-_627 have a cycle the employer stated · 293 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_626 have a cycle the employer stated · 293 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://ethanchen5291.github.io/internship-alerts/)** · **[📡 RSS](https://ethanchen5291.github.io/internship-alerts/feed.xml)** · **[⚙️ JSON API](https://ethanchen5291.github.io/internship-alerts/api/jobs.json)** · **[🔔 Personal alerts](PERSONAL_SETUP.md)**
 
@@ -90,8 +90,8 @@ If it helps you, a star means a lot and tells me to keep going.
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
 | Lyft ✓ | Applied Scientist Intern (Summer 2027) 🆕 | Data & ML/AI | San Francisco, CA | Python, LLMs | Sep 28, 2026 | [Apply](https://app.careerpuck.com/job-board/lyft/job/8843341002?gh_jid=8843341002) |
-| RTX | Software Engineering Co-op (Spring/Summer 2027) 🇺🇸 🆕 | Software | US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE… | Python, C++ | Sep 28, 2026 | [Apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645) |
 | The Aerospace Corporation | 2027 Software Tools and Assurance Engineering Grad Intern 🇺🇸 🆕 | Software | El Segundo, CA | Python, Java, C++ | Sep 28, 2026 | [Apply](https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753) |
+| RTX | Software Engineering Co-op (Spring/Summer 2027) 🇺🇸 🆕 | Software | US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE… | Python, C++ | Sep 28, 2026 | [Apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645) |
 | Formlabsinternships | Desktop Software Intern (Summer 2027) 🆕 | Software | Somerville, MA | C++ | Sep 28, 2026 | [Apply](https://job-boards.greenhouse.io/formlabsinternships/jobs/8223362) |
 | The Aerospace Corporation | 2027 Software Implementation and Integration Undergrad Cleared Intern 🇺🇸 🆕 | Software | Chantilly, VA | Python, Java, C++, AWS | Sep 28, 2026 | [Apply](https://aero.wd5.myworkdayjobs.com/external/job/Chantilly-VA/XMLNAME-2027-Software-Implementation-and-Integration-Undergrad-Cleared-Intern_R016740) |
 | RTX | Software Engineering Intern -  (Summer 2027) 🆕 _(2 openings)_ | Software | US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE… | Python, C++, Linux | Sep 28, 2026 | [Apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern-----Summer-2027-_01867602) [#2](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern--Summer-2027-_01869486) |
@@ -352,7 +352,7 @@ If it helps you, a star means a lot and tells me to keep going.
 | HP IQ | Software Engineering Intern, AML Platform (Summer 2027) | Software | San Francisco, CA | Python, PyTorch, TensorFlow | Aug 31, 2026 | [Apply](https://job-boards.greenhouse.io/hpiq/jobs/6114781004) |
 | Olsson | Civil Engineering Internship - Federal Infrastructure Site Design | Software | North Kansas City, MO | No skills listed | Aug 31, 2026 | [Apply](https://job-boards.greenhouse.io/olsson/jobs/5396116008) |
 | United Parcel Service (UPS) | UPS Information Security Summer 2027 Internship - NJ 🇺🇸 | Security | US - UPS TECHNOLOGY HEADQUARTERS & DATA… | Python, Java, C++, SQL | Aug 31, 2026 | [Apply](https://hcmportal.wd5.myworkdayjobs.com/Search/job/US---UPS-TECHNOLOGY-HEADQUARTERS--DATACENTER-NJRAR/UPS-Information-Security-Summer-2027-Internship---NJ_R26029761) |
-| Mastercard | Platform Engineering Intern, Summer 2027 – St. Louis, MO, US _(2 openings)_ | Software | O'Fallon, Missouri | Python, Terraform, Linux, Git | Aug 31, 2026 | [Apply](https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875) [#2](https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284876) |
+| Mastercard | Platform Engineering Intern, Summer 2027 – St. Louis, MO, US | Software | O'Fallon, Missouri | Python, Terraform, Linux, Git | Aug 31, 2026 | [Apply](https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284875) |
 | Awetomaton | Platform Engineering Intern 🇺🇸 | Software | Beavercreek, OH | Python, Java, AWS, GCP | Aug 31, 2026 | [Apply](https://job-boards.greenhouse.io/awetomaton/jobs/5394046008) |
 | DraftKings ✓ | Software Engineer Intern (Summer 2027) _(2 openings)_ | Software | Boston, MA | Java, C#, TypeScript, Git | Aug 31, 2026 | [Apply](https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14928) [#2](https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14929) |
 | Stryker ✓ | Summer 2027 Internship - Software Engineering - Florida | Software | Fort Lauderdale, Florida | No skills listed | Aug 31, 2026 | [Apply](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1) |
@@ -713,6 +713,7 @@ _Why each one left is in the last column, because the two reasons carry differen
 
 | Company | Role | Cycle | Closed | Why |
 |---|---|---|---|---|
+| Mastercard | Platform Engineering Intern, Summer 2027 – St. Louis, MO, US | Summer 2027 | 2026-09-29 | gone from feed |
 | Amazon | Software Development Engineer Intern, AWS Data Services - Fall 2026 (US) | Fall 2026 | 2026-09-29 | gone from feed |
 | Flow Traders | Quantitative Trading Intern Summer 2027 | Summer 2027 | 2026-09-29 | gone from feed |
 | BlueCross BlueShield of Nebraska | Cyber Intern: Summer 2027 | Summer 2027 | 2026-09-29 | gone from feed |
@@ -752,7 +753,6 @@ _Why each one left is in the last column, because the two reasons carry differen
 | Northrop Grumman | 2027 Software Engineer Intern - San Diego CA | Summer 2027 | 2026-09-24 | out of scope |
 | Live Oak Bank | Summer 2027 Intern: AI Enablement & Forward-Deployed Engineering | Summer 2027 | 2026-09-24 | gone from feed |
 | Northrop Grumman | 2027 Cyber Software Engineer Intern - Tampa FL | Summer 2027 | 2026-09-24 | out of scope |
-| Northrop Grumman | 2027 Cyber Systems Engineer Intern-Tampa FL | Summer 2027 | 2026-09-24 | out of scope |
 
 </details>
 
@@ -771,7 +771,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,557 of 4,911 registered boards returned successfully across 13 ATS platforms (98% of boards attempted, 92% of the full registry) · completed in 1077.0s · 631 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 4,587 of 4,911 registered boards returned successfully across 13 ATS platforms (99% of boards attempted, 93% of the full registry) · completed in 794.3s · 639 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 

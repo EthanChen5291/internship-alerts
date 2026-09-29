@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-29T01:30:45Z</updated>
+  <updated>2026-09-29T07:40:37Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:lyft:8843341002</id>
+    <title>Lyft: Applied Scientist Intern (Summer 2027)</title>
+    <link href="https://app.careerpuck.com/job-board/lyft/job/8843341002?gh_jid=8843341002"/>
+    <updated>2026-09-29T01:30:45Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA · $64–$68/hr · Python, LLMs · H-1B track record: ~348 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753</id>
+    <title>The Aerospace Corporation: 2027 Software Tools and Assurance Engineering Grad Intern 🇺🇸</title>
+    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753"/>
+    <updated>2026-09-29T01:30:45Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:gilead:/job/United-States---California---Foster-City/Intern---Research---Inflammation_R0054741</id>
     <title>Gilead Sciences: Intern - Research - Inflammation - AI 🛂</title>
@@ -24,28 +40,12 @@
     <summary>Not stated · Data &amp; ML/AI · United States - California - Foster City · Python, PyTorch, TensorFlow, LLMs · sponsorship: no-sponsorship · H-1B track record: ~272 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:lyft:8843341002</id>
-    <title>Lyft: Applied Scientist Intern (Summer 2027)</title>
-    <link href="https://app.careerpuck.com/job-board/lyft/job/8843341002?gh_jid=8843341002"/>
-    <updated>2026-09-29T01:30:45Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA · $64–$68/hr · Python, LLMs · H-1B track record: ~348 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645</id>
     <title>RTX: Software Engineering Co-op (Spring/Summer 2027) 🇺🇸</title>
     <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645"/>
     <updated>2026-09-29T01:30:45Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131 · Python, C++ · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753</id>
-    <title>The Aerospace Corporation: 2027 Software Tools and Assurance Engineering Grad Intern 🇺🇸</title>
-    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753"/>
-    <updated>2026-09-29T01:30:45Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:formlabsinternships:8223362</id>
