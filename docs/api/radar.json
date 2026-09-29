@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-29T14:39:55Z",
- "data_as_of": "2026-09-29T14:39:55Z",
- "rendered_at": "2026-09-29T14:39:55Z",
+ "generated_at": "2026-09-29T19:54:27Z",
+ "data_as_of": "2026-09-29T19:54:27Z",
+ "rendered_at": "2026-09-29T19:54:28Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -250,6 +250,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-07-05"
+   }
+  },
+  {
+   "company": "Northrop Grumman",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-08",
+   "days_until": -83,
+   "status": "open",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
+   "note": "fall opening, many roles need clearance",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-08"
    }
   },
   {
@@ -4072,6 +4091,25 @@
    }
   },
   {
+   "company": "Enova",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-29",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-29",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/enova/jobs/8239619",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-29"
+   }
+  },
+  {
    "company": "National Life",
    "last_cycle_posted": "",
    "posted_on": "2026-09-29",
@@ -6443,25 +6481,6 @@
    }
   },
   {
-   "company": "Northrop Grumman",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-08",
-   "days_until": -83,
-   "status": "dropped",
-   "url": "",
-   "note": "fall opening, many roles need clearance",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-08"
-   }
-  },
-  {
    "company": "The Trade Desk",
    "last_cycle_posted": "",
    "posted_on": "2026-07-15",
@@ -7184,5 +7203,5 @@
    }
   }
  ],
- "count": 378
+ "count": 379
 }

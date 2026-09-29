@@ -5,8 +5,64 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-29T14:39:55Z</updated>
+  <updated>2026-09-29T19:54:27Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:ejia.fa.us6.oraclecloud.com:107307</id>
+    <title>S&amp;C Electric Company: Software Engineer Co-Op</title>
+    <link href="https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107307"/>
+    <updated>2026-09-29T19:54:27Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Chicago, IL, United States · $22–$30/hr · Python, C#, JavaScript, SQL, Angular · H-1B track record: ~10 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:enova:8239619</id>
+    <title>Enova: Software Engineer Internship Summer 2027 (Hybrid) 🛂</title>
+    <link href="https://job-boards.greenhouse.io/enova/jobs/8239619"/>
+    <updated>2026-09-29T19:54:27Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Chicago, IL · $35/hr · Go, Ruby · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:gitai:5437128008</id>
+    <title>GITAI: Field-Deployed Software Engineering Intern 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/gitai/jobs/5437128008"/>
+    <updated>2026-09-29T19:54:27Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Los Angeles, California, United States · $28–$40/hr · Python, C++, PyTorch, Computer Vision, Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603312-1</id>
+    <title>ICF: 2027 Summer Intern, AI Engineer (Reston, VA) 🇺🇸</title>
+    <link href="https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603312-1"/>
+    <updated>2026-09-29T19:54:27Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Reston, VA · $32/hr · Python, Java, C++, JavaScript, PyTorch · sponsorship: citizens-only · H-1B track record: ~35 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:moog:/job/Buffalo-NY/Intern--Artificial-Intelligence_R-26-20288</id>
+    <title>Moog: Intern, Artificial Intelligence</title>
+    <link href="https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Artificial-Intelligence_R-26-20288"/>
+    <updated>2026-09-29T19:54:27Z</updated>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Data &amp; ML/AI · Buffalo, NY</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:moog:/job/Torrance-CA/Intern--Software-Engineering_R-26-19948</id>
+    <title>Moog: Intern, Software Engineering</title>
+    <link href="https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Torrance-CA/Intern--Software-Engineering_R-26-19948"/>
+    <updated>2026-09-29T19:54:27Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Torrance, CA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:nike:/job/Beaverton-Oregon/NIKE--Inc-AI---Machine-Learning--Innovation-Graduate-Internship_R-94412</id>
+    <title>Nike: NIKE, Inc. AI &amp; Machine Learning, Innovation Graduate Internship</title>
+    <link href="https://nike.wd1.myworkdayjobs.com/nke/job/Beaverton-Oregon/NIKE--Inc-AI---Machine-Learning--Innovation-Graduate-Internship_R-94412"/>
+    <updated>2026-09-29T19:54:27Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Beaverton, Oregon · Python, PyTorch, TensorFlow, scikit-learn, Pandas · H-1B track record: ~484 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:perchwell:194eec78-26db-4d8e-850f-a99ea2733e9f</id>
     <title>Perchwell: Software Engineering Intern</title>
@@ -14,6 +70,14 @@
     <updated>2026-09-29T14:39:55Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · New York Office · $12K • 10 week internship in NYC · TypeScript, SQL, Ruby, React</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:nationallifeinsurancecompany:4403876009</id>
+    <title>National Life: Digital &amp; AI Experience Intern – Summer 2027 🛂</title>
+    <link href="https://job-boards.greenhouse.io/nationallifeinsurancecompany/jobs/4403876009"/>
+    <updated>2026-09-29T14:39:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Addison, TX; Montpelier, VT · LLMs · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:caci:/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776</id>
@@ -32,12 +96,12 @@
     <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CA · Python, Java, C#, TypeScript, JavaScript</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:nationallifeinsurancecompany:4403876009</id>
-    <title>National Life: Digital &amp; AI Experience Intern – Summer 2027 🛂</title>
-    <link href="https://job-boards.greenhouse.io/nationallifeinsurancecompany/jobs/4403876009"/>
+    <id>urn:intern-engine:workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12800</id>
+    <title>Q2: 2027 Summer Internship - Machine Learning Engineer 🛂</title>
+    <link href="https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12800"/>
     <updated>2026-09-29T14:39:55Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Addison, TX; Montpelier, VT · LLMs · sponsorship: no-sponsorship</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Cary, North Carolina · Python, Java, PyTorch, TensorFlow, scikit-learn · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798</id>
@@ -46,14 +110,6 @@
     <updated>2026-09-29T14:39:55Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Cary, North Carolina · Python, C#, JavaScript, SQL, Tableau · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:q2ebanking:/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12800</id>
-    <title>Q2: 2027 Summer Internship - Machine Learning Engineer 🛂</title>
-    <link href="https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12800"/>
-    <updated>2026-09-29T14:39:55Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Cary, North Carolina · Python, Java, PyTorch, TensorFlow, scikit-learn · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:upbound:/job/Plano-TX/User-Experience-Intern_R-100778</id>
@@ -750,61 +806,5 @@
     <updated>2026-09-24T16:13:13Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Cleveland, Ohio, United States</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:formlabsinternships:8222268</id>
-    <title>Formlabsinternships: Embedded Software Intern (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/formlabsinternships/jobs/8222268"/>
-    <updated>2026-09-24T16:13:13Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Somerville, MA · Python, C++, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:haigroup:4409386009</id>
-    <title>Haigroup: Software Development Intern</title>
-    <link href="https://job-boards.greenhouse.io/haigroup/jobs/4409386009"/>
-    <updated>2026-09-24T16:13:13Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Cheshire, CT · Python, Java, C#, JavaScript, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:voloridgeinvestmentmanagement:4405530009</id>
-    <title>Voloridge: Quantitative Trading Intern 2027</title>
-    <link href="https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4405530009"/>
-    <updated>2026-09-24T16:13:13Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · Jupiter, FL · Python, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:ziprecruiter:8180455</id>
-    <title>ZipRecruiter: Software Engineer - Intern</title>
-    <link href="https://job-boards.greenhouse.io/ziprecruiter/jobs/8180455"/>
-    <updated>2026-09-24T16:13:13Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Santa Monica, CA · $45/hr · Python, Java, JavaScript, React, HTML/CSS · H-1B track record: ~22 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:abb:/job/USA-NC-Cary/IS-Common-Infrastructure-Intern--Summer-2027_JR00047125</id>
-    <title>ABB: IS Common Infrastructure Intern- Summer 2027 🛂</title>
-    <link href="https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/IS-Common-Infrastructure-Intern--Summer-2027_JR00047125"/>
-    <updated>2026-09-24T16:13:13Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · USA, NC, Cary · $20–$34/hr · sponsorship: no-sponsorship · H-1B track record: ~69 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:chrobinson:/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322</id>
-    <title>C.H. Robinson: Cyber Security Internship 2027</title>
-    <link href="https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322"/>
-    <updated>2026-09-24T16:13:13Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Eden Prairie, MN United States of America · $15–$30/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:zekelman:/job/Wheatland-PA---Council-Ave/AI-Intern_JR002752</id>
-    <title>Zekelman Industries: AI Intern</title>
-    <link href="https://zekelman.wd12.myworkdayjobs.com/Careers/job/Wheatland-PA---Council-Ave/AI-Intern_JR002752"/>
-    <updated>2026-09-24T16:13:13Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Wheatland, PA - Council Ave</summary>
   </entry>
 </feed>
