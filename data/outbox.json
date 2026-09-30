@@ -1,7 +1,49 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:allen-control-systems:1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94",
+      "amazon:amazon:10565667",
+      "ashby:claylabs:5b7eced2-36bd-4265-a2a8-da0f786e47aa",
+      "ashby:dandy:d43558e9-8e51-4980-b00d-39275063f099",
+      "ashby:ramp:b39ceb08-a0a7-4f8b-a760-2fb88e209956",
+      "smartrecruiters:AECOM2:744000152725659",
+      "workday:hcsc:/job/Richardson-Texas-HQ-1001-E-Lookout-Drive/Early-Careers---Developer-Intern--Compliance---Health-Quality-_R0059503",
+      "workday:intel:/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525",
+      "greenhouse:muonspace:5247725007",
+      "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Engineer-Intern---Rolling-Meadows-IL_R10253772",
+      "workday:ngc:/job/United-States-North-Carolina-Morrisville/XMLNAME-2027-Software-Engineer-Intern---Morrisville-NC_R10253768",
+      "workday:snc:/job/Lone-Tree-CO/Systems-Security-Engineer-I--For-2026-Interns-Only-_R0030608",
+      "greenhouse:waymo:8238525"
+    ],
+    "telegram": [
+      "ashby:allen-control-systems:1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94",
+      "amazon:amazon:10565667",
+      "ashby:claylabs:5b7eced2-36bd-4265-a2a8-da0f786e47aa",
+      "ashby:dandy:d43558e9-8e51-4980-b00d-39275063f099",
+      "ashby:ramp:b39ceb08-a0a7-4f8b-a760-2fb88e209956",
+      "smartrecruiters:AECOM2:744000152725659",
+      "workday:hcsc:/job/Richardson-Texas-HQ-1001-E-Lookout-Drive/Early-Careers---Developer-Intern--Compliance---Health-Quality-_R0059503",
+      "workday:intel:/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525",
+      "greenhouse:muonspace:5247725007",
+      "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Engineer-Intern---Rolling-Meadows-IL_R10253772",
+      "workday:ngc:/job/United-States-North-Carolina-Morrisville/XMLNAME-2027-Software-Engineer-Intern---Morrisville-NC_R10253768",
+      "workday:snc:/job/Lone-Tree-CO/Systems-Security-Engineer-I--For-2026-Interns-Only-_R0030608",
+      "greenhouse:waymo:8238525"
+    ],
+    "personal_email": [
+      "ashby:allen-control-systems:1cd2b432-9a01-4ae0-8eb2-6ebd9c278b94",
+      "amazon:amazon:10565667",
+      "ashby:claylabs:5b7eced2-36bd-4265-a2a8-da0f786e47aa",
+      "ashby:dandy:d43558e9-8e51-4980-b00d-39275063f099",
+      "ashby:ramp:b39ceb08-a0a7-4f8b-a760-2fb88e209956",
+      "smartrecruiters:AECOM2:744000152725659",
+      "workday:hcsc:/job/Richardson-Texas-HQ-1001-E-Lookout-Drive/Early-Careers---Developer-Intern--Compliance---Health-Quality-_R0059503",
+      "workday:intel:/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525",
+      "greenhouse:muonspace:5247725007",
+      "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Engineer-Intern---Rolling-Meadows-IL_R10253772",
+      "workday:ngc:/job/United-States-North-Carolina-Morrisville/XMLNAME-2027-Software-Engineer-Intern---Morrisville-NC_R10253768",
+      "workday:snc:/job/Lone-Tree-CO/Systems-Security-Engineer-I--For-2026-Interns-Only-_R0030608",
+      "greenhouse:waymo:8238525"
+    ]
   }
 }
