@@ -5,15 +5,31 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-29T23:28:30Z</updated>
+  <updated>2026-09-30T02:37:37Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:avav:/job/Sunrise-FL/Software-Engineering-Intern_8797</id>
-    <title>Avav: Software Engineering Intern 🇺🇸</title>
-    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Sunrise-FL/Software-Engineering-Intern_8797"/>
-    <updated>2026-09-29T23:28:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Sunrise, FL · Python, Java, C++, Bash, Linux · sponsorship: citizens-only</summary>
+    <id>urn:intern-engine:workday:marvell:/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1</id>
+    <title>Marvell: Machine Learning Engineer Intern, BS/MS - Summer 2027</title>
+    <link href="https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1"/>
+    <updated>2026-09-30T02:37:37Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CA · Python, CUDA, AWS, GCP, Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:muonspace:5252680007</id>
+    <title>Muon Space: GNC Software Engineering Intern (Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/muonspace/jobs/5252680007"/>
+    <updated>2026-09-30T02:37:37Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Mountain View, CA · $40/hr · Python, C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Co-op---Embedded-Linux--Spring-Summer-2027-_01876384</id>
+    <title>RTX: Software Engineering Co-op  (Spring/Summer 2027) 🇺🇸</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineering-Co-op---Embedded-Linux--Spring-Summer-2027-_01876384"/>
+    <updated>2026-09-30T02:37:37Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-166 ~ 855 35Th St NE ~ BLDG 166 · Python, C++, Bash, Linux, Git · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:avav:/job/Simi-Valley-CA/XMLNAME--Digital-Business-Technology-Infrastructure--DBT--Intern_8885</id>
@@ -22,6 +38,14 @@
     <updated>2026-09-29T23:28:30Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Simi Valley, CA · dbt, AWS · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:avav:/job/Sunrise-FL/Software-Engineering-Intern_8797</id>
+    <title>Avav: Software Engineering Intern 🇺🇸</title>
+    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Sunrise-FL/Software-Engineering-Intern_8797"/>
+    <updated>2026-09-29T23:28:30Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Sunrise, FL · Python, Java, C++, Bash, Linux · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:microchiphr:/job/AZ---Chandler/Intern-Engineering--Software-_R4091-26</id>
@@ -41,11 +65,11 @@
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:gitai:5437128008</id>
-    <title>GITAI: Field-Deployed Software Engineering Intern – Immediate Start 🇺🇸</title>
+    <title>GITAI: Field-Deployed Software Engineering Intern – Fall 2026 / Spring 2027 🇺🇸</title>
     <link href="https://job-boards.greenhouse.io/gitai/jobs/5437128008"/>
     <updated>2026-09-29T19:54:27Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Los Angeles, California, United States · $28–$40/hr · Python, C++, PyTorch, Computer Vision, Linux · sponsorship: citizens-only</summary>
+    <category term="Fall 2026"/>
+    <summary>Fall 2026 · Software · Los Angeles, California, United States · $28–$40/hr · Python, C++, PyTorch, Computer Vision, Linux · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:ejia.fa.us6.oraclecloud.com:107307</id>
@@ -782,29 +806,5 @@
     <updated>2026-09-24T20:14:51Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Hawthorne, CA · $27 – $31 per hour · Python, C++, AWS, Kubernetes, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:eqtcorporation:5424757008</id>
-    <title>EQT Corporation: Water Infrastructure Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/eqtcorporation/jobs/5424757008"/>
-    <updated>2026-09-24T20:14:51Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Canonsburg, PA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260821</id>
-    <title>GM financial: Intern - Data Engineer</title>
-    <link href="https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260821"/>
-    <updated>2026-09-24T20:14:51Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Arlington, TX, United States · Python, Java, C++, LLMs, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:leidos:/job/St-Louis-MO/Software-Developer-Intern_R-00192632</id>
-    <title>Leidos: Software Developer Intern 🇺🇸</title>
-    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/St-Louis-MO/Software-Developer-Intern_R-00192632"/>
-    <updated>2026-09-24T20:14:51Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · St. Louis, MO · Python, Java, C#, TypeScript, JavaScript · sponsorship: citizens-only · H-1B track record: ~79 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
