@@ -1,7 +1,40 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:plot:5f8cfeaa-c368-480f-aaa5-de52452a63d0",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008053",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008055",
+      "greenhouse:amca:4425120009",
+      "smartrecruiters:BoschGroup:744000152706359",
+      "workday:caci:/job/Florham-Park-NJ-US/Software-Network-Engineering-Intern---Summer-2027_332895",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641581-1",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641572-1",
+      "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731",
+      "smartrecruiters:WellmarkInc:744000152679699"
+    ],
+    "telegram": [
+      "ashby:plot:5f8cfeaa-c368-480f-aaa5-de52452a63d0",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008053",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008055",
+      "greenhouse:amca:4425120009",
+      "smartrecruiters:BoschGroup:744000152706359",
+      "workday:caci:/job/Florham-Park-NJ-US/Software-Network-Engineering-Intern---Summer-2027_332895",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641581-1",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641572-1",
+      "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731",
+      "smartrecruiters:WellmarkInc:744000152679699"
+    ],
+    "personal_email": [
+      "ashby:plot:5f8cfeaa-c368-480f-aaa5-de52452a63d0",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008053",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008055",
+      "greenhouse:amca:4425120009",
+      "smartrecruiters:BoschGroup:744000152706359",
+      "workday:caci:/job/Florham-Park-NJ-US/Software-Network-Engineering-Intern---Summer-2027_332895",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641581-1",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2641572-1",
+      "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731",
+      "smartrecruiters:WellmarkInc:744000152679699"
+    ]
   }
 }

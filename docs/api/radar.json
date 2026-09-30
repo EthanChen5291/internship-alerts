@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-30T09:14:44Z",
- "data_as_of": "2026-09-30T09:14:44Z",
- "rendered_at": "2026-09-30T09:14:45Z",
+ "generated_at": "2026-09-30T16:10:46Z",
+ "data_as_of": "2026-09-30T16:10:46Z",
+ "rendered_at": "2026-09-30T16:10:46Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -263,7 +263,7 @@
    "expected": "2026-07-08",
    "days_until": -84,
    "status": "open",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Embedded-Software-Engineer-Intern---Rolling-Meadows-IL_R10252790",
    "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
@@ -4053,6 +4053,25 @@
    }
   },
   {
+   "company": "POET",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-28",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-28",
+   "days_until": -2,
+   "status": "open",
+   "url": "https://poet.wd1.myworkdayjobs.com/POET/job/Sioux-Falls-SD/Software-Developer-Intern_R101786-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-28"
+   }
+  },
+  {
    "company": "Veterans United",
    "last_cycle_posted": "",
    "posted_on": "2026-09-28",
@@ -4069,6 +4088,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-28"
+   }
+  },
+  {
+   "company": "AMCA",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-29",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-29",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/amca/jobs/4425120009",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-29"
    }
   },
   {
@@ -7222,5 +7260,5 @@
    }
   }
  ],
- "count": 380
+ "count": 382
 }

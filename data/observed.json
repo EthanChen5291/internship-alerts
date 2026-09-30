@@ -239,6 +239,18 @@
     }
    }
   },
+  "amca": {
+   "name": "AMCA",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-29",
+     "role_ids": [
+      "greenhouse:amca:4425120009"
+     ],
+     "count": 1
+    }
+   }
+  },
   "american century investments": {
    "name": "American Century Investments",
    "cycles": {
@@ -826,6 +838,7 @@
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
       "workday:caci:/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798",
       "workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1",
+      "workday:caci:/job/Florham-Park-NJ-US/Software-Network-Engineering-Intern---Summer-2027_332895",
       "workday:caci:/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742",
       "workday:caci:/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776",
       "workday:caci:/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041",
@@ -836,7 +849,7 @@
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 14
+     "count": 15
     }
    }
   },
@@ -2751,7 +2764,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 23,
+     "count": 24,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -2775,7 +2788,8 @@
       "workday:ngc:/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
       "workday:ngc:/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Cyber-Systems-Engineer-Intern---Roy-UT_R10249471",
-      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842"
+      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10249842",
+      "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731"
      ]
     },
     "Fall 2026": {
@@ -3098,6 +3112,18 @@
      "first_posted": "2026-09-16",
      "role_ids": [
       "workday:plastipak:/job/Plastipak-GBTC---Plymouth-MI/Software-Engineering-Intern---Summer-2027_REQ24512"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "poet": {
+   "name": "POET",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-28",
+     "role_ids": [
+      "workday:poet:/job/Sioux-Falls-SD/Software-Developer-Intern_R101786-1"
      ],
      "count": 1
     }
@@ -3769,9 +3795,11 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1007876",
       "oracle:hdhl.fa.us6.oraclecloud.com:1007905",
       "oracle:hdhl.fa.us6.oraclecloud.com:1007919",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1007956"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1007956",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008053",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008055"
      ],
-     "count": 11
+     "count": 13
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -4531,5 +4559,5 @@
    }
   }
  },
- "updated_at": "2026-09-30T09:14:44Z"
+ "updated_at": "2026-09-30T16:10:46Z"
 }
