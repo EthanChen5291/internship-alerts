@@ -1,19 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:avav:/job/Leesburg-VA/Titan-SV-Software-Engineer-Intern_8901",
-      "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Embedded-Software-Engineer-Intern---Rolling-Meadows-IL_R10252790",
-      "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Digital-Intern---Rolling-Meadows-IL_R10252812"
-    ],
-    "telegram": [
-      "workday:avav:/job/Leesburg-VA/Titan-SV-Software-Engineer-Intern_8901",
-      "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Embedded-Software-Engineer-Intern---Rolling-Meadows-IL_R10252790",
-      "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Digital-Intern---Rolling-Meadows-IL_R10252812"
-    ],
-    "personal_email": [
-      "workday:avav:/job/Leesburg-VA/Titan-SV-Software-Engineer-Intern_8901",
-      "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Embedded-Software-Engineer-Intern---Rolling-Meadows-IL_R10252790",
-      "workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Digital-Intern---Rolling-Meadows-IL_R10252812"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
