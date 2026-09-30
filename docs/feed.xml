@@ -5,15 +5,31 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-09-30T02:37:37Z</updated>
+  <updated>2026-09-30T09:14:44Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:marvell:/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1</id>
-    <title>Marvell: Machine Learning Engineer Intern, BS/MS - Summer 2027</title>
-    <link href="https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1"/>
-    <updated>2026-09-30T02:37:37Z</updated>
+    <id>urn:intern-engine:workday:avav:/job/Leesburg-VA/Titan-SV-Software-Engineer-Intern_8901</id>
+    <title>Avav: Titan-SV Software Engineer Intern 🇺🇸</title>
+    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Leesburg-VA/Titan-SV-Software-Engineer-Intern_8901"/>
+    <updated>2026-09-30T09:14:44Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Leesburg, VA · Python, Java, C++, Linux, Git · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Embedded-Software-Engineer-Intern---Rolling-Meadows-IL_R10252790</id>
+    <title>Northrop Grumman: 2027 Embedded Software Engineer Intern – Rolling Meadows IL 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Embedded-Software-Engineer-Intern---Rolling-Meadows-IL_R10252790"/>
+    <updated>2026-09-30T09:14:44Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CA · Python, CUDA, AWS, GCP, Azure</summary>
+    <summary>Summer 2027 · Software · United States-Illinois-Rolling Meadows · $20.5–$37.25/hr · Java, C++, Git · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Digital-Intern---Rolling-Meadows-IL_R10252812</id>
+    <title>Northrop Grumman: 2027 Software Digital Intern - Rolling Meadows IL 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2027-Software-Digital-Intern---Rolling-Meadows-IL_R10252812"/>
+    <updated>2026-09-30T09:14:44Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States-Illinois-Rolling Meadows · $20.5–$37.25/hr · Python, C++, MATLAB, Verilog · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:muonspace:5252680007</id>
@@ -30,6 +46,14 @@
     <updated>2026-09-30T02:37:37Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-166 ~ 855 35Th St NE ~ BLDG 166 · Python, C++, Bash, Linux, Git · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:marvell:/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1</id>
+    <title>Marvell: Machine Learning Engineer Intern, BS/MS - Summer 2027</title>
+    <link href="https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2603860-1"/>
+    <updated>2026-09-30T02:37:37Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CA · Python, CUDA, AWS, GCP, Azure</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:avav:/job/Simi-Valley-CA/XMLNAME--Digital-Business-Technology-Infrastructure--DBT--Intern_8885</id>
@@ -782,29 +806,5 @@
     <updated>2026-09-24T23:26:05Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Lincoln, Nebraska, United States · Java, TypeScript, JavaScript, React, HTML/CSS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ameren:/job/St-Louis-MO/Intern--Robotics--AI--OT--Software-development-_033945-1</id>
-    <title>Ameren: Intern (Robotics, AI, OT, Software development)</title>
-    <link href="https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Intern--Robotics--AI--OT--Software-development-_033945-1"/>
-    <updated>2026-09-24T23:26:05Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · St. Louis, MO</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:jj:/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277</id>
-    <title>Johnson &amp; Johnson: Software Engineering Co-Op 🛂</title>
-    <link href="https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277"/>
-    <updated>2026-09-24T23:26:05Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Danvers, Massachusetts, United States of America · $23.5/hr · Rust, JavaScript, Angular, Linux, Git · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:reflect-orbital:c394615d-26c6-4435-ad84-3ca3269c2952</id>
-    <title>Reflect Orbital: Ground Software Engineering Intern</title>
-    <link href="https://jobs.ashbyhq.com/reflect-orbital/c394615d-26c6-4435-ad84-3ca3269c2952"/>
-    <updated>2026-09-24T20:14:51Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Hawthorne, CA · $27 – $31 per hour · Python, C++, AWS, Kubernetes, Linux</summary>
   </entry>
 </feed>

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-30T02:37:37Z",
- "data_as_of": "2026-09-30T02:37:37Z",
- "rendered_at": "2026-09-30T02:37:37Z",
+ "generated_at": "2026-09-30T09:14:44Z",
+ "data_as_of": "2026-09-30T09:14:44Z",
+ "rendered_at": "2026-09-30T09:14:45Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2487,6 +2487,25 @@
    "days_until": -22,
    "status": "open",
    "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/USGAAtlanta2018-Powers-Ferry-Rd/Water-Infrastructure-Engineering-Intern---Summer-2027_R-163480-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
+   "company": "C.H. Robinson",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -22,
+   "status": "open",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -6896,25 +6915,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-03"
-   }
-  },
-  {
-   "company": "C.H. Robinson",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -22,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
    }
   },
   {
