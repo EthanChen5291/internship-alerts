@@ -1,7 +1,28 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:costar:/job/Sunnyvale-US/Embedded-Software-Engineering-Intern_R39950",
+      "greenhouse:gassouth:8247622",
+      "workday:hmhw:/job/Houston-TX/AI---Automation-Development-Intern_JR102458",
+      "workday:nordsonhcm:/job/USA---Minnesota---Minneapolis---5900-Golden-Hills-Drive/Software-Intern_REQ52945",
+      "workday:nordsonhcm:/job/USA---Rhode-Island---East-Providence/Intern--Software-Engineering-_REQ53006",
+      "greenhouse:walleyecapital-external-students:4716166006"
+    ],
+    "telegram": [
+      "workday:costar:/job/Sunnyvale-US/Embedded-Software-Engineering-Intern_R39950",
+      "greenhouse:gassouth:8247622",
+      "workday:hmhw:/job/Houston-TX/AI---Automation-Development-Intern_JR102458",
+      "workday:nordsonhcm:/job/USA---Minnesota---Minneapolis---5900-Golden-Hills-Drive/Software-Intern_REQ52945",
+      "workday:nordsonhcm:/job/USA---Rhode-Island---East-Providence/Intern--Software-Engineering-_REQ53006",
+      "greenhouse:walleyecapital-external-students:4716166006"
+    ],
+    "personal_email": [
+      "workday:costar:/job/Sunnyvale-US/Embedded-Software-Engineering-Intern_R39950",
+      "greenhouse:gassouth:8247622",
+      "workday:hmhw:/job/Houston-TX/AI---Automation-Development-Intern_JR102458",
+      "workday:nordsonhcm:/job/USA---Minnesota---Minneapolis---5900-Golden-Hills-Drive/Software-Intern_REQ52945",
+      "workday:nordsonhcm:/job/USA---Rhode-Island---East-Providence/Intern--Software-Engineering-_REQ53006",
+      "greenhouse:walleyecapital-external-students:4716166006"
+    ]
   }
 }

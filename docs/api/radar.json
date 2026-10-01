@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-01T19:47:59Z",
- "data_as_of": "2026-10-01T19:47:59Z",
- "rendered_at": "2026-10-01T19:47:59Z",
+ "generated_at": "2026-10-01T23:42:15Z",
+ "data_as_of": "2026-10-01T23:42:15Z",
+ "rendered_at": "2026-10-01T23:42:15Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1631,7 +1631,7 @@
    "expected": "2026-08-31",
    "days_until": -31,
    "status": "open",
-   "url": "https://caci.wd1.myworkdayjobs.com/external/job/Colorado-Springs-CO-US/Software-Test-Engineer-Intern---Summer-2027_332003",
+   "url": "https://caci.wd1.myworkdayjobs.com/external/job/Ashburn-VA-US/AI-Prompt-Engineer-High-School-Intern---Summer-2027_332816-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2682,6 +2682,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-08"
+   }
+  },
+  {
+   "company": "HMH",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-09",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-09",
+   "days_until": -22,
+   "status": "open",
+   "url": "https://hmhw.wd12.myworkdayjobs.com/hmh_careers/job/Houston-TX/AI---Automation-Development-Intern_JR102458",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-09"
    }
   },
   {
@@ -4253,7 +4272,7 @@
    "expected": "2026-10-01",
    "days_until": 0,
    "status": "open",
-   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8138090",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7838577",
    "note": "opens late summer for next year",
    "provenance": {
     "type": "engine-observed",
@@ -7105,25 +7124,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-08"
-   }
-  },
-  {
-   "company": "HMH",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-09",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-09",
-   "days_until": -22,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-09"
    }
   },
   {
