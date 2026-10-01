@@ -1,7 +1,19 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:marvell:/job/IN---Pune/Intern--Software-QA-Engineer_2603892",
+      "greenhouse:vardaspace:8005821003",
+      "greenhouse:vardaspace:8010159003"
+    ],
+    "telegram": [
+      "workday:marvell:/job/IN---Pune/Intern--Software-QA-Engineer_2603892",
+      "greenhouse:vardaspace:8005821003",
+      "greenhouse:vardaspace:8010159003"
+    ],
+    "personal_email": [
+      "workday:marvell:/job/IN---Pune/Intern--Software-QA-Engineer_2603892",
+      "greenhouse:vardaspace:8005821003",
+      "greenhouse:vardaspace:8010159003"
+    ]
   }
 }
