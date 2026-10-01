@@ -1,7 +1,19 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workable:raveaerospace:739753C003",
+      "workday:allegion:/job/Golden-CO/Summer-Intern---Summer-Intern---Software-Engineering---Quality-Assurance_JR37856-1",
+      "greenhouse:genscript:5253581007"
+    ],
+    "telegram": [
+      "workable:raveaerospace:739753C003",
+      "workday:allegion:/job/Golden-CO/Summer-Intern---Summer-Intern---Software-Engineering---Quality-Assurance_JR37856-1",
+      "greenhouse:genscript:5253581007"
+    ],
+    "personal_email": [
+      "workable:raveaerospace:739753C003",
+      "workday:allegion:/job/Golden-CO/Summer-Intern---Summer-Intern---Software-Engineering---Quality-Assurance_JR37856-1",
+      "greenhouse:genscript:5253581007"
+    ]
   }
 }
