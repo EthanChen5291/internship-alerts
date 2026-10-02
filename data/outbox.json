@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:profluent:5441955008"
-    ],
-    "telegram": [
-      "greenhouse:profluent:5441955008"
-    ],
-    "personal_email": [
-      "greenhouse:profluent:5441955008"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
