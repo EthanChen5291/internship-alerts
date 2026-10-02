@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-02T02:47:03Z",
- "data_as_of": "2026-10-02T02:47:03Z",
- "rendered_at": "2026-10-02T02:47:03Z",
+ "generated_at": "2026-10-02T09:11:08Z",
+ "data_as_of": "2026-10-02T09:11:08Z",
+ "rendered_at": "2026-10-02T09:11:08Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3683,7 +3683,7 @@
    "expected": "2026-09-17",
    "days_until": -15,
    "status": "open",
-   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1",
+   "url": "https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4253,7 +4253,7 @@
    "expected": "2026-10-01",
    "days_until": -1,
    "status": "open",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicle--Simulation_JR-202621508",
    "note": "fall opening",
    "provenance": {
     "type": "engine-observed",

@@ -5,15 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-02T02:47:03Z</updated>
+  <updated>2026-10-02T09:11:08Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503</id>
-    <title>General Motors: 2027 Summer Intern - Software Engineer, Autonomous Vehicle: Simulation</title>
-    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503"/>
-    <updated>2026-10-02T02:47:03Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Sunnyvale, California, United States of America · Python, C++ · H-1B track record: ~928 approvals (FY2022–2023)</summary>
+    <id>urn:intern-engine:greenhouse:profluent:5441955008</id>
+    <title>Profluent: Intern, Software Engineering</title>
+    <link href="https://job-boards.greenhouse.io/profluent/jobs/5441955008"/>
+    <updated>2026-10-02T09:11:08Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Emeryville, California, United States · Python</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicle--Simulation_JR-202621508</id>
@@ -22,6 +22,14 @@
     <updated>2026-10-02T02:47:03Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, Java, C++, PyTorch, TensorFlow · H-1B track record: ~928 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503</id>
+    <title>General Motors: 2027 Summer Intern - Software Engineer, Autonomous Vehicle: Simulation</title>
+    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503"/>
+    <updated>2026-10-02T02:47:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Sunnyvale, California, United States of America · Python, C++ · H-1B track record: ~928 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:gassouth:8247622</id>
@@ -626,7 +634,7 @@
   <entry>
     <id>urn:intern-engine:workday:marvell:/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848-1</id>
     <title>Marvell: AI-Native Development Platform Engineer Intern, MS - Summer 2027</title>
-    <link href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848-1"/>
+    <link href="https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848"/>
     <updated>2026-09-29T14:39:55Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CA · Python, Java, C#, TypeScript, JavaScript</summary>
@@ -798,13 +806,5 @@
     <updated>2026-09-28T21:36:03Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Sioux Falls, SD · C#, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:upbound:/job/Plano-TX/Cybersecurity-Intern_R-100776</id>
-    <title>Upbound Group: Cybersecurity Intern</title>
-    <link href="https://upbound.wd501.myworkdayjobs.com/Upbound/job/Plano-TX/Cybersecurity-Intern_R-100776"/>
-    <updated>2026-09-28T21:36:03Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Plano, TX · $23/hr · Python, SQL, Pandas, LLMs, Git</summary>
   </entry>
 </feed>
