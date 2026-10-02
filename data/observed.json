@@ -238,7 +238,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 9,
+     "count": 10,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -248,7 +248,8 @@
       "amazon:amazon:10557133",
       "amazon:amazon:10559746",
       "amazon:amazon:10559762",
-      "amazon:amazon:10565667"
+      "amazon:amazon:10565667",
+      "amazon:amazon:10567914"
      ]
     }
    }
@@ -623,9 +624,10 @@
      "role_ids": [
       "ashby:bedrock-robotics:0331551e-c18e-428a-8e91-e6cb25c9c2e8",
       "ashby:bedrock-robotics:8927dd7e-a48d-49a2-92eb-09ec059432f4",
+      "ashby:bedrock-robotics:96a6423e-7439-4cb4-9109-117b14e47f7c",
       "ashby:bedrock-robotics:c51d682e-58ee-44de-886f-4cfacb56d2e1"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -862,6 +864,7 @@
       "workday:caci:/job/Ashburn-VA-US/AI-Prompt-Engineer-High-School-Intern---Summer-2027_332816-1",
       "workday:caci:/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_332790",
       "workday:caci:/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051",
+      "workday:caci:/job/Austin-TX-US/Software-Engineer-Intern---Summer-2027_333037",
       "workday:caci:/job/Colorado-Springs-CO-US/Software-Test-Engineer-Intern---Summer-2027_332003",
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
@@ -881,7 +884,7 @@
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 21
+     "count": 22
     }
    }
   },
@@ -1232,6 +1235,7 @@
      "role_ids": [
       "workday:cox:/job/Atlanta-GA/AI-Automation-Intern---Summer-2027_R202682342",
       "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202682288",
+      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202683372",
       "workday:cox:/job/Atlanta-GA/Infrastructure-Automation-Intern---Summer-2027_R202682338",
       "workday:cox:/job/Atlanta-GA/Infrastructure-Operations-Intern---Summer-2027_R202682357",
       "workday:cox:/job/Atlanta-GA/Software-Engineering-Intern---Summer-2027--Atlanta--GA-_R202682166",
@@ -1241,7 +1245,7 @@
       "workday:cox:/job/Irvine-CA/Software-Engineering-Intern---Summer-2027--Irvine--CA-_R202682173",
       "workday:cox:/job/Long-Island-NY/Software-Engineering-Intern---Summer-2027--North-Hills--NY-_R202682171-1"
      ],
-     "count": 10
+     "count": 11
     }
    }
   },
@@ -1999,6 +2003,18 @@
     }
    }
   },
+  "harvey": {
+   "name": "Harvey",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-02",
+     "role_ids": [
+      "ashby:harvey:06d64648-b84b-48ae-94a2-d9c06dfdcb5d"
+     ],
+     "count": 1
+    }
+   }
+  },
   "heliux": {
    "name": "Heliux",
    "cycles": {
@@ -2460,6 +2476,7 @@
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00192858",
+      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193804",
       "workday:leidos:/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
       "workday:leidos:/job/Bethesda-MD/Software-Developer-Co-op_R-00190766",
       "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00192042",
@@ -2469,7 +2486,7 @@
       "workday:leidos:/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664",
       "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 12
+     "count": 13
     }
    }
   },
@@ -2645,6 +2662,18 @@
     }
    }
   },
+  "mill": {
+   "name": "Mill",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-09-24",
+     "role_ids": [
+      "greenhouse:mill:4737741005"
+     ],
+     "count": 1
+    }
+   }
+  },
   "momentive": {
    "name": "Momentive",
    "cycles": {
@@ -2811,9 +2840,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-10",
      "role_ids": [
+      "workday:nelnet:/job/Lincoln-NE/Intern---IT-Software-Engineer-NET--Summer-2027-_R23198",
       "workday:nelnet:/job/Lincoln-NE/Intern---Software-Engineer---New-Ventures---Starting-Summer-2026_R23098"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4621,6 +4651,18 @@
     }
    }
   },
+  "xai": {
+   "name": "xAI",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-02",
+     "role_ids": [
+      "greenhouse:xai:5255111007"
+     ],
+     "count": 1
+    }
+   }
+  },
   "xantium": {
    "name": "Xantium",
    "cycles": {
@@ -4705,5 +4747,5 @@
    }
   }
  },
- "updated_at": "2026-10-02T16:04:44Z"
+ "updated_at": "2026-10-02T20:55:49Z"
 }

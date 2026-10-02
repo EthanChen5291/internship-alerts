@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-02T16:04:44Z",
- "data_as_of": "2026-10-02T16:04:44Z",
- "rendered_at": "2026-10-02T16:04:45Z",
+ "generated_at": "2026-10-02T20:55:49Z",
+ "data_as_of": "2026-10-02T20:55:49Z",
+ "rendered_at": "2026-10-02T20:55:50Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -282,7 +282,7 @@
    "expected": "2026-07-08",
    "days_until": -86,
    "status": "open",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs-CO_R10254007",
    "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
@@ -3806,25 +3806,6 @@
    }
   },
   {
-   "company": "Fidelity Investments",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-21",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-21",
-   "days_until": -11,
-   "status": "open",
-   "url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Equity-Quantitative-Research-Team_2135122",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-21"
-   }
-  },
-  {
    "company": "Formlabsinternships",
    "last_cycle_posted": "",
    "posted_on": "2026-09-21",
@@ -4278,6 +4259,44 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-01"
+   }
+  },
+  {
+   "company": "Harvey",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/harvey/06d64648-b84b-48ae-94a2-d9c06dfdcb5d",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-02"
+   }
+  },
+  {
+   "company": "xAI",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-02",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/xai/jobs/5255111007",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-02"
    }
   },
   {
@@ -7317,6 +7336,25 @@
    }
   },
   {
+   "company": "Fidelity Investments",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-21",
+   "days_until": -11,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-21"
+   }
+  },
+  {
    "company": "Genesis Molecular AI",
    "last_cycle_posted": "",
    "posted_on": "2026-09-24",
@@ -7374,5 +7412,5 @@
    }
   }
  ],
- "count": 388
+ "count": 390
 }

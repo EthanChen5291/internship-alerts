@@ -1,7 +1,43 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "amazon:amazon:10567914",
+      "ashby:bedrock-robotics:96a6423e-7439-4cb4-9109-117b14e47f7c",
+      "ashby:harvey:06d64648-b84b-48ae-94a2-d9c06dfdcb5d",
+      "workday:caci:/job/Austin-TX-US/Software-Engineer-Intern---Summer-2027_333037",
+      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202683372",
+      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193804",
+      "workday:leidos:/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193770",
+      "greenhouse:mill:4737741005",
+      "greenhouse:natera:6188497004",
+      "workday:nelnet:/job/Lincoln-NE/Intern---IT-Software-Engineer-NET--Summer-2027-_R23198",
+      "greenhouse:xai:5255111007"
+    ],
+    "telegram": [
+      "amazon:amazon:10567914",
+      "ashby:bedrock-robotics:96a6423e-7439-4cb4-9109-117b14e47f7c",
+      "ashby:harvey:06d64648-b84b-48ae-94a2-d9c06dfdcb5d",
+      "workday:caci:/job/Austin-TX-US/Software-Engineer-Intern---Summer-2027_333037",
+      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202683372",
+      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193804",
+      "workday:leidos:/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193770",
+      "greenhouse:mill:4737741005",
+      "greenhouse:natera:6188497004",
+      "workday:nelnet:/job/Lincoln-NE/Intern---IT-Software-Engineer-NET--Summer-2027-_R23198",
+      "greenhouse:xai:5255111007"
+    ],
+    "personal_email": [
+      "amazon:amazon:10567914",
+      "ashby:bedrock-robotics:96a6423e-7439-4cb4-9109-117b14e47f7c",
+      "ashby:harvey:06d64648-b84b-48ae-94a2-d9c06dfdcb5d",
+      "workday:caci:/job/Austin-TX-US/Software-Engineer-Intern---Summer-2027_333037",
+      "workday:cox:/job/Atlanta-GA/Cybersecurity-Intern---Summer-2027_R202683372",
+      "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193804",
+      "workday:leidos:/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193770",
+      "greenhouse:mill:4737741005",
+      "greenhouse:natera:6188497004",
+      "workday:nelnet:/job/Lincoln-NE/Intern---IT-Software-Engineer-NET--Summer-2027-_R23198",
+      "greenhouse:xai:5255111007"
+    ]
   }
 }
