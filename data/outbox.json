@@ -1,40 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "ashby:range:5fe3697d-b5b3-4772-9de4-1551cb726718",
-      "lever:shopback-2:640ac3fb-dae5-4738-95b9-9cb80cc7ad15",
-      "lever:shopback-2:e5f5e276-e7f7-43e0-a224-5259d242fe98",
-      "workday:aba:/job/US-DC-Main-Office/Intern--Quantitative-Research_R614",
-      "workday:aba:/job/US-DC-Main-Office/Intern--Cybersecurity-Policy-Analyst_R611",
-      "workday:caci:/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051",
-      "workday:caci:/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046",
-      "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333034-1",
-      "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333001",
-      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship-Risk---Security-Engineer--PA-_182784"
-    ],
-    "telegram": [
-      "ashby:range:5fe3697d-b5b3-4772-9de4-1551cb726718",
-      "lever:shopback-2:640ac3fb-dae5-4738-95b9-9cb80cc7ad15",
-      "lever:shopback-2:e5f5e276-e7f7-43e0-a224-5259d242fe98",
-      "workday:aba:/job/US-DC-Main-Office/Intern--Quantitative-Research_R614",
-      "workday:aba:/job/US-DC-Main-Office/Intern--Cybersecurity-Policy-Analyst_R611",
-      "workday:caci:/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051",
-      "workday:caci:/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046",
-      "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333034-1",
-      "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333001",
-      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship-Risk---Security-Engineer--PA-_182784"
-    ],
-    "personal_email": [
-      "ashby:range:5fe3697d-b5b3-4772-9de4-1551cb726718",
-      "lever:shopback-2:640ac3fb-dae5-4738-95b9-9cb80cc7ad15",
-      "lever:shopback-2:e5f5e276-e7f7-43e0-a224-5259d242fe98",
-      "workday:aba:/job/US-DC-Main-Office/Intern--Quantitative-Research_R614",
-      "workday:aba:/job/US-DC-Main-Office/Intern--Cybersecurity-Policy-Analyst_R611",
-      "workday:caci:/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051",
-      "workday:caci:/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046",
-      "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333034-1",
-      "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333001",
-      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship-Risk---Security-Engineer--PA-_182784"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
