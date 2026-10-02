@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-02T09:11:08Z",
- "data_as_of": "2026-10-02T09:11:08Z",
- "rendered_at": "2026-10-02T09:11:08Z",
+ "generated_at": "2026-10-02T16:04:44Z",
+ "data_as_of": "2026-10-02T16:04:44Z",
+ "rendered_at": "2026-10-02T16:04:45Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1442,25 +1442,6 @@
    "days_until": -36,
    "status": "open",
    "url": "https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Boston-Massachusetts/Summer-Intern-2027---AI_JR26081682",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-27"
-   }
-  },
-  {
-   "company": "Workiva",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-27",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-27",
-   "days_until": -36,
-   "status": "open",
-   "url": "https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2932,25 +2913,6 @@
    }
   },
   {
-   "company": "Hudl",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-10",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-10",
-   "days_until": -22,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/hudl/jobs/8155102",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-10"
-   }
-  },
-  {
    "company": "National Information Solutions Cooperative (NISC)",
    "last_cycle_posted": "",
    "posted_on": "2026-09-10",
@@ -3683,7 +3645,7 @@
    "expected": "2026-09-17",
    "days_until": -15,
    "status": "open",
-   "url": "https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3803,25 +3765,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-19"
-   }
-  },
-  {
-   "company": "Acima",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-21",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-21",
-   "days_until": -11,
-   "status": "open",
-   "url": "https://upbound.wd501.myworkdayjobs.com/Acima/job/Draper-UT/Software-Engineer-Intern_R-100759-1",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-21"
    }
   },
   {
@@ -6956,6 +6899,25 @@
    }
   },
   {
+   "company": "Workiva",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-27",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-27",
+   "days_until": -36,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-27"
+   }
+  },
+  {
    "company": "Bosch",
    "last_cycle_posted": "",
    "posted_on": "2026-08-31",
@@ -7124,6 +7086,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-08"
+   }
+  },
+  {
+   "company": "Hudl",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-10",
+   "days_until": -22,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-10"
    }
   },
   {
@@ -7314,6 +7295,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-17"
+   }
+  },
+  {
+   "company": "Acima",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-21",
+   "days_until": -11,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-21"
    }
   },
   {

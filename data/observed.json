@@ -861,23 +861,27 @@
      "role_ids": [
       "workday:caci:/job/Ashburn-VA-US/AI-Prompt-Engineer-High-School-Intern---Summer-2027_332816-1",
       "workday:caci:/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_332790",
+      "workday:caci:/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051",
       "workday:caci:/job/Colorado-Springs-CO-US/Software-Test-Engineer-Intern---Summer-2027_332003",
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Spring---Summer-2027_331356-1",
       "workday:caci:/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
       "workday:caci:/job/Denver-CO-US/DevOps-Software-Engineering-Intern---Summer-2027_331798",
       "workday:caci:/job/Denver-CO-US/Software-Engineering-Intern---Summer-2027_331543-1",
       "workday:caci:/job/Florham-Park-NJ-US/Software-Network-Engineering-Intern---Summer-2027_332895",
+      "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333001",
+      "workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333034-1",
       "workday:caci:/job/Lisle-IL-US/Software-Engineering-Intern---Summer-2027_331742",
       "workday:caci:/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776",
       "workday:caci:/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041",
       "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
       "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
+      "workday:caci:/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046",
       "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466",
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332372",
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 17
+     "count": 21
     }
    }
   },
@@ -4283,9 +4287,10 @@
       "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_177682-1",
       "workday:vanguard:/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_181765",
       "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_177680-1",
-      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_181766"
+      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship---Data-Science--PA-_181766",
+      "workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship-Risk---Security-Engineer--PA-_182784"
      ],
-     "count": 6
+     "count": 7
     }
    }
   },
@@ -4700,5 +4705,5 @@
    }
   }
  },
- "updated_at": "2026-10-02T09:11:08Z"
+ "updated_at": "2026-10-02T16:04:44Z"
 }
