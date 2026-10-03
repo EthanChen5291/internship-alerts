@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workable:disa-technologies:73E7609B99"
-    ],
-    "telegram": [
-      "workable:disa-technologies:73E7609B99"
-    ],
-    "personal_email": [
-      "workable:disa-technologies:73E7609B99"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
