@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-03T00:39:12Z",
- "data_as_of": "2026-10-03T00:39:12Z",
- "rendered_at": "2026-10-03T00:39:12Z",
+ "generated_at": "2026-10-03T05:53:33Z",
+ "data_as_of": "2026-10-03T05:53:33Z",
+ "rendered_at": "2026-10-03T05:53:33Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3730,25 +3730,6 @@
    }
   },
   {
-   "company": "Brown Brothers Harriman",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-19",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-19",
-   "days_until": -14,
-   "status": "open",
-   "url": "https://bbh.wd5.myworkdayjobs.com/BBH/job/New-York/XMLNAME-2027-Internal-Audit---Information-Technology---Cybersecurity-Summer-Internship_72899",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-19"
-   }
-  },
-  {
    "company": "Commerce Bank",
    "last_cycle_posted": "",
    "posted_on": "2026-09-21",
@@ -4110,25 +4091,6 @@
    }
   },
   {
-   "company": "Dandy",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-30",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-30",
-   "days_until": -3,
-   "status": "open",
-   "url": "https://jobs.ashbyhq.com/dandy/d43558e9-8e51-4980-b00d-39275063f099",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-30"
-   }
-  },
-  {
    "company": "ATC",
    "last_cycle_posted": "",
    "posted_on": "2026-10-01",
@@ -4253,7 +4215,7 @@
    "expected": "2026-10-02",
    "days_until": -1,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/8011590003",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/8008645003",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4292,6 +4254,25 @@
    "days_until": -1,
    "status": "open",
    "url": "https://jobs.ashbyhq.com/harvey/06d64648-b84b-48ae-94a2-d9c06dfdcb5d",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-02"
+   }
+  },
+  {
+   "company": "HNTB",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-02",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Austin-TX/Intern---AI-Business-Process-Developer--Summer-2027-_R-31865-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -7355,6 +7336,25 @@
    }
   },
   {
+   "company": "Brown Brothers Harriman",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-19",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-19",
+   "days_until": -14,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-19"
+   }
+  },
+  {
    "company": "Acima",
    "last_cycle_posted": "",
    "posted_on": "2026-09-21",
@@ -7448,7 +7448,26 @@
     "cycle": "Summer 2027",
     "observed_on": "2026-09-25"
    }
+  },
+  {
+   "company": "Dandy",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-30",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-30",
+   "days_until": -3,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-30"
+   }
   }
  ],
- "count": 392
+ "count": 393
 }
