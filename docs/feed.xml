@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-03T11:52:29Z</updated>
+  <updated>2026-10-03T15:33:43Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workable:disa-technologies:73E7609B99</id>
+    <title>DISA Technologies: Data Engineering &amp; ML Intern</title>
+    <link href="https://apply.workable.com/disa-technologies/j/73E7609B99/"/>
+    <updated>2026-10-03T15:33:43Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Casper, Wyoming, United States (Hybrid) · Python, SQL, Pandas</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:cadence:/job/HOME-CA/AI---Agentic-AI---GenAI-Intern---IT--Fall-2026-_R56657</id>
     <title>Cadence Design Systems: AI / Agentic AI / GenAI Intern – IT (Fall 2026)</title>
@@ -798,13 +806,5 @@
     <updated>2026-09-29T19:54:27Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Torrance, CA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:nike:/job/Beaverton-Oregon/NIKE--Inc-AI---Machine-Learning--Innovation-Graduate-Internship_R-94412</id>
-    <title>Nike: NIKE, Inc. AI &amp; Machine Learning, Innovation Graduate Internship</title>
-    <link href="https://nike.wd1.myworkdayjobs.com/nke/job/Beaverton-Oregon/NIKE--Inc-AI---Machine-Learning--Innovation-Graduate-Internship_R-94412"/>
-    <updated>2026-09-29T19:54:27Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Beaverton, Oregon · Python, PyTorch, TensorFlow, scikit-learn, Pandas · H-1B track record: ~484 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
