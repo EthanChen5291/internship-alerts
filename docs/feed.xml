@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-03T22:24:55Z</updated>
+  <updated>2026-10-04T00:46:18Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Co-Op---AI-DSP-Applied-Research_01873016</id>
+    <title>RTX: Co-Op - AI DSP Applied Research 🇺🇸</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Co-Op---AI-DSP-Applied-Research_01873016"/>
+    <updated>2026-10-04T00:46:18Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · US-IA-CEDAR RAPIDS-108 ~ 400 Collins Rd NE ~ BLDG 108 · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workable:disa-technologies:73E7609B99</id>
     <title>DISA Technologies: Data Engineering &amp; ML Intern</title>
@@ -19,9 +27,9 @@
     <id>urn:intern-engine:workday:cadence:/job/HOME-CA/AI---Agentic-AI---GenAI-Intern---IT--Fall-2026-_R56657</id>
     <title>Cadence Design Systems: AI / Agentic AI / GenAI Intern – IT (Fall 2026)</title>
     <link href="https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/HOME-CA/AI---Agentic-AI---GenAI-Intern---IT--Fall-2026-_R56657"/>
-    <updated>2026-10-03T05:53:33Z</updated>
+    <updated>2026-10-04T00:46:18Z</updated>
     <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · HOME CA · LLMs, Python, Pandas, Git · H-1B track record: ~331 approvals (FY2022–2023)</summary>
+    <summary>Fall 2026 · Data &amp; ML/AI · HOME CA · LLMs, Python, Pandas, Git · status: closed · H-1B track record: ~331 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:hntb:/job/Austin-TX/Intern---AI-Business-Process-Developer--Summer-2027-_R-31865-1</id>
@@ -798,13 +806,5 @@
     <updated>2026-09-29T19:54:27Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Data &amp; ML/AI · Buffalo, NY</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:moog:/job/Torrance-CA/Intern--Software-Engineering_R-26-19948</id>
-    <title>Moog: Intern, Software Engineering</title>
-    <link href="https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Torrance-CA/Intern--Software-Engineering_R-26-19948"/>
-    <updated>2026-09-29T19:54:27Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Torrance, CA</summary>
   </entry>
 </feed>
