@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-04T17:41:07Z",
- "data_as_of": "2026-10-04T17:41:07Z",
- "rendered_at": "2026-10-04T17:41:08Z",
+ "generated_at": "2026-10-04T20:41:24Z",
+ "data_as_of": "2026-10-04T20:41:24Z",
+ "rendered_at": "2026-10-04T20:41:24Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -4281,6 +4281,25 @@
    }
   },
   {
+   "company": "Primient",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-04",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://primient.wd1.myworkdayjobs.com/External_Careers/job/Schaumburg-IL/AI-Analyst-Intern---Summer-2027_JREQ7056",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-04"
+   }
+  },
+  {
    "company": "APEX Analytix",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -7469,5 +7488,5 @@
    }
   }
  ],
- "count": 393
+ "count": 394
 }
