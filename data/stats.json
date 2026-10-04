@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T20:41:24Z",
-  "fetched_at": "2026-10-04T20:41:24Z",
-  "duration_seconds": 1104.8,
+  "generated_at": "2026-10-04T23:49:50Z",
+  "fetched_at": "2026-10-04T23:49:50Z",
+  "duration_seconds": 1074.5,
   "companies_total": 4970,
   "companies_by_source": {
     "greenhouse": 1102,
@@ -18,28 +18,27 @@
     "microsoft_program": 1,
     "eightfold": 1
   },
-  "quarantined": 241,
-  "fetched_ok": 4488,
-  "fetch_errors": 241,
+  "quarantined": 261,
+  "fetched_ok": 4532,
+  "fetch_errors": 177,
   "errors_by_source": {
-    "workday": 153,
-    "greenhouse": 4,
-    "ashby": 4,
-    "workable": 80
+    "workday": 100,
+    "rippling": 1,
+    "workable": 75,
+    "ashby": 1
   },
-  "fetch_success_rate": 0.949,
-  "fetch_success_rate_registry": 0.903,
-  "snapshots_complete": 3910,
-  "snapshots_partial": 578,
+  "fetch_success_rate": 0.962,
+  "fetch_success_rate_registry": 0.912,
+  "snapshots_complete": 3937,
+  "snapshots_partial": 595,
   "partial_by_reason": {
-    "result-cap": 574,
-    "malformed-response": 3,
-    "pagination-stalled": 1
+    "result-cap": 594,
+    "malformed-response": 1
   },
-  "degraded_fetches": 4,
-  "roles_matched": 657,
-  "dropped_no_year_in_title": 458,
-  "dropped_offcycle_by_text": 186,
+  "degraded_fetches": 1,
+  "roles_matched": 695,
+  "dropped_no_year_in_title": 469,
+  "dropped_offcycle_by_text": 184,
   "roles_cycle_inferred": 309,
   "roles_by_source": {
     "amazon": 7,
@@ -68,15 +67,15 @@
     "no-sponsorship": 113
   },
   "posted_date_coverage": 0.991,
-  "enriched_this_run": 90,
-  "enrichment_detail_fetches": 1,
+  "enriched_this_run": 89,
+  "enrichment_detail_fetches": 0,
   "purged_this_run": 0,
-  "new_this_run": 1,
+  "new_this_run": 0,
   "open_total": 975,
   "detection_latency": {
-    "median_minutes": 190.3,
+    "median_minutes": 191.8,
     "p95_minutes": 1215.8,
-    "sample_size": 42,
+    "sample_size": 41,
     "window_days": 7,
     "basis": "roles published in the window with an exact source timestamp"
   },
@@ -84,5 +83,5 @@
     "median_days": 11.0,
     "sample_size": 242
   },
-  "rendered_at": "2026-10-04T20:41:24Z"
+  "rendered_at": "2026-10-04T23:49:50Z"
 }
