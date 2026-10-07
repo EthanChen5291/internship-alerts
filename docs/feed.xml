@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-07T00:02:36Z</updated>
+  <updated>2026-10-07T06:02:22Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10571374</id>
+    <title>Amazon: Software Development Engineer (Embedded Systems) Intern, Amazon Leo - Summer 2027 (USA) 🇺🇸</title>
+    <link href="https://www.amazon.jobs/en/jobs/10571374/software-development-engineer-embedded-systems-intern-amazon-leo-summer-2027-usa"/>
+    <updated>2026-10-07T06:02:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Redmond, Washington, USA · Python, Java, C++, C#, Rust · sponsorship: citizens-only · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Artificial-Intelligence--Operations--Undergraduate-Intern_J287476</id>
+    <title>Highmark Health: Summer 2027 Artificial Intelligence (Operations) Undergraduate Intern 🛂</title>
+    <link href="https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Artificial-Intelligence--Operations--Undergraduate-Intern_J287476"/>
+    <updated>2026-10-07T06:02:22Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Pittsburgh PA, 15222, FAP, 5th Avenue Place · sponsorship: no-sponsorship · H-1B track record: ~92 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:sigmacomputing:8001295003</id>
+    <title>Sigma Computing: Software Engineering Intern (Summer 2027) 🛂</title>
+    <link href="https://job-boards.greenhouse.io/sigmacomputing/jobs/8001295003"/>
+    <updated>2026-10-07T00:02:36Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York, NY · $50/hr · Python, Java, JavaScript, SQL, Databricks · sponsorship: no-sponsorship · H-1B track record: ~24 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:waymo:8257660</id>
+    <title>Waymo: 2027 Summer Intern, BS, Software Engineer, Model Eval</title>
+    <link href="https://careers.withwaymo.com/jobs?gh_jid=8257660"/>
+    <updated>2026-10-07T00:02:36Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Mountain View, CA, USA · Python, C++, LLMs · H-1B track record: ~284 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:avav:/job/Germantown-MD/Hypersonic-RF-Software-Engineering-Intern_8993</id>
     <title>Avav: Hypersonic RF Software Engineering Intern 🇺🇸</title>
@@ -30,22 +62,6 @@
     <updated>2026-10-07T00:02:36Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Arlington, VA · Python, Java, C++, Rust, TypeScript · sponsorship: citizens-only · H-1B track record: ~79 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:sigmacomputing:8001295003</id>
-    <title>Sigma Computing: Software Engineering Intern (Summer 2027) 🛂</title>
-    <link href="https://job-boards.greenhouse.io/sigmacomputing/jobs/8001295003"/>
-    <updated>2026-10-07T00:02:36Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY · $50/hr · Python, Java, JavaScript, SQL, Databricks · sponsorship: no-sponsorship · H-1B track record: ~24 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:waymo:8257660</id>
-    <title>Waymo: 2027 Summer Intern, BS, Software Engineer, Model Eval</title>
-    <link href="https://careers.withwaymo.com/jobs?gh_jid=8257660"/>
-    <updated>2026-10-07T00:02:36Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Mountain View, CA, USA · Python, C++, LLMs · H-1B track record: ~284 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10571004</id>
@@ -790,21 +806,5 @@
     <updated>2026-10-01T19:47:59Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Los Angeles, USA · Java, C++, C#, Git, Unreal · sponsorship: no-sponsorship · H-1B track record: ~93 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:stripe:8194291</id>
-    <title>Stripe: Data Analyst, Intern</title>
-    <link href="https://stripe.com/jobs/search?gh_jid=8194291"/>
-    <updated>2026-10-01T19:47:59Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · New York, Seattle, South San Francisco HQ · SQL · H-1B track record: ~441 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40677</id>
-    <title>Nokia: AI R&amp;D Engineer Co-op</title>
-    <link href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40677"/>
-    <updated>2026-10-01T19:47:59Z</updated>
-    <category term="Not stated"/>
-    <summary>16 openings · Not stated · Data &amp; ML/AI · United States · PyTorch, TensorFlow, Kafka</summary>
   </entry>
 </feed>
