@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-07T06:02:22Z",
- "data_as_of": "2026-10-07T06:02:22Z",
- "rendered_at": "2026-10-07T06:02:23Z",
+ "generated_at": "2026-10-07T13:30:42Z",
+ "data_as_of": "2026-10-07T13:30:42Z",
+ "rendered_at": "2026-10-07T13:30:42Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -269,6 +269,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-07-05"
+   }
+  },
+  {
+   "company": "Northrop Grumman",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-08",
+   "days_until": -91,
+   "status": "open",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1",
+   "note": "fall opening, many roles need clearance",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-08"
    }
   },
   {
@@ -6778,25 +6797,6 @@
    "status": "dropped",
    "url": "",
    "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-08"
-   }
-  },
-  {
-   "company": "Northrop Grumman",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-08",
-   "days_until": -91,
-   "status": "dropped",
-   "url": "",
-   "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",

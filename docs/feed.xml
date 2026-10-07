@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-07T06:02:22Z</updated>
+  <updated>2026-10-07T13:30:42Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1</id>
+    <title>Northrop Grumman: 2027 Software Developer Intern- Chantilly VA 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1"/>
+    <updated>2026-10-07T13:30:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States-Virginia-Chantilly · $21.5–$39/hr · Python, Java, C++, C#, JavaScript · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10254852</id>
+    <title>Northrop Grumman: 2027 Software Engineering Intern - Roy UT 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10254852"/>
+    <updated>2026-10-07T13:30:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · Python, Java, C++, Git, Tableau · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:tenstorrentuniversity:5258901007</id>
+    <title>Tenstorrent: AI Software Intern</title>
+    <link href="https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5258901007"/>
+    <updated>2026-10-07T13:30:42Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Austin, Texas, United States; Santa Clara, California, United States · $50/hr · Python, C++, PyTorch, TensorFlow, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:tenstorrentuniversity:5256686007</id>
+    <title>Tenstorrent: AI SW Intern, Cloud, Infrastructure &amp; Data Centre Deployment</title>
+    <link href="https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256686007"/>
+    <updated>2026-10-07T13:30:42Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Austin, Texas, United States; Santa Clara, California, United States · $50/hr · Python, Bash, Kubernetes, Linux</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10571374</id>
     <title>Amazon: Software Development Engineer (Embedded Systems) Intern, Amazon Leo - Summer 2027 (USA) 🇺🇸</title>
@@ -774,37 +806,5 @@
     <updated>2026-10-01T19:47:59Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Quant · Chicago, IL, United States · Python</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:pinterest:7838577</id>
-    <title>Pinterest: Software Engineer Intern 2027 (USA)</title>
-    <link href="https://www.pinterestcareers.com/jobs/?gh_jid=7838577"/>
-    <updated>2026-10-01T19:47:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA, US; Remote, US · Python, Java, C++, TypeScript, JavaScript · H-1B track record: ~343 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:pinterest:8138090</id>
-    <title>Pinterest: Master's Machine Learning Internship 2027 (USA)</title>
-    <link href="https://www.pinterestcareers.com/jobs/?gh_jid=8138090"/>
-    <updated>2026-10-01T19:47:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US · Python, Java, C++, PyTorch, TensorFlow · H-1B track record: ~343 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:pinterest:8140217</id>
-    <title>Pinterest: UX Quantitative Research Intern (USA)  *Remote</title>
-    <link href="https://www.pinterestcareers.com/jobs/?gh_jid=8140217"/>
-    <updated>2026-10-01T19:47:59Z</updated>
-    <category term="Summer 2026"/>
-    <summary>Summer 2026 · Quant · Remote, US · Python, SQL · status: closed · H-1B track record: ~343 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:riotgamesup:8222015</id>
-    <title>Riot Games: Software Engineering Intern - Summer 2027 (Remote) 🛂</title>
-    <link href="https://job-boards.greenhouse.io/riotgamesup/jobs/8222015"/>
-    <updated>2026-10-01T19:47:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Los Angeles, USA · Java, C++, C#, Git, Unreal · sponsorship: no-sponsorship · H-1B track record: ~93 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
