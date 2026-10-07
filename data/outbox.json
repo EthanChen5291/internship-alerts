@@ -1,22 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:ngc:/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1",
-      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10254852",
-      "greenhouse:tenstorrentuniversity:5258901007",
-      "greenhouse:tenstorrentuniversity:5256686007"
-    ],
-    "telegram": [
-      "workday:ngc:/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1",
-      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10254852",
-      "greenhouse:tenstorrentuniversity:5258901007",
-      "greenhouse:tenstorrentuniversity:5256686007"
-    ],
-    "personal_email": [
-      "workday:ngc:/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1",
-      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10254852",
-      "greenhouse:tenstorrentuniversity:5258901007",
-      "greenhouse:tenstorrentuniversity:5256686007"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
