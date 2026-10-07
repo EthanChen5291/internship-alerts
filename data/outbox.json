@@ -1,7 +1,33 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
+    "discord": [
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40806",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40807",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40812",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40808",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40809",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40810",
+      "workday:avav:/job/Germantown-MD/Hypersonic-RF-Software-Engineering-Intern_8993",
+      "workday:entrust:/job/United-States---Shakopee-MN-GHQ/Software-Engineer-Co-op_R004416",
+      "workday:leidos:/job/Arlington-VA/Software-Engineer-Intern_R-00193933",
+      "greenhouse:sigmacomputing:8001295003",
+      "workday:maxar:/job/Remote-United-States/AI-Engineer-Intern_R24605",
+      "greenhouse:waymo:8257660"
+    ],
+    "telegram": [
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40806",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40807",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40812",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40808",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40809",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40810",
+      "workday:avav:/job/Germantown-MD/Hypersonic-RF-Software-Engineering-Intern_8993",
+      "workday:entrust:/job/United-States---Shakopee-MN-GHQ/Software-Engineer-Co-op_R004416",
+      "workday:leidos:/job/Arlington-VA/Software-Engineer-Intern_R-00193933",
+      "greenhouse:sigmacomputing:8001295003",
+      "workday:maxar:/job/Remote-United-States/AI-Engineer-Intern_R24605",
+      "greenhouse:waymo:8257660"
+    ],
     "personal_email": [
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01871884",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01874696",
@@ -16,7 +42,19 @@
       "workday:wexinc:/job/US---Remote/Backend-Software-Engineer-Intern---Java---AI--Master-s-_R22547",
       "workday:wexinc:/job/US---Remote/Backend-Software-Engineer-Intern---C--Java---AI-Workflows--Undergraduate-_R22586",
       "workday:wexinc:/job/US---Remote/Backend-Software-Engineer-Intern---C---Cloud-Security---AI--Undergraduate-_R22589",
-      "workday:wexinc:/job/US---Remote/Software-Engineering-Intern---Enterprise-Data---Systems--Salesforce---Snowflake---Graduate-Master-s-_R22543"
+      "workday:wexinc:/job/US---Remote/Software-Engineering-Intern---Enterprise-Data---Systems--Salesforce---Snowflake---Graduate-Master-s-_R22543",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40806",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40807",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40812",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40808",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40809",
+      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:40810",
+      "workday:avav:/job/Germantown-MD/Hypersonic-RF-Software-Engineering-Intern_8993",
+      "workday:entrust:/job/United-States---Shakopee-MN-GHQ/Software-Engineer-Co-op_R004416",
+      "workday:leidos:/job/Arlington-VA/Software-Engineer-Intern_R-00193933",
+      "greenhouse:sigmacomputing:8001295003",
+      "workday:maxar:/job/Remote-United-States/AI-Engineer-Intern_R24605",
+      "greenhouse:waymo:8257660"
     ]
   }
 }

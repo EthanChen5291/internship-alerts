@@ -2617,6 +2617,7 @@
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00192858",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193804",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00193914",
+      "workday:leidos:/job/Arlington-VA/Software-Engineer-Intern_R-00193933",
       "workday:leidos:/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
       "workday:leidos:/job/Bethesda-MD/Software-Developer-Co-op_R-00190766",
       "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00192042",
@@ -2626,7 +2627,7 @@
       "workday:leidos:/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664",
       "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 14
+     "count": 15
     }
    }
   },
@@ -4047,6 +4048,18 @@
     }
    }
   },
+  "sigma computing": {
+   "name": "Sigma Computing",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-06",
+     "role_ids": [
+      "greenhouse:sigmacomputing:8001295003"
+     ],
+     "count": 1
+    }
+   }
+  },
   "singlestore": {
    "name": "SingleStore",
    "cycles": {
@@ -4819,9 +4832,10 @@
       "greenhouse:waymo:8221198",
       "greenhouse:waymo:8224900",
       "greenhouse:waymo:8238525",
-      "greenhouse:waymo:8257237"
+      "greenhouse:waymo:8257237",
+      "greenhouse:waymo:8257660"
      ],
-     "count": 9
+     "count": 10
     }
    }
   },
@@ -4973,5 +4987,5 @@
    }
   }
  },
- "updated_at": "2026-10-06T20:05:30Z"
+ "updated_at": "2026-10-07T00:02:36Z"
 }
