@@ -5,15 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-08T06:08:20Z</updated>
+  <updated>2026-10-08T13:38:52Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:axos:/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647</id>
-    <title>Axos Bank: Software Development Intern</title>
-    <link href="https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647"/>
-    <updated>2026-10-08T06:08:20Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · HQ - San Diego, CA · SQL</summary>
+    <id>urn:intern-engine:greenhouse:doordashusa:8263774</id>
+    <title>DoorDash: Software Engineer, Intern - Labs (Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/doordashusa/jobs/8263774"/>
+    <updated>2026-10-08T13:38:52Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Francisco, CA; Sunnyvale, CA · Python, Java, SQL, Kotlin, Computer Vision · H-1B track record: ~685 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:ruggedrobotics:4730908005</id>
+    <title>Rugged Robotics: Robotic Software Intern/Co-op (Spring or Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/ruggedrobotics/jobs/4730908005"/>
+    <updated>2026-10-08T13:38:52Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Houston, TX · Python, C++</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:axos:/job/HQ---San-Diego-CA/AI-Engineer-Intern_JR5658</id>
@@ -22,6 +30,14 @@
     <updated>2026-10-08T06:08:20Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · HQ - San Diego, CA · SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:axos:/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647</id>
+    <title>Axos Bank: Software Development Intern</title>
+    <link href="https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647"/>
+    <updated>2026-10-08T06:08:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · HQ - San Diego, CA · SQL</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:motorolasolutions:/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997</id>
@@ -59,9 +75,9 @@
     <id>urn:intern-engine:workday:dtna:/job/Portland-OR-US/Powertrain-Vehicle-Software-and-Efficiency-Intern_DT-20105</id>
     <title>Daimler Truck: Powertrain Vehicle Software and Efficiency Intern</title>
     <link href="https://dtna.wd5.myworkdayjobs.com/dtna_affiliate/job/Portland-OR-US/Powertrain-Vehicle-Software-and-Efficiency-Intern_DT-20105"/>
-    <updated>2026-10-08T00:03:26Z</updated>
+    <updated>2026-10-08T13:38:52Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Portland, OR US</summary>
+    <summary>Not stated · Software · Portland, OR US · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:hpe:/job/Spring-Texas-United-States-of-America/AI-Performance-Engineering-Intern_1213417</id>
@@ -790,21 +806,5 @@
     <updated>2026-10-02T16:04:44Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Security · US DC Main Office · $30/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aba:/job/US-DC-Main-Office/Intern--Quantitative-Research_R614</id>
-    <title>American Bankers Association: Intern, Quantitative Research</title>
-    <link href="https://aba.wd1.myworkdayjobs.com/aba/job/US-DC-Main-Office/Intern--Quantitative-Research_R614"/>
-    <updated>2026-10-02T16:04:44Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Quant · US DC Main Office · $25/hr · Python</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:caci:/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333001</id>
-    <title>CACI: Network / Cybersecurity Intern - Summer 2027</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/High-Point-NC-US/Network---Cybersecurity-Intern---Summer-2027_333001"/>
-    <updated>2026-10-02T16:04:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Security · High Point, NC, US</summary>
   </entry>
 </feed>

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-08T06:08:20Z",
- "data_as_of": "2026-10-08T06:08:20Z",
- "rendered_at": "2026-10-08T06:08:21Z",
+ "generated_at": "2026-10-08T13:38:52Z",
+ "data_as_of": "2026-10-08T13:38:52Z",
+ "rendered_at": "2026-10-08T13:38:53Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -4547,6 +4547,25 @@
    }
   },
   {
+   "company": "Rugged Robotics",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-08",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/ruggedrobotics/jobs/4730908005",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-08"
+   }
+  },
+  {
    "company": "APEX Analytix",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -7773,5 +7792,5 @@
    }
   }
  ],
- "count": 409
+ "count": 410
 }

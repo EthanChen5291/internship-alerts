@@ -1462,9 +1462,10 @@
      "first_posted": "2026-09-14",
      "role_ids": [
       "greenhouse:doordashusa:8171041",
-      "greenhouse:doordashusa:8204111"
+      "greenhouse:doordashusa:8204111",
+      "greenhouse:doordashusa:8263774"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -3862,6 +3863,18 @@
     }
    }
   },
+  "rugged robotics": {
+   "name": "Rugged Robotics",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-08",
+     "role_ids": [
+      "greenhouse:ruggedrobotics:4730908005"
+     ],
+     "count": 1
+    }
+   }
+  },
   "s c electric": {
    "name": "S&C Electric Company",
    "cycles": {
@@ -5023,5 +5036,5 @@
    }
   }
  },
- "updated_at": "2026-10-08T06:08:20Z"
+ "updated_at": "2026-10-08T13:38:52Z"
 }
