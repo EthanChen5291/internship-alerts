@@ -5,15 +5,63 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-07T19:48:09Z</updated>
+  <updated>2026-10-08T00:03:26Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:mastercard:/job/Arlington-Virginia/Security-Infrastructure-Engineering---Architecture-Intern--Summer-2027---Arlington--VA--US_R-284924</id>
-    <title>Mastercard: Security Infrastructure Engineering &amp; Architecture Intern, Summer 2027 – Arlington, VA, US</title>
-    <link href="https://mastercard.wd1.myworkdayjobs.com/Campus/job/Arlington-Virginia/Security-Infrastructure-Engineering---Architecture-Intern--Summer-2027---Arlington--VA--US_R-284924"/>
+    <id>urn:intern-engine:amazon:amazon:10553907</id>
+    <title>Amazon: Data Engineer Internship - 2027 (US)</title>
+    <link href="https://www.amazon.jobs/en/jobs/10553907/data-engineer-internship-2027-us"/>
+    <updated>2026-10-08T00:03:26Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Seattle, Washington, USA · Python, SQL, Scala, AWS, Hadoop · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:dtna:/job/Portland-OR-US/Powertrain-Vehicle-Software-and-Efficiency-Intern_DT-20105</id>
+    <title>Daimler Truck: Powertrain Vehicle Software and Efficiency Intern</title>
+    <link href="https://dtna.wd5.myworkdayjobs.com/dtna_affiliate/job/Portland-OR-US/Powertrain-Vehicle-Software-and-Efficiency-Intern_DT-20105"/>
+    <updated>2026-10-08T00:03:26Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Portland, OR US</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hpe:/job/Spring-Texas-United-States-of-America/AI-Performance-Engineering-Intern_1213417</id>
+    <title>Hewlett Packard Enterprise: AI Performance Engineering Intern</title>
+    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/AI-Performance-Engineering-Intern_1213417"/>
+    <updated>2026-10-08T00:03:26Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Spring, Texas, United States of America · Python, PyTorch, TensorFlow, LLMs, CUDA · H-1B track record: ~499 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:motorolasolutions:/job/Chicago-IL/GenAI---Machine-Learning---2027-Summer-Internship--Chicago-Hybrid-_R68929</id>
+    <title>Motorola: GenAI &amp; Machine Learning - 2027 Summer Internship (Chicago Hybrid) 🛂</title>
+    <link href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/GenAI---Machine-Learning---2027-Summer-Internship--Chicago-Hybrid-_R68929"/>
+    <updated>2026-10-08T00:03:26Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Chicago, IL · LLMs, Python, scikit-learn, Pandas, AWS · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215</id>
+    <title>Nissan: Digital Products &amp; AI Strategy Intern - Summer 2027 - Franklin, TN 🛂</title>
+    <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215"/>
+    <updated>2026-10-08T00:03:26Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Franklin, Tennessee - United States of America · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:pdtpartners:8263031</id>
+    <title>PDT Partners: Summer 2027 Quantitative Research Intern</title>
+    <link href="https://job-boards.greenhouse.io/pdtpartners/jobs/8263031"/>
+    <updated>2026-10-08T00:03:26Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Quant · New York, NY · Python, C++, MATLAB</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01879726</id>
+    <title>RTX: Software Engineering Co-op (Spring/Summer 2027)</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01879726"/>
     <updated>2026-10-07T19:48:08Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Arlington, Virginia · $35–$46/hr · Python, Java</summary>
+    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-130 ~ 5350 C Ave NE ~ BLDG 130 · C++, Linux</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer-Fall-2027-_01879738</id>
@@ -24,12 +72,12 @@
     <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-130 ~ 5350 C Ave NE ~ BLDG 130 · C++, Linux</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01879726</id>
-    <title>RTX: Software Engineering Co-op (Spring/Summer 2027)</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01879726"/>
+    <id>urn:intern-engine:workday:mastercard:/job/Arlington-Virginia/Security-Infrastructure-Engineering---Architecture-Intern--Summer-2027---Arlington--VA--US_R-284924</id>
+    <title>Mastercard: Security Infrastructure Engineering &amp; Architecture Intern, Summer 2027 – Arlington, VA, US</title>
+    <link href="https://mastercard.wd1.myworkdayjobs.com/Campus/job/Arlington-Virginia/Security-Infrastructure-Engineering---Architecture-Intern--Summer-2027---Arlington--VA--US_R-284924"/>
     <updated>2026-10-07T19:48:08Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-130 ~ 5350 C Ave NE ~ BLDG 130 · C++, Linux</summary>
+    <summary>Summer 2027 · Security · Arlington, Virginia · $35–$46/hr · Python, Java</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:tenstorrentuniversity:5256686007</id>
@@ -149,7 +197,7 @@
     <link href="https://jobs.ashbyhq.com/tensorwave/34dd183d-4423-40e3-bb6d-790b5dafc731"/>
     <updated>2026-10-06T20:05:30Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Las Vegas, Nevada</summary>
+    <summary>Not stated · Software · Las Vegas, Nevada · Git</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:tensorwave:39091eeb-13fc-46a7-b7e5-0d4584ac53ab</id>
@@ -480,6 +528,14 @@
     <summary>Summer 2027 · Quant · New York, New York · Python</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:workday:marvell:/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2604989-1</id>
+    <title>Marvell: Machine Learning Engineer Intern, BS/MS - Summer 2027</title>
+    <link href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Machine-Learning-Engineer-Intern--BS-MS---Summer-2027_2604989-1"/>
+    <updated>2026-10-06T20:05:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CA · Python, CUDA, AWS, GCP, Azure</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:workday:micron:/job/Boise-ID---Main-Site/Intern---SMAI-TD-AI-Engineering-Team_JR112991</id>
     <title>Micron Technology: Intern - SMAI TD AI Engineering Team</title>
     <link href="https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---SMAI-TD-AI-Engineering-Team_JR112991"/>
@@ -750,61 +806,5 @@
     <updated>2026-10-02T09:11:08Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Emeryville, California, United States · Python</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicle--Simulation_JR-202621508</id>
-    <title>General Motors: 2027 Summer Intern - AI/ML Engineer, Autonomous Vehicle: Simulation</title>
-    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicle--Simulation_JR-202621508"/>
-    <updated>2026-10-02T02:47:03Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, Java, C++, PyTorch, TensorFlow · H-1B track record: ~928 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503</id>
-    <title>General Motors: 2027 Summer Intern - Software Engineer, Autonomous Vehicle: Simulation</title>
-    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503"/>
-    <updated>2026-10-02T02:47:03Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Sunnyvale, California, United States of America · Python, C++ · H-1B track record: ~928 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:gassouth:8247622</id>
-    <title>Gas South: Software Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/gassouth/jobs/8247622"/>
-    <updated>2026-10-01T23:42:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Atlanta, Georgia · C#, SQL, Angular, HTML/CSS, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:walleyecapital-external-students:4716166006</id>
-    <title>Walleye Capital: Special Projects Developer Intern (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4716166006"/>
-    <updated>2026-10-01T23:42:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, New York · Python, SQL, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:costar:/job/Sunnyvale-US/Embedded-Software-Engineering-Intern_R39950</id>
-    <title>CoStar Group: Embedded Software Engineering Intern 🛂</title>
-    <link href="https://costar.wd1.myworkdayjobs.com/Costar_Campus/job/Sunnyvale-US/Embedded-Software-Engineering-Intern_R39950"/>
-    <updated>2026-10-01T23:42:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Sunnyvale (US) · Python, C++, MATLAB, PyTorch, TensorFlow · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hmhw:/job/Houston-TX/AI---Automation-Development-Intern_JR102458</id>
-    <title>HMH: AI &amp; Automation Development Intern</title>
-    <link href="https://hmhw.wd12.myworkdayjobs.com/hmh_careers/job/Houston-TX/AI---Automation-Development-Intern_JR102458"/>
-    <updated>2026-10-01T23:42:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Houston, TX · Python, SQL, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:nordsonhcm:/job/USA---Minnesota---Minneapolis---5900-Golden-Hills-Drive/Software-Intern_REQ52945</id>
-    <title>Nordson: Software Intern</title>
-    <link href="https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---Minnesota---Minneapolis---5900-Golden-Hills-Drive/Software-Intern_REQ52945"/>
-    <updated>2026-10-01T23:42:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · USA - Minnesota - Minneapolis - 5900 Golden Hills Drive · Python, C++, C#, MATLAB, CUDA</summary>
   </entry>
 </feed>

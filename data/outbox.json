@@ -1,7 +1,28 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "amazon:amazon:10553907",
+      "workday:dtna:/job/Portland-OR-US/Powertrain-Vehicle-Software-and-Efficiency-Intern_DT-20105",
+      "workday:hpe:/job/Spring-Texas-United-States-of-America/AI-Performance-Engineering-Intern_1213417",
+      "workday:motorolasolutions:/job/Chicago-IL/GenAI---Machine-Learning---2027-Summer-Internship--Chicago-Hybrid-_R68929",
+      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215",
+      "greenhouse:pdtpartners:8263031"
+    ],
+    "telegram": [
+      "amazon:amazon:10553907",
+      "workday:dtna:/job/Portland-OR-US/Powertrain-Vehicle-Software-and-Efficiency-Intern_DT-20105",
+      "workday:hpe:/job/Spring-Texas-United-States-of-America/AI-Performance-Engineering-Intern_1213417",
+      "workday:motorolasolutions:/job/Chicago-IL/GenAI---Machine-Learning---2027-Summer-Internship--Chicago-Hybrid-_R68929",
+      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215",
+      "greenhouse:pdtpartners:8263031"
+    ],
+    "personal_email": [
+      "amazon:amazon:10553907",
+      "workday:dtna:/job/Portland-OR-US/Powertrain-Vehicle-Software-and-Efficiency-Intern_DT-20105",
+      "workday:hpe:/job/Spring-Texas-United-States-of-America/AI-Performance-Engineering-Intern_1213417",
+      "workday:motorolasolutions:/job/Chicago-IL/GenAI---Machine-Learning---2027-Summer-Internship--Chicago-Hybrid-_R68929",
+      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215",
+      "greenhouse:pdtpartners:8263031"
+    ]
   }
 }
