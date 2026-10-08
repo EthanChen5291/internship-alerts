@@ -1,16 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:doordashusa:8263774",
-      "greenhouse:ruggedrobotics:4730908005"
-    ],
-    "telegram": [
-      "greenhouse:doordashusa:8263774",
-      "greenhouse:ruggedrobotics:4730908005"
-    ],
-    "personal_email": [
-      "greenhouse:doordashusa:8263774",
-      "greenhouse:ruggedrobotics:4730908005"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
