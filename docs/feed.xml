@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-08T00:03:26Z</updated>
+  <updated>2026-10-08T06:08:20Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:axos:/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647</id>
+    <title>Axos Bank: Software Development Intern</title>
+    <link href="https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647"/>
+    <updated>2026-10-08T06:08:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · HQ - San Diego, CA · SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:axos:/job/HQ---San-Diego-CA/AI-Engineer-Intern_JR5658</id>
+    <title>Axos Bank: AI Engineer Intern</title>
+    <link href="https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/AI-Engineer-Intern_JR5658"/>
+    <updated>2026-10-08T06:08:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · HQ - San Diego, CA · SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:motorolasolutions:/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997</id>
+    <title>Motorola: Software Engineer - Summer 2027 Internship</title>
+    <link href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997"/>
+    <updated>2026-10-08T06:08:20Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Westminster, CO · C#, SQL, Angular</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10553907</id>
     <title>Amazon: Data Engineer Internship - 2027 (US)</title>
@@ -14,6 +38,22 @@
     <updated>2026-10-08T00:03:26Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Seattle, Washington, USA · Python, SQL, Scala, AWS, Hadoop · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:pdtpartners:8263031</id>
+    <title>PDT Partners: Summer 2027 Quantitative Research Intern</title>
+    <link href="https://job-boards.greenhouse.io/pdtpartners/jobs/8263031"/>
+    <updated>2026-10-08T00:03:26Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Quant · New York, NY · Python, C++, MATLAB</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215</id>
+    <title>Nissan: Digital Products &amp; AI Strategy Intern - Summer 2027 - Franklin, TN 🛂</title>
+    <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215"/>
+    <updated>2026-10-08T00:03:26Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Franklin, Tennessee - United States of America · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:dtna:/job/Portland-OR-US/Powertrain-Vehicle-Software-and-Efficiency-Intern_DT-20105</id>
@@ -38,22 +78,6 @@
     <updated>2026-10-08T00:03:26Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Chicago, IL · LLMs, Python, scikit-learn, Pandas, AWS · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215</id>
-    <title>Nissan: Digital Products &amp; AI Strategy Intern - Summer 2027 - Franklin, TN 🛂</title>
-    <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215"/>
-    <updated>2026-10-08T00:03:26Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Franklin, Tennessee - United States of America · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:pdtpartners:8263031</id>
-    <title>PDT Partners: Summer 2027 Quantitative Research Intern</title>
-    <link href="https://job-boards.greenhouse.io/pdtpartners/jobs/8263031"/>
-    <updated>2026-10-08T00:03:26Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · New York, NY · Python, C++, MATLAB</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01879726</id>
@@ -782,29 +806,5 @@
     <updated>2026-10-02T16:04:44Z</updated>
     <category term="Summer 2027"/>
     <summary>2 openings · Summer 2027 · Security · High Point, NC, US</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:caci:/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046</id>
-    <title>CACI: Cyber Security Intern - Summer 2027 🇺🇸</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046"/>
-    <updated>2026-10-02T16:04:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Springfield, VA, US · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:vanguard:/job/Malvern-PA/College-to-Corporate-IT-Internship-Risk---Security-Engineer--PA-_182784</id>
-    <title>Vanguard: College to Corporate IT Internship-Risk &amp; Security Engineer (PA)</title>
-    <link href="https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship-Risk---Security-Engineer--PA-_182784"/>
-    <updated>2026-10-02T16:04:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Malvern, PA</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:profluent:5441955008</id>
-    <title>Profluent: Intern, Software Engineering</title>
-    <link href="https://job-boards.greenhouse.io/profluent/jobs/5441955008"/>
-    <updated>2026-10-02T09:11:08Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Emeryville, California, United States · Python</summary>
   </entry>
 </feed>
