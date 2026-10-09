@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-09T06:11:38Z",
- "data_as_of": "2026-10-09T06:11:38Z",
- "rendered_at": "2026-10-09T06:11:39Z",
+ "generated_at": "2026-10-09T13:24:20Z",
+ "data_as_of": "2026-10-09T13:24:20Z",
+ "rendered_at": "2026-10-09T13:24:20Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3836,25 +3836,6 @@
    "days_until": -14,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/machindustries/jobs/4420626009",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-25"
-   }
-  },
-  {
-   "company": "Solar Turbines",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-25",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-25",
-   "days_until": -14,
-   "status": "open",
-   "url": "https://cat.wd5.myworkdayjobs.com/solarturbines/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -7793,6 +7774,25 @@
   },
   {
    "company": "RRS Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-25",
+   "days_until": -14,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-25"
+   }
+  },
+  {
+   "company": "Solar Turbines",
    "last_cycle_posted": "",
    "posted_on": "2026-09-25",
    "precision": "day",

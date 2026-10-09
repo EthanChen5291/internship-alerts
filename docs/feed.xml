@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-09T06:11:38Z</updated>
+  <updated>2026-10-09T13:24:20Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:jci:/job/Burlington-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_EB00075408</id>
+    <title>Johnson Controls: Software Engineering Co-Op</title>
+    <link href="https://jci.wd5.myworkdayjobs.com/JCI/job/Burlington-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_EB00075408"/>
+    <updated>2026-10-09T13:24:20Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Software · Burlington-Massachusetts-United States of America · Python, C++, JavaScript, Bash, React · status: closed · H-1B track record: ~104 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aptiv:/job/USA-Walnut-Creek-CA---WR/Embedded-Software---Engineering-Intern_J000704386</id>
+    <title>Aptiv: Embedded Software - Engineering Intern 🇺🇸</title>
+    <link href="https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Walnut-Creek-CA---WR/Embedded-Software---Engineering-Intern_J000704386"/>
+    <updated>2026-10-09T13:24:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · USA Walnut Creek, CA - WR · Linux · sponsorship: citizens-only · H-1B track record: ~251 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aptiv:/job/USA-Walnut-Creek-CA---WR/Intern---Compiler-Team_J000704385</id>
+    <title>Aptiv: Intern - Compiler Team</title>
+    <link href="https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Walnut-Creek-CA---WR/Intern---Compiler-Team_J000704385"/>
+    <updated>2026-10-09T13:24:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · USA Walnut Creek, CA - WR · Python, Bash, Linux, Git · H-1B track record: ~251 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aptiv:/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704398</id>
+    <title>Aptiv: Linux Software Development Intern</title>
+    <link href="https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704398"/>
+    <updated>2026-10-09T13:24:20Z</updated>
+    <category term="Not stated"/>
+    <summary>2 openings · Not stated · Software · USA Home Office - WR · Linux, Python, C++, Git · H-1B track record: ~251 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:lever:viget:b18cc87d-fca2-485a-a0f2-ad6197db63f2</id>
     <title>Viget: Software Developer Intern (2027) 🛂</title>
@@ -241,7 +273,7 @@
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:tenstorrentuniversity:5256686007</id>
-    <title>Tenstorrent: AI SW Intern, Cloud, Infrastructure &amp; Data Centre Deployment</title>
+    <title>Tenstorrent: AI Software Intern - Cloud, Infrastructure &amp; Data Centre Deployment (USA)</title>
     <link href="https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256686007"/>
     <updated>2026-10-07T13:30:42Z</updated>
     <category term="Not stated"/>
@@ -249,7 +281,7 @@
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:tenstorrentuniversity:5258901007</id>
-    <title>Tenstorrent: AI Software Intern</title>
+    <title>Tenstorrent: AI Software Intern (USA)</title>
     <link href="https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5258901007"/>
     <updated>2026-10-07T13:30:42Z</updated>
     <category term="Not stated"/>
@@ -774,37 +806,5 @@
     <updated>2026-10-03T05:53:33Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Austin, TX · Python, C#, SQL · sponsorship: no-sponsorship · H-1B track record: ~30 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:affirm:8008645003</id>
-    <title>Affirm: Software Engineer (Machine Learning) Intern (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/affirm/jobs/8008645003"/>
-    <updated>2026-10-03T00:39:12Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, California, United States · Python, Java, C++, JavaScript, React · H-1B track record: ~158 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:affirm:8011590003</id>
-    <title>Affirm: Software Engineer Intern (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/affirm/jobs/8011590003"/>
-    <updated>2026-10-03T00:39:12Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, California, United States · Python, Java, C++, JavaScript, React · H-1B track record: ~158 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:arcboatcompany:5442881008</id>
-    <title>Arc: Software Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/arcboatcompany/jobs/5442881008"/>
-    <updated>2026-10-03T00:39:12Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Torrance, CA · $42/hr · Python, TypeScript, AWS, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--AV-AI-Platform_JR-202621695</id>
-    <title>General Motors: 2027 Summer Intern – Machine Learning Engineer, AV/AI Platform</title>
-    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--AV-AI-Platform_JR-202621695"/>
-    <updated>2026-10-03T00:39:12Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, C++, PyTorch, LLMs, Computer Vision · H-1B track record: ~928 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
