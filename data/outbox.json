@@ -1,22 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "lever:viget:b18cc87d-fca2-485a-a0f2-ad6197db63f2",
-      "workday:badgermeter:/job/US----CA---Escondido-Facility/Software-Engineering-Intern_4645",
-      "workday:centific:/job/Remote-Work-USA/AI-Research-Intern----Physical-AI_JR108131-1",
-      "workday:jj:/job/Spring-House-Pennsylvania-United-States-of-America/AI-Excellence--Decision-Enablement-Intern_R-102881"
-    ],
-    "telegram": [
-      "lever:viget:b18cc87d-fca2-485a-a0f2-ad6197db63f2",
-      "workday:badgermeter:/job/US----CA---Escondido-Facility/Software-Engineering-Intern_4645",
-      "workday:centific:/job/Remote-Work-USA/AI-Research-Intern----Physical-AI_JR108131-1",
-      "workday:jj:/job/Spring-House-Pennsylvania-United-States-of-America/AI-Excellence--Decision-Enablement-Intern_R-102881"
-    ],
-    "personal_email": [
-      "lever:viget:b18cc87d-fca2-485a-a0f2-ad6197db63f2",
-      "workday:badgermeter:/job/US----CA---Escondido-Facility/Software-Engineering-Intern_4645",
-      "workday:centific:/job/Remote-Work-USA/AI-Research-Intern----Physical-AI_JR108131-1",
-      "workday:jj:/job/Spring-House-Pennsylvania-United-States-of-America/AI-Excellence--Decision-Enablement-Intern_R-102881"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
