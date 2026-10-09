@@ -1,46 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "oracle:edbz.fa.us2.oraclecloud.com:25012948",
-      "greenhouse:arcesiumllc:5257199007",
-      "workday:barrywehmiller:/job/Dallas-TX/Software-Engineering-Intern---DAL_R023133",
-      "smartrecruiters:BoschGroup:744000154759734",
-      "smartrecruiters:BoschGroup:744000154757409",
-      "greenhouse:gcmgrosvenor:8015792003",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146",
-      "greenhouse:schonfeld:8267092",
-      "greenhouse:schonfeld:8267120"
-    ],
-    "telegram": [
-      "oracle:edbz.fa.us2.oraclecloud.com:25012948",
-      "greenhouse:arcesiumllc:5257199007",
-      "workday:barrywehmiller:/job/Dallas-TX/Software-Engineering-Intern---DAL_R023133",
-      "smartrecruiters:BoschGroup:744000154759734",
-      "smartrecruiters:BoschGroup:744000154757409",
-      "greenhouse:gcmgrosvenor:8015792003",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146",
-      "greenhouse:schonfeld:8267092",
-      "greenhouse:schonfeld:8267120"
-    ],
-    "personal_email": [
-      "oracle:edbz.fa.us2.oraclecloud.com:25012948",
-      "greenhouse:arcesiumllc:5257199007",
-      "workday:barrywehmiller:/job/Dallas-TX/Software-Engineering-Intern---DAL_R023133",
-      "smartrecruiters:BoschGroup:744000154759734",
-      "smartrecruiters:BoschGroup:744000154757409",
-      "greenhouse:gcmgrosvenor:8015792003",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132",
-      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146",
-      "greenhouse:schonfeld:8267092",
-      "greenhouse:schonfeld:8267120"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
