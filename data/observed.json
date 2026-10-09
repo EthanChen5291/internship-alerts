@@ -348,9 +348,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-05",
      "role_ids": [
+      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39404",
       "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -5109,5 +5110,5 @@
    }
   }
  },
- "updated_at": "2026-10-09T19:05:02Z"
+ "updated_at": "2026-10-09T23:28:25Z"
 }

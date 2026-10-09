@@ -5,23 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-09T19:05:02Z</updated>
+  <updated>2026-10-09T23:28:25Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:greenhouse:faire:8870975002</id>
-    <title>Faire: Applied AI/ML Scientist, Intern</title>
-    <link href="https://boards.greenhouse.io/faire/jobs/8870975002?gh_jid=8870975002"/>
-    <updated>2026-10-09T19:05:02Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Data &amp; ML/AI · San Francisco, CA · Python, SQL, PyTorch · status: closed</summary>
+    <id>urn:intern-engine:greenhouse:arcesiumllc:5257176007</id>
+    <title>Arcesium: Software Engineer Intern</title>
+    <link href="https://job-boards.greenhouse.io/arcesiumllc/jobs/5257176007"/>
+    <updated>2026-10-09T23:28:25Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · New York · Java, TypeScript, SQL, Kotlin, AWS · H-1B track record: ~11 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:edbz.fa.us2.oraclecloud.com:25012948</id>
-    <title>Texas Instruments: Software Engineering Intern (Longmont, CO) 🛂</title>
-    <link href="https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25012948"/>
-    <updated>2026-10-09T19:05:02Z</updated>
+    <id>urn:intern-engine:smartrecruiters:Loram1:3743990016031492</id>
+    <title>Loram: Machine Learning / Artificial Intelligence (AI) Intern</title>
+    <link href="https://jobs.smartrecruiters.com/Loram1/3743990016031492"/>
+    <updated>2026-10-09T23:28:25Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Longmont, CO, United States · sponsorship: no-sponsorship · H-1B track record: ~234 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Data &amp; ML/AI · Hamel, MN, United States · Python, C#, SQL, PyTorch, Pandas</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:arcesiumllc:5257199007</id>
@@ -32,28 +32,12 @@
     <summary>Not stated · Software · New York · Python, Java, LLMs, AWS, Kubernetes · H-1B track record: ~11 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:barrywehmiller:/job/Dallas-TX/Software-Engineering-Intern---DAL_R023133</id>
-    <title>Barry-Wehmiller: Software Engineering Intern - DAL</title>
-    <link href="https://barrywehmiller.wd1.myworkdayjobs.com/BWConfidential/job/Dallas-TX/Software-Engineering-Intern---DAL_R023133"/>
+    <id>urn:intern-engine:greenhouse:faire:8870975002</id>
+    <title>Faire: Applied AI/ML Scientist, Intern</title>
+    <link href="https://boards.greenhouse.io/faire/jobs/8870975002?gh_jid=8870975002"/>
     <updated>2026-10-09T19:05:02Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Dallas, TX · C++, C#</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000154759734</id>
-    <title>Bosch: Artificial Intelligence / Machine Learning: Foundation Models - Intern</title>
-    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000154759734"/>
-    <updated>2026-10-09T19:05:02Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Sunnyvale, CA, United States · Python, PyTorch, Computer Vision · H-1B track record: ~188 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000154757409</id>
-    <title>Bosch: Information Security and Privacy Intern</title>
-    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000154757409"/>
-    <updated>2026-10-09T19:05:02Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Farmington Hills, MI, United States · LLMs · H-1B track record: ~188 approvals (FY2022–2023)</summary>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Data &amp; ML/AI · San Francisco, CA · Python, SQL, PyTorch · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:gcmgrosvenor:8015792003</id>
@@ -64,20 +48,52 @@
     <summary>Summer 2027 · Software · Chicago, Illinois, United States · Python, Java, C++, C#, JavaScript</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143</id>
-    <title>General Motors: 2027 Summer Intern, SEAM, Embodied AI</title>
-    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143"/>
+    <id>urn:intern-engine:greenhouse:schonfeld:8267092</id>
+    <title>Schonfeld: 2027 Quantitative Developer Intern</title>
+    <link href="https://job-boards.greenhouse.io/schonfeld/jobs/8267092"/>
     <updated>2026-10-09T19:05:02Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, C++, PyTorch, TensorFlow, Computer Vision · H-1B track record: ~928 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Quant · Austin, Texas, United States · Python, Java, C++, SQL</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135</id>
-    <title>General Motors: 2027 Summer Intern, Onboard Autonomy, Embodied AI</title>
-    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135"/>
+    <id>urn:intern-engine:greenhouse:schonfeld:8267120</id>
+    <title>Schonfeld: 2027 Quantitative Research Intern</title>
+    <link href="https://job-boards.greenhouse.io/schonfeld/jobs/8267120"/>
     <updated>2026-10-09T19:05:02Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, C++, PyTorch, TensorFlow, Computer Vision · H-1B track record: ~928 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Quant · Austin, Texas, United States · Python, Java, C++, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:edbz.fa.us2.oraclecloud.com:25012948</id>
+    <title>Texas Instruments: Software Engineering Intern (Longmont, CO) 🛂</title>
+    <link href="https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25012948"/>
+    <updated>2026-10-09T19:05:02Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Longmont, CO, United States · sponsorship: no-sponsorship · H-1B track record: ~234 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000154757409</id>
+    <title>Bosch: Information Security and Privacy Intern</title>
+    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000154757409"/>
+    <updated>2026-10-09T19:05:02Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Farmington Hills, MI, United States · LLMs · H-1B track record: ~188 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000154759734</id>
+    <title>Bosch: Artificial Intelligence / Machine Learning: Foundation Models - Intern</title>
+    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000154759734"/>
+    <updated>2026-10-09T19:05:02Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Sunnyvale, CA, United States · Python, PyTorch, Computer Vision · H-1B track record: ~188 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:barrywehmiller:/job/Dallas-TX/Software-Engineering-Intern---DAL_R023133</id>
+    <title>Barry-Wehmiller: Software Engineering Intern - DAL</title>
+    <link href="https://barrywehmiller.wd1.myworkdayjobs.com/BWConfidential/job/Dallas-TX/Software-Engineering-Intern---DAL_R023133"/>
+    <updated>2026-10-09T19:05:02Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Dallas, TX · C++, C#</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132</id>
@@ -96,20 +112,20 @@
     <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, C++, PyTorch, TensorFlow, LLMs · H-1B track record: ~928 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:schonfeld:8267092</id>
-    <title>Schonfeld: 2027 Quantitative Developer Intern</title>
-    <link href="https://job-boards.greenhouse.io/schonfeld/jobs/8267092"/>
+    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135</id>
+    <title>General Motors: 2027 Summer Intern, Onboard Autonomy, Embodied AI</title>
+    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135"/>
     <updated>2026-10-09T19:05:02Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · Austin, Texas, United States · Python, Java, C++, SQL</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, C++, PyTorch, TensorFlow, Computer Vision · H-1B track record: ~928 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:schonfeld:8267120</id>
-    <title>Schonfeld: 2027 Quantitative Research Intern</title>
-    <link href="https://job-boards.greenhouse.io/schonfeld/jobs/8267120"/>
+    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143</id>
+    <title>General Motors: 2027 Summer Intern, SEAM, Embodied AI</title>
+    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143"/>
     <updated>2026-10-09T19:05:02Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Quant · Austin, Texas, United States · Python, Java, C++, SQL</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, C++, PyTorch, TensorFlow, Computer Vision · H-1B track record: ~928 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:aptiv:/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704398</id>
@@ -149,7 +165,7 @@
     <link href="https://jobs.lever.co/viget/b18cc87d-fca2-485a-a0f2-ad6197db63f2"/>
     <updated>2026-10-09T00:14:25Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Boulder, CO · Python, Ruby · sponsorship: no-sponsorship</summary>
+    <summary>Summer 2027 · Software · Boulder, CO · Python, JavaScript, Ruby, React, Vue · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:badgermeter:/job/US----CA---Escondido-Facility/Software-Engineering-Intern_4645</id>
@@ -267,9 +283,9 @@
     <id>urn:intern-engine:greenhouse:doordashusa:8263774</id>
     <title>DoorDash: Software Engineer, Intern - Labs (Summer 2027)</title>
     <link href="https://job-boards.greenhouse.io/doordashusa/jobs/8263774"/>
-    <updated>2026-10-09T00:14:25Z</updated>
+    <updated>2026-10-08T13:38:52Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA; Sunnyvale, CA · Python, Java, SQL, Kotlin, Computer Vision · status: closed · H-1B track record: ~685 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Software · San Francisco, CA; Sunnyvale, CA · Python, Java, SQL, Kotlin, Computer Vision · H-1B track record: ~685 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:ruggedrobotics:4730908005</id>
@@ -693,7 +709,7 @@
     <link href="https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615"/>
     <updated>2026-10-06T20:05:30Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · WI Madison · Python, SQL, GCP, Tableau</summary>
+    <summary>2 openings · Summer 2027 · Data &amp; ML/AI · WI Madison · Python, SQL, GCP, Tableau</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:biibhr:/job/Remote-USA/Co-op--Machine-Learning-Engineering_REQ24310</id>
@@ -790,21 +806,5 @@
     <updated>2026-10-06T20:05:30Z</updated>
     <category term="Not stated"/>
     <summary>2 openings · Not stated · Data &amp; ML/AI · US, California, Santa Clara · Python, C++, Bash, PyTorch, TensorFlow · H-1B track record: ~4.8k approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:intel:/job/US-Oregon-Hillsboro/AI-Solution-Architect---Graduate-Intern_JR0287531</id>
-    <title>Intel: AI Solution Architect - Undergraduate Intern</title>
-    <link href="https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-Solution-Architect---Graduate-Intern_JR0287531"/>
-    <updated>2026-10-06T20:05:30Z</updated>
-    <category term="Not stated"/>
-    <summary>2 openings · Not stated · Data &amp; ML/AI · US, Oregon, Hillsboro · Python, C++, Bash, PyTorch, TensorFlow · H-1B track record: ~4.8k approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:jabil:/job/Austin-TX/AI-Transformation-Intern_J2466044</id>
-    <title>Jabil: AI Transformation Intern</title>
-    <link href="https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/AI-Transformation-Intern_J2466044"/>
-    <updated>2026-10-06T20:05:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Austin, TX · LLMs · H-1B track record: ~69 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

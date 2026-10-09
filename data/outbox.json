@@ -1,7 +1,28 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39404",
+      "greenhouse:arcesiumllc:5257176007",
+      "workday:buildertrend:/job/Omaha-NE/Software-Engineering-Inter_JR-000467",
+      "greenhouse:doordashusa:8263774",
+      "smartrecruiters:Loram1:3743990016031492",
+      "workday:micron:/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR113941"
+    ],
+    "telegram": [
+      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39404",
+      "greenhouse:arcesiumllc:5257176007",
+      "workday:buildertrend:/job/Omaha-NE/Software-Engineering-Inter_JR-000467",
+      "greenhouse:doordashusa:8263774",
+      "smartrecruiters:Loram1:3743990016031492",
+      "workday:micron:/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR113941"
+    ],
+    "personal_email": [
+      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39404",
+      "greenhouse:arcesiumllc:5257176007",
+      "workday:buildertrend:/job/Omaha-NE/Software-Engineering-Inter_JR-000467",
+      "greenhouse:doordashusa:8263774",
+      "smartrecruiters:Loram1:3743990016031492",
+      "workday:micron:/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR113941"
+    ]
   }
 }
