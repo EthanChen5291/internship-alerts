@@ -1880,6 +1880,18 @@
     }
    }
   },
+  "gcm grosvenor": {
+   "name": "GCM Grosvenor",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-09",
+     "role_ids": [
+      "greenhouse:gcmgrosvenor:8015792003"
+     ],
+     "count": 1
+    }
+   }
+  },
   "gecko robotics": {
    "name": "Gecko Robotics",
    "cycles": {
@@ -1965,13 +1977,17 @@
      "role_ids": [
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicle--Simulation_JR-202621508",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Autonomous-Driving-Software-Engineer--Bachelor-s---Master-s-_JR-202622064",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--AV-AI-Platform_JR-202621695",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Intern--Autonomous-Vehicles--Software-Validation--Master-s-_JR-202621655",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Engineer--Autonomous-Vehicle--Simulation_JR-202621503",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143",
       "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Verification-Engineer--AV-AI-Platform_JR-202621697",
       "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping_JR-202621778"
      ],
-     "count": 7
+     "count": 11
     }
    }
   },
@@ -4022,9 +4038,11 @@
      "role_ids": [
       "greenhouse:schonfeld:8171696",
       "greenhouse:schonfeld:8171699",
-      "greenhouse:schonfeld:8180089"
+      "greenhouse:schonfeld:8180089",
+      "greenhouse:schonfeld:8267092",
+      "greenhouse:schonfeld:8267120"
      ],
-     "count": 3
+     "count": 5
     }
    }
   },
@@ -5091,5 +5109,5 @@
    }
   }
  },
- "updated_at": "2026-10-09T13:24:20Z"
+ "updated_at": "2026-10-09T19:05:02Z"
 }
