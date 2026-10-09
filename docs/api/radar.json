@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-09T00:14:25Z",
- "data_as_of": "2026-10-09T00:14:25Z",
- "rendered_at": "2026-10-09T00:14:26Z",
+ "generated_at": "2026-10-09T06:11:38Z",
+ "data_as_of": "2026-10-09T06:11:38Z",
+ "rendered_at": "2026-10-09T06:11:39Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -155,6 +155,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-06-01"
+   }
+  },
+  {
+   "company": "Anduril",
+   "last_cycle_posted": "",
+   "posted_on": "2026-06-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-06-10",
+   "days_until": -121,
+   "status": "open",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-06-10"
    }
   },
   {
@@ -4072,25 +4091,6 @@
    }
   },
   {
-   "company": "Riot Games",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-01",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-01",
-   "days_until": -8,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/riotgamesup/jobs/8222015",
-   "note": "fall opening for next summer",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-01"
-   }
-  },
-  {
    "company": "The Federal Reserve System",
    "last_cycle_posted": "",
    "posted_on": "2026-10-01",
@@ -6842,25 +6842,6 @@
    }
   },
   {
-   "company": "Anduril",
-   "last_cycle_posted": "",
-   "posted_on": "2026-06-10",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-06-10",
-   "days_until": -121,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-06-10"
-   }
-  },
-  {
    "company": "Flow Traders",
    "last_cycle_posted": "",
    "posted_on": "2026-07-08",
@@ -7865,6 +7846,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-28"
+   }
+  },
+  {
+   "company": "Riot Games",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-01",
+   "days_until": -8,
+   "status": "dropped",
+   "url": "",
+   "note": "fall opening for next summer",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-01"
    }
   }
  ],
