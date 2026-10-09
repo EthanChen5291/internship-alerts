@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-08T19:43:48Z</updated>
+  <updated>2026-10-09T00:14:25Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:lever:viget:b18cc87d-fca2-485a-a0f2-ad6197db63f2</id>
+    <title>Viget: Software Developer Intern (2027) 🛂</title>
+    <link href="https://jobs.lever.co/viget/b18cc87d-fca2-485a-a0f2-ad6197db63f2"/>
+    <updated>2026-10-09T00:14:25Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Boulder, CO · Python, Ruby · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:badgermeter:/job/US----CA---Escondido-Facility/Software-Engineering-Intern_4645</id>
+    <title>Badger Meter: Software Engineering Intern</title>
+    <link href="https://badgermeter.wd5.myworkdayjobs.com/US_CareerSite/job/US----CA---Escondido-Facility/Software-Engineering-Intern_4645"/>
+    <updated>2026-10-09T00:14:25Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · US  - CA - Escondido Facility</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:jj:/job/Spring-House-Pennsylvania-United-States-of-America/AI-Excellence--Decision-Enablement-Intern_R-102881</id>
+    <title>Johnson &amp; Johnson: AI Excellence, Decision Enablement Intern 🛂</title>
+    <link href="https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/AI-Excellence--Decision-Enablement-Intern_R-102881"/>
+    <updated>2026-10-09T00:14:25Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Spring House, Pennsylvania, United States of America · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:imc:4962456101</id>
+    <title>IMC Trading: Machine Learning Engineer Intern - Summer 2027</title>
+    <link href="https://job-boards.eu.greenhouse.io/imc/jobs/4962456101"/>
+    <updated>2026-10-08T19:43:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · New York, United States · Python, C++ · H-1B track record: ~13 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:lever:genbio:7d0b5764-48ce-4d06-93d2-431742d35604</id>
     <title>GenBio AI: Research Scientist Intern, AI Molecular Design</title>
@@ -56,14 +88,6 @@
     <summary>Not stated · Software · Wyoming, Michigan · LLMs · H-1B track record: ~21 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:imc:4962456101</id>
-    <title>IMC Trading: Machine Learning Engineer Intern - Summer 2027</title>
-    <link href="https://job-boards.eu.greenhouse.io/imc/jobs/4962456101"/>
-    <updated>2026-10-08T19:43:48Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · New York, United States · Python, C++ · H-1B track record: ~13 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:jll:/job/Los-Angeles-CA/AI-Intern-Summer-2027-Internship---Los-Angeles--CA_REQ539393</id>
     <title>Jones Lang LaSalle (JLL): AI Intern Summer 2027 Internship - Los Angeles, CA 🛂</title>
     <link href="https://jll.wd1.myworkdayjobs.com/jllcareers/job/Los-Angeles-CA/AI-Intern-Summer-2027-Internship---Los-Angeles--CA_REQ539393"/>
@@ -107,9 +131,9 @@
     <id>urn:intern-engine:greenhouse:doordashusa:8263774</id>
     <title>DoorDash: Software Engineer, Intern - Labs (Summer 2027)</title>
     <link href="https://job-boards.greenhouse.io/doordashusa/jobs/8263774"/>
-    <updated>2026-10-08T13:38:52Z</updated>
+    <updated>2026-10-09T00:14:25Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA; Sunnyvale, CA · Python, Java, SQL, Kotlin, Computer Vision · H-1B track record: ~685 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Software · San Francisco, CA; Sunnyvale, CA · Python, Java, SQL, Kotlin, Computer Vision · status: closed · H-1B track record: ~685 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:ruggedrobotics:4730908005</id>
@@ -782,29 +806,5 @@
     <updated>2026-10-03T00:39:12Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, C++, PyTorch, LLMs, Computer Vision · H-1B track record: ~928 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Verification-Engineer--AV-AI-Platform_JR-202621697</id>
-    <title>General Motors: 2027 Summer Intern – Software Verification Engineer, AV/AI Platform</title>
-    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Verification-Engineer--AV-AI-Platform_JR-202621697"/>
-    <updated>2026-10-03T00:39:12Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Warren, Michigan, United States of America · Python, C++, Linux · H-1B track record: ~928 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hp:/job/Vancouver-Washington-United-States-of-America/AI-Applied-Engineering-Intern_UNI4670-2</id>
-    <title>Hewlett Packard (HP): AI Applied Engineering Intern 🛂</title>
-    <link href="https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Vancouver-Washington-United-States-of-America/AI-Applied-Engineering-Intern_UNI4670-2"/>
-    <updated>2026-10-03T00:39:12Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Vancouver, Washington, United States of America · $29–$35/hr · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:amazon:amazon:10567914</id>
-    <title>Amazon: Software Development Engineer Intern (Embedded Systems) - Summer 2027 (USA)</title>
-    <link href="https://www.amazon.jobs/en/jobs/10567914/software-development-engineer-intern-embedded-systems-summer-2027-usa"/>
-    <updated>2026-10-02T20:55:49Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Seattle, Washington, USA · Python, Java, C++, C#, Rust · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
   </entry>
 </feed>

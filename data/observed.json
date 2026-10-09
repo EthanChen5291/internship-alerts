@@ -4784,6 +4784,18 @@
     }
    }
   },
+  "viget": {
+   "name": "Viget",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-08",
+     "role_ids": [
+      "lever:viget:b18cc87d-fca2-485a-a0f2-ad6197db63f2"
+     ],
+     "count": 1
+    }
+   }
+  },
   "virtu financial": {
    "name": "Virtu Financial",
    "cycles": {
@@ -5079,5 +5091,5 @@
    }
   }
  },
- "updated_at": "2026-10-08T19:43:48Z"
+ "updated_at": "2026-10-09T00:14:25Z"
 }
