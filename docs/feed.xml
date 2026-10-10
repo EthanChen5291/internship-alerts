@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-09T23:28:25Z</updated>
+  <updated>2026-10-10T02:54:27Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:amat:/job/Santa-ClaraCA/Software-Engineering-Summer-Intern--Masters---Santa-Clara--CA-_R2630705</id>
+    <title>Applied Materials: Software Engineering Summer Intern (Masters - Santa Clara, CA)</title>
+    <link href="https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Engineering-Summer-Intern--Masters---Santa-Clara--CA-_R2630705"/>
+    <updated>2026-10-10T02:54:27Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Santa Clara,CA · C#, LLMs · H-1B track record: ~650 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:arcesiumllc:5257176007</id>
     <title>Arcesium: Software Engineer Intern</title>
@@ -798,13 +806,5 @@
     <updated>2026-10-06T20:05:30Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Spring, Texas, United States of America · HTML/CSS · H-1B track record: ~499 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:intel:/job/US-California-Santa-Clara/AI-Solution-Architect---Graduate-Intern_JR0287524</id>
-    <title>Intel: AI Solution Architect - Graduate Intern</title>
-    <link href="https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/AI-Solution-Architect---Graduate-Intern_JR0287524"/>
-    <updated>2026-10-06T20:05:30Z</updated>
-    <category term="Not stated"/>
-    <summary>2 openings · Not stated · Data &amp; ML/AI · US, California, Santa Clara · Python, C++, Bash, PyTorch, TensorFlow · H-1B track record: ~4.8k approvals (FY2022–2023)</summary>
   </entry>
 </feed>
