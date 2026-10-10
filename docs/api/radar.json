@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-10T09:58:40Z",
- "data_as_of": "2026-10-10T09:58:40Z",
- "rendered_at": "2026-10-10T09:58:41Z",
+ "generated_at": "2026-10-10T16:05:34Z",
+ "data_as_of": "2026-10-10T16:05:34Z",
+ "rendered_at": "2026-10-10T16:05:34Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2856,25 +2856,6 @@
    }
   },
   {
-   "company": "Corteva",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-11",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-11",
-   "days_until": -29,
-   "status": "open",
-   "url": "https://corteva.wd5.myworkdayjobs.com/corteva/job/Indianapolis-Indiana-United-States/Agentic-AI-Engineer-Intern_248210W",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-11"
-   }
-  },
-  {
    "company": "Klaviyo",
    "last_cycle_posted": "",
    "posted_on": "2026-09-11",
@@ -3455,7 +3436,7 @@
    "expected": "2026-09-17",
    "days_until": -23,
    "status": "open",
-   "url": "https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4502,6 +4483,25 @@
    "status": "open",
    "url": "https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8015792003",
    "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-09"
+   }
+  },
+  {
+   "company": "Workday",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-09",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-09",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809",
+   "note": "fall early-career opening",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -6558,25 +6558,6 @@
    }
   },
   {
-   "company": "Workday",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-09-01",
-   "days_until": -39,
-   "status": "waiting",
-   "url": "",
-   "note": "fall early-career opening",
-   "provenance": {
-    "type": "verified-window",
-    "url": "https://www.workday.com/en-us/company/careers.html",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
    "company": "Zoom",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -7509,6 +7490,25 @@
   },
   {
    "company": "Commure",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": -29,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
+  },
+  {
+   "company": "Corteva",
    "last_cycle_posted": "",
    "posted_on": "2026-09-11",
    "precision": "day",

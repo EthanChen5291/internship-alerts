@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-10T09:58:40Z</updated>
+  <updated>2026-10-10T16:05:34Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:workday:/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809</id>
+    <title>Workday: Cybersecurity Engineer Intern 🛂</title>
+    <link href="https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809"/>
+    <updated>2026-10-10T16:05:34Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · USA, CA, Pleasanton · Python, Java, TypeScript, JavaScript, AWS · sponsorship: no-sponsorship · H-1B track record: ~581 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:workday:/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810</id>
+    <title>Workday: Software Development Engineer Intern 🛂</title>
+    <link href="https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810"/>
+    <updated>2026-10-10T16:05:34Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · USA, CA, Pleasanton · Python, Java, C++, JavaScript, Scala · sponsorship: no-sponsorship · H-1B track record: ~581 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:workday:/job/USA-CA-Pleasanton/Machine-Learning-Engineer-Intern_JR-0110812</id>
+    <title>Workday: Machine Learning Engineer Intern 🛂</title>
+    <link href="https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Machine-Learning-Engineer-Intern_JR-0110812"/>
+    <updated>2026-10-10T16:05:34Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · USA, CA, Pleasanton · Python, Pandas, LLMs, AWS, Kubernetes · sponsorship: no-sponsorship · H-1B track record: ~581 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:workday:/job/USA-CA-Pleasanton/Software-Application-Development-Engineer-Intern_JR-0110811</id>
+    <title>Workday: Software Application Development Engineer Intern 🛂</title>
+    <link href="https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Application-Development-Engineer-Intern_JR-0110811"/>
+    <updated>2026-10-10T16:05:34Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · USA, CA, Pleasanton · Python, Java, C++, JavaScript, React · sponsorship: no-sponsorship · H-1B track record: ~581 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:amat:/job/Santa-ClaraCA/Software-Engineering-Summer-Intern--Masters---Santa-Clara--CA-_R2630705</id>
     <title>Applied Materials: Software Engineering Summer Intern (Masters - Santa Clara, CA)</title>
@@ -30,6 +62,14 @@
     <updated>2026-10-09T23:28:25Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Hamel, MN, United States · Python, C#, SQL, PyTorch, Pandas</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39404</id>
+    <title>American Family Insurance Group: Summer 2027 Intern - Data Analyst</title>
+    <link href="https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39404"/>
+    <updated>2026-10-09T23:28:25Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · WI Madison · SQL</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:arcesiumllc:5257199007</id>
@@ -715,9 +755,9 @@
     <id>urn:intern-engine:workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615</id>
     <title>American Family Insurance Group: Summer 2027 Intern - Data Analyst</title>
     <link href="https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615"/>
-    <updated>2026-10-06T20:05:30Z</updated>
+    <updated>2026-10-10T16:05:34Z</updated>
     <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Data &amp; ML/AI · WI Madison · Python, SQL, GCP, Tableau</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · WI Madison · Python, SQL, GCP, Tableau · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:biibhr:/job/Remote-USA/Co-op--Machine-Learning-Engineering_REQ24310</id>
@@ -766,45 +806,5 @@
     <updated>2026-10-06T20:05:30Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Warren, Michigan, United States of America · Python, PyTorch, TensorFlow, GCP, Azure · H-1B track record: ~928 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:graco:/job/Dayton-Minnesota-USA-French-Lake/Cybersecurity-Intern_R0023516</id>
-    <title>Graco: Cybersecurity Intern 🛂</title>
-    <link href="https://graco.wd501.myworkdayjobs.com/Graco_Careers/job/Dayton-Minnesota-USA-French-Lake/Cybersecurity-Intern_R0023516"/>
-    <updated>2026-10-06T20:05:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Dayton, Minnesota, USA (French Lake) · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hpe:/job/Bloomington-Minnesota-United-States-of-America/Infrastructure-Deployment-Automation-Intern_1213406</id>
-    <title>Hewlett Packard Enterprise: Infrastructure Deployment Automation Intern</title>
-    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bloomington-Minnesota-United-States-of-America/Infrastructure-Deployment-Automation-Intern_1213406"/>
-    <updated>2026-10-06T20:05:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Bloomington, Minnesota, United States of America · Python, Bash, HTML/CSS, Linux · H-1B track record: ~499 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hpe:/job/Bloomington-Minnesota-United-States-of-America/Systems-Software-Engineer-Intern_1213401</id>
-    <title>Hewlett Packard Enterprise: Systems Software Engineer Intern</title>
-    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bloomington-Minnesota-United-States-of-America/Systems-Software-Engineer-Intern_1213401"/>
-    <updated>2026-10-06T20:05:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Bloomington, Minnesota, United States of America · Python, Java, C++, HTML/CSS · H-1B track record: ~499 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hpe:/job/San-Jose-California-United-States-of-America/Cloud-Developer-Intern_1214950</id>
-    <title>Hewlett Packard Enterprise: Cloud Developer Intern</title>
-    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California-United-States-of-America/Cloud-Developer-Intern_1214950"/>
-    <updated>2026-10-06T20:05:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · San Jose, California, United States of America · Python, scikit-learn, LLMs, HTML/CSS, Spark · H-1B track record: ~499 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hpe:/job/Spring-Texas-United-States-of-America/People-Care-HR-AI-Agent---Process-Improvement-Project-Management-Intern_1212389</id>
-    <title>Hewlett Packard Enterprise: People Care HR AI Agent - Process Improvement Project Management Intern</title>
-    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/People-Care-HR-AI-Agent---Process-Improvement-Project-Management-Intern_1212389"/>
-    <updated>2026-10-06T20:05:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Spring, Texas, United States of America · HTML/CSS · H-1B track record: ~499 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
