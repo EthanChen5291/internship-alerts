@@ -6297,6 +6297,13 @@
     "ats": "workable"
   },
   {
+    "name": "Cmu",
+    "slug": "cmu",
+    "ats": "workday",
+    "wd": "wd115",
+    "site": "sei"
+  },
+  {
     "name": "CNA Insurance",
     "slug": "cna",
     "ats": "workday",
