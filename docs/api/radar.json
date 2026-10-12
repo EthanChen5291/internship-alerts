@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-12T06:00:17Z",
- "data_as_of": "2026-10-12T06:00:17Z",
- "rendered_at": "2026-10-12T06:00:18Z",
+ "generated_at": "2026-10-12T15:29:48Z",
+ "data_as_of": "2026-10-12T15:29:48Z",
+ "rendered_at": "2026-10-12T15:29:49Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2419,6 +2419,25 @@
    }
   },
   {
+   "company": "RF-SMART",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -34,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/rfsmart/jobs/5446867008",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "Shield AI",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -4506,6 +4525,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-09"
+   }
+  },
+  {
+   "company": "CapTech Consulting",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-12",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-12",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000155019115",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-12"
    }
   },
   {
@@ -7413,25 +7451,6 @@
    }
   },
   {
-   "company": "RF-SMART",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -34,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
    "company": "HMH",
    "last_cycle_posted": "",
    "posted_on": "2026-09-09",
@@ -7888,5 +7907,5 @@
    }
   }
  ],
- "count": 415
+ "count": 416
 }

@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-12T06:00:17Z</updated>
+  <updated>2026-10-12T15:29:48Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:slihrms:/job/USCODenver/Software-Developer-Intern---Summer-2027_R-161580-1</id>
+    <title>AtkinsRéalis: Software Developer Intern - Summer 2027</title>
+    <link href="https://slihrms.wd3.myworkdayjobs.com/careers/job/USCODenver/Software-Developer-Intern---Summer-2027_R-161580-1"/>
+    <updated>2026-10-12T15:29:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · US.CO.Denver · C#, TypeScript, JavaScript, SQL, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:CapTechConsulting:744000155019115</id>
+    <title>CapTech Consulting: Consulting Internship: Software Engineering (Summer 2027) 🛂</title>
+    <link href="https://jobs.smartrecruiters.com/CapTechConsulting/744000155019115"/>
+    <updated>2026-10-12T15:29:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Richmond, VA, United States · $30/hr · Java, C++, C#, JavaScript, React · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:rfsmart:5446867008</id>
+    <title>RF-SMART: Software Developer Internship- Summer 2027 🛂</title>
+    <link href="https://job-boards.greenhouse.io/rfsmart/jobs/5446867008"/>
+    <updated>2026-10-12T15:29:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Highlands Ranch, Colorado, United States · $25/hr · JavaScript · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:rfsmart:5427723008</id>
+    <title>RF-SMART: Software Support Engineer Internship (RFS for NetSuite) -Summer 2027 🛂</title>
+    <link href="https://job-boards.greenhouse.io/rfsmart/jobs/5427723008"/>
+    <updated>2026-10-12T15:29:48Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Jacksonville, Florida, United States · $20/hr · JavaScript · sponsorship: no-sponsorship</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:globalfoundries:/job/USA---Texas---Austin/Strategic-Pricing---AI-Analytics-Intern--Summer-2027-_JR-2605139</id>
     <title>GlobalFoundries: Strategic Pricing &amp; AI Analytics Intern (Summer 2027)</title>
@@ -774,37 +806,5 @@
     <updated>2026-10-06T20:05:30Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · USA, NC, Cary · $20–$34/hr · Python, SQL, LLMs, Git · sponsorship: no-sponsorship · H-1B track record: ~69 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:abb:/job/USA-NC-Cary/AI-Engineering--ERP-Intern--Summer-2027_JR00048711</id>
-    <title>ABB: AI Engineering, ERP Intern- Summer 2027 🛂</title>
-    <link href="https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/AI-Engineering--ERP-Intern--Summer-2027_JR00048711"/>
-    <updated>2026-10-06T20:05:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · USA, NC, Cary · $20–$34/hr · Python, SQL, LLMs, Git · sponsorship: no-sponsorship · H-1B track record: ~69 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615</id>
-    <title>American Family Insurance Group: Summer 2027 Intern - Data Analyst</title>
-    <link href="https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615"/>
-    <updated>2026-10-10T16:05:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · WI Madison · Python, SQL, GCP, Tableau · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:biibhr:/job/Remote-USA/Co-op--Machine-Learning-Engineering_REQ24310</id>
-    <title>Biogen: Co-op, Machine Learning Engineering</title>
-    <link href="https://biibhr.wd3.myworkdayjobs.com/external/job/Remote-USA/Co-op--Machine-Learning-Engineering_REQ24310"/>
-    <updated>2026-10-06T20:05:30Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Remote, USA · Python, Git · H-1B track record: ~125 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:caci:/job/Ashburn-VA-US/Cyber-Analyst-Intern---Summer-2027_333161</id>
-    <title>CACI: Cyber Analyst Intern - Summer 2027</title>
-    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Ashburn-VA-US/Cyber-Analyst-Intern---Summer-2027_333161"/>
-    <updated>2026-10-06T20:05:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Ashburn, VA, US · Linux</summary>
   </entry>
 </feed>

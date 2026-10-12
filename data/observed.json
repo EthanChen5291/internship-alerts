@@ -539,10 +539,11 @@
     "Summer 2027": {
      "first_posted": "2026-09-08",
      "role_ids": [
+      "workday:slihrms:/job/USCODenver/Software-Developer-Intern---Summer-2027_R-161580-1",
       "workday:slihrms:/job/USGAAtlanta2018-Powers-Ferry-Rd/Water-Infrastructure-Engineering-Intern---Summer-2027_R-163480-1",
       "workday:slihrms:/job/USNVHenderson/Water-Infrastructure-Engineering-Intern---Summer-2027_R-160500-2"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -977,6 +978,18 @@
      "first_posted": "2026-09-15",
      "role_ids": [
       "workday:cai:/job/California/Cybersecurity-Analyst-Intern_R8488"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "captech consulting": {
+   "name": "CapTech Consulting",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-12",
+     "role_ids": [
+      "smartrecruiters:CapTechConsulting:744000155019115"
      ],
      "count": 1
     }
@@ -3792,9 +3805,11 @@
      "first_posted": "2026-09-08",
      "role_ids": [
       "greenhouse:rfsmart:5407206008",
-      "greenhouse:rfsmart:5409034008"
+      "greenhouse:rfsmart:5409034008",
+      "greenhouse:rfsmart:5427723008",
+      "greenhouse:rfsmart:5446867008"
      ],
-     "count": 2
+     "count": 4
     }
    }
   },
@@ -5146,5 +5161,5 @@
    }
   }
  },
- "updated_at": "2026-10-12T06:00:17Z"
+ "updated_at": "2026-10-12T15:29:48Z"
 }
