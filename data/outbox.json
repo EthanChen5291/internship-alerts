@@ -1,7 +1,64 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "lever:acronaviation:17b5f12d-f590-432d-a421-d6f90274ae9a",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008240",
+      "workday:amfam:/job/WI-Madison/Summer-2027-Data-Analyst-Intern---Agency-Performance--Insights-and-Operations_R39513",
+      "greenhouse:asteraearlycareer2027:4743021005",
+      "smartrecruiters:BoschGroup:744000155120934",
+      "workday:cboe:/job/Kansas-City-MO/Software-Engineer-Intern--C---_R-4726",
+      "greenhouse:databricks:6865687002",
+      "workday:gafsgi:/job/Parsippany-NJ/AI-Intern_26421",
+      "workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Agencies--Cybersecurity-_RQ230273",
+      "workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Angencies--AI-ML-_RQ230275",
+      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Machine-Learning-for-Automation_JR-202621724",
+      "workday:generalmotors:/job/Mountain-View-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---AI-Machine-Learning_JR-202621620",
+      "workday:hpe:/job/All-Illinois-United-States-of-America/HPC-AI-Systems-Service-Process-Improvement-Engineer-Intern_1213402",
+      "workday:hpe:/job/All-Tennessee-United-States-of-America/HPC-AI-System-Admin-HW-SW-Service-Engineer-Intern_1213404",
+      "workday:kla:/job/Ann-Arbor-MI/AI-ML-Software-Engineer---Intern_2641701-1",
+      "workday:lifefitness:/job/Schaumburg-IL-60173/Android-Software-Intern_JR-025277",
+      "workday:lifefitness:/job/Schaumburg-IL-60173/Embedded-Software-Intern_JR-025276",
+      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Financial-AI-Engineering-Intern---Summer-2027---Franklin--TN_R00214241"
+    ],
+    "telegram": [
+      "lever:acronaviation:17b5f12d-f590-432d-a421-d6f90274ae9a",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008240",
+      "workday:amfam:/job/WI-Madison/Summer-2027-Data-Analyst-Intern---Agency-Performance--Insights-and-Operations_R39513",
+      "greenhouse:asteraearlycareer2027:4743021005",
+      "smartrecruiters:BoschGroup:744000155120934",
+      "workday:cboe:/job/Kansas-City-MO/Software-Engineer-Intern--C---_R-4726",
+      "greenhouse:databricks:6865687002",
+      "workday:gafsgi:/job/Parsippany-NJ/AI-Intern_26421",
+      "workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Agencies--Cybersecurity-_RQ230273",
+      "workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Angencies--AI-ML-_RQ230275",
+      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Machine-Learning-for-Automation_JR-202621724",
+      "workday:generalmotors:/job/Mountain-View-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---AI-Machine-Learning_JR-202621620",
+      "workday:hpe:/job/All-Illinois-United-States-of-America/HPC-AI-Systems-Service-Process-Improvement-Engineer-Intern_1213402",
+      "workday:hpe:/job/All-Tennessee-United-States-of-America/HPC-AI-System-Admin-HW-SW-Service-Engineer-Intern_1213404",
+      "workday:kla:/job/Ann-Arbor-MI/AI-ML-Software-Engineer---Intern_2641701-1",
+      "workday:lifefitness:/job/Schaumburg-IL-60173/Android-Software-Intern_JR-025277",
+      "workday:lifefitness:/job/Schaumburg-IL-60173/Embedded-Software-Intern_JR-025276",
+      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Financial-AI-Engineering-Intern---Summer-2027---Franklin--TN_R00214241"
+    ],
+    "personal_email": [
+      "lever:acronaviation:17b5f12d-f590-432d-a421-d6f90274ae9a",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008240",
+      "workday:amfam:/job/WI-Madison/Summer-2027-Data-Analyst-Intern---Agency-Performance--Insights-and-Operations_R39513",
+      "greenhouse:asteraearlycareer2027:4743021005",
+      "smartrecruiters:BoschGroup:744000155120934",
+      "workday:cboe:/job/Kansas-City-MO/Software-Engineer-Intern--C---_R-4726",
+      "greenhouse:databricks:6865687002",
+      "workday:gafsgi:/job/Parsippany-NJ/AI-Intern_26421",
+      "workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Agencies--Cybersecurity-_RQ230273",
+      "workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Angencies--AI-ML-_RQ230275",
+      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Machine-Learning-for-Automation_JR-202621724",
+      "workday:generalmotors:/job/Mountain-View-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---AI-Machine-Learning_JR-202621620",
+      "workday:hpe:/job/All-Illinois-United-States-of-America/HPC-AI-Systems-Service-Process-Improvement-Engineer-Intern_1213402",
+      "workday:hpe:/job/All-Tennessee-United-States-of-America/HPC-AI-System-Admin-HW-SW-Service-Engineer-Intern_1213404",
+      "workday:kla:/job/Ann-Arbor-MI/AI-ML-Software-Engineer---Intern_2641701-1",
+      "workday:lifefitness:/job/Schaumburg-IL-60173/Android-Software-Intern_JR-025277",
+      "workday:lifefitness:/job/Schaumburg-IL-60173/Embedded-Software-Intern_JR-025276",
+      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Financial-AI-Engineering-Intern---Summer-2027---Franklin--TN_R00214241"
+    ]
   }
 }

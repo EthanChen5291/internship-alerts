@@ -1,10 +1,29 @@
 {
- "generated_at": "2026-10-12T15:29:48Z",
- "data_as_of": "2026-10-12T15:29:48Z",
- "rendered_at": "2026-10-12T15:29:49Z",
+ "generated_at": "2026-10-12T22:51:39Z",
+ "data_as_of": "2026-10-12T22:51:39Z",
+ "rendered_at": "2026-10-12T22:51:39Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
+  {
+   "company": "Databricks",
+   "last_cycle_posted": "",
+   "posted_on": "2023-08-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2023-08-04",
+   "days_until": -1165,
+   "status": "open",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6865687002",
+   "note": "rolling from Aug",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2023-08-04"
+   }
+  },
   {
    "company": "Perpay",
    "last_cycle_posted": "",
@@ -2334,7 +2353,7 @@
    "expected": "2026-09-08",
    "days_until": -34,
    "status": "open",
-   "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/USGAAtlanta2018-Powers-Ferry-Rd/Water-Infrastructure-Engineering-Intern---Summer-2027_R-163480-1",
+   "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/USCODenver/Software-Developer-Intern---Summer-2027_R-161580-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2429,7 +2448,7 @@
    "expected": "2026-09-08",
    "days_until": -34,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/rfsmart/jobs/5446867008",
+   "url": "https://job-boards.greenhouse.io/rfsmart/jobs/5427723008",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5091,25 +5110,6 @@
    "provenance": {
     "type": "verified-window",
     "url": "citadel.com/careers",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
-   "company": "Databricks",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-08-01",
-   "days_until": -72,
-   "status": "waiting",
-   "url": "",
-   "note": "rolling from Aug",
-   "provenance": {
-    "type": "verified-window",
-    "url": "databricks.com/careers",
     "verified_at": "2026-07-21"
    }
   },

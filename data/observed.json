@@ -348,10 +348,11 @@
     "Summer 2027": {
      "first_posted": "2026-10-05",
      "role_ids": [
+      "workday:amfam:/job/WI-Madison/Summer-2027-Data-Analyst-Intern---Agency-Performance--Insights-and-Operations_R39513",
       "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39404",
       "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -1400,6 +1401,18 @@
     }
    }
   },
+  "databricks": {
+   "name": "Databricks",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2023-08-04",
+     "role_ids": [
+      "greenhouse:databricks:6865687002"
+     ],
+     "count": 1
+    }
+   }
+  },
   "datacor": {
    "name": "Datacor",
    "cycles": {
@@ -1977,9 +1990,11 @@
       "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ226237-1",
       "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404",
       "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228405",
-      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228406"
+      "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228406",
+      "workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Agencies--Cybersecurity-_RQ230273",
+      "workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Angencies--AI-ML-_RQ230275"
      ],
-     "count": 21
+     "count": 23
     }
    }
   },
@@ -2009,6 +2024,7 @@
     "Summer 2027": {
      "first_posted": "2026-10-01",
      "role_ids": [
+      "workday:generalmotors:/job/Mountain-View-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---AI-Machine-Learning_JR-202621620",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicle--Simulation_JR-202621508",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Autonomous-Driving-Software-Engineer--Bachelor-s---Master-s-_JR-202622064",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132",
@@ -2018,10 +2034,11 @@
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135",
       "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143",
+      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Machine-Learning-for-Automation_JR-202621724",
       "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Software-Verification-Engineer--AV-AI-Platform_JR-202621697",
       "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping_JR-202621778"
      ],
-     "count": 11
+     "count": 13
     }
    }
   },
@@ -3178,9 +3195,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-07",
      "role_ids": [
-      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215"
+      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215",
+      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Financial-AI-Engineering-Intern---Summer-2027---Franklin--TN_R00214241"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4347,9 +4365,10 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1008055",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008089",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008180",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008210"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008210",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008240"
      ],
-     "count": 16
+     "count": 17
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -5161,5 +5180,5 @@
    }
   }
  },
- "updated_at": "2026-10-12T15:29:48Z"
+ "updated_at": "2026-10-12T22:51:39Z"
 }
