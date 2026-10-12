@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-11T20:30:03Z",
- "data_as_of": "2026-10-11T20:30:03Z",
- "rendered_at": "2026-10-11T20:30:03Z",
+ "generated_at": "2026-10-12T00:13:46Z",
+ "data_as_of": "2026-10-12T00:13:46Z",
+ "rendered_at": "2026-10-12T00:13:46Z",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "h1b_window": "FY2022–2023",
- "count": 1046,
+ "count": 1045,
  "jobs": [
   {
    "id": "workday:cmu:/job/Pittsburgh-PA/AI-Security-Research-Intern---Summer-2027_2025199-1",
@@ -24939,35 +24939,6 @@
    "remote": false
   },
   {
-   "id": "greenhouse:asteraearlycareer2027:4724492005",
-   "company": "Astera Labs",
-   "title": "Platform Software Diagnostics Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "San Jose, California",
-   "url": "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4724492005",
-   "posted_at": "2026-08-27T18:58:49-04:00",
-   "posted_at_source": "exact",
-   "first_seen_at": "2026-10-06T20:05:30Z",
-   "sponsorship": "unknown",
-   "salary": "$35/hr",
-   "skills": [
-    "Python",
-    "Linux",
-    "Git"
-   ],
-   "class_year": null,
-   "underclass_program_key": null,
-   "underclass_program": null,
-   "underclass_audience": null,
-   "source": "greenhouse",
-   "h1b_approvals": 29,
-   "program": "Internship",
-   "remote": false
-  },
-  {
    "id": "workday:bah:/job/McLean-VA/University---2027-Summer-Games-Cyber-Security-Intern---McLean--VA_R0248034",
    "company": "Booz Allen",
    "title": "University - 2027 Summer Games Cyber Security Intern - McLean, VA",
@@ -28253,35 +28224,6 @@
    "remote": false
   },
   {
-   "id": "workday:bah:/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246869",
-   "company": "Booz Allen",
-   "title": "AI RAN Telecommunications Engineer Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Data & ML/AI",
-   "location": "McLean, VA",
-   "url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246869",
-   "posted_at": "2026-08-11T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-08-11T18:48:51Z",
-   "sponsorship": "citizens-only",
-   "salary": "$108k/yr",
-   "skills": [
-    "Python",
-    "C++",
-    "MATLAB"
-   ],
-   "class_year": null,
-   "underclass_program_key": null,
-   "underclass_program": null,
-   "underclass_audience": null,
-   "source": "workday",
-   "h1b_approvals": null,
-   "program": "Internship",
-   "remote": false
-  },
-  {
    "id": "greenhouse:dvtrading:4719119005",
    "company": "DV Trading",
    "title": "Software Engineer Intern - Summer 2027 (DV Commodities)",
@@ -29210,6 +29152,35 @@
    "underclass_audience": null,
    "source": "greenhouse",
    "h1b_approvals": 4,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:coreandmain:/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804",
+   "company": "Core & Main",
+   "title": "Intern - AI Intern - Copilot-  Onsite - St. Louis",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "Saint Louis, MO 63146",
+   "url": "https://coreandmain.wd1.myworkdayjobs.com/coreandmain/job/Saint-Louis-MO-63146/Intern---Data-Engineering----Corp_45804",
+   "posted_at": "2026-07-24T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-07-24T18:20:47Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "SQL",
+    "Azure",
+    "Git"
+   ],
+   "class_year": null,
+   "underclass_program_key": null,
+   "underclass_program": null,
+   "underclass_audience": null,
+   "source": "workday",
+   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
