@@ -1,43 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "oracle:fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com:3022387",
-      "lever:azul:8f41ceaf-8835-4fc7-ba57-9384487d59db",
-      "ashby:skydio:8994767e-fd53-4ca2-b0ef-fe0923c1e260",
-      "workday:draper:/job/Cambridge-MA/Classified-Cybersecurity-IT-Internship--Summer-2027-_JR003021",
-      "greenhouse:flowtraders:8047166",
-      "workday:gdit:/job/USA-VA-Sterling/AI-and-Data-Analytics-Intern_RQ230269",
-      "workday:jainglobal:/job/New-York-New-York/Quantitative-Developer-Intern--Summer-2027---New-York-_JR100608",
-      "workday:kla:/job/Ann-Arbor-MI/Software-Engineering-Intern_2641821-2",
-      "workday:kla:/job/Ann-Arbor-MI/Software-Engineer-Intern---AI_2641817-2",
-      "workday:kla:/job/Milpitas-CA/ML-Engineer-Intern_2641872",
-      "greenhouse:stateaffairs:4437430009"
-    ],
-    "telegram": [
-      "oracle:fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com:3022387",
-      "lever:azul:8f41ceaf-8835-4fc7-ba57-9384487d59db",
-      "ashby:skydio:8994767e-fd53-4ca2-b0ef-fe0923c1e260",
-      "workday:draper:/job/Cambridge-MA/Classified-Cybersecurity-IT-Internship--Summer-2027-_JR003021",
-      "greenhouse:flowtraders:8047166",
-      "workday:gdit:/job/USA-VA-Sterling/AI-and-Data-Analytics-Intern_RQ230269",
-      "workday:jainglobal:/job/New-York-New-York/Quantitative-Developer-Intern--Summer-2027---New-York-_JR100608",
-      "workday:kla:/job/Ann-Arbor-MI/Software-Engineering-Intern_2641821-2",
-      "workday:kla:/job/Ann-Arbor-MI/Software-Engineer-Intern---AI_2641817-2",
-      "workday:kla:/job/Milpitas-CA/ML-Engineer-Intern_2641872",
-      "greenhouse:stateaffairs:4437430009"
-    ],
-    "personal_email": [
-      "oracle:fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com:3022387",
-      "lever:azul:8f41ceaf-8835-4fc7-ba57-9384487d59db",
-      "ashby:skydio:8994767e-fd53-4ca2-b0ef-fe0923c1e260",
-      "workday:draper:/job/Cambridge-MA/Classified-Cybersecurity-IT-Internship--Summer-2027-_JR003021",
-      "greenhouse:flowtraders:8047166",
-      "workday:gdit:/job/USA-VA-Sterling/AI-and-Data-Analytics-Intern_RQ230269",
-      "workday:jainglobal:/job/New-York-New-York/Quantitative-Developer-Intern--Summer-2027---New-York-_JR100608",
-      "workday:kla:/job/Ann-Arbor-MI/Software-Engineering-Intern_2641821-2",
-      "workday:kla:/job/Ann-Arbor-MI/Software-Engineer-Intern---AI_2641817-2",
-      "workday:kla:/job/Milpitas-CA/ML-Engineer-Intern_2641872",
-      "greenhouse:stateaffairs:4437430009"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
