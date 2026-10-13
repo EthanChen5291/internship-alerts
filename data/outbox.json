@@ -1,28 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:axontalentcommunity:7993376003",
-      "workday:boseallaboutme:/job/US-MA---Framingham/Audio-Machine-Learning-Engineer-Co-op_R28719",
-      "workday:boseallaboutme:/job/US-MA---Framingham/Audio-Machine-Learning-Co-op_R29274",
-      "workday:insperity:/job/Kingwood-TX/Rotational-AI-Intern_JR103294",
-      "workday:kla:/job/Ann-Arbor-MI/Research-Scientist-Intern---Coating-Characterization_2642033-2",
-      "workday:wattswater:/job/Andover-MA-Federal-Street/IT-Network-Intern--Summer-2027_10017567"
-    ],
-    "telegram": [
-      "greenhouse:axontalentcommunity:7993376003",
-      "workday:boseallaboutme:/job/US-MA---Framingham/Audio-Machine-Learning-Engineer-Co-op_R28719",
-      "workday:boseallaboutme:/job/US-MA---Framingham/Audio-Machine-Learning-Co-op_R29274",
-      "workday:insperity:/job/Kingwood-TX/Rotational-AI-Intern_JR103294",
-      "workday:kla:/job/Ann-Arbor-MI/Research-Scientist-Intern---Coating-Characterization_2642033-2",
-      "workday:wattswater:/job/Andover-MA-Federal-Street/IT-Network-Intern--Summer-2027_10017567"
-    ],
-    "personal_email": [
-      "greenhouse:axontalentcommunity:7993376003",
-      "workday:boseallaboutme:/job/US-MA---Framingham/Audio-Machine-Learning-Engineer-Co-op_R28719",
-      "workday:boseallaboutme:/job/US-MA---Framingham/Audio-Machine-Learning-Co-op_R29274",
-      "workday:insperity:/job/Kingwood-TX/Rotational-AI-Intern_JR103294",
-      "workday:kla:/job/Ann-Arbor-MI/Research-Scientist-Intern---Coating-Characterization_2642033-2",
-      "workday:wattswater:/job/Andover-MA-Federal-Street/IT-Network-Intern--Summer-2027_10017567"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
