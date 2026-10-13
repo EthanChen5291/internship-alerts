@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-13T11:17:02Z",
- "data_as_of": "2026-10-13T11:17:02Z",
- "rendered_at": "2026-10-13T11:17:03Z",
+ "generated_at": "2026-10-13T18:26:19Z",
+ "data_as_of": "2026-10-13T18:26:19Z",
+ "rendered_at": "2026-10-13T18:26:19Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -291,6 +291,25 @@
    }
   },
   {
+   "company": "Flow Traders",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-08",
+   "days_until": -97,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-08"
+   }
+  },
+  {
    "company": "Akuna Capital",
    "last_cycle_posted": "",
    "posted_on": "2026-07-13",
@@ -440,6 +459,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-07-24"
+   }
+  },
+  {
+   "company": "Draper",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-28",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-28",
+   "days_until": -77,
+   "status": "open",
+   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Classified-Cybersecurity-IT-Internship--Summer-2027-_JR003021",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-28"
    }
   },
   {
@@ -2438,25 +2476,6 @@
    }
   },
   {
-   "company": "RF-SMART",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -35,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/rfsmart/jobs/5446867008",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
    "company": "Shield AI",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -3749,6 +3768,25 @@
    }
   },
   {
+   "company": "American Family Insurance Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-25",
+   "days_until": -18,
+   "status": "open",
+   "url": "https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-25"
+   }
+  },
+  {
    "company": "Cencora",
    "last_cycle_posted": "",
    "posted_on": "2026-09-25",
@@ -4167,25 +4205,6 @@
    }
   },
   {
-   "company": "American Family Insurance Group",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-05",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-05",
-   "days_until": -8,
-   "status": "open",
-   "url": "https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/Summer-2027-Data-Analyst-Intern---Agency-Performance--Insights-and-Operations_R39513",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-05"
-   }
-  },
-  {
    "company": "Jain Global",
    "last_cycle_posted": "",
    "posted_on": "2026-10-05",
@@ -4433,6 +4452,25 @@
    }
   },
   {
+   "company": "State Affairs",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-07",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-07",
+   "days_until": -6,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/stateaffairs/jobs/4437430009",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-07"
+   }
+  },
+  {
    "company": "Jones Lang LaSalle (JLL)",
    "last_cycle_posted": "",
    "posted_on": "2026-10-08",
@@ -4582,6 +4620,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-12"
+   }
+  },
+  {
+   "company": "ADT",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-13",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-13",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3022387",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-13"
    }
   },
   {
@@ -6786,25 +6843,6 @@
    }
   },
   {
-   "company": "Flow Traders",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-08",
-   "days_until": -97,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-08"
-   }
-  },
-  {
    "company": "Northrop Grumman",
    "last_cycle_posted": "",
    "posted_on": "2026-07-08",
@@ -6916,25 +6954,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-07-23"
-   }
-  },
-  {
-   "company": "Draper",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-28",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-28",
-   "days_until": -77,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-28"
    }
   },
   {
@@ -7470,6 +7489,25 @@
    }
   },
   {
+   "company": "RF-SMART",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -35,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "HMH",
    "last_cycle_posted": "",
    "posted_on": "2026-09-09",
@@ -7907,5 +7945,5 @@
    }
   }
  ],
- "count": 416
+ "count": 418
 }

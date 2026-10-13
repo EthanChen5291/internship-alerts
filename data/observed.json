@@ -87,6 +87,18 @@
     }
    }
   },
+  "adt": {
+   "name": "ADT",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-13",
+     "role_ids": [
+      "oracle:fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com:3022387"
+     ],
+     "count": 1
+    }
+   }
+  },
   "advanced space": {
    "name": "Advanced Space",
    "cycles": {
@@ -346,13 +358,14 @@
    "name": "American Family Insurance Group",
    "cycles": {
     "Summer 2027": {
-     "first_posted": "2026-10-05",
+     "first_posted": "2026-09-25",
      "role_ids": [
+      "workday:amfam:/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407",
       "workday:amfam:/job/WI-Madison/Summer-2027-Data-Analyst-Intern---Agency-Performance--Insights-and-Operations_R39513",
       "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39404",
       "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -1548,9 +1561,10 @@
     "Summer 2027": {
      "first_posted": "2026-07-28",
      "role_ids": [
+      "workday:draper:/job/Cambridge-MA/Classified-Cybersecurity-IT-Internship--Summer-2027-_JR003021",
       "workday:draper:/job/Cambridge-MA/Electronics---Embedded-Systems-Intern--Summer-2027-_JR002735"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2571,9 +2585,10 @@
      "first_posted": "2026-10-05",
      "role_ids": [
       "workday:jainglobal:/job/New-York-New-York/Data-Engineer-Intern_JR100605-1",
-      "workday:jainglobal:/job/New-York-New-York/Quant-Research-Intern--Systematic-Trading_JR100603-1"
+      "workday:jainglobal:/job/New-York-New-York/Quant-Research-Intern--Systematic-Trading_JR100603-1",
+      "workday:jainglobal:/job/New-York-New-York/Quantitative-Developer-Intern--Summer-2027---New-York-_JR100608"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -4263,9 +4278,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-03",
      "role_ids": [
+      "ashby:skydio:8994767e-fd53-4ca2-b0ef-fe0923c1e260",
       "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4377,6 +4393,18 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1007850"
      ],
      "count": 2
+    }
+   }
+  },
+  "state affairs": {
+   "name": "State Affairs",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-07",
+     "role_ids": [
+      "greenhouse:stateaffairs:4437430009"
+     ],
+     "count": 1
     }
    }
   },
@@ -5180,5 +5208,5 @@
    }
   }
  },
- "updated_at": "2026-10-13T11:17:02Z"
+ "updated_at": "2026-10-13T18:26:19Z"
 }
