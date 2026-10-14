@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-13T22:58:35Z</updated>
+  <updated>2026-10-14T02:06:41Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:lever:field-ai:ef35c537-b864-479f-9dbe-b30429ac7704</id>
+    <title>Field AI: Robotics Research Intern, Embodied AI</title>
+    <link href="https://jobs.lever.co/field-ai/ef35c537-b864-479f-9dbe-b30429ac7704"/>
+    <updated>2026-10-14T02:06:41Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Irvine, CA</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921-1</id>
+    <title>KLA: Computer Vision/Machine Learning Intern</title>
+    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921-1"/>
+    <updated>2026-10-14T02:06:41Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Milpitas, CA · Computer Vision, Python, MATLAB, PyTorch, TensorFlow · H-1B track record: ~369 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:axontalentcommunity:7993376003</id>
     <title>Axon: 2026 AfroTech Software Engineering Internship</title>
@@ -16,20 +32,20 @@
     <summary>Fall 2026 · Software · Seattle, Washington, United States · Python, Java, C#, SQL, Scala</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:boseallaboutme:/job/US-MA---Framingham/Audio-Machine-Learning-Engineer-Co-op_R28719</id>
-    <title>Bose: Embedded Audio ML Engineer Co-op</title>
-    <link href="https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Audio-Machine-Learning-Engineer-Co-op_R28719"/>
-    <updated>2026-10-13T22:58:35Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · US, MA - Framingham · $40–$51.25/hr · Python, C++, PyTorch, TensorFlow · H-1B track record: ~61 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:boseallaboutme:/job/US-MA---Framingham/Audio-Machine-Learning-Co-op_R29274</id>
     <title>Bose: Audio Machine Learning Co-op</title>
     <link href="https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Audio-Machine-Learning-Co-op_R29274"/>
     <updated>2026-10-13T22:58:35Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · US, MA - Framingham · $40–$51.25/hr · Python, C++, MATLAB, PyTorch, TensorFlow · H-1B track record: ~61 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:boseallaboutme:/job/US-MA---Framingham/Audio-Machine-Learning-Engineer-Co-op_R28719</id>
+    <title>Bose: Embedded Audio ML Engineer Co-op</title>
+    <link href="https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Audio-Machine-Learning-Engineer-Co-op_R28719"/>
+    <updated>2026-10-13T22:58:35Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · US, MA - Framingham · $40–$51.25/hr · Python, C++, PyTorch, TensorFlow · H-1B track record: ~61 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Ann-Arbor-MI/Research-Scientist-Intern---Coating-Characterization_2642033-2</id>
@@ -106,7 +122,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Ann-Arbor-MI/Software-Engineer-Intern---AI_2641817-2</id>
     <title>KLA: Software Engineer Intern - AI</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Software-Engineer-Intern---AI_2641817"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Ann-Arbor-MI/Software-Engineer-Intern---AI_2641817-2"/>
     <updated>2026-10-13T18:26:19Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Ann Arbor, MI · $24–$40/hr · Python, Java, C++, C#, JavaScript · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -114,7 +130,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Ann-Arbor-MI/Software-Engineering-Intern_2641821-2</id>
     <title>KLA: Software Engineering Intern</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Software-Engineering-Intern_2641821"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Ann-Arbor-MI/Software-Engineering-Intern_2641821-2"/>
     <updated>2026-10-13T18:26:19Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Ann Arbor, MI · $24–$40/hr · Python, Java, C++, C#, JavaScript · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -790,21 +806,5 @@
     <updated>2026-10-10T09:42:34Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · United States-Virginia-Chantilly · $21.5–$39/hr · Python, Java, C++, C#, JavaScript · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:amazon:amazon:10571374</id>
-    <title>Amazon: Software Development Engineer (Embedded Systems) Intern, Amazon Leo - Summer 2027 (USA) 🇺🇸</title>
-    <link href="https://www.amazon.jobs/en/jobs/10571374/software-development-engineer-embedded-systems-intern-amazon-leo-summer-2027-usa"/>
-    <updated>2026-10-07T06:02:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Redmond, Washington, USA · Python, Java, C++, C#, Rust · sponsorship: citizens-only · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Artificial-Intelligence--Operations--Undergraduate-Intern_J287476</id>
-    <title>Highmark Health: Summer 2027 Artificial Intelligence (Operations) Undergraduate Intern 🛂</title>
-    <link href="https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Artificial-Intelligence--Operations--Undergraduate-Intern_J287476"/>
-    <updated>2026-10-07T06:02:22Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Pittsburgh PA, 15222, FAP, 5th Avenue Place · sponsorship: no-sponsorship · H-1B track record: ~92 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

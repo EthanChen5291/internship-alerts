@@ -1,7 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "lever:field-ai:ef35c537-b864-479f-9dbe-b30429ac7704",
+      "workday:kla:/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921-1"
+    ],
+    "telegram": [
+      "lever:field-ai:ef35c537-b864-479f-9dbe-b30429ac7704",
+      "workday:kla:/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921-1"
+    ],
+    "personal_email": [
+      "lever:field-ai:ef35c537-b864-479f-9dbe-b30429ac7704",
+      "workday:kla:/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921-1"
+    ]
   }
 }
