@@ -1,7 +1,43 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:skydio:79fdda46-4ff5-42c7-b208-55f2084cdb8c",
+      "workday:astreya:/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017931",
+      "workday:astreya:/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017927",
+      "workday:astreya:/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017929",
+      "workday:astreya:/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017930",
+      "greenhouse:figureai:4722086006",
+      "workday:hyperiongrp:/job/New-York--1350-Avenue-Of-The-Americas/Underwriting-Intern_R0019772-1",
+      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603518",
+      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603521",
+      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Engineer--Reston--VA-_R2603522",
+      "workday:alliance:/job/Santa-Clara-California---United-States-of-America/AI-Robotics-Research-Intern---Summer-2027---Santa-Clara--CA_R00214267"
+    ],
+    "telegram": [
+      "ashby:skydio:79fdda46-4ff5-42c7-b208-55f2084cdb8c",
+      "workday:astreya:/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017931",
+      "workday:astreya:/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017927",
+      "workday:astreya:/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017929",
+      "workday:astreya:/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017930",
+      "greenhouse:figureai:4722086006",
+      "workday:hyperiongrp:/job/New-York--1350-Avenue-Of-The-Americas/Underwriting-Intern_R0019772-1",
+      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603518",
+      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603521",
+      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Engineer--Reston--VA-_R2603522",
+      "workday:alliance:/job/Santa-Clara-California---United-States-of-America/AI-Robotics-Research-Intern---Summer-2027---Santa-Clara--CA_R00214267"
+    ],
+    "personal_email": [
+      "ashby:skydio:79fdda46-4ff5-42c7-b208-55f2084cdb8c",
+      "workday:astreya:/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017931",
+      "workday:astreya:/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017927",
+      "workday:astreya:/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017929",
+      "workday:astreya:/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017930",
+      "greenhouse:figureai:4722086006",
+      "workday:hyperiongrp:/job/New-York--1350-Avenue-Of-The-Americas/Underwriting-Intern_R0019772-1",
+      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603518",
+      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603521",
+      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Engineer--Reston--VA-_R2603522",
+      "workday:alliance:/job/Santa-Clara-California---United-States-of-America/AI-Robotics-Research-Intern---Summer-2027---Santa-Clara--CA_R00214267"
+    ]
   }
 }

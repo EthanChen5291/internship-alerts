@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-14T18:13:16Z",
- "data_as_of": "2026-10-14T18:13:16Z",
- "rendered_at": "2026-10-14T18:13:16Z",
+ "generated_at": "2026-10-14T21:53:23Z",
+ "data_as_of": "2026-10-14T21:53:23Z",
+ "rendered_at": "2026-10-14T21:53:23Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -4661,6 +4661,25 @@
    }
   },
   {
+   "company": "Howden",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-14",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://hyperiongrp.wd3.myworkdayjobs.com/Hyperion_External/job/New-York--1350-Avenue-Of-The-Americas/Underwriting-Intern_R0019772-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-14"
+   }
+  },
+  {
    "company": "LSEG",
    "last_cycle_posted": "",
    "posted_on": "2026-10-14",
@@ -8040,5 +8059,5 @@
    }
   }
  ],
- "count": 423
+ "count": 424
 }
