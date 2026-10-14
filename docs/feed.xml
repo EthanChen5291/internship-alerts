@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-14T07:44:51Z</updated>
+  <updated>2026-10-14T13:22:38Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:tenstorrentuniversity:5264424007</id>
+    <title>Tenstorrent: Systems Intern - Validation, Software, Design, Architecture &amp; Packaging (USA)</title>
+    <link href="https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5264424007"/>
+    <updated>2026-10-14T13:22:38Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Austin, Texas, United States; Santa Clara, California, United States · $50/hr · Python, C++, Verilog</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Cybersecurity-Intern---Annapolis-MD_R10254705</id>
     <title>Northrop Grumman: 2027 S/W Cybersecurity Intern – Annapolis MD 🇺🇸</title>
@@ -798,13 +806,5 @@
     <updated>2026-10-07T19:48:08Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Arlington, Virginia · $35–$46/hr · Python, Java</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:tenstorrentuniversity:5256686007</id>
-    <title>Tenstorrent: AI Software Intern - Cloud, Infrastructure &amp; Data Centre Deployment (USA)</title>
-    <link href="https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256686007"/>
-    <updated>2026-10-07T13:30:42Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Austin, Texas, United States; Santa Clara, California, United States · $50/hr · Python, Bash, Kubernetes, Linux</summary>
   </entry>
 </feed>
