@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-14T13:22:38Z",
- "data_as_of": "2026-10-14T13:22:38Z",
- "rendered_at": "2026-10-14T13:22:38Z",
+ "generated_at": "2026-10-14T18:13:16Z",
+ "data_as_of": "2026-10-14T18:13:16Z",
+ "rendered_at": "2026-10-14T18:13:16Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2457,6 +2457,25 @@
    }
   },
   {
+   "company": "RF-SMART",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -36,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/rfsmart/jobs/5427723008",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "Shield AI",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -3141,6 +3160,25 @@
    }
   },
   {
+   "company": "Mdtkangaroo",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-15",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-15",
+   "days_until": -29,
+   "status": "open",
+   "url": "https://mdtkangaroo.wd108.myworkdayjobs.com/minimedcareers/job/Northridge-California-United-States-of-America/Software-Engineering-Intern-Summer-2027_R-801814-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-15"
+   }
+  },
+  {
    "company": "NOV",
    "last_cycle_posted": "",
    "posted_on": "2026-09-15",
@@ -3360,7 +3398,7 @@
    "expected": "2026-09-16",
    "days_until": -28,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/relaypro/jobs/8176774",
+   "url": "https://job-boards.greenhouse.io/relaypro/jobs/8180836",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4566,6 +4604,44 @@
    }
   },
   {
+   "company": "Field AI",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-13",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-13",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://jobs.lever.co/field-ai/b37569c3-d07f-4968-82dc-44020f34e54e",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-13"
+   }
+  },
+  {
+   "company": "Rhombus",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-13",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-13",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://jobs.lever.co/rhombus-systems/59e7a5f3-b457-491d-af08-b629ad35e380",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-13"
+   }
+  },
+  {
    "company": "Watts Water",
    "last_cycle_posted": "",
    "posted_on": "2026-10-13",
@@ -4582,6 +4658,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-13"
+   }
+  },
+  {
+   "company": "LSEG",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-14",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/New-York-City-United-States/Intern---Software-Engineer_R0124266-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-14"
    }
   },
   {
@@ -7451,25 +7546,6 @@
    }
   },
   {
-   "company": "RF-SMART",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -36,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
    "company": "HMH",
    "last_cycle_posted": "",
    "posted_on": "2026-09-09",
@@ -7964,5 +8040,5 @@
    }
   }
  ],
- "count": 419
+ "count": 423
 }
