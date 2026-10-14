@@ -1,7 +1,19 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:ngc:/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Cybersecurity-Intern---Annapolis-MD_R10254705",
+      "workday:ngc:/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Embedded-Engineering-Intern---Annapolis-MD_R10254697",
+      "workday:rakuten:/job/Bellevue-Washington/Intern---Software-Engineering--AI-User-Experience_1031437"
+    ],
+    "telegram": [
+      "workday:ngc:/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Cybersecurity-Intern---Annapolis-MD_R10254705",
+      "workday:ngc:/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Embedded-Engineering-Intern---Annapolis-MD_R10254697",
+      "workday:rakuten:/job/Bellevue-Washington/Intern---Software-Engineering--AI-User-Experience_1031437"
+    ],
+    "personal_email": [
+      "workday:ngc:/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Cybersecurity-Intern---Annapolis-MD_R10254705",
+      "workday:ngc:/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Embedded-Engineering-Intern---Annapolis-MD_R10254697",
+      "workday:rakuten:/job/Bellevue-Washington/Intern---Software-Engineering--AI-User-Experience_1031437"
+    ]
   }
 }

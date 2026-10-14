@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-14T02:06:41Z",
- "data_as_of": "2026-10-14T02:06:41Z",
- "rendered_at": "2026-10-14T02:06:41Z",
+ "generated_at": "2026-10-14T07:44:51Z",
+ "data_as_of": "2026-10-14T07:44:51Z",
+ "rendered_at": "2026-10-14T07:44:51Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -303,6 +303,25 @@
    "status": "open",
    "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166",
    "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-08"
+   }
+  },
+  {
+   "company": "Northrop Grumman",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-08",
+   "days_until": -98,
+   "status": "open",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Cybersecurity-Intern---Annapolis-MD_R10254705",
+   "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -3537,25 +3556,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-18"
-   }
-  },
-  {
-   "company": "Commerce Bank",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-21",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-21",
-   "days_until": -23,
-   "status": "open",
-   "url": "https://commercebank.wd1.myworkdayjobs.com/CommerceJobs/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern-EABI---Data-Analyst-Summer-2027_38484",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-21"
    }
   },
   {
@@ -6805,25 +6805,6 @@
    }
   },
   {
-   "company": "Northrop Grumman",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-08",
-   "days_until": -98,
-   "status": "dropped",
-   "url": "",
-   "note": "fall opening, many roles need clearance",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-08"
-   }
-  },
-  {
    "company": "The Trade Desk",
    "last_cycle_posted": "",
    "posted_on": "2026-07-15",
@@ -7813,6 +7794,25 @@
   },
   {
    "company": "Acima",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-21",
+   "days_until": -23,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-21"
+   }
+  },
+  {
+   "company": "Commerce Bank",
    "last_cycle_posted": "",
    "posted_on": "2026-09-21",
    "precision": "day",
