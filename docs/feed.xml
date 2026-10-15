@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-15T04:43:12Z</updated>
+  <updated>2026-10-15T09:42:15Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
     <id>urn:intern-engine:workday:lnw:/job/Reno-NV/Intern-Software-Engineering_R322885</id>
@@ -179,9 +179,9 @@
     <id>urn:intern-engine:workday:paloaltonetworks:/job/Office---USA---CA---Headquarters/Intern---Software-Engineer--Bachelors--EG_JR-022385</id>
     <title>Paloaltonetworks: Intern - Software Engineer (Bachelors) EG 🛂</title>
     <link href="https://paloaltonetworks.wd5.myworkdayjobs.com/hidden-private-pawn-temp-gateway-147258369/job/Office---USA---CA---Headquarters/Intern---Software-Engineer--Bachelors--EG_JR-022385"/>
-    <updated>2026-10-14T18:13:16Z</updated>
+    <updated>2026-10-15T09:42:15Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Office - USA - CA - Headquarters · sponsorship: no-sponsorship</summary>
+    <summary>Not stated · Software · Office - USA - CA - Headquarters · sponsorship: no-sponsorship · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:paloaltonetworks:/job/Office---USA---CA---Headquarters/Intern---Software-Engineer--Master-s--EG_JR-022384</id>
@@ -203,9 +203,9 @@
     <id>urn:intern-engine:workday:tranetechnologies:/job/St-Paul-Minnesota/Software-Development-Engineering-Intern_JR-15648</id>
     <title>Tranetechnologies: Software Development Engineering Intern</title>
     <link href="https://tranetechnologies.wd12.myworkdayjobs.com/trane_technologies_careers/job/St-Paul-Minnesota/Software-Development-Engineering-Intern_JR-15648"/>
-    <updated>2026-10-14T18:13:16Z</updated>
+    <updated>2026-10-15T09:42:15Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · St Paul, Minnesota · Python, C++, JavaScript, Git</summary>
+    <summary>Not stated · Software · St Paul, Minnesota · Python, C++, JavaScript, Git · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:wustl:/job/Washington-University-North-Campus-University-City-Missouri/Data-Analyst---Emergency-Management-Intern--PRN----Enterprise-Physical-Operations_JR98032-1</id>
