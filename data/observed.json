@@ -2040,9 +2040,10 @@
      "first_posted": "2026-08-19",
      "role_ids": [
       "greenhouse:generalmatter:5377118008",
-      "greenhouse:generalmatter:5377131008"
+      "greenhouse:generalmatter:5377131008",
+      "greenhouse:generalmatter:5448019008"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -3151,9 +3152,10 @@
      "first_posted": "2026-09-29",
      "role_ids": [
       "greenhouse:muonspace:5247725007",
-      "greenhouse:muonspace:5252680007"
+      "greenhouse:muonspace:5252680007",
+      "greenhouse:muonspace:5266679007"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -4037,7 +4039,9 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01874556",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineer-Intern---Summer-2027-_01870613",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01879726",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01881996",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer-Fall-2027-_01879738",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer-Fall-2027-_01882414",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op---Summer-Fall-2027-_01871480",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01878369",
@@ -4069,7 +4073,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084"
      ],
-     "count": 45
+     "count": 47
     }
    }
   },
@@ -4291,12 +4295,13 @@
      "role_ids": [
       "workday:snc:/job/Dayton-OH/Software-Engineering-Intern--Summer-2027-_R0030754",
       "workday:snc:/job/Folsom-CA/Software-Engineering-Intern--Summer-2027-_R0030761-1",
+      "workday:snc:/job/Lone-Tree-CO/Software-Engineer-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031098",
       "workday:snc:/job/Lone-Tree-CO/Software-Engineering-Intern--Summer-2027-_R0030757",
       "workday:snc:/job/Plano-TX/Software-Engineering-Intern--Summer-2027-_R0030758",
       "workday:snc:/job/Southern-Pines-NC/Software-Engineering-Intern--Summer-2027-_R0030759",
       "workday:snc:/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760"
      ],
-     "count": 6
+     "count": 7
     },
     "Fall 2026": {
      "first_posted": "2026-09-23",
@@ -5303,5 +5308,5 @@
    }
   }
  },
- "updated_at": "2026-10-15T14:42:58Z"
+ "updated_at": "2026-10-15T18:51:43Z"
 }

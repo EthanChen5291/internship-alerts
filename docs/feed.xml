@@ -5,8 +5,56 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-15T14:42:58Z</updated>
+  <updated>2026-10-15T18:51:43Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:opengov:35c2d853-b6ab-4ba7-a6f7-ffb4cfc22f7b</id>
+    <title>OpenGov: Intern, Software Engineer</title>
+    <link href="https://jobs.ashbyhq.com/opengov/35c2d853-b6ab-4ba7-a6f7-ffb4cfc22f7b"/>
+    <updated>2026-10-15T18:51:43Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · US | Massachusetts | Boston · $30 per hour · TypeScript, JavaScript, React, Angular, Git · H-1B track record: ~14 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:generalmatter:5448019008</id>
+    <title>General Matter: Summer 2027 Internship - Information Security Engineer</title>
+    <link href="https://job-boards.greenhouse.io/generalmatter/jobs/5448019008"/>
+    <updated>2026-10-15T18:51:43Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Los Angeles, CA · $32–$46/hr · Python, C++, Rust, TypeScript, AWS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:leidos:/job/6314-RemoteTeleworker-US/Performance-Enablement-AI-ML-Intern_R-00194656</id>
+    <title>Leidos: Performance Enablement AI/ML Intern 🇺🇸</title>
+    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Performance-Enablement-AI-ML-Intern_R-00194656"/>
+    <updated>2026-10-15T18:51:43Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · 6314 Remote/Teleworker US · Python, JavaScript, SQL, LLMs · sponsorship: citizens-only · H-1B track record: ~79 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:muonspace:5266679007</id>
+    <title>Muon Space: Ground Software Engineering Intern (Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/muonspace/jobs/5266679007"/>
+    <updated>2026-10-15T18:51:43Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Jose, CA · $40/hr · Python, C++, Rust</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:snc:/job/Lone-Tree-CO/Software-Engineer-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031098</id>
+    <title>Sierra Nevada Corporation: Software Engineer Intern - Summer 2027 (For SNC Summer 2026 Interns Only)</title>
+    <link href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Software-Engineer-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031098"/>
+    <updated>2026-10-15T18:51:43Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Lone Tree, CO · MATLAB</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:spscommerce:/job/CA-ON-Brampton-Office/Software-Engineer-Intern_R-001353</id>
+    <title>SPS Commerce: Software Engineer Intern</title>
+    <link href="https://spscommerce.wd108.myworkdayjobs.com/SPS/job/CA-ON-Brampton-Office/Software-Engineer-Intern_R-001353"/>
+    <updated>2026-10-15T18:51:43Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · CA ON Brampton Office</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:emcins:/job/Iowa/Cybersecurity-Intern_R6590</id>
     <title>EMC Insurance: Cybersecurity Intern</title>
@@ -739,9 +787,9 @@
     <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146</id>
     <title>General Motors: 2027 Summer Intern, AI Research, Embodied AI</title>
     <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146"/>
-    <updated>2026-10-09T19:05:02Z</updated>
+    <updated>2026-10-15T18:51:43Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, C++, PyTorch, TensorFlow, LLMs · H-1B track record: ~928 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, C++, PyTorch, TensorFlow, LLMs · status: closed · H-1B track record: ~928 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135</id>
@@ -758,53 +806,5 @@
     <updated>2026-10-09T19:05:02Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, C++, PyTorch, TensorFlow, Computer Vision · H-1B track record: ~928 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aptiv:/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704398</id>
-    <title>Aptiv: Linux Software Development Intern</title>
-    <link href="https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Home-Office---WR/Linux-Software-Development-Intern_J000704398"/>
-    <updated>2026-10-09T13:24:20Z</updated>
-    <category term="Not stated"/>
-    <summary>2 openings · Not stated · Software · USA Home Office - WR · Linux, Python, C++, Git · H-1B track record: ~251 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aptiv:/job/USA-Walnut-Creek-CA---WR/Embedded-Software---Engineering-Intern_J000704386</id>
-    <title>Aptiv: Embedded Software - Engineering Intern 🇺🇸</title>
-    <link href="https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Walnut-Creek-CA---WR/Embedded-Software---Engineering-Intern_J000704386"/>
-    <updated>2026-10-09T13:24:20Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · USA Walnut Creek, CA - WR · Linux · sponsorship: citizens-only · H-1B track record: ~251 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aptiv:/job/USA-Walnut-Creek-CA---WR/Intern---Compiler-Team_J000704385</id>
-    <title>Aptiv: Intern - Compiler Team</title>
-    <link href="https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Walnut-Creek-CA---WR/Intern---Compiler-Team_J000704385"/>
-    <updated>2026-10-09T13:24:20Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · USA Walnut Creek, CA - WR · Python, Bash, Linux, Git · H-1B track record: ~251 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:jci:/job/Burlington-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_EB00075408</id>
-    <title>Johnson Controls: Software Engineering Co-Op</title>
-    <link href="https://jci.wd5.myworkdayjobs.com/JCI/job/Burlington-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_EB00075408"/>
-    <updated>2026-10-09T13:24:20Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Software · Burlington-Massachusetts-United States of America · Python, C++, JavaScript, Bash, React · status: closed · H-1B track record: ~104 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:viget:b18cc87d-fca2-485a-a0f2-ad6197db63f2</id>
-    <title>Viget: Software Developer Intern (2027) 🛂</title>
-    <link href="https://jobs.lever.co/viget/b18cc87d-fca2-485a-a0f2-ad6197db63f2"/>
-    <updated>2026-10-09T00:14:25Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Boulder, CO · Python, JavaScript, Ruby, React, Vue · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:badgermeter:/job/US----CA---Escondido-Facility/Software-Engineering-Intern_4645</id>
-    <title>Badger Meter: Software Engineering Intern</title>
-    <link href="https://badgermeter.wd5.myworkdayjobs.com/US_CareerSite/job/US----CA---Escondido-Facility/Software-Engineering-Intern_4645"/>
-    <updated>2026-10-09T00:14:25Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · US  - CA - Escondido Facility</summary>
   </entry>
 </feed>
