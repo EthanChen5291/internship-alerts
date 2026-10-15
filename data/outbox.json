@@ -1,7 +1,49 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "lever:cscgeneration-2:3a04b45f-a2eb-438a-a8ac-b07324223813",
+      "workday:centene:/job/Remote-MO/AI-Software-Developer-Intern--Undergraduate---Summer-2027-_1667710",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI--Masters-_JR-202622537",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI--Masters-_JR-202622535",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI--Masters-_JR-202622543",
+      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping--Masters-_JR-202622539",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI--Masters-_JR-202622540",
+      "smartrecruiters:LLNL:3743990016165636",
+      "smartrecruiters:LLNL:3743990016165586",
+      "smartrecruiters:LLNL:3743990016165506",
+      "smartrecruiters:LLNL:3743990016165496",
+      "smartrecruiters:LLNL:3743990016164416",
+      "smartrecruiters:LLNL:3743990016164366"
+    ],
+    "telegram": [
+      "lever:cscgeneration-2:3a04b45f-a2eb-438a-a8ac-b07324223813",
+      "workday:centene:/job/Remote-MO/AI-Software-Developer-Intern--Undergraduate---Summer-2027-_1667710",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI--Masters-_JR-202622537",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI--Masters-_JR-202622535",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI--Masters-_JR-202622543",
+      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping--Masters-_JR-202622539",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI--Masters-_JR-202622540",
+      "smartrecruiters:LLNL:3743990016165636",
+      "smartrecruiters:LLNL:3743990016165586",
+      "smartrecruiters:LLNL:3743990016165506",
+      "smartrecruiters:LLNL:3743990016165496",
+      "smartrecruiters:LLNL:3743990016164416",
+      "smartrecruiters:LLNL:3743990016164366"
+    ],
+    "personal_email": [
+      "lever:cscgeneration-2:3a04b45f-a2eb-438a-a8ac-b07324223813",
+      "workday:centene:/job/Remote-MO/AI-Software-Developer-Intern--Undergraduate---Summer-2027-_1667710",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI--Masters-_JR-202622537",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI--Masters-_JR-202622535",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI--Masters-_JR-202622543",
+      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping--Masters-_JR-202622539",
+      "workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI--Masters-_JR-202622540",
+      "smartrecruiters:LLNL:3743990016165636",
+      "smartrecruiters:LLNL:3743990016165586",
+      "smartrecruiters:LLNL:3743990016165506",
+      "smartrecruiters:LLNL:3743990016165496",
+      "smartrecruiters:LLNL:3743990016164416",
+      "smartrecruiters:LLNL:3743990016164366"
+    ]
   }
 }
