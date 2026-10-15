@@ -1,16 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:emcins:/job/Iowa/Cybersecurity-Intern_R6590",
-      "greenhouse:ensco:5421861008"
-    ],
-    "telegram": [
-      "workday:emcins:/job/Iowa/Cybersecurity-Intern_R6590",
-      "greenhouse:ensco:5421861008"
-    ],
-    "personal_email": [
-      "workday:emcins:/job/Iowa/Cybersecurity-Intern_R6590",
-      "greenhouse:ensco:5421861008"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
