@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-15T09:42:15Z</updated>
+  <updated>2026-10-15T14:42:58Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:emcins:/job/Iowa/Cybersecurity-Intern_R6590</id>
+    <title>EMC Insurance: Cybersecurity Intern</title>
+    <link href="https://emcins.wd5.myworkdayjobs.com/EMC_Careers/job/Iowa/Cybersecurity-Intern_R6590"/>
+    <updated>2026-10-15T14:42:58Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Iowa</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:lnw:/job/Reno-NV/Intern-Software-Engineering_R322885</id>
     <title>Light &amp; Wonder: Intern Software Engineering</title>
@@ -451,9 +459,9 @@
     <id>urn:intern-engine:workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Agencies--Cybersecurity-_RQ230273</id>
     <title>General Dynamics Information Technology: 2027 Summer Intern - Defense Agencies (Cybersecurity) 🇺🇸</title>
     <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Agencies--Cybersecurity-_RQ230273"/>
-    <updated>2026-10-12T22:51:39Z</updated>
+    <updated>2026-10-15T14:42:58Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · USA VA Falls Church · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Security · USA VA Falls Church · sponsorship: citizens-only · status: closed · H-1B track record: ~28 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Angencies--AI-ML-_RQ230275</id>
@@ -798,13 +806,5 @@
     <updated>2026-10-09T00:14:25Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · US  - CA - Escondido Facility</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:jj:/job/Spring-House-Pennsylvania-United-States-of-America/AI-Excellence--Decision-Enablement-Intern_R-102881</id>
-    <title>Johnson &amp; Johnson: AI Excellence, Decision Enablement Intern 🛂</title>
-    <link href="https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/AI-Excellence--Decision-Enablement-Intern_R-102881"/>
-    <updated>2026-10-09T00:14:25Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Spring House, Pennsylvania, United States of America · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>
