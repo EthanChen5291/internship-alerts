@@ -1,34 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "ashby:opengov:35c2d853-b6ab-4ba7-a6f7-ffb4cfc22f7b",
-      "greenhouse:generalmatter:5448019008",
-      "workday:leidos:/job/6314-RemoteTeleworker-US/Performance-Enablement-AI-ML-Intern_R-00194656",
-      "greenhouse:muonspace:5266679007",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer-Fall-2027-_01882414",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01881996",
-      "workday:snc:/job/Lone-Tree-CO/Software-Engineer-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031098",
-      "workday:spscommerce:/job/CA-ON-Brampton-Office/Software-Engineer-Intern_R-001353"
-    ],
-    "telegram": [
-      "ashby:opengov:35c2d853-b6ab-4ba7-a6f7-ffb4cfc22f7b",
-      "greenhouse:generalmatter:5448019008",
-      "workday:leidos:/job/6314-RemoteTeleworker-US/Performance-Enablement-AI-ML-Intern_R-00194656",
-      "greenhouse:muonspace:5266679007",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer-Fall-2027-_01882414",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01881996",
-      "workday:snc:/job/Lone-Tree-CO/Software-Engineer-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031098",
-      "workday:spscommerce:/job/CA-ON-Brampton-Office/Software-Engineer-Intern_R-001353"
-    ],
-    "personal_email": [
-      "ashby:opengov:35c2d853-b6ab-4ba7-a6f7-ffb4cfc22f7b",
-      "greenhouse:generalmatter:5448019008",
-      "workday:leidos:/job/6314-RemoteTeleworker-US/Performance-Enablement-AI-ML-Intern_R-00194656",
-      "greenhouse:muonspace:5266679007",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer-Fall-2027-_01882414",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01881996",
-      "workday:snc:/job/Lone-Tree-CO/Software-Engineer-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031098",
-      "workday:spscommerce:/job/CA-ON-Brampton-Office/Software-Engineer-Intern_R-001353"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
