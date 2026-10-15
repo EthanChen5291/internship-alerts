@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-14T21:53:23Z</updated>
+  <updated>2026-10-15T00:20:32Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:lnw:/job/Reno-NV/Intern-Software-Engineering_R322885</id>
+    <title>Light &amp; Wonder: Intern Software Engineering</title>
+    <link href="https://lnw.wd5.myworkdayjobs.com/lightwonderexternalcareers/job/Reno-NV/Intern-Software-Engineering_R322885"/>
+    <updated>2026-10-15T00:20:32Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Reno, NV · Python, C++, C#, JavaScript, SQL</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:skydio:79fdda46-4ff5-42c7-b208-55f2084cdb8c</id>
     <title>Skydio: Software Engineer Intern - Summer 2027</title>
@@ -16,20 +24,28 @@
     <summary>Summer 2027 · Software · San Mateo, California, United States · $47/hr · Python, C++, Go, TypeScript, JavaScript · H-1B track record: ~26 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:astreya:/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017927</id>
-    <title>Astreya: AI Infrastructure DC Design Intern</title>
-    <link href="https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017927"/>
-    <updated>2026-10-14T21:53:23Z</updated>
-    <category term="Not stated"/>
-    <summary>4 openings · Not stated · Data &amp; ML/AI · Remote, CA</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:greenhouse:figureai:4722086006</id>
     <title>Figure: Embedded Software Engineering Intern, Platform</title>
     <link href="https://job-boards.greenhouse.io/figureai/jobs/4722086006"/>
     <updated>2026-10-14T21:53:23Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · San Jose, CA · $40–$45/hr · Python, C++, Rust, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:alliance:/job/Santa-Clara-California---United-States-of-America/AI-Robotics-Research-Intern---Summer-2027---Santa-Clara--CA_R00214267</id>
+    <title>Nissan: AI Robotics Research Intern - Summer 2027 - Santa Clara, CA</title>
+    <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/AI-Robotics-Research-Intern---Summer-2027---Santa-Clara--CA_R00214267"/>
+    <updated>2026-10-14T21:53:23Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, California - United States of America · Python, C++, Computer Vision, ROS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:astreya:/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017927</id>
+    <title>Astreya: AI Infrastructure DC Design Intern</title>
+    <link href="https://astreya.wd5.myworkdayjobs.com/life-at-astreya-opportunities/job/Remote-CA/AI-Infrastructure-DC-Design-Intern_R0017927"/>
+    <updated>2026-10-14T21:53:23Z</updated>
+    <category term="Not stated"/>
+    <summary>4 openings · Not stated · Data &amp; ML/AI · Remote, CA</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:hyperiongrp:/job/New-York--1350-Avenue-Of-The-Americas/Underwriting-Intern_R0019772-1</id>
@@ -46,14 +62,6 @@
     <updated>2026-10-14T21:53:23Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Reston, VA · Python, Java, C++, JavaScript, PyTorch · sponsorship: citizens-only · H-1B track record: ~35 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:alliance:/job/Santa-Clara-California---United-States-of-America/AI-Robotics-Research-Intern---Summer-2027---Santa-Clara--CA_R00214267</id>
-    <title>Nissan: AI Robotics Research Intern - Summer 2027 - Santa Clara, CA</title>
-    <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/AI-Robotics-Research-Intern---Summer-2027---Santa-Clara--CA_R00214267"/>
-    <updated>2026-10-14T21:53:23Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, California - United States of America · Python, C++, Computer Vision, ROS</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:breezy:matrix-design-group:f0fb9ea37c63</id>
@@ -75,9 +83,9 @@
     <id>urn:intern-engine:lever:field-ai:b37569c3-d07f-4968-82dc-44020f34e54e</id>
     <title>Field AI: Research Scientist Intern, Robot Learning &amp; Manipulation (Spring, Summer &amp; Fall 2027)</title>
     <link href="https://jobs.lever.co/field-ai/b37569c3-d07f-4968-82dc-44020f34e54e"/>
-    <updated>2026-10-14T18:13:16Z</updated>
+    <updated>2026-10-15T00:20:32Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Irvine, CA · Python, C++</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Irvine, CA · Python, C++ · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:rhombus-systems:59e7a5f3-b457-491d-af08-b629ad35e380</id>
@@ -241,11 +249,11 @@
   </entry>
   <entry>
     <id>urn:intern-engine:lever:field-ai:ef35c537-b864-479f-9dbe-b30429ac7704</id>
-    <title>Field AI: Robotics Research Intern, Embodied AI</title>
+    <title>Field AI: Robotics Research Intern, Embodied AI (Spring or Summer 2027)</title>
     <link href="https://jobs.lever.co/field-ai/ef35c537-b864-479f-9dbe-b30429ac7704"/>
     <updated>2026-10-14T02:06:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Irvine, CA · Python, C++, ROS</summary>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Irvine, CA · Python, C++, ROS</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921-1</id>
@@ -451,9 +459,9 @@
     <id>urn:intern-engine:workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Angencies--AI-ML-_RQ230275</id>
     <title>General Dynamics Information Technology: 2027 Summer Intern - Defense Angencies (AI/ML) 🇺🇸</title>
     <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Angencies--AI-ML-_RQ230275"/>
-    <updated>2026-10-12T22:51:39Z</updated>
+    <updated>2026-10-15T00:20:32Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · USA VA Falls Church · Python · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · USA VA Falls Church · Python · sponsorship: citizens-only · status: closed · H-1B track record: ~28 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:generalmotors:/job/Mountain-View-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---AI-Machine-Learning_JR-202621620</id>
@@ -798,13 +806,5 @@
     <updated>2026-10-09T00:14:25Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Spring House, Pennsylvania, United States of America · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:imc:4962456101</id>
-    <title>IMC Trading: Machine Learning Engineer Intern - Summer 2027</title>
-    <link href="https://job-boards.eu.greenhouse.io/imc/jobs/4962456101"/>
-    <updated>2026-10-08T19:43:48Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · New York, United States · Python, C++ · H-1B track record: ~13 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
