@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:lnw:/job/Reno-NV/Intern-Software-Engineering_R322885"
-    ],
-    "telegram": [
-      "workday:lnw:/job/Reno-NV/Intern-Software-Engineering_R322885"
-    ],
-    "personal_email": [
-      "workday:lnw:/job/Reno-NV/Intern-Software-Engineering_R322885"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
