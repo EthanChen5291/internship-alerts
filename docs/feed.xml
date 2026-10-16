@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-16T00:36:47Z</updated>
+  <updated>2026-10-16T05:13:30Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:hpe:/job/Spring-Texas-United-States-of-America/AI---HPC-Performance-Engineering-Intern_1213397</id>
+    <title>Hewlett Packard Enterprise: AI &amp; HPC Performance Engineering Intern</title>
+    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Spring-Texas-United-States-of-America/AI---HPC-Performance-Engineering-Intern_1213397"/>
+    <updated>2026-10-16T05:13:30Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Spring, Texas, United States of America · Python, Java, C++, CUDA, HTML/CSS · H-1B track record: ~499 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:inversionspace:4744391005</id>
     <title>Inversion Space: Avionics Embedded Software Engineer - Summer Internship 2027 🇺🇸</title>
@@ -798,13 +806,5 @@
     <updated>2026-10-09T23:28:25Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · New York · Java, TypeScript, SQL, Kotlin, AWS · H-1B track record: ~11 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:Loram1:3743990016031492</id>
-    <title>Loram: Machine Learning / Artificial Intelligence (AI) Intern</title>
-    <link href="https://jobs.smartrecruiters.com/Loram1/3743990016031492"/>
-    <updated>2026-10-16T00:36:47Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Hamel, MN, United States · Python, C#, SQL, PyTorch, Pandas · status: closed</summary>
   </entry>
 </feed>
