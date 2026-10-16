@@ -1,7 +1,25 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "oracle:ejia.fa.us6.oraclecloud.com:107307",
+      "workday:entrust:/job/United-States---Shakopee-MN-GHQ/Software-Engineering-Co-op_R004425",
+      "workday:gdit:/job/USA-VA-Falls-Church/Technical-Intern---AI-and-Estimation_RQ230646",
+      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284880",
+      "smartrecruiters:WellmarkInc:744000156043218"
+    ],
+    "telegram": [
+      "oracle:ejia.fa.us6.oraclecloud.com:107307",
+      "workday:entrust:/job/United-States---Shakopee-MN-GHQ/Software-Engineering-Co-op_R004425",
+      "workday:gdit:/job/USA-VA-Falls-Church/Technical-Intern---AI-and-Estimation_RQ230646",
+      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284880",
+      "smartrecruiters:WellmarkInc:744000156043218"
+    ],
+    "personal_email": [
+      "oracle:ejia.fa.us6.oraclecloud.com:107307",
+      "workday:entrust:/job/United-States---Shakopee-MN-GHQ/Software-Engineering-Co-op_R004425",
+      "workday:gdit:/job/USA-VA-Falls-Church/Technical-Intern---AI-and-Estimation_RQ230646",
+      "workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284880",
+      "smartrecruiters:WellmarkInc:744000156043218"
+    ]
   }
 }

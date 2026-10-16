@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-16T15:00:55Z</updated>
+  <updated>2026-10-16T19:05:51Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:entrust:/job/United-States---Shakopee-MN-GHQ/Software-Engineering-Co-op_R004425</id>
+    <title>Entrust: Software Engineering Co-op</title>
+    <link href="https://entrust.wd1.myworkdayjobs.com/entrustcareers/job/United-States---Shakopee-MN-GHQ/Software-Engineering-Co-op_R004425"/>
+    <updated>2026-10-16T19:05:51Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · United States - Shakopee, MN (GHQ) · $25/hr · Python, C#</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:gdit:/job/USA-VA-Falls-Church/Technical-Intern---AI-and-Estimation_RQ230646</id>
+    <title>General Dynamics Information Technology: Technical Intern - AI and Estimation 🇺🇸</title>
+    <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Technical-Intern---AI-and-Estimation_RQ230646"/>
+    <updated>2026-10-16T19:05:51Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · USA VA Falls Church · Python, LLMs · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284880</id>
+    <title>Mastercard: Platform Engineering Intern, Summer 2027 – St. Louis, MO, US</title>
+    <link href="https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284880"/>
+    <updated>2026-10-16T19:05:51Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · O'Fallon, Missouri · $25–$30/hr · Java, AWS, GCP, Azure, Kubernetes</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:WellmarkInc:744000156043218</id>
+    <title>Wellmark: Software Engineer Internship – Technology Health Plan</title>
+    <link href="https://jobs.smartrecruiters.com/WellmarkInc/744000156043218"/>
+    <updated>2026-10-16T19:05:51Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Des Moines, IA, United States (Hybrid) · TypeScript, AWS · H-1B track record: ~15 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554</id>
     <title>ICF: 2027 Summer Intern, Cloud Engineer (AWS/Azure) (Reston, VA) 🛂</title>
@@ -187,9 +219,9 @@
     <id>urn:intern-engine:workday:spscommerce:/job/CA-ON-Brampton-Office/Software-Engineer-Intern_R-001353</id>
     <title>SPS Commerce: Software Engineer Intern</title>
     <link href="https://spscommerce.wd108.myworkdayjobs.com/SPS/job/CA-ON-Brampton-Office/Software-Engineer-Intern_R-001353"/>
-    <updated>2026-10-15T18:51:43Z</updated>
+    <updated>2026-10-16T19:05:51Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · CA ON Brampton Office</summary>
+    <summary>Not stated · Software · CA ON Brampton Office · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:emcins:/job/Iowa/Cybersecurity-Intern_R6590</id>
@@ -219,9 +251,9 @@
     <id>urn:intern-engine:greenhouse:figureai:4722086006</id>
     <title>Figure: Embedded Software Engineering Intern, Platform</title>
     <link href="https://job-boards.greenhouse.io/figureai/jobs/4722086006"/>
-    <updated>2026-10-14T21:53:23Z</updated>
+    <updated>2026-10-16T19:05:51Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · San Jose, CA · $40–$45/hr · Python, C++, Rust, Linux</summary>
+    <summary>Not stated · Software · San Jose, CA · $40–$45/hr · Python, C++, Rust, Linux · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:alliance:/job/Santa-Clara-California---United-States-of-America/AI-Robotics-Research-Intern---Summer-2027---Santa-Clara--CA_R00214267</id>
@@ -774,37 +806,5 @@
     <updated>2026-10-11T16:15:30Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Pittsburgh, PA · Python, PyTorch, TensorFlow, Computer Vision · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:workday:/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809</id>
-    <title>Workday: Cybersecurity Engineer Intern 🛂</title>
-    <link href="https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809"/>
-    <updated>2026-10-10T16:05:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · USA, CA, Pleasanton · Python, Java, TypeScript, JavaScript, AWS · sponsorship: no-sponsorship · H-1B track record: ~581 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:workday:/job/USA-CA-Pleasanton/Machine-Learning-Engineer-Intern_JR-0110812</id>
-    <title>Workday: Machine Learning Engineer Intern 🛂</title>
-    <link href="https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Machine-Learning-Engineer-Intern_JR-0110812"/>
-    <updated>2026-10-10T16:05:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · USA, CA, Pleasanton · Python, Pandas, LLMs, AWS, Kubernetes · sponsorship: no-sponsorship · H-1B track record: ~581 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:workday:/job/USA-CA-Pleasanton/Software-Application-Development-Engineer-Intern_JR-0110811</id>
-    <title>Workday: Software Application Development Engineer Intern 🛂</title>
-    <link href="https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Application-Development-Engineer-Intern_JR-0110811"/>
-    <updated>2026-10-10T16:05:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · USA, CA, Pleasanton · Python, Java, C++, JavaScript, React · sponsorship: no-sponsorship · H-1B track record: ~581 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:workday:/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810</id>
-    <title>Workday: Software Development Engineer Intern 🛂</title>
-    <link href="https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810"/>
-    <updated>2026-10-10T16:05:34Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · USA, CA, Pleasanton · Python, Java, C++, JavaScript, Scala · sponsorship: no-sponsorship · H-1B track record: ~581 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
