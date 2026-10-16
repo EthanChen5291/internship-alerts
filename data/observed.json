@@ -2502,10 +2502,11 @@
       "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603312-1",
       "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603518",
       "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--AI-Engineer--Reston--VA-_R2603521",
+      "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554",
       "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002",
       "workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Engineer--Reston--VA-_R2603522"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -2799,6 +2800,7 @@
     "Summer 2027": {
      "first_posted": "2026-07-29",
      "role_ids": [
+      "workday:leidos:/job/6314-RemoteTeleworker-US/Cloud-Engineering-Intern_R-00194668",
       "workday:leidos:/job/Alexandria-VA/Cybersecurity-Analyst-Intern_R-00190671",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00188311",
       "workday:leidos:/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713",
@@ -2815,7 +2817,7 @@
       "workday:leidos:/job/Sunset-UT/Cybersecurity-Analyst-Intern_R-00190664",
       "workday:leidos:/job/Whitehall-OH/Cybersecurity-Analyst-Intern_R-00190669"
      ],
-     "count": 15
+     "count": 16
     }
    }
   },
@@ -5344,5 +5346,5 @@
    }
   }
  },
- "updated_at": "2026-10-16T09:58:31Z"
+ "updated_at": "2026-10-16T15:00:55Z"
 }

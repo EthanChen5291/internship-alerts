@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-16T09:58:31Z</updated>
+  <updated>2026-10-16T15:00:55Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554</id>
+    <title>ICF: 2027 Summer Intern, Cloud Engineer (AWS/Azure) (Reston, VA) 🛂</title>
+    <link href="https://icf.wd5.myworkdayjobs.com/ICFExternal_Career_Site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554"/>
+    <updated>2026-10-16T15:00:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Reston, VA · $27/hr · AWS, Azure, Terraform, Git · sponsorship: no-sponsorship · H-1B track record: ~35 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:leidos:/job/6314-RemoteTeleworker-US/Cloud-Engineering-Intern_R-00194668</id>
+    <title>Leidos: Cloud Engineering Intern 🇺🇸</title>
+    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Cloud-Engineering-Intern_R-00194668"/>
+    <updated>2026-10-16T15:00:55Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · 6314 Remote/Teleworker US · Azure · sponsorship: citizens-only · H-1B track record: ~79 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:hpe:/job/Spring-Texas-United-States-of-America/AI---HPC-Performance-Engineering-Intern_1213397</id>
     <title>Hewlett Packard Enterprise: AI &amp; HPC Performance Engineering Intern</title>
@@ -331,9 +347,9 @@
     <id>urn:intern-engine:workday:mdtkangaroo:/job/Northridge-California-United-States-of-America/Software-Engineering-Intern-Summer-2027_R-801814-1</id>
     <title>Mdtkangaroo: Software Engineering Intern Summer 2027 🛂</title>
     <link href="https://mdtkangaroo.wd108.myworkdayjobs.com/minimedcareers/job/Northridge-California-United-States-of-America/Software-Engineering-Intern-Summer-2027_R-801814-1"/>
-    <updated>2026-10-14T18:13:16Z</updated>
+    <updated>2026-10-16T15:00:55Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Northridge, California, United States of America · $26.5–$45.25/hr · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship</summary>
+    <summary>Summer 2027 · Software · Northridge, California, United States of America · $26.5–$45.25/hr · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:mdtkangaroo:/job/USA-GA-Johns-Creek/Graduate-AI-Engineer-Intern-Summer-2027_R-801926</id>
@@ -790,21 +806,5 @@
     <updated>2026-10-10T16:05:34Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · USA, CA, Pleasanton · Python, Java, C++, JavaScript, Scala · sponsorship: no-sponsorship · H-1B track record: ~581 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:amat:/job/Santa-ClaraCA/Software-Engineering-Summer-Intern--Masters---Santa-Clara--CA-_R2630705</id>
-    <title>Applied Materials: Software Engineering Summer Intern (Masters - Santa Clara, CA)</title>
-    <link href="https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Engineering-Summer-Intern--Masters---Santa-Clara--CA-_R2630705"/>
-    <updated>2026-10-10T02:54:27Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Santa Clara,CA · C#, LLMs · H-1B track record: ~650 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:arcesiumllc:5257176007</id>
-    <title>Arcesium: Software Engineer Intern</title>
-    <link href="https://job-boards.greenhouse.io/arcesiumllc/jobs/5257176007"/>
-    <updated>2026-10-09T23:28:25Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York · Java, TypeScript, SQL, Kotlin, AWS · H-1B track record: ~11 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
