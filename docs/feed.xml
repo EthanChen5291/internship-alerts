@@ -5,8 +5,48 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-16T19:05:51Z</updated>
+  <updated>2026-10-16T22:19:06Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Software-Engineering-Intern---Boulder-CO_R10256077</id>
+    <title>Northrop Grumman: 2027 Software Engineering Intern - Boulder CO 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Boulder/XMLNAME-2027-Software-Engineering-Intern---Boulder-CO_R10256077"/>
+    <updated>2026-10-16T22:19:06Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States-Colorado-Boulder · $26.75–$33.5/hr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10256080</id>
+    <title>Northrop Grumman: 2027 Software Engineering Intern - Colorado Springs 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10256080"/>
+    <updated>2026-10-16T22:19:06Z</updated>
+    <category term="Summer 2027"/>
+    <summary>2 openings · Summer 2027 · Software · United States-Colorado-Colorado Springs · $24.25–$30.5/hr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Colorado-Aurora/XMLNAME-2027-Software-Engineering-Intern---Aurora-CO_R10256243</id>
+    <title>Northrop Grumman: 2027 Software Engineering Intern - Aurora CO 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/XMLNAME-2027-Software-Engineering-Intern---Aurora-CO_R10256243"/>
+    <updated>2026-10-16T22:19:06Z</updated>
+    <category term="Summer 2027"/>
+    <summary>2 openings · Summer 2027 · Software · United States-Colorado-Aurora · $26.75–$33.5/hr · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ryan:/job/Plano/Summer-2027-Intern--Software-Development_R0020822-1</id>
+    <title>Ryan: Summer 2027 Intern, Software Development</title>
+    <link href="https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Software-Development_R0020822-1"/>
+    <updated>2026-10-16T22:19:06Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Plano TX · Python, C#, TypeScript, React, Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:WellmarkInc:744000156043218</id>
+    <title>Wellmark: Software Engineer Internship – Technology Health Plan</title>
+    <link href="https://jobs.smartrecruiters.com/WellmarkInc/744000156043218"/>
+    <updated>2026-10-16T19:05:51Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Des Moines, IA, United States (Hybrid) · TypeScript, AWS · H-1B track record: ~15 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:entrust:/job/United-States---Shakopee-MN-GHQ/Software-Engineering-Co-op_R004425</id>
     <title>Entrust: Software Engineering Co-op</title>
@@ -30,14 +70,6 @@
     <updated>2026-10-16T19:05:51Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · O'Fallon, Missouri · $25–$30/hr · Java, AWS, GCP, Azure, Kubernetes</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:WellmarkInc:744000156043218</id>
-    <title>Wellmark: Software Engineer Internship – Technology Health Plan</title>
-    <link href="https://jobs.smartrecruiters.com/WellmarkInc/744000156043218"/>
-    <updated>2026-10-16T19:05:51Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Des Moines, IA, United States (Hybrid) · TypeScript, AWS · H-1B track record: ~15 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:icf:/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554</id>
@@ -774,37 +806,5 @@
     <updated>2026-10-12T15:29:48Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · US.CO.Denver · C#, TypeScript, JavaScript, SQL, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalfoundries:/job/USA---Texas---Austin/Strategic-Pricing---AI-Analytics-Intern--Summer-2027-_JR-2605139</id>
-    <title>GlobalFoundries: Strategic Pricing &amp; AI Analytics Intern (Summer 2027)</title>
-    <link href="https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/Strategic-Pricing---AI-Analytics-Intern--Summer-2027-_JR-2605139"/>
-    <updated>2026-10-12T06:00:17Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · USA - Texas - Austin · LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cmu:/job/Pittsburgh-PA/AI-Security-Research-Intern---Sept-2026---May-2027-_2025068-2</id>
-    <title>Cmu: AI Security Research Intern  (Sept 2026 - May 2027) 🛂</title>
-    <link href="https://cmu.wd115.myworkdayjobs.com/sei/job/Pittsburgh-PA/AI-Security-Research-Intern---Sept-2026---May-2027-_2025068-2"/>
-    <updated>2026-10-11T16:15:30Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Data &amp; ML/AI · Pittsburgh, PA · Python, PyTorch, TensorFlow, LLMs · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cmu:/job/Pittsburgh-PA/AI-Security-Research-Intern---Summer-2027_2025199-1</id>
-    <title>Cmu: AI Security Research Intern – Summer 2027 🛂</title>
-    <link href="https://cmu.wd115.myworkdayjobs.com/sei/job/Pittsburgh-PA/AI-Security-Research-Intern---Summer-2027_2025199-1"/>
-    <updated>2026-10-11T16:15:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Pittsburgh, PA · Python, PyTorch, TensorFlow, LLMs · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cmu:/job/Pittsburgh-PA/AI-Security-Software-Engineer-Intern---Summer-2027_2025200-1</id>
-    <title>Cmu: AI Security Software Engineer Intern – Summer 2027 🛂</title>
-    <link href="https://cmu.wd115.myworkdayjobs.com/sei/job/Pittsburgh-PA/AI-Security-Software-Engineer-Intern---Summer-2027_2025200-1"/>
-    <updated>2026-10-11T16:15:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Pittsburgh, PA · Python, PyTorch, TensorFlow, Computer Vision · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>
