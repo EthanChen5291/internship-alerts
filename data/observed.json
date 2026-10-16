@@ -2611,6 +2611,18 @@
     }
    }
   },
+  "inversion space": {
+   "name": "Inversion Space",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-15",
+     "role_ids": [
+      "greenhouse:inversionspace:4744391005"
+     ],
+     "count": 1
+    }
+   }
+  },
   "jabil": {
    "name": "Jabil",
    "cycles": {
@@ -4548,6 +4560,18 @@
     }
    }
   },
+  "t mobile": {
+   "name": "T-Mobile",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-15",
+     "role_ids": [
+      "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Intern_REQ368322"
+     ],
+     "count": 1
+    }
+   }
+  },
   "talos": {
    "name": "Talos",
    "cycles": {
@@ -5320,5 +5344,5 @@
    }
   }
  },
- "updated_at": "2026-10-15T22:00:10Z"
+ "updated_at": "2026-10-16T00:36:47Z"
 }
