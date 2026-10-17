@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-17T05:12:41Z",
- "data_as_of": "2026-10-17T05:12:41Z",
- "rendered_at": "2026-10-17T05:12:42Z",
+ "generated_at": "2026-10-17T13:24:25Z",
+ "data_as_of": "2026-10-17T13:24:25Z",
+ "rendered_at": "2026-10-17T13:24:26Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2315,7 +2315,7 @@
    "expected": "2026-09-07",
    "days_until": -40,
    "status": "open",
-   "url": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Amarillo-TX-79101/Data-Analyst-Intern--TX_JR115565-1",
+   "url": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/AI---Automation-Intern--CO_JR115739-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",

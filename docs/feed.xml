@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-17T05:12:41Z</updated>
+  <updated>2026-10-17T13:24:25Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:agzen:4cff4edd-3e9a-4ea1-8138-80c7241a2d3a</id>
+    <title>AgZen: Software Engineering Co-op</title>
+    <link href="https://jobs.ashbyhq.com/agzen/4cff4edd-3e9a-4ea1-8138-80c7241a2d3a"/>
+    <updated>2026-10-17T13:24:25Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Somerville, MA · Computer Vision</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:aidashinc:4436057009</id>
+    <title>Aidashinc: Software Engineering Intern, Backend</title>
+    <link href="https://job-boards.greenhouse.io/aidashinc/jobs/4436057009"/>
+    <updated>2026-10-17T13:24:25Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Palo Alto, California, United States · Python, Java, SQL, AWS, Git</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:bah:/job/Fayetteville-NC/University--Software-Engineer-Intern_R0251802</id>
     <title>Booz Allen: University, Software Engineer Intern 🇺🇸</title>
@@ -634,7 +650,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Ann-Arbor-MI/Software-Engineer-Intern---AI_2641817-2</id>
     <title>KLA: Software Engineer Intern - AI</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Ann-Arbor-MI/Software-Engineer-Intern---AI_2641817-2"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Software-Engineer-Intern---AI_2641817"/>
     <updated>2026-10-13T18:26:19Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Ann Arbor, MI · $24–$40/hr · Python, Java, C++, C#, JavaScript · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -642,7 +658,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Ann-Arbor-MI/Software-Engineering-Intern_2641821-2</id>
     <title>KLA: Software Engineering Intern</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Ann-Arbor-MI/Software-Engineering-Intern_2641821-2"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Software-Engineering-Intern_2641821"/>
     <updated>2026-10-13T18:26:19Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Ann Arbor, MI · $24–$40/hr · Python, Java, C++, C#, JavaScript · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -790,21 +806,5 @@
     <updated>2026-10-12T22:51:39Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Schaumburg, IL 60173 · $24–$27/hr · H-1B track record: ~12 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:rfsmart:5427723008</id>
-    <title>RF-SMART: Software Support Engineer Internship (RFS for NetSuite) -Summer 2027 🛂</title>
-    <link href="https://job-boards.greenhouse.io/rfsmart/jobs/5427723008"/>
-    <updated>2026-10-12T15:29:48Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Jacksonville, Florida, United States · $20/hr · JavaScript · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:rfsmart:5446867008</id>
-    <title>RF-SMART: Software Developer Internship- Summer 2027 🛂</title>
-    <link href="https://job-boards.greenhouse.io/rfsmart/jobs/5446867008"/>
-    <updated>2026-10-13T18:26:19Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Highlands Ranch, Colorado, United States · $25/hr · JavaScript · sponsorship: no-sponsorship · status: closed</summary>
   </entry>
 </feed>
