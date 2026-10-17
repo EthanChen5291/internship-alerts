@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-17T13:24:25Z",
- "data_as_of": "2026-10-17T13:24:25Z",
- "rendered_at": "2026-10-17T13:24:26Z",
+ "generated_at": "2026-10-17T16:53:45Z",
+ "data_as_of": "2026-10-17T16:53:45Z",
+ "rendered_at": "2026-10-17T16:53:45Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2305,25 +2305,6 @@
    }
   },
   {
-   "company": "Xcel Energy",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-07",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-07",
-   "days_until": -40,
-   "status": "open",
-   "url": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/AI---Automation-Intern--CO_JR115739-1",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-07"
-   }
-  },
-  {
    "company": "Allen Control Systems",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -3417,7 +3398,7 @@
    "expected": "2026-09-17",
    "days_until": -30,
    "status": "open",
-   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260795",
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260805",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -7444,6 +7425,25 @@
    "status": "dropped",
    "url": "",
    "note": "opens ~Sep",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-07"
+   }
+  },
+  {
+   "company": "Xcel Energy",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-07",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-07",
+   "days_until": -40,
+   "status": "dropped",
+   "url": "",
+   "note": "",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
