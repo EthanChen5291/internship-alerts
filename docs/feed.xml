@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-16T22:19:06Z</updated>
+  <updated>2026-10-17T00:36:31Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:ryan:/job/Plano/Summer-2027-Intern--Software-Engineering_R0020843-1</id>
+    <title>Ryan: Summer 2027 Intern, Software Engineering</title>
+    <link href="https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Software-Engineering_R0020843-1"/>
+    <updated>2026-10-17T00:36:31Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Plano TX · Python, C#, TypeScript, React, Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Colorado-Aurora/XMLNAME-2027-Software-Engineering-Intern---Aurora-CO_R10256243</id>
+    <title>Northrop Grumman: 2027 Software Engineering Intern - Aurora CO 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/XMLNAME-2027-Software-Engineering-Intern---Aurora-CO_R10256243"/>
+    <updated>2026-10-16T22:19:06Z</updated>
+    <category term="Summer 2027"/>
+    <summary>2 openings · Summer 2027 · Software · United States-Colorado-Aurora · $26.75–$33.5/hr · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Software-Engineering-Intern---Boulder-CO_R10256077</id>
     <title>Northrop Grumman: 2027 Software Engineering Intern - Boulder CO 🇺🇸</title>
@@ -22,14 +38,6 @@
     <updated>2026-10-16T22:19:06Z</updated>
     <category term="Summer 2027"/>
     <summary>2 openings · Summer 2027 · Software · United States-Colorado-Colorado Springs · $24.25–$30.5/hr · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Colorado-Aurora/XMLNAME-2027-Software-Engineering-Intern---Aurora-CO_R10256243</id>
-    <title>Northrop Grumman: 2027 Software Engineering Intern - Aurora CO 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/XMLNAME-2027-Software-Engineering-Intern---Aurora-CO_R10256243"/>
-    <updated>2026-10-16T22:19:06Z</updated>
-    <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Software · United States-Colorado-Aurora · $26.75–$33.5/hr · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ryan:/job/Plano/Summer-2027-Intern--Software-Development_R0020822-1</id>
@@ -211,9 +219,9 @@
     <id>urn:intern-engine:ashby:opengov:35c2d853-b6ab-4ba7-a6f7-ffb4cfc22f7b</id>
     <title>OpenGov: Intern, Software Engineer</title>
     <link href="https://jobs.ashbyhq.com/opengov/35c2d853-b6ab-4ba7-a6f7-ffb4cfc22f7b"/>
-    <updated>2026-10-15T18:51:43Z</updated>
+    <updated>2026-10-17T00:36:31Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · US | Massachusetts | Boston · $30 per hour · TypeScript, JavaScript, React, Angular, Git · H-1B track record: ~14 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Software · US | Massachusetts | Boston · $30 per hour · TypeScript, JavaScript, React, Angular, Git · status: closed · H-1B track record: ~14 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:generalmatter:5448019008</id>
@@ -483,17 +491,17 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Cybersecurity-Intern---Annapolis-MD_R10254705</id>
     <title>Northrop Grumman: 2027 S/W Cybersecurity Intern – Annapolis MD 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Cybersecurity-Intern---Annapolis-MD_R10254705"/>
-    <updated>2026-10-14T07:44:50Z</updated>
+    <updated>2026-10-17T00:18:23Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Maryland-Annapolis · $20.5–$37.25/hr · Linux · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · United States-Maryland-Annapolis · $20.5–$37.25/hr · Linux · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Embedded-Engineering-Intern---Annapolis-MD_R10254697</id>
     <title>Northrop Grumman: 2027 S/W Embedded Engineering Intern – Annapolis MD 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Embedded-Engineering-Intern---Annapolis-MD_R10254697"/>
-    <updated>2026-10-14T07:44:50Z</updated>
+    <updated>2026-10-17T00:18:23Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Maryland-Annapolis · $20.5–$37.25/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-Maryland-Annapolis · $20.5–$37.25/hr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:rakuten:/job/Bellevue-Washington/Intern---Software-Engineering--AI-User-Experience_1031437</id>
@@ -603,9 +611,9 @@
     <id>urn:intern-engine:workday:gdit:/job/USA-VA-Sterling/AI-and-Data-Analytics-Intern_RQ230269</id>
     <title>General Dynamics Information Technology: AI and Data Analytics Intern 🇺🇸</title>
     <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Sterling/AI-and-Data-Analytics-Intern_RQ230269"/>
-    <updated>2026-10-13T18:26:19Z</updated>
+    <updated>2026-10-17T00:36:31Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · USA VA Sterling · Python · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Data &amp; ML/AI · USA VA Sterling · Python · sponsorship: citizens-only · status: closed · H-1B track record: ~28 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:jainglobal:/job/New-York-New-York/Quantitative-Developer-Intern--Summer-2027---New-York-_JR100608</id>
@@ -798,13 +806,5 @@
     <updated>2026-10-12T15:29:48Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Richmond, VA, United States · $30/hr · Java, C++, C#, JavaScript, React · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:slihrms:/job/USCODenver/Software-Developer-Intern---Summer-2027_R-161580-1</id>
-    <title>AtkinsRéalis: Software Developer Intern - Summer 2027</title>
-    <link href="https://slihrms.wd3.myworkdayjobs.com/careers/job/USCODenver/Software-Developer-Intern---Summer-2027_R-161580-1"/>
-    <updated>2026-10-12T15:29:48Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US.CO.Denver · C#, TypeScript, JavaScript, SQL, LLMs</summary>
   </entry>
 </feed>
