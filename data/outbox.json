@@ -1,16 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "ashby:agzen:4cff4edd-3e9a-4ea1-8138-80c7241a2d3a",
-      "greenhouse:aidashinc:4436057009"
-    ],
-    "telegram": [
-      "ashby:agzen:4cff4edd-3e9a-4ea1-8138-80c7241a2d3a",
-      "greenhouse:aidashinc:4436057009"
-    ],
-    "personal_email": [
-      "ashby:agzen:4cff4edd-3e9a-4ea1-8138-80c7241a2d3a",
-      "greenhouse:aidashinc:4436057009"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
