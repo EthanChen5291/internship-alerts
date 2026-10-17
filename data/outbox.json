@@ -1,7 +1,13 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:bah:/job/Fayetteville-NC/University--Software-Engineer-Intern_R0251802"
+    ],
+    "telegram": [
+      "workday:bah:/job/Fayetteville-NC/University--Software-Engineer-Intern_R0251802"
+    ],
+    "personal_email": [
+      "workday:bah:/job/Fayetteville-NC/University--Software-Engineer-Intern_R0251802"
+    ]
   }
 }

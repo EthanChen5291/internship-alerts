@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-17T00:36:31Z</updated>
+  <updated>2026-10-17T05:12:41Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/Fayetteville-NC/University--Software-Engineer-Intern_R0251802</id>
+    <title>Booz Allen: University, Software Engineer Intern 🇺🇸</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fayetteville-NC/University--Software-Engineer-Intern_R0251802"/>
+    <updated>2026-10-17T05:12:41Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Fayetteville, NC · $108k/yr · Java, C++, Git · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:ryan:/job/Plano/Summer-2027-Intern--Software-Engineering_R0020843-1</id>
     <title>Ryan: Summer 2027 Intern, Software Engineering</title>
@@ -67,9 +75,9 @@
     <id>urn:intern-engine:workday:gdit:/job/USA-VA-Falls-Church/Technical-Intern---AI-and-Estimation_RQ230646</id>
     <title>General Dynamics Information Technology: Technical Intern - AI and Estimation 🇺🇸</title>
     <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Technical-Intern---AI-and-Estimation_RQ230646"/>
-    <updated>2026-10-16T19:05:51Z</updated>
+    <updated>2026-10-17T05:12:41Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · USA VA Falls Church · Python, LLMs · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Data &amp; ML/AI · USA VA Falls Church · Python, LLMs · sponsorship: citizens-only · status: closed · H-1B track record: ~28 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:mastercard:/job/OFallon-Missouri/Platform-Engineering-Intern--Summer-2027---St-Louis--MO--US_R-284880</id>
@@ -435,9 +443,9 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10256037</id>
     <title>Northrop Grumman: 2027 Cyber Software Engineer Intern - San Antonio TX 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10256037"/>
-    <updated>2026-10-14T18:13:16Z</updated>
+    <updated>2026-10-17T04:54:49Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Texas-San Antonio · $17.5–$31.5/hr · Git · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · United States-Texas-San Antonio · $17.5–$31.5/hr · Git · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:paloaltonetworks:/job/Office---USA---CA---Headquarters/Intern---Software-Engineer--Bachelors--EG_JR-022385</id>
@@ -798,13 +806,5 @@
     <updated>2026-10-13T18:26:19Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Highlands Ranch, Colorado, United States · $25/hr · JavaScript · sponsorship: no-sponsorship · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:CapTechConsulting:744000155019115</id>
-    <title>CapTech Consulting: Consulting Internship: Software Engineering (Summer 2027) 🛂</title>
-    <link href="https://jobs.smartrecruiters.com/CapTechConsulting/744000155019115"/>
-    <updated>2026-10-12T15:29:48Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Richmond, VA, United States · $30/hr · Java, C++, C#, JavaScript, React · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>
