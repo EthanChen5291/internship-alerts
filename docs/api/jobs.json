@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-18T18:19:16Z",
- "data_as_of": "2026-10-18T18:19:16Z",
- "rendered_at": "2026-10-18T18:19:16Z",
+ "generated_at": "2026-10-18T20:48:43Z",
+ "data_as_of": "2026-10-18T20:48:43Z",
+ "rendered_at": "2026-10-18T20:48:43Z",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "h1b_window": "FY2022–2023",
- "count": 1019,
+ "count": 1021,
  "jobs": [
   {
    "id": "ashby:agzen:4cff4edd-3e9a-4ea1-8138-80c7241a2d3a",
@@ -25188,6 +25188,35 @@
    "remote": false
   },
   {
+   "id": "workday:brunswick:/job/Oshkosh-WI/Mercury-Marine--Software-Validation-Intern_JR-051160",
+   "company": "Brunswick",
+   "title": "Mercury Marine: G3 Software Engineering Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Oshkosh, WI",
+   "url": "https://brunswick.wd1.myworkdayjobs.com/search/job/Oshkosh-WI/Mercury-Marine--Software-Validation-Intern_JR-051160",
+   "posted_at": "2026-08-25T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-25T19:58:52Z",
+   "sponsorship": "unknown",
+   "salary": "$18–$27.5/hr",
+   "skills": [
+    "Python",
+    "C++",
+    "C#"
+   ],
+   "class_year": null,
+   "underclass_program_key": null,
+   "underclass_program": null,
+   "underclass_audience": null,
+   "source": "workday",
+   "h1b_approvals": 54,
+   "program": "Internship",
+   "remote": false
+  },
+  {
    "id": "greenhouse:verkada:5210813007",
    "company": "Verkada",
    "title": "Backend Software Engineering Intern 2027",
@@ -27411,6 +27440,35 @@
     "Kotlin",
     "Ruby",
     "Bash"
+   ],
+   "class_year": null,
+   "underclass_program_key": null,
+   "underclass_program": null,
+   "underclass_audience": null,
+   "source": "workday",
+   "h1b_approvals": null,
+   "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:bah:/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246869",
+   "company": "Booz Allen",
+   "title": "AI RAN Telecommunications Engineer Intern",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Data & ML/AI",
+   "location": "McLean, VA",
+   "url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246869",
+   "posted_at": "2026-08-11T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-11T18:48:51Z",
+   "sponsorship": "citizens-only",
+   "salary": "$108k/yr",
+   "skills": [
+    "Python",
+    "C++",
+    "MATLAB"
    ],
    "class_year": null,
    "underclass_program_key": null,
