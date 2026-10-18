@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-18T15:08:08Z",
- "data_as_of": "2026-10-18T15:08:08Z",
- "rendered_at": "2026-10-18T15:08:09Z",
+ "generated_at": "2026-10-18T18:19:16Z",
+ "data_as_of": "2026-10-18T18:19:16Z",
+ "rendered_at": "2026-10-18T18:19:16Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3134,6 +3134,25 @@
    "status": "open",
    "url": "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/44449",
    "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-15"
+   }
+  },
+  {
+   "company": "NVIDIA",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-15",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-15",
+   "days_until": -33,
+   "status": "open",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958",
+   "note": "multiple programs; Ignite ~Oct, SWE ongoing",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -7729,25 +7748,6 @@
    "status": "dropped",
    "url": "",
    "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-15"
-   }
-  },
-  {
-   "company": "NVIDIA",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-15",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-15",
-   "days_until": -33,
-   "status": "dropped",
-   "url": "",
-   "note": "multiple programs; Ignite ~Oct, SWE ongoing",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
