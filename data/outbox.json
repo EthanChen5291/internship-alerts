@@ -1,55 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260804",
-      "workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750",
-      "workday:americanfidelity:/job/Oklahoma-City-Oklahoma/Software-Developer-Innovation-Internship_JR1118",
-      "smartrecruiters:BoschGroup:744000156323136",
-      "greenhouse:bracebridgecapital:4745001005",
-      "workday:gdit:/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643",
-      "greenhouse:gravitonresearchcapital:8899673002",
-      "greenhouse:inversionspace:4745076005",
-      "greenhouse:inversionspace:4745083005",
-      "workday:jainglobal:/job/New-York-New-York/Quantitative-Research-Intern---Equity-Arbitrage_JR100617-1",
-      "workday:manh:/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_17046",
-      "workday:mdtkangaroo:/job/Northridge-California-United-States-of-America/Software-Engineering-Intern-Summer-2027_R-801814-1",
-      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Applied-AI---Business-Innovation-Intern---Summer-2027---Franklin--TN_R00214225",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer---Fall-2027-_01881368",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Software-Engineering-Intern--Summer-2027-_01880499"
-    ],
-    "telegram": [
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260804",
-      "workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750",
-      "workday:americanfidelity:/job/Oklahoma-City-Oklahoma/Software-Developer-Innovation-Internship_JR1118",
-      "smartrecruiters:BoschGroup:744000156323136",
-      "greenhouse:bracebridgecapital:4745001005",
-      "workday:gdit:/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643",
-      "greenhouse:gravitonresearchcapital:8899673002",
-      "greenhouse:inversionspace:4745076005",
-      "greenhouse:inversionspace:4745083005",
-      "workday:jainglobal:/job/New-York-New-York/Quantitative-Research-Intern---Equity-Arbitrage_JR100617-1",
-      "workday:manh:/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_17046",
-      "workday:mdtkangaroo:/job/Northridge-California-United-States-of-America/Software-Engineering-Intern-Summer-2027_R-801814-1",
-      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Applied-AI---Business-Innovation-Intern---Summer-2027---Franklin--TN_R00214225",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer---Fall-2027-_01881368",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Software-Engineering-Intern--Summer-2027-_01880499"
-    ],
-    "personal_email": [
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260804",
-      "workday:americancentury:/job/Kansas-City-Missouri/Infrastructure-Automation-Engineer-Intern_R0005750",
-      "workday:americanfidelity:/job/Oklahoma-City-Oklahoma/Software-Developer-Innovation-Internship_JR1118",
-      "smartrecruiters:BoschGroup:744000156323136",
-      "greenhouse:bracebridgecapital:4745001005",
-      "workday:gdit:/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643",
-      "greenhouse:gravitonresearchcapital:8899673002",
-      "greenhouse:inversionspace:4745076005",
-      "greenhouse:inversionspace:4745083005",
-      "workday:jainglobal:/job/New-York-New-York/Quantitative-Research-Intern---Equity-Arbitrage_JR100617-1",
-      "workday:manh:/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_17046",
-      "workday:mdtkangaroo:/job/Northridge-California-United-States-of-America/Software-Engineering-Intern-Summer-2027_R-801814-1",
-      "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Applied-AI---Business-Innovation-Intern---Summer-2027---Franklin--TN_R00214225",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer---Fall-2027-_01881368",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Software-Engineering-Intern--Summer-2027-_01880499"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
