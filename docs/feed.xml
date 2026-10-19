@@ -5,8 +5,96 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-19T11:27:13Z</updated>
+  <updated>2026-10-19T18:00:31Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:americanfidelity:/job/Oklahoma-City-Oklahoma/Software-Developer-Innovation-Internship_JR1118</id>
+    <title>American Fidelity: Software Developer Innovation Internship</title>
+    <link href="https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Developer-Innovation-Internship_JR1118"/>
+    <updated>2026-10-19T18:00:31Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Oklahoma City, Oklahoma</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000156323136</id>
+    <title>Bosch: AI Research Intern: Wireless Foundation Models</title>
+    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000156323136"/>
+    <updated>2026-10-19T18:00:31Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Pittsburgh, PA, United States · Python, PyTorch · H-1B track record: ~188 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:bracebridgecapital:4745001005</id>
+    <title>Bracebridge Capital: Northeastern University Software Engineer - Application Development Co-op</title>
+    <link href="https://job-boards.greenhouse.io/bracebridgecapital/jobs/4745001005"/>
+    <updated>2026-10-19T18:00:31Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Boston, MA · $43–$48/hr · C#, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:gdit:/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643</id>
+    <title>General Dynamics Information Technology: GDIT Summer Internship Program – Summer 2027 Software Development Internship 🇺🇸</title>
+    <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643"/>
+    <updated>2026-10-19T18:00:31Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · USA NJ Egg Harbor Township · Java, C++, SQL · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:gravitonresearchcapital:8899673002</id>
+    <title>Graviton: Quantitative Researcher - 2027 Summer Internship</title>
+    <link href="https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8899673002"/>
+    <updated>2026-10-19T18:00:31Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Quant · Amsterdam, North Holland, Netherlands; London, England, United Kingdom; New York; Singapore · Python, C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:inversionspace:4745076005</id>
+    <title>Inversion Space: AI &amp; Internal Tools Software Engineer - Summer Internship 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/inversionspace/jobs/4745076005"/>
+    <updated>2026-10-19T18:00:31Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Playa Vista, California, United States · Python, Rust, TypeScript, JavaScript, LLMs · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:inversionspace:4745083005</id>
+    <title>Inversion Space: Vehicle Software Engineer - Summer Internship 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/inversionspace/jobs/4745083005"/>
+    <updated>2026-10-19T18:00:31Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Playa Vista, California, United States · Python, C++, Rust, Linux, Git · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:jainglobal:/job/New-York-New-York/Quantitative-Research-Intern---Equity-Arbitrage_JR100617-1</id>
+    <title>Jain Global: Quantitative Research Intern – Equity Arbitrage</title>
+    <link href="https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quantitative-Research-Intern---Equity-Arbitrage_JR100617-1"/>
+    <updated>2026-10-19T18:00:31Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Quant · New York, New York · Python</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:manh:/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_17046</id>
+    <title>Manhattan Associates: A.I. Developer Co-Op (Boston, MA)</title>
+    <link href="https://manh.wd5.myworkdayjobs.com/campus/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_17046"/>
+    <updated>2026-10-19T18:00:31Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · US - Home Office · Python, Java, JavaScript, LLMs · H-1B track record: ~153 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Applied-AI---Business-Innovation-Intern---Summer-2027---Franklin--TN_R00214225</id>
+    <title>Nissan: Applied AI &amp; Business Innovation Intern - Summer 2027 - Franklin, TN 🛂</title>
+    <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Franklin-Tennessee---United-States-of-America/Applied-AI---Business-Innovation-Intern---Summer-2027---Franklin--TN_R00214225"/>
+    <updated>2026-10-19T18:00:31Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Franklin, Tennessee - United States of America · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Software-Engineering-Intern--Summer-2027-_01880499</id>
+    <title>RTX: Software Engineering Intern (Summer 2027) 🇺🇸</title>
+    <link href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Software-Engineering-Intern--Summer-2027-_01880499"/>
+    <updated>2026-10-19T18:00:31Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-121 ~ 350 Collins Rd NE ~ BLDG 121 · Python, C++, Rust, Linux, Git · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:agzen:4cff4edd-3e9a-4ea1-8138-80c7241a2d3a</id>
     <title>AgZen: Software Engineering Co-op</title>
@@ -443,9 +531,9 @@
     <id>urn:intern-engine:workday:mdtkangaroo:/job/Northridge-California-United-States-of-America/Software-Engineering-Intern-Summer-2027_R-801814-1</id>
     <title>Mdtkangaroo: Software Engineering Intern Summer 2027 🛂</title>
     <link href="https://mdtkangaroo.wd108.myworkdayjobs.com/minimedcareers/job/Northridge-California-United-States-of-America/Software-Engineering-Intern-Summer-2027_R-801814-1"/>
-    <updated>2026-10-16T15:00:55Z</updated>
+    <updated>2026-10-14T18:13:16Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Northridge, California, United States of America · $26.5–$45.25/hr · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship · status: closed</summary>
+    <summary>Summer 2027 · Software · Northridge, California, United States of America · $26.5–$45.25/hr · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:mdtkangaroo:/job/USA-GA-Johns-Creek/Graduate-AI-Engineer-Intern-Summer-2027_R-801926</id>
@@ -718,93 +806,5 @@
     <updated>2026-10-12T22:51:39Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · WI Madison · SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cboe:/job/Kansas-City-MO/Software-Engineer-Intern--C---_R-4726</id>
-    <title>Cboe: Software Engineer Intern (C++) 🛂</title>
-    <link href="https://cboe.wd1.myworkdayjobs.com/External_Career_CBOE/job/Kansas-City-MO/Software-Engineer-Intern--C---_R-4726"/>
-    <updated>2026-10-12T22:51:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Kansas City, MO · $22–$42/hr · C++, Python, SQL, Linux · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gafsgi:/job/Parsippany-NJ/AI-Intern_26421</id>
-    <title>GAF: AI Intern</title>
-    <link href="https://gafsgi.wd5.myworkdayjobs.com/GAF_Careers/job/Parsippany-NJ/AI-Intern_26421"/>
-    <updated>2026-10-12T22:51:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Parsippany, NJ · Python, PyTorch, TensorFlow, scikit-learn, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Agencies--Cybersecurity-_RQ230273</id>
-    <title>General Dynamics Information Technology: 2027 Summer Intern - Defense Agencies (Cybersecurity) 🇺🇸</title>
-    <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Agencies--Cybersecurity-_RQ230273"/>
-    <updated>2026-10-15T14:42:58Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · USA VA Falls Church · sponsorship: citizens-only · status: closed · H-1B track record: ~28 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Angencies--AI-ML-_RQ230275</id>
-    <title>General Dynamics Information Technology: 2027 Summer Intern - Defense Angencies (AI/ML) 🇺🇸</title>
-    <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Angencies--AI-ML-_RQ230275"/>
-    <updated>2026-10-15T00:20:32Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · USA VA Falls Church · Python · sponsorship: citizens-only · status: closed · H-1B track record: ~28 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:generalmotors:/job/Mountain-View-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---AI-Machine-Learning_JR-202621620</id>
-    <title>General Motors: 2027 Summer Intern - Research and Development - AI/Machine Learning 🇺🇸</title>
-    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Mountain-View-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---AI-Machine-Learning_JR-202621620"/>
-    <updated>2026-10-12T22:51:39Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Mountain View, California, United States of America · Python, PyTorch, TensorFlow, LLMs · sponsorship: citizens-only · H-1B track record: ~928 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Machine-Learning-for-Automation_JR-202621724</id>
-    <title>General Motors: 2027 Summer Intern - Research and Development - Machine Learning for Automation 🇺🇸</title>
-    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Machine-Learning-for-Automation_JR-202621724"/>
-    <updated>2026-10-12T22:51:39Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Warren, Michigan, United States of America · Python, C++, PyTorch, TensorFlow, LLMs · sponsorship: citizens-only · H-1B track record: ~928 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hpe:/job/All-Illinois-United-States-of-America/HPC-AI-Systems-Service-Process-Improvement-Engineer-Intern_1213402</id>
-    <title>Hewlett Packard Enterprise: HPC/AI Systems Service Process Improvement Engineer Intern</title>
-    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/All-Illinois-United-States-of-America/HPC-AI-Systems-Service-Process-Improvement-Engineer-Intern_1213402"/>
-    <updated>2026-10-12T22:51:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · All, Illinois, United States of America · HTML/CSS, Git · H-1B track record: ~499 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hpe:/job/All-Tennessee-United-States-of-America/HPC-AI-System-Admin-HW-SW-Service-Engineer-Intern_1213404</id>
-    <title>Hewlett Packard Enterprise: HPC/AI System Admin HW/SW Service Engineer Intern</title>
-    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/All-Tennessee-United-States-of-America/HPC-AI-System-Admin-HW-SW-Service-Engineer-Intern_1213404"/>
-    <updated>2026-10-12T22:51:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · All, Tennessee, United States of America · HTML/CSS, Linux · H-1B track record: ~499 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:kla:/job/Ann-Arbor-MI/AI-ML-Software-Engineer---Intern_2641701-1</id>
-    <title>KLA: AI/ML Software Engineer - Intern</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/AI-ML-Software-Engineer---Intern_2641701-1"/>
-    <updated>2026-10-12T22:51:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Ann Arbor, MI · $24–$32/hr · Python, SQL, LLMs · H-1B track record: ~369 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:lifefitness:/job/Schaumburg-IL-60173/Android-Software-Intern_JR-025277</id>
-    <title>Life Fitness: Android Software Intern</title>
-    <link href="https://lifefitness.wd1.myworkdayjobs.com/searchLFN/job/Schaumburg-IL-60173/Android-Software-Intern_JR-025277"/>
-    <updated>2026-10-12T22:51:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Schaumburg, IL 60173 · $24–$27/hr · Java, Kotlin, Linux · H-1B track record: ~12 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:lifefitness:/job/Schaumburg-IL-60173/Embedded-Software-Intern_JR-025276</id>
-    <title>Life Fitness: Embedded Software Intern</title>
-    <link href="https://lifefitness.wd1.myworkdayjobs.com/searchLFN/job/Schaumburg-IL-60173/Embedded-Software-Intern_JR-025276"/>
-    <updated>2026-10-12T22:51:39Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Schaumburg, IL 60173 · $24–$27/hr · H-1B track record: ~12 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

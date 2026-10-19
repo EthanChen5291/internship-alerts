@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-19T11:27:13Z",
- "data_as_of": "2026-10-19T11:27:13Z",
- "rendered_at": "2026-10-19T11:27:13Z",
+ "generated_at": "2026-10-19T18:00:31Z",
+ "data_as_of": "2026-10-19T18:00:31Z",
+ "rendered_at": "2026-10-19T18:00:32Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -383,25 +383,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-07-14"
-   }
-  },
-  {
-   "company": "Old Mission Capital",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-15",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-15",
-   "days_until": -96,
-   "status": "open",
-   "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003",
-   "note": "quant cycle opens very early",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-15"
    }
   },
   {
@@ -3122,6 +3103,25 @@
    }
   },
   {
+   "company": "Mdtkangaroo",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-15",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-15",
+   "days_until": -34,
+   "status": "open",
+   "url": "https://mdtkangaroo.wd108.myworkdayjobs.com/minimedcareers/job/Northridge-California-United-States-of-America/Software-Engineering-Intern-Summer-2027_R-801814-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-15"
+   }
+  },
+  {
    "company": "NOV",
    "last_cycle_posted": "",
    "posted_on": "2026-09-15",
@@ -3379,7 +3379,7 @@
    "expected": "2026-09-17",
    "days_until": -32,
    "status": "open",
-   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260805",
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260804",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4582,6 +4582,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-16"
+   }
+  },
+  {
+   "company": "Graviton",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-19",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-19",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8899673002",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-19"
    }
   },
   {
@@ -6767,6 +6786,25 @@
    }
   },
   {
+   "company": "Old Mission Capital",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-15",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-15",
+   "days_until": -96,
+   "status": "dropped",
+   "url": "",
+   "note": "quant cycle opens very early",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-15"
+   }
+  },
+  {
    "company": "The Trade Desk",
    "last_cycle_posted": "",
    "posted_on": "2026-07-15",
@@ -7698,25 +7736,6 @@
    }
   },
   {
-   "company": "Mdtkangaroo",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-15",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-15",
-   "days_until": -34,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-15"
-   }
-  },
-  {
    "company": "NVIDIA",
    "last_cycle_posted": "",
    "posted_on": "2026-09-15",
@@ -8097,5 +8116,5 @@
    }
   }
  ],
- "count": 426
+ "count": 427
 }
