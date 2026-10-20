@@ -5,15 +5,31 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-19T22:35:07Z</updated>
+  <updated>2026-10-20T01:29:11Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:ashby:amplify:bb45b7f6-dd7e-40e5-84e6-52e21650a7b8</id>
-    <title>Amplify: Summer 2027: AI Scientist Intern</title>
-    <link href="https://jobs.ashbyhq.com/amplify/bb45b7f6-dd7e-40e5-84e6-52e21650a7b8"/>
-    <updated>2026-10-19T22:35:07Z</updated>
+    <id>urn:intern-engine:lever:palantir:da774f81-c98c-4dcf-9b9c-949fd7d90a13</id>
+    <title>Palantir: Software Engineer, Internship - Query Engines</title>
+    <link href="https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13"/>
+    <updated>2026-10-20T01:29:11Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · New York, NY · Python, Java, C++, Rust, Scala · H-1B track record: ~88 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cognex:/job/Wauwatosa-Wisconsin/Software-Engineering-Intern_R0012549</id>
+    <title>Cognex: Software Engineering Intern</title>
+    <link href="https://cognex.wd1.myworkdayjobs.com/External_Career_Site/job/Wauwatosa-Wisconsin/Software-Engineering-Intern_R0012549"/>
+    <updated>2026-10-20T01:29:11Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Wauwatosa, Wisconsin · H-1B track record: ~32 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Data-Analyst-Undergraduate-Intern_J288017</id>
+    <title>Highmark Health: Summer 2027 Data Analyst Undergraduate Intern 🛂</title>
+    <link href="https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Data-Analyst-Undergraduate-Intern_J288017"/>
+    <updated>2026-10-20T01:29:11Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Remote - United States · $30 – $35 per hour · Python, SQL, LLMs, AWS, GCP</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Pittsburgh PA, 15222, FAP, 5th Avenue Place · sponsorship: no-sponsorship · H-1B track record: ~92 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:amplify:855d22a3-f15e-49f6-854c-29e505653efa</id>
@@ -24,12 +40,12 @@
     <summary>Summer 2027 · Software · Remote - United States · $30 – $35 per hour · Python, Java, TypeScript, JavaScript, React</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:eightfold:netflix:790318904468</id>
-    <title>Netflix: Software Engineer Intern - Summer 2027</title>
-    <link href="https://explore.jobs.netflix.net/careers/job/790318904468"/>
+    <id>urn:intern-engine:ashby:amplify:bb45b7f6-dd7e-40e5-84e6-52e21650a7b8</id>
+    <title>Amplify: Summer 2027: AI Scientist Intern</title>
+    <link href="https://jobs.ashbyhq.com/amplify/bb45b7f6-dd7e-40e5-84e6-52e21650a7b8"/>
     <updated>2026-10-19T22:35:07Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Los Gatos, California, United States of America · H-1B track record: ~313 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Remote - United States · $30 – $35 per hour · Python, SQL, LLMs, AWS, GCP</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:patreon:cefe07ab-ba4f-48cc-86b9-a88b1859a95c</id>
@@ -40,20 +56,20 @@
     <summary>Summer 2027 · Software · New York · $55 per hour · Python, TypeScript, Swift, Kotlin · H-1B track record: ~22 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:eightfold:netflix:790318904468</id>
+    <title>Netflix: Software Engineer Intern - Summer 2027</title>
+    <link href="https://explore.jobs.netflix.net/careers/job/790318904468"/>
+    <updated>2026-10-19T22:35:07Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Los Gatos, California, United States of America · H-1B track record: ~313 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:greenhouse:braze:8301086</id>
     <title>Braze: Intern, Software Engineering</title>
     <link href="https://job-boards.greenhouse.io/braze/jobs/8301086"/>
     <updated>2026-10-19T22:35:07Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · New York City · $60/hr · H-1B track record: ~21 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalfoundries:/job/USA---Texas---Richardson/AI-ML-Systems-Engineering-Intern--Summer-2027-_JR-2604051</id>
-    <title>GlobalFoundries: AI/ML Systems Engineering Intern (Summer 2027)</title>
-    <link href="https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/AI-ML-Systems-Engineering-Intern--Summer-2027-_JR-2604051"/>
-    <updated>2026-10-19T22:35:07Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · USA - Texas - Richardson · Python, PyTorch, TensorFlow, Pandas</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:insomniac:6226611004</id>
@@ -72,14 +88,6 @@
     <summary>Not stated · Software · Mandan, ND · Git</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:alliance:/job/Santa-Clara-California---United-States-of-America/AI-Autonomous-Driving-Verification---Validation-Intern---Summer-2027---Santa-Clara--CA_R00214263</id>
-    <title>Nissan: AI Autonomous Driving Verification &amp; Validation Intern - Summer 2027 - Santa Clara, CA 🛂</title>
-    <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/AI-Autonomous-Driving-Verification---Validation-Intern---Summer-2027---Santa-Clara--CA_R00214263"/>
-    <updated>2026-10-19T22:35:07Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, California - United States of America · Python, PyTorch, TensorFlow · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:greenhouse:scaleai:4735665005</id>
     <title>Scale AI: Machine Learning Research Intern (Summer 2027)</title>
     <link href="https://job-boards.greenhouse.io/scaleai/jobs/4735665005"/>
@@ -94,6 +102,22 @@
     <updated>2026-10-19T22:35:07Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Data &amp; ML/AI · Seattle, WA · $94.32k/yr · TypeScript, PyTorch, React</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:alliance:/job/Santa-Clara-California---United-States-of-America/AI-Autonomous-Driving-Verification---Validation-Intern---Summer-2027---Santa-Clara--CA_R00214263</id>
+    <title>Nissan: AI Autonomous Driving Verification &amp; Validation Intern - Summer 2027 - Santa Clara, CA 🛂</title>
+    <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/AI-Autonomous-Driving-Verification---Validation-Intern---Summer-2027---Santa-Clara--CA_R00214263"/>
+    <updated>2026-10-19T22:35:07Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, California - United States of America · Python, PyTorch, TensorFlow · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:globalfoundries:/job/USA---Texas---Richardson/AI-ML-Systems-Engineering-Intern--Summer-2027-_JR-2604051</id>
+    <title>GlobalFoundries: AI/ML Systems Engineering Intern (Summer 2027)</title>
+    <link href="https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/AI-ML-Systems-Engineering-Intern--Summer-2027-_JR-2604051"/>
+    <updated>2026-10-19T22:35:07Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · USA - Texas - Richardson · Python, PyTorch, TensorFlow, Pandas</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ttc:/job/Frederick-CO/Cloud-Software-Development-Intern---The-Toro-Company_JR17498</id>
@@ -782,29 +806,5 @@
     <updated>2026-10-13T22:58:35Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Andover, MA Federal Street</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:skydio:8994767e-fd53-4ca2-b0ef-fe0923c1e260</id>
-    <title>Skydio: Embedded Software Engineer Intern - Summer 2027</title>
-    <link href="https://jobs.ashbyhq.com/skydio/8994767e-fd53-4ca2-b0ef-fe0923c1e260"/>
-    <updated>2026-10-13T18:26:19Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Mateo, California, United States · $47/hr · Python, C++, Linux · H-1B track record: ~26 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:stateaffairs:4437430009</id>
-    <title>State Affairs: Software Engineer Intern (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/stateaffairs/jobs/4437430009"/>
-    <updated>2026-10-13T18:26:19Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Washington, DC · TypeScript, SQL, LLMs, React, Next.js</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:azul:8f41ceaf-8835-4fc7-ba57-9384487d59db</id>
-    <title>Azul Systems: IT Intern, AI and Operations</title>
-    <link href="https://jobs.lever.co/azul/8f41ceaf-8835-4fc7-ba57-9384487d59db"/>
-    <updated>2026-10-13T18:26:19Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Sunnyvale, CA · 25 USD/hr</summary>
   </entry>
 </feed>
