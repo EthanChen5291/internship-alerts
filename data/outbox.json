@@ -1,31 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "oracle:fa-essf-saasfaprod1.fa.ocs.oraclecloud.com:10005930",
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260795",
-      "ashby:skydio:370da6a5-5ae6-48fe-8e08-9b1dcc63bf34",
-      "workday:costar:/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
-      "workday:freseniusmedicalcare:/job/Lawrence-MA-USA/Software-Engineering-Co-op_R0271309",
-      "workday:micron:/job/Boise-ID---Main-Site/Intern---SMAI-Probe-AI-Engineer_JR114094",
-      "workday:philips:/job/Bothell-Washington-United-States/Intern---R-D-Front-End-Innovation-Intern---Oral-Healthcare---Bothell--WA---Summer-2027_593146"
-    ],
-    "telegram": [
-      "oracle:fa-essf-saasfaprod1.fa.ocs.oraclecloud.com:10005930",
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260795",
-      "ashby:skydio:370da6a5-5ae6-48fe-8e08-9b1dcc63bf34",
-      "workday:costar:/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
-      "workday:freseniusmedicalcare:/job/Lawrence-MA-USA/Software-Engineering-Co-op_R0271309",
-      "workday:micron:/job/Boise-ID---Main-Site/Intern---SMAI-Probe-AI-Engineer_JR114094",
-      "workday:philips:/job/Bothell-Washington-United-States/Intern---R-D-Front-End-Innovation-Intern---Oral-Healthcare---Bothell--WA---Summer-2027_593146"
-    ],
-    "personal_email": [
-      "oracle:fa-essf-saasfaprod1.fa.ocs.oraclecloud.com:10005930",
-      "oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:260795",
-      "ashby:skydio:370da6a5-5ae6-48fe-8e08-9b1dcc63bf34",
-      "workday:costar:/job/US-VA-Arlington/Security-Engineer-Intern---Arlington--VA_R39727",
-      "workday:freseniusmedicalcare:/job/Lawrence-MA-USA/Software-Engineering-Co-op_R0271309",
-      "workday:micron:/job/Boise-ID---Main-Site/Intern---SMAI-Probe-AI-Engineer_JR114094",
-      "workday:philips:/job/Bothell-Washington-United-States/Intern---R-D-Front-End-Innovation-Intern---Oral-Healthcare---Bothell--WA---Summer-2027_593146"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
