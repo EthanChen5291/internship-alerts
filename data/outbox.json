@@ -1,19 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "lever:palantir:da774f81-c98c-4dcf-9b9c-949fd7d90a13",
-      "workday:cognex:/job/Wauwatosa-Wisconsin/Software-Engineering-Intern_R0012549",
-      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Data-Analyst-Undergraduate-Intern_J288017"
-    ],
-    "telegram": [
-      "lever:palantir:da774f81-c98c-4dcf-9b9c-949fd7d90a13",
-      "workday:cognex:/job/Wauwatosa-Wisconsin/Software-Engineering-Intern_R0012549",
-      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Data-Analyst-Undergraduate-Intern_J288017"
-    ],
-    "personal_email": [
-      "lever:palantir:da774f81-c98c-4dcf-9b9c-949fd7d90a13",
-      "workday:cognex:/job/Wauwatosa-Wisconsin/Software-Engineering-Intern_R0012549",
-      "workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Data-Analyst-Undergraduate-Intern_J288017"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
