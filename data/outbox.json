@@ -1,34 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "ashby:skydio:8a237302-3fe8-4403-b32b-7690f333ba52",
-      "oracle:iaziqy.fa.ocs.oraclecloud.com:303922",
-      "greenhouse:andurilindustries:5269977007",
-      "workday:micron:/job/Richardson-TX/Intern---Machine-Learning-Engineering_JR114750",
-      "workday:rakuten:/job/Bellevue-Washington/Intern---Software-Engineering--AI-User-Experience_1031437",
-      "workday:rakuten:/job/San-Mateo-California/Intern---Software-Engineer--AI-User-Experience_1033171",
-      "workday:salesforce:/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1",
-      "workday:trustage:/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155"
-    ],
-    "telegram": [
-      "ashby:skydio:8a237302-3fe8-4403-b32b-7690f333ba52",
-      "oracle:iaziqy.fa.ocs.oraclecloud.com:303922",
-      "greenhouse:andurilindustries:5269977007",
-      "workday:micron:/job/Richardson-TX/Intern---Machine-Learning-Engineering_JR114750",
-      "workday:rakuten:/job/Bellevue-Washington/Intern---Software-Engineering--AI-User-Experience_1031437",
-      "workday:rakuten:/job/San-Mateo-California/Intern---Software-Engineer--AI-User-Experience_1033171",
-      "workday:salesforce:/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1",
-      "workday:trustage:/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155"
-    ],
-    "personal_email": [
-      "ashby:skydio:8a237302-3fe8-4403-b32b-7690f333ba52",
-      "oracle:iaziqy.fa.ocs.oraclecloud.com:303922",
-      "greenhouse:andurilindustries:5269977007",
-      "workday:micron:/job/Richardson-TX/Intern---Machine-Learning-Engineering_JR114750",
-      "workday:rakuten:/job/Bellevue-Washington/Intern---Software-Engineering--AI-User-Experience_1031437",
-      "workday:rakuten:/job/San-Mateo-California/Intern---Software-Engineer--AI-User-Experience_1033171",
-      "workday:salesforce:/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1",
-      "workday:trustage:/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
