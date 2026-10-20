@@ -1,25 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "oracle:edbz.fa.us2.oraclecloud.com:25019103",
-      "workday:cbrands:/job/Rochester-New-York/Intern--AI-Enablement_R-41526",
-      "greenhouse:insomniac:6227080004",
-      "workday:alliance:/job/Farmington-Hills-Michigan---United-States-of-America/AI-Agent-Architect---Summer-2027---Farmington-Hills--MI_R00214218",
-      "workday:rockwellautomation:/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-2"
-    ],
-    "telegram": [
-      "oracle:edbz.fa.us2.oraclecloud.com:25019103",
-      "workday:cbrands:/job/Rochester-New-York/Intern--AI-Enablement_R-41526",
-      "greenhouse:insomniac:6227080004",
-      "workday:alliance:/job/Farmington-Hills-Michigan---United-States-of-America/AI-Agent-Architect---Summer-2027---Farmington-Hills--MI_R00214218",
-      "workday:rockwellautomation:/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-2"
-    ],
-    "personal_email": [
-      "oracle:edbz.fa.us2.oraclecloud.com:25019103",
-      "workday:cbrands:/job/Rochester-New-York/Intern--AI-Enablement_R-41526",
-      "greenhouse:insomniac:6227080004",
-      "workday:alliance:/job/Farmington-Hills-Michigan---United-States-of-America/AI-Agent-Architect---Summer-2027---Farmington-Hills--MI_R00214218",
-      "workday:rockwellautomation:/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-2"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
