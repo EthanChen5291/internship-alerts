@@ -445,10 +445,11 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-10",
-     "count": 2,
+     "count": 3,
      "role_ids": [
       "greenhouse:andurilindustries:5148079007",
-      "greenhouse:andurilindustries:5239083007"
+      "greenhouse:andurilindustries:5239083007",
+      "greenhouse:andurilindustries:5269977007"
      ]
     }
    }
@@ -4267,6 +4268,13 @@
      "role_ids": [
       "workday:salesforce:/job/France---Paris/Sales-Business-Analyst-6-months-Interns---September-2026_JR340530-3"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-10-20",
+     "role_ids": [
+      "workday:salesforce:/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1"
+     ],
+     "count": 1
     }
    }
   },
@@ -4498,9 +4506,10 @@
       "ashby:skydio:370da6a5-5ae6-48fe-8e08-9b1dcc63bf34",
       "ashby:skydio:79fdda46-4ff5-42c7-b208-55f2084cdb8c",
       "ashby:skydio:8994767e-fd53-4ca2-b0ef-fe0923c1e260",
+      "ashby:skydio:8a237302-3fe8-4403-b32b-7690f333ba52",
       "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -4907,6 +4916,18 @@
     }
    }
   },
+  "trustage": {
+   "name": "TruStage",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-20",
+     "role_ids": [
+      "workday:trustage:/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155"
+     ],
+     "count": 1
+    }
+   }
+  },
   "twg global": {
    "name": "TWG Global",
    "cycles": {
@@ -4926,6 +4947,18 @@
      "first_posted": "2026-09-08",
      "role_ids": [
       "workday:usbank:/job/Cincinnati-OH/XMLNAME-2027-Information-Security-Summer-Intern_2026-0025770"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "uber": {
+   "name": "Uber",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-20",
+     "role_ids": [
+      "oracle:iaziqy.fa.ocs.oraclecloud.com:303922"
      ],
      "count": 1
     }
@@ -5464,5 +5497,5 @@
    }
   }
  },
- "updated_at": "2026-10-20T20:44:12Z"
+ "updated_at": "2026-10-20T23:37:50Z"
 }

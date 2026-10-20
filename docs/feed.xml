@@ -5,15 +5,63 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-20T20:44:12Z</updated>
+  <updated>2026-10-20T23:37:50Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:oracle:fa-essf-saasfaprod1.fa.ocs.oraclecloud.com:10005930</id>
-    <title>Berkshire Hathaway Energy: Intern - Software Engineering</title>
-    <link href="https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10005930"/>
-    <updated>2026-10-20T20:44:12Z</updated>
+    <id>urn:intern-engine:ashby:skydio:8a237302-3fe8-4403-b32b-7690f333ba52</id>
+    <title>Skydio: Mobile Software Engineer Intern - Summer 2027</title>
+    <link href="https://jobs.ashbyhq.com/skydio/8a237302-3fe8-4403-b32b-7690f333ba52"/>
+    <updated>2026-10-20T23:37:50Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Des Moines, IA, United States</summary>
+    <summary>Summer 2027 · Software · San Mateo, California, United States · $47/hr · Python, C++, Kotlin, Linux · H-1B track record: ~26 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:iaziqy.fa.ocs.oraclecloud.com:303922</id>
+    <title>Uber: 2027 Software Engineering Intern, US</title>
+    <link href="https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/303922"/>
+    <updated>2026-10-20T23:37:50Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Francisco, CA, United States; Sunnyvale, CA, United States; Seattle, WA, United States · Python, Java, C++, Ruby</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:andurilindustries:5269977007</id>
+    <title>Anduril: 2027 Finance Data Analyst Intern</title>
+    <link href="https://boards.greenhouse.io/andurilindustries/jobs/5269977007?gh_jid=5269977007"/>
+    <updated>2026-10-20T23:37:50Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Costa Mesa, California, United States · Python, SQL, LLMs, Computer Vision, Databricks</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:micron:/job/Richardson-TX/Intern---Machine-Learning-Engineering_JR114750</id>
+    <title>Micron Technology: Intern - Machine Learning Engineering</title>
+    <link href="https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Machine-Learning-Engineering_JR114750"/>
+    <updated>2026-10-20T23:37:50Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Richardson, TX · Python, PyTorch, TensorFlow · H-1B track record: ~489 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:rakuten:/job/San-Mateo-California/Intern---Software-Engineer--AI-User-Experience_1033171</id>
+    <title>Rakuten International: Intern - Software Engineer, AI User Experience</title>
+    <link href="https://rakuten.wd1.myworkdayjobs.com/RakutenAmericas/job/San-Mateo-California/Intern---Software-Engineer--AI-User-Experience_1033171"/>
+    <updated>2026-10-20T23:37:50Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · San Mateo, California · Python, Java, C#, JavaScript, Ruby</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:salesforce:/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1</id>
+    <title>Salesforce: Summer 2027 Intern - AI Research</title>
+    <link href="https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1"/>
+    <updated>2026-10-20T23:37:50Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · California - Palo Alto · $49–$68/hr · Python, PyTorch, LLMs, Computer Vision · H-1B track record: ~501 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:trustage:/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155</id>
+    <title>TruStage: Information Technology - Development and Infrastructure Internship (hybrid)</title>
+    <link href="https://trustage.wd1.myworkdayjobs.com/TruStage/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155"/>
+    <updated>2026-10-20T23:37:50Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Wisconsin - Remote · C#, JavaScript, React, Angular, .NET</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:skydio:370da6a5-5ae6-48fe-8e08-9b1dcc63bf34</id>
@@ -22,6 +70,14 @@
     <updated>2026-10-20T20:44:12Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · San Mateo, California, United States · $47/hr · Python, C++, Linux · H-1B track record: ~26 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-essf-saasfaprod1.fa.ocs.oraclecloud.com:10005930</id>
+    <title>Berkshire Hathaway Energy: Intern - Software Engineering</title>
+    <link href="https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10005930"/>
+    <updated>2026-10-20T20:44:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Des Moines, IA, United States</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:freseniusmedicalcare:/job/Lawrence-MA-USA/Software-Engineering-Co-op_R0271309</id>
@@ -275,9 +331,9 @@
     <id>urn:intern-engine:workday:gdit:/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643</id>
     <title>General Dynamics Information Technology: GDIT Summer Internship Program-Summer 2027 Software Development Internship -Egg Harbor Township New Jersey 🇺🇸</title>
     <link href="https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643"/>
-    <updated>2026-10-19T18:00:31Z</updated>
+    <updated>2026-10-20T23:37:50Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · USA NJ Egg Harbor Township · Java, C++, SQL · sponsorship: citizens-only · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Software · USA NJ Egg Harbor Township · Java, C++, SQL · sponsorship: citizens-only · status: closed · H-1B track record: ~28 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Software-Engineering-Intern--Summer-2027-_01880499</id>
@@ -750,61 +806,5 @@
     <updated>2026-10-16T09:58:31Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · USA-GA Johns Creek · $26.5–$45.25/hr · Python, SQL, LLMs, AWS, Databricks · sponsorship: no-sponsorship · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10256037</id>
-    <title>Northrop Grumman: 2027 Cyber Software Engineer Intern - San Antonio TX 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10256037"/>
-    <updated>2026-10-17T04:54:49Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Texas-San Antonio · $17.5–$31.5/hr · Git · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:paloaltonetworks:/job/Office---USA---CA---Headquarters/Intern---Software-Engineer--Bachelors--EG_JR-022385</id>
-    <title>Paloaltonetworks: Intern - Software Engineer (Bachelors) EG 🛂</title>
-    <link href="https://paloaltonetworks.wd5.myworkdayjobs.com/hidden-private-pawn-temp-gateway-147258369/job/Office---USA---CA---Headquarters/Intern---Software-Engineer--Bachelors--EG_JR-022385"/>
-    <updated>2026-10-15T09:42:15Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Office - USA - CA - Headquarters · sponsorship: no-sponsorship · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:paloaltonetworks:/job/Office---USA---CA---Headquarters/Intern---Software-Engineer--Master-s--EG_JR-022384</id>
-    <title>Paloaltonetworks: Intern - Software Engineer (Master's) EG 🛂</title>
-    <link href="https://paloaltonetworks.wd5.myworkdayjobs.com/hidden-private-pawn-temp-gateway-147258369/job/Office---USA---CA---Headquarters/Intern---Software-Engineer--Master-s--EG_JR-022384"/>
-    <updated>2026-10-14T18:13:16Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Office - USA - CA - Headquarters · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:qtsdatacenters:/job/US-GA-Atlanta-Suwanee-1-DC1/Summer-2027-Internship--Information-Security-Operations-Analyst_R2026-2273</id>
-    <title>QTS: Summer 2027 Internship: Information Security Operations Analyst 🇺🇸</title>
-    <link href="https://qtsdatacenters.wd5.myworkdayjobs.com/qts/job/US-GA-Atlanta-Suwanee-1-DC1/Summer-2027-Internship--Information-Security-Operations-Analyst_R2026-2273"/>
-    <updated>2026-10-14T18:13:16Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · US GA Atlanta Suwanee 1 DC1 · Python, Java, Tableau · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:tranetechnologies:/job/St-Paul-Minnesota/Software-Development-Engineering-Intern_JR-15648</id>
-    <title>Tranetechnologies: Software Development Engineering Intern</title>
-    <link href="https://tranetechnologies.wd12.myworkdayjobs.com/trane_technologies_careers/job/St-Paul-Minnesota/Software-Development-Engineering-Intern_JR-15648"/>
-    <updated>2026-10-15T09:42:15Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · St Paul, Minnesota · Python, C++, JavaScript, Git · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:wustl:/job/Washington-University-North-Campus-University-City-Missouri/Data-Analyst---Emergency-Management-Intern--PRN----Enterprise-Physical-Operations_JR98032-1</id>
-    <title>Wustl: Data Analyst - Emergency Management Intern (PRN) - Enterprise Physical Operations</title>
-    <link href="https://wustl.wd1.myworkdayjobs.com/external/job/Washington-University-North-Campus-University-City-Missouri/Data-Analyst---Emergency-Management-Intern--PRN----Enterprise-Physical-Operations_JR98032-1"/>
-    <updated>2026-10-14T18:13:16Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Washington University (North Campus), University City, Missouri</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:tenstorrentuniversity:5264424007</id>
-    <title>Tenstorrent: Systems Intern - Validation, Software, Design, Architecture &amp; Packaging (USA)</title>
-    <link href="https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5264424007"/>
-    <updated>2026-10-14T13:22:38Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Austin, Texas, United States; Santa Clara, California, United States · $50/hr · Python, C++, Verilog</summary>
   </entry>
 </feed>
