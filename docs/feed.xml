@@ -5,8 +5,48 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-20T12:18:41Z</updated>
+  <updated>2026-10-20T17:05:59Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:edbz.fa.us2.oraclecloud.com:25019103</id>
+    <title>Texas Instruments: Software Engineering Intern - Compiler 🛂</title>
+    <link href="https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25019103"/>
+    <updated>2026-10-20T17:05:59Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · United States; Sugar Land, TX, United States · Python, C++ · sponsorship: no-sponsorship · H-1B track record: ~234 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cbrands:/job/Rochester-New-York/Intern--AI-Enablement_R-41526</id>
+    <title>Constellation Brands: Intern, AI Enablement</title>
+    <link href="https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--AI-Enablement_R-41526"/>
+    <updated>2026-10-20T17:05:59Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Rochester, New York · LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:insomniac:6227080004</id>
+    <title>Insomniac Games: Engine and Tools Programming Intern – Undergraduate</title>
+    <link href="https://job-boards.greenhouse.io/insomniac/jobs/6227080004"/>
+    <updated>2026-10-20T17:05:59Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · United States, Burbank, CA · C++</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:alliance:/job/Farmington-Hills-Michigan---United-States-of-America/AI-Agent-Architect---Summer-2027---Farmington-Hills--MI_R00214218</id>
+    <title>Nissan: AI Agent Architect Intern - Summer 2027 - Farmington Hills, MI 🛂</title>
+    <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Farmington-Hills-Michigan---United-States-of-America/AI-Agent-Architect---Summer-2027---Farmington-Hills--MI_R00214218"/>
+    <updated>2026-10-20T17:05:59Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Farmington Hills, Michigan - United States of America · Python, SQL, LLMs, AWS, Snowflake · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:rockwellautomation:/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-2</id>
+    <title>Rockwell Automation: Intern - Embedded Controls Engineering 🛂</title>
+    <link href="https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-2"/>
+    <updated>2026-10-20T17:05:59Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Orlando, Florida, United States · sponsorship: no-sponsorship · H-1B track record: ~90 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:lever:palantir:da774f81-c98c-4dcf-9b9c-949fd7d90a13</id>
     <title>Palantir: Software Engineer, Internship - Query Engines</title>
@@ -766,45 +806,5 @@
     <updated>2026-10-14T02:06:41Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Milpitas, CA · Computer Vision, Python, MATLAB, PyTorch, TensorFlow · H-1B track record: ~369 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:axontalentcommunity:7993376003</id>
-    <title>Axon: AfroTech 2026 Software Engineering Internship</title>
-    <link href="https://job-boards.greenhouse.io/axontalentcommunity/jobs/7993376003"/>
-    <updated>2026-10-13T22:58:35Z</updated>
-    <category term="Fall 2026"/>
-    <summary>Fall 2026 · Software · Seattle, Washington, United States · Python, Java, C#, SQL, Scala</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:boseallaboutme:/job/US-MA---Framingham/Audio-Machine-Learning-Co-op_R29274</id>
-    <title>Bose: Audio Machine Learning Co-op</title>
-    <link href="https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Audio-Machine-Learning-Co-op_R29274"/>
-    <updated>2026-10-13T22:58:35Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · US, MA - Framingham · $40–$51.25/hr · Python, C++, MATLAB, PyTorch, TensorFlow · H-1B track record: ~61 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:boseallaboutme:/job/US-MA---Framingham/Audio-Machine-Learning-Engineer-Co-op_R28719</id>
-    <title>Bose: Embedded Audio ML Engineer Co-op</title>
-    <link href="https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Audio-Machine-Learning-Engineer-Co-op_R28719"/>
-    <updated>2026-10-13T22:58:35Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · US, MA - Framingham · $40–$51.25/hr · Python, C++, PyTorch, TensorFlow · H-1B track record: ~61 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:kla:/job/Ann-Arbor-MI/Research-Scientist-Intern---Coating-Characterization_2642033-2</id>
-    <title>KLA: Research Scientist Intern - Plasma Light Source Characterization</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Research-Scientist-Intern---Coating-Characterization_2642033-2"/>
-    <updated>2026-10-13T22:58:35Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Ann Arbor, MI · $27–$48/hr · Python, C++, MATLAB · H-1B track record: ~369 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:wattswater:/job/Andover-MA-Federal-Street/IT-Network-Intern--Summer-2027_10017567</id>
-    <title>Watts Water: End User &amp; Infrastructure Support Intern, Summer 2027</title>
-    <link href="https://wattswater.wd5.myworkdayjobs.com/Intern-External/job/Andover-MA-Federal-Street/IT-Network-Intern--Summer-2027_10017567"/>
-    <updated>2026-10-13T22:58:35Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Andover, MA Federal Street</summary>
   </entry>
 </feed>
