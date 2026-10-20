@@ -747,6 +747,18 @@
     }
    }
   },
+  "berkshire hathaway energy": {
+   "name": "Berkshire Hathaway Energy",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-20",
+     "role_ids": [
+      "oracle:fa-essf-saasfaprod1.fa.ocs.oraclecloud.com:10005930"
+     ],
+     "count": 1
+    }
+   }
+  },
   "biogen": {
    "name": "Biogen",
    "cycles": {
@@ -3690,12 +3702,13 @@
      "first_posted": "2026-08-20",
      "role_ids": [
       "workday:philips:/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074",
+      "workday:philips:/job/Bothell-Washington-United-States/Intern---R-D-Front-End-Innovation-Intern---Oral-Healthcare---Bothell--WA---Summer-2027_593146",
       "workday:philips:/job/Nashville-Tennessee-United-States/Intern--AI-Business-Operations-Nashville--TN-Summer-2027_590986",
       "workday:philips:/job/Plymouth-Minnesota-United-States/Graduate-Level-Co-op---Data-Scientist---Plymouth--MN---Summer-2027_590567",
       "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Data-AI-ML-Engineering---Plymouth--MN---Summer-2027_590404",
       "workday:philips:/job/Plymouth-Minnesota-United-States/Intern---Software-Engineering---Plymouth--MN---Summer-2027_590403"
      ],
-     "count": 5
+     "count": 6
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -4482,11 +4495,12 @@
     "Summer 2027": {
      "first_posted": "2026-09-03",
      "role_ids": [
+      "ashby:skydio:370da6a5-5ae6-48fe-8e08-9b1dcc63bf34",
       "ashby:skydio:79fdda46-4ff5-42c7-b208-55f2084cdb8c",
       "ashby:skydio:8994767e-fd53-4ca2-b0ef-fe0923c1e260",
       "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -5450,5 +5464,5 @@
    }
   }
  },
- "updated_at": "2026-10-20T17:05:59Z"
+ "updated_at": "2026-10-20T20:44:12Z"
 }

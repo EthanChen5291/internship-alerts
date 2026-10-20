@@ -5,23 +5,47 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-20T17:05:59Z</updated>
+  <updated>2026-10-20T20:44:12Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:oracle:edbz.fa.us2.oraclecloud.com:25019103</id>
-    <title>Texas Instruments: Software Engineering Intern - Compiler 🛂</title>
-    <link href="https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25019103"/>
-    <updated>2026-10-20T17:05:59Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · United States; Sugar Land, TX, United States · Python, C++ · sponsorship: no-sponsorship · H-1B track record: ~234 approvals (FY2022–2023)</summary>
+    <id>urn:intern-engine:oracle:fa-essf-saasfaprod1.fa.ocs.oraclecloud.com:10005930</id>
+    <title>Berkshire Hathaway Energy: Intern - Software Engineering</title>
+    <link href="https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10005930"/>
+    <updated>2026-10-20T20:44:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Des Moines, IA, United States</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:cbrands:/job/Rochester-New-York/Intern--AI-Enablement_R-41526</id>
-    <title>Constellation Brands: Intern, AI Enablement</title>
-    <link href="https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--AI-Enablement_R-41526"/>
-    <updated>2026-10-20T17:05:59Z</updated>
+    <id>urn:intern-engine:ashby:skydio:370da6a5-5ae6-48fe-8e08-9b1dcc63bf34</id>
+    <title>Skydio: Embedded Software Engineer Intern - Winer 2027</title>
+    <link href="https://jobs.ashbyhq.com/skydio/370da6a5-5ae6-48fe-8e08-9b1dcc63bf34"/>
+    <updated>2026-10-20T20:44:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Mateo, California, United States · $47/hr · Python, C++, Linux · H-1B track record: ~26 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:freseniusmedicalcare:/job/Lawrence-MA-USA/Software-Engineering-Co-op_R0271309</id>
+    <title>Fresenius Medical Care: Software Engineering Co-op</title>
+    <link href="https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/Software-Engineering-Co-op_R0271309"/>
+    <updated>2026-10-20T20:44:12Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Rochester, New York · LLMs</summary>
+    <summary>Not stated · Software · Lawrence, MA, USA · Java, C++, C#, JavaScript, .NET</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:micron:/job/Boise-ID---Main-Site/Intern---SMAI-Probe-AI-Engineer_JR114094</id>
+    <title>Micron Technology: Intern - SMAI Probe AI Engineer</title>
+    <link href="https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---SMAI-Probe-AI-Engineer_JR114094"/>
+    <updated>2026-10-20T20:44:12Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Boise, ID - Main Site · Python, Java, C++, C#, JavaScript · H-1B track record: ~489 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:philips:/job/Bothell-Washington-United-States/Intern---R-D-Front-End-Innovation-Intern---Oral-Healthcare---Bothell--WA---Summer-2027_593146</id>
+    <title>Philips: Intern – R&amp;D Front-End Innovation Intern - Oral Healthcare – Bothell, WA – Summer 2027</title>
+    <link href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bothell-Washington-United-States/Intern---R-D-Front-End-Innovation-Intern---Oral-Healthcare---Bothell--WA---Summer-2027_593146"/>
+    <updated>2026-10-20T20:44:12Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Other · Bothell, Washington, United States</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:insomniac:6227080004</id>
@@ -32,12 +56,28 @@
     <summary>Not stated · Software · United States, Burbank, CA · C++</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:oracle:edbz.fa.us2.oraclecloud.com:25019103</id>
+    <title>Texas Instruments: Software Engineering Intern - Compiler 🛂</title>
+    <link href="https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25019103"/>
+    <updated>2026-10-20T17:05:59Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · United States; Sugar Land, TX, United States · Python, C++ · sponsorship: no-sponsorship · H-1B track record: ~234 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:workday:alliance:/job/Farmington-Hills-Michigan---United-States-of-America/AI-Agent-Architect---Summer-2027---Farmington-Hills--MI_R00214218</id>
     <title>Nissan: AI Agent Architect Intern - Summer 2027 - Farmington Hills, MI 🛂</title>
     <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Farmington-Hills-Michigan---United-States-of-America/AI-Agent-Architect---Summer-2027---Farmington-Hills--MI_R00214218"/>
     <updated>2026-10-20T17:05:59Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Farmington Hills, Michigan - United States of America · Python, SQL, LLMs, AWS, Snowflake · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cbrands:/job/Rochester-New-York/Intern--AI-Enablement_R-41526</id>
+    <title>Constellation Brands: Intern, AI Enablement</title>
+    <link href="https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--AI-Enablement_R-41526"/>
+    <updated>2026-10-20T17:05:59Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Rochester, New York · LLMs</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:rockwellautomation:/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-2</id>
@@ -766,45 +806,5 @@
     <updated>2026-10-14T13:22:38Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Austin, Texas, United States; Santa Clara, California, United States · $50/hr · Python, C++, Verilog</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Cybersecurity-Intern---Annapolis-MD_R10254705</id>
-    <title>Northrop Grumman: 2027 S/W Cybersecurity Intern – Annapolis MD 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Cybersecurity-Intern---Annapolis-MD_R10254705"/>
-    <updated>2026-10-17T00:18:23Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Maryland-Annapolis · $20.5–$37.25/hr · Linux · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Embedded-Engineering-Intern---Annapolis-MD_R10254697</id>
-    <title>Northrop Grumman: 2027 S/W Embedded Engineering Intern – Annapolis MD 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Annapolis/XMLNAME-2027-S-W-Embedded-Engineering-Intern---Annapolis-MD_R10254697"/>
-    <updated>2026-10-17T00:18:23Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Maryland-Annapolis · $20.5–$37.25/hr · sponsorship: citizens-only · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:rakuten:/job/Bellevue-Washington/Intern---Software-Engineering--AI-User-Experience_1031437</id>
-    <title>Rakuten International: Early Career AI Engineer, Intern</title>
-    <link href="https://rakuten.wd1.myworkdayjobs.com/RakutenAmericas/job/Bellevue-Washington/Intern---Software-Engineering--AI-User-Experience_1031437"/>
-    <updated>2026-10-14T21:53:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Bellevue, Washington · $30–$50/hr · Python, Java, C#, JavaScript, Ruby · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:field-ai:ef35c537-b864-479f-9dbe-b30429ac7704</id>
-    <title>Field AI: Robotics Research, Embodied AI Intern (Spring &amp; Summer 2027)</title>
-    <link href="https://jobs.lever.co/field-ai/ef35c537-b864-479f-9dbe-b30429ac7704"/>
-    <updated>2026-10-14T02:06:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Irvine, CA · Python, C++, ROS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921-1</id>
-    <title>KLA: Computer Vision/Machine Learning Intern</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921-1"/>
-    <updated>2026-10-14T02:06:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Milpitas, CA · Computer Vision, Python, MATLAB, PyTorch, TensorFlow · H-1B track record: ~369 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
