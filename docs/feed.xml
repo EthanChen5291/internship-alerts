@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-21T07:47:16Z</updated>
+  <updated>2026-10-21T13:29:08Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
     <id>urn:intern-engine:workday:nvidia:/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530</id>
@@ -16,20 +16,20 @@
     <summary>Summer 2027 · Software · US, CA, Santa Clara · Python, C++, MATLAB, CUDA · H-1B track record: ~1.5k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:smithnephew:/job/Andover-MA/Intern-Embedded-Software-Engineering_R92952</id>
-    <title>Smith+Nephew: Intern Embedded Software Engineering</title>
-    <link href="https://smithnephew.wd5.myworkdayjobs.com/External/job/Andover-MA/Intern-Embedded-Software-Engineering_R92952"/>
-    <updated>2026-10-21T07:47:16Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Andover, MA · C++, Computer Vision · H-1B track record: ~77 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:smithnephew:/job/Andover-MA/Intern-Agentic-AI-Software-Engineering_R92953</id>
     <title>Smith+Nephew: Intern Agentic AI Software Engineering</title>
     <link href="https://smithnephew.wd5.myworkdayjobs.com/External/job/Andover-MA/Intern-Agentic-AI-Software-Engineering_R92953"/>
     <updated>2026-10-21T07:47:16Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Andover, MA · Python, LLMs · H-1B track record: ~77 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:smithnephew:/job/Andover-MA/Intern-Embedded-Software-Engineering_R92952</id>
+    <title>Smith+Nephew: Intern Embedded Software Engineering</title>
+    <link href="https://smithnephew.wd5.myworkdayjobs.com/External/job/Andover-MA/Intern-Embedded-Software-Engineering_R92952"/>
+    <updated>2026-10-21T07:47:16Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Andover, MA · C++, Computer Vision · H-1B track record: ~77 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:LinkedIn3:744000156616169</id>
