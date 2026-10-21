@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-21T13:29:08Z",
- "data_as_of": "2026-10-21T13:29:08Z",
- "rendered_at": "2026-10-21T13:29:09Z",
+ "generated_at": "2026-10-21T18:35:27Z",
+ "data_as_of": "2026-10-21T18:35:27Z",
+ "rendered_at": "2026-10-21T18:35:27Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -320,7 +320,7 @@
    "expected": "2026-07-08",
    "days_until": -105,
    "status": "open",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/XMLNAME-2027-Software-Engineering-Intern---Aurora-CO_R10256243",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Systems-Engineer-Intern-Tampa-FL_R10249196",
    "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
@@ -690,6 +690,25 @@
    }
   },
   {
+   "company": "Duke Energy",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-07",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-07",
+   "days_until": -75,
+   "status": "open",
+   "url": "https://dukeenergy.wd1.myworkdayjobs.com/search/job/Hartsville-SC/Nuclear-Cybersecurity-2027-Summer-Internship_R42099",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-07"
+   }
+  },
+  {
    "company": "The Nuclear Company",
    "last_cycle_posted": "",
    "posted_on": "2026-08-07",
@@ -782,6 +801,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-11"
+   }
+  },
+  {
+   "company": "Northwestern Mutual",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-12",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-12",
+   "days_until": -70,
+   "status": "open",
+   "url": "https://northwesternmutual.wd5.myworkdayjobs.com/corporate-careers/job/Milwaukee-WI-Corporate/Public-Investments-Quantitative-Analyst-Intern--Summer-2027_JR-45807",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-12"
    }
   },
   {
@@ -4253,7 +4291,7 @@
    "expected": "2026-10-09",
    "days_until": -12,
    "status": "open",
-   "url": "https://cmu.wd115.myworkdayjobs.com/sei/job/Pittsburgh-PA/AI-Security-Software-Engineer-Intern---Summer-2027_2025200-1",
+   "url": "https://cmu.wd115.myworkdayjobs.com/sei/job/Pittsburgh-PA/AI-Security-Research-Intern---Summer-2027_2025199-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4604,6 +4642,25 @@
    }
   },
   {
+   "company": "Integrate",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-20",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-20",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/integrate/7681f59b-70c0-414b-96d9-ae8925cc2ed3",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-20"
+   }
+  },
+  {
    "company": "LinkedIn",
    "last_cycle_posted": "",
    "posted_on": "2026-10-20",
@@ -4677,6 +4734,44 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-20"
+   }
+  },
+  {
+   "company": "DP World",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-21",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27404",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-21"
+   }
+  },
+  {
+   "company": "Sierra Space",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-21",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://sierraspace.wd1.myworkdayjobs.com/Sierra_Space_External_Career_Site/job/Louisville-CO/Summer-2027-Flight-Software-Engineer-Intern_R26456",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-21"
    }
   },
   {
@@ -7014,44 +7109,6 @@
    }
   },
   {
-   "company": "Duke Energy",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-07",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-07",
-   "days_until": -75,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-07"
-   }
-  },
-  {
-   "company": "Northwestern Mutual",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-12",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-12",
-   "days_until": -70,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-12"
-   }
-  },
-  {
    "company": "Replit",
    "last_cycle_posted": "",
    "posted_on": "2026-08-15",
@@ -8249,5 +8306,5 @@
    }
   }
  ],
- "count": 434
+ "count": 437
 }
