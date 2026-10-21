@@ -1,61 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "oracle:ehpv.fa.em2.oraclecloud.com:27404",
-      "ashby:integrate:7681f59b-70c0-414b-96d9-ae8925cc2ed3",
-      "workday:cmu:/job/Pittsburgh-PA/AI-Security-Research-Intern---Summer-2027_2025199-1",
-      "workday:dukeenergy:/job/Hartsville-SC/Nuclear-Cybersecurity-2027-Summer-Internship_R42099",
-      "workday:hitachi:/job/Liberty-South-Carolina-United-States/Software-Engineering-Co-op_R0148733",
-      "workday:lnw:/job/Las-Vegas-NV/Intern-Software-Engineering_R322982",
-      "workday:lnw:/job/Las-Vegas-NV/Software-Engineer---Intern_R323017",
-      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10257053",
-      "workday:northwesternmutual:/job/Milwaukee-WI-Corporate/Public-Investments-Quantitative-Analyst-Intern--Summer-2027_JR-45807",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01882134",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer-Fall-2027-_01882137",
-      "workday:sierraspace:/job/Louisville-CO/Summer-2027-Flight-Software-Engineer-Intern_R26456",
-      "workday:smithnephew:/job/Andover-MA/Intern-Computer-Vision-Software-Engineering_R92964",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Undergrad-Intern_R016949",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Grad-Intern_R016950",
-      "workday:werner:/job/Omaha-NE/Information-Security-Intern_JR23746",
-      "workday:werner:/job/Omaha-NE/IT-Cloud-Engineering-Intern_JR23745"
-    ],
-    "telegram": [
-      "oracle:ehpv.fa.em2.oraclecloud.com:27404",
-      "ashby:integrate:7681f59b-70c0-414b-96d9-ae8925cc2ed3",
-      "workday:cmu:/job/Pittsburgh-PA/AI-Security-Research-Intern---Summer-2027_2025199-1",
-      "workday:dukeenergy:/job/Hartsville-SC/Nuclear-Cybersecurity-2027-Summer-Internship_R42099",
-      "workday:hitachi:/job/Liberty-South-Carolina-United-States/Software-Engineering-Co-op_R0148733",
-      "workday:lnw:/job/Las-Vegas-NV/Intern-Software-Engineering_R322982",
-      "workday:lnw:/job/Las-Vegas-NV/Software-Engineer---Intern_R323017",
-      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10257053",
-      "workday:northwesternmutual:/job/Milwaukee-WI-Corporate/Public-Investments-Quantitative-Analyst-Intern--Summer-2027_JR-45807",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01882134",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer-Fall-2027-_01882137",
-      "workday:sierraspace:/job/Louisville-CO/Summer-2027-Flight-Software-Engineer-Intern_R26456",
-      "workday:smithnephew:/job/Andover-MA/Intern-Computer-Vision-Software-Engineering_R92964",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Undergrad-Intern_R016949",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Grad-Intern_R016950",
-      "workday:werner:/job/Omaha-NE/Information-Security-Intern_JR23746",
-      "workday:werner:/job/Omaha-NE/IT-Cloud-Engineering-Intern_JR23745"
-    ],
-    "personal_email": [
-      "oracle:ehpv.fa.em2.oraclecloud.com:27404",
-      "ashby:integrate:7681f59b-70c0-414b-96d9-ae8925cc2ed3",
-      "workday:cmu:/job/Pittsburgh-PA/AI-Security-Research-Intern---Summer-2027_2025199-1",
-      "workday:dukeenergy:/job/Hartsville-SC/Nuclear-Cybersecurity-2027-Summer-Internship_R42099",
-      "workday:hitachi:/job/Liberty-South-Carolina-United-States/Software-Engineering-Co-op_R0148733",
-      "workday:lnw:/job/Las-Vegas-NV/Intern-Software-Engineering_R322982",
-      "workday:lnw:/job/Las-Vegas-NV/Software-Engineer---Intern_R323017",
-      "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10257053",
-      "workday:northwesternmutual:/job/Milwaukee-WI-Corporate/Public-Investments-Quantitative-Analyst-Intern--Summer-2027_JR-45807",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Spring-Summer-2027-_01882134",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Software-Engineering-Co-op--Summer-Fall-2027-_01882137",
-      "workday:sierraspace:/job/Louisville-CO/Summer-2027-Flight-Software-Engineer-Intern_R26456",
-      "workday:smithnephew:/job/Andover-MA/Intern-Computer-Vision-Software-Engineering_R92964",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Undergrad-Intern_R016949",
-      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Grad-Intern_R016950",
-      "workday:werner:/job/Omaha-NE/Information-Security-Intern_JR23746",
-      "workday:werner:/job/Omaha-NE/IT-Cloud-Engineering-Intern_JR23745"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
