@@ -1,7 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:hpe:/job/Roseville-California-United-States-of-America/Embedded-Software-Engineering-Intern_1214088",
+      "smartrecruiters:LinkedIn3:744000156616169"
+    ],
+    "telegram": [
+      "workday:hpe:/job/Roseville-California-United-States-of-America/Embedded-Software-Engineering-Intern_1214088",
+      "smartrecruiters:LinkedIn3:744000156616169"
+    ],
+    "personal_email": [
+      "workday:hpe:/job/Roseville-California-United-States-of-America/Embedded-Software-Engineering-Intern_1214088",
+      "smartrecruiters:LinkedIn3:744000156616169"
+    ]
   }
 }

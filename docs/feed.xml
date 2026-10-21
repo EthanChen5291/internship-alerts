@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-20T23:37:50Z</updated>
+  <updated>2026-10-21T02:18:14Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:hpe:/job/Roseville-California-United-States-of-America/Embedded-Software-Engineering-Intern_1214088</id>
+    <title>Hewlett Packard Enterprise: Embedded Software Engineering Intern</title>
+    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Roseville-California-United-States-of-America/Embedded-Software-Engineering-Intern_1214088"/>
+    <updated>2026-10-21T02:18:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Roseville, California, United States of America · Python, C++, Rust, HTML/CSS, Linux · H-1B track record: ~499 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LinkedIn3:744000156616169</id>
+    <title>LinkedIn: Software Engineer Intern, Undergraduate - Summer 2027 (Mountain View, CA)</title>
+    <link href="https://jobs.smartrecruiters.com/LinkedIn3/744000156616169"/>
+    <updated>2026-10-21T02:18:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Mountain View, CA, United States (Hybrid) · Python, Java, C++, C#, Rust · H-1B track record: ~1.6k approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:skydio:8a237302-3fe8-4403-b32b-7690f333ba52</id>
     <title>Skydio: Mobile Software Engineer Intern - Summer 2027</title>
@@ -16,20 +32,20 @@
     <summary>Summer 2027 · Software · San Mateo, California, United States · $47/hr · Python, C++, Kotlin, Linux · H-1B track record: ~26 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:iaziqy.fa.ocs.oraclecloud.com:303922</id>
-    <title>Uber: 2027 Software Engineering Intern, US</title>
-    <link href="https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/303922"/>
-    <updated>2026-10-20T23:37:50Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CA, United States; Sunnyvale, CA, United States; Seattle, WA, United States · Python, Java, C++, Ruby</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:greenhouse:andurilindustries:5269977007</id>
     <title>Anduril: 2027 Finance Data Analyst Intern</title>
     <link href="https://boards.greenhouse.io/andurilindustries/jobs/5269977007?gh_jid=5269977007"/>
     <updated>2026-10-20T23:37:50Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Costa Mesa, California, United States · Python, SQL, LLMs, Computer Vision, Databricks</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:iaziqy.fa.ocs.oraclecloud.com:303922</id>
+    <title>Uber: 2027 Software Engineering Intern, US</title>
+    <link href="https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/303922"/>
+    <updated>2026-10-20T23:37:50Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Francisco, CA, United States; Sunnyvale, CA, United States; Seattle, WA, United States · Python, Java, C++, Ruby</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:micron:/job/Richardson-TX/Intern---Machine-Learning-Engineering_JR114750</id>
@@ -790,21 +806,5 @@
     <updated>2026-10-14T18:13:16Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · New York City, United States · Python, AWS, Linux</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:mdtkangaroo:/job/Northridge-California-United-States-of-America/Software-Engineering-Intern-Summer-2027_R-801814-1</id>
-    <title>Mdtkangaroo: Software Engineering Intern Summer 2027 🛂</title>
-    <link href="https://mdtkangaroo.wd108.myworkdayjobs.com/minimedcareers/job/Northridge-California-United-States-of-America/Software-Engineering-Intern-Summer-2027_R-801814-1"/>
-    <updated>2026-10-14T18:13:16Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Northridge, California, United States of America · $26.5–$45.25/hr · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:mdtkangaroo:/job/USA-GA-Johns-Creek/Graduate-AI-Engineer-Intern-Summer-2027_R-801926</id>
-    <title>Mdtkangaroo: Graduate AI Engineer Intern Summer 2027  (Atlanta, Georgia) 🛂</title>
-    <link href="https://mdtkangaroo.wd108.myworkdayjobs.com/minimedcareers/job/USA-GA-Johns-Creek/Graduate-AI-Engineer-Intern-Summer-2027_R-801926"/>
-    <updated>2026-10-16T09:58:31Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · USA-GA Johns Creek · $26.5–$45.25/hr · Python, SQL, LLMs, AWS, Databricks · sponsorship: no-sponsorship · status: closed</summary>
   </entry>
 </feed>

@@ -2876,6 +2876,18 @@
     }
    }
   },
+  "linkedin": {
+   "name": "LinkedIn",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-20",
+     "role_ids": [
+      "smartrecruiters:LinkedIn3:744000156616169"
+     ],
+     "count": 1
+    }
+   }
+  },
   "live oak bank": {
    "name": "Live Oak Bank",
    "cycles": {
@@ -5497,5 +5509,5 @@
    }
   }
  },
- "updated_at": "2026-10-20T23:37:50Z"
+ "updated_at": "2026-10-21T02:18:14Z"
 }
