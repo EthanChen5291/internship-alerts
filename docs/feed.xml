@@ -5,15 +5,31 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-21T02:18:14Z</updated>
+  <updated>2026-10-21T07:47:16Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:hpe:/job/Roseville-California-United-States-of-America/Embedded-Software-Engineering-Intern_1214088</id>
-    <title>Hewlett Packard Enterprise: Embedded Software Engineering Intern</title>
-    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Roseville-California-United-States-of-America/Embedded-Software-Engineering-Intern_1214088"/>
-    <updated>2026-10-21T02:18:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Roseville, California, United States of America · Python, C++, Rust, HTML/CSS, Linux · H-1B track record: ~499 approvals (FY2022–2023)</summary>
+    <id>urn:intern-engine:workday:nvidia:/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530</id>
+    <title>NVIDIA: Systems Software Intern, Aerial PHY- Summer 2027</title>
+    <link href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530"/>
+    <updated>2026-10-21T07:47:16Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · US, CA, Santa Clara · Python, C++, MATLAB, CUDA · H-1B track record: ~1.5k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:smithnephew:/job/Andover-MA/Intern-Embedded-Software-Engineering_R92952</id>
+    <title>Smith+Nephew: Intern Embedded Software Engineering</title>
+    <link href="https://smithnephew.wd5.myworkdayjobs.com/External/job/Andover-MA/Intern-Embedded-Software-Engineering_R92952"/>
+    <updated>2026-10-21T07:47:16Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Andover, MA · C++, Computer Vision · H-1B track record: ~77 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:smithnephew:/job/Andover-MA/Intern-Agentic-AI-Software-Engineering_R92953</id>
+    <title>Smith+Nephew: Intern Agentic AI Software Engineering</title>
+    <link href="https://smithnephew.wd5.myworkdayjobs.com/External/job/Andover-MA/Intern-Agentic-AI-Software-Engineering_R92953"/>
+    <updated>2026-10-21T07:47:16Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Andover, MA · Python, LLMs · H-1B track record: ~77 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:LinkedIn3:744000156616169</id>
@@ -22,6 +38,14 @@
     <updated>2026-10-21T02:18:14Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Mountain View, CA, United States (Hybrid) · Python, Java, C++, C#, Rust · H-1B track record: ~1.6k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hpe:/job/Roseville-California-United-States-of-America/Embedded-Software-Engineering-Intern_1214088</id>
+    <title>Hewlett Packard Enterprise: Embedded Software Engineering Intern</title>
+    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Roseville-California-United-States-of-America/Embedded-Software-Engineering-Intern_1214088"/>
+    <updated>2026-10-21T02:18:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Roseville, California, United States of America · Python, C++, Rust, HTML/CSS, Linux · H-1B track record: ~499 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:skydio:8a237302-3fe8-4403-b32b-7690f333ba52</id>
@@ -154,7 +178,7 @@
   <entry>
     <id>urn:intern-engine:workday:rockwellautomation:/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-2</id>
     <title>Rockwell Automation: Intern - Embedded Controls Engineering 🛂</title>
-    <link href="https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-2"/>
+    <link href="https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-1"/>
     <updated>2026-10-20T17:05:59Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Orlando, Florida, United States · sponsorship: no-sponsorship · H-1B track record: ~90 approvals (FY2022–2023)</summary>
@@ -782,29 +806,5 @@
     <updated>2026-10-14T18:13:16Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, Java, C++, SQL, Kubernetes · H-1B track record: ~928 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Intern---AI-ML-Engineer--Autonomous-Vehicle-ML-Infrastructure_JR-202622410</id>
-    <title>General Motors: 2027 Intern - AI/ML Engineer, Autonomous Vehicle ML Infrastructure</title>
-    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Intern---AI-ML-Engineer--Autonomous-Vehicle-ML-Infrastructure_JR-202622410"/>
-    <updated>2026-10-14T18:13:16Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, Java, C++, Kubernetes, Hadoop · H-1B track record: ~928 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hitachi:/job/Santa-Clara-California-United-States/Research-Intern--Knowledge-Engineering---Generative-AI_R0148396</id>
-    <title>Hitachi Energy: Research Intern, Knowledge Engineering &amp; Generative AI</title>
-    <link href="https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Santa-Clara-California-United-States/Research-Intern--Knowledge-Engineering---Generative-AI_R0148396"/>
-    <updated>2026-10-14T18:13:16Z</updated>
-    <category term="Winter 2027"/>
-    <summary>Winter 2027 · Data &amp; ML/AI · Santa Clara, California, United States · $45–$50/hr · LLMs, Python, HTML/CSS · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:lseg:/job/New-York-City-United-States/Intern---Software-Engineer_R0124266-1</id>
-    <title>LSEG: Intern - Software Engineer</title>
-    <link href="https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/New-York-City-United-States/Intern---Software-Engineer_R0124266-1"/>
-    <updated>2026-10-14T18:13:16Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York City, United States · Python, AWS, Linux</summary>
   </entry>
 </feed>

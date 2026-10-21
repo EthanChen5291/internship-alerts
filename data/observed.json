@@ -3550,9 +3550,10 @@
      "first_posted": "2026-09-15",
      "role_ids": [
       "workday:nvidia:/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958",
-      "workday:nvidia:/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406"
+      "workday:nvidia:/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406",
+      "workday:nvidia:/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -4537,6 +4538,19 @@
     }
    }
   },
+  "smith nephew": {
+   "name": "Smith+Nephew",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-21",
+     "role_ids": [
+      "workday:smithnephew:/job/Andover-MA/Intern-Agentic-AI-Software-Engineering_R92953",
+      "workday:smithnephew:/job/Andover-MA/Intern-Embedded-Software-Engineering_R92952"
+     ],
+     "count": 2
+    }
+   }
+  },
   "snowflake": {
    "name": "Snowflake",
    "cycles": {
@@ -5509,5 +5523,5 @@
    }
   }
  },
- "updated_at": "2026-10-21T02:18:14Z"
+ "updated_at": "2026-10-21T07:47:16Z"
 }
