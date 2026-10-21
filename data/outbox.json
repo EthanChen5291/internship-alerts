@@ -1,19 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:nvidia:/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530",
-      "workday:smithnephew:/job/Andover-MA/Intern-Embedded-Software-Engineering_R92952",
-      "workday:smithnephew:/job/Andover-MA/Intern-Agentic-AI-Software-Engineering_R92953"
-    ],
-    "telegram": [
-      "workday:nvidia:/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530",
-      "workday:smithnephew:/job/Andover-MA/Intern-Embedded-Software-Engineering_R92952",
-      "workday:smithnephew:/job/Andover-MA/Intern-Agentic-AI-Software-Engineering_R92953"
-    ],
-    "personal_email": [
-      "workday:nvidia:/job/US-CA-Santa-Clara/Systems-Software-Intern--Aerial-PHY--Summer-2027_JR2026530",
-      "workday:smithnephew:/job/Andover-MA/Intern-Embedded-Software-Engineering_R92952",
-      "workday:smithnephew:/job/Andover-MA/Intern-Agentic-AI-Software-Engineering_R92953"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
