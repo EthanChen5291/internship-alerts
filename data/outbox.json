@@ -1,22 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "amazon:amazon:10564599",
-      "workday:allstate:/job/USA---NC-Remote/Arity---Software-Engineer-Intern_R36266",
-      "workday:alliance:/job/Smyrna-Tennessee---United-States-of-America/Cyber-Security-Intern---Summer-2027---Smyrna--TN_R00214879",
-      "workday:trimble:/job/US---CO-Westminster/People-Development-AI---Digital-Learning-Intern_R57819"
-    ],
-    "telegram": [
-      "amazon:amazon:10564599",
-      "workday:allstate:/job/USA---NC-Remote/Arity---Software-Engineer-Intern_R36266",
-      "workday:alliance:/job/Smyrna-Tennessee---United-States-of-America/Cyber-Security-Intern---Summer-2027---Smyrna--TN_R00214879",
-      "workday:trimble:/job/US---CO-Westminster/People-Development-AI---Digital-Learning-Intern_R57819"
-    ],
-    "personal_email": [
-      "amazon:amazon:10564599",
-      "workday:allstate:/job/USA---NC-Remote/Arity---Software-Engineer-Intern_R36266",
-      "workday:alliance:/job/Smyrna-Tennessee---United-States-of-America/Cyber-Security-Intern---Summer-2027---Smyrna--TN_R00214879",
-      "workday:trimble:/job/US---CO-Westminster/People-Development-AI---Digital-Learning-Intern_R57819"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
