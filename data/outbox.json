@@ -1,7 +1,25 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:openart:8dd52ba6-a5b6-40b1-95fe-50de352fa254",
+      "smartrecruiters:InfiniteQuant:744000157170821",
+      "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00195168",
+      "workday:ngc:/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311",
+      "greenhouse:systemstechnologyresearch:4723980006"
+    ],
+    "telegram": [
+      "ashby:openart:8dd52ba6-a5b6-40b1-95fe-50de352fa254",
+      "smartrecruiters:InfiniteQuant:744000157170821",
+      "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00195168",
+      "workday:ngc:/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311",
+      "greenhouse:systemstechnologyresearch:4723980006"
+    ],
+    "personal_email": [
+      "ashby:openart:8dd52ba6-a5b6-40b1-95fe-50de352fa254",
+      "smartrecruiters:InfiniteQuant:744000157170821",
+      "workday:leidos:/job/Huntsville-AL/AI-ML-Intern_R-00195168",
+      "workday:ngc:/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311",
+      "greenhouse:systemstechnologyresearch:4723980006"
+    ]
   }
 }
