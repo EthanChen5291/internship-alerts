@@ -236,6 +236,18 @@
     }
    }
   },
+  "allstate insurance": {
+   "name": "Allstate Insurance Company",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-22",
+     "role_ids": [
+      "workday:allstate:/job/USA---NC-Remote/Arity---Software-Engineer-Intern_R36266"
+     ],
+     "count": 1
+    }
+   }
+  },
   "altera": {
    "name": "Altera Corporation",
    "cycles": {
@@ -279,7 +291,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 13,
+     "count": 14,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -290,6 +302,7 @@
       "amazon:amazon:10557133",
       "amazon:amazon:10559746",
       "amazon:amazon:10559762",
+      "amazon:amazon:10564599",
       "amazon:amazon:10565667",
       "amazon:amazon:10567914",
       "amazon:amazon:10571004",
@@ -2985,6 +2998,18 @@
     }
    }
   },
+  "m t bank": {
+   "name": "M&T Bank",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-22",
+     "role_ids": [
+      "workday:mtb:/job/Buffalo-NY/Technology-Intern---Software-Engineering--Enterprise-API-Services-Development-Team-_R90812"
+     ],
+     "count": 1
+    }
+   }
+  },
   "mach industries": {
    "name": "Mach Industries",
    "cycles": {
@@ -3431,9 +3456,10 @@
       "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Digital-Products---AI-Strategy-Intern---Summer-2027---Franklin--TN_R00214215",
       "workday:alliance:/job/Franklin-Tennessee---United-States-of-America/Financial-AI-Engineering-Intern---Summer-2027---Franklin--TN_R00214241",
       "workday:alliance:/job/Santa-Clara-California---United-States-of-America/AI-Autonomous-Driving-Verification---Validation-Intern---Summer-2027---Santa-Clara--CA_R00214263",
-      "workday:alliance:/job/Santa-Clara-California---United-States-of-America/AI-Robotics-Research-Intern---Summer-2027---Santa-Clara--CA_R00214267"
+      "workday:alliance:/job/Santa-Clara-California---United-States-of-America/AI-Robotics-Research-Intern---Summer-2027---Santa-Clara--CA_R00214267",
+      "workday:alliance:/job/Smyrna-Tennessee---United-States-of-America/Cyber-Security-Intern---Summer-2027---Smyrna--TN_R00214879"
      ],
-     "count": 6
+     "count": 7
     }
    }
   },
@@ -5596,5 +5622,5 @@
    }
   }
  },
- "updated_at": "2026-10-22T15:54:40Z"
+ "updated_at": "2026-10-22T19:43:20Z"
 }

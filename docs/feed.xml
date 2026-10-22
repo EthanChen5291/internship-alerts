@@ -5,8 +5,48 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-22T15:54:40Z</updated>
+  <updated>2026-10-22T19:43:20Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:mtb:/job/Buffalo-NY/Technology-Intern---Software-Engineering--Enterprise-API-Services-Development-Team-_R90812</id>
+    <title>M&amp;T Bank: Technology Intern - Software Engineering (Enterprise API Services Development Team) 🛂</title>
+    <link href="https://mtb.wd5.myworkdayjobs.com/Campus/job/Buffalo-NY/Technology-Intern---Software-Engineering--Enterprise-API-Services-Development-Team-_R90812"/>
+    <updated>2026-10-22T19:43:20Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Software · Buffalo, NY · $18–$28/hr · Python, Java, C#, JavaScript, SQL · sponsorship: no-sponsorship · status: closed · H-1B track record: ~137 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10564599</id>
+    <title>Amazon: 2027 Frontier AI &amp; Robotics Internship (Undergraduate) - United States, Frontier AI &amp; Robotics, Frontier AI &amp; Robotics</title>
+    <link href="https://www.amazon.jobs/en/jobs/10564599/2027-frontier-ai-robotics-internship-undergraduate-united-states-frontier-ai-robotics-frontier-ai-robotics"/>
+    <updated>2026-10-22T19:43:20Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, California, USA · Python, C++, PyTorch, LLMs, Computer Vision · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:allstate:/job/USA---NC-Remote/Arity---Software-Engineer-Intern_R36266</id>
+    <title>Allstate Insurance Company: Arity - Software Engineer Intern 🛂</title>
+    <link href="https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---NC-Remote/Arity---Software-Engineer-Intern_R36266"/>
+    <updated>2026-10-22T19:43:20Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · USA - NC (Remote) · Python, Java, Go, Kotlin, Scala · sponsorship: no-sponsorship · H-1B track record: ~50 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:alliance:/job/Smyrna-Tennessee---United-States-of-America/Cyber-Security-Intern---Summer-2027---Smyrna--TN_R00214879</id>
+    <title>Nissan: Cyber Security Intern - Summer 2027 - Smyrna, TN 🛂</title>
+    <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Smyrna-Tennessee---United-States-of-America/Cyber-Security-Intern---Summer-2027---Smyrna--TN_R00214879"/>
+    <updated>2026-10-22T19:43:20Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Smyrna, Tennessee - United States of America · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:trimble:/job/US---CO-Westminster/People-Development-AI---Digital-Learning-Intern_R57819</id>
+    <title>Trimble: People Development AI &amp; Digital Learning Intern</title>
+    <link href="https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/People-Development-AI---Digital-Learning-Intern_R57819"/>
+    <updated>2026-10-22T19:43:20Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · US - CO, Westminster · H-1B track record: ~72 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:openart:8dd52ba6-a5b6-40b1-95fe-50de352fa254</id>
     <title>OpenArt AI: Early Adopter &amp; Product Builder Intern, Creative AI</title>
@@ -16,20 +56,28 @@
     <summary>Not stated · Data &amp; ML/AI · San Carlos, California, USA · $40 – $50 per hour • Offers Commission · Python, TypeScript, JavaScript · sponsorship: offers</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311</id>
-    <title>Northrop Grumman: 2027 Cyber Software Engineer Intern - San Antonio TX 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311"/>
-    <updated>2026-10-22T15:54:40Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Texas-San Antonio · $19.5–$35.5/hr · Python, Java, C++, C#, MATLAB · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:greenhouse:systemstechnologyresearch:4723980006</id>
     <title>STR: Data Analyst Intern - Summer 2027 🇺🇸</title>
     <link href="https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4723980006"/>
     <updated>2026-10-22T15:54:40Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Arlington, VA · $25.2–$54/hr · SQL · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:InfiniteQuant:744000157170821</id>
+    <title>InfiniteQuant: Quantitative Researcher - Internship - Summer 2027</title>
+    <link href="https://jobs.smartrecruiters.com/InfiniteQuant/744000157170821"/>
+    <updated>2026-10-22T15:54:40Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Quant · New York, NY, United States · Python, C++, Pandas</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311</id>
+    <title>Northrop Grumman: 2027 Cyber Software Engineer Intern - San Antonio TX 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311"/>
+    <updated>2026-10-22T15:54:40Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · United States-Texas-San Antonio · $19.5–$35.5/hr · Python, Java, C++, C#, MATLAB · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:aptiv:/job/Troy-MI---USA/Software-Development-Intern_J000704861</id>
@@ -323,9 +371,9 @@
     <id>urn:intern-engine:ashby:skydio:370da6a5-5ae6-48fe-8e08-9b1dcc63bf34</id>
     <title>Skydio: Embedded Software Engineer Intern - Winer 2027</title>
     <link href="https://jobs.ashbyhq.com/skydio/370da6a5-5ae6-48fe-8e08-9b1dcc63bf34"/>
-    <updated>2026-10-20T20:44:12Z</updated>
+    <updated>2026-10-22T19:25:26Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Mateo, California, United States · $47/hr · Python, C++, Linux · H-1B track record: ~26 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Software · San Mateo, California, United States · $47/hr · Python, C++, Linux · status: closed · H-1B track record: ~26 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:fa-essf-saasfaprod1.fa.ocs.oraclecloud.com:10005930</id>
@@ -758,53 +806,5 @@
     <updated>2026-10-15T22:00:10Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Livermore, CA, United States · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016164416</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Power Systems Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016164416"/>
-    <updated>2026-10-15T22:00:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Livermore, CA, United States · Python, C++, MATLAB · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165496</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Critical Infrastructure Analysis Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165496"/>
-    <updated>2026-10-15T22:00:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Livermore, CA, United States · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165506</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Power Systems Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165506"/>
-    <updated>2026-10-15T22:00:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Livermore, CA, United States · Python, C++, MATLAB · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165586</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Cybersecurity Graduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165586"/>
-    <updated>2026-10-15T22:00:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Livermore, CA, United States · Python, Java, C++, MATLAB, Docker · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:LLNL:3743990016165636</id>
-    <title>Lawrence Livermore National Laboratory (LLNL): Cybersecurity Undergraduate Intern - Cyber and Critical Infrastructure Summer Institute - Summer 2027 🇺🇸</title>
-    <link href="https://jobs.smartrecruiters.com/LLNL/3743990016165636"/>
-    <updated>2026-10-15T22:00:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Livermore, CA, United States · Python, Java, C++, MATLAB, Docker · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:centene:/job/Remote-MO/AI-Software-Developer-Intern--Undergraduate---Summer-2027-_1667710</id>
-    <title>Centene: AI Software Developer Intern (Undergraduate - Summer 2027)</title>
-    <link href="https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/AI-Software-Developer-Intern--Undergraduate---Summer-2027-_1667710"/>
-    <updated>2026-10-15T22:00:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Remote-MO · $18–$26/hr</summary>
   </entry>
 </feed>
