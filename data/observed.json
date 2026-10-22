@@ -377,9 +377,10 @@
       "workday:amfam:/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407",
       "workday:amfam:/job/WI-Madison/Summer-2027-Data-Analyst-Intern---Agency-Performance--Insights-and-Operations_R39513",
       "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39404",
-      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615"
+      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615",
+      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Engineer_R39675"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -1448,6 +1449,18 @@
      "role_ids": [
       "ashby:creatify:75a1f1ad-13d2-4513-952c-71b6dfcaa84f"
      ]
+    }
+   }
+  },
+  "crusoe": {
+   "name": "Crusoe",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-21",
+     "role_ids": [
+      "ashby:crusoe:07a8a6a9-975e-471c-ac31-b5aaa97f9af5"
+     ],
+     "count": 1
     }
    }
   },
@@ -5568,5 +5581,5 @@
    }
   }
  },
- "updated_at": "2026-10-21T22:15:16Z"
+ "updated_at": "2026-10-22T00:54:26Z"
 }

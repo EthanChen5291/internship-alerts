@@ -1,7 +1,22 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:crusoe:07a8a6a9-975e-471c-ac31-b5aaa97f9af5",
+      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Engineer_R39675",
+      "workday:dtna:/job/Portland-OR-US/Vehicle-Electronics-Programming-Station-Intern_DT-20337",
+      "workday:intel:/job/US-California-Folsom/Information-Security-Engineer-Undergraduate-Intern_JR0287588"
+    ],
+    "telegram": [
+      "ashby:crusoe:07a8a6a9-975e-471c-ac31-b5aaa97f9af5",
+      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Engineer_R39675",
+      "workday:dtna:/job/Portland-OR-US/Vehicle-Electronics-Programming-Station-Intern_DT-20337",
+      "workday:intel:/job/US-California-Folsom/Information-Security-Engineer-Undergraduate-Intern_JR0287588"
+    ],
+    "personal_email": [
+      "ashby:crusoe:07a8a6a9-975e-471c-ac31-b5aaa97f9af5",
+      "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Engineer_R39675",
+      "workday:dtna:/job/Portland-OR-US/Vehicle-Electronics-Programming-Station-Intern_DT-20337",
+      "workday:intel:/job/US-California-Folsom/Information-Security-Engineer-Undergraduate-Intern_JR0287588"
+    ]
   }
 }
