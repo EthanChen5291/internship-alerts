@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-22T00:54:26Z</updated>
+  <updated>2026-10-22T05:36:22Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:aptiv:/job/Troy-MI---USA/Software-Development-Intern_J000704861</id>
+    <title>Aptiv: Software Development Intern</title>
+    <link href="https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/Troy-MI---USA/Software-Development-Intern_J000704861"/>
+    <updated>2026-10-22T05:36:22Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Troy, MI - USA · Python, Java, C++, C#, JavaScript · H-1B track record: ~251 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aptiv:/job/USA-San-Diego-CA---WR/Product-Analyst-Intern_J000704400</id>
+    <title>Aptiv: AI Product Analyst Intern</title>
+    <link href="https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-San-Diego-CA---WR/Product-Analyst-Intern_J000704400"/>
+    <updated>2026-10-22T05:36:22Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · USA San Diego, CA - WR · LLMs, Git · H-1B track record: ~251 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:crusoe:07a8a6a9-975e-471c-ac31-b5aaa97f9af5</id>
     <title>Crusoe: Software Engineering Intern, Summer 2027</title>
@@ -790,21 +806,5 @@
     <updated>2026-10-15T22:00:10Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, C++, PyTorch, TensorFlow, Computer Vision · H-1B track record: ~928 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:generalmotors:/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI--Masters-_JR-202622537</id>
-    <title>General Motors: 2027 Summer Intern, SEAM, Embodied AI (Masters)</title>
-    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI--Masters-_JR-202622537"/>
-    <updated>2026-10-15T22:00:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, California, United States of America · Python, C++, PyTorch, TensorFlow, Computer Vision · H-1B track record: ~928 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping--Masters-_JR-202622539</id>
-    <title>General Motors: 2027 Summer Intern, AI/ML Engineer, Mapping (Masters)</title>
-    <link href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping--Masters-_JR-202622539"/>
-    <updated>2026-10-15T22:00:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Warren, Michigan, United States of America · Python, PyTorch, TensorFlow, GCP, Azure · H-1B track record: ~928 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

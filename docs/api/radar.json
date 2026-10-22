@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-22T00:54:26Z",
- "data_as_of": "2026-10-22T00:54:26Z",
- "rendered_at": "2026-10-22T00:54:27Z",
+ "generated_at": "2026-10-22T05:36:22Z",
+ "data_as_of": "2026-10-22T05:36:22Z",
+ "rendered_at": "2026-10-22T05:36:22Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1466,25 +1466,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-28"
-   }
-  },
-  {
-   "company": "Northwood Space",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-29",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-29",
-   "days_until": -54,
-   "status": "open",
-   "url": "https://jobs.ashbyhq.com/northwoodspace/ce3d4b73-461e-4128-a6f1-f933897e8119",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-29"
    }
   },
   {
@@ -7353,6 +7334,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-27"
+   }
+  },
+  {
+   "company": "Northwood Space",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-29",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-29",
+   "days_until": -54,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-29"
    }
   },
   {

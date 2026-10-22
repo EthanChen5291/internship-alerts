@@ -1,7 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:aptiv:/job/Troy-MI---USA/Software-Development-Intern_J000704861",
+      "workday:aptiv:/job/USA-San-Diego-CA---WR/Product-Analyst-Intern_J000704400"
+    ],
+    "telegram": [
+      "workday:aptiv:/job/Troy-MI---USA/Software-Development-Intern_J000704861",
+      "workday:aptiv:/job/USA-San-Diego-CA---WR/Product-Analyst-Intern_J000704400"
+    ],
+    "personal_email": [
+      "workday:aptiv:/job/Troy-MI---USA/Software-Development-Intern_J000704861",
+      "workday:aptiv:/job/USA-San-Diego-CA---WR/Product-Analyst-Intern_J000704400"
+    ]
   }
 }
