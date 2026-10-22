@@ -242,9 +242,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-22",
      "role_ids": [
+      "workday:allstate:/job/USA---IL-Remote/Arity---Data-Analytics-Engineer-Intern_R36286",
       "workday:allstate:/job/USA---NC-Remote/Arity---Software-Engineer-Intern_R36266"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -1477,6 +1478,19 @@
     }
    }
   },
+  "cvs health": {
+   "name": "CVS Health",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-22",
+     "role_ids": [
+      "workday:cvshealth:/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Graduate_R1081128",
+      "workday:cvshealth:/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Undergrad_R1081114"
+     ],
+     "count": 2
+    }
+   }
+  },
   "dandy": {
    "name": "Dandy",
    "cycles": {
@@ -2102,6 +2116,7 @@
       "workday:gdit:/job/USA-MD-Annapolis-Junction/Summer-2027-Software-Developer-Internship_RQ225717-1",
       "workday:gdit:/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643",
       "workday:gdit:/job/USA-VA-Falls-Church---3150-Fairview-Park-Dr-VAS095/GDIT-2027-Summer-AI---ML-Internship_RQ225401",
+      "workday:gdit:/job/USA-VA-Falls-Church/Financial-Data-Analyst-Intern--Seasonal-_RQ230761",
       "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-AI-Machine-Learning-Internship--DC-Metro-Area_RQ225912",
       "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ226237-1",
       "workday:gdit:/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404",
@@ -2111,7 +2126,7 @@
       "workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Agencies--Cybersecurity-_RQ230273",
       "workday:gdit:/job/USA-VA-Falls-Church/XMLNAME-2027-Summer-Intern---Defense-Angencies--AI-ML-_RQ230275"
      ],
-     "count": 25
+     "count": 26
     }
    }
   },
@@ -3468,7 +3483,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 40,
+     "count": 41,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -3509,7 +3524,8 @@
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10254852",
       "workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10257053",
       "workday:ngc:/job/United-States-Virginia-Chantilly/XMLNAME-2027-Software-Developer-Intern--Chantilly-VA_R10254863-1",
-      "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731"
+      "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Software-Engineering-Intern-Dulles-VA_R10253731",
+      "workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Systems-Engineering-Internship--AI-Experience----Dulles-VA_R10257423"
      ]
     },
     "Fall 2026": {
@@ -3729,6 +3745,19 @@
       "ashby:patreon:cefe07ab-ba4f-48cc-86b9-a88b1859a95c"
      ],
      "count": 1
+    }
+   }
+  },
+  "pattern": {
+   "name": "Pattern",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-16",
+     "role_ids": [
+      "lever:pattern:48945dce-b5ef-43cd-9d85-f8b26ce5b43e",
+      "lever:pattern:5c0c1963-87c5-48d7-8da9-0c79121fe443"
+     ],
+     "count": 2
     }
    }
   },
@@ -4520,13 +4549,14 @@
      "role_ids": [
       "workday:snc:/job/Dayton-OH/Software-Engineering-Intern--Summer-2027-_R0030754",
       "workday:snc:/job/Folsom-CA/Software-Engineering-Intern--Summer-2027-_R0030761-1",
+      "workday:snc:/job/Hagerstown-MD/Systems-Security-Engineer-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0030540",
       "workday:snc:/job/Lone-Tree-CO/Software-Engineer-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031098",
       "workday:snc:/job/Lone-Tree-CO/Software-Engineering-Intern--Summer-2027-_R0030757",
       "workday:snc:/job/Plano-TX/Software-Engineering-Intern--Summer-2027-_R0030758",
       "workday:snc:/job/Southern-Pines-NC/Software-Engineering-Intern--Summer-2027-_R0030759",
       "workday:snc:/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760"
      ],
-     "count": 7
+     "count": 8
     },
     "Fall 2026": {
      "first_posted": "2026-09-23",
@@ -4605,10 +4635,11 @@
       "ashby:skydio:370da6a5-5ae6-48fe-8e08-9b1dcc63bf34",
       "ashby:skydio:79fdda46-4ff5-42c7-b208-55f2084cdb8c",
       "ashby:skydio:8994767e-fd53-4ca2-b0ef-fe0923c1e260",
+      "ashby:skydio:89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd",
       "ashby:skydio:8a237302-3fe8-4403-b32b-7690f333ba52",
       "ashby:skydio:ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -5514,6 +5545,18 @@
     }
    }
   },
+  "wsp": {
+   "name": "WSP",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-22",
+     "role_ids": [
+      "oracle:emit.fa.ca3.oraclecloud.com:97952"
+     ],
+     "count": 1
+    }
+   }
+  },
   "xai": {
    "name": "xAI",
    "cycles": {
@@ -5622,5 +5665,5 @@
    }
   }
  },
- "updated_at": "2026-10-22T19:43:20Z"
+ "updated_at": "2026-10-22T23:00:42Z"
 }

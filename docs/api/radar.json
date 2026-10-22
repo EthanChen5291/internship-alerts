@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-22T19:43:20Z",
- "data_as_of": "2026-10-22T19:43:20Z",
- "rendered_at": "2026-10-22T19:43:20Z",
+ "generated_at": "2026-10-22T23:00:42Z",
+ "data_as_of": "2026-10-22T23:00:42Z",
+ "rendered_at": "2026-10-22T23:00:43Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -320,7 +320,7 @@
    "expected": "2026-07-08",
    "days_until": -106,
    "status": "open",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Texas-San-Antonio/XMLNAME-2027-Cyber-Software-Engineer-Intern---San-Antonio-TX_R10257311",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Tampa/XMLNAME-2027-Cyber-Software-Engineer-Intern---Tampa-FL_R10249530",
    "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
@@ -4471,6 +4471,25 @@
    }
   },
   {
+   "company": "Pattern",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-16",
+   "days_until": -6,
+   "status": "open",
+   "url": "https://jobs.lever.co/pattern/48945dce-b5ef-43cd-9d85-f8b26ce5b43e",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-16"
+   }
+  },
+  {
    "company": "Ryan",
    "last_cycle_posted": "",
    "posted_on": "2026-10-16",
@@ -4661,25 +4680,6 @@
    }
   },
   {
-   "company": "Crusoe",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-21",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-21",
-   "days_until": -1,
-   "status": "open",
-   "url": "https://jobs.ashbyhq.com/crusoe/07a8a6a9-975e-471c-ac31-b5aaa97f9af5",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-21"
-   }
-  },
-  {
    "company": "DP World",
    "last_cycle_posted": "",
    "posted_on": "2026-10-21",
@@ -4756,6 +4756,25 @@
    }
   },
   {
+   "company": "CVS Health",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-22",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-22",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Undergrad_R1081114",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-22"
+   }
+  },
+  {
    "company": "STR",
    "last_cycle_posted": "",
    "posted_on": "2026-10-22",
@@ -4767,6 +4786,25 @@
    "days_until": 0,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4723980006",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-22"
+   }
+  },
+  {
+   "company": "WSP",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-22",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-22",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/97952",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -8363,6 +8401,25 @@
    }
   },
   {
+   "company": "Crusoe",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-21",
+   "days_until": -1,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-21"
+   }
+  },
+  {
    "company": "M&T Bank",
    "last_cycle_posted": "",
    "posted_on": "2026-10-22",
@@ -8382,5 +8439,5 @@
    }
   }
  ],
- "count": 441
+ "count": 444
 }
