@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-23T17:13:58Z",
- "data_as_of": "2026-10-23T17:13:58Z",
- "rendered_at": "2026-10-23T17:13:58Z",
+ "generated_at": "2026-10-23T20:37:04Z",
+ "data_as_of": "2026-10-23T20:37:04Z",
+ "rendered_at": "2026-10-23T20:37:05Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -624,7 +624,7 @@
    "expected": "2026-08-04",
    "days_until": -80,
    "status": "open",
-   "url": "https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0",
+   "url": "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab",
    "note": "trading cycle opens very early",
    "provenance": {
     "type": "engine-observed",

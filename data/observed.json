@@ -133,12 +133,13 @@
      "role_ids": [
       "workday:aero:/job/Chantilly-VA/XMLNAME-2027-Software-Implementation-and-Integration-Undergrad-Cleared-Intern_R016740",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Aerospace-Software-Engineer-Undergraduate-Intern_R016605",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Grad-Intern_R016950",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Embedded-Software-Engineering-Undergrad-Intern_R016949",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753",
       "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Intern_R016429"
      ],
-     "count": 6
+     "count": 7
     }
    }
   },
@@ -389,12 +390,13 @@
      "first_posted": "2026-09-25",
      "role_ids": [
       "workday:amfam:/job/WI-Madison/Intern---Application-Billing-Center-Developer_R39407",
+      "workday:amfam:/job/WI-Madison/Product-Data-Engineering-Intern--Hybrid-_R39462",
       "workday:amfam:/job/WI-Madison/Summer-2027-Data-Analyst-Intern---Agency-Performance--Insights-and-Operations_R39513",
       "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39404",
       "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Analyst_R39615",
       "workday:amfam:/job/WI-Madison/Summer-2027-Intern---Data-Engineer_R39675"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -1964,9 +1966,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-14",
      "role_ids": [
-      "greenhouse:fspco-op012325:8796996002"
+      "greenhouse:fspco-op012325:8796996002",
+      "greenhouse:fspco-op012325:8911276002"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2628,9 +2631,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-03",
      "role_ids": [
-      "greenhouse:idmeuniversityrecruiting:7980429003"
+      "greenhouse:idmeuniversityrecruiting:7980429003",
+      "greenhouse:idmeuniversityrecruiting:8041991003"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3202,12 +3206,13 @@
      "first_posted": "2026-09-08",
      "role_ids": [
       "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515",
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences---Intern_R423333",
       "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences--Foundation-Models---Intern_R423438",
       "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---AI-ML-Computational-Toxicology---Intern_R412871",
       "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Laboratory-Operations-AI---Digital-Transformation---Intern_R413048",
       "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Standardizing-Automation-Scripting-Practices-Through-AI-Enabled-Knowledge-Repository---Intern_R412939"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -5694,5 +5699,5 @@
    }
   }
  },
- "updated_at": "2026-10-23T17:13:58Z"
+ "updated_at": "2026-10-23T20:37:04Z"
 }

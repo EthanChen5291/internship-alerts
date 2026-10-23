@@ -1,7 +1,34 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "oracle:fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com:391876",
+      "workday:amfam:/job/WI-Madison/Product-Data-Engineering-Intern--Hybrid-_R39462",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Application-Software-QA-Engineer_J-00354565",
+      "greenhouse:idmeuniversityrecruiting:8041991003",
+      "workday:koppers:/job/Peachtree-City-GA/Financial-Data-Analyst-Intern_REQ03221",
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences---Intern_R423333",
+      "workday:nike:/job/Boston-Massachusetts/Converse-AI-Enablement-Graduate-Internship_R-96256",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011"
+    ],
+    "telegram": [
+      "oracle:fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com:391876",
+      "workday:amfam:/job/WI-Madison/Product-Data-Engineering-Intern--Hybrid-_R39462",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Application-Software-QA-Engineer_J-00354565",
+      "greenhouse:idmeuniversityrecruiting:8041991003",
+      "workday:koppers:/job/Peachtree-City-GA/Financial-Data-Analyst-Intern_REQ03221",
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences---Intern_R423333",
+      "workday:nike:/job/Boston-Massachusetts/Converse-AI-Enablement-Graduate-Internship_R-96256",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011"
+    ],
+    "personal_email": [
+      "oracle:fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com:391876",
+      "workday:amfam:/job/WI-Madison/Product-Data-Engineering-Intern--Hybrid-_R39462",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Application-Software-QA-Engineer_J-00354565",
+      "greenhouse:idmeuniversityrecruiting:8041991003",
+      "workday:koppers:/job/Peachtree-City-GA/Financial-Data-Analyst-Intern_REQ03221",
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences---Intern_R423333",
+      "workday:nike:/job/Boston-Massachusetts/Converse-AI-Enablement-Graduate-Internship_R-96256",
+      "workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Defensive-Cyber-Operations-Undergrad-Intern_R017011"
+    ]
   }
 }
