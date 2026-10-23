@@ -293,7 +293,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 14,
+     "count": 15,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -308,7 +308,8 @@
       "amazon:amazon:10565667",
       "amazon:amazon:10567914",
       "amazon:amazon:10571004",
-      "amazon:amazon:10571374"
+      "amazon:amazon:10571374",
+      "amazon:amazon:10587999"
      ]
     }
    }
@@ -517,9 +518,10 @@
      "first_posted": "2026-09-04",
      "role_ids": [
       "workday:amat:/job/AlbanyNY/Summer-2027-Global-Technical-Learning-Center-Data-Analyst-Intern--Bachelor-s-Master-s--Albany--NY-_R2627551",
-      "workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265"
+      "workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265",
+      "workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern--Software-Engineer--Bachelors-Degree--Santa-Clara-_R2630672"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -5699,5 +5701,5 @@
    }
   }
  },
- "updated_at": "2026-10-23T20:37:04Z"
+ "updated_at": "2026-10-23T23:42:17Z"
 }
