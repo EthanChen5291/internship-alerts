@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-23T01:42:44Z",
- "data_as_of": "2026-10-23T01:42:44Z",
- "rendered_at": "2026-10-23T01:42:44Z",
+ "generated_at": "2026-10-23T06:46:48Z",
+ "data_as_of": "2026-10-23T06:46:48Z",
+ "rendered_at": "2026-10-23T06:46:48Z",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "h1b_window": "FY2022–2023",
- "count": 1057,
+ "count": 1056,
  "jobs": [
   {
    "id": "ashby:skydio:89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd",
@@ -26371,35 +26371,6 @@
    "remote": false
   },
   {
-   "id": "workday:brunswick:/job/Oshkosh-WI/Mercury-Marine--Software-Validation-Intern_JR-051160",
-   "company": "Brunswick",
-   "title": "Mercury Marine: G3 Software Engineering Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Oshkosh, WI",
-   "url": "https://brunswick.wd1.myworkdayjobs.com/search/job/Oshkosh-WI/Mercury-Marine--Software-Validation-Intern_JR-051160",
-   "posted_at": "2026-08-25T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-08-25T19:58:52Z",
-   "sponsorship": "unknown",
-   "salary": "$18–$27.5/hr",
-   "skills": [
-    "Python",
-    "C++",
-    "C#"
-   ],
-   "class_year": null,
-   "underclass_program_key": null,
-   "underclass_program": null,
-   "underclass_audience": null,
-   "source": "workday",
-   "h1b_approvals": 54,
-   "program": "Internship",
-   "remote": false
-  },
-  {
    "id": "greenhouse:verkada:5210813007",
    "company": "Verkada",
    "title": "Backend Software Engineering Intern 2027",
@@ -30756,7 +30727,7 @@
    "seasons": null,
    "season_inferred": false,
    "category": "Software",
-   "location": "San Francisco, CA",
+   "location": "New York, NY",
    "url": "https://ats.rippling.com/rippling/jobs/f64b6158-9534-4bab-9457-45556166b262",
    "posted_at": null,
    "posted_at_source": null,
