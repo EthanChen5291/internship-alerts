@@ -1,7 +1,55 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:aoins:/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14772",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Quality-Assurance_J-00354562",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Quality-Assurance_J-00354563",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Engineer-In-Test--MOD-_J-00354568",
+      "smartrecruiters:BoschGroup:744000157483412",
+      "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR111861",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2642189-1",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern---AI-ML-for-Diagnostics---Calibration_2642129-1",
+      "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878",
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515",
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences--Foundation-Models---Intern_R423438",
+      "greenhouse:mongodb:8209134",
+      "greenhouse:olsson:5462183008",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Software-Engineering-Intern---Summer-2027-_01884375",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01884054"
+    ],
+    "telegram": [
+      "workday:aoins:/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14772",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Quality-Assurance_J-00354562",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Quality-Assurance_J-00354563",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Engineer-In-Test--MOD-_J-00354568",
+      "smartrecruiters:BoschGroup:744000157483412",
+      "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR111861",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2642189-1",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern---AI-ML-for-Diagnostics---Calibration_2642129-1",
+      "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878",
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515",
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences--Foundation-Models---Intern_R423438",
+      "greenhouse:mongodb:8209134",
+      "greenhouse:olsson:5462183008",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Software-Engineering-Intern---Summer-2027-_01884375",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01884054"
+    ],
+    "personal_email": [
+      "workday:aoins:/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14772",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Quality-Assurance_J-00354562",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Quality-Assurance_J-00354563",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Software-Engineer-In-Test--MOD-_J-00354568",
+      "smartrecruiters:BoschGroup:744000157483412",
+      "workday:copart:/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR111861",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern_2642189-1",
+      "workday:kla:/job/Milpitas-CA/Software-Engineering-Intern---AI-ML-for-Diagnostics---Calibration_2642129-1",
+      "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878",
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515",
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences--Foundation-Models---Intern_R423438",
+      "greenhouse:mongodb:8209134",
+      "greenhouse:olsson:5462183008",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Software-Engineering-Intern---Summer-2027-_01884375",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01884054"
+    ]
   }
 }

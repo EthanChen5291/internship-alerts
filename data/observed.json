@@ -636,12 +636,13 @@
      "first_posted": "2026-08-26",
      "role_ids": [
       "workday:aoins:/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14417",
+      "workday:aoins:/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14772",
       "workday:aoins:/job/Lansing-MI/IT-Document-Automation-Developer-Internship---Summer-2027_R_14471",
       "workday:aoins:/job/Lansing-MI/IT-Security-Engineer-Internship---Summer-2027_R_14477",
       "workday:aoins:/job/Lansing-MI/Intelligent-Automation-Developer-Internship---Summer-2027_R_14474",
       "workday:aoins:/job/Lansing-MI/Software-Developer-Internship_R_2121"
      ],
-     "count": 5
+     "count": 6
     }
    }
   },
@@ -2863,6 +2864,18 @@
     }
    }
   },
+  "kla": {
+   "name": "KLA",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-23",
+     "role_ids": [
+      "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878"
+     ],
+     "count": 1
+    }
+   }
+  },
   "klaviyo": {
    "name": "Klaviyo",
    "cycles": {
@@ -3188,11 +3201,13 @@
     "Summer 2027": {
      "first_posted": "2026-09-08",
      "role_ids": [
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515",
+      "workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences--Foundation-Models---Intern_R423438",
       "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---AI-ML-Computational-Toxicology---Intern_R412871",
       "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Laboratory-Operations-AI---Digital-Transformation---Intern_R413048",
       "workday:msd:/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Standardizing-Automation-Scripting-Practices-Through-AI-Enabled-Knowledge-Repository---Intern_R412939"
      ],
-     "count": 3
+     "count": 5
     }
    }
   },
@@ -3239,6 +3254,18 @@
      "first_posted": "2026-09-03",
      "role_ids": [
       "workday:momentive:/job/US-NY-Niskayuna/Summer-2027-Intern---Software-Development_R9756"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "mongodb": {
+   "name": "MongoDB",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-23",
+     "role_ids": [
+      "greenhouse:mongodb:8209134"
      ],
      "count": 1
     }
@@ -4263,6 +4290,7 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Software-Engineering-Intern-Summer-2027-_01870349-1",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01868241",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01871019",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineering-Intern--Summer-2027-_01884054",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Software-Engineering-Intern--Summer-2027-_01880499",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Summer--Fall-2027-_01873293",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01871884",
@@ -4304,9 +4332,10 @@
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027---Open-_01870974",
       "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871040",
-      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084"
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineering-Intern--Summer-2027-_01871084",
+      "workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Software-Engineering-Intern---Summer-2027-_01884375"
      ],
-     "count": 51
+     "count": 53
     }
    }
   },
@@ -5665,5 +5694,5 @@
    }
   }
  },
- "updated_at": "2026-10-23T12:16:14Z"
+ "updated_at": "2026-10-23T17:13:58Z"
 }
