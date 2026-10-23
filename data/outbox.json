@@ -1,7 +1,25 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:avav:/job/Moorpark-CA/Software-Engineering-Intern_9094",
+      "workday:avav:/job/Minneapolis-MN/Software-Engineering-Intern_8940",
+      "workday:avav:/job/San-Diego-CA/Software-Engineering-Intern_8828",
+      "workday:avav:/job/Centreville-VA/Machine-Learning-Engineering-Intern_8941",
+      "workday:sedgwick:/job/Telecommuter-MA/Data-Analyst-Intern_R79691"
+    ],
+    "telegram": [
+      "workday:avav:/job/Moorpark-CA/Software-Engineering-Intern_9094",
+      "workday:avav:/job/Minneapolis-MN/Software-Engineering-Intern_8940",
+      "workday:avav:/job/San-Diego-CA/Software-Engineering-Intern_8828",
+      "workday:avav:/job/Centreville-VA/Machine-Learning-Engineering-Intern_8941",
+      "workday:sedgwick:/job/Telecommuter-MA/Data-Analyst-Intern_R79691"
+    ],
+    "personal_email": [
+      "workday:avav:/job/Moorpark-CA/Software-Engineering-Intern_9094",
+      "workday:avav:/job/Minneapolis-MN/Software-Engineering-Intern_8940",
+      "workday:avav:/job/San-Diego-CA/Software-Engineering-Intern_8828",
+      "workday:avav:/job/Centreville-VA/Machine-Learning-Engineering-Intern_8941",
+      "workday:sedgwick:/job/Telecommuter-MA/Data-Analyst-Intern_R79691"
+    ]
   }
 }

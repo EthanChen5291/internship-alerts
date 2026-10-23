@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-23T06:46:48Z",
- "data_as_of": "2026-10-23T06:46:48Z",
- "rendered_at": "2026-10-23T06:46:48Z",
+ "generated_at": "2026-10-23T12:16:14Z",
+ "data_as_of": "2026-10-23T12:16:14Z",
+ "rendered_at": "2026-10-23T12:16:14Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -174,25 +174,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-06-01"
-   }
-  },
-  {
-   "company": "Anduril",
-   "last_cycle_posted": "",
-   "posted_on": "2026-06-10",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-06-10",
-   "days_until": -135,
-   "status": "open",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148079007?gh_jid=5148079007",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-06-10"
    }
   },
   {
@@ -928,7 +909,7 @@
    "expected": "2026-08-17",
    "days_until": -67,
    "status": "open",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010970",
+   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011082",
    "note": "campus opens mid-summer",
    "provenance": {
     "type": "engine-observed",
@@ -6935,6 +6916,25 @@
     "type": "verified-window",
     "url": "palantir.com/careers",
     "verified_at": "2026-07-21"
+   }
+  },
+  {
+   "company": "Anduril",
+   "last_cycle_posted": "",
+   "posted_on": "2026-06-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-06-10",
+   "days_until": -135,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-06-10"
    }
   },
   {

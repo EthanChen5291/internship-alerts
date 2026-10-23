@@ -5,8 +5,48 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-23T06:46:48Z</updated>
+  <updated>2026-10-23T12:16:14Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:avav:/job/Moorpark-CA/Software-Engineering-Intern_9094</id>
+    <title>Avav: Software Engineering Intern</title>
+    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Moorpark-CA/Software-Engineering-Intern_9094"/>
+    <updated>2026-10-23T12:16:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Moorpark, CA · Python, Java, C++, Bash, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:avav:/job/Minneapolis-MN/Software-Engineering-Intern_8940</id>
+    <title>Avav: Software Engineering Intern 🇺🇸</title>
+    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Minneapolis-MN/Software-Engineering-Intern_8940"/>
+    <updated>2026-10-23T12:16:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Minneapolis, MN · Python, Java, C++, Bash, Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:avav:/job/San-Diego-CA/Software-Engineering-Intern_8828</id>
+    <title>Avav: Software Engineering Intern 🇺🇸</title>
+    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/San-Diego-CA/Software-Engineering-Intern_8828"/>
+    <updated>2026-10-23T12:16:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · San Diego, CA · Python, Java, C++, Bash, Linux · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:avav:/job/Centreville-VA/Machine-Learning-Engineering-Intern_8941</id>
+    <title>Avav: Machine Learning Engineering Intern 🇺🇸</title>
+    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Centreville-VA/Machine-Learning-Engineering-Intern_8941"/>
+    <updated>2026-10-23T12:16:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Centreville, VA · Python, C++, MATLAB, TensorFlow, scikit-learn · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:sedgwick:/job/Telecommuter-MA/Data-Analyst-Intern_R79691</id>
+    <title>Sedgwick Claims Management Services: Data Analyst Intern</title>
+    <link href="https://sedgwick.wd1.myworkdayjobs.com/Sedgwick/job/Telecommuter-MA/Data-Analyst-Intern_R79691"/>
+    <updated>2026-10-23T12:16:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Telecommuter MA · SQL, Databricks, Snowflake, Tableau · H-1B track record: ~11 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:skydio:89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd</id>
     <title>Skydio: Frontend Software Engineer Intern - Summer 2027</title>
@@ -435,9 +475,9 @@
     <id>urn:intern-engine:greenhouse:andurilindustries:5269977007</id>
     <title>Anduril: 2027 Finance Data Analyst Intern</title>
     <link href="https://boards.greenhouse.io/andurilindustries/jobs/5269977007?gh_jid=5269977007"/>
-    <updated>2026-10-20T23:37:50Z</updated>
+    <updated>2026-10-23T11:59:09Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Costa Mesa, California, United States · Python, SQL, LLMs, Computer Vision, Databricks</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Costa Mesa, California, United States · Python, SQL, LLMs, Computer Vision, Databricks · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:iaziqy.fa.ocs.oraclecloud.com:303922</id>
@@ -766,45 +806,5 @@
     <updated>2026-10-19T18:00:31Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Quant · New York, New York · Python</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:manh:/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_17046</id>
-    <title>Manhattan Associates: A.I. Developer Co-Op (Boston, MA)</title>
-    <link href="https://manh.wd5.myworkdayjobs.com/campus/job/US---Home-Office/AI-Developer-Co-Op--Boston--MA-_17046"/>
-    <updated>2026-10-19T18:00:31Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · US - Home Office · Python, Java, JavaScript, LLMs · H-1B track record: ~153 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:agzen:4cff4edd-3e9a-4ea1-8138-80c7241a2d3a</id>
-    <title>AgZen: Software Engineering Co-op</title>
-    <link href="https://jobs.ashbyhq.com/agzen/4cff4edd-3e9a-4ea1-8138-80c7241a2d3a"/>
-    <updated>2026-10-17T13:24:25Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Somerville, MA · Computer Vision</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:aidashinc:4436057009</id>
-    <title>Aidashinc: Software Engineering Intern, Backend</title>
-    <link href="https://job-boards.greenhouse.io/aidashinc/jobs/4436057009"/>
-    <updated>2026-10-17T13:24:25Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Palo Alto, California, United States · Python, Java, SQL, AWS, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/Fayetteville-NC/University--Software-Engineer-Intern_R0251802</id>
-    <title>Booz Allen: University, Software Engineer Intern 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fayetteville-NC/University--Software-Engineer-Intern_R0251802"/>
-    <updated>2026-10-17T05:12:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Fayetteville, NC · $108k/yr · Java, C++, Git · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ryan:/job/Plano/Summer-2027-Intern--Software-Engineering_R0020843-1</id>
-    <title>Ryan: Summer 2027 Intern, Software Engineering</title>
-    <link href="https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2027-Intern--Software-Engineering_R0020843-1"/>
-    <updated>2026-10-17T00:36:31Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Plano TX · Python, C#, TypeScript, React, Azure</summary>
   </entry>
 </feed>
