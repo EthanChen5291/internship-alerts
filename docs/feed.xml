@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-22T23:00:42Z</updated>
+  <updated>2026-10-23T01:42:44Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:skydio:89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd</id>
+    <title>Skydio: Frontend Software Engineer Intern - Summer 2027</title>
+    <link href="https://jobs.ashbyhq.com/skydio/89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd"/>
+    <updated>2026-10-22T23:00:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Mateo, California, United States · $47/hr · TypeScript, React, GraphQL · H-1B track record: ~26 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:lever:palantir:b3d81928-6c26-432f-8a0a-36602c2eefcb</id>
     <title>Palantir: Forward Deployed Software Engineer, Internship - Warp Speed 🇺🇸</title>
@@ -32,14 +40,6 @@
     <summary>Summer 2027 · Data &amp; ML/AI · Lehi, UT, US · Python, Java, TypeScript, LLMs, AWS</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:ashby:skydio:89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd</id>
-    <title>Skydio: Frontend Software Engineer Intern - Summer 2027</title>
-    <link href="https://jobs.ashbyhq.com/skydio/89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd"/>
-    <updated>2026-10-22T23:00:42Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Mateo, California, United States · $47/hr · TypeScript, React, GraphQL · H-1B track record: ~26 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:oracle:emit.fa.ca3.oraclecloud.com:97952</id>
     <title>WSP: Transportation Data Analyst Intern - Summer 2027</title>
     <link href="https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/97952"/>
@@ -56,14 +56,6 @@
     <summary>Summer 2027 · Data &amp; ML/AI · USA - IL (Remote) · Python, SQL, Bash, TensorFlow, scikit-learn · sponsorship: no-sponsorship · H-1B track record: ~50 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:cvshealth:/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Undergrad_R1081114</id>
-    <title>CVS Health: Innovation &amp; Technology Internship - Software Engineering: Data &amp; Intelligence Summer 2027 Undergrad 🛂</title>
-    <link href="https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Undergrad_R1081114"/>
-    <updated>2026-10-22T23:00:42Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · NY - New York · Python, Java, JavaScript, SQL, LLMs · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:cvshealth:/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Graduate_R1081128</id>
     <title>CVS Health: Innovation &amp; Technology Internship - Software Engineering: Data &amp; Intelligence Summer 2027 Graduate 🛂</title>
     <link href="https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Graduate_R1081128"/>
@@ -72,12 +64,12 @@
     <summary>Summer 2027 · Data &amp; ML/AI · NY - New York · Python, Java, JavaScript, SQL, LLMs · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:kiongroup:/job/Grand-Rapids-MI-United-States/Software-Analytics-Co-op_JR-0096723-1</id>
-    <title>KION Group: Software Analytics Co-op</title>
-    <link href="https://kiongroup.wd3.myworkdayjobs.com/kiongroup/job/Grand-Rapids-MI-United-States/Software-Analytics-Co-op_JR-0096723-1"/>
+    <id>urn:intern-engine:workday:cvshealth:/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Undergrad_R1081114</id>
+    <title>CVS Health: Innovation &amp; Technology Internship - Software Engineering: Data &amp; Intelligence Summer 2027 Undergrad 🛂</title>
+    <link href="https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Undergrad_R1081114"/>
     <updated>2026-10-22T23:00:42Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Grand Rapids, MI, United States · Python, SQL, Tableau</summary>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · NY - New York · Python, Java, JavaScript, SQL, LLMs · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:gdit:/job/USA-VA-Falls-Church/Financial-Data-Analyst-Intern--Seasonal-_RQ230761</id>
@@ -94,6 +86,14 @@
     <updated>2026-10-22T23:00:42Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Kingwood, TX · Python, SQL, LLMs, Computer Vision · H-1B track record: ~12 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:kiongroup:/job/Grand-Rapids-MI-United-States/Software-Analytics-Co-op_JR-0096723-1</id>
+    <title>KION Group: Software Analytics Co-op</title>
+    <link href="https://kiongroup.wd3.myworkdayjobs.com/kiongroup/job/Grand-Rapids-MI-United-States/Software-Analytics-Co-op_JR-0096723-1"/>
+    <updated>2026-10-22T23:00:42Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Grand Rapids, MI, United States · Python, SQL, Tableau</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Virginia-Dulles/XMLNAME-2027-Systems-Engineering-Internship--AI-Experience----Dulles-VA_R10257423</id>
