@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-24T16:30:35Z</updated>
+  <updated>2026-10-24T19:14:03Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:aoins:/job/Bedford-NH/Software-Engineer-Intern_R_14465</id>
+    <title>Auto-Owners Insurance: Software Engineer Intern</title>
+    <link href="https://aoins.wd5.myworkdayjobs.com/concord/job/Bedford-NH/Software-Engineer-Intern_R_14465"/>
+    <updated>2026-10-24T19:14:03Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Bedford, NH · C#, JavaScript, SQL</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:scout-ai:3b639e39-abd7-4a0c-9bea-e1cd0a72db99</id>
     <title>Scout AI: AI Engineer Intern - Fury Team (Summer 2027)</title>
@@ -798,13 +806,5 @@
     <updated>2026-10-20T17:05:59Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Farmington Hills, Michigan - United States of America · Python, SQL, LLMs, AWS, Snowflake · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cbrands:/job/Rochester-New-York/Intern--AI-Enablement_R-41526</id>
-    <title>Constellation Brands: Intern, AI Enablement</title>
-    <link href="https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--AI-Enablement_R-41526"/>
-    <updated>2026-10-20T17:05:59Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Rochester, New York · LLMs</summary>
   </entry>
 </feed>
