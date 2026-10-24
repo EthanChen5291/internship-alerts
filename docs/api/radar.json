@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-24T12:29:29Z",
- "data_as_of": "2026-10-24T12:29:29Z",
- "rendered_at": "2026-10-24T12:29:30Z",
+ "generated_at": "2026-10-24T16:30:35Z",
+ "data_as_of": "2026-10-24T16:30:35Z",
+ "rendered_at": "2026-10-24T16:30:36Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2259,6 +2259,25 @@
    "days_until": -46,
    "status": "open",
    "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/USCODenver/Software-Developer-Intern---Summer-2027_R-161580-1",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
+   "company": "C.H. Robinson",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -46,
+   "status": "open",
+   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4825,6 +4844,25 @@
    "status": "open",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8209134",
    "note": "fall opening",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-23"
+   }
+  },
+  {
+   "company": "Scout AI",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-23",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-23",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/scout-ai/3b639e39-abd7-4a0c-9bea-e1cd0a72db99",
+   "note": "",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -7660,25 +7698,6 @@
    }
   },
   {
-   "company": "C.H. Robinson",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -46,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
    "company": "CHAOS Industries",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -8458,5 +8477,5 @@
    }
   }
  ],
- "count": 445
+ "count": 446
 }

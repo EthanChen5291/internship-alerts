@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-24T12:29:29Z</updated>
+  <updated>2026-10-24T16:30:35Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:scout-ai:3b639e39-abd7-4a0c-9bea-e1cd0a72db99</id>
+    <title>Scout AI: AI Engineer Intern - Fury Team (Summer 2027)</title>
+    <link href="https://jobs.ashbyhq.com/scout-ai/3b639e39-abd7-4a0c-9bea-e1cd0a72db99"/>
+    <updated>2026-10-24T16:30:35Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, CA · $45 – $65 per hour · Python, PyTorch, TensorFlow</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:asml:/job/San-Jose-CA-USA/Platform-Software-Engineer-In-Test---Internship-_J-00354558</id>
     <title>ASML: Platform Software Engineer In Test ( Internship)</title>
@@ -798,13 +806,5 @@
     <updated>2026-10-20T17:05:59Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Rochester, New York · LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:rockwellautomation:/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-2</id>
-    <title>Rockwell Automation: Intern - Embedded Controls Engineering 🛂</title>
-    <link href="https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-1"/>
-    <updated>2026-10-20T17:05:59Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Orlando, Florida, United States · sponsorship: no-sponsorship · H-1B track record: ~90 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
