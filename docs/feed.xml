@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-23T23:42:17Z</updated>
+  <updated>2026-10-24T02:11:33Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:asml:/job/San-Jose-CA-USA/Platform-Software-Engineer-In-Test---Internship-_J-00354558</id>
+    <title>ASML: Platform Software Engineer In Test ( Internship)</title>
+    <link href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Platform-Software-Engineer-In-Test---Internship-_J-00354558"/>
+    <updated>2026-10-24T02:11:32Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · San Jose, CA, USA · Python, C++, Bash</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10587999</id>
+    <title>Amazon: Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA) 🇺🇸</title>
+    <link href="https://www.amazon.jobs/en/jobs/10587999/software-development-engineer-intern-amazon-leo-summer-2027-usa"/>
+    <updated>2026-10-23T23:42:16Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Redmond, Washington, USA · Python, Java, C++, C#, Rust · sponsorship: citizens-only · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:amperesand:4465899009</id>
     <title>Amperesand: AI/ML Engineering Intern</title>
@@ -16,20 +32,20 @@
     <summary>Not stated · Data &amp; ML/AI · Sunnyvale, California, United States · Python, Rust, TypeScript, PyTorch, TensorFlow</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:analogdevices:/job/United-Kingdom-Edinburgh-SC-Freer/Software-Tools-Engineering-Intern_R267128</id>
-    <title>Analog Devices: Software Tools Engineering Intern</title>
-    <link href="https://analogdevices.wd1.myworkdayjobs.com/External/job/United-Kingdom-Edinburgh-SC-Freer/Software-Tools-Engineering-Intern_R267128"/>
-    <updated>2026-10-23T23:42:16Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · United Kingdom, Edinburgh, SC, Freer · TypeScript, JavaScript, React, Node.js, Git · H-1B track record: ~181 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern--Software-Engineer--Bachelors-Degree--Santa-Clara-_R2630672</id>
     <title>Applied Materials: 2027 Summer Intern, Software Engineer, Bachelors Degree (Santa Clara)</title>
     <link href="https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern--Software-Engineer--Bachelors-Degree--Santa-Clara-_R2630672"/>
     <updated>2026-10-23T23:42:16Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Santa Clara,CA · C++, C# · H-1B track record: ~650 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:analogdevices:/job/United-Kingdom-Edinburgh-SC-Freer/Software-Tools-Engineering-Intern_R267128</id>
+    <title>Analog Devices: Software Tools Engineering Intern</title>
+    <link href="https://analogdevices.wd1.myworkdayjobs.com/External/job/United-Kingdom-Edinburgh-SC-Freer/Software-Tools-Engineering-Intern_R267128"/>
+    <updated>2026-10-23T23:42:16Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · United Kingdom, Edinburgh, SC, Freer · TypeScript, JavaScript, React, Node.js, Git · H-1B track record: ~181 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:hpe:/job/Spring-Texas-United-States-of-America/Cybersecurity-Engineering-Intern_1216080</id>
@@ -117,7 +133,7 @@
     <link href="https://www.mongodb.com/careers/job/?gh_jid=8209134"/>
     <updated>2026-10-23T17:13:58Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Austin; New York City; Palo Alto; San Francisco; Seattle · Python, Java, C++, JavaScript, Node.js · H-1B track record: ~106 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Software · Austin; New York City; San Francisco · Python, Java, C++, JavaScript, Node.js · H-1B track record: ~106 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:olsson:5462183008</id>
@@ -790,21 +806,5 @@
     <updated>2026-10-20T17:05:59Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Orlando, Florida, United States · sponsorship: no-sponsorship · H-1B track record: ~90 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:palantir:da774f81-c98c-4dcf-9b9c-949fd7d90a13</id>
-    <title>Palantir: Software Engineer, Internship - Query Engines</title>
-    <link href="https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13"/>
-    <updated>2026-10-20T01:29:11Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York, NY · Python, Java, C++, Rust, Scala · H-1B track record: ~88 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:cognex:/job/Wauwatosa-Wisconsin/Software-Engineering-Intern_R0012549</id>
-    <title>Cognex: Software Engineering Intern</title>
-    <link href="https://cognex.wd1.myworkdayjobs.com/External_Career_Site/job/Wauwatosa-Wisconsin/Software-Engineering-Intern_R0012549"/>
-    <updated>2026-10-20T01:29:11Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Wauwatosa, Wisconsin · H-1B track record: ~32 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

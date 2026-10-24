@@ -1,7 +1,13 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:asml:/job/San-Jose-CA-USA/Platform-Software-Engineer-In-Test---Internship-_J-00354558"
+    ],
+    "telegram": [
+      "workday:asml:/job/San-Jose-CA-USA/Platform-Software-Engineer-In-Test---Internship-_J-00354558"
+    ],
+    "personal_email": [
+      "workday:asml:/job/San-Jose-CA-USA/Platform-Software-Engineer-In-Test---Internship-_J-00354558"
+    ]
   }
 }
