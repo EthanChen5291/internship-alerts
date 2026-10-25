@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workable:connectprep:1AF4F8C65F"
-    ],
-    "telegram": [
-      "workable:connectprep:1AF4F8C65F"
-    ],
-    "personal_email": [
-      "workable:connectprep:1AF4F8C65F"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
