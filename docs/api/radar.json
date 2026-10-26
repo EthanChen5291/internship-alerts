@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-26T11:13:14Z",
- "data_as_of": "2026-10-26T11:13:14Z",
- "rendered_at": "2026-10-26T11:13:15Z",
+ "generated_at": "2026-10-26T17:35:11Z",
+ "data_as_of": "2026-10-26T17:35:11Z",
+ "rendered_at": "2026-10-26T17:35:11Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2742,6 +2742,25 @@
    }
   },
   {
+   "company": "Farmersmutualhailinsurancecompany",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": -45,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/farmersmutualhailinsurancecompany/jobs/4403596009",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
+  },
+  {
    "company": "Klaviyo",
    "last_cycle_posted": "",
    "posted_on": "2026-09-11",
@@ -2961,7 +2980,7 @@
    "expected": "2026-09-14",
    "days_until": -42,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/singlestore/jobs/8205514",
+   "url": "https://job-boards.greenhouse.io/singlestore/jobs/8154399",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3208,7 +3227,7 @@
    "expected": "2026-09-16",
    "days_until": -40,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/nanopathinc/jobs/4732881005",
+   "url": "https://nanopath.com/careers?gh_jid=4732881005",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3379,7 +3398,7 @@
    "expected": "2026-09-18",
    "days_until": -38,
    "status": "open",
-   "url": "https://thrivent.wd5.myworkdayjobs.com/external/job/Remote-Minnesota/Associate-Software-Engineer---Junior-Intern-Summer-2027_REQ-48334",
+   "url": "https://thrivent.wd5.myworkdayjobs.com/privateexternal/job/Remote-Minnesota/Associate-Software-Engineer---Junior-Intern-Summer-2027_REQ-48334-2",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4848,6 +4867,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-23"
+   }
+  },
+  {
+   "company": "Hive Financial Systems",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-26",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-26",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/hivefinancialsystems/jobs/5274887007",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-26"
    }
   },
   {
@@ -8496,5 +8534,5 @@
    }
   }
  ],
- "count": 447
+ "count": 449
 }

@@ -1,7 +1,46 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:skydio:ec82eb16-a5b4-46e7-827a-326b33d7d2cb",
+      "oracle:cva.fa.us1.oraclecloud.com:10369",
+      "workday:analogdevices:/job/US-MA-Boston/Embedded-Systems-Co-Op_R267689",
+      "workday:analogdevices:/job/US-MA-Boston/DevOps-Co-Op_R267690",
+      "workday:axos:/job/Omaha-NE/Data-Intern_JR5642",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Software-Developer-Intern---Lexington--MA_R0252274",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Cyber-Security-Intern---Lexington--MA_R0252278",
+      "greenhouse:farmersmutualhailinsurancecompany:4403596009",
+      "workday:gdit:/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643",
+      "greenhouse:hivefinancialsystems:5274887007",
+      "workday:prologis:/job/Denver-Colorado/AI-and-Automation--IT--Intern_R6883",
+      "workday:valmont:/job/Valley-NE/Operations-Data-Analyst-Intern_R29224"
+    ],
+    "telegram": [
+      "ashby:skydio:ec82eb16-a5b4-46e7-827a-326b33d7d2cb",
+      "oracle:cva.fa.us1.oraclecloud.com:10369",
+      "workday:analogdevices:/job/US-MA-Boston/Embedded-Systems-Co-Op_R267689",
+      "workday:analogdevices:/job/US-MA-Boston/DevOps-Co-Op_R267690",
+      "workday:axos:/job/Omaha-NE/Data-Intern_JR5642",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Software-Developer-Intern---Lexington--MA_R0252274",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Cyber-Security-Intern---Lexington--MA_R0252278",
+      "greenhouse:farmersmutualhailinsurancecompany:4403596009",
+      "workday:gdit:/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643",
+      "greenhouse:hivefinancialsystems:5274887007",
+      "workday:prologis:/job/Denver-Colorado/AI-and-Automation--IT--Intern_R6883",
+      "workday:valmont:/job/Valley-NE/Operations-Data-Analyst-Intern_R29224"
+    ],
+    "personal_email": [
+      "ashby:skydio:ec82eb16-a5b4-46e7-827a-326b33d7d2cb",
+      "oracle:cva.fa.us1.oraclecloud.com:10369",
+      "workday:analogdevices:/job/US-MA-Boston/Embedded-Systems-Co-Op_R267689",
+      "workday:analogdevices:/job/US-MA-Boston/DevOps-Co-Op_R267690",
+      "workday:axos:/job/Omaha-NE/Data-Intern_JR5642",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Software-Developer-Intern---Lexington--MA_R0252274",
+      "workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Cyber-Security-Intern---Lexington--MA_R0252278",
+      "greenhouse:farmersmutualhailinsurancecompany:4403596009",
+      "workday:gdit:/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643",
+      "greenhouse:hivefinancialsystems:5274887007",
+      "workday:prologis:/job/Denver-Colorado/AI-and-Automation--IT--Intern_R6883",
+      "workday:valmont:/job/Valley-NE/Operations-Data-Analyst-Intern_R29224"
+    ]
   }
 }
