@@ -1,7 +1,13 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:ptc:/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943"
+    ],
+    "telegram": [
+      "workday:ptc:/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943"
+    ],
+    "personal_email": [
+      "workday:ptc:/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943"
+    ]
   }
 }

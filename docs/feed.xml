@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-26T04:58:53Z</updated>
+  <updated>2026-10-26T11:13:14Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:ptc:/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943</id>
+    <title>PTC: Software Engineer Intern (Summer 2027)</title>
+    <link href="https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943"/>
+    <updated>2026-10-26T11:13:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Boston, MA, USA · Java, C++, TypeScript, JavaScript · H-1B track record: ~80 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:hpe:/job/San-Jose-California/AI-ML-Developer-Intern_1217413</id>
     <title>Hewlett Packard Enterprise: AI/ML Developer Intern</title>
@@ -798,13 +806,5 @@
     <updated>2026-10-20T17:05:59Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · United States, Burbank, CA · C++</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:oracle:edbz.fa.us2.oraclecloud.com:25019103</id>
-    <title>Texas Instruments: Software Engineering Intern - Compiler 🛂</title>
-    <link href="https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25019103"/>
-    <updated>2026-10-20T17:05:59Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · United States; Sugar Land, TX, United States · Python, C++ · sponsorship: no-sponsorship · H-1B track record: ~234 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

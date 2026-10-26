@@ -3974,6 +3974,18 @@
     }
    }
   },
+  "ptc": {
+   "name": "PTC",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-26",
+     "role_ids": [
+      "workday:ptc:/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943"
+     ],
+     "count": 1
+    }
+   }
+  },
   "pure storage": {
    "name": "Pure Storage",
    "cycles": {
@@ -5713,5 +5725,5 @@
    }
   }
  },
- "updated_at": "2026-10-26T04:58:53Z"
+ "updated_at": "2026-10-26T11:13:14Z"
 }

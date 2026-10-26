@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-26T04:58:53Z",
- "data_as_of": "2026-10-26T04:58:53Z",
- "rendered_at": "2026-10-26T04:58:53Z",
+ "generated_at": "2026-10-26T11:13:14Z",
+ "data_as_of": "2026-10-26T11:13:14Z",
+ "rendered_at": "2026-10-26T11:13:15Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -4851,6 +4851,25 @@
    }
   },
   {
+   "company": "PTC",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-26",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-26",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-26"
+   }
+  },
+  {
    "company": "APEX Analytix",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -8477,5 +8496,5 @@
    }
   }
  ],
- "count": 446
+ "count": 447
 }
