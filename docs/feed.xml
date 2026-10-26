@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-26T00:25:35Z</updated>
+  <updated>2026-10-26T04:58:53Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:hpe:/job/San-Jose-California/AI-ML-Developer-Intern_1217413</id>
+    <title>Hewlett Packard Enterprise: AI/ML Developer Intern</title>
+    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California/AI-ML-Developer-Intern_1217413"/>
+    <updated>2026-10-26T04:58:52Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · San Jose, California · Python, scikit-learn, LLMs, HTML/CSS, Spark · H-1B track record: ~499 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workable:connectprep:1AF4F8C65F</id>
     <title>ConnectPrep: Data Analyst Internship 🇺🇸</title>
@@ -798,13 +806,5 @@
     <updated>2026-10-20T17:05:59Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · United States; Sugar Land, TX, United States · Python, C++ · sponsorship: no-sponsorship · H-1B track record: ~234 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:alliance:/job/Farmington-Hills-Michigan---United-States-of-America/AI-Agent-Architect---Summer-2027---Farmington-Hills--MI_R00214218</id>
-    <title>Nissan: AI Agent Architect Intern - Summer 2027 - Farmington Hills, MI 🛂</title>
-    <link href="https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Farmington-Hills-Michigan---United-States-of-America/AI-Agent-Architect---Summer-2027---Farmington-Hills--MI_R00214218"/>
-    <updated>2026-10-20T17:05:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Farmington Hills, Michigan - United States of America · Python, SQL, LLMs, AWS, Snowflake · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>
