@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-26T17:35:11Z",
- "data_as_of": "2026-10-26T17:35:11Z",
- "rendered_at": "2026-10-26T17:35:11Z",
+ "generated_at": "2026-10-26T22:05:03Z",
+ "data_as_of": "2026-10-26T22:05:03Z",
+ "rendered_at": "2026-10-26T22:05:04Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1061,7 +1061,7 @@
    "expected": "2026-08-20",
    "days_until": -67,
    "status": "open",
-   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015679246",
+   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015679346",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -1974,25 +1974,6 @@
    "days_until": -53,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7980429003",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-03"
-   }
-  },
-  {
-   "company": "Neighbor",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-03",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-03",
-   "days_until": -53,
-   "status": "open",
-   "url": "https://jobs.lever.co/neighbor/7d66629f-3f4b-41ee-a324-fe0154e13c46",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4414,25 +4395,6 @@
    }
   },
   {
-   "company": "LSEG",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-14",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-14",
-   "days_until": -12,
-   "status": "open",
-   "url": "https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/New-York-City-United-States/Intern---Software-Engineer_R0124266-1",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-14"
-   }
-  },
-  {
    "company": "Inversion Space",
    "last_cycle_posted": "",
    "posted_on": "2026-10-15",
@@ -4468,25 +4430,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-15"
-   }
-  },
-  {
-   "company": "Pattern",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-16",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-16",
-   "days_until": -10,
-   "status": "open",
-   "url": "https://jobs.lever.co/pattern/48945dce-b5ef-43cd-9d85-f8b26ce5b43e",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-16"
    }
   },
   {
@@ -4699,25 +4642,6 @@
    }
   },
   {
-   "company": "Sierra Space",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-21",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-21",
-   "days_until": -5,
-   "status": "open",
-   "url": "https://sierraspace.wd1.myworkdayjobs.com/Sierra_Space_External_Career_Site/job/Louisville-CO/Summer-2027-Flight-Software-Engineer-Intern_R26456",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-21"
-   }
-  },
-  {
    "company": "Smith+Nephew",
    "last_cycle_posted": "",
    "posted_on": "2026-10-21",
@@ -4767,25 +4691,6 @@
    "days_until": -4,
    "status": "open",
    "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---New-York/Innovation---Technology-Internship--Software-Engineering--Data---Intelligence-Summer-2027-Graduate_R1081128",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-22"
-   }
-  },
-  {
-   "company": "STR",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-22",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-22",
-   "days_until": -4,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4723980006",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4867,6 +4772,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-23"
+   }
+  },
+  {
+   "company": "Cohesity",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-26",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-26",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Software-Engineering-Intern--Summer-2027-_R04791-2",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-26"
    }
   },
   {
@@ -7641,6 +7565,25 @@
    }
   },
   {
+   "company": "Neighbor",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-03",
+   "days_until": -53,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-03"
+   }
+  },
+  {
    "company": "Saab",
    "last_cycle_posted": "",
    "posted_on": "2026-09-03",
@@ -8477,6 +8420,44 @@
    }
   },
   {
+   "company": "LSEG",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-14",
+   "days_until": -12,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-14"
+   }
+  },
+  {
+   "company": "Pattern",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-16",
+   "days_until": -10,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-16"
+   }
+  },
+  {
    "company": "Berkshire Hathaway Energy",
    "last_cycle_posted": "",
    "posted_on": "2026-10-20",
@@ -8515,7 +8496,45 @@
    }
   },
   {
+   "company": "Sierra Space",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-21",
+   "days_until": -5,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-21"
+   }
+  },
+  {
    "company": "M&T Bank",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-22",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-22",
+   "days_until": -4,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-22"
+   }
+  },
+  {
+   "company": "STR",
    "last_cycle_posted": "",
    "posted_on": "2026-10-22",
    "precision": "day",
@@ -8534,5 +8553,5 @@
    }
   }
  ],
- "count": 449
+ "count": 450
 }
