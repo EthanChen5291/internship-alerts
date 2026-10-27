@@ -1,7 +1,31 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "oracle:hdjq.fa.us2.oraclecloud.com:26010630",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008448",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852",
+      "workday:gaig:/job/Cincinnati-OH-USA/Platform-Operations-Developer-Intern---Summer-2027_R9800",
+      "workday:gaig:/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803",
+      "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00195607",
+      "workday:ngc:/job/United-States-California-Azusa/XMLNAME-2027-Software-Engineer-Intern---Azusa-CA_R10257903"
+    ],
+    "telegram": [
+      "oracle:hdjq.fa.us2.oraclecloud.com:26010630",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008448",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852",
+      "workday:gaig:/job/Cincinnati-OH-USA/Platform-Operations-Developer-Intern---Summer-2027_R9800",
+      "workday:gaig:/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803",
+      "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00195607",
+      "workday:ngc:/job/United-States-California-Azusa/XMLNAME-2027-Software-Engineer-Intern---Azusa-CA_R10257903"
+    ],
+    "personal_email": [
+      "oracle:hdjq.fa.us2.oraclecloud.com:26010630",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008448",
+      "workday:asml:/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852",
+      "workday:gaig:/job/Cincinnati-OH-USA/Platform-Operations-Developer-Intern---Summer-2027_R9800",
+      "workday:gaig:/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803",
+      "workday:leidos:/job/Pearl-Harbor-HI/Cybersecurity-Analyst-Intern_R-00195607",
+      "workday:ngc:/job/United-States-California-Azusa/XMLNAME-2027-Software-Engineer-Intern---Azusa-CA_R10257903"
+    ]
   }
 }
