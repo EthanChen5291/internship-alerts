@@ -1,7 +1,58 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "amazon:amazon:10590290",
+      "oracle:edxn.fa.us2.oraclecloud.com:26173",
+      "lever:cfsenergy:912d6878-25dd-4bdc-8df8-8f7002999619",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008446",
+      "greenhouse:cssmerge:8919606002",
+      "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618",
+      "workday:centene:/job/Remote-MO/Applications-Security-Engineer-Intern--Undergraduate-Summer-2027-_1667746",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Data-Engineer-Intern_JR105120",
+      "greenhouse:lilasciences:4465061009",
+      "workday:micron:/job/Boise-ID---Main-Site/Intern----AI-Engineer-Platform_JR115934",
+      "workday:micron:/job/Boise-ID---Main-Site/Intern---Product-Yield-Software-Engineer_JR115864",
+      "workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10257803",
+      "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Software-Engineering-Intern---Boulder-CO_R10257798",
+      "workday:snc:/job/Sparks-NV/Cybersecurity-Analyst-Intern_R0031269",
+      "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2871",
+      "workday:workiva:/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1"
+    ],
+    "telegram": [
+      "amazon:amazon:10590290",
+      "oracle:edxn.fa.us2.oraclecloud.com:26173",
+      "lever:cfsenergy:912d6878-25dd-4bdc-8df8-8f7002999619",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008446",
+      "greenhouse:cssmerge:8919606002",
+      "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618",
+      "workday:centene:/job/Remote-MO/Applications-Security-Engineer-Intern--Undergraduate-Summer-2027-_1667746",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Data-Engineer-Intern_JR105120",
+      "greenhouse:lilasciences:4465061009",
+      "workday:micron:/job/Boise-ID---Main-Site/Intern----AI-Engineer-Platform_JR115934",
+      "workday:micron:/job/Boise-ID---Main-Site/Intern---Product-Yield-Software-Engineer_JR115864",
+      "workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10257803",
+      "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Software-Engineering-Intern---Boulder-CO_R10257798",
+      "workday:snc:/job/Sparks-NV/Cybersecurity-Analyst-Intern_R0031269",
+      "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2871",
+      "workday:workiva:/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1"
+    ],
+    "personal_email": [
+      "amazon:amazon:10590290",
+      "oracle:edxn.fa.us2.oraclecloud.com:26173",
+      "lever:cfsenergy:912d6878-25dd-4bdc-8df8-8f7002999619",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008446",
+      "greenhouse:cssmerge:8919606002",
+      "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618",
+      "workday:centene:/job/Remote-MO/Applications-Security-Engineer-Intern--Undergraduate-Summer-2027-_1667746",
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Data-Engineer-Intern_JR105120",
+      "greenhouse:lilasciences:4465061009",
+      "workday:micron:/job/Boise-ID---Main-Site/Intern----AI-Engineer-Platform_JR115934",
+      "workday:micron:/job/Boise-ID---Main-Site/Intern---Product-Yield-Software-Engineer_JR115864",
+      "workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10257803",
+      "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Software-Engineering-Intern---Boulder-CO_R10257798",
+      "workday:snc:/job/Sparks-NV/Cybersecurity-Analyst-Intern_R0031269",
+      "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2871",
+      "workday:workiva:/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1"
+    ]
   }
 }

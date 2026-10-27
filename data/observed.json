@@ -295,7 +295,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 15,
+     "count": 16,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -311,7 +311,8 @@
       "amazon:amazon:10567914",
       "amazon:amazon:10571004",
       "amazon:amazon:10571374",
-      "amazon:amazon:10587999"
+      "amazon:amazon:10587999",
+      "amazon:amazon:10590290"
      ]
     }
    }
@@ -1053,13 +1054,14 @@
       "workday:caci:/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041",
       "workday:caci:/job/Sarasota-FL-US/AWS-Cloud-Engineering-Intern---Summer-2027_331437",
       "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_331359",
+      "workday:caci:/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618",
       "workday:caci:/job/Springfield-VA-US/Cyber-Security-Intern---Summer-2027_333046",
       "workday:caci:/job/Sterling-VA-US/DevOps-Software-Engineering-Intern---Summer-2027_331466",
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332372",
       "workday:caci:/job/Sterling-VA-US/Software-Engineering-Intern---Summer-2027_332386",
       "workday:caci:/job/Ypsilanti-MI-US/Software-Engineer-Intern---Summer-2027_331648"
      ],
-     "count": 25
+     "count": 26
     }
    }
   },
@@ -1145,9 +1147,10 @@
      "first_posted": "2026-09-18",
      "role_ids": [
       "workday:centene:/job/Remote-MO/AI-Software-Developer-Intern--Undergraduate---Summer-2027-_1667710",
+      "workday:centene:/job/Remote-MO/Applications-Security-Engineer-Intern--Undergraduate-Summer-2027-_1667746",
       "workday:centene:/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -1366,6 +1369,18 @@
      "first_posted": "2026-09-21",
      "role_ids": [
       "workday:commercebank:/job/MO---Kansas-City-DowntownPlaza---Kansas-City---KC-Downtown-Trust-Building-922-Walnut-64106/Intern-EABI---Data-Analyst-Summer-2027_38484"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "commonwealth fusion systems": {
+   "name": "Commonwealth Fusion Systems",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-27",
+     "role_ids": [
+      "lever:cfsenergy:912d6878-25dd-4bdc-8df8-8f7002999619"
      ],
      "count": 1
     }
@@ -2848,6 +2863,18 @@
     }
    }
   },
+  "jm family": {
+   "name": "JM Family",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-27",
+     "role_ids": [
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Data-Engineer-Intern_JR105120"
+     ],
+     "count": 1
+    }
+   }
+  },
   "johnson johnson": {
    "name": "Johnson & Johnson",
    "cycles": {
@@ -3583,7 +3610,7 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-08",
-     "count": 42,
+     "count": 44,
      "role_ids": [
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Engineering-Intern--Huntsville-AL_R10247486",
       "workday:ngc:/job/United-States-Alabama-Huntsville/XMLNAME-2027-Software-Test-Engineering-Intern--Huntsville-AL_R10247483",
@@ -3597,8 +3624,10 @@
       "workday:ngc:/job/United-States-Colorado-Aurora/XMLNAME-2027-Software-Engineering-Intern---Aurora-CO_R10256393",
       "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Cybersecurity-Analyst-Intern----Boulder-CO_R10248677",
       "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Software-Engineering-Intern---Boulder-CO_R10256077",
+      "workday:ngc:/job/United-States-Colorado-Boulder/XMLNAME-2027-Software-Engineering-Intern---Boulder-CO_R10257798",
       "workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10256080",
       "workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10256259",
+      "workday:ngc:/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10257803",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern---Systems-Security-Cybersecurity-Engineer_R10252418",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10239275",
       "workday:ngc:/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10242395",
@@ -4837,6 +4866,18 @@
     }
    }
   },
+  "sonos": {
+   "name": "Sonos",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-27",
+     "role_ids": [
+      "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2871"
+     ],
+     "count": 1
+    }
+   }
+  },
   "sony pictures entertainment": {
    "name": "Sony Pictures Entertainment",
    "cycles": {
@@ -4883,9 +4924,10 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1008089",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008180",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008210",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008240"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008240",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008446"
      ],
-     "count": 17
+     "count": 18
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -5803,5 +5845,5 @@
    }
   }
  },
- "updated_at": "2026-10-27T13:27:01Z"
+ "updated_at": "2026-10-27T19:13:15Z"
 }
