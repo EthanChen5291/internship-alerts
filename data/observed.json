@@ -635,6 +635,21 @@
     }
    }
   },
+  "aurora innovation": {
+   "name": "Aurora Innovation",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-24",
+     "role_ids": [
+      "ashby:aurora-operations-inc:a90b7522-4e66-4247-b9ec-7e2bb50b78f4",
+      "ashby:aurora-operations-inc:bc852c2c-945f-4a1e-b383-54a0f6e0ace9",
+      "ashby:aurora-operations-inc:c823b343-ba1f-4ff3-84ce-965ee9952c12",
+      "ashby:aurora-operations-inc:da4c8e2e-0571-4503-94d9-234da86f83b0"
+     ],
+     "count": 4
+    }
+   }
+  },
   "auto owners insurance": {
    "name": "Auto-Owners Insurance",
    "cycles": {
@@ -2450,6 +2465,7 @@
     "Summer 2027": {
      "first_posted": "2026-10-06",
      "role_ids": [
+      "workday:highmarkhealth:/job/Camp-Hill-PA-17011-Center-Street-Building-1B/Summer-2027-Cyber-Risk-Management-Analyst-Undergraduate-Intern_J286841",
       "workday:highmarkhealth:/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Software-Engineer-enGen-Undergraduate-Intern_J289812",
       "workday:highmarkhealth:/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Software-Engineer-enGen-Undergraduate-Intern_J290027",
       "workday:highmarkhealth:/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Artificial-Intelligence--Operations--Undergraduate-Intern_J287476",
@@ -2458,7 +2474,7 @@
       "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Enterprise-Architecture-Software-Engineer---Architect-enGen-Undergradute-Intern_J289821",
       "workday:highmarkhealth:/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Epic-Systems-Analyst---Epic-AI-enGen-Undergraduate-Internship_J289801"
      ],
-     "count": 7
+     "count": 8
     }
    }
   },
@@ -3537,9 +3553,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-06",
      "role_ids": [
-      "ashby:niantic-spatial:898b2da7-03cd-486e-96e3-3430a148c8fd"
+      "ashby:niantic-spatial:898b2da7-03cd-486e-96e3-3430a148c8fd",
+      "ashby:niantic-spatial:ed68b062-4dcb-4deb-9cc0-ed38030f6e43"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -5777,5 +5794,5 @@
    }
   }
  },
- "updated_at": "2026-10-26T22:05:03Z"
+ "updated_at": "2026-10-27T01:41:09Z"
 }
