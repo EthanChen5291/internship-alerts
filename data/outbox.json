@@ -1,34 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "ashby:aurora-operations-inc:bc852c2c-945f-4a1e-b383-54a0f6e0ace9",
-      "ashby:aurora-operations-inc:a90b7522-4e66-4247-b9ec-7e2bb50b78f4",
-      "ashby:aurora-operations-inc:475a24d7-a058-4f86-be8f-fd6be679af9c",
-      "ashby:aurora-operations-inc:c823b343-ba1f-4ff3-84ce-965ee9952c12",
-      "ashby:aurora-operations-inc:da4c8e2e-0571-4503-94d9-234da86f83b0",
-      "ashby:niantic-spatial:ed68b062-4dcb-4deb-9cc0-ed38030f6e43",
-      "workday:generac:/job/Waukesha-WI---USA/Intern-AI-Engineering_JR17736",
-      "workday:highmarkhealth:/job/Camp-Hill-PA-17011-Center-Street-Building-1B/Summer-2027-Cyber-Risk-Management-Analyst-Undergraduate-Intern_J286841"
-    ],
-    "telegram": [
-      "ashby:aurora-operations-inc:bc852c2c-945f-4a1e-b383-54a0f6e0ace9",
-      "ashby:aurora-operations-inc:a90b7522-4e66-4247-b9ec-7e2bb50b78f4",
-      "ashby:aurora-operations-inc:475a24d7-a058-4f86-be8f-fd6be679af9c",
-      "ashby:aurora-operations-inc:c823b343-ba1f-4ff3-84ce-965ee9952c12",
-      "ashby:aurora-operations-inc:da4c8e2e-0571-4503-94d9-234da86f83b0",
-      "ashby:niantic-spatial:ed68b062-4dcb-4deb-9cc0-ed38030f6e43",
-      "workday:generac:/job/Waukesha-WI---USA/Intern-AI-Engineering_JR17736",
-      "workday:highmarkhealth:/job/Camp-Hill-PA-17011-Center-Street-Building-1B/Summer-2027-Cyber-Risk-Management-Analyst-Undergraduate-Intern_J286841"
-    ],
-    "personal_email": [
-      "ashby:aurora-operations-inc:bc852c2c-945f-4a1e-b383-54a0f6e0ace9",
-      "ashby:aurora-operations-inc:a90b7522-4e66-4247-b9ec-7e2bb50b78f4",
-      "ashby:aurora-operations-inc:475a24d7-a058-4f86-be8f-fd6be679af9c",
-      "ashby:aurora-operations-inc:c823b343-ba1f-4ff3-84ce-965ee9952c12",
-      "ashby:aurora-operations-inc:da4c8e2e-0571-4503-94d9-234da86f83b0",
-      "ashby:niantic-spatial:ed68b062-4dcb-4deb-9cc0-ed38030f6e43",
-      "workday:generac:/job/Waukesha-WI---USA/Intern-AI-Engineering_JR17736",
-      "workday:highmarkhealth:/job/Camp-Hill-PA-17011-Center-Street-Building-1B/Summer-2027-Cyber-Risk-Management-Analyst-Undergraduate-Intern_J286841"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
