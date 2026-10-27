@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-27T01:41:09Z",
- "data_as_of": "2026-10-27T01:41:09Z",
- "rendered_at": "2026-10-27T01:41:10Z",
+ "generated_at": "2026-10-27T07:01:31Z",
+ "data_as_of": "2026-10-27T07:01:31Z",
+ "rendered_at": "2026-10-27T07:01:31Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3531,7 +3531,7 @@
    "expected": "2026-09-24",
    "days_until": -33,
    "status": "open",
-   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/bc852c2c-945f-4a1e-b383-54a0f6e0ace9",
+   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/a90b7522-4e66-4247-b9ec-7e2bb50b78f4",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4025,7 +4025,7 @@
    "expected": "2026-10-06",
    "days_until": -21,
    "status": "open",
-   "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Software-Engineer-enGen-Undergraduate-Intern_J289812",
+   "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Camp-Hill-PA-17011-Center-Street-Building-1B/Summer-2027-Cyber-Risk-Management-Analyst-Undergraduate-Intern_J286841",
    "note": "",
    "provenance": {
     "type": "engine-observed",
