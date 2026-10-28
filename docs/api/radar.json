@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-28T08:40:47Z",
- "data_as_of": "2026-10-28T08:40:47Z",
- "rendered_at": "2026-10-28T08:40:48Z",
+ "generated_at": "2026-10-28T15:43:42Z",
+ "data_as_of": "2026-10-28T15:43:42Z",
+ "rendered_at": "2026-10-28T15:43:43Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -4557,7 +4557,7 @@
    "expected": "2026-10-20",
    "days_until": -8,
    "status": "open",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111",
    "note": "Futureforce, opens late summer",
    "provenance": {
     "type": "engine-observed",
@@ -4886,6 +4886,44 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-27"
+   }
+  },
+  {
+   "company": "Ace Hardware",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-28",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-28",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://acehardware.wd1.myworkdayjobs.com/External/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-28"
+   }
+  },
+  {
+   "company": "Infleqtion",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-28",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-28",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://apply.workable.com/coldquanta/j/EB77DE8198/",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-28"
    }
   },
   {
@@ -8667,5 +8705,5 @@
    }
   }
  ],
- "count": 456
+ "count": 458
 }

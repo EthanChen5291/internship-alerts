@@ -5,8 +5,72 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-28T08:40:47Z</updated>
+  <updated>2026-10-28T15:43:42Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workable:coldquanta:EB77DE8198</id>
+    <title>Infleqtion: Summer 2027 Internship - Quantum Software (QSW)</title>
+    <link href="https://apply.workable.com/coldquanta/j/EB77DE8198/"/>
+    <updated>2026-10-28T15:43:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Chicago, Illinois, United States · Python, C++, React, HTML/CSS, AWS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:acehardware:/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797</id>
+    <title>Ace Hardware: IT Associate Software Engineer 2027 Summer Internship (Full Time/Paid/12 weeks)</title>
+    <link href="https://acehardware.wd1.myworkdayjobs.com/External/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797"/>
+    <updated>2026-10-28T15:43:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · IL - Oak Brook · $22/hr · Python, C#, JavaScript, SQL, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:allegion:/job/Golden-CO/Summer-Intern---Software-Systems-Engineering_JR37395-1</id>
+    <title>Allegion: Summer Intern - Software Systems Engineering</title>
+    <link href="https://allegion.wd5.myworkdayjobs.com/careers/job/Golden-CO/Summer-Intern---Software-Systems-Engineering_JR37395-1"/>
+    <updated>2026-10-28T15:43:42Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Golden, CO · $25–$26/hr · AWS, Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Intuitive:744000158312151</id>
+    <title>Intuitive Surgical: AI Research Intern</title>
+    <link href="https://jobs.smartrecruiters.com/Intuitive/744000158312151"/>
+    <updated>2026-10-28T15:43:42Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Sunnyvale, CA, United States · Python, PyTorch, LLMs, Computer Vision, ROS · H-1B track record: ~14 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:leidos:/job/Fort-Belvoir-VA/Data-Engineer-Intern_R-00195576</id>
+    <title>Leidos: Data Engineer Intern 🇺🇸</title>
+    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Fort-Belvoir-VA/Data-Engineer-Intern_R-00195576"/>
+    <updated>2026-10-28T15:43:42Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Fort Belvoir, VA · LLMs · sponsorship: citizens-only · H-1B track record: ~79 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:leidos:/job/Denver-CO/Energy---Infrastructure-Consulting-Summer-Intern_R-00195653-1</id>
+    <title>Leidos: Energy &amp; Infrastructure Consulting Summer Intern</title>
+    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Denver-CO/Energy---Infrastructure-Consulting-Summer-Intern_R-00195653-1"/>
+    <updated>2026-10-28T15:43:42Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Denver, CO · H-1B track record: ~79 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:leidos:/job/Framingham-MA/Energy---Infrastructure-Consulting-Summer-Intern_R-00195678</id>
+    <title>Leidos: Energy &amp; Infrastructure Consulting Summer Intern</title>
+    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Framingham-MA/Energy---Infrastructure-Consulting-Summer-Intern_R-00195678"/>
+    <updated>2026-10-28T15:43:42Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Framingham, MA · H-1B track record: ~79 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:sonos:/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1</id>
+    <title>Sonos: Software Engineering Intern (Boston) 🛂</title>
+    <link href="https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1"/>
+    <updated>2026-10-28T15:43:42Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Boston, MA · Python, Java, C++, JavaScript, Swift · sponsorship: no-sponsorship · H-1B track record: ~54 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:dtna:/job/Portland-OR-US/Software-Release-Management-Intern_DT-20432</id>
     <title>Daimler Truck: Software Release Management Intern</title>
@@ -742,69 +806,5 @@
     <updated>2026-10-27T23:14:04Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-107 ~ 400 Collins Rd NE ~ BLDG 107 · Python, C++, Git · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:globalhr:/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Software-Engineering-Intern---Summer-2027-_01884375</id>
-    <title>RTX: Software Engineering Intern  (Summer 2027)</title>
-    <link href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Software-Engineering-Intern---Summer-2027-_01884375"/>
-    <updated>2026-10-27T23:14:04Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US-IA-CEDAR RAPIDS-193 ~ 1120 Collins Rd NE ~ BLDG193 · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878</id>
-    <title>KLA: Software Engineer Intern (C++, Linux) – Summer 2027</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878"/>
-    <updated>2026-10-23T17:13:58Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Milpitas, CA · $37–$49/hr · C++, Linux, Python, JavaScript · H-1B track record: ~369 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Software-Engineering-Intern---AI-ML-for-Diagnostics---Calibration_2642129-1</id>
-    <title>KLA: Software Engineering Intern – AI/ML for Diagnostics &amp; Calibration</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineering-Intern---AI-ML-for-Diagnostics---Calibration_2642129-1"/>
-    <updated>2026-10-23T17:13:58Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Milpitas, CA · $37–$58/hr · Python, PyTorch, TensorFlow, scikit-learn, LLMs · H-1B track record: ~369 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515</id>
-    <title>Merck: 2027 Future Talent Program - AI/ML Biomedical Imaging and Computational Pathology - Intern 🛂</title>
-    <link href="https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515"/>
-    <updated>2026-10-23T17:13:58Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · USA - Massachusetts - Cambridge (320 Bent Street) · Python, PyTorch, LLMs, Computer Vision · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:msd:/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences--Foundation-Models---Intern_R423438</id>
-    <title>Merck: 2027 Future Talent Program - Data, AI, and Genome Sciences, Foundation Models - Intern 🛂</title>
-    <link href="https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences--Foundation-Models---Intern_R423438"/>
-    <updated>2026-10-23T17:13:58Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · USA - Massachusetts - Cambridge (320 Bent Street) · Python, PyTorch, TensorFlow · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:avav:/job/Centreville-VA/Machine-Learning-Engineering-Intern_8941</id>
-    <title>Avav: Machine Learning Engineering Intern 🇺🇸</title>
-    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Centreville-VA/Machine-Learning-Engineering-Intern_8941"/>
-    <updated>2026-10-23T12:16:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Centreville, VA · Python, C++, MATLAB, TensorFlow, scikit-learn · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:avav:/job/Minneapolis-MN/Software-Engineering-Intern_8940</id>
-    <title>Avav: Software Engineering Intern 🇺🇸</title>
-    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Minneapolis-MN/Software-Engineering-Intern_8940"/>
-    <updated>2026-10-23T12:16:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Minneapolis, MN · Python, Java, C++, Bash, Linux · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:avav:/job/Moorpark-CA/Software-Engineering-Intern_9094</id>
-    <title>Avav: Software Engineering Intern</title>
-    <link href="https://avav.wd1.myworkdayjobs.com/avav/job/Moorpark-CA/Software-Engineering-Intern_9094"/>
-    <updated>2026-10-23T12:16:14Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Moorpark, CA · Python, Java, C++, Bash, Linux</summary>
   </entry>
 </feed>
