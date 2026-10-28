@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-28T15:43:42Z",
- "data_as_of": "2026-10-28T15:43:42Z",
- "rendered_at": "2026-10-28T15:43:43Z",
+ "generated_at": "2026-10-28T20:50:29Z",
+ "data_as_of": "2026-10-28T20:50:29Z",
+ "rendered_at": "2026-10-28T20:50:30Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -339,7 +339,7 @@
    "expected": "2026-07-13",
    "days_until": -107,
    "status": "open",
-   "url": "https://www.akunacapital.com/careers/job/8018847/?gh_jid=8018847",
+   "url": "https://www.akunacapital.com/careers/job/8018856/?gh_jid=8018856",
    "note": "opens ~Aug-Sep",
    "provenance": {
     "type": "engine-observed",
@@ -383,6 +383,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-07-14"
+   }
+  },
+  {
+   "company": "Old Mission",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-15",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-15",
+   "days_until": -105,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/old-mission-capital/d003aaa4-a1e9-46b5-b271-eaccc15db9d6",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-15"
    }
   },
   {
@@ -966,7 +985,7 @@
    "expected": "2026-08-17",
    "days_until": -72,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/xantium/jobs/4360768009",
+   "url": "https://job-boards.greenhouse.io/xantium/jobs/4371217009",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2153,6 +2172,25 @@
    }
   },
   {
+   "company": "Schonfeld",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-04",
+   "days_until": -54,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171694",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-04"
+   }
+  },
+  {
    "company": "ICF",
    "last_cycle_posted": "",
    "posted_on": "2026-09-07",
@@ -2210,25 +2248,6 @@
    }
   },
   {
-   "company": "C.H. Robinson",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -50,
-   "status": "open",
-   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
    "company": "Coinbase",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -2260,6 +2279,25 @@
    "status": "open",
    "url": "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118",
    "note": "posts roles across the year",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
+   "company": "FUTO",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -50,
+   "status": "open",
+   "url": "https://jobs.lever.co/futo-org/7dd9877a-9009-408d-aa50-623cd5153f70",
+   "note": "",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -3521,6 +3559,25 @@
    }
   },
   {
+   "company": "Genesis Molecular AI",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-24",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-24",
+   "days_until": -34,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/genesis-molecular-ai/44e3cbdc-949c-426e-a80a-b41c73ad6a99",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-24"
+   }
+  },
+  {
    "company": "American Family Insurance Group",
    "last_cycle_posted": "",
    "posted_on": "2026-09-25",
@@ -3988,25 +4045,6 @@
    "days_until": -22,
    "status": "open",
    "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/AI-Transformation-Intern_J2466044",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-06"
-   }
-  },
-  {
-   "company": "MEMX",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-06",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-06",
-   "days_until": -22,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/memx/jobs/5445236008",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4880,7 +4918,7 @@
    "expected": "2026-10-27",
    "days_until": -1,
    "status": "open",
-   "url": "https://sonos.wd1.myworkdayjobs.com/Sonos/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2871",
+   "url": "https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4900,6 +4938,25 @@
    "days_until": 0,
    "status": "open",
    "url": "https://acehardware.wd1.myworkdayjobs.com/External/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-28"
+   }
+  },
+  {
+   "company": "Clean Harbors",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-28",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-28",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://epyc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/167672",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -7774,25 +7831,6 @@
    }
   },
   {
-   "company": "Schonfeld",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-04",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-04",
-   "days_until": -54,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-04"
-   }
-  },
-  {
    "company": "Dropbox",
    "last_cycle_posted": "",
    "posted_on": "2026-09-07",
@@ -7828,6 +7866,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-07"
+   }
+  },
+  {
+   "company": "C.H. Robinson",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -50,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
    }
   },
   {
@@ -8344,25 +8401,6 @@
    }
   },
   {
-   "company": "Genesis Molecular AI",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-24",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-24",
-   "days_until": -34,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-24"
-   }
-  },
-  {
    "company": "RRS Group",
    "last_cycle_posted": "",
    "posted_on": "2026-09-25",
@@ -8531,6 +8569,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-04"
+   }
+  },
+  {
+   "company": "MEMX",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-06",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-06",
+   "days_until": -22,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-06"
    }
   },
   {
@@ -8705,5 +8762,5 @@
    }
   }
  ],
- "count": 458
+ "count": 461
 }
