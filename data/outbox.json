@@ -1,7 +1,13 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "greenhouse:samsungsemiconductor:8046795003"
+    ],
+    "telegram": [
+      "greenhouse:samsungsemiconductor:8046795003"
+    ],
+    "personal_email": [
+      "greenhouse:samsungsemiconductor:8046795003"
+    ]
   }
 }

@@ -5,15 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-27T23:14:04Z</updated>
+  <updated>2026-10-28T02:25:51Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Cloud-Engineering-Intern_UNI4799-1</id>
-    <title>Hewlett Packard (HP): Cloud Engineering Intern - HP IQ</title>
-    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Cloud-Engineering-Intern_UNI4799-1"/>
-    <updated>2026-10-27T23:14:04Z</updated>
-    <category term="Fall 2027"/>
-    <summary>Fall 2027 · Software · San Francisco, California, United States of America · $45–$51/hr · Spring · status: closed</summary>
+    <id>urn:intern-engine:greenhouse:samsungsemiconductor:8046795003</id>
+    <title>Samsung: Intern, Power-Thermal Simulation Software Engineer</title>
+    <link href="https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046795003"/>
+    <updated>2026-10-28T02:25:51Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · San Jose, California, United States · Python, C++, Bash, Verilog</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:hdhl.fa.us6.oraclecloud.com:1008448</id>
@@ -32,6 +32,14 @@
     <summary>Not stated · Software · San Jose, CA, USA · $18/hr · Python, TypeScript, JavaScript, React, Git</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:workday:gaig:/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803</id>
+    <title>Great American Insurance Company: Claims Lab Developer Intern – Summer 2027</title>
+    <link href="https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803"/>
+    <updated>2026-10-27T23:14:04Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Cincinnati, OH (USA) · Java, JavaScript · H-1B track record: ~35 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:workday:gaig:/job/Cincinnati-OH-USA/Platform-Operations-Developer-Intern---Summer-2027_R9800</id>
     <title>Great American Insurance Company: Platform Operations Developer Intern - Summer 2027</title>
     <link href="https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Platform-Operations-Developer-Intern---Summer-2027_R9800"/>
@@ -40,12 +48,12 @@
     <summary>Summer 2027 · Software · Cincinnati, OH (USA) · Kubernetes · H-1B track record: ~35 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:gaig:/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803</id>
-    <title>Great American Insurance Company: Claims Lab Developer Intern – Summer 2027</title>
-    <link href="https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803"/>
+    <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Cloud-Engineering-Intern_UNI4799-1</id>
+    <title>Hewlett Packard (HP): Cloud Engineering Intern - HP IQ</title>
+    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Cloud-Engineering-Intern_UNI4799-1"/>
     <updated>2026-10-27T23:14:04Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Cincinnati, OH (USA) · Java, JavaScript · H-1B track record: ~35 approvals (FY2022–2023)</summary>
+    <category term="Fall 2027"/>
+    <summary>Fall 2027 · Software · San Francisco, California, United States of America · $45–$51/hr · Spring · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-California-Azusa/XMLNAME-2027-Software-Engineer-Intern---Azusa-CA_R10257903</id>
@@ -798,13 +806,5 @@
     <updated>2026-10-23T12:16:14Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Telecommuter MA · SQL, Databricks, Snowflake, Tableau · H-1B track record: ~11 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:skydio:89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd</id>
-    <title>Skydio: Frontend Software Engineer Intern - Summer 2027</title>
-    <link href="https://jobs.ashbyhq.com/skydio/89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd"/>
-    <updated>2026-10-22T23:00:42Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Mateo, California, United States · $47/hr · TypeScript, React, GraphQL · H-1B track record: ~26 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
