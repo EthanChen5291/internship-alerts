@@ -1,37 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workable:coldquanta:EB77DE8198",
-      "workday:acehardware:/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797",
-      "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Systems-Engineering_JR37395-1",
-      "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Engineering---Quality-Assurance_JR37472-1",
-      "smartrecruiters:Intuitive:744000158312151",
-      "workday:leidos:/job/Fort-Belvoir-VA/Data-Engineer-Intern_R-00195576",
-      "workday:leidos:/job/Denver-CO/Energy---Infrastructure-Consulting-Summer-Intern_R-00195653-1",
-      "workday:leidos:/job/Framingham-MA/Energy---Infrastructure-Consulting-Summer-Intern_R-00195678",
-      "workday:sonos:/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1"
-    ],
-    "telegram": [
-      "workable:coldquanta:EB77DE8198",
-      "workday:acehardware:/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797",
-      "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Systems-Engineering_JR37395-1",
-      "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Engineering---Quality-Assurance_JR37472-1",
-      "smartrecruiters:Intuitive:744000158312151",
-      "workday:leidos:/job/Fort-Belvoir-VA/Data-Engineer-Intern_R-00195576",
-      "workday:leidos:/job/Denver-CO/Energy---Infrastructure-Consulting-Summer-Intern_R-00195653-1",
-      "workday:leidos:/job/Framingham-MA/Energy---Infrastructure-Consulting-Summer-Intern_R-00195678",
-      "workday:sonos:/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1"
-    ],
-    "personal_email": [
-      "workable:coldquanta:EB77DE8198",
-      "workday:acehardware:/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2027-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-34797",
-      "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Systems-Engineering_JR37395-1",
-      "workday:allegion:/job/Golden-CO/Summer-Intern---Software-Engineering---Quality-Assurance_JR37472-1",
-      "smartrecruiters:Intuitive:744000158312151",
-      "workday:leidos:/job/Fort-Belvoir-VA/Data-Engineer-Intern_R-00195576",
-      "workday:leidos:/job/Denver-CO/Energy---Infrastructure-Consulting-Summer-Intern_R-00195653-1",
-      "workday:leidos:/job/Framingham-MA/Energy---Infrastructure-Consulting-Summer-Intern_R-00195678",
-      "workday:sonos:/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
