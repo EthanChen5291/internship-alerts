@@ -5,15 +5,63 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-29T00:40:40Z</updated>
+  <updated>2026-10-29T06:40:20Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:asml:/job/San-Diego-CA-USA/Internship-Co-Op--Data-Engineer_J-00355626</id>
-    <title>ASML: Internship/Co-Op: Data Engineer</title>
-    <link href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship-Co-Op--Data-Engineer_J-00355626"/>
-    <updated>2026-10-29T00:40:40Z</updated>
+    <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Connectivity---HP-IQ_UNI4812-1</id>
+    <title>Hewlett Packard (HP): Software Engineering Intern, Connectivity - HP IQ</title>
+    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Connectivity---HP-IQ_UNI4812-1"/>
+    <updated>2026-10-29T06:40:20Z</updated>
+    <category term="Fall 2027"/>
+    <summary>Fall 2027 · Software · San Francisco, California, United States of America · $40–$50/hr · Python, C++ · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Software-Product-Security-Intern---HP-IQ_UNI4810-2</id>
+    <title>Hewlett Packard (HP): Software Product Security Intern - HP IQ</title>
+    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Product-Security-Intern---HP-IQ_UNI4810-2"/>
+    <updated>2026-10-29T06:40:20Z</updated>
+    <category term="Fall 2027"/>
+    <summary>Fall 2027 · Security · San Francisco, California, United States of America · $40–$50/hr · Python, Java, C++ · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern---HP-IQ_UNI4806-1</id>
+    <title>Hewlett Packard (HP): Software Engineering Intern - HP IQ</title>
+    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern---HP-IQ_UNI4806-1"/>
+    <updated>2026-10-29T06:40:20Z</updated>
+    <category term="Fall 2027"/>
+    <summary>Fall 2027 · Software · San Francisco, California, United States of America · $40–$50/hr · Java, C++ · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Software-Quality-Assurance-Intern_UNI4802-1</id>
+    <title>Hewlett Packard (HP): Software Quality Assurance Intern</title>
+    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Quality-Assurance-Intern_UNI4802-1"/>
+    <updated>2026-10-29T06:40:20Z</updated>
+    <category term="Fall 2027"/>
+    <summary>Fall 2027 · Software · San Francisco, California, United States of America · $40–$50/hr · LLMs · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:hp:/job/San-Francisco-California-United-States-of-America/Software-Systems-Intern_UNI4801-1</id>
+    <title>Hewlett Packard (HP): Software Systems Intern - HP IQ</title>
+    <link href="https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Systems-Intern_UNI4801-1"/>
+    <updated>2026-10-29T06:40:20Z</updated>
+    <category term="Fall 2027"/>
+    <summary>Fall 2027 · Software · San Francisco, California, United States of America · $40–$50/hr · C++, Linux · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:usafacts:4472154009</id>
+    <title>USAFacts: AI &amp; Software Engineering Intern</title>
+    <link href="https://job-boards.greenhouse.io/usafacts/jobs/4472154009"/>
+    <updated>2026-10-29T06:40:20Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · San Diego, CA, USA · Python, Java, SQL, Azure, Git</summary>
+    <summary>Not stated · Data &amp; ML/AI · Bellevue, WA · $38/hr · Python, TypeScript, JavaScript, SQL</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LinkedIn3:744000158394370</id>
+    <title>LinkedIn: Software Engineer Intern (First Play)  - Summer 2027 (Mountain View, CA)</title>
+    <link href="https://jobs.smartrecruiters.com/LinkedIn3/744000158394370"/>
+    <updated>2026-10-29T00:40:40Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Mountain View, CA, United States (Hybrid) · Python, Java, C++, C#, Rust · H-1B track record: ~1.6k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:asml:/job/San-Diego-CA-USA/Internship--Software-Development-Engineer-in-Test_J-00354459</id>
@@ -24,20 +72,20 @@
     <summary>Not stated · Software · San Diego, CA, USA · Python, C++, Linux</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:workday:asml:/job/San-Diego-CA-USA/Internship-Co-Op--Data-Engineer_J-00355626</id>
+    <title>ASML: Internship/Co-Op: Data Engineer</title>
+    <link href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship-Co-Op--Data-Engineer_J-00355626"/>
+    <updated>2026-10-29T00:40:40Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · San Diego, CA, USA · Python, Java, SQL, Azure, Git</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:workday:centene:/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737</id>
     <title>Centene: AI Design Systems Intern (Master's - Summer 2027)</title>
     <link href="https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737"/>
     <updated>2026-10-29T00:40:40Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Remote-MO · $21–$30/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:LinkedIn3:744000158394370</id>
-    <title>LinkedIn: Software Engineer Intern (First Play)  - Summer 2027 (Mountain View, CA)</title>
-    <link href="https://jobs.smartrecruiters.com/LinkedIn3/744000158394370"/>
-    <updated>2026-10-29T00:40:40Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Mountain View, CA, United States (Hybrid) · Python, Java, C++, C#, Rust · H-1B track record: ~1.6k approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:workday:/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200</id>
@@ -277,7 +325,15 @@
     <link href="https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10046"/>
     <updated>2026-10-29T00:40:40Z</updated>
     <category term="Summer 2027"/>
-    <summary>3 openings · Summer 2027 · Software · Remote US · LLMs · status: closed</summary>
+    <summary>2 openings · Summer 2027 · Software · Remote US · LLMs · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10071</id>
+    <title>VSP Vision: Internship, Software Engineer</title>
+    <link href="https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10071"/>
+    <updated>2026-10-28T08:40:47Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Remote US · Java, Angular</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:samsungsemiconductor:8046795003</id>
@@ -750,61 +806,5 @@
     <updated>2026-10-26T17:35:11Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · US, MA, Boston · Python, Rust, Bash, Linux, Git · H-1B track record: ~181 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:axos:/job/Omaha-NE/Data-Intern_JR5642</id>
-    <title>Axos Bank: Data Analyst Intern</title>
-    <link href="https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Data-Intern_JR5642"/>
-    <updated>2026-10-26T17:35:11Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Omaha, NE</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Cyber-Security-Intern---Lexington--MA_R0252278</id>
-    <title>Booz Allen: University - 2027 Summer Games Cyber Security Intern - Lexington, MA 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Lexington-MA/University---2027-Summer-Games-Cyber-Security-Intern---Lexington--MA_R0252278"/>
-    <updated>2026-10-26T17:35:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Lexington, MA · $108k/yr · Linux · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:bah:/job/Lexington-MA/University---2027-Summer-Games-Software-Developer-Intern---Lexington--MA_R0252274</id>
-    <title>Booz Allen: University - 2027 Summer Games Software Developer Intern - Lexington, MA 🇺🇸</title>
-    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Lexington-MA/University---2027-Summer-Games-Software-Developer-Intern---Lexington--MA_R0252274"/>
-    <updated>2026-10-26T17:35:11Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Lexington, MA · $108k/yr · Python, Java, C++, JavaScript, Bash · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:prologis:/job/Denver-Colorado/AI-and-Automation--IT--Intern_R6883</id>
-    <title>Prologis: AI and Automation (IT) Intern</title>
-    <link href="https://prologis.wd5.myworkdayjobs.com/Prologis_External_Careers/job/Denver-Colorado/AI-and-Automation--IT--Intern_R6883"/>
-    <updated>2026-10-26T17:35:11Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Denver, Colorado · $25–$30/hr · Python, SQL, AWS</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:valmont:/job/Valley-NE/Operations-Data-Analyst-Intern_R29224</id>
-    <title>Valmont: Operations Data Analyst Intern</title>
-    <link href="https://valmont.wd1.myworkdayjobs.com/ValmontCareers/job/Valley-NE/Operations-Data-Analyst-Intern_R29224"/>
-    <updated>2026-10-26T17:35:11Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Valley NE · Python, SQL, LLMs, Spark, Databricks</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ptc:/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943</id>
-    <title>PTC: Onshape Software Engineer Intern (Summer 2027)</title>
-    <link href="https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943"/>
-    <updated>2026-10-26T11:13:14Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Boston, MA, USA · Java, C++, TypeScript, JavaScript · H-1B track record: ~80 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:hpe:/job/San-Jose-California/AI-ML-Developer-Intern_1217413</id>
-    <title>Hewlett Packard Enterprise: AI/ML Developer Intern</title>
-    <link href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California/AI-ML-Developer-Intern_1217413"/>
-    <updated>2026-10-26T04:58:52Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · San Jose, California · Python, scikit-learn, LLMs, HTML/CSS, Spark · H-1B track record: ~499 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

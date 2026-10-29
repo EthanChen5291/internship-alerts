@@ -1,7 +1,16 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "greenhouse:usafacts:4472154009",
+      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10071"
+    ],
+    "telegram": [
+      "greenhouse:usafacts:4472154009",
+      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10071"
+    ],
+    "personal_email": [
+      "greenhouse:usafacts:4472154009",
+      "workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10071"
+    ]
   }
 }

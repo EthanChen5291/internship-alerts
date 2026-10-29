@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-29T00:40:40Z",
- "data_as_of": "2026-10-29T00:40:40Z",
- "rendered_at": "2026-10-29T00:40:40Z",
+ "generated_at": "2026-10-29T06:40:20Z",
+ "data_as_of": "2026-10-29T06:40:20Z",
+ "rendered_at": "2026-10-29T06:40:20Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3360,7 +3360,7 @@
    "expected": "2026-09-18",
    "days_until": -41,
    "status": "open",
-   "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/AI-Software-Developer-Intern--Undergraduate---Summer-2027-_1667710",
+   "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4291,7 +4291,7 @@
    "expected": "2026-10-09",
    "days_until": -20,
    "status": "open",
-   "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809",
+   "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200",
    "note": "fall early-career opening",
    "provenance": {
     "type": "engine-observed",
@@ -4976,6 +4976,25 @@
    "days_until": -1,
    "status": "open",
    "url": "https://apply.workable.com/coldquanta/j/EB77DE8198/",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-28"
+   }
+  },
+  {
+   "company": "VSP Vision",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-28",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-28",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10071",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -8740,25 +8759,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-22"
-   }
-  },
-  {
-   "company": "VSP Vision",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-28",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-28",
-   "days_until": -1,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-28"
    }
   }
  ],
