@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-29T13:55:03Z",
- "data_as_of": "2026-10-29T13:55:03Z",
- "rendered_at": "2026-10-29T13:55:04Z",
+ "generated_at": "2026-10-29T19:51:49Z",
+ "data_as_of": "2026-10-29T19:51:49Z",
+ "rendered_at": "2026-10-29T19:51:50Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2324,6 +2324,25 @@
    }
   },
   {
+   "company": "Qube Research & Technologies",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -51,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777760002",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "Shield AI",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -3445,6 +3464,25 @@
    }
   },
   {
+   "company": "Fidelity Investments",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-21",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-21",
+   "days_until": -38,
+   "status": "open",
+   "url": "https://fmr.wd1.myworkdayjobs.com/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Equity-Quantitative-Research-Team_2135122",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-21"
+   }
+  },
+  {
    "company": "Formlabsinternships",
    "last_cycle_posted": "",
    "posted_on": "2026-09-21",
@@ -3917,6 +3955,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-02"
+   }
+  },
+  {
+   "company": "Astronics",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-05",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-05",
+   "days_until": -24,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/astronicscorporation/jobs/4431835009",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-05"
    }
   },
   {
@@ -4433,6 +4490,25 @@
    }
   },
   {
+   "company": "Pattern",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-16",
+   "days_until": -13,
+   "status": "open",
+   "url": "https://jobs.lever.co/pattern/48945dce-b5ef-43cd-9d85-f8b26ce5b43e",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-16"
+   }
+  },
+  {
    "company": "Ryan",
    "last_cycle_posted": "",
    "posted_on": "2026-10-16",
@@ -4880,7 +4956,7 @@
    "expected": "2026-10-27",
    "days_until": -2,
    "status": "open",
-   "url": "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Data-Engineer-Intern_JR105120",
+   "url": "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Customer-Experience-Data-Analyst-Intern_JR105125",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4975,12 +5051,31 @@
    "expected": "2026-10-28",
    "days_until": -1,
    "status": "open",
-   "url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10071",
+   "url": "https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10046",
    "note": "",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-28"
+   }
+  },
+  {
+   "company": "Path Robotics",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-29",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-29",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://boards.greenhouse.io/pathrobotics/jobs/8924241002?gh_jid=8924241002",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-29"
    }
   },
   {
@@ -8325,25 +8420,6 @@
    }
   },
   {
-   "company": "Fidelity Investments",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-21",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-21",
-   "days_until": -38,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-21"
-   }
-  },
-  {
    "company": "Rentvision",
    "last_cycle_posted": "",
    "posted_on": "2026-09-21",
@@ -8648,25 +8724,6 @@
    }
   },
   {
-   "company": "Pattern",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-16",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-16",
-   "days_until": -13,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-16"
-   }
-  },
-  {
    "company": "Berkshire Hathaway Energy",
    "last_cycle_posted": "",
    "posted_on": "2026-10-20",
@@ -8762,5 +8819,5 @@
    }
   }
  ],
- "count": 461
+ "count": 464
 }
