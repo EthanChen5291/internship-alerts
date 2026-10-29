@@ -1,7 +1,19 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Customer-Experience-Data-Analyst-Intern_JR105125",
+      "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern_2642721-1",
+      "workday:sonos:/job/Boston-MA/Software-Partner-Engineering-Intern--Boston-_R2886-1"
+    ],
+    "telegram": [
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Customer-Experience-Data-Analyst-Intern_JR105125",
+      "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern_2642721-1",
+      "workday:sonos:/job/Boston-MA/Software-Partner-Engineering-Intern--Boston-_R2886-1"
+    ],
+    "personal_email": [
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Customer-Experience-Data-Analyst-Intern_JR105125",
+      "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern_2642721-1",
+      "workday:sonos:/job/Boston-MA/Software-Partner-Engineering-Intern--Boston-_R2886-1"
+    ]
   }
 }

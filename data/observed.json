@@ -2932,9 +2932,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-27",
      "role_ids": [
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/Customer-Experience-Data-Analyst-Intern_JR105125",
       "workday:jmfamily:/job/Florida---Deerfield-Beach/Data-Engineer-Intern_JR105120"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4953,10 +4954,11 @@
      "first_posted": "2026-10-27",
      "role_ids": [
       "workday:sonos:/job/Boston-MA/Software-Engineering-Intern--Boston-_R2882-1",
+      "workday:sonos:/job/Boston-MA/Software-Partner-Engineering-Intern--Boston-_R2886-1",
       "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2871",
       "workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2885"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -5944,5 +5946,5 @@
    }
   }
  },
- "updated_at": "2026-10-29T06:40:20Z"
+ "updated_at": "2026-10-29T13:55:03Z"
 }

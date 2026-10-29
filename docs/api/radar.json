@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-29T06:40:20Z",
- "data_as_of": "2026-10-29T06:40:20Z",
- "rendered_at": "2026-10-29T06:40:20Z",
+ "generated_at": "2026-10-29T13:55:03Z",
+ "data_as_of": "2026-10-29T13:55:03Z",
+ "rendered_at": "2026-10-29T13:55:04Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3532,25 +3532,6 @@
    "days_until": -35,
    "status": "open",
    "url": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/AI-Engineering--Business-Systems-Intern--Summer-2027_JR00048714",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-24"
-   }
-  },
-  {
-   "company": "Aurora Innovation",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-24",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-24",
-   "days_until": -35,
-   "status": "open",
-   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/bc852c2c-945f-4a1e-b383-54a0f6e0ace9",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -8398,6 +8379,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-21"
+   }
+  },
+  {
+   "company": "Aurora Innovation",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-24",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-24",
+   "days_until": -35,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-24"
    }
   },
   {
