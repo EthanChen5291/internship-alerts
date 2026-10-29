@@ -1,7 +1,25 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:asml:/job/San-Diego-CA-USA/Internship-Co-Op--Data-Engineer_J-00355626",
+      "workday:asml:/job/San-Diego-CA-USA/Internship--Software-Development-Engineer-in-Test_J-00354459",
+      "workday:centene:/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737",
+      "smartrecruiters:LinkedIn3:744000158394370",
+      "workday:workday:/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200"
+    ],
+    "telegram": [
+      "workday:asml:/job/San-Diego-CA-USA/Internship-Co-Op--Data-Engineer_J-00355626",
+      "workday:asml:/job/San-Diego-CA-USA/Internship--Software-Development-Engineer-in-Test_J-00354459",
+      "workday:centene:/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737",
+      "smartrecruiters:LinkedIn3:744000158394370",
+      "workday:workday:/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200"
+    ],
+    "personal_email": [
+      "workday:asml:/job/San-Diego-CA-USA/Internship-Co-Op--Data-Engineer_J-00355626",
+      "workday:asml:/job/San-Diego-CA-USA/Internship--Software-Development-Engineer-in-Test_J-00354459",
+      "workday:centene:/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737",
+      "smartrecruiters:LinkedIn3:744000158394370",
+      "workday:workday:/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200"
+    ]
   }
 }

@@ -5,39 +5,55 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-28T20:50:29Z</updated>
+  <updated>2026-10-29T00:40:40Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:workday:valmont:/job/Omaha-NE/AI---Data-Engineering-Intern_R29310</id>
-    <title>Valmont: AI &amp; Data Engineering Intern</title>
-    <link href="https://valmont.wd1.myworkdayjobs.com/ValmontCareers/job/Omaha-NE/AI---Data-Engineering-Intern_R29310"/>
-    <updated>2026-10-28T20:50:29Z</updated>
-    <category term="Spring 2027"/>
-    <summary>Spring 2027 · Data &amp; ML/AI · Omaha NE · Python, SQL, scikit-learn, Pandas, Azure · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:breezy:benchmark-space-systems-inc:da54fac87273</id>
-    <title>Benchmark Space Systems Inc: Software Engineering Intern</title>
-    <link href="https://benchmark-space-systems-inc.breezy.hr/p/da54fac87273-software-engineering-intern"/>
-    <updated>2026-10-28T20:50:29Z</updated>
+    <id>urn:intern-engine:workday:asml:/job/San-Diego-CA-USA/Internship-Co-Op--Data-Engineer_J-00355626</id>
+    <title>ASML: Internship/Co-Op: Data Engineer</title>
+    <link href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship-Co-Op--Data-Engineer_J-00355626"/>
+    <updated>2026-10-29T00:40:40Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Burlington, VT · $23 – $26 / hour</summary>
+    <summary>Not stated · Data &amp; ML/AI · San Diego, CA, USA · Python, Java, SQL, Azure, Git</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:oracle:epyc.fa.us2.oraclecloud.com:167672</id>
-    <title>Clean Harbors: Software &amp; Field Technology Intern IS | Summer 2027</title>
-    <link href="https://epyc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/167672"/>
-    <updated>2026-10-28T20:50:29Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Deer Park, TX, United States · $25–$30/hr</summary>
+    <id>urn:intern-engine:workday:asml:/job/San-Diego-CA-USA/Internship--Software-Development-Engineer-in-Test_J-00354459</id>
+    <title>ASML: Internship- Software Development Engineer in Test</title>
+    <link href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship--Software-Development-Engineer-in-Test_J-00354459"/>
+    <updated>2026-10-29T00:40:40Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · San Diego, CA, USA · Python, C++, Linux</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:lever:futo-org:7dd9877a-9009-408d-aa50-623cd5153f70</id>
-    <title>FUTO: Software Engineer - Internship 2027</title>
-    <link href="https://jobs.lever.co/futo-org/7dd9877a-9009-408d-aa50-623cd5153f70"/>
+    <id>urn:intern-engine:workday:centene:/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737</id>
+    <title>Centene: AI Design Systems Intern (Master's - Summer 2027)</title>
+    <link href="https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737"/>
+    <updated>2026-10-29T00:40:40Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Remote-MO · $21–$30/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:LinkedIn3:744000158394370</id>
+    <title>LinkedIn: Software Engineer Intern (First Play)  - Summer 2027 (Mountain View, CA)</title>
+    <link href="https://jobs.smartrecruiters.com/LinkedIn3/744000158394370"/>
+    <updated>2026-10-29T00:40:40Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Mountain View, CA, United States (Hybrid) · Python, Java, C++, C#, Rust · H-1B track record: ~1.6k approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:workday:/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200</id>
+    <title>Workday: Analytics Engineer Intern 🛂</title>
+    <link href="https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200"/>
+    <updated>2026-10-29T00:40:40Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · USA, CA, Pleasanton · Python, SQL, AWS, GCP, Azure · sponsorship: no-sponsorship · H-1B track record: ~581 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:661d7ac4-51df-454d-82c8-2a0d94852036</id>
+    <title>Shield AI: Software Engineer Intern - Summer 2027</title>
+    <link href="https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/661d7ac4-51df-454d-82c8-2a0d94852036"/>
     <updated>2026-10-28T20:50:29Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Austin, TX</summary>
+    <summary>Summer 2027 · Software · San Mateo, California · $25 – $75 per hour · Python, C++, PyTorch, TensorFlow, Pandas</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:old-mission-capital:d003aaa4-a1e9-46b5-b271-eaccc15db9d6</id>
@@ -48,14 +64,6 @@
     <summary>Summer 2027 · Software · Chicago, IL · Python, C++, TypeScript</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:ashby:quadric:cb79384e-5dd8-49a0-a075-549e7285316c</id>
-    <title>Quadric: AI Kernel Engineer Intern</title>
-    <link href="https://jobs.ashbyhq.com/quadric/cb79384e-5dd8-49a0-a075-549e7285316c"/>
-    <updated>2026-10-28T20:50:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Burlingame, CA (HQ) · $50–$57/hr · Python, C++, LLMs, CUDA</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:ashby:quadric:3f972411-63a7-4b94-869b-85012cc10d52</id>
     <title>Quadric: Deep Learning Compiler Intern</title>
     <link href="https://jobs.ashbyhq.com/quadric/3f972411-63a7-4b94-869b-85012cc10d52"/>
@@ -64,28 +72,12 @@
     <summary>Not stated · Data &amp; ML/AI · Burlingame, CA (HQ) · $50–$57/hr · Python, C++</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:lever:rosaiclabs:8e3e00f8-5b06-450c-bb63-5cc4fc3136ab</id>
-    <title>RosaicLabs: AI Accelerator Design Verification Engineer - Intern</title>
-    <link href="https://jobs.lever.co/rosaiclabs/8e3e00f8-5b06-450c-bb63-5cc4fc3136ab"/>
+    <id>urn:intern-engine:ashby:quadric:cb79384e-5dd8-49a0-a075-549e7285316c</id>
+    <title>Quadric: AI Kernel Engineer Intern</title>
+    <link href="https://jobs.ashbyhq.com/quadric/cb79384e-5dd8-49a0-a075-549e7285316c"/>
     <updated>2026-10-28T20:50:29Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Santa Clara, CA · 30–55 USD/hr · Python, C++, Verilog</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:rosaiclabs:740b53d3-dd36-41fb-b49c-ab7f97505aa8</id>
-    <title>RosaicLabs: Software Engineering - Intern</title>
-    <link href="https://jobs.lever.co/rosaiclabs/740b53d3-dd36-41fb-b49c-ab7f97505aa8"/>
-    <updated>2026-10-28T20:50:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Santa Clara, CA · 30–55 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:661d7ac4-51df-454d-82c8-2a0d94852036</id>
-    <title>Shield AI: Software Engineer Intern - Summer 2027</title>
-    <link href="https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/661d7ac4-51df-454d-82c8-2a0d94852036"/>
-    <updated>2026-10-28T20:50:29Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Mateo, California · $25 – $75 per hour · Python, C++, PyTorch, TensorFlow, Pandas</summary>
+    <summary>Not stated · Data &amp; ML/AI · Burlingame, CA (HQ) · $50–$57/hr · Python, C++, LLMs, CUDA</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:webfx:3851a96a-34d2-41df-8da2-0f12ab5c396d</id>
@@ -112,6 +104,54 @@
     <summary>Not stated · Software · Boston, MA · $28 per hour · Python, TypeScript, AWS, Terraform, Snowflake</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:breezy:benchmark-space-systems-inc:da54fac87273</id>
+    <title>Benchmark Space Systems Inc: Software Engineering Intern</title>
+    <link href="https://benchmark-space-systems-inc.breezy.hr/p/da54fac87273-software-engineering-intern"/>
+    <updated>2026-10-28T20:50:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Burlington, VT · $23 – $26 / hour</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:schonfeld:8171694</id>
+    <title>Schonfeld: 2027 Enterprise AI Intern</title>
+    <link href="https://job-boards.greenhouse.io/schonfeld/jobs/8171694"/>
+    <updated>2026-10-28T20:50:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · New York, New York, United States · Python, Java, TypeScript, LLMs, AWS</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:futo-org:7dd9877a-9009-408d-aa50-623cd5153f70</id>
+    <title>FUTO: Software Engineer - Internship 2027</title>
+    <link href="https://jobs.lever.co/futo-org/7dd9877a-9009-408d-aa50-623cd5153f70"/>
+    <updated>2026-10-28T20:50:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Austin, TX</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:rosaiclabs:740b53d3-dd36-41fb-b49c-ab7f97505aa8</id>
+    <title>RosaicLabs: Software Engineering - Intern</title>
+    <link href="https://jobs.lever.co/rosaiclabs/740b53d3-dd36-41fb-b49c-ab7f97505aa8"/>
+    <updated>2026-10-28T20:50:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Santa Clara, CA · 30–55 USD/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:rosaiclabs:8e3e00f8-5b06-450c-bb63-5cc4fc3136ab</id>
+    <title>RosaicLabs: AI Accelerator Design Verification Engineer - Intern</title>
+    <link href="https://jobs.lever.co/rosaiclabs/8e3e00f8-5b06-450c-bb63-5cc4fc3136ab"/>
+    <updated>2026-10-28T20:50:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Santa Clara, CA · 30–55 USD/hr · Python, C++, Verilog</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:oracle:epyc.fa.us2.oraclecloud.com:167672</id>
+    <title>Clean Harbors: Software &amp; Field Technology Intern IS | Summer 2027</title>
+    <link href="https://epyc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/167672"/>
+    <updated>2026-10-28T20:50:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Deer Park, TX, United States · $25–$30/hr</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:workday:abb:/job/Milpitas-California-USA/AI-Robotics-Intern--Fall-2026_JR00044846</id>
     <title>ABB: AI Robotics Intern- Fall 2026</title>
     <link href="https://abb.wd3.myworkdayjobs.com/external_career_page/job/Milpitas-California-USA/AI-Robotics-Intern--Fall-2026_JR00044846"/>
@@ -136,12 +176,12 @@
     <summary>Not stated · Data &amp; ML/AI · Golden, CO · Python</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:schonfeld:8171694</id>
-    <title>Schonfeld: 2027 Enterprise AI Intern</title>
-    <link href="https://job-boards.greenhouse.io/schonfeld/jobs/8171694"/>
+    <id>urn:intern-engine:workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2885</id>
+    <title>Sonos: Software Engineering Intern (Seattle) 🛂</title>
+    <link href="https://sonos.wd1.myworkdayjobs.com/Sonos/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2885"/>
     <updated>2026-10-28T20:50:29Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · New York, New York, United States · Python, Java, TypeScript, LLMs, AWS</summary>
+    <summary>Summer 2027 · Software · Seattle, WA · Python, Java, C++, Swift, Kotlin · sponsorship: no-sponsorship · H-1B track record: ~54 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441</id>
@@ -150,6 +190,14 @@
     <updated>2026-10-28T20:50:29Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Overland Park, Kansas · $27/hr · H-1B track record: ~697 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:valmont:/job/Omaha-NE/AI---Data-Engineering-Intern_R29310</id>
+    <title>Valmont: AI &amp; Data Engineering Intern</title>
+    <link href="https://valmont.wd1.myworkdayjobs.com/ValmontCareers/job/Omaha-NE/AI---Data-Engineering-Intern_R29310"/>
+    <updated>2026-10-28T20:50:29Z</updated>
+    <category term="Spring 2027"/>
+    <summary>Spring 2027 · Data &amp; ML/AI · Omaha NE · Python, SQL, scikit-learn, Pandas, Azure · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:Intuitive:744000158312151</id>
@@ -227,17 +275,9 @@
     <id>urn:intern-engine:workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10046</id>
     <title>VSP Vision: Internship, Software Engineer</title>
     <link href="https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10046"/>
-    <updated>2026-10-28T08:40:47Z</updated>
+    <updated>2026-10-29T00:40:40Z</updated>
     <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Software · Remote US · LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:vsp:/job/Remote-US/Internship--Software-Engineer_R-10071</id>
-    <title>VSP Vision: Internship, Software Engineer</title>
-    <link href="https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--Software-Engineer_R-10071"/>
-    <updated>2026-10-28T20:50:29Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Remote US · Java, Angular · status: closed</summary>
+    <summary>3 openings · Summer 2027 · Software · Remote US · LLMs · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:samsungsemiconductor:8046795003</id>
@@ -403,9 +443,9 @@
     <id>urn:intern-engine:workday:sonos:/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2871</id>
     <title>Sonos: Software Engineering Intern (Seattle) 🛂</title>
     <link href="https://sonos.wd1.myworkdayjobs.com/Sonos/job/Seattle-WA/Software-Engineering-Intern--Seattle-_R2871"/>
-    <updated>2026-10-27T19:13:15Z</updated>
+    <updated>2026-10-29T00:40:40Z</updated>
     <category term="Summer 2027"/>
-    <summary>2 openings · Summer 2027 · Software · Seattle, WA · Python, Java, C++, Swift, Kotlin · sponsorship: no-sponsorship · H-1B track record: ~54 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Software · Seattle, WA · Python, Java, C++, Swift, Kotlin · sponsorship: no-sponsorship · status: closed · H-1B track record: ~54 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com:392190</id>
@@ -491,17 +531,17 @@
     <id>urn:intern-engine:ashby:aurora-operations-inc:475a24d7-a058-4f86-be8f-fd6be679af9c</id>
     <title>Aurora Innovation: AI Engineer Intern</title>
     <link href="https://jobs.ashbyhq.com/aurora-operations-inc/475a24d7-a058-4f86-be8f-fd6be679af9c"/>
-    <updated>2026-10-27T01:41:09Z</updated>
+    <updated>2026-10-29T00:40:40Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Mountain View, CA · $52/hr · Python, C++, AWS, GCP, Azure · H-1B track record: ~163 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Data &amp; ML/AI · Mountain View, CA · $52/hr · Python, C++, AWS, GCP, Azure · status: closed · H-1B track record: ~163 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:aurora-operations-inc:a90b7522-4e66-4247-b9ec-7e2bb50b78f4</id>
     <title>Aurora Innovation: Behavior &amp; Planning (ML Research) Intern</title>
     <link href="https://jobs.ashbyhq.com/aurora-operations-inc/a90b7522-4e66-4247-b9ec-7e2bb50b78f4"/>
-    <updated>2026-10-27T01:41:09Z</updated>
+    <updated>2026-10-29T00:40:40Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Mountain View, CA · $52/hr · PyTorch · H-1B track record: ~163 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Mountain View, CA · $52/hr · PyTorch · status: closed · H-1B track record: ~163 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:aurora-operations-inc:bc852c2c-945f-4a1e-b383-54a0f6e0ace9</id>
@@ -766,45 +806,5 @@
     <updated>2026-10-26T04:58:52Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · San Jose, California · Python, scikit-learn, LLMs, HTML/CSS, Spark · H-1B track record: ~499 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workable:connectprep:1AF4F8C65F</id>
-    <title>ConnectPrep: Data Analyst Internship 🇺🇸</title>
-    <link href="https://apply.workable.com/connectprep/j/1AF4F8C65F/"/>
-    <updated>2026-10-25T19:50:26Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Washington, District of Columbia, United States (Remote) · Python, SQL, Pandas, Tableau · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aoins:/job/Bedford-NH/Software-Engineer-Intern_R_14465</id>
-    <title>Auto-Owners Insurance: Software Engineer Intern</title>
-    <link href="https://aoins.wd5.myworkdayjobs.com/concord/job/Bedford-NH/Software-Engineer-Intern_R_14465"/>
-    <updated>2026-10-24T19:14:03Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Bedford, NH · C#, JavaScript, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:scout-ai:3b639e39-abd7-4a0c-9bea-e1cd0a72db99</id>
-    <title>Scout AI: AI Engineer Intern - Fury Team (Summer 2027)</title>
-    <link href="https://jobs.ashbyhq.com/scout-ai/3b639e39-abd7-4a0c-9bea-e1cd0a72db99"/>
-    <updated>2026-10-24T16:30:35Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Sunnyvale, CA · $45 – $65 per hour · Python, PyTorch, TensorFlow</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:asml:/job/San-Jose-CA-USA/Platform-Software-Engineer-In-Test---Internship-_J-00354558</id>
-    <title>ASML: Internship- Platform Software Engineer In Test</title>
-    <link href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Platform-Software-Engineer-In-Test---Internship-_J-00354558"/>
-    <updated>2026-10-24T02:11:32Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · San Jose, CA, USA · Python, C++, Bash</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:amazon:amazon:10587999</id>
-    <title>Amazon: Software Development Engineer Intern, Amazon Leo - Summer 2027 (USA) 🇺🇸</title>
-    <link href="https://www.amazon.jobs/en/jobs/10587999/software-development-engineer-intern-amazon-leo-summer-2027-usa"/>
-    <updated>2026-10-23T23:42:16Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Redmond, Washington, USA · Python, Java, C++, C#, Rust · sponsorship: citizens-only · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
   </entry>
 </feed>

@@ -1159,11 +1159,12 @@
     "Summer 2027": {
      "first_posted": "2026-09-18",
      "role_ids": [
+      "workday:centene:/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737",
       "workday:centene:/job/Remote-MO/AI-Software-Developer-Intern--Undergraduate---Summer-2027-_1667710",
       "workday:centene:/job/Remote-MO/Applications-Security-Engineer-Intern--Undergraduate-Summer-2027-_1667746",
       "workday:centene:/job/Remote-MO/Cybersecurity-Summer-2027-Intern--Undergraduate-_1660514"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -3128,9 +3129,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-20",
      "role_ids": [
-      "smartrecruiters:LinkedIn3:744000156616169"
+      "smartrecruiters:LinkedIn3:744000156616169",
+      "smartrecruiters:LinkedIn3:744000158394370"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -5787,12 +5789,13 @@
     "Summer 2027": {
      "first_posted": "2026-10-09",
      "role_ids": [
+      "workday:workday:/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200",
       "workday:workday:/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809",
       "workday:workday:/job/USA-CA-Pleasanton/Machine-Learning-Engineer-Intern_JR-0110812",
       "workday:workday:/job/USA-CA-Pleasanton/Software-Application-Development-Engineer-Intern_JR-0110811",
       "workday:workday:/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -5941,5 +5944,5 @@
    }
   }
  },
- "updated_at": "2026-10-28T20:50:29Z"
+ "updated_at": "2026-10-29T00:40:40Z"
 }
