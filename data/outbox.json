@@ -1,43 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:ferrovial:/job/Murfreesboro-TN/Webber---Field-Engineer-Intern-II---Infrastructure-Management_JR19990",
-      "oracle:hckd.fa.us2.oraclecloud.com:2040172",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:41339",
-      "workable:sophinea:B392177653",
-      "lever:tri:f8c9ed26-4574-4ad2-954b-b7f5ec365495",
-      "greenhouse:gardacp:6239821004",
-      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Vehicle-Aerodynamics-and-Machine-Learning_JR-202622746",
-      "workday:hpe:/job/Sunnyvale-California-United-States-of-America/Software-Engineering-Intern_1214146",
-      "greenhouse:lilasciences:4469152009",
-      "greenhouse:thenewyorktimes:4748483005",
-      "workday:vsp:/job/Remote-US/Internship--AI---Agentic---Machine-Learning-Development_R-10072"
-    ],
-    "telegram": [
-      "workday:ferrovial:/job/Murfreesboro-TN/Webber---Field-Engineer-Intern-II---Infrastructure-Management_JR19990",
-      "oracle:hckd.fa.us2.oraclecloud.com:2040172",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:41339",
-      "workable:sophinea:B392177653",
-      "lever:tri:f8c9ed26-4574-4ad2-954b-b7f5ec365495",
-      "greenhouse:gardacp:6239821004",
-      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Vehicle-Aerodynamics-and-Machine-Learning_JR-202622746",
-      "workday:hpe:/job/Sunnyvale-California-United-States-of-America/Software-Engineering-Intern_1214146",
-      "greenhouse:lilasciences:4469152009",
-      "greenhouse:thenewyorktimes:4748483005",
-      "workday:vsp:/job/Remote-US/Internship--AI---Agentic---Machine-Learning-Development_R-10072"
-    ],
-    "personal_email": [
-      "workday:ferrovial:/job/Murfreesboro-TN/Webber---Field-Engineer-Intern-II---Infrastructure-Management_JR19990",
-      "oracle:hckd.fa.us2.oraclecloud.com:2040172",
-      "oracle:fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com:41339",
-      "workable:sophinea:B392177653",
-      "lever:tri:f8c9ed26-4574-4ad2-954b-b7f5ec365495",
-      "greenhouse:gardacp:6239821004",
-      "workday:generalmotors:/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Vehicle-Aerodynamics-and-Machine-Learning_JR-202622746",
-      "workday:hpe:/job/Sunnyvale-California-United-States-of-America/Software-Engineering-Intern_1214146",
-      "greenhouse:lilasciences:4469152009",
-      "greenhouse:thenewyorktimes:4748483005",
-      "workday:vsp:/job/Remote-US/Internship--AI---Agentic---Machine-Learning-Development_R-10072"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
