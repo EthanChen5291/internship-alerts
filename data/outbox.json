@@ -1,7 +1,43 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "amazon:amazon:10593521",
+      "greenhouse:asteraearlycareer2027:4749403005",
+      "greenhouse:c3ascend:8739036002",
+      "workday:cmu:/job/Pittsburgh-PA/Cyber-Range-Development-Intern_2025291-1",
+      "workday:cmu:/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-2",
+      "greenhouse:ensco:5467125008",
+      "greenhouse:fccincinnati:8105405003",
+      "greenhouse:gcmgrosvenor:8035929003",
+      "greenhouse:nyisointernships:5236084007",
+      "greenhouse:stripe:8333074",
+      "workday:wexinc:/job/US---Remote/Software-Engineer-Intern_R22585"
+    ],
+    "telegram": [
+      "amazon:amazon:10593521",
+      "greenhouse:asteraearlycareer2027:4749403005",
+      "greenhouse:c3ascend:8739036002",
+      "workday:cmu:/job/Pittsburgh-PA/Cyber-Range-Development-Intern_2025291-1",
+      "workday:cmu:/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-2",
+      "greenhouse:ensco:5467125008",
+      "greenhouse:fccincinnati:8105405003",
+      "greenhouse:gcmgrosvenor:8035929003",
+      "greenhouse:nyisointernships:5236084007",
+      "greenhouse:stripe:8333074",
+      "workday:wexinc:/job/US---Remote/Software-Engineer-Intern_R22585"
+    ],
+    "personal_email": [
+      "amazon:amazon:10593521",
+      "greenhouse:asteraearlycareer2027:4749403005",
+      "greenhouse:c3ascend:8739036002",
+      "workday:cmu:/job/Pittsburgh-PA/Cyber-Range-Development-Intern_2025291-1",
+      "workday:cmu:/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-2",
+      "greenhouse:ensco:5467125008",
+      "greenhouse:fccincinnati:8105405003",
+      "greenhouse:gcmgrosvenor:8035929003",
+      "greenhouse:nyisointernships:5236084007",
+      "greenhouse:stripe:8333074",
+      "workday:wexinc:/job/US---Remote/Software-Engineer-Intern_R22585"
+    ]
   }
 }

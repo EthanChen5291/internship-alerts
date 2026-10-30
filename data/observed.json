@@ -311,7 +311,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 17,
+     "count": 18,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -329,7 +329,8 @@
       "amazon:amazon:10571374",
       "amazon:amazon:10587999",
       "amazon:amazon:10590290",
-      "amazon:amazon:10593054"
+      "amazon:amazon:10593054",
+      "amazon:amazon:10593521"
      ]
     }
    }
@@ -1048,6 +1049,18 @@
     }
    }
   },
+  "c3 ai": {
+   "name": "C3.ai",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-31",
+     "role_ids": [
+      "greenhouse:c3ascend:8739036002"
+     ],
+     "count": 1
+    }
+   }
+  },
   "caci": {
    "name": "CACI",
    "cycles": {
@@ -1373,9 +1386,11 @@
     "Fall 2026": {
      "first_posted": "2026-09-02",
      "role_ids": [
-      "workday:cmu:/job/Pittsburgh-PA/AI-Security-Research-Intern---Sept-2026---May-2027-_2025068-2"
+      "workday:cmu:/job/Pittsburgh-PA/AI-Security-Research-Intern---Sept-2026---May-2027-_2025068-2",
+      "workday:cmu:/job/Pittsburgh-PA/Cyber-Range-Development-Intern_2025291-1",
+      "workday:cmu:/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-2"
      ],
-     "count": 1
+     "count": 3
     }
    }
   },
@@ -2198,9 +2213,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-09",
      "role_ids": [
-      "greenhouse:gcmgrosvenor:8015792003"
+      "greenhouse:gcmgrosvenor:8015792003",
+      "greenhouse:gcmgrosvenor:8035929003"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -5135,6 +5151,18 @@
     }
    }
   },
+  "stripe": {
+   "name": "Stripe",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-30",
+     "role_ids": [
+      "greenhouse:stripe:8333074"
+     ],
+     "count": 1
+    }
+   }
+  },
   "stryker": {
    "name": "Stryker",
    "cycles": {
@@ -6010,5 +6038,5 @@
    }
   }
  },
- "updated_at": "2026-10-30T10:13:49Z"
+ "updated_at": "2026-10-30T17:01:51Z"
 }

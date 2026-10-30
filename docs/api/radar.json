@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-30T10:13:49Z",
- "data_as_of": "2026-10-30T10:13:49Z",
- "rendered_at": "2026-10-30T10:13:49Z",
+ "generated_at": "2026-10-30T17:01:51Z",
+ "data_as_of": "2026-10-30T17:01:51Z",
+ "rendered_at": "2026-10-30T17:01:52Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -301,7 +301,7 @@
    "expected": "2026-07-08",
    "days_until": -114,
    "status": "open",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Test-Engineering-Intern--Roy-UT_R10258276-1",
+   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
    "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
@@ -1469,6 +1469,25 @@
    }
   },
   {
+   "company": "C3.ai",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-31",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-31",
+   "days_until": -60,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/c3ascend/jobs/8739036002",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-31"
+   }
+  },
+  {
    "company": "CACI",
    "last_cycle_posted": "",
    "posted_on": "2026-08-31",
@@ -2297,25 +2316,6 @@
    "days_until": -52,
    "status": "open",
    "url": "https://jobs.lever.co/futo-org/7dd9877a-9009-408d-aa50-623cd5153f70",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
-   "company": "Merck",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -52,
-   "status": "open",
-   "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3209,25 +3209,6 @@
    "days_until": -44,
    "status": "open",
    "url": "https://jobs.ashbyhq.com/gecko-robotics/01138338-ff3c-4982-8ba3-5401386bf082",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-16"
-   }
-  },
-  {
-   "company": "Nanopath",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-16",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-16",
-   "days_until": -44,
-   "status": "open",
-   "url": "https://nanopath.com/careers?gh_jid=4732881005",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5060,22 +5041,22 @@
    }
   },
   {
-   "company": "Path Robotics",
+   "company": "Stripe",
    "last_cycle_posted": "",
-   "posted_on": "2026-10-29",
+   "posted_on": "2026-10-30",
    "precision": "day",
    "rolling": false,
    "confidence": "verified",
    "source": "engine",
-   "expected": "2026-10-29",
-   "days_until": -1,
+   "expected": "2026-10-30",
+   "days_until": 0,
    "status": "open",
-   "url": "https://boards.greenhouse.io/pathrobotics/jobs/8924241002?gh_jid=8924241002",
-   "note": "",
+   "url": "https://stripe.com/jobs/search?gh_jid=8333074",
+   "note": "early Sept, closes mid-Nov",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
-    "observed_on": "2026-10-29"
+    "observed_on": "2026-10-30"
    }
   },
   {
@@ -6919,25 +6900,6 @@
    }
   },
   {
-   "company": "Stripe",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-09-01",
-   "days_until": -59,
-   "status": "waiting",
-   "url": "",
-   "note": "early Sept, closes mid-Nov",
-   "provenance": {
-    "type": "verified-window",
-    "url": "stripe.com/jobs/university",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
    "company": "Twilio",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -8021,6 +7983,25 @@
    }
   },
   {
+   "company": "Merck",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -52,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
    "company": "RF-SMART",
    "last_cycle_posted": "",
    "posted_on": "2026-09-08",
@@ -8307,6 +8288,25 @@
   },
   {
    "company": "Live Oak Bank",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-16",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-16",
+   "days_until": -44,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-16"
+   }
+  },
+  {
+   "company": "Nanopath",
    "last_cycle_posted": "",
    "posted_on": "2026-09-16",
    "precision": "day",
@@ -8817,7 +8817,26 @@
     "cycle": "Summer 2027",
     "observed_on": "2026-10-22"
    }
+  },
+  {
+   "company": "Path Robotics",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-29",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-29",
+   "days_until": -1,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-29"
+   }
   }
  ],
- "count": 464
+ "count": 465
 }
