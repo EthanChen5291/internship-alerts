@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-30T17:01:51Z",
- "data_as_of": "2026-10-30T17:01:51Z",
- "rendered_at": "2026-10-30T17:01:52Z",
+ "generated_at": "2026-10-30T21:42:02Z",
+ "data_as_of": "2026-10-30T21:42:02Z",
+ "rendered_at": "2026-10-30T21:42:03Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -383,25 +383,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-07-15"
-   }
-  },
-  {
-   "company": "Axon",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-20",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-20",
-   "days_until": -102,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/8037922003",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-20"
    }
   },
   {
@@ -1428,25 +1409,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-28"
-   }
-  },
-  {
-   "company": "Equifax",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-30",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-30",
-   "days_until": -61,
-   "status": "open",
-   "url": "https://equifax.wd5.myworkdayjobs.com/UR_External/job/USA---Missouri---St-Louis---Lackland/Site-Reliability-Engineer-Intern_J00178674",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-30"
    }
   },
   {
@@ -2658,25 +2620,6 @@
    "days_until": -50,
    "status": "open",
    "url": "https://nelnet.wd1.myworkdayjobs.com/MyNelnet/job/Lincoln-NE/Intern---IT-Software-Engineer-NET--Summer-2027-_R23198",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-10"
-   }
-  },
-  {
-   "company": "SEP",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-10",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-10",
-   "days_until": -50,
-   "status": "open",
-   "url": "https://jobs.lever.co/sep/4efbdbce-a753-41b5-8ed7-0661cd193178",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5041,6 +4984,44 @@
    }
   },
   {
+   "company": "Garda Capital Partners",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-30",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-30",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/gardacp/jobs/6239821004",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-30"
+   }
+  },
+  {
+   "company": "Molina Healthcare",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-30",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-30",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040172",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-30"
+   }
+  },
+  {
    "company": "Stripe",
    "last_cycle_posted": "",
    "posted_on": "2026-10-30",
@@ -7242,6 +7223,25 @@
    }
   },
   {
+   "company": "Axon",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-20",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-20",
+   "days_until": -102,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-20"
+   }
+  },
+  {
    "company": "Anthelion Capital",
    "last_cycle_posted": "",
    "posted_on": "2026-07-23",
@@ -7657,6 +7657,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-29"
+   }
+  },
+  {
+   "company": "Equifax",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-30",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-30",
+   "days_until": -61,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-30"
    }
   },
   {
@@ -8079,6 +8098,25 @@
   },
   {
    "company": "Hudl",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-10",
+   "days_until": -50,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-10"
+   }
+  },
+  {
+   "company": "SEP",
    "last_cycle_posted": "",
    "posted_on": "2026-09-10",
    "precision": "day",
@@ -8838,5 +8876,5 @@
    }
   }
  ],
- "count": 465
+ "count": 467
 }
