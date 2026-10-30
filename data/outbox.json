@@ -1,7 +1,13 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "greenhouse:axontalentcommunity:8037922003"
+    ],
+    "telegram": [
+      "greenhouse:axontalentcommunity:8037922003"
+    ],
+    "personal_email": [
+      "greenhouse:axontalentcommunity:8037922003"
+    ]
   }
 }

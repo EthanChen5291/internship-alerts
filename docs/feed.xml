@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-29T23:53:26Z</updated>
+  <updated>2026-10-30T03:11:37Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:axontalentcommunity:8037922003</id>
+    <title>Axon: 2027 US Software Engineering Internship (Dedrone)</title>
+    <link href="https://job-boards.greenhouse.io/axontalentcommunity/jobs/8037922003"/>
+    <updated>2026-10-30T03:11:37Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Seattle, Washington, United States; Sterling, Virginia, United States · Python, Java, C#, SQL, Scala</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:amazon:amazon:10593054</id>
+    <title>Amazon: Data Center Infrastructure Engineer Intern, Summer 2027 - Midwest / Southeast</title>
+    <link href="https://www.amazon.jobs/en/jobs/10593054/data-center-infrastructure-engineer-intern-summer-2027-midwest-southeast"/>
+    <updated>2026-10-29T23:53:26Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Austin, Texas, USA · AWS · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:internrecruiting:8310712</id>
     <title>Internrecruiting: Cloud Engineer Co-op</title>
@@ -16,12 +32,12 @@
     <summary>Spring 2027 · Software · Wakefield, MA (Hybrid) · SQL, AWS, Azure, Terraform · status: closed</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:amazon:amazon:10593054</id>
-    <title>Amazon: Data Center Infrastructure Engineer Intern, Summer 2027 - Midwest / Southeast</title>
-    <link href="https://www.amazon.jobs/en/jobs/10593054/data-center-infrastructure-engineer-intern-summer-2027-midwest-southeast"/>
+    <id>urn:intern-engine:greenhouse:samsungsemiconductor:8046887003</id>
+    <title>Samsung: Intern, Systems Software Engineering</title>
+    <link href="https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046887003"/>
     <updated>2026-10-29T23:53:26Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Austin, Texas, USA · AWS · H-1B track record: ~23.1k approvals (FY2022–2023)</summary>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · San Jose, California, United States · Python, C++, Rust, Bash, LLMs</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:centene:/job/Remote-MO/AI-Engineer-Intern--Undergraduate---Summer-2027-_1667739</id>
@@ -62,14 +78,6 @@
     <updated>2026-10-29T23:53:26Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Security · IL - Chicago · Python · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:samsungsemiconductor:8046887003</id>
-    <title>Samsung: Intern, Systems Software Engineering</title>
-    <link href="https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046887003"/>
-    <updated>2026-10-29T23:53:26Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · San Jose, California, United States · Python, C++, Rust, Bash, LLMs</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380484</id>
@@ -387,9 +395,9 @@
     <id>urn:intern-engine:ashby:webfx:3851a96a-34d2-41df-8da2-0f12ab5c396d</id>
     <title>WebFX: Web Developer Internship</title>
     <link href="https://jobs.ashbyhq.com/webfx/3851a96a-34d2-41df-8da2-0f12ab5c396d"/>
-    <updated>2026-10-28T20:50:29Z</updated>
+    <updated>2026-10-30T02:52:27Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Harrisburg, PA · $22/hr · HTML/CSS</summary>
+    <summary>Not stated · Software · Harrisburg, PA · $22/hr · HTML/CSS · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:zus-health:985c43c5-3c2a-4174-831d-b53ef0d6308c</id>
@@ -798,13 +806,5 @@
     <updated>2026-10-27T13:27:01Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · US - Foster City, CA · LLMs · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:visa:/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF089875W-1</id>
-    <title>Visa: Software Engineer, Intern - Foster City 2027 🛂</title>
-    <link href="https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF089875W-1"/>
-    <updated>2026-10-27T13:27:01Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · US - Foster City, CA · Python, Java, C++, C#, JavaScript · sponsorship: no-sponsorship</summary>
   </entry>
 </feed>

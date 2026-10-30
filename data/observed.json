@@ -727,10 +727,11 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-07-20",
-     "count": 2,
+     "count": 3,
      "role_ids": [
       "greenhouse:axontalentcommunity:7800617003",
-      "greenhouse:axontalentcommunity:7800628003"
+      "greenhouse:axontalentcommunity:7800628003",
+      "greenhouse:axontalentcommunity:8037922003"
      ]
     },
     "Fall 2026": {
@@ -6009,5 +6010,5 @@
    }
   }
  },
- "updated_at": "2026-10-29T23:53:26Z"
+ "updated_at": "2026-10-30T03:11:37Z"
 }
