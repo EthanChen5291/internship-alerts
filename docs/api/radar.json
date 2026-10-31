@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-31T13:53:10Z",
- "data_as_of": "2026-10-31T13:53:10Z",
- "rendered_at": "2026-10-31T13:53:10Z",
+ "generated_at": "2026-10-31T18:11:34Z",
+ "data_as_of": "2026-10-31T18:11:34Z",
+ "rendered_at": "2026-10-31T18:11:35Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -668,25 +668,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-05"
-   }
-  },
-  {
-   "company": "Duke Energy",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-07",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-07",
-   "days_until": -85,
-   "status": "open",
-   "url": "https://dukeenergy.wd1.myworkdayjobs.com/search/job/Hartsville-SC/Nuclear-Cybersecurity-2027-Summer-Internship_R42099",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-07"
    }
   },
   {
@@ -4034,6 +4015,25 @@
    }
   },
   {
+   "company": "Pretium",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-06",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-06",
+   "days_until": -25,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/pretiuminternships2027/jobs/8868243002",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-06"
+   }
+  },
+  {
    "company": "Pure Storage",
    "last_cycle_posted": "",
    "posted_on": "2026-10-06",
@@ -5032,7 +5032,7 @@
    "expected": "2026-10-31",
    "days_until": 0,
    "status": "open",
-   "url": "https://jobs.lever.co/tevora/fb3b174b-07ac-410d-9c44-53c70793635c",
+   "url": "https://jobs.lever.co/tevora/4e3b7ae3-cb18-4c76-815c-0014e3c7598c",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -7356,6 +7356,25 @@
    }
   },
   {
+   "company": "Duke Energy",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-07",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-07",
+   "days_until": -85,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-07"
+   }
+  },
+  {
    "company": "Northwestern Mutual",
    "last_cycle_posted": "",
    "posted_on": "2026-08-12",
@@ -8895,5 +8914,5 @@
    }
   }
  ],
- "count": 468
+ "count": 469
 }

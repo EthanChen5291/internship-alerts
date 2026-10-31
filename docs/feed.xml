@@ -5,20 +5,44 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-31T13:53:10Z</updated>
+  <updated>2026-10-31T18:11:34Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:lever:tevora:fb3b174b-07ac-410d-9c44-53c70793635c</id>
-    <title>Tevora: Cybersecurity Internship Summer 2027 - Enterprise Risk Management</title>
-    <link href="https://jobs.lever.co/tevora/fb3b174b-07ac-410d-9c44-53c70793635c"/>
+    <id>urn:intern-engine:lever:fireworkhq:36722fbd-2705-4beb-83aa-1884068eaa09</id>
+    <title>Firework: Data Engineer Intern</title>
+    <link href="https://jobs.lever.co/fireworkhq/36722fbd-2705-4beb-83aa-1884068eaa09"/>
+    <updated>2026-10-31T18:11:34Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · San Mateo, California · Python, SQL, Spark, Airflow, Snowflake</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:pretiuminternships2027:8868243002</id>
+    <title>Pretium: 2027 AI, Data &amp; Innovation Summer Internship</title>
+    <link href="https://job-boards.greenhouse.io/pretiuminternships2027/jobs/8868243002"/>
+    <updated>2026-10-31T18:11:34Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · New York, New York</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:tevora:2ad5ba33-3c2a-4e51-a5ab-e5632adb0e0d</id>
+    <title>Tevora: Cybersecurity Internship Summer2027 - Federal</title>
+    <link href="https://jobs.lever.co/tevora/2ad5ba33-3c2a-4e51-a5ab-e5632adb0e0d"/>
+    <updated>2026-10-31T13:53:10Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Fairfax, VA · 27 USD/hr</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:tevora:4e3b7ae3-cb18-4c76-815c-0014e3c7598c</id>
+    <title>Tevora: Cybersecurity Internship Summer 2027 - Systems and Organizations Controls (SOC)</title>
+    <link href="https://jobs.lever.co/tevora/4e3b7ae3-cb18-4c76-815c-0014e3c7598c"/>
     <updated>2026-10-31T13:53:10Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:lever:tevora:a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0</id>
-    <title>Tevora: Cybersecurity Internship Summer 2027 - Healthcare</title>
-    <link href="https://jobs.lever.co/tevora/a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0"/>
+    <id>urn:intern-engine:lever:tevora:5acd8859-ba7f-4996-9503-13a231376758</id>
+    <title>Tevora: Cybersecurity Internship Summer 2027 - Threat</title>
+    <link href="https://jobs.lever.co/tevora/5acd8859-ba7f-4996-9503-13a231376758"/>
     <updated>2026-10-31T13:53:10Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
@@ -40,6 +64,14 @@
     <summary>Summer 2027 · Security · Fairfax, VA · 27 USD/hr</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:lever:tevora:a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0</id>
+    <title>Tevora: Cybersecurity Internship Summer 2027 - Healthcare</title>
+    <link href="https://jobs.lever.co/tevora/a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0"/>
+    <updated>2026-10-31T13:53:10Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:lever:tevora:facb1a9a-67b3-42ca-90f1-65d934d9b68d</id>
     <title>Tevora: Cybersecurity Internship Summer 2027 - Solutions</title>
     <link href="https://jobs.lever.co/tevora/facb1a9a-67b3-42ca-90f1-65d934d9b68d"/>
@@ -48,28 +80,12 @@
     <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:lever:tevora:4e3b7ae3-cb18-4c76-815c-0014e3c7598c</id>
-    <title>Tevora: Cybersecurity Internship Summer 2027 - Systems and Organizations Controls (SOC)</title>
-    <link href="https://jobs.lever.co/tevora/4e3b7ae3-cb18-4c76-815c-0014e3c7598c"/>
+    <id>urn:intern-engine:lever:tevora:fb3b174b-07ac-410d-9c44-53c70793635c</id>
+    <title>Tevora: Cybersecurity Internship Summer 2027 - Enterprise Risk Management</title>
+    <link href="https://jobs.lever.co/tevora/fb3b174b-07ac-410d-9c44-53c70793635c"/>
     <updated>2026-10-31T13:53:10Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:tevora:5acd8859-ba7f-4996-9503-13a231376758</id>
-    <title>Tevora: Cybersecurity Internship Summer 2027 - Threat</title>
-    <link href="https://jobs.lever.co/tevora/5acd8859-ba7f-4996-9503-13a231376758"/>
-    <updated>2026-10-31T13:53:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:tevora:2ad5ba33-3c2a-4e51-a5ab-e5632adb0e0d</id>
-    <title>Tevora: Cybersecurity Internship Summer2027 - Federal</title>
-    <link href="https://jobs.lever.co/tevora/2ad5ba33-3c2a-4e51-a5ab-e5632adb0e0d"/>
-    <updated>2026-10-31T13:53:10Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Fairfax, VA · 27 USD/hr</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:gardacp:6239821004</id>
@@ -474,7 +490,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Software-Intern_2642700-1</id>
     <title>KLA: Software Intern</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Intern_2642700-1"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Intern_2642700"/>
     <updated>2026-10-29T19:51:49Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Milpitas, CA · Python, Java, C++, C#, Git · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -498,7 +514,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Software-Engineer-Intern_2642721-1</id>
     <title>KLA: Software Engineer Intern</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineer-Intern_2642721-1"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineer-Intern_2642721"/>
     <updated>2026-10-29T13:55:03Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Milpitas, CA · Python, Java, C++, C# · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -790,21 +806,5 @@
     <updated>2026-10-28T15:43:42Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Golden, CO · $25–$26/hr · AWS, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:leidos:/job/Denver-CO/Energy---Infrastructure-Consulting-Summer-Intern_R-00195653-1</id>
-    <title>Leidos: Energy &amp; Infrastructure Consulting Summer Intern</title>
-    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Denver-CO/Energy---Infrastructure-Consulting-Summer-Intern_R-00195653-1"/>
-    <updated>2026-10-28T15:43:42Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Denver, CO · H-1B track record: ~79 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:leidos:/job/Fort-Belvoir-VA/Data-Engineer-Intern_R-00195576</id>
-    <title>Leidos: Data Engineer Intern 🇺🇸</title>
-    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/Fort-Belvoir-VA/Data-Engineer-Intern_R-00195576"/>
-    <updated>2026-10-28T15:43:42Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Fort Belvoir, VA · LLMs · sponsorship: citizens-only · H-1B track record: ~79 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
