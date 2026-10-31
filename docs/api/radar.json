@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-31T01:21:13Z",
- "data_as_of": "2026-10-31T01:21:13Z",
- "rendered_at": "2026-10-31T01:21:13Z",
+ "generated_at": "2026-10-31T13:53:10Z",
+ "data_as_of": "2026-10-31T13:53:10Z",
+ "rendered_at": "2026-10-31T13:53:10Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -4832,25 +4832,6 @@
    }
   },
   {
-   "company": "Commonwealth Fusion Systems",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-27",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-27",
-   "days_until": -4,
-   "status": "open",
-   "url": "https://jobs.lever.co/cfsenergy/912d6878-25dd-4bdc-8df8-8f7002999619",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-27"
-   }
-  },
-  {
    "company": "Great American Insurance Company",
    "last_cycle_posted": "",
    "posted_on": "2026-10-27",
@@ -5038,6 +5019,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-30"
+   }
+  },
+  {
+   "company": "Tevora",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-31",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-31",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.lever.co/tevora/fb3b174b-07ac-410d-9c44-53c70793635c",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-31"
    }
   },
   {
@@ -8857,6 +8857,25 @@
    }
   },
   {
+   "company": "Commonwealth Fusion Systems",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-27",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-27",
+   "days_until": -4,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-27"
+   }
+  },
+  {
    "company": "Path Robotics",
    "last_cycle_posted": "",
    "posted_on": "2026-10-29",
@@ -8876,5 +8895,5 @@
    }
   }
  ],
- "count": 467
+ "count": 468
 }
