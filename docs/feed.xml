@@ -5,16 +5,8 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-10-31T18:11:34Z</updated>
+  <updated>2026-10-31T21:43:28Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
-  <entry>
-    <id>urn:intern-engine:lever:fireworkhq:36722fbd-2705-4beb-83aa-1884068eaa09</id>
-    <title>Firework: Data Engineer Intern</title>
-    <link href="https://jobs.lever.co/fireworkhq/36722fbd-2705-4beb-83aa-1884068eaa09"/>
-    <updated>2026-10-31T18:11:34Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · San Mateo, California · Python, SQL, Spark, Airflow, Snowflake</summary>
-  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:pretiuminternships2027:8868243002</id>
     <title>Pretium: 2027 AI, Data &amp; Innovation Summer Internship</title>
@@ -22,6 +14,14 @@
     <updated>2026-10-31T18:11:34Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · New York, New York</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:fireworkhq:36722fbd-2705-4beb-83aa-1884068eaa09</id>
+    <title>Firework: Data Engineer Intern</title>
+    <link href="https://jobs.lever.co/fireworkhq/36722fbd-2705-4beb-83aa-1884068eaa09"/>
+    <updated>2026-10-31T18:11:34Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · San Mateo, California · Python, SQL, Spark, Airflow, Snowflake</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:tevora:2ad5ba33-3c2a-4e51-a5ab-e5632adb0e0d</id>
@@ -490,7 +490,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Software-Intern_2642700-1</id>
     <title>KLA: Software Intern</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Intern_2642700"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Intern_2642700-1"/>
     <updated>2026-10-29T19:51:49Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Milpitas, CA · Python, Java, C++, C#, Git · H-1B track record: ~369 approvals (FY2022–2023)</summary>
@@ -514,7 +514,7 @@
   <entry>
     <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Software-Engineer-Intern_2642721-1</id>
     <title>KLA: Software Engineer Intern</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineer-Intern_2642721"/>
+    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineer-Intern_2642721-1"/>
     <updated>2026-10-29T13:55:03Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Milpitas, CA · Python, Java, C++, C# · H-1B track record: ~369 approvals (FY2022–2023)</summary>
