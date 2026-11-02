@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:knowbe4:8919280002"
-    ],
-    "telegram": [
-      "greenhouse:knowbe4:8919280002"
-    ],
-    "personal_email": [
-      "greenhouse:knowbe4:8919280002"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
