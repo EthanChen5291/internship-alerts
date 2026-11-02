@@ -539,10 +539,11 @@
      "first_posted": "2026-09-04",
      "role_ids": [
       "workday:amat:/job/AlbanyNY/Summer-2027-Global-Technical-Learning-Center-Data-Analyst-Intern--Bachelor-s-Master-s--Albany--NY-_R2627551",
+      "workday:amat:/job/Santa-ClaraCA/Summer-2027-Software-Engineer-Intern--Bachelor-s-Master-s--Santa-Clara--CA-_R2630003",
       "workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Software-Engineering-Intern--Masters---Santa-Clara--CA-_R2628265",
       "workday:amat:/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern--Software-Engineer--Bachelors-Degree--Santa-Clara-_R2630672"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -1994,12 +1995,13 @@
     "Summer 2027": {
      "first_posted": "2026-10-01",
      "role_ids": [
+      "workday:rb:/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Supervision---Regulation--Cybersecurity-_R-0000033866",
       "workday:rb:/job/Chicago-IL/Summer-2027-Intern-Cloud-Engineering_R-0000033614",
       "workday:rb:/job/Chicago-IL/Summer-2027-Intern-Computer-Science-and-Software-Engineering_R-0000033637",
       "workday:rb:/job/Chicago-IL/Summer-2027-Intern-Cybersecurity-and-Information-Security_R-0000033612-1",
       "workday:rb:/job/Cleveland-OH/TS---Application-Security-Intern---2027_R-0000033625"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -2948,6 +2950,13 @@
       "smartrecruiters:Intuitive:744000133458290",
       "smartrecruiters:Intuitive:744000145329669"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-11-02",
+     "role_ids": [
+      "smartrecruiters:Intuitive:744000159218439"
+     ],
+     "count": 1
     }
    }
   },
@@ -2997,11 +3006,12 @@
     "Summer 2027": {
      "first_posted": "2026-10-27",
      "role_ids": [
+      "workday:jmfamily:/job/Florida---Deerfield-Beach/AI-Intern_JR105180",
       "workday:jmfamily:/job/Florida---Deerfield-Beach/Customer-Experience-Data-Analyst-Intern_JR105125",
       "workday:jmfamily:/job/Florida---Deerfield-Beach/Data-Engineer-Intern_JR105120",
       "workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105158"
      ],
-     "count": 3
+     "count": 4
     }
    }
   },
@@ -3136,10 +3146,11 @@
     "Summer 2027": {
      "first_posted": "2026-09-14",
      "role_ids": [
+      "workday:labcorp:/job/Durham-NC/Co-op---Full-Stack-Life-Sciences-Engineer_2639083",
       "workday:labcorp:/job/Durham-NC/Intern---Network-Infrastructure---Automation-Engineering_2632795",
       "workday:labcorp:/job/Durham-NC/Intern---Software-Developer_2632330"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -3600,9 +3611,10 @@
       "workday:motorolasolutions:/job/Plantation-FL/Software-Engineering-Intern---Summer-2027_R69136",
       "workday:motorolasolutions:/job/Plantation-FL/XMLNAME-2027-Software-Engineering-Summer-Internship_R68125",
       "workday:motorolasolutions:/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782",
+      "workday:motorolasolutions:/job/Virginia-Remote-Work/Software-Engineer-Cybersecurity-Services---2027-Summer-Internship_R69250",
       "workday:motorolasolutions:/job/Westminster-CO/Software-Engineer---Summer-2027-Internship_R68997"
      ],
-     "count": 12
+     "count": 13
     }
    }
   },
@@ -4033,6 +4045,18 @@
      "first_posted": "2026-09-09",
      "role_ids": [
       "greenhouse:pacificfusion:4398373009"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "paretohealth": {
+   "name": "ParetoHealth",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-02",
+     "role_ids": [
+      "greenhouse:paretocaptiveservicesllc:4726117006"
      ],
      "count": 1
     }
@@ -4919,10 +4943,13 @@
       "workday:snc:/job/Lone-Tree-CO/Software-Engineer-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031098",
       "workday:snc:/job/Lone-Tree-CO/Software-Engineering-Intern--Summer-2027-_R0030757",
       "workday:snc:/job/Plano-TX/Software-Engineering-Intern--Summer-2027-_R0030758",
+      "workday:snc:/job/Southern-Pines-NC/DevOps-Engineer-Intern--Summer-2027-_R0031238-1",
+      "workday:snc:/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031229",
+      "workday:snc:/job/Southern-Pines-NC/Software-Engineer-Intern--Summer-2027-_R0031230",
       "workday:snc:/job/Southern-Pines-NC/Software-Engineering-Intern--Summer-2027-_R0030759",
       "workday:snc:/job/Sparks-NV/Software-Engineering-Intern--Summer-2027-_R0030760"
      ],
-     "count": 8
+     "count": 11
     },
     "Fall 2026": {
      "first_posted": "2026-09-23",
@@ -5235,10 +5262,12 @@
      "first_posted": "2026-10-15",
      "role_ids": [
       "workday:tmobile:/job/Bellevue-Washington/Summer-2027-Software-Engineering-Intern_REQ368322",
+      "workday:tmobile:/job/New-York-New-York/Summer-2027-Software-Engineering-Internship_REQ380886",
       "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380484",
-      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441"
+      "workday:tmobile:/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441",
+      "workday:tmobile:/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882"
      ],
-     "count": 3
+     "count": 5
     }
    }
   },
@@ -5401,6 +5430,18 @@
       "workday:thrivent:/job/Remote-Minnesota/Associate-Software-Engineer---Sophomore-Intern-Summer-2027_REQ-48457"
      ],
      "count": 2
+    }
+   }
+  },
+  "tiaa": {
+   "name": "TIAA",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-02",
+     "role_ids": [
+      "workday:tiaa:/job/New-York-NY---730-Third-Avenue/XMLNAME-2027-Intern--Energy-Infrastructure-Credit_R261000336-1"
+     ],
+     "count": 1
     }
    }
   },
@@ -6057,9 +6098,11 @@
     "Summer 2027": {
      "first_posted": "2026-10-19",
      "role_ids": [
-      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103625"
+      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632",
+      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103625",
+      "workday:zebra:/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626"
      ],
-     "count": 1
+     "count": 3
     }
    }
   },
@@ -6101,5 +6144,5 @@
    }
   }
  },
- "updated_at": "2026-11-02T10:12:40Z"
+ "updated_at": "2026-11-02T20:32:10Z"
 }
