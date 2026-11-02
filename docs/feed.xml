@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-02T02:40:31Z</updated>
+  <updated>2026-11-02T10:12:40Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:roku:8258241</id>
+    <title>Roku: SW Engineer Intern, AI Engineering</title>
+    <link href="https://www.weareroku.com/jobs/8258241?gh_jid=8258241"/>
+    <updated>2026-11-02T10:12:40Z</updated>
+    <category term="Fall 2027"/>
+    <summary>Fall 2027 · Data &amp; ML/AI · San Jose, California · Python, LLMs · status: closed · H-1B track record: ~283 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:knowbe4:8919280002</id>
     <title>KnowBe4: Software Engineer Summer Internship</title>
@@ -798,13 +806,5 @@
     <updated>2026-10-28T15:43:42Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · IL - Oak Brook · $22/hr · Python, C#, JavaScript, SQL, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:allegion:/job/Golden-CO/Summer-Intern---Software-Engineering---Quality-Assurance_JR37472-1</id>
-    <title>Allegion: Summer Intern – Software Engineering – Quality Assurance</title>
-    <link href="https://allegion.wd5.myworkdayjobs.com/careers/job/Golden-CO/Summer-Intern---Software-Engineering---Quality-Assurance_JR37472-1"/>
-    <updated>2026-10-28T15:43:42Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Golden, CO · $25–$26/hr · Python, C#, AWS, Azure, Git</summary>
   </entry>
 </feed>
