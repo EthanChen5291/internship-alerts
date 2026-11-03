@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-03T10:20:34Z",
- "data_as_of": "2026-11-03T10:20:34Z",
- "rendered_at": "2026-11-03T10:20:34Z",
+ "generated_at": "2026-11-03T18:01:05Z",
+ "data_as_of": "2026-11-03T18:01:05Z",
+ "rendered_at": "2026-11-03T18:01:05Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -4652,7 +4652,7 @@
    "expected": "2026-10-23",
    "days_until": -11,
    "status": "open",
-   "url": "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878",
+   "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Austin-TX/Software-Engineering-Intern_2642004-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5019,6 +5019,44 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-11-02"
+   }
+  },
+  {
+   "company": "AstraZeneca",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-03",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Gaithersburg---MD/US-Medical-Affairs--AI---Knowledge-Experience-Intern_R-263260",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-03"
+   }
+  },
+  {
+   "company": "Mosaic",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-03",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Artificial-Intelligence-Co-Op-Intern---Summer-2027_65420",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-03"
    }
   },
   {
@@ -8953,5 +8991,5 @@
    }
   }
  ],
- "count": 471
+ "count": 473
 }
