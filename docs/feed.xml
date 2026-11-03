@@ -5,8 +5,56 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-03T02:51:41Z</updated>
+  <updated>2026-11-03T10:20:34Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:kla:/job/Austin-TX/Software-Engineering-Intern_2642004-1</id>
+    <title>KLA: Software Engineering Intern</title>
+    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Austin-TX/Software-Engineering-Intern_2642004-1"/>
+    <updated>2026-11-03T10:20:34Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Austin, TX · C# · H-1B track record: ~369 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:InformaGroupPlc:744000159321820</id>
+    <title>Informa Group: Data Analyst Internship</title>
+    <link href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000159321820"/>
+    <updated>2026-11-03T10:20:33Z</updated>
+    <category term="Winter 2027"/>
+    <summary>Winter 2027 · Data &amp; ML/AI · Amsterdam, NH, International (NL) (Hybrid) · Python, SQL, Tableau · status: closed</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:samsungsemiconductor:8163994003</id>
+    <title>Samsung: Intern, AI Application Engineer</title>
+    <link href="https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8163994003"/>
+    <updated>2026-11-03T02:51:41Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Folsom, California, United States · Python, PyTorch, Pandas, LLMs, Kubernetes</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:WellmarkInc:744000159260670</id>
+    <title>Wellmark: Software Engineer Internship – AI Platform Team</title>
+    <link href="https://jobs.smartrecruiters.com/WellmarkInc/744000159260670"/>
+    <updated>2026-11-03T02:51:41Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Des Moines, IA, United States (Hybrid) · Python, Java, C++, C#, TypeScript · H-1B track record: ~15 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Grad-Intern_R017101</id>
+    <title>The Aerospace Corporation: 2027 Software Engineering Grad Intern 🇺🇸</title>
+    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Grad-Intern_R017101"/>
+    <updated>2026-11-03T02:51:41Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Undergrad-Intern_R017102</id>
+    <title>The Aerospace Corporation: 2027 Software Engineering Undergrad Intern 🇺🇸</title>
+    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Undergrad-Intern_R017102"/>
+    <updated>2026-11-03T02:51:41Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:labcorp:/job/Durham-NC/Co-op---Agentic-AI-Developer_2639201-1</id>
     <title>LabCorp: Co-op - Agentic AI Developer 🛂</title>
@@ -30,38 +78,6 @@
     <updated>2026-11-03T02:51:41Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · United States-Arizona-Chandler · $18.5–$33.5/hr · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:samsungsemiconductor:8163994003</id>
-    <title>Samsung: Intern, AI Application Engineer</title>
-    <link href="https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8163994003"/>
-    <updated>2026-11-03T02:51:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Folsom, California, United States · Python, PyTorch, Pandas, LLMs, Kubernetes</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Undergrad-Intern_R017102</id>
-    <title>The Aerospace Corporation: 2027 Software Engineering Undergrad Intern 🇺🇸</title>
-    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Undergrad-Intern_R017102"/>
-    <updated>2026-11-03T02:51:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:aero:/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Grad-Intern_R017101</id>
-    <title>The Aerospace Corporation: 2027 Software Engineering Grad Intern 🇺🇸</title>
-    <link href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Engineering-Grad-Intern_R017101"/>
-    <updated>2026-11-03T02:51:41Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · El Segundo, CA · Python, Java, C++ · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:WellmarkInc:744000159260670</id>
-    <title>Wellmark: Software Engineer Internship – AI Platform Team</title>
-    <link href="https://jobs.smartrecruiters.com/WellmarkInc/744000159260670"/>
-    <updated>2026-11-03T02:51:41Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Des Moines, IA, United States (Hybrid) · Python, Java, C++, C#, TypeScript · H-1B track record: ~15 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:zebra:/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----AI_JR103639</id>
@@ -283,9 +299,9 @@
     <id>urn:intern-engine:greenhouse:knowbe4:8919280002</id>
     <title>KnowBe4: Software Engineer Summer Internship</title>
     <link href="https://job-boards.greenhouse.io/knowbe4/jobs/8919280002"/>
-    <updated>2026-11-02T02:40:31Z</updated>
+    <updated>2026-11-03T10:20:34Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Clearwater, Florida · Python, SQL</summary>
+    <summary>Summer 2027 · Software · Clearwater, Florida · Python, SQL · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:pretiuminternships2027:8868243002</id>
@@ -790,21 +806,5 @@
     <updated>2026-10-29T13:55:03Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Florida - Deerfield Beach</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:kla:/job/Milpitas-CA/Software-Engineer-Intern_2642721-1</id>
-    <title>KLA: Software Engineer Intern</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineer-Intern_2642721-1"/>
-    <updated>2026-10-29T13:55:03Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Milpitas, CA · Python, Java, C++, C# · H-1B track record: ~369 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:sonos:/job/Boston-MA/Software-Partner-Engineering-Intern--Boston-_R2886-1</id>
-    <title>Sonos: Software Partner Engineering Intern (Boston) 🛂</title>
-    <link href="https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Software-Partner-Engineering-Intern--Boston-_R2886-1"/>
-    <updated>2026-10-29T13:55:03Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Boston, MA · C++, Swift, Kotlin, Git · sponsorship: no-sponsorship · H-1B track record: ~54 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

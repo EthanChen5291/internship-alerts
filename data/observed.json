@@ -3111,9 +3111,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-23",
      "role_ids": [
+      "workday:kla:/job/Austin-TX/Software-Engineering-Intern_2642004-1",
       "workday:kla:/job/Milpitas-CA/Software-Engineer-Intern--C----Linux----Summer-2027_2641878"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -6150,5 +6151,5 @@
    }
   }
  },
- "updated_at": "2026-11-03T02:51:41Z"
+ "updated_at": "2026-11-03T10:20:34Z"
 }
