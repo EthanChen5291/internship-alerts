@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-03T18:01:05Z",
- "data_as_of": "2026-11-03T18:01:05Z",
- "rendered_at": "2026-11-03T18:01:05Z",
+ "generated_at": "2026-11-03T23:28:36Z",
+ "data_as_of": "2026-11-03T23:28:36Z",
+ "rendered_at": "2026-11-03T23:28:36Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2714,7 +2714,7 @@
    "expected": "2026-09-11",
    "days_until": -53,
    "status": "open",
-   "url": "https://jobs.ashbyhq.com/megazone/e2889469-cf20-4227-bf24-2a6e885f8dca",
+   "url": "https://jobs.ashbyhq.com/megazone/fde09888-986f-4207-88fe-3ff5b921a1fa",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4177,7 +4177,7 @@
    "expected": "2026-10-09",
    "days_until": -25,
    "status": "open",
-   "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200",
+   "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Cybersecurity-Engineer-Intern_JR-0110809",
    "note": "fall early-career opening",
    "provenance": {
     "type": "engine-observed",
@@ -4756,6 +4756,25 @@
    }
   },
   {
+   "company": "Commonwealth Fusion Systems",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-27",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-27",
+   "days_until": -7,
+   "status": "open",
+   "url": "https://jobs.lever.co/cfsenergy/f71bb176-75b9-4a30-8b2a-e3078b45505d",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-27"
+   }
+  },
+  {
    "company": "Great American Insurance Company",
    "last_cycle_posted": "",
    "posted_on": "2026-10-27",
@@ -5052,6 +5071,25 @@
    "days_until": 0,
    "status": "open",
    "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Artificial-Intelligence-Co-Op-Intern---Summer-2027_65420",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-03"
+   }
+  },
+  {
+   "company": "Nex",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-03",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-03",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/nex/jobs/5421056008",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -8934,25 +8972,6 @@
    }
   },
   {
-   "company": "Commonwealth Fusion Systems",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-27",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-27",
-   "days_until": -7,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-27"
-   }
-  },
-  {
    "company": "Path Robotics",
    "last_cycle_posted": "",
    "posted_on": "2026-10-29",
@@ -8991,5 +9010,5 @@
    }
   }
  ],
- "count": 473
+ "count": 474
 }
