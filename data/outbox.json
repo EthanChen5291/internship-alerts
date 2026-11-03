@@ -1,16 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:kla:/job/Austin-TX/Software-Engineering-Intern_2642004-1",
-      "workday:lseg:/job/New-York-City-United-States/Intern---Software-Engineer_R0124266-1"
-    ],
-    "telegram": [
-      "workday:kla:/job/Austin-TX/Software-Engineering-Intern_2642004-1",
-      "workday:lseg:/job/New-York-City-United-States/Intern---Software-Engineer_R0124266-1"
-    ],
-    "personal_email": [
-      "workday:kla:/job/Austin-TX/Software-Engineering-Intern_2642004-1",
-      "workday:lseg:/job/New-York-City-United-States/Intern---Software-Engineer_R0124266-1"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
