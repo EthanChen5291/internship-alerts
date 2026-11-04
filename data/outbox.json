@@ -1,22 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "smartrecruiters:LLNL:3743990016610216",
-      "smartrecruiters:LLNL:3743990016610186",
-      "smartrecruiters:LLNL:3743990016610101",
-      "greenhouse:samsungresearchamericainternship:8927216002"
-    ],
-    "telegram": [
-      "smartrecruiters:LLNL:3743990016610216",
-      "smartrecruiters:LLNL:3743990016610186",
-      "smartrecruiters:LLNL:3743990016610101",
-      "greenhouse:samsungresearchamericainternship:8927216002"
-    ],
-    "personal_email": [
-      "smartrecruiters:LLNL:3743990016610216",
-      "smartrecruiters:LLNL:3743990016610186",
-      "smartrecruiters:LLNL:3743990016610101",
-      "greenhouse:samsungresearchamericainternship:8927216002"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
