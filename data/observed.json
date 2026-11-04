@@ -3188,9 +3188,12 @@
       "smartrecruiters:LLNL:3743990016165496",
       "smartrecruiters:LLNL:3743990016165506",
       "smartrecruiters:LLNL:3743990016165586",
-      "smartrecruiters:LLNL:3743990016165636"
+      "smartrecruiters:LLNL:3743990016165636",
+      "smartrecruiters:LLNL:3743990016610101",
+      "smartrecruiters:LLNL:3743990016610186",
+      "smartrecruiters:LLNL:3743990016610216"
      ],
-     "count": 7
+     "count": 10
     }
    }
   },
@@ -4837,6 +4840,13 @@
       "greenhouse:samsungresearchamericainternship:8541339002",
       "greenhouse:samsungresearchamericainternship:8560657002"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-11-03",
+     "role_ids": [
+      "greenhouse:samsungresearchamericainternship:8927216002"
+     ],
+     "count": 1
     }
    }
   },
@@ -6207,5 +6217,5 @@
    }
   }
  },
- "updated_at": "2026-11-03T23:28:36Z"
+ "updated_at": "2026-11-04T03:25:53Z"
 }
