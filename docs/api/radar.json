@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-05T00:37:15Z",
- "data_as_of": "2026-11-05T00:37:15Z",
- "rendered_at": "2026-11-05T00:37:15Z",
+ "generated_at": "2026-11-05T07:32:49Z",
+ "data_as_of": "2026-11-05T07:32:49Z",
+ "rendered_at": "2026-11-05T07:32:49Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2818,25 +2818,6 @@
    }
   },
   {
-   "company": "CoStar Group",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-14",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-14",
-   "days_until": -52,
-   "status": "open",
-   "url": "https://costar.wd1.myworkdayjobs.com/Costar_Campus/job/Sunnyvale-US/Embedded-Software-Engineering-Intern_R39950",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-14"
-   }
-  },
-  {
    "company": "DoorDash",
    "last_cycle_posted": "",
    "posted_on": "2026-09-14",
@@ -4984,25 +4965,6 @@
    }
   },
   {
-   "company": "TIAA",
-   "last_cycle_posted": "",
-   "posted_on": "2026-11-02",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-11-02",
-   "days_until": -3,
-   "status": "open",
-   "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/New-York-NY---730-Third-Avenue/XMLNAME-2027-Intern--Energy-Infrastructure-Credit_R261000336-1",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-11-02"
-   }
-  },
-  {
    "company": "AstraZeneca",
    "last_cycle_posted": "",
    "posted_on": "2026-11-03",
@@ -5108,7 +5070,7 @@
    "expected": "2026-11-04",
    "days_until": -1,
    "status": "open",
-   "url": "https://jobs.lever.co/tri/e7cc38d2-2b08-4349-b322-4d56cac9fb1b",
+   "url": "https://jobs.lever.co/tri/d4184c04-b963-489a-9a0b-91bc57d6267e",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -8288,6 +8250,25 @@
    }
   },
   {
+   "company": "CoStar Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-14",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-14",
+   "days_until": -52,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-14"
+   }
+  },
+  {
    "company": "Flagship Pioneering",
    "last_cycle_posted": "",
    "posted_on": "2026-09-14",
@@ -9083,6 +9064,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-11-01"
+   }
+  },
+  {
+   "company": "TIAA",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-02",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-02",
+   "days_until": -3,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-02"
    }
   }
  ],
