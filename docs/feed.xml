@@ -5,8 +5,96 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-04T19:09:29Z</updated>
+  <updated>2026-11-05T00:37:15Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com:261245</id>
+    <title>GM financial: Intern - Cloud Engineer</title>
+    <link href="https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261245"/>
+    <updated>2026-11-05T00:37:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Irving, TX, United States · LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:tri:e7cc38d2-2b08-4349-b322-4d56cac9fb1b</id>
+    <title>Toyota Research Institute: Automated Driving Advanced Development Intern, Machine Learning Research</title>
+    <link href="https://jobs.lever.co/tri/e7cc38d2-2b08-4349-b322-4d56cac9fb1b"/>
+    <updated>2026-11-05T00:37:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Los Altos, CA · $65/hr · Python, PyTorch, CUDA · H-1B track record: ~10 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:tri:d4184c04-b963-489a-9a0b-91bc57d6267e</id>
+    <title>Toyota Research Institute: Human-Centered AI Research Intern, Human Language Models</title>
+    <link href="https://jobs.lever.co/tri/d4184c04-b963-489a-9a0b-91bc57d6267e"/>
+    <updated>2026-11-05T00:37:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Los Altos, CA · $65/hr · Python, PyTorch, LLMs · H-1B track record: ~10 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:asml:/job/San-Diego-CA-USA/Internship----Machine-Learning-and-image-based-EUV-system-setup_J-00356567</id>
+    <title>ASML: Internship -  Machine Learning and image-based EUV system setup</title>
+    <link href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship----Machine-Learning-and-image-based-EUV-system-setup_J-00356567"/>
+    <updated>2026-11-05T00:37:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · San Diego, CA, USA · Python</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:bah:/job/McLean-VA/University--AI-RAN-Telecommunications-Engineer-Intern_R0253024</id>
+    <title>Booz Allen: University, AI RAN Telecommunications Engineer Intern</title>
+    <link href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University--AI-RAN-Telecommunications-Engineer-Intern_R0253024"/>
+    <updated>2026-11-05T00:37:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · McLean, VA · $108k/yr · Python, C++, MATLAB</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:boseallaboutme:/job/US-MA---Framingham/DSP-ML-Research-Engineer-Intern---Summer-2027_R29371</id>
+    <title>Bose: DSP/ML Research Engineer Intern | Summer 2027</title>
+    <link href="https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/DSP-ML-Research-Engineer-Intern---Summer-2027_R29371"/>
+    <updated>2026-11-05T00:37:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · US, MA - Framingham · $40–$51.25/hr · Python, C++, Bash, MATLAB, PyTorch · H-1B track record: ~61 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:caci:/job/Rochester-NY-US/Software-Engineering-Co-op-Intern---Spring-2027_334160</id>
+    <title>CACI: Software Engineering Co-op/Intern - Summer 2027</title>
+    <link href="https://caci.wd1.myworkdayjobs.com/external/job/Rochester-NY-US/Software-Engineering-Co-op-Intern---Spring-2027_334160"/>
+    <updated>2026-11-05T00:37:14Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Rochester, NY, US · Python, C++, C#, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:cbrands:/job/Rochester-New-York/Intern--AI---Automation-Engineering_R-41655</id>
+    <title>Constellation Brands: Intern, AI &amp; Automation Engineering</title>
+    <link href="https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--AI---Automation-Engineering_R-41655"/>
+    <updated>2026-11-05T00:37:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Rochester, New York · Python, SQL, LLMs</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:lifefitness:/job/Schaumburg-IL/Android-Software-Intern_JR-025277</id>
+    <title>Life Fitness: Android Software Intern</title>
+    <link href="https://lifefitness.wd1.myworkdayjobs.com/searchLFN/job/Schaumburg-IL/Android-Software-Intern_JR-025277"/>
+    <updated>2026-11-05T00:37:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Schaumburg, IL · $24–$27/hr · Java, Kotlin, Linux · H-1B track record: ~12 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:lifefitness:/job/Schaumburg-IL/Embedded-Software-Intern_JR-025276</id>
+    <title>Life Fitness: Embedded Software Intern</title>
+    <link href="https://lifefitness.wd1.myworkdayjobs.com/searchLFN/job/Schaumburg-IL/Embedded-Software-Intern_JR-025276"/>
+    <updated>2026-11-05T00:37:14Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Schaumburg, IL · $24–$27/hr · H-1B track record: ~12 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:vaticlabs:7205954</id>
+    <title>Vatic Investments: AI Research Internship (Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/vaticlabs/jobs/7205954"/>
+    <updated>2026-11-04T19:09:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · New York · Python, C++, Linux</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:AECOM2:744000159662579</id>
     <title>AECOM: Internship and Entry-Level Graduate Opportunities - California State University, Sacramento Fall 2026 Engineering &amp; Computer Science Career Fair</title>
@@ -14,6 +102,14 @@
     <updated>2026-11-04T19:09:29Z</updated>
     <category term="Fall 2026"/>
     <summary>Fall 2026 · Software · Sacramento, CA, United States (Hybrid)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:Nexthink:744000159632929</id>
+    <title>Nexthink: Software Engineer (Intern)</title>
+    <link href="https://jobs.smartrecruiters.com/Nexthink/744000159632929"/>
+    <updated>2026-11-04T19:09:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Madrid, MD, International (ES) (Hybrid) · Java, Kubernetes, Kafka</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:borgwarner:/job/Auburn-Hills---Michigan---USA/Software-Engineering-Intern--Year-Round-_R2026-2448-1</id>
@@ -40,12 +136,12 @@
     <summary>Not stated · Data &amp; ML/AI · OR - Gresham · Python, Java, C#, SQL, Tableau · H-1B track record: ~143 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:Nexthink:744000159632929</id>
-    <title>Nexthink: Software Engineer (Intern)</title>
-    <link href="https://jobs.smartrecruiters.com/Nexthink/744000159632929"/>
+    <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178</id>
+    <title>Northrop Grumman: 2027 DevOps Software Engineering Intern - Roy UT 🇺🇸</title>
+    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178"/>
     <updated>2026-11-04T19:09:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Madrid, MD, International (ES) (Hybrid) · Java, Kubernetes, Kafka</summary>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · Kubernetes, Git · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10259181</id>
@@ -64,14 +160,6 @@
     <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · sponsorship: citizens-only</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178</id>
-    <title>Northrop Grumman: 2027 DevOps Software Engineering Intern - Roy UT 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178"/>
-    <updated>2026-11-04T19:09:29Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · Kubernetes, Git · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:saabusa:/job/East-Syracuse-NY-Collamer/Co-Op--Information-Security--Spring---Summer-2027-_R-03409-1</id>
     <title>Saab: Co-Op, Information Security (Spring - Summer 2027) 🇺🇸</title>
     <link href="https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Co-Op--Information-Security--Spring---Summer-2027-_R-03409-1"/>
@@ -86,14 +174,6 @@
     <updated>2026-11-04T19:09:29Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Andover, MA · Python, PyTorch, TensorFlow, Computer Vision, Git · H-1B track record: ~77 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:vaticlabs:7205954</id>
-    <title>Vatic Investments: AI Research Internship (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/vaticlabs/jobs/7205954"/>
-    <updated>2026-11-04T19:09:29Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · New York · Python, C++, Linux</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:LLNL:3743990016610426</id>
@@ -467,9 +547,9 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Arizona-Chandler/XMLNAME-2027-Engineering-Intern--Software-Mission-Assurance-Quality----Chandler-AZ_R10258848</id>
     <title>Northrop Grumman: 2027 Engineering Intern (Software/Mission Assurance/Quality) - Chandler AZ 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Arizona-Chandler/XMLNAME-2027-Engineering-Intern--Software-Mission-Assurance-Quality----Chandler-AZ_R10258848"/>
-    <updated>2026-11-03T02:51:41Z</updated>
+    <updated>2026-11-05T00:18:06Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Arizona-Chandler · $18.5–$33.5/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-Arizona-Chandler · $18.5–$33.5/hr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:zebra:/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----AI_JR103639</id>
@@ -726,85 +806,5 @@
     <updated>2026-10-31T13:53:10Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:tevora:5acd8859-ba7f-4996-9503-13a231376758</id>
-    <title>Tevora: Cybersecurity Internship Summer 2027 - Threat</title>
-    <link href="https://jobs.lever.co/tevora/5acd8859-ba7f-4996-9503-13a231376758"/>
-    <updated>2026-10-31T13:53:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:tevora:648630ae-0dce-4b80-af2b-911c2c8f159c</id>
-    <title>Tevora: Cybersecurity Internship Summer 2027 - International Organization for Standardization (ISO)</title>
-    <link href="https://jobs.lever.co/tevora/648630ae-0dce-4b80-af2b-911c2c8f159c"/>
-    <updated>2026-10-31T13:53:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:tevora:7b1010a9-9379-459a-89f8-222af2fe7721</id>
-    <title>Tevora: Cybersecurity Internship Summer 2027 - Payments</title>
-    <link href="https://jobs.lever.co/tevora/7b1010a9-9379-459a-89f8-222af2fe7721"/>
-    <updated>2026-10-31T13:53:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Fairfax, VA · 27 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:tevora:a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0</id>
-    <title>Tevora: Cybersecurity Internship Summer 2027 - Healthcare</title>
-    <link href="https://jobs.lever.co/tevora/a18eeda5-4b39-4e8f-b3b3-e4d80e3601b0"/>
-    <updated>2026-10-31T13:53:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:tevora:facb1a9a-67b3-42ca-90f1-65d934d9b68d</id>
-    <title>Tevora: Cybersecurity Internship Summer 2027 - Solutions</title>
-    <link href="https://jobs.lever.co/tevora/facb1a9a-67b3-42ca-90f1-65d934d9b68d"/>
-    <updated>2026-10-31T13:53:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:tevora:fb3b174b-07ac-410d-9c44-53c70793635c</id>
-    <title>Tevora: Cybersecurity Internship Summer 2027 - Enterprise Risk Management</title>
-    <link href="https://jobs.lever.co/tevora/fb3b174b-07ac-410d-9c44-53c70793635c"/>
-    <updated>2026-10-31T13:53:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Irvine, CA · 27 USD/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:gardacp:6239821004</id>
-    <title>Garda Capital Partners: Infrastructure Engineer Intern</title>
-    <link href="https://job-boards.greenhouse.io/gardacp/jobs/6239821004"/>
-    <updated>2026-10-30T21:42:02Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Wayzata, Minnesota, United States · Python, AWS, Azure, Terraform</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:lilasciences:4469152009</id>
-    <title>Lila Sciences: Co-Op, AI-Driven Equation Discovery</title>
-    <link href="https://job-boards.greenhouse.io/lilasciences/jobs/4469152009"/>
-    <updated>2026-10-30T21:42:02Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Cambridge, MA USA; San Francisco, CA USA · Python, PyTorch, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:thenewyorktimes:4748483005</id>
-    <title>The New York Times: Backend Engineering Intern, Wirecutter</title>
-    <link href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4748483005"/>
-    <updated>2026-10-30T21:42:02Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · New York, NY · LLMs, AWS, Kubernetes, Git · H-1B track record: ~52 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:lever:tri:f8c9ed26-4574-4ad2-954b-b7f5ec365495</id>
-    <title>Toyota Research Institute: Machine Learning/Agentic AI Intern</title>
-    <link href="https://jobs.lever.co/tri/f8c9ed26-4574-4ad2-954b-b7f5ec365495"/>
-    <updated>2026-10-30T21:42:02Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Cambridge, MA · $58/hr · H-1B track record: ~10 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
