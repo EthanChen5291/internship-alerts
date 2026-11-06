@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-06T10:05:50Z",
- "data_as_of": "2026-11-06T10:05:50Z",
- "rendered_at": "2026-11-06T10:05:50Z",
+ "generated_at": "2026-11-06T17:42:02Z",
+ "data_as_of": "2026-11-06T17:42:02Z",
+ "rendered_at": "2026-11-06T17:42:02Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3170,7 +3170,7 @@
    "expected": "2026-09-17",
    "days_until": -50,
    "status": "open",
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF089879W-1",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Business-Strategy-Intern--Data-and-AI-Team---Summer-2027_REF089884W-2",
    "note": "late-summer opening",
    "provenance": {
     "type": "engine-observed",
@@ -5076,6 +5076,44 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-11-05"
+   }
+  },
+  {
+   "company": "Galaxy",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-06",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-06",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6250002004",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-06"
+   }
+  },
+  {
+   "company": "Match Group",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-06",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-06",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jobs.lever.co/matchgroup/f0e29495-4dd2-4bc5-9ceb-31d36f0b5a9d",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-06"
    }
   },
   {
@@ -9181,5 +9219,5 @@
    }
   }
  ],
- "count": 483
+ "count": 485
 }
