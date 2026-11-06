@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-05T22:14:44Z</updated>
+  <updated>2026-11-06T02:34:59Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:lever:zoox:7b20b929-d9a4-4995-a472-16cd4925a877</id>
+    <title>Zoox: Software Engineer Intern, Autonomy Software [Summer 2027]</title>
+    <link href="https://jobs.lever.co/zoox/7b20b929-d9a4-4995-a472-16cd4925a877"/>
+    <updated>2026-11-06T02:34:59Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Foster City, CA · Python, C++, PyTorch, TensorFlow, Computer Vision · H-1B track record: ~280 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:zoox:88f6cb68-1534-44af-80db-10e43c203520</id>
+    <title>Zoox: Software Engineer Intern, Software Platforms &amp; Product [Summer 2027]</title>
+    <link href="https://jobs.lever.co/zoox/88f6cb68-1534-44af-80db-10e43c203520"/>
+    <updated>2026-11-06T02:34:59Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Foster City, CA · Java, C++, Swift, Kotlin, Linux · H-1B track record: ~280 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:zoox:8b32157b-ab44-4078-85ea-1d8d7b747a20</id>
+    <title>Zoox: Software Engineer Intern, Software Systems [Summer 2027]</title>
+    <link href="https://jobs.lever.co/zoox/8b32157b-ab44-4078-85ea-1d8d7b747a20"/>
+    <updated>2026-11-06T02:34:59Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Foster City, CA · Python, C++, Git · H-1B track record: ~280 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:hearst:4466334009</id>
+    <title>Hearst: Software Engineering Intern</title>
+    <link href="https://job-boards.greenhouse.io/hearst/jobs/4466334009"/>
+    <updated>2026-11-05T22:14:44Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Carmel, IN, United States · AWS, Azure</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:lever:palantir:cd64bcd4-50bb-4aeb-a135-4e0487ffd312</id>
     <title>Palantir: Software Engineer, Internship - Sovereign AI Systems</title>
@@ -22,6 +54,14 @@
     <updated>2026-11-05T22:14:44Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Dallas, Texas · 37–97 USD/hr · Python, Java, C++, JavaScript, PyTorch</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000159947792</id>
+    <title>NBCUniversal: NBC Sports Bay Area &amp; California - Programming Intern - Summer 2027 🛂</title>
+    <link href="https://jobs.smartrecruiters.com/NBCUniversal3/744000159947792"/>
+    <updated>2026-11-05T22:14:44Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Francisco, CALIFORNIA, United States (Hybrid) · $19.61/hr · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:borgwarner:/job/Auburn-Hills---Michigan---USA/Software-Test-Intern_R2026-4385-1</id>
@@ -40,30 +80,6 @@
     <summary>Not stated · Software · Lawrence, MA, USA</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:greenhouse:hearst:4466334009</id>
-    <title>Hearst: Software Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/hearst/jobs/4466334009"/>
-    <updated>2026-11-05T22:14:44Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Carmel, IN, United States · AWS, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Analyst-Intern_JR105187</id>
-    <title>JM Family: Software Analyst Intern</title>
-    <link href="https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Software-Analyst-Intern_JR105187"/>
-    <updated>2026-11-05T22:14:44Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Florida - Deerfield Beach · Python, HTML/CSS, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ilitch:/job/Detroit-MI/Intern--Cyber-Security_R9669</id>
-    <title>Little Caesars Enterprises: Intern, Cyber Security</title>
-    <link href="https://ilitch.wd5.myworkdayjobs.com/lc/job/Detroit-MI/Intern--Cyber-Security_R9669"/>
-    <updated>2026-11-05T22:14:44Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Detroit, MI</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:ilitch:/job/Detroit-MI/Intern--AI-IT_R9675</id>
     <title>Little Caesars Enterprises: Intern, AI IT</title>
     <link href="https://ilitch.wd5.myworkdayjobs.com/lc/job/Detroit-MI/Intern--AI-IT_R9675"/>
@@ -80,12 +96,12 @@
     <summary>Not stated · Security · Detroit, MI</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:ilitch:/job/Detroit-MI/Intern--Developer-IT_R9677</id>
-    <title>Little Caesars Enterprises: Intern, Developer IT</title>
-    <link href="https://ilitch.wd5.myworkdayjobs.com/lc/job/Detroit-MI/Intern--Developer-IT_R9677"/>
+    <id>urn:intern-engine:workday:ilitch:/job/Detroit-MI/Intern--Cyber-Security_R9669</id>
+    <title>Little Caesars Enterprises: Intern, Cyber Security</title>
+    <link href="https://ilitch.wd5.myworkdayjobs.com/lc/job/Detroit-MI/Intern--Cyber-Security_R9669"/>
     <updated>2026-11-05T22:14:44Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Detroit, MI</summary>
+    <summary>Not stated · Security · Detroit, MI</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ilitch:/job/Detroit-MI/Intern--Department-Cyber-IT_R9670</id>
@@ -96,20 +112,28 @@
     <summary>Not stated · Security · Detroit, MI</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:workday:ilitch:/job/Detroit-MI/Intern--Developer-IT_R9677</id>
+    <title>Little Caesars Enterprises: Intern, Developer IT</title>
+    <link href="https://ilitch.wd5.myworkdayjobs.com/lc/job/Detroit-MI/Intern--Developer-IT_R9677"/>
+    <updated>2026-11-05T22:14:44Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Detroit, MI</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:jmfamily:/job/Florida---Deerfield-Beach/Software-Analyst-Intern_JR105187</id>
+    <title>JM Family: Software Analyst Intern</title>
+    <link href="https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Software-Analyst-Intern_JR105187"/>
+    <updated>2026-11-05T22:14:44Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Florida - Deerfield Beach · Python, HTML/CSS, Azure</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:workday:markelcorp:/job/Woodland-Hills-CA/Markel-AI-Automation-Intern_R0024277</id>
     <title>Markel Group, Inc.: Markel AI Automation Intern 🛂</title>
     <link href="https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers/job/Woodland-Hills-CA/Markel-AI-Automation-Intern_R0024277"/>
     <updated>2026-11-05T22:14:44Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Woodland Hills CA · $24–$28.5/hr · Python, JavaScript, LLMs, Databricks · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000159947792</id>
-    <title>NBCUniversal: NBC Sports Bay Area &amp; California - Programming Intern - Summer 2027 🛂</title>
-    <link href="https://jobs.smartrecruiters.com/NBCUniversal3/744000159947792"/>
-    <updated>2026-11-05T22:14:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Francisco, CALIFORNIA, United States (Hybrid) · $19.61/hr · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:paypal:/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-Intern---Summer-2027_R0138581</id>
@@ -128,20 +152,20 @@
     <summary>Summer 2027 · Security · Atlanta, GA · Python, Linux · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:workday:westernalliancebank:/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14019</id>
-    <title>Western Alliance: Summer 2027 Internship - Dallas, TX - Platform Engineering</title>
-    <link href="https://wd5.myworkdaysite.com/recruiting/westernalliancebank/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14019"/>
-    <updated>2026-11-05T22:14:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>4 openings · Summer 2027 · Software · Dallas, TX</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:workday:westernalliancebank:/job/Columbus-OH/Summer-2027-Internship---Columbus--OH---Platform-Engineering_R14024</id>
     <title>Western Alliance: Summer 2027 Internship - Columbus, OH - Platform Engineering</title>
     <link href="https://wd5.myworkdaysite.com/recruiting/westernalliancebank/WAB/job/Columbus-OH/Summer-2027-Internship---Columbus--OH---Platform-Engineering_R14024"/>
     <updated>2026-11-05T22:14:44Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Columbus, OH</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:westernalliancebank:/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14019</id>
+    <title>Western Alliance: Summer 2027 Internship - Dallas, TX - Platform Engineering</title>
+    <link href="https://wd5.myworkdaysite.com/recruiting/westernalliancebank/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14019"/>
+    <updated>2026-11-05T22:14:44Z</updated>
+    <category term="Summer 2027"/>
+    <summary>4 openings · Summer 2027 · Software · Dallas, TX</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:lever:tri:d4184c04-b963-489a-9a0b-91bc57d6267e</id>
@@ -427,9 +451,9 @@
     <id>urn:intern-engine:lever:cfsenergy:f71bb176-75b9-4a30-8b2a-e3078b45505d</id>
     <title>Commonwealth Fusion Systems: Intern - Software Engineer - Summer 2027</title>
     <link href="https://jobs.lever.co/cfsenergy/f71bb176-75b9-4a30-8b2a-e3078b45505d"/>
-    <updated>2026-11-03T23:28:36Z</updated>
+    <updated>2026-11-06T02:34:59Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Devens, MA · 25–38 USD/hr · Python, C++, Go, Linux</summary>
+    <summary>Summer 2027 · Software · Devens, MA · 25–38 USD/hr · Python, C++, Go, Linux · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:asml:/job/San-Diego-CA-USA/Internship--Business-Systems-AI_J-00355737</id>
@@ -483,17 +507,17 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-California-Manhattan-Beach/XMLNAME-2027-Flight-Software-Engineer-Intern---Redondo-Beach-CA_R10259032</id>
     <title>Northrop Grumman: 2027 Flight Software Engineer Intern - Redondo Beach CA 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Manhattan-Beach/XMLNAME-2027-Flight-Software-Engineer-Intern---Redondo-Beach-CA_R10259032"/>
-    <updated>2026-11-03T23:28:36Z</updated>
+    <updated>2026-11-06T02:14:50Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-California-Manhattan Beach · $21.5–$33.5/hr · Python, Java, C++ · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-California-Manhattan Beach · $21.5–$33.5/hr · Python, Java, C++ · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-California-Redondo-Beach/XMLNAME-2027-Ground-Software-Engineer-Intern---Redondo-Beach-CA_R10259057</id>
     <title>Northrop Grumman: 2027 Ground Software Engineer Intern - Redondo Beach CA 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/XMLNAME-2027-Ground-Software-Engineer-Intern---Redondo-Beach-CA_R10259057"/>
-    <updated>2026-11-03T23:28:36Z</updated>
+    <updated>2026-11-06T02:14:50Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-California-Redondo Beach · $21.5–$33.5/hr · Python, Java, C++, Linux · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-California-Redondo Beach · $21.5–$33.5/hr · Python, Java, C++, Linux · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:tmobile:/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380652</id>
@@ -782,29 +806,5 @@
     <updated>2026-11-02T20:32:10Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Rochester, New York · Python, Java, TypeScript, JavaScript, React</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:entrust:/job/United-States---Shakopee-MN-GHQ/AI-Developer-Intern_R004397</id>
-    <title>Entrust: AI Developer Intern</title>
-    <link href="https://entrust.wd1.myworkdayjobs.com/entrustcareers/job/United-States---Shakopee-MN-GHQ/AI-Developer-Intern_R004397"/>
-    <updated>2026-11-02T20:32:10Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · United States - Shakopee, MN (GHQ) · $23/hr · LLMs, React, Node.js, Vue, GraphQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:jmfamily:/job/Florida---Deerfield-Beach/AI-Intern_JR105180</id>
-    <title>JM Family: AI Intern</title>
-    <link href="https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/AI-Intern_JR105180"/>
-    <updated>2026-11-02T20:32:10Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Florida - Deerfield Beach · Python, SQL</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:kla:/job/Totowa-NJ/Software-Engineer-Intern_2642151</id>
-    <title>KLA: Software Engineer Intern</title>
-    <link href="https://kla.wd1.myworkdayjobs.com/UR/job/Totowa-NJ/Software-Engineer-Intern_2642151"/>
-    <updated>2026-11-02T20:32:10Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Totowa, NJ · C++, SQL · H-1B track record: ~369 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
