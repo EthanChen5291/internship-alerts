@@ -5,7 +5,7 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-07T02:37:03Z</updated>
+  <updated>2026-11-07T09:26:00Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
     <id>urn:intern-engine:ashby:parspec:0a897c21-0df7-40ba-85f2-694bf6678504</id>
@@ -16,20 +16,20 @@
     <summary>Not stated · Data &amp; ML/AI · Hybrid - San Mateo, California</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:lever:zoox:0168ad29-2fd8-4c91-865c-b9fff8aa30c1</id>
-    <title>Zoox: AI Workflows &amp; Safety Decision Making Intern [2027]</title>
-    <link href="https://jobs.lever.co/zoox/0168ad29-2fd8-4c91-865c-b9fff8aa30c1"/>
-    <updated>2026-11-07T02:37:03Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Foster City, CA · Python, SQL, LLMs, Flask · H-1B track record: ~280 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
     <id>urn:intern-engine:greenhouse:vardaspace:8198267003</id>
     <title>Varda Space: Site Reliability Internship - Summer 2027 🇺🇸</title>
     <link href="https://job-boards.greenhouse.io/vardaspace/jobs/8198267003"/>
     <updated>2026-11-07T02:37:03Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Other · El Segundo, California, United States · Python, AWS, GCP, Azure, Kubernetes · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:zoox:0168ad29-2fd8-4c91-865c-b9fff8aa30c1</id>
+    <title>Zoox: AI Workflows &amp; Safety Decision Making Intern [2027]</title>
+    <link href="https://jobs.lever.co/zoox/0168ad29-2fd8-4c91-865c-b9fff8aa30c1"/>
+    <updated>2026-11-07T02:37:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Foster City, CA · Python, SQL, LLMs, Flask · H-1B track record: ~280 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:notion:27090d0f-07d3-419b-adaa-837b5e22f947</id>
@@ -563,25 +563,17 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178</id>
     <title>Northrop Grumman: 2027 DevOps Software Engineering Intern - Roy UT 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178"/>
-    <updated>2026-11-04T19:09:29Z</updated>
+    <updated>2026-11-07T09:09:57Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · Kubernetes, Git · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · Kubernetes, Git · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10259181</id>
     <title>Northrop Grumman: 2027 Software Engineering Intern - Roy UT 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10259181"/>
-    <updated>2026-11-04T19:09:29Z</updated>
+    <updated>2026-11-07T09:09:57Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · sponsorship: citizens-only</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Roy/XMLNAME-2027-Software-Test-Engineering-Intern---Roy-UT_R10259179</id>
-    <title>Northrop Grumman: 2027 Software Test Engineering Intern - Roy UT 🇺🇸</title>
-    <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Test-Engineering-Intern---Roy-UT_R10259179"/>
-    <updated>2026-11-04T19:09:29Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-Utah-Roy · $23–$29/hr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:saabusa:/job/East-Syracuse-NY-Collamer/Co-Op--Information-Security--Spring---Summer-2027-_R-03409-1</id>
@@ -627,17 +619,17 @@
     <id>urn:intern-engine:workday:ngc:/job/United-States-Maryland-Sykesville/XMLNAME-2027-S-W-Embedded-Engineering-Intern---Sykesville-MD_R10258553</id>
     <title>Northrop Grumman: 2027 S/W Embedded Engineering Intern – Sykesville MD 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Sykesville/XMLNAME-2027-S-W-Embedded-Engineering-Intern---Sykesville-MD_R10258553"/>
-    <updated>2026-11-04T11:49:30Z</updated>
+    <updated>2026-11-07T09:09:57Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · United States-Maryland-Sykesville · $20.5–$37.25/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Software · United States-Maryland-Sykesville · $20.5–$37.25/hr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:ngc:/job/United-States-Utah-Clearfield/XMLNAME-2027-Cybersecurity-Software-Engineering-Intern---Roy-UT_R10259177</id>
     <title>Northrop Grumman: 2027 Cybersecurity Software Engineering Intern - Roy UT 🇺🇸</title>
     <link href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Clearfield/XMLNAME-2027-Cybersecurity-Software-Engineering-Intern---Roy-UT_R10259177"/>
-    <updated>2026-11-04T11:49:30Z</updated>
+    <updated>2026-11-07T09:09:57Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · United States-Utah-Clearfield · $23–$29/hr · sponsorship: citizens-only</summary>
+    <summary>Summer 2027 · Security · United States-Utah-Clearfield · $23–$29/hr · sponsorship: citizens-only · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:samsungresearchamericainternship:8927216002</id>
@@ -806,5 +798,13 @@
     <updated>2026-11-03T23:28:36Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Madison, WI · Python, JavaScript, SQL, LLMs, Azure</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:onepot:5116ee20-adfa-4177-b120-e3f48354e7e8</id>
+    <title>onepot: Research Intern, Machine Learning</title>
+    <link href="https://jobs.ashbyhq.com/onepot/5116ee20-adfa-4177-b120-e3f48354e7e8"/>
+    <updated>2026-11-03T18:01:05Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · South San Francisco, CA · PyTorch, LLMs</summary>
   </entry>
 </feed>
