@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-06T22:41:30Z</updated>
+  <updated>2026-11-07T02:37:03Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:parspec:0a897c21-0df7-40ba-85f2-694bf6678504</id>
+    <title>Parspec: Applied AI Engineer Intern</title>
+    <link href="https://jobs.ashbyhq.com/parspec/0a897c21-0df7-40ba-85f2-694bf6678504"/>
+    <updated>2026-11-07T02:37:03Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Hybrid - San Mateo, California</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:lever:zoox:0168ad29-2fd8-4c91-865c-b9fff8aa30c1</id>
+    <title>Zoox: AI Workflows &amp; Safety Decision Making Intern [2027]</title>
+    <link href="https://jobs.lever.co/zoox/0168ad29-2fd8-4c91-865c-b9fff8aa30c1"/>
+    <updated>2026-11-07T02:37:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Foster City, CA · Python, SQL, LLMs, Flask · H-1B track record: ~280 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:vardaspace:8198267003</id>
+    <title>Varda Space: Site Reliability Internship - Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/vardaspace/jobs/8198267003"/>
+    <updated>2026-11-07T02:37:03Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Other · El Segundo, California, United States · Python, AWS, GCP, Azure, Kubernetes · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:ashby:notion:27090d0f-07d3-419b-adaa-837b5e22f947</id>
+    <title>Notion: Software Engineering Intern, iOS (Summer 2027)</title>
+    <link href="https://jobs.ashbyhq.com/notion/27090d0f-07d3-419b-adaa-837b5e22f947"/>
+    <updated>2026-11-06T22:41:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York, New York · $57/hr · Python, Rust, TypeScript, Swift, LLMs</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:notion:43ffba97-b64a-4c6a-ac13-c803253c9413</id>
     <title>Notion: Software Engineering Intern, Frontend (Summer 2027)</title>
@@ -16,12 +48,60 @@
     <summary>Summer 2027 · Software · New York, New York · $57/hr · TypeScript, LLMs, React</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:ashby:notion:27090d0f-07d3-419b-adaa-837b5e22f947</id>
-    <title>Notion: Software Engineering Intern, iOS (Summer 2027)</title>
-    <link href="https://jobs.ashbyhq.com/notion/27090d0f-07d3-419b-adaa-837b5e22f947"/>
+    <id>urn:intern-engine:greenhouse:lilasciences:4480337009</id>
+    <title>Lila Sciences: Co-op, AI for Protein Design</title>
+    <link href="https://job-boards.greenhouse.io/lilasciences/jobs/4480337009"/>
+    <updated>2026-11-06T22:41:30Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · San Francisco, CA USA · Python, PyTorch</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:thenewyorktimes:4751907005</id>
+    <title>The New York Times: Full-Stack Engineering Intern</title>
+    <link href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751907005"/>
     <updated>2026-11-06T22:41:30Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, New York · $57/hr · Python, Rust, TypeScript, Swift, LLMs</summary>
+    <summary>Summer 2027 · Software · New York, NY · $40/hr · Python, Java, JavaScript, Kotlin, Scala · H-1B track record: ~52 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:thenewyorktimes:4751909005</id>
+    <title>The New York Times: Frontend Engineering Intern</title>
+    <link href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751909005"/>
+    <updated>2026-11-06T22:41:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York, NY · $40/hr · LLMs, React, HTML/CSS, GraphQL · H-1B track record: ~52 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:thenewyorktimes:4751917005</id>
+    <title>The New York Times: Android Engineering Intern</title>
+    <link href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751917005"/>
+    <updated>2026-11-06T22:41:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York, NY · $40/hr · Kotlin, LLMs · H-1B track record: ~52 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:thenewyorktimes:4751919005</id>
+    <title>The New York Times: iOS Engineering Intern</title>
+    <link href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751919005"/>
+    <updated>2026-11-06T22:41:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York, NY · $40/hr · Swift, LLMs · H-1B track record: ~52 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:thenewyorktimes:4751973005</id>
+    <title>The New York Times: Backend Engineering Intern</title>
+    <link href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751973005"/>
+    <updated>2026-11-06T22:41:30Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York, NY · $40/hr · Python, Java, SQL, Scala, LLMs · H-1B track record: ~52 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:leidos:/job/6314-RemoteTeleworker-US/AI-Automation-Development-Intern---Assessment---Authorization_R-00195319</id>
+    <title>Leidos: AI/Automation Development Intern - Assessment &amp; Authorization 🇺🇸</title>
+    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/AI-Automation-Development-Intern---Assessment---Authorization_R-00195319"/>
+    <updated>2026-11-06T22:41:30Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · 6314 Remote/Teleworker US · Python, JavaScript, SQL, Bash, PyTorch · sponsorship: citizens-only · H-1B track record: ~79 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:llbean:/job/Freeport-ME/Business--Data-Analyst-Intern--Summer-2027-_JR11275</id>
@@ -38,22 +118,6 @@
     <updated>2026-11-06T22:41:30Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Freeport, ME · $20–$22/hr · Python, Java, C#, JavaScript, React</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:leidos:/job/6314-RemoteTeleworker-US/AI-Automation-Development-Intern---Assessment---Authorization_R-00195319</id>
-    <title>Leidos: AI/Automation Development Intern - Assessment &amp; Authorization 🇺🇸</title>
-    <link href="https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/AI-Automation-Development-Intern---Assessment---Authorization_R-00195319"/>
-    <updated>2026-11-06T22:41:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · 6314 Remote/Teleworker US · Python, JavaScript, SQL, Bash, PyTorch · sponsorship: citizens-only · H-1B track record: ~79 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:lilasciences:4480337009</id>
-    <title>Lila Sciences: Co-op, AI for Protein Design</title>
-    <link href="https://job-boards.greenhouse.io/lilasciences/jobs/4480337009"/>
-    <updated>2026-11-06T22:41:30Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · San Francisco, CA USA · Python, PyTorch</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:marmon:/job/Chicago-IL/Intern---AI-Technology-Solutions_JR0000046903</id>
@@ -86,46 +150,6 @@
     <updated>2026-11-06T22:41:30Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Bellevue, Washington · $27/hr · SQL, LLMs · H-1B track record: ~697 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:thenewyorktimes:4751917005</id>
-    <title>The New York Times: Android Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751917005"/>
-    <updated>2026-11-06T22:41:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY · $40/hr · Kotlin, LLMs · H-1B track record: ~52 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:thenewyorktimes:4751973005</id>
-    <title>The New York Times: Backend Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751973005"/>
-    <updated>2026-11-06T22:41:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY · $40/hr · Python, Java, SQL, Scala, LLMs · H-1B track record: ~52 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:thenewyorktimes:4751909005</id>
-    <title>The New York Times: Frontend Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751909005"/>
-    <updated>2026-11-06T22:41:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY · $40/hr · LLMs, React, HTML/CSS, GraphQL · H-1B track record: ~52 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:thenewyorktimes:4751907005</id>
-    <title>The New York Times: Full-Stack Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751907005"/>
-    <updated>2026-11-06T22:41:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY · $40/hr · Python, Java, JavaScript, Kotlin, Scala · H-1B track record: ~52 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:thenewyorktimes:4751919005</id>
-    <title>The New York Times: iOS Engineering Intern</title>
-    <link href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751919005"/>
-    <updated>2026-11-06T22:41:30Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY · $40/hr · Swift, LLMs · H-1B track record: ~52 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:niural:0daacf58-a15d-4c6f-bfa0-0fc069e4956e</id>
@@ -782,29 +806,5 @@
     <updated>2026-11-03T23:28:36Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Madison, WI · Python, JavaScript, SQL, LLMs, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:onepot:5116ee20-adfa-4177-b120-e3f48354e7e8</id>
-    <title>onepot: Research Intern, Machine Learning</title>
-    <link href="https://jobs.ashbyhq.com/onepot/5116ee20-adfa-4177-b120-e3f48354e7e8"/>
-    <updated>2026-11-03T18:01:05Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · South San Francisco, CA · PyTorch, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:hearst:4473043009</id>
-    <title>Hearst: Rebele Editorial AI Development Intern</title>
-    <link href="https://job-boards.greenhouse.io/hearst/jobs/4473043009"/>
-    <updated>2026-11-03T18:01:05Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · San Francisco, CA, United States · $21.87/hr · AWS, Git</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:thenewyorktimes:4750496005</id>
-    <title>The New York Times: Advertising Business Data Analyst Intern</title>
-    <link href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4750496005"/>
-    <updated>2026-11-03T18:01:05Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · New York, NY · SQL, LLMs, Tableau · H-1B track record: ~52 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
