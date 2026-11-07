@@ -1,19 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "ashby:parspec:0a897c21-0df7-40ba-85f2-694bf6678504",
-      "lever:zoox:0168ad29-2fd8-4c91-865c-b9fff8aa30c1",
-      "greenhouse:vardaspace:8198267003"
-    ],
-    "telegram": [
-      "ashby:parspec:0a897c21-0df7-40ba-85f2-694bf6678504",
-      "lever:zoox:0168ad29-2fd8-4c91-865c-b9fff8aa30c1",
-      "greenhouse:vardaspace:8198267003"
-    ],
-    "personal_email": [
-      "ashby:parspec:0a897c21-0df7-40ba-85f2-694bf6678504",
-      "lever:zoox:0168ad29-2fd8-4c91-865c-b9fff8aa30c1",
-      "greenhouse:vardaspace:8198267003"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
