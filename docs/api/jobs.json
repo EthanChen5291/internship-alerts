@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-08T18:43:58Z",
- "data_as_of": "2026-11-08T18:43:58Z",
- "rendered_at": "2026-11-08T18:43:58Z",
+ "generated_at": "2026-11-08T22:44:07Z",
+ "data_as_of": "2026-11-08T22:44:07Z",
+ "rendered_at": "2026-11-08T22:44:07Z",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "h1b_window": "FY2022–2023",
- "count": 1116,
+ "count": 1115,
  "jobs": [
   {
    "id": "lever:zoox:0168ad29-2fd8-4c91-865c-b9fff8aa30c1",
@@ -23500,38 +23500,6 @@
    "underclass_audience": null,
    "source": "greenhouse",
    "h1b_approvals": 11,
-   "program": "Internship",
-   "remote": false
-  },
-  {
-   "id": "workday:avav:/job/Melbourne-FL/Software-Engineering-Intern_8613",
-   "company": "Avav",
-   "title": "Software Engineering Intern",
-   "season": "Not stated",
-   "seasons": null,
-   "season_inferred": true,
-   "category": "Software",
-   "location": "Melbourne, FL",
-   "url": "https://avav.wd1.myworkdayjobs.com/avav/job/Melbourne-FL/Software-Engineering-Intern_8613",
-   "posted_at": "2026-09-10T00:00:00Z",
-   "posted_at_source": "date_only",
-   "first_seen_at": "2026-09-11T09:48:02Z",
-   "sponsorship": "citizens-only",
-   "salary": null,
-   "skills": [
-    "Python",
-    "Java",
-    "C++",
-    "Bash",
-    "Linux",
-    "Git"
-   ],
-   "class_year": null,
-   "underclass_program_key": null,
-   "underclass_program": null,
-   "underclass_audience": null,
-   "source": "workday",
-   "h1b_approvals": null,
    "program": "Internship",
    "remote": false
   },
