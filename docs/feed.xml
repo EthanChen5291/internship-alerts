@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-09T02:16:38Z</updated>
+  <updated>2026-11-09T09:55:19Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:sec:/job/6625-Excellence-Way-Plano-TX-USA/ePro-Business---Data-Analyst-Intern_R121996</id>
+    <title>Samsung: ePro Business &amp; Data Analyst Intern 🛂</title>
+    <link href="https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/ePro-Business---Data-Analyst-Intern_R121996"/>
+    <updated>2026-11-09T09:55:19Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · 6625 Excellence Way, Plano, TX, USA · SQL, LLMs, Tableau · sponsorship: no-sponsorship</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:parspec:0a897c21-0df7-40ba-85f2-694bf6678504</id>
     <title>Parspec: Applied AI Engineer Intern</title>
@@ -798,13 +806,5 @@
     <updated>2026-11-03T23:28:36Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Madison, WI · Python, JavaScript, SQL, LLMs, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:onepot:5116ee20-adfa-4177-b120-e3f48354e7e8</id>
-    <title>onepot: Research Intern, Machine Learning</title>
-    <link href="https://jobs.ashbyhq.com/onepot/5116ee20-adfa-4177-b120-e3f48354e7e8"/>
-    <updated>2026-11-03T18:01:05Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · South San Francisco, CA · PyTorch, LLMs</summary>
   </entry>
 </feed>
