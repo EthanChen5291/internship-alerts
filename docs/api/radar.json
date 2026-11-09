@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-09T09:55:19Z",
- "data_as_of": "2026-11-09T09:55:19Z",
- "rendered_at": "2026-11-09T09:55:20Z",
+ "generated_at": "2026-11-09T20:56:56Z",
+ "data_as_of": "2026-11-09T20:56:56Z",
+ "rendered_at": "2026-11-09T20:56:57Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -2258,7 +2258,7 @@
    "expected": "2026-09-08",
    "days_until": -62,
    "status": "open",
-   "url": "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/661d7ac4-51df-454d-82c8-2a0d94852036",
+   "url": "https://jobs.ashbyhq.com/shield/661d7ac4-51df-454d-82c8-2a0d94852036",
    "note": "",
    "provenance": {
     "type": "engine-observed",
