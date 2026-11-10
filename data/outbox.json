@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "greenhouse:celonis:8198760003"
-    ],
-    "telegram": [
-      "greenhouse:celonis:8198760003"
-    ],
-    "personal_email": [
-      "greenhouse:celonis:8198760003"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
