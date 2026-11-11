@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-11T15:24:15Z",
- "data_as_of": "2026-11-11T15:24:15Z",
- "rendered_at": "2026-11-11T15:24:16Z",
+ "generated_at": "2026-11-11T22:12:10Z",
+ "data_as_of": "2026-11-11T22:12:10Z",
+ "rendered_at": "2026-11-11T22:12:11Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1138,6 +1138,25 @@
    "days_until": -78,
    "status": "open",
    "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---California---Santa-Clara/Software-Engineering-Intern--Cloud-Platform--Summer-2027-_JR-2604034",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-25"
+   }
+  },
+  {
+   "company": "Grant Thornton",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-25",
+   "days_until": -78,
+   "status": "open",
+   "url": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115637",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3464,25 +3483,6 @@
    }
   },
   {
-   "company": "Enova",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-29",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-29",
-   "days_until": -43,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/enova/jobs/8239619",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-29"
-   }
-  },
-  {
    "company": "Muon Space",
    "last_cycle_posted": "",
    "posted_on": "2026-09-29",
@@ -5079,6 +5079,25 @@
    }
   },
   {
+   "company": "Formulary Financial",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-08",
+   "days_until": -3,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/formulary/bbc4fef5-3cff-4879-89bc-65aba1214b04",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-08"
+   }
+  },
+  {
    "company": "Illumio",
    "last_cycle_posted": "",
    "posted_on": "2026-11-09",
@@ -5171,6 +5190,63 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-11-10"
+   }
+  },
+  {
+   "company": "Brex",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-11",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://www.brex.com/careers/8936403002?gh_jid=8936403002",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-11"
+   }
+  },
+  {
+   "company": "Huron",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-11",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://huron.wd1.myworkdayjobs.com/huroncareers/job/Washington-DC---1800-M-Street-NW/Internal-Audit-and-Risk-Management---Data-Analytics---AI--Summer-2027-Internship-_JR-0017165",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-11"
+   }
+  },
+  {
+   "company": "MKS Instruments",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-11",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://mksinst.wd1.myworkdayjobs.com/MKSCareersUniversity/job/Andover-MA/XMLNAME-2027-Summer-Software-Engineer-Co-op_R20610",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-11"
    }
   },
   {
@@ -7718,25 +7794,6 @@
    }
   },
   {
-   "company": "Grant Thornton",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-25",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-25",
-   "days_until": -78,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-25"
-   }
-  },
-  {
    "company": "Verisk",
    "last_cycle_posted": "",
    "posted_on": "2026-08-26",
@@ -8877,6 +8934,25 @@
    }
   },
   {
+   "company": "Enova",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-29",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-29",
+   "days_until": -43,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-29"
+   }
+  },
+  {
    "company": "Perchwell",
    "last_cycle_posted": "",
    "posted_on": "2026-09-29",
@@ -9390,5 +9466,5 @@
    }
   }
  ],
- "count": 494
+ "count": 498
 }
