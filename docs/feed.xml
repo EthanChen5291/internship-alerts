@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-11T07:19:34Z</updated>
+  <updated>2026-11-11T15:24:15Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workday:rockwellautomation:/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-2</id>
+    <title>Rockwell Automation: Intern, Software Developer/Engineering 🛂</title>
+    <link href="https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-2"/>
+    <updated>2026-11-11T15:24:15Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Mequon, Wisconsin, United States · C#, Angular, .NET · sponsorship: no-sponsorship · H-1B track record: ~90 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:unisys:/job/Eagan-MN-United-States-of-America/Software-Engineer-Intern_REQ575421</id>
+    <title>Unisys: Software Engineer Intern</title>
+    <link href="https://unisys.wd5.myworkdayjobs.com/External/job/Eagan-MN-United-States-of-America/Software-Engineer-Intern_REQ575421"/>
+    <updated>2026-11-11T15:24:15Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Eagan, MN, United States of America · H-1B track record: ~28 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:regent:dfdbb28f-f289-45b9-a2e5-158d81b93524</id>
     <title>REGENT: Cybersecurity &amp; IT Operations Intern (Summer)</title>
@@ -790,21 +806,5 @@
     <updated>2026-11-05T22:14:44Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Florida - Deerfield Beach · Python, HTML/CSS, Azure</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:markelcorp:/job/Woodland-Hills-CA/Markel-AI-Automation-Intern_R0024277</id>
-    <title>Markel Group, Inc.: Markel AI Automation Intern 🛂</title>
-    <link href="https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers/job/Woodland-Hills-CA/Markel-AI-Automation-Intern_R0024277"/>
-    <updated>2026-11-05T22:14:44Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Woodland Hills CA · $24–$28.5/hr · Python, JavaScript, LLMs, Databricks · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:paypal:/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-Intern---Summer-2027_R0138581</id>
-    <title>PayPal: Machine Learning Engineer Intern - Summer 2027 🛂</title>
-    <link href="https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-Intern---Summer-2027_R0138581"/>
-    <updated>2026-11-05T22:14:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · San Jose, California, United States of America · Python, Java, C++, TensorFlow, scikit-learn · sponsorship: no-sponsorship · H-1B track record: ~1.2k approvals (FY2022–2023)</summary>
   </entry>
 </feed>

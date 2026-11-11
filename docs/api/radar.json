@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-11T07:19:34Z",
- "data_as_of": "2026-11-11T07:19:34Z",
- "rendered_at": "2026-11-11T07:19:34Z",
+ "generated_at": "2026-11-11T15:24:15Z",
+ "data_as_of": "2026-11-11T15:24:15Z",
+ "rendered_at": "2026-11-11T15:24:16Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -358,7 +358,7 @@
    "expected": "2026-07-13",
    "days_until": -121,
    "status": "open",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
    "note": "opens fall, closes early Feb",
    "provenance": {
     "type": "engine-observed",
@@ -880,25 +880,6 @@
    }
   },
   {
-   "company": "American Express",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-17",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-17",
-   "days_until": -86,
-   "status": "open",
-   "url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015722",
-   "note": "campus opens mid-summer",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-17"
-   }
-  },
-  {
    "company": "Hilton Worldwide",
    "last_cycle_posted": "",
    "posted_on": "2026-08-17",
@@ -1023,7 +1004,7 @@
    "expected": "2026-08-20",
    "days_until": -83,
    "status": "open",
-   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015679346",
+   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015679386",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4050,25 +4031,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-12"
-   }
-  },
-  {
-   "company": "ADT",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-13",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-13",
-   "days_until": -29,
-   "status": "open",
-   "url": "https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3022387",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-13"
    }
   },
   {
@@ -7547,6 +7509,25 @@
    }
   },
   {
+   "company": "American Express",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-17",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-17",
+   "days_until": -86,
+   "status": "dropped",
+   "url": "",
+   "note": "campus opens mid-summer",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-17"
+   }
+  },
+  {
    "company": "Conagra Brands",
    "last_cycle_posted": "",
    "posted_on": "2026-08-17",
@@ -9121,6 +9102,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-10-09"
+   }
+  },
+  {
+   "company": "ADT",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-13",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-13",
+   "days_until": -29,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-13"
    }
   },
   {
