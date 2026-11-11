@@ -5,8 +5,24 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-11T00:53:29Z</updated>
+  <updated>2026-11-11T07:19:34Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:regent:dfdbb28f-f289-45b9-a2e5-158d81b93524</id>
+    <title>REGENT: Cybersecurity &amp; IT Operations Intern (Summer)</title>
+    <link href="https://jobs.ashbyhq.com/REGENT/dfdbb28f-f289-45b9-a2e5-158d81b93524"/>
+    <updated>2026-11-11T07:19:33Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · North Kingstown, Rhode Island, USA · Python, Linux</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:dtna:/job/Detroit-MI-US/Cybersecurity-Intern--Governance--Risk--and-Compliance--GRC--Analyst_DT-20656</id>
+    <title>Daimler Truck: Cybersecurity Intern: Governance, Risk, and Compliance (GRC) Analyst</title>
+    <link href="https://dtna.wd5.myworkdayjobs.com/DTNA_external/job/Detroit-MI-US/Cybersecurity-Intern--Governance--Risk--and-Compliance--GRC--Analyst_DT-20656"/>
+    <updated>2026-11-11T07:19:33Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Detroit, MI US · $21–$29/hr · LLMs</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:skydio:c85af510-9fe4-4167-a914-c3ab344bef03</id>
     <title>Skydio: Middleware Software Engineer Intern - Summer 2027</title>
@@ -14,14 +30,6 @@
     <updated>2026-11-11T00:53:29Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · San Mateo, California, United States · $47/hr · Python, C++ · H-1B track record: ~26 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:tsys:/job/COLUMBUS-GEORGIA/CyberSecurity-Intern_R0077068</id>
-    <title>Global Payments: CyberSecurity Intern 🛂</title>
-    <link href="https://tsys.wd1.myworkdayjobs.com/TSYS/job/COLUMBUS-GEORGIA/CyberSecurity-Intern_R0077068"/>
-    <updated>2026-11-11T00:53:29Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · COLUMBUS, GEORGIA · AWS, GCP · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:judihealth:5477146008</id>
@@ -40,12 +48,28 @@
     <summary>Summer 2027 · Security · State College, Pennsylvania, United States</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:smartrecruiters:WesternDigital:744000160975819</id>
+    <title>Western Digital: Summer 2027 Intern - Software Engineering</title>
+    <link href="https://jobs.smartrecruiters.com/WesternDigital/744000160975819"/>
+    <updated>2026-11-11T00:53:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Jose, CA, United States · Python, Java, C++, Go, JavaScript</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:workday:salesforce:/job/California---San-Francisco/Summer-2027-Intern---Applied-AI-Strategy---Research_JR367516-3</id>
     <title>Salesforce: Summer 2027 Intern - Applied AI Strategy &amp; Research</title>
     <link href="https://salesforce.wd12.myworkdayjobs.com/futureforce_newgradroles/job/California---San-Francisco/Summer-2027-Intern---Applied-AI-Strategy---Research_JR367516-3"/>
     <updated>2026-11-11T00:53:29Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · California - San Francisco · $47–$57/hr · Python, TensorFlow · H-1B track record: ~501 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:tsys:/job/COLUMBUS-GEORGIA/CyberSecurity-Intern_R0077068</id>
+    <title>Global Payments: CyberSecurity Intern 🛂</title>
+    <link href="https://tsys.wd1.myworkdayjobs.com/TSYS/job/COLUMBUS-GEORGIA/CyberSecurity-Intern_R0077068"/>
+    <updated>2026-11-11T00:53:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · COLUMBUS, GEORGIA · AWS, GCP · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:visa:/job/US---Foster-City-CA/Software-Engineer--Intern---2027-Foster-City--CA_REF085862W</id>
@@ -782,29 +806,5 @@
     <updated>2026-11-05T22:14:44Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · San Jose, California, United States of America · Python, Java, C++, TensorFlow, scikit-learn · sponsorship: no-sponsorship · H-1B track record: ~1.2k approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:rb:/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Information-Security-Intern_R-0000033910</id>
-    <title>The Federal Reserve System: 2027 Summer Internship Program - Information Security Intern 🛂</title>
-    <link href="https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Information-Security-Intern_R-0000033910"/>
-    <updated>2026-11-05T22:14:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · Atlanta, GA · Python, Linux · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:westernalliancebank:/job/Columbus-OH/Summer-2027-Internship---Columbus--OH---Platform-Engineering_R14024</id>
-    <title>Western Alliance: Summer 2027 Internship - Columbus, OH - Platform Engineering</title>
-    <link href="https://wd5.myworkdaysite.com/recruiting/westernalliancebank/WAB/job/Columbus-OH/Summer-2027-Internship---Columbus--OH---Platform-Engineering_R14024"/>
-    <updated>2026-11-05T22:14:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Columbus, OH</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:westernalliancebank:/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14019</id>
-    <title>Western Alliance: Summer 2027 Internship - Dallas, TX - Platform Engineering</title>
-    <link href="https://wd5.myworkdaysite.com/recruiting/westernalliancebank/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14019"/>
-    <updated>2026-11-05T22:14:44Z</updated>
-    <category term="Summer 2027"/>
-    <summary>4 openings · Summer 2027 · Software · Dallas, TX</summary>
   </entry>
 </feed>
