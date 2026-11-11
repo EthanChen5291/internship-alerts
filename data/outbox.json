@@ -1,16 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workday:rockwellautomation:/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-2",
-      "workday:unisys:/job/Eagan-MN-United-States-of-America/Software-Engineer-Intern_REQ575421"
-    ],
-    "telegram": [
-      "workday:rockwellautomation:/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-2",
-      "workday:unisys:/job/Eagan-MN-United-States-of-America/Software-Engineer-Intern_REQ575421"
-    ],
-    "personal_email": [
-      "workday:rockwellautomation:/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-2",
-      "workday:unisys:/job/Eagan-MN-United-States-of-America/Software-Engineer-Intern_REQ575421"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
