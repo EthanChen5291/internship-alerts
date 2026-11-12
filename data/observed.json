@@ -5248,15 +5248,13 @@
      "first_posted": "2026-09-08",
      "role_ids": [
       "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:661d7ac4-51df-454d-82c8-2a0d94852036",
-      "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:a28e047a-ee12-452c-883b-ecd995d1b6b2",
-      "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:db04c516-d21a-449c-8bfd-1cf830eafb5a",
       "ashby:shield:661d7ac4-51df-454d-82c8-2a0d94852036",
       "ashby:shield:a28e047a-ee12-452c-883b-ecd995d1b6b2",
       "ashby:shield:db04c516-d21a-449c-8bfd-1cf830eafb5a",
       "lever:shieldai:8c850c75-081d-4d09-bebf-096379a93010",
       "lever:shieldai:db8fc063-8856-4404-991c-f287712de949"
      ],
-     "count": 8
+     "count": 6
     }
    }
   },
@@ -6569,5 +6567,5 @@
    }
   }
  },
- "updated_at": "2026-11-11T22:12:10Z"
+ "updated_at": "2026-11-12T03:08:40Z"
 }

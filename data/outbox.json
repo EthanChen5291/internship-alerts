@@ -1,7 +1,40 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "ashby:leland:94347c0b-273b-4c17-9987-563912629633",
+      "lever:tri:ad346610-e4a6-4cd2-a357-11d731b136a2",
+      "workday:austalusa:/job/Mobile-AL/Cybersecurity-Intern_R0012221",
+      "workday:avav:/job/Lawrence-KS/Software-Engineering-Intern_9360",
+      "workday:bloomenergy:/job/San-Jose-California/AI-Solutions-Engineer-Intern_JR-25361",
+      "workday:dow:/job/Midland-MI-USA/Local-College-Co-op--Infrastructure-Mapping---Data-Quality--Michigan-Operations-_R2069169",
+      "workday:hubinternational:/job/Chicago-IL/AI-Engineering-Intern_R0039470",
+      "greenhouse:samsungsemiconductor:8197305003",
+      "smartrecruiters:ServiceNow:744000161209600",
+      "smartrecruiters:ServiceNow:744000161204235"
+    ],
+    "telegram": [
+      "ashby:leland:94347c0b-273b-4c17-9987-563912629633",
+      "lever:tri:ad346610-e4a6-4cd2-a357-11d731b136a2",
+      "workday:austalusa:/job/Mobile-AL/Cybersecurity-Intern_R0012221",
+      "workday:avav:/job/Lawrence-KS/Software-Engineering-Intern_9360",
+      "workday:bloomenergy:/job/San-Jose-California/AI-Solutions-Engineer-Intern_JR-25361",
+      "workday:dow:/job/Midland-MI-USA/Local-College-Co-op--Infrastructure-Mapping---Data-Quality--Michigan-Operations-_R2069169",
+      "workday:hubinternational:/job/Chicago-IL/AI-Engineering-Intern_R0039470",
+      "greenhouse:samsungsemiconductor:8197305003",
+      "smartrecruiters:ServiceNow:744000161209600",
+      "smartrecruiters:ServiceNow:744000161204235"
+    ],
+    "personal_email": [
+      "ashby:leland:94347c0b-273b-4c17-9987-563912629633",
+      "lever:tri:ad346610-e4a6-4cd2-a357-11d731b136a2",
+      "workday:austalusa:/job/Mobile-AL/Cybersecurity-Intern_R0012221",
+      "workday:avav:/job/Lawrence-KS/Software-Engineering-Intern_9360",
+      "workday:bloomenergy:/job/San-Jose-California/AI-Solutions-Engineer-Intern_JR-25361",
+      "workday:dow:/job/Midland-MI-USA/Local-College-Co-op--Infrastructure-Mapping---Data-Quality--Michigan-Operations-_R2069169",
+      "workday:hubinternational:/job/Chicago-IL/AI-Engineering-Intern_R0039470",
+      "greenhouse:samsungsemiconductor:8197305003",
+      "smartrecruiters:ServiceNow:744000161209600",
+      "smartrecruiters:ServiceNow:744000161204235"
+    ]
   }
 }
