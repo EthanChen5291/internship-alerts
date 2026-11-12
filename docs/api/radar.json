@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-12T11:08:55Z",
- "data_as_of": "2026-11-12T11:08:55Z",
- "rendered_at": "2026-11-12T11:08:56Z",
+ "generated_at": "2026-11-12T19:12:59Z",
+ "data_as_of": "2026-11-12T19:12:59Z",
+ "rendered_at": "2026-11-12T19:12:59Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -284,25 +284,6 @@
    "status": "open",
    "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166",
    "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-07-08"
-   }
-  },
-  {
-   "company": "Northrop Grumman",
-   "last_cycle_posted": "",
-   "posted_on": "2026-07-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-07-08",
-   "days_until": -127,
-   "status": "open",
-   "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Apopka/XMLNAME-2027-Software-Testing-Engineering-Intern---Apopka-FL_R10259820-1",
-   "note": "fall opening, many roles need clearance",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -975,25 +956,6 @@
    }
   },
   {
-   "company": "AbbVie",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-20",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-20",
-   "days_until": -84,
-   "status": "open",
-   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015679386",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-20"
-   }
-  },
-  {
    "company": "Fifth Third Bank",
    "last_cycle_posted": "",
    "posted_on": "2026-08-20",
@@ -1460,7 +1422,7 @@
    "expected": "2026-08-31",
    "days_until": -73,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/hpiq/jobs/6111955004",
+   "url": "https://job-boards.greenhouse.io/hpiq/jobs/6114781004",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4224,6 +4186,25 @@
    }
   },
   {
+   "company": "Greystone",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-20",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-20",
+   "days_until": -23,
+   "status": "open",
+   "url": "https://greyco.wd108.myworkdayjobs.com/GTI/job/Warrenton-VA/Summer-2027---Full-Stack-Engineer-Internship_JR0000145",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-20"
+   }
+  },
+  {
    "company": "Integrate",
    "last_cycle_posted": "",
    "posted_on": "2026-10-20",
@@ -5174,6 +5155,25 @@
    }
   },
   {
+   "company": "Martin Marietta",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-11",
+   "days_until": -1,
+   "status": "open",
+   "url": "https://martinmarietta.wd5.myworkdayjobs.com/Martin_Marietta_Careers/job/Raleigh-NC/Intern--IS-Infrastructure_JR023723",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-11"
+   }
+  },
+  {
    "company": "MKS Instruments",
    "last_cycle_posted": "",
    "posted_on": "2026-11-11",
@@ -5190,6 +5190,44 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-11-11"
+   }
+  },
+  {
+   "company": "American Electric Power",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-12",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-12",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Cybersecurity-Intern---Summer-2027_R21158",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-12"
+   }
+  },
+  {
+   "company": "Johnson Controls",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-12",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-12",
+   "days_until": 0,
+   "status": "open",
+   "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Waynesboro-Pennsylvania-United-States-of-America/Computer-Science-CAD-Intern_WD30285046",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-12"
    }
   },
   {
@@ -7281,6 +7319,25 @@
    }
   },
   {
+   "company": "Northrop Grumman",
+   "last_cycle_posted": "",
+   "posted_on": "2026-07-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-07-08",
+   "days_until": -127,
+   "status": "dropped",
+   "url": "",
+   "note": "fall opening, many roles need clearance",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-07-08"
+   }
+  },
+  {
    "company": "Old Mission Capital",
    "last_cycle_posted": "",
    "posted_on": "2026-07-15",
@@ -7639,6 +7696,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-19"
+   }
+  },
+  {
+   "company": "AbbVie",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-20",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-20",
+   "days_until": -84,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-20"
    }
   },
   {
@@ -9466,5 +9542,5 @@
    }
   }
  ],
- "count": 498
+ "count": 502
 }
