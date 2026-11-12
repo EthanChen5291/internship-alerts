@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-12T03:08:40Z</updated>
+  <updated>2026-11-12T11:08:55Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:workable:bask-health-1:9C2964C7CD</id>
+    <title>Bask Health: Frontend Engineering Intern</title>
+    <link href="https://apply.workable.com/bask-health-1/j/9C2964C7CD/"/>
+    <updated>2026-11-12T11:08:55Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · United States (Remote) · TypeScript, JavaScript, React, Next.js, HTML/CSS</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:leland:94347c0b-273b-4c17-9987-563912629633</id>
     <title>Leland: AI Education Intern</title>
@@ -16,12 +24,36 @@
     <summary>Not stated · Data &amp; ML/AI · Leland HQ - Lehi, UT</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:greenhouse:samsungsemiconductor:8197305003</id>
+    <title>Samsung: Intern, AI System Architecture Research Scientist</title>
+    <link href="https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8197305003"/>
+    <updated>2026-11-12T03:08:40Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · San Jose, California, United States · Python, C++, PyTorch, LLMs</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:lever:tri:ad346610-e4a6-4cd2-a357-11d731b136a2</id>
     <title>Toyota Research Institute: Future Product Innovation Research Intern, Human-AI Computational Design</title>
     <link href="https://jobs.lever.co/tri/ad346610-e4a6-4cd2-a357-11d731b136a2"/>
     <updated>2026-11-12T03:08:40Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Los Altos, CA · $65/hr · H-1B track record: ~10 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000161204235</id>
+    <title>ServiceNow: Assoc Information Security Engineer Intern</title>
+    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000161204235"/>
+    <updated>2026-11-12T03:08:40Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · San Diego, CALIFORNIA, United States · H-1B track record: ~849 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000161209600</id>
+    <title>ServiceNow: Assoc AI Engineering (Cloud Security Automation) Intern</title>
+    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000161209600"/>
+    <updated>2026-11-12T03:08:40Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · Santa Clara, CALIFORNIA, United States · H-1B track record: ~849 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:austalusa:/job/Mobile-AL/Cybersecurity-Intern_R0012221</id>
@@ -62,30 +94,6 @@
     <updated>2026-11-12T03:08:40Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · Chicago, IL · Python, SQL, PyTorch, TensorFlow, scikit-learn</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:samsungsemiconductor:8197305003</id>
-    <title>Samsung: Intern, AI System Architecture Research Scientist</title>
-    <link href="https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8197305003"/>
-    <updated>2026-11-12T03:08:40Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · San Jose, California, United States · Python, C++, PyTorch, LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000161209600</id>
-    <title>ServiceNow: Assoc AI Engineering (Cloud Security Automation) Intern</title>
-    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000161209600"/>
-    <updated>2026-11-12T03:08:40Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Santa Clara, CALIFORNIA, United States · H-1B track record: ~849 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000161204235</id>
-    <title>ServiceNow: Assoc Information Security Engineer Intern</title>
-    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000161204235"/>
-    <updated>2026-11-12T03:08:40Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · San Diego, CALIFORNIA, United States · H-1B track record: ~849 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:formulary:bbc4fef5-3cff-4879-89bc-65aba1214b04</id>
@@ -798,13 +806,5 @@
     <updated>2026-11-06T17:42:02Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Los Angeles, California · 47 USD/hr · Kotlin · H-1B track record: ~104 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:BoschGroup:744000160208440</id>
-    <title>Bosch: Motorsport Software and Data Analytics Graduate Intern</title>
-    <link href="https://jobs.smartrecruiters.com/BoschGroup/744000160208440"/>
-    <updated>2026-11-06T17:42:02Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Farmington Hills, MI, United States · Python, C++, C#, MATLAB, Linux · H-1B track record: ~188 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
