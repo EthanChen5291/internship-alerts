@@ -1,13 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "workable:bask-health-1:9C2964C7CD"
-    ],
-    "telegram": [
-      "workable:bask-health-1:9C2964C7CD"
-    ],
-    "personal_email": [
-      "workable:bask-health-1:9C2964C7CD"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
