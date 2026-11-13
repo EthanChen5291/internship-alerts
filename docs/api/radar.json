@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-13T00:26:00Z",
- "data_as_of": "2026-11-13T00:26:00Z",
- "rendered_at": "2026-11-13T00:26:00Z",
+ "generated_at": "2026-11-13T07:26:29Z",
+ "data_as_of": "2026-11-13T07:26:29Z",
+ "rendered_at": "2026-11-13T07:26:30Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1602,25 +1602,6 @@
    }
   },
   {
-   "company": "K2 Space",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-01",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-01",
-   "days_until": -73,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411920008",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-01"
-   }
-  },
-  {
    "company": "Newrez",
    "last_cycle_posted": "",
    "posted_on": "2026-09-01",
@@ -2305,25 +2286,6 @@
    }
   },
   {
-   "company": "Pilot Company",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-09",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-09",
-   "days_until": -65,
-   "status": "open",
-   "url": "https://jobs.smartrecruiters.com/PilotCompany/744000148577368",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-09"
-   }
-  },
-  {
    "company": "Rocket Lab",
    "last_cycle_posted": "",
    "posted_on": "2026-09-09",
@@ -2638,7 +2600,7 @@
    "expected": "2026-09-11",
    "days_until": -63,
    "status": "open",
-   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Bloomington-MN/Embedded-Software-Engineering-Intern---The-Toro-Company_JR17114",
+   "url": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Frederick-CO/Cloud-Software-Development-Intern---The-Toro-Company_JR17498",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3247,6 +3209,25 @@
    "days_until": -50,
    "status": "open",
    "url": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/AI-Engineering--Business-Systems-Intern--Summer-2027_JR00048714",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-24"
+   }
+  },
+  {
+   "company": "Aurora Innovation",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-24",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-24",
+   "days_until": -50,
+   "status": "open",
+   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/06daa269-c02b-43a4-88b8-b57a3ba335ef",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4671,7 +4652,7 @@
    "expected": "2026-11-03",
    "days_until": -10,
    "status": "open",
-   "url": "https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Gaithersburg---MD/US-Medical-Affairs--AI---Knowledge-Experience-Intern_R-263260",
+   "url": "https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Boston---MA/Summer-2027-Innovation-and-AI-Transformation-Intern_R-264282-1",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -7984,6 +7965,25 @@
    }
   },
   {
+   "company": "K2 Space",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-01",
+   "days_until": -73,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-01"
+   }
+  },
+  {
    "company": "TRUMPF",
    "last_cycle_posted": "",
    "posted_on": "2026-09-01",
@@ -8327,6 +8327,25 @@
   },
   {
    "company": "Immuta",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-09",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-09",
+   "days_until": -65,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-09"
+   }
+  },
+  {
+   "company": "Pilot Company",
    "last_cycle_posted": "",
    "posted_on": "2026-09-09",
    "precision": "day",
@@ -8874,25 +8893,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-22"
-   }
-  },
-  {
-   "company": "Aurora Innovation",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-24",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-24",
-   "days_until": -50,
-   "status": "dropped",
-   "url": "",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-24"
    }
   },
   {

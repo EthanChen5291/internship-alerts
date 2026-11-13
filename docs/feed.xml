@@ -5,8 +5,40 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-13T00:26:00Z</updated>
+  <updated>2026-11-13T07:26:29Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:ashby:aurora-operations-inc:06daa269-c02b-43a4-88b8-b57a3ba335ef</id>
+    <title>Aurora Innovation: Software Engineer Intern, Vehicle Platforms</title>
+    <link href="https://jobs.ashbyhq.com/aurora-operations-inc/06daa269-c02b-43a4-88b8-b57a3ba335ef"/>
+    <updated>2026-11-13T07:26:29Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · Mountain View, CA · $52/hr · Python, C++, Linux, ROS · H-1B track record: ~163 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:samsungsemiconductor:8202902003</id>
+    <title>Samsung: Intern, Compiler Engineer</title>
+    <link href="https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202902003"/>
+    <updated>2026-11-13T07:26:29Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · San Jose, California, United States · PyTorch, TensorFlow</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:lightmatter:5474807008</id>
+    <title>Lightmatter: Data &amp; AI Platform, Intern - Summer 2027</title>
+    <link href="https://boards.greenhouse.io/lightmatter/jobs/5474807008?gh_jid=5474807008"/>
+    <updated>2026-11-13T00:25:59Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Boston, MA · Python, SQL, Snowflake</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:muonspace:5293973007</id>
+    <title>Muon Space: Software Engineering Intern-Information Systems (Summer 2027)</title>
+    <link href="https://job-boards.greenhouse.io/muonspace/jobs/5293973007"/>
+    <updated>2026-11-13T00:25:59Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · San Jose, CA · $40/hr · Python, TypeScript, JavaScript, SQL, LLMs</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:astrazeneca:/job/US---Boston---MA/Summer-2027-Innovation-and-AI-Transformation-Intern_R-264282-1</id>
     <title>AstraZeneca: Summer 2027 Innovation and AI Transformation Intern</title>
@@ -38,22 +70,6 @@
     <updated>2026-11-13T00:25:59Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Bloomington, MN · $20–$30/hr · Python, C++, Git · H-1B track record: ~60 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:lightmatter:5474807008</id>
-    <title>Lightmatter: Data &amp; AI Platform, Intern - Summer 2027</title>
-    <link href="https://boards.greenhouse.io/lightmatter/jobs/5474807008?gh_jid=5474807008"/>
-    <updated>2026-11-13T00:25:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Boston, MA · Python, SQL, Snowflake</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:muonspace:5293973007</id>
-    <title>Muon Space: Software Engineering Intern-Information Systems (Summer 2027)</title>
-    <link href="https://job-boards.greenhouse.io/muonspace/jobs/5293973007"/>
-    <updated>2026-11-13T00:25:59Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · San Jose, CA · $40/hr · Python, TypeScript, JavaScript, SQL, LLMs</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:workday:sbdinc:/job/Towson-MD-United-States/Intern--Data-Analyst---BI--Summer-2027_REQ-1000052481</id>
@@ -790,21 +806,5 @@
     <updated>2026-11-13T00:25:59Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Data &amp; ML/AI · US Remote · $16/hr · Python, SQL, LLMs, AWS, Azure · status: closed · H-1B track record: ~100 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:sec:/job/6625-Excellence-Way-Plano-TX-USA/ePro-Business---Data-Analyst-Intern_R121996</id>
-    <title>Samsung: ePro AI  Business &amp; Data Analyst Intern 🛂</title>
-    <link href="https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/ePro-Business---Data-Analyst-Intern_R121996"/>
-    <updated>2026-11-09T09:55:19Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · 6625 Excellence Way, Plano, TX, USA · SQL, LLMs, Tableau · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:ashby:parspec:0a897c21-0df7-40ba-85f2-694bf6678504</id>
-    <title>Parspec: Applied AI Engineer Intern</title>
-    <link href="https://jobs.ashbyhq.com/parspec/0a897c21-0df7-40ba-85f2-694bf6678504"/>
-    <updated>2026-11-07T02:37:03Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Hybrid - San Mateo, California</summary>
   </entry>
 </feed>
