@@ -1,43 +1,7 @@
 {
   "pending": {
-    "discord": [
-      "ashby:atalanta:52011b21-df9a-4304-81a9-005a79f55335",
-      "ashby:aurora-operations-inc:8bd8b0b9-143a-400d-97d0-b3f70d9ee868",
-      "ashby:reliable-robotics:cbd31c94-5a83-4d1e-8252-de67a5e594ed",
-      "greenhouse:arcesiumllc:5257251007",
-      "workday:dtna:/job/Mount-Holly-NC-US/IT-Developer-Analyst-Intern_DT-20681-1",
-      "workday:freseniusmedicalcare:/job/Lawrence-MA-USA/Analytics-and-AI-Business-Analyst-Co-op_R0277519",
-      "workday:martinmarietta:/job/Raleigh-NC/Intern--Software-Data-Integration-Engineer_JR024146",
-      "greenhouse:samsungsemiconductor:8202927003",
-      "greenhouse:samsungsemiconductor:8203052003",
-      "smartrecruiters:ServiceNow:744000161550869",
-      "smartrecruiters:ServiceNow:744000161548289"
-    ],
-    "telegram": [
-      "ashby:atalanta:52011b21-df9a-4304-81a9-005a79f55335",
-      "ashby:aurora-operations-inc:8bd8b0b9-143a-400d-97d0-b3f70d9ee868",
-      "ashby:reliable-robotics:cbd31c94-5a83-4d1e-8252-de67a5e594ed",
-      "greenhouse:arcesiumllc:5257251007",
-      "workday:dtna:/job/Mount-Holly-NC-US/IT-Developer-Analyst-Intern_DT-20681-1",
-      "workday:freseniusmedicalcare:/job/Lawrence-MA-USA/Analytics-and-AI-Business-Analyst-Co-op_R0277519",
-      "workday:martinmarietta:/job/Raleigh-NC/Intern--Software-Data-Integration-Engineer_JR024146",
-      "greenhouse:samsungsemiconductor:8202927003",
-      "greenhouse:samsungsemiconductor:8203052003",
-      "smartrecruiters:ServiceNow:744000161550869",
-      "smartrecruiters:ServiceNow:744000161548289"
-    ],
-    "personal_email": [
-      "ashby:atalanta:52011b21-df9a-4304-81a9-005a79f55335",
-      "ashby:aurora-operations-inc:8bd8b0b9-143a-400d-97d0-b3f70d9ee868",
-      "ashby:reliable-robotics:cbd31c94-5a83-4d1e-8252-de67a5e594ed",
-      "greenhouse:arcesiumllc:5257251007",
-      "workday:dtna:/job/Mount-Holly-NC-US/IT-Developer-Analyst-Intern_DT-20681-1",
-      "workday:freseniusmedicalcare:/job/Lawrence-MA-USA/Analytics-and-AI-Business-Analyst-Co-op_R0277519",
-      "workday:martinmarietta:/job/Raleigh-NC/Intern--Software-Data-Integration-Engineer_JR024146",
-      "greenhouse:samsungsemiconductor:8202927003",
-      "greenhouse:samsungsemiconductor:8203052003",
-      "smartrecruiters:ServiceNow:744000161550869",
-      "smartrecruiters:ServiceNow:744000161548289"
-    ]
+    "discord": [],
+    "telegram": [],
+    "personal_email": []
   }
 }
