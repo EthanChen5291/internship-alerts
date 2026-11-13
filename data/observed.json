@@ -4996,6 +4996,18 @@
     }
    }
   },
+  "rocket companies": {
+   "name": "Rocket Companies",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-13",
+     "role_ids": [
+      "workday:quickenloans:/job/Detroit-MI/Data-Analyst-Intern---Summer-2027_R-083832"
+     ],
+     "count": 1
+    }
+   }
+  },
   "rocket lab": {
    "name": "Rocket Lab",
    "cycles": {
@@ -6651,5 +6663,5 @@
    }
   }
  },
- "updated_at": "2026-11-13T07:26:29Z"
+ "updated_at": "2026-11-13T15:58:31Z"
 }

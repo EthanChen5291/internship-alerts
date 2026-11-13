@@ -5,8 +5,32 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-13T07:26:29Z</updated>
+  <updated>2026-11-13T15:58:31Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:oracle:eedu.fa.em3.oraclecloud.com:202607277</id>
+    <title>WTW: Early Careers: Data Analyst Internship 🛂</title>
+    <link href="https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202607277"/>
+    <updated>2026-11-13T15:58:31Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Data &amp; ML/AI · New York, NY, United States · $18–$20/hr · Python · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:quickenloans:/job/Detroit-MI/Data-Analyst-Intern---Summer-2027_R-083832</id>
+    <title>Rocket Companies: Data Analyst Intern - Summer 2027</title>
+    <link href="https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Detroit-MI/Data-Analyst-Intern---Summer-2027_R-083832"/>
+    <updated>2026-11-13T15:58:31Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Detroit, MI</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:valeo:/job/Troy-MI/Software-Engineer-Intern--Year-Round-_REQ2026081794</id>
+    <title>Valeo: Software Engineer Intern (Year-Round)</title>
+    <link href="https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Troy-MI/Software-Engineer-Intern--Year-Round-_REQ2026081794"/>
+    <updated>2026-11-13T15:58:31Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Troy, MI · Python, C++, Linux</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:ashby:aurora-operations-inc:06daa269-c02b-43a4-88b8-b57a3ba335ef</id>
     <title>Aurora Innovation: Software Engineer Intern, Vehicle Platforms</title>
@@ -27,9 +51,9 @@
     <id>urn:intern-engine:greenhouse:lightmatter:5474807008</id>
     <title>Lightmatter: Data &amp; AI Platform, Intern - Summer 2027</title>
     <link href="https://boards.greenhouse.io/lightmatter/jobs/5474807008?gh_jid=5474807008"/>
-    <updated>2026-11-13T00:25:59Z</updated>
+    <updated>2026-11-13T15:58:31Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Boston, MA · Python, SQL, Snowflake</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · Boston, MA · Python, SQL, Snowflake · status: closed</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:muonspace:5293973007</id>
@@ -782,29 +806,5 @@
     <updated>2026-11-09T20:56:56Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Security · Sterling, VA, US</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:centene:/job/Remote-CA/Social-Media---AI-Undergraduate-Summer-Intern_1667859</id>
-    <title>Centene: Social Media &amp; AI Undergraduate Summer Intern</title>
-    <link href="https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-CA/Social-Media---AI-Undergraduate-Summer-Intern_1667859"/>
-    <updated>2026-11-09T20:56:56Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · Remote-CA · $18–$26/hr</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:uhaul:/job/Phoenix-Arizona/Software-Development-Spring-Internship_R259167</id>
-    <title>Uhaul: Software Development Spring Internship 🛂</title>
-    <link href="https://uhaul.wd1.myworkdayjobs.com/UhaulJobs/job/Phoenix-Arizona/Software-Development-Spring-Internship_R259167"/>
-    <updated>2026-11-09T20:56:56Z</updated>
-    <category term="Spring 2027"/>
-    <summary>Spring 2027 · Software · Phoenix, Arizona · $17/hr · sponsorship: no-sponsorship · status: closed</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:zoetis:/job/US-Remote/AI-Acceleration-Intern---AI-Development-Lifecycle_JR00022013-2</id>
-    <title>Zoetis: AI Acceleration Intern - AI Development Lifecycle</title>
-    <link href="https://zoetis.wd5.myworkdayjobs.com/zoetis/job/US-Remote/AI-Acceleration-Intern---AI-Development-Lifecycle_JR00022013-2"/>
-    <updated>2026-11-13T00:25:59Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Data &amp; ML/AI · US Remote · $16/hr · Python, SQL, LLMs, AWS, Azure · status: closed · H-1B track record: ~100 approvals (FY2022–2023)</summary>
   </entry>
 </feed>

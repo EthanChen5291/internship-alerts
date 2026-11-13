@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-13T07:26:29Z",
- "data_as_of": "2026-11-13T07:26:29Z",
- "rendered_at": "2026-11-13T07:26:30Z",
+ "generated_at": "2026-11-13T15:58:31Z",
+ "data_as_of": "2026-11-13T15:58:31Z",
+ "rendered_at": "2026-11-13T15:58:31Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -3512,7 +3512,7 @@
    "expected": "2026-10-02",
    "days_until": -42,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/8008645003",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/8011590003",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4462,7 +4462,7 @@
    "expected": "2026-10-27",
    "days_until": -17,
    "status": "open",
-   "url": "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/AI---Decision-Science-Intern_JR105095",
+   "url": "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105199",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5155,22 +5155,22 @@
    }
   },
   {
-   "company": "Lightmatter",
+   "company": "Rocket Companies",
    "last_cycle_posted": "",
-   "posted_on": "2026-11-12",
+   "posted_on": "2026-11-13",
    "precision": "day",
    "rolling": false,
    "confidence": "verified",
    "source": "engine",
-   "expected": "2026-11-12",
-   "days_until": -1,
+   "expected": "2026-11-13",
+   "days_until": 0,
    "status": "open",
-   "url": "https://boards.greenhouse.io/lightmatter/jobs/5474807008?gh_jid=5474807008",
+   "url": "https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Detroit-MI/Data-Analyst-Intern---Summer-2027_R-083832",
    "note": "",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
-    "observed_on": "2026-11-12"
+    "observed_on": "2026-11-13"
    }
   },
   {
@@ -9578,7 +9578,26 @@
     "cycle": "Summer 2027",
     "observed_on": "2026-11-11"
    }
+  },
+  {
+   "company": "Lightmatter",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-12",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-12",
+   "days_until": -1,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-12"
+   }
   }
  ],
- "count": 504
+ "count": 505
 }
