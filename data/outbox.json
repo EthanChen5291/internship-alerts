@@ -1,7 +1,31 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "workday:astrazeneca:/job/US---Boston---MA/Summer-2027-Innovation-and-AI-Transformation-Intern_R-264282-1",
+      "workday:caci:/job/Denver-CO-US/Embedded-Software-Development-Intern---Summer-2027_333147",
+      "workday:entegris:/job/Aurora-IL/Power-Platform---Copilot-Studio-Intern---AI---Summer-Intern_REQ-15841",
+      "workday:entegris:/job/Bloomington-MN/Embedded-Software-Engineering-Intern_REQ-15870",
+      "greenhouse:lightmatter:5474807008",
+      "greenhouse:muonspace:5293973007",
+      "workday:sbdinc:/job/Towson-MD-United-States/Intern--Data-Analyst---BI--Summer-2027_REQ-1000052481"
+    ],
+    "telegram": [
+      "workday:astrazeneca:/job/US---Boston---MA/Summer-2027-Innovation-and-AI-Transformation-Intern_R-264282-1",
+      "workday:caci:/job/Denver-CO-US/Embedded-Software-Development-Intern---Summer-2027_333147",
+      "workday:entegris:/job/Aurora-IL/Power-Platform---Copilot-Studio-Intern---AI---Summer-Intern_REQ-15841",
+      "workday:entegris:/job/Bloomington-MN/Embedded-Software-Engineering-Intern_REQ-15870",
+      "greenhouse:lightmatter:5474807008",
+      "greenhouse:muonspace:5293973007",
+      "workday:sbdinc:/job/Towson-MD-United-States/Intern--Data-Analyst---BI--Summer-2027_REQ-1000052481"
+    ],
+    "personal_email": [
+      "workday:astrazeneca:/job/US---Boston---MA/Summer-2027-Innovation-and-AI-Transformation-Intern_R-264282-1",
+      "workday:caci:/job/Denver-CO-US/Embedded-Software-Development-Intern---Summer-2027_333147",
+      "workday:entegris:/job/Aurora-IL/Power-Platform---Copilot-Studio-Intern---AI---Summer-Intern_REQ-15841",
+      "workday:entegris:/job/Bloomington-MN/Embedded-Software-Engineering-Intern_REQ-15870",
+      "greenhouse:lightmatter:5474807008",
+      "greenhouse:muonspace:5293973007",
+      "workday:sbdinc:/job/Towson-MD-United-States/Intern--Data-Analyst---BI--Summer-2027_REQ-1000052481"
+    ]
   }
 }
