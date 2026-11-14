@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-14T16:19:48Z",
- "data_as_of": "2026-11-14T16:19:48Z",
- "rendered_at": "2026-11-14T16:19:49Z",
+ "generated_at": "2026-11-14T20:54:35Z",
+ "data_as_of": "2026-11-14T20:54:35Z",
+ "rendered_at": "2026-11-14T20:54:35Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1005,25 +1005,6 @@
    "days_until": -82,
    "status": "open",
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81251",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-24"
-   }
-  },
-  {
-   "company": "Sage",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-24",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-24",
-   "days_until": -82,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/sage49/jobs/6131185004",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2069,25 +2050,6 @@
    "days_until": -67,
    "status": "open",
    "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/USCODenver/Software-Developer-Intern---Summer-2027_R-161580-1",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
-   "company": "C.H. Robinson",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -67,
-   "status": "open",
-   "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3198,25 +3160,6 @@
    }
   },
   {
-   "company": "Insulet Corporation",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-23",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-23",
-   "days_until": -52,
-   "status": "open",
-   "url": "https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/San-Diego-California/Intern--DevOps-Engineer--June-August-2027--Onsite-_REQ-2026-18202",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-23"
-   }
-  },
-  {
    "company": "ABB",
    "last_cycle_posted": "",
    "posted_on": "2026-09-24",
@@ -3228,25 +3171,6 @@
    "days_until": -51,
    "status": "open",
    "url": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/AI-Engineering--Business-Systems-Intern--Summer-2027_JR00048714",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-24"
-   }
-  },
-  {
-   "company": "Aurora Innovation",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-24",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-24",
-   "days_until": -51,
-   "status": "open",
-   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/06daa269-c02b-43a4-88b8-b57a3ba335ef",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -7775,6 +7699,25 @@
    }
   },
   {
+   "company": "Sage",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-24",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-24",
+   "days_until": -82,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-24"
+   }
+  },
+  {
    "company": "Brunswick",
    "last_cycle_posted": "",
    "posted_on": "2026-08-25",
@@ -8209,6 +8152,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-07"
+   }
+  },
+  {
+   "company": "C.H. Robinson",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -67,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
    }
   },
   {
@@ -8893,6 +8855,44 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-22"
+   }
+  },
+  {
+   "company": "Insulet Corporation",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-23",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-23",
+   "days_until": -52,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-23"
+   }
+  },
+  {
+   "company": "Aurora Innovation",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-24",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-24",
+   "days_until": -51,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-24"
    }
   },
   {
