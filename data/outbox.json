@@ -1,7 +1,13 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "oracle:eppr.fa.us2.oraclecloud.com:203746"
+    ],
+    "telegram": [
+      "oracle:eppr.fa.us2.oraclecloud.com:203746"
+    ],
+    "personal_email": [
+      "oracle:eppr.fa.us2.oraclecloud.com:203746"
+    ]
   }
 }

@@ -6,11 +6,11 @@
 
 [![CI](https://img.shields.io/github/actions/workflow/status/EthanChen5291/internship-alerts/ci.yml?branch=main&label=tests&style=flat-square&color=3fb950)](https://github.com/EthanChen5291/internship-alerts/actions/workflows/ci.yml)&nbsp;[![Open roles](https://img.shields.io/badge/dynamic/json?label=open%20roles&query=open_total&url=https%3A%2F%2Fethanchen5291.github.io%2Finternship-alerts%2Fapi%2Fstats.json&color=2f81f7&style=flat-square)](https://ethanchen5291.github.io/internship-alerts/)&nbsp;![Updates](https://img.shields.io/badge/updates-every%2030%20min-3fb950?style=flat-square)&nbsp;[![RSS](https://img.shields.io/badge/RSS-subscribe-e67e22?style=flat-square)](https://ethanchen5291.github.io/internship-alerts/feed.xml)
 
-### 1122 open roles (596 listed below) · 118 new this week
+### 1125 open roles (596 listed below) · 119 new this week
 
-5,106 employers tracked · data as of Nov 15, 2026 at 00:27 UTC
+5,106 employers tracked · data as of Nov 15, 2026 at 07:22 UTC
 
-_826 have a cycle the employer stated · 296 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
+_828 have a cycle the employer stated · 297 are recent postings whose cycle isn't stated (listed separately, never mixed in)._
 
 **[🖥️ Live dashboard](https://ethanchen5291.github.io/internship-alerts/)** · **[📡 RSS](https://ethanchen5291.github.io/internship-alerts/feed.xml)** · **[⚙️ JSON API](https://ethanchen5291.github.io/internship-alerts/api/jobs.json)** · **[🔔 Personal alerts](PERSONAL_SETUP.md)**
 
@@ -431,6 +431,7 @@ These postings never name a cycle — not in the title, not in the posting text 
 
 | Company | Role | Category | Location | Skills | Posted | Apply |
 |---|---|---|---|---|---|---|
+| Northwell Health ✓ | Emerging Technology & AI Internship 🆕 | Data & ML/AI | New Hyde Park, Nassau, United States | No skills listed | Nov 15, 2026 | [Apply](https://eppr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/203746) |
 | ServiceNow ✓ | Security Engineer Intern 🆕 | Security | Kirkland, Washington, United States | No skills listed | Nov 13, 2026 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161592679) |
 | ServiceNow ✓ | AI Identity Intern 🆕 | Data & ML/AI | Kirkland, Washington, United States | No skills listed | Nov 13, 2026 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161594249) |
 | Atalanta | Software Engineer Intern 🇺🇸 🆕 | Software | Washington D.C. | Python, Rust, TypeScript, LLMs | Nov 13, 2026 | [Apply](https://jobs.ashbyhq.com/atalanta/52011b21-df9a-4304-81a9-005a79f55335) |
@@ -646,7 +647,6 @@ These postings never name a cycle — not in the title, not in the posting text 
 | Tihinsurance | Internship - Software Engineering | Software | Dallas TX - 12377 Merit Dr. | Python, Java, C#, JavaScript | Sep 14, 2026 | [Apply](https://tihinsurance.wd1.myworkdayjobs.com/crc_careers/job/Dallas-TX---12377-Merit-Dr/Internship---Software-Engineering_R0000003172) |
 | Direct Supply ✓ | AI Engineer Intern | Data & ML/AI | Milwaukee, WI | Python, React, Node.js, AWS | Sep 04, 2026 | [Apply](https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553) |
 | Ancestry | Software Engineer – Observability, Co-op | Software | Draper, Utah | Python, Java, TypeScript, JavaScript | Aug 26, 2026 | [Apply](https://ancestry.wd501.myworkdayjobs.com/Careers/job/Draper-Utah/Software-Engineer---Observability--Co-op_R003434) |
-| Auto-Owners Insurance | Intern - Analytics Web Systems Developer | Data & ML/AI | Lansing, MI | C++, C#, JavaScript, SQL | Aug 26, 2026 | [Apply](https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Intern---Analytics-Web-Systems-Developer_R_14272) |
 
 <a id="drop-radar"></a>
 
@@ -698,8 +698,6 @@ _Why each one left is in the last column, because the two reasons carry differen
 | Western Alliance | Summer 2027 Internship - Dallas, TX - Platform Engineering | Summer 2027 | 2026-11-14 | gone from feed |
 | Shield AI | Summer 2027 - Software Engineer Intern | Summer 2027 | 2026-11-13 | out of scope |
 | Shield AI | June 2027 Co-Op - Software Engineer Intern | Summer 2027 | 2026-11-13 | out of scope |
-| General Motors | 2027 Intern - AI/ML Engineer - Capacity & Performance Engineering, Autonomous Vehicles | Summer 2027 | 2026-11-13 | out of scope |
-| General Motors | 2027 Intern - AI/ML Engineer, Autonomous Vehicle ML Infrastructure | Summer 2027 | 2026-11-13 | out of scope |
 | Affirm | Software Engineer (Machine Learning) Intern (Summer 2027) | Summer 2027 | 2026-11-13 | gone from feed |
 | Lightmatter | Data & AI Platform, Intern - Summer 2027 | Summer 2027 | 2026-11-13 | gone from feed |
 | JM Family | AI & Decision Science Intern | Summer 2027 | 2026-11-13 | gone from feed |
@@ -728,6 +726,8 @@ _Why each one left is in the last column, because the two reasons carry differen
 | Vatic Investments | AI Research Internship (Summer 2027) | Summer 2027 | 2026-11-12 | gone from feed |
 | Waymo | 2027 Summer Intern, MS, Software Engineering, Behavior Test | Summer 2027 | 2026-11-12 | gone from feed |
 | ATC | Intern - Cyber Security Summer 2027 | Summer 2027 | 2026-11-12 | gone from feed |
+| Dmainc | Cybersecurity Intern - Summer 2027 | Summer 2027 | 2026-11-12 | gone from feed |
+| Enova | Software Engineer Internship Summer 2027 (Hybrid) | Summer 2027 | 2026-11-11 | gone from feed |
 
 </details>
 
@@ -746,7 +746,7 @@ Internships posted per week, from each role's real published date - redrawn auto
 
 A small Python engine reads public company hiring feeds directly, keeps the roles that match the scope above, de-duplicates across sources, records each role's published date once (so it never shifts), and regenerates this page through GitHub Actions. It polls every company concurrently (async) with retry/backoff and per-host rate limits. The full source is in this repo.
 
-_Engine (last run): 4,948 of 5,439 registered boards returned successfully across 13 ATS platforms (99% of boards attempted, 91% of the full registry) · completed in 847.1s · 638 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
+_Engine (last run): 4,834 of 5,439 registered boards returned successfully across 13 ATS platforms (96% of boards attempted, 88% of the full registry) · completed in 1044.3s · 594 board(s) returned a capped result set, so their roles were not eligible to be closed this run · employer or source-derived date on 99% of open roles._
 
 ## How this list is built
 
