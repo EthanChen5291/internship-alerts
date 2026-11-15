@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-15T07:22:17Z",
- "data_as_of": "2026-11-15T07:22:17Z",
- "rendered_at": "2026-11-15T07:22:17Z",
+ "generated_at": "2026-11-15T15:00:40Z",
+ "data_as_of": "2026-11-15T15:00:40Z",
+ "rendered_at": "2026-11-15T15:00:40Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -4425,25 +4425,6 @@
    "days_until": -19,
    "status": "open",
    "url": "https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Claims-Lab-Developer-Intern---Summer-2027_R9803",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-10-27"
-   }
-  },
-  {
-   "company": "JM Family",
-   "last_cycle_posted": "",
-   "posted_on": "2026-10-27",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-10-27",
-   "days_until": -19,
-   "status": "open",
-   "url": "https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Software-Engineer-Intern_JR105199",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -9410,6 +9391,25 @@
   },
   {
    "company": "Commonwealth Fusion Systems",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-27",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-27",
+   "days_until": -19,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-27"
+   }
+  },
+  {
+   "company": "JM Family",
    "last_cycle_posted": "",
    "posted_on": "2026-10-27",
    "precision": "day",
