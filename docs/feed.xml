@@ -5,15 +5,15 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-15T20:34:07Z</updated>
+  <updated>2026-11-16T00:37:23Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:greenhouse:raft:6240555004</id>
-    <title>Raft: AI/ML Intern - Summer 2027 🇺🇸</title>
-    <link href="https://job-boards.greenhouse.io/raft/jobs/6240555004"/>
-    <updated>2026-11-15T20:34:07Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · McLean, Virginia, United States · $30–$40/hr · PyTorch · sponsorship: citizens-only</summary>
+    <id>urn:intern-engine:workday:viavisolutions:/job/Germantown-MD-USA/Software-Engineering-Co-op_260005308-1</id>
+    <title>Viavi Solutions: Software Engineering Co-op</title>
+    <link href="https://viavisolutions.wd1.myworkdayjobs.com/careers/job/Germantown-MD-USA/Software-Engineering-Co-op_260005308-1"/>
+    <updated>2026-11-16T00:37:23Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · Germantown, MD USA · Python, C++, Bash, Linux, Git · H-1B track record: ~29 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:raft:6239819004</id>
@@ -30,6 +30,14 @@
     <updated>2026-11-15T20:34:07Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · McLean, Virginia · $20–$24/hr · Python, Java, Go, TypeScript, JavaScript · sponsorship: citizens-only</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:greenhouse:raft:6240555004</id>
+    <title>Raft: AI/ML Intern - Summer 2027 🇺🇸</title>
+    <link href="https://job-boards.greenhouse.io/raft/jobs/6240555004"/>
+    <updated>2026-11-15T20:34:07Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · McLean, Virginia, United States · $30–$40/hr · PyTorch · sponsorship: citizens-only</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:oracle:eppr.fa.us2.oraclecloud.com:203746</id>
@@ -99,9 +107,9 @@
     <id>urn:intern-engine:ashby:aurora-operations-inc:8bd8b0b9-143a-400d-97d0-b3f70d9ee868</id>
     <title>Aurora Innovation: Embedded Software Engineer Intern — Lidar</title>
     <link href="https://jobs.ashbyhq.com/aurora-operations-inc/8bd8b0b9-143a-400d-97d0-b3f70d9ee868"/>
-    <updated>2026-11-13T22:12:33Z</updated>
+    <updated>2026-11-16T00:18:13Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · Bozeman, MT · $52/hr · Python, C++, Pandas, Linux, Git · H-1B track record: ~163 approvals (FY2022–2023)</summary>
+    <summary>Not stated · Software · Bozeman, MT · $52/hr · Python, C++, Pandas, Linux, Git · status: closed · H-1B track record: ~163 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:ashby:reliable-robotics:cbd31c94-5a83-4d1e-8252-de67a5e594ed</id>
@@ -798,13 +806,5 @@
     <updated>2026-11-10T19:52:59Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · US, WA, Redmond · C++, CUDA · H-1B track record: ~1.5k approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:trimble:/job/US---TN-Knoxville/Software-Engineering-Intern_R58120</id>
-    <title>Trimble: Software Engineering Intern 🛂</title>
-    <link href="https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---TN-Knoxville/Software-Engineering-Intern_R58120"/>
-    <updated>2026-11-10T19:52:59Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · US - TN, Knoxville · Java, C++, C#, TypeScript, SQL · sponsorship: no-sponsorship · H-1B track record: ~72 approvals (FY2022–2023)</summary>
   </entry>
 </feed>
