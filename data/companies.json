@@ -15222,6 +15222,11 @@
     "ats": "ashby"
   },
   {
+    "name": "Jessup University",
+    "slug": "WilliamJessupUniversityBayAreaCampus",
+    "ats": "smartrecruiters"
+  },
+  {
     "name": "Jigsaw",
     "slug": "jigsaw",
     "ats": "ashby"
@@ -16392,6 +16397,13 @@
     "site": "external"
   },
   {
+    "name": "Lennar",
+    "slug": "lennar",
+    "ats": "workday",
+    "wd": "wd1",
+    "site": "early_careers"
+  },
+  {
     "name": "Lennar Corporation",
     "slug": "lennar",
     "ats": "workday",
@@ -17356,6 +17368,11 @@
   {
     "name": "Makai Labs",
     "slug": "makai-labs",
+    "ats": "ashby"
+  },
+  {
+    "name": "MakerMaker",
+    "slug": "makermaker",
     "ats": "ashby"
   },
   {
@@ -26087,6 +26104,14 @@
     "ats": "workday",
     "wd": "wd5",
     "site": "SouthernTide"
+  },
+  {
+    "name": "Southern Water",
+    "slug": "southernwater",
+    "ats": "workday",
+    "wd": "wd3",
+    "site": "SouthernWater",
+    "host": "wd3.myworkdaysite.com"
   },
   {
     "name": "SouthState Bank",
