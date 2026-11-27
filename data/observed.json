@@ -2798,6 +2798,18 @@
     }
    }
   },
+  "hasbro": {
+   "name": "Hasbro",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-12",
+     "role_ids": [
+      "greenhouse:hasbro:4439483009"
+     ],
+     "count": 1
+    }
+   }
+  },
   "heartflow": {
    "name": "HeartFlow",
    "cycles": {
@@ -4161,9 +4173,17 @@
     "Summer 2027": {
      "first_posted": "2026-11-05",
      "role_ids": [
-      "smartrecruiters:NBCUniversal3:744000159947792"
+      "smartrecruiters:NBCUniversal3:744000159947792",
+      "smartrecruiters:NBCUniversal3:744000160639019",
+      "smartrecruiters:NBCUniversal3:744000160639069",
+      "smartrecruiters:NBCUniversal3:744000160649935",
+      "smartrecruiters:NBCUniversal3:744000160650767",
+      "smartrecruiters:NBCUniversal3:744000160654878",
+      "smartrecruiters:NBCUniversal3:744000160659459",
+      "smartrecruiters:NBCUniversal3:744000161179529",
+      "smartrecruiters:NBCUniversal3:744000162407064"
      ],
-     "count": 1
+     "count": 9
     }
    }
   },
@@ -5562,6 +5582,19 @@
     }
    }
   },
+  "servicenow": {
+   "name": "ServiceNow",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-13",
+     "role_ids": [
+      "smartrecruiters:ServiceNow:744000155345689",
+      "smartrecruiters:ServiceNow:744000155345889"
+     ],
+     "count": 2
+    }
+   }
+  },
   "sharkninja": {
    "name": "SharkNinja",
    "cycles": {
@@ -5769,6 +5802,18 @@
      "first_posted": "2026-09-25",
      "role_ids": [
       "workday:cat:/job/San-Diego-California/XMLNAME-2027-Internship--Gas-Compressor-Data-Analyst_R0000375786"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "solidigm": {
+   "name": "Solidigm",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-09-05",
+     "role_ids": [
+      "smartrecruiters:Solidigm:744000147613769"
      ],
      "count": 1
     }
@@ -6925,5 +6970,5 @@
    }
   }
  },
- "updated_at": "2026-11-27T00:21:55Z"
+ "updated_at": "2026-11-27T04:15:49Z"
 }

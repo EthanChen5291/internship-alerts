@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-27T00:21:55Z",
- "data_as_of": "2026-11-27T00:21:55Z",
- "rendered_at": "2026-11-27T00:21:55Z",
+ "generated_at": "2026-11-27T04:15:49Z",
+ "data_as_of": "2026-11-27T04:15:49Z",
+ "rendered_at": "2026-11-27T04:15:49Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -481,22 +481,22 @@
    }
   },
   {
-   "company": "HPR (Hyannis Port Research)",
+   "company": "Atlassian",
    "last_cycle_posted": "",
-   "posted_on": "2026-08-01",
-   "precision": "day",
+   "posted_on": "",
+   "precision": "month",
    "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
+   "confidence": "window",
+   "source": "known",
    "expected": "2026-08-01",
    "days_until": -118,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003",
-   "note": "",
+   "url": "https://campus-americas.icims.com/jobs/26272/data-engineer-intern%2c-2027-summer-u.s./job?mode=apply",
+   "note": "opens late summer for next year",
    "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-01"
+    "type": "verified-window",
+    "url": "https://www.atlassian.com/company/careers",
+    "verified_at": "2026-07-21"
    }
   },
   {
@@ -607,25 +607,6 @@
    "status": "open",
    "url": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Business-Intelligence-Development-Internship_RQ228935",
    "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-05"
-   }
-  },
-  {
-   "company": "Roblox",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-05",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-05",
-   "days_until": -114,
-   "status": "open",
-   "url": "https://careers.roblox.com/jobs/8072713?gh_jid=8072713",
-   "note": "opens fall for next summer",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -966,7 +947,7 @@
    "expected": "2026-08-19",
    "days_until": -100,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/generalmatter/jobs/5377118008",
+   "url": "https://job-boards.greenhouse.io/generalmatter/jobs/5448019008",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -1203,25 +1184,6 @@
    }
   },
   {
-   "company": "AnaVation",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-27",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-27",
-   "days_until": -92,
-   "status": "open",
-   "url": "https://jobs.lever.co/anavationllc/4a82ae00-30f0-410c-bf3c-f1cdd18739e7",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-27"
-   }
-  },
-  {
    "company": "Booz Allen",
    "last_cycle_posted": "",
    "posted_on": "2026-08-27",
@@ -1314,25 +1276,6 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-28"
-   }
-  },
-  {
-   "company": "Awetomaton",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-31",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-31",
-   "days_until": -88,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/awetomaton/jobs/5394046008",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-31"
    }
   },
   {
@@ -1963,25 +1906,6 @@
    }
   },
   {
-   "company": "ENFOS",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-04",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-04",
-   "days_until": -84,
-   "status": "open",
-   "url": "https://apply.workable.com/enfos-inc/j/CA15908E0A/",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-04"
-   }
-  },
-  {
    "company": "Hy-Vee",
    "last_cycle_posted": "",
    "posted_on": "2026-09-04",
@@ -2036,6 +1960,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-09-04"
+   }
+  },
+  {
+   "company": "Solidigm",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-05",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-05",
+   "days_until": -83,
+   "status": "open",
+   "url": "https://jobs.smartrecruiters.com/Solidigm/744000147613769",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-05"
    }
   },
   {
@@ -2108,25 +2051,6 @@
    "status": "open",
    "url": "https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315",
    "note": "Dec-Jan, peak hiring Feb",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-08"
-   }
-  },
-  {
-   "company": "Datadog",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-08",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-08",
-   "days_until": -80,
-   "status": "open",
-   "url": "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118",
-   "note": "posts roles across the year",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -2277,7 +2201,7 @@
    "expected": "2026-09-09",
    "days_until": -79,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/pacificfusion/jobs/4398373009",
+   "url": "https://job-boards.greenhouse.io/pacificfusion/jobs/4505668009",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2525,25 +2449,6 @@
    "days_until": -77,
    "status": "open",
    "url": "https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Data-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255725",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-09-11"
-   }
-  },
-  {
-   "company": "Farmersmutualhailinsurancecompany",
-   "last_cycle_posted": "",
-   "posted_on": "2026-09-11",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-09-11",
-   "days_until": -77,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/farmersmutualhailinsurancecompany/jobs/4403596009",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -2961,7 +2866,7 @@
    "expected": "2026-09-17",
    "days_until": -71,
    "status": "open",
-   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260795",
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260805",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3056,7 +2961,7 @@
    "expected": "2026-09-18",
    "days_until": -70,
    "status": "open",
-   "url": "https://jobs.smartrecruiters.com/LLNL/3743990015408206",
+   "url": "https://jobs.smartrecruiters.com/LLNL/3743990016610101",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3825,7 +3730,7 @@
    }
   },
   {
-   "company": "CapTech Consulting",
+   "company": "Hasbro",
    "last_cycle_posted": "",
    "posted_on": "2026-10-12",
    "precision": "day",
@@ -3835,7 +3740,7 @@
    "expected": "2026-10-12",
    "days_until": -46,
    "status": "open",
-   "url": "https://jobs.smartrecruiters.com/CapTechConsulting/744000155019115",
+   "url": "https://job-boards.greenhouse.io/hasbro/jobs/4439483009",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -3875,6 +3780,25 @@
    "status": "open",
    "url": "https://explore.jobs.netflix.net/careers/job/790318904468",
    "note": "opens early fall for next summer",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-13"
+   }
+  },
+  {
+   "company": "ServiceNow",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-13",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-13",
+   "days_until": -45,
+   "status": "open",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000155345889",
+   "note": "fall early-career opening",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -4082,7 +4006,7 @@
    "expected": "2026-10-20",
    "days_until": -38,
    "status": "open",
-   "url": "https://jobs.ashbyhq.com/drivewealth/ec17ef99-dea9-4150-b935-5f74750d7b87",
+   "url": "https://jobs.ashbyhq.com/drivewealth/85147395-3dfa-4c16-880f-8c7522a538ec",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4139,7 +4063,7 @@
    "expected": "2026-10-20",
    "days_until": -38,
    "status": "open",
-   "url": "https://jobs.smartrecruiters.com/LinkedIn3/744000158394370",
+   "url": "https://jobs.smartrecruiters.com/LinkedIn3/744000161930950",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -4851,25 +4775,6 @@
    }
   },
   {
-   "company": "The New York Times",
-   "last_cycle_posted": "",
-   "posted_on": "2026-11-06",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-11-06",
-   "days_until": -21,
-   "status": "open",
-   "url": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751907005",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-11-06"
-   }
-  },
-  {
    "company": "Formulary Financial",
    "last_cycle_posted": "",
    "posted_on": "2026-11-08",
@@ -4938,25 +4843,6 @@
    "days_until": -17,
    "status": "open",
    "url": "https://job-boards.greenhouse.io/addepar1/jobs/8927531002",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-11-10"
-   }
-  },
-  {
-   "company": "Hunt Oil Company",
-   "last_cycle_posted": "",
-   "posted_on": "2026-11-10",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-11-10",
-   "days_until": -17,
-   "status": "open",
-   "url": "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1104",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5203,7 +5089,7 @@
    "expected": "2026-11-19",
    "days_until": -8,
    "status": "open",
-   "url": "https://lucidmotors.com/careers/search/5290919007?gh_jid=5290919007",
+   "url": "https://lucidmotors.com/careers/search/5290904007?gh_jid=5290904007",
    "note": "fall opening",
    "provenance": {
     "type": "engine-observed",
@@ -5241,7 +5127,7 @@
    "expected": "2026-11-19",
    "days_until": -8,
    "status": "open",
-   "url": "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11324",
+   "url": "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11153",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5336,7 +5222,7 @@
    "expected": "2026-11-24",
    "days_until": -3,
    "status": "open",
-   "url": "https://job-boards.greenhouse.io/bandwidth/jobs/8414452",
+   "url": "https://job-boards.greenhouse.io/bandwidth/jobs/8414426",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5429,11 +5315,11 @@
    "expected": "",
    "days_until": null,
    "status": "open",
-   "url": "https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba",
+   "url": "https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d",
    "note": "",
    "provenance": {
     "type": "live-role",
-    "url": "https://ats.rippling.com/rippling/jobs/a07e4e46-3721-4934-b57b-0d58412e22ba"
+    "url": "https://ats.rippling.com/rippling/jobs/f9de04c3-e2c5-41f9-8e46-a0684707f89d"
    }
   },
   {
@@ -5851,25 +5737,6 @@
    "provenance": {
     "type": "verified-window",
     "url": "https://www.aqr.com/Careers",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
-   "company": "Atlassian",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-08-01",
-   "days_until": -118,
-   "status": "waiting",
-   "url": "",
-   "note": "opens late summer for next year",
-   "provenance": {
-    "type": "verified-window",
-    "url": "https://www.atlassian.com/company/careers",
     "verified_at": "2026-07-21"
    }
   },
@@ -7052,25 +6919,6 @@
    }
   },
   {
-   "company": "ServiceNow",
-   "last_cycle_posted": "",
-   "posted_on": "",
-   "precision": "month",
-   "rolling": false,
-   "confidence": "window",
-   "source": "known",
-   "expected": "2026-09-01",
-   "days_until": -87,
-   "status": "waiting",
-   "url": "",
-   "note": "fall early-career opening",
-   "provenance": {
-    "type": "verified-window",
-    "url": "https://careers.servicenow.com/",
-    "verified_at": "2026-07-21"
-   }
-  },
-  {
    "company": "Snap",
    "last_cycle_posted": "",
    "posted_on": "",
@@ -7622,6 +7470,25 @@
    }
   },
   {
+   "company": "HPR (Hyannis Port Research)",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-01",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-01",
+   "days_until": -118,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-01"
+   }
+  },
+  {
    "company": "Sentry",
    "last_cycle_posted": "",
    "posted_on": "2026-08-01",
@@ -7672,6 +7539,25 @@
    "status": "dropped",
    "url": "",
    "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-05"
+   }
+  },
+  {
+   "company": "Roblox",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-05",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-05",
+   "days_until": -114,
+   "status": "dropped",
+   "url": "",
+   "note": "opens fall for next summer",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -8040,6 +7926,25 @@
    }
   },
   {
+   "company": "AnaVation",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-27",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-27",
+   "days_until": -92,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-27"
+   }
+  },
+  {
    "company": "Workiva",
    "last_cycle_posted": "",
    "posted_on": "2026-08-27",
@@ -8094,6 +7999,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-08-30"
+   }
+  },
+  {
+   "company": "Awetomaton",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-31",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-31",
+   "days_until": -88,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-31"
    }
   },
   {
@@ -8344,6 +8268,25 @@
    }
   },
   {
+   "company": "ENFOS",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-04",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-04",
+   "days_until": -84,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-04"
+   }
+  },
+  {
    "company": "Dropbox",
    "last_cycle_posted": "",
    "posted_on": "2026-09-07",
@@ -8413,6 +8356,25 @@
    "status": "dropped",
    "url": "",
    "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-08"
+   }
+  },
+  {
+   "company": "Datadog",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-08",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-08",
+   "days_until": -80,
+   "status": "dropped",
+   "url": "",
+   "note": "posts roles across the year",
    "provenance": {
     "type": "engine-observed",
     "cycle": "Summer 2027",
@@ -8649,6 +8611,25 @@
   },
   {
    "company": "Corteva",
+   "last_cycle_posted": "",
+   "posted_on": "2026-09-11",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-09-11",
+   "days_until": -77,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-09-11"
+   }
+  },
+  {
+   "company": "Farmersmutualhailinsurancecompany",
    "last_cycle_posted": "",
    "posted_on": "2026-09-11",
    "precision": "day",
@@ -9503,6 +9484,25 @@
    }
   },
   {
+   "company": "CapTech Consulting",
+   "last_cycle_posted": "",
+   "posted_on": "2026-10-12",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-10-12",
+   "days_until": -46,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-10-12"
+   }
+  },
+  {
    "company": "ADT",
    "last_cycle_posted": "",
    "posted_on": "2026-10-13",
@@ -9883,6 +9883,44 @@
    }
   },
   {
+   "company": "The New York Times",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-06",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-06",
+   "days_until": -21,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-06"
+   }
+  },
+  {
+   "company": "Hunt Oil Company",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-10",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-10",
+   "days_until": -17,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-10"
+   }
+  },
+  {
    "company": "Brex",
    "last_cycle_posted": "",
    "posted_on": "2026-11-11",
@@ -9921,5 +9959,5 @@
    }
   }
  ],
- "count": 522
+ "count": 524
 }
