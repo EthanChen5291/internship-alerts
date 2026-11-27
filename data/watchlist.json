@@ -1,0 +1,13 @@
+{
+ "_note": "Big companies checked every few minutes by `run.py watch` (watch.py) and emailed to the owner the moment a role appears. Names must match data/companies.json; boards on a KNOWN_OUTAGE_SOURCES ATS are skipped.",
+ "companies": [
+  "Amazon", "Microsoft", "Goldman Sachs", "JPMorgan Chase", "American Express", "Uber", "Oracle",
+  "Texas Instruments", "Visa", "LinkedIn", "ServiceNow", "Netflix", "Palantir", "Spotify", "Zoox",
+  "Stripe", "Databricks", "Snowflake", "Datadog", "Cloudflare", "Airbnb", "Pinterest", "DoorDash",
+  "Robinhood", "Coinbase", "Ramp", "Figma", "Roblox", "SpaceX", "Chime", "Plaid", "Discord",
+  "Reddit", "Duolingo", "Instacart", "Lyft", "Dropbox", "Twilio", "Okta", "MongoDB", "Block",
+  "HP Inc.", "Notion", "Scale AI", "Asana", "Brex", "Affirm", "Waymo", "Samsara", "Rippling",
+  "Verkada", "Anduril", "Nuro", "GitLab", "Squarespace", "Toast", "Zscaler", "Elastic",
+  "Confluent", "Vercel", "Wayfair", "Palo Alto Networks"
+ ]
+}

@@ -185,7 +185,12 @@ jobs:
           KNOWN_OUTAGE_SOURCES: "workday"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-        run: python run.py notify
+        run: |
+          # Roles the big-company watch (watch.yml) already emailed are skipped.
+          if git fetch --no-tags --depth 1 origin watch-state; then
+            git show FETCH_HEAD:watch_state.json > data/watch_state.json || true
+          fi
+          python run.py notify
 
       # The alert state the previous step just advanced (which roles have been
       # announced, where the send cursor is) has to persist, or the next run

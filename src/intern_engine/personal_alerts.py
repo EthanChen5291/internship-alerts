@@ -395,6 +395,15 @@ def send_email(store_data: dict, new_ids: list[str]) -> list[str]:
     if not email_configured():
         return list(new_ids)
     settled, records = _records(store_data, new_ids)
+    # The big-company watch (watch.py) emails some roles minutes after they
+    # appear; don't send those again when the full sweep publishes them.
+    from . import watch  # local: watch imports this module
+
+    watched = watch.already_sent()
+    if watched:
+        dupes = [record for record in records if set(_ids(record)) <= watched]
+        settled += [jid for record in dupes for jid in _ids(record)]
+        records = [record for record in records if record not in dupes]
     programs = [record for record in records if record.get("underclass_program")]
     ordinary = [record for record in records if not record.get("underclass_program")]
 

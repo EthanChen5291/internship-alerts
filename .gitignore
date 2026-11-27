@@ -37,3 +37,6 @@ tailored-resumes/
 brown/node_modules/
 brown/.browser-profile/
 brown/data/
+
+# Big-company watch state lives on the watch-state branch, not main.
+data/watch_state.json

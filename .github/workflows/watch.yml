@@ -1,0 +1,77 @@
+name: Watch big companies
+
+# Fast lane (src/intern_engine/watch.py): reads only data/watchlist.json's
+# boards and emails the owner any new role within minutes. The owner's Mac
+# dispatches this every 5 minutes (GitHub's own scheduler fires far less often
+# than asked); the cron below is only a fallback for when the Mac is asleep.
+#
+# State lives on the `watch-state` branch, never on main: the update workflow
+# refuses to publish if main moved during its run, so this job must not push
+# there.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: watch-big-companies
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Load watch state
+        run: |
+          if git fetch --no-tags --depth 1 origin watch-state; then
+            git show FETCH_HEAD:watch_state.json > data/watch_state.json
+          fi
+
+      - name: Check the watchlist
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+          APPLICANT_PROFILE_JSON: ${{ secrets.APPLICANT_PROFILE_JSON }}
+          KNOWN_OUTAGE_SOURCES: "workday"
+        run: python run.py watch
+
+      - name: Save watch state
+        if: always()
+        run: |
+          [ -f data/watch_state.json ] || exit 0
+          cp data/watch_state.json "$RUNNER_TEMP/watch_state.json"
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          WS="$RUNNER_TEMP/ws"
+          if git fetch --no-tags --depth 1 origin watch-state; then
+            git worktree add --detach "$WS" FETCH_HEAD
+          else
+            git worktree add --detach "$WS"
+            (cd "$WS" && git checkout -q --orphan watch-state && git rm -rqf .)
+          fi
+          cp "$RUNNER_TEMP/watch_state.json" "$WS/watch_state.json"
+          cd "$WS"
+          git add watch_state.json
+          if git diff --staged --quiet; then echo "No state change."; exit 0; fi
+          git commit -qm "watch state $(date -u +%FT%TZ)"
+          git push origin HEAD:refs/heads/watch-state

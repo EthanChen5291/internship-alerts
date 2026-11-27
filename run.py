@@ -5,6 +5,7 @@
     python run.py update     # fetch -> filter -> enrich -> store -> publish everything
     python run.py render     # rebuild published artifacts from the store (no fetch)
     python run.py notify     # announce what `update` queued (run AFTER the push)
+    python run.py watch      # fast lane: email new roles at data/watchlist.json's companies
     python run.py all        # discover + harvest + update
 
 `update` and `notify` are separate on purpose. Alerts promise a role is on the
@@ -36,6 +37,7 @@ from intern_engine import (  # noqa: E402
     store,
     telegram,
     trends,
+    watch,
 )
 
 
@@ -177,6 +179,9 @@ def main() -> None:
         cmd_render()
     elif cmd == "notify":
         cmd_notify()
+    elif cmd == "watch":
+        # Fast lane: big companies only, email the owner at once (watch.py).
+        print(f"  big-company watch    {watch.run()}")
     elif cmd == "all":
         cmd_discover()
         cmd_harvest()
