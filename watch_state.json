@@ -1,11 +1,13 @@
 {
  "boards": [
   "amazon:amazon",
+  "apple:apple",
   "ashby:confluent",
   "ashby:notion",
   "ashby:plaid",
   "ashby:ramp",
   "ashby:snowflake",
+  "atlassian:atlassian",
   "eightfold:netflix",
   "google:google",
   "greenhouse:affirm",
@@ -91,6 +93,10 @@
   "ashby:notion:27090d0f-07d3-419b-adaa-837b5e22f947",
   "ashby:notion:3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
   "ashby:notion:43ffba97-b64a-4c6a-ac13-c803253c9413",
+  "atlassian:atlassian:26267",
+  "atlassian:atlassian:26268",
+  "atlassian:atlassian:26272",
+  "atlassian:atlassian:26843",
   "eightfold:netflix:790318904468",
   "greenhouse:affirm:8011590003",
   "greenhouse:airbnb:8360478",
@@ -141,6 +147,8 @@
   "rippling:rippling:f9de04c3-e2c5-41f9-8e46-a0684707f89d",
   "smartrecruiters:LinkedIn3:744000161930950",
   "smartrecruiters:LinkedIn3:744000162628808",
+  "smartrecruiters:ServiceNow:744000155345689",
+  "smartrecruiters:ServiceNow:744000155345889",
   "smartrecruiters:ServiceNow:744000161204235",
   "smartrecruiters:ServiceNow:744000161209600",
   "smartrecruiters:ServiceNow:744000161548289",
@@ -149,5 +157,5 @@
   "smartrecruiters:ServiceNow:744000161594249",
   "smartrecruiters:ServiceNow:744000162827365"
  ],
- "updated_at": "2026-11-27T01:44:30Z"
+ "updated_at": "2026-11-27T01:49:31Z"
 }
