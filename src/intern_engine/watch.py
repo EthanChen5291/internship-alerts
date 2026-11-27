@@ -24,6 +24,9 @@ from . import config, fallback, paths, personal_alerts, pipeline, quality, regis
 WATCHLIST_PATH = os.path.join(paths.DATA_DIR, "watchlist.json")
 STATE_PATH = os.path.join(paths.DATA_DIR, "watch_state.json")
 _MAX_PER_EMAIL = 25
+# Added to the watchlist after the first seed (2026-11-27), before per-board
+# learning existed: learned silently once.
+_ADDED_AFTER_FIRST_SEED = {"google"}
 
 
 def _norm(text: str) -> str:
@@ -82,14 +85,27 @@ def run() -> str:
 
     state = load_state()
     sent = set(state.get("sent_ids") or [])
+    read_now = {registry.board_key(c) for c, _result, err in results if err is None}
+    if not state.get("seeded"):
+        known: set[str] = set()  # first run: learn every board
+    elif "boards" in state:
+        known = set(state["boards"])
+    else:
+        # State from before per-board learning: every board then watched was
+        # seeded; only companies added since must be learned.
+        known = {registry.board_key(c) for c in companies
+                 if _norm(c.get("name") or "") not in _ADDED_AFTER_FIRST_SEED}
+    # A board read for the first time (first run, or a company just added to
+    # the watchlist) is learned silently: its open roles aren't "just posted".
+    new_boards = read_now - known
+    learned = [j for j in kept if j.board_key in new_boards]
+    sent |= {j.id for j in learned}
+    boards = known | read_now
+    if learned:
+        status += f", learned {len(learned)} from {len(new_boards)} new board(s)"
+
     # Anything already published (and so already emailed by `notify`) is old news.
     fresh = [j for j in kept if j.id not in sent and j.id not in existing]
-    if not state.get("seeded"):
-        # First run: learn what is open now without mailing the backlog.
-        sent |= {j.id for j in kept}
-        _save_state({"seeded": True, "sent_ids": sorted(sent),
-                     "updated_at": _now()})
-        return status + f", seeded {len(kept)}"
     shown = fresh[:_MAX_PER_EMAIL]
     if shown and personal_alerts.email_configured():
         records = [_record(j) for j in shown]
@@ -97,13 +113,14 @@ def run() -> str:
         html = html.replace("NEW INTERNSHIP ALERT", "JUST POSTED · BIG-COMPANY WATCH", 1)
         try:
             personal_alerts._post_email(f"[Just posted] {subject}", html)
+            sent |= {j.id for j in shown}
+            status += f", emailed {len(shown)}"
         except Exception as exc:  # noqa: BLE001 - not marked sent, retried next run
-            return status + f", email failed ({type(exc).__name__})"
-        sent |= {j.id for j in shown}
-        status += f", emailed {len(shown)}"
+            status += f", email failed ({type(exc).__name__})"
     elif shown:
         status += f", {len(shown)} new but email not configured"
-    _save_state({"seeded": True, "sent_ids": sorted(sent), "updated_at": _now()})
+    _save_state({"seeded": True, "sent_ids": sorted(sent), "boards": sorted(boards),
+                 "updated_at": _now()})
     return status
 
 
