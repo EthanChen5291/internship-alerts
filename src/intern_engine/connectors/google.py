@@ -6,8 +6,9 @@ block: `[[job, ...], null, total, page_size]`. Each job is a positional array:
 0 id, 1 title, 3/4/10/19 description and qualification HTML, 7 company name
 (Google, DeepMind, Waymo...), 9 locations, 12 [created epoch seconds, nanos].
 
-One fixed endpoint (not per-tenant), filtered server-side to the "Intern &
-Apprentice" level and sorted newest first.
+One fixed endpoint (not per-tenant), filtered server-side to US roles at the
+"Intern & Apprentice" level, newest first, first page only (robots.txt
+disallows `page=`).
 """
 
 from __future__ import annotations
@@ -27,7 +28,6 @@ from ..net import Net
 
 URL = "https://www.google.com/about/careers/applications/jobs/results"
 JOB_URL = "https://www.google.com/about/careers/applications/jobs/results/{id}-{slug}"
-_MAX_PAGES = 30  # 20 per page; Google's intern+apprentice list runs ~50-400
 _BLOCK = re.compile(r"AF_initDataCallback\(\{key: 'ds:1',[^\[]*?data:")
 
 
@@ -95,18 +95,16 @@ def parse(html: str, company: dict) -> tuple[list[Job], int | None, bool]:
 
 
 async def fetch(company: dict, net: Net) -> Fetch:
-    jobs: list[Job] = []
-    seen: set[str] = set()
-    for page in range(1, _MAX_PAGES + 1):
-        html = await net.get_text(URL, params={
-            "target_level": "INTERN_AND_APPRENTICE", "sort_by": "date", "page": page,
-        })
-        page_jobs, total, ok = parse(html, company)
-        if not ok:
-            return Fetch(jobs, complete=False, incomplete_reason=INCOMPLETE_MALFORMED)
-        fresh = [j for j in page_jobs if j.id not in seen]
-        seen.update(j.id for j in fresh)
-        jobs += fresh
-        if not fresh or (total is not None and len(jobs) >= total):
-            return Fetch(jobs, complete=True)
+    # google.com/robots.txt disallows paging the results (`page=`), so read
+    # only the first page of a US-only, intern-level search. It is complete
+    # only while the whole result set fits on that page (16 of 20 today).
+    html = await net.get_text(URL, params={
+        "target_level": "INTERN_AND_APPRENTICE", "location": "United States",
+        "sort_by": "date",
+    })
+    jobs, total, ok = parse(html, company)
+    if not ok:
+        return Fetch([], complete=False, incomplete_reason=INCOMPLETE_MALFORMED)
+    if total is not None and len(jobs) >= total:
+        return Fetch(jobs, complete=True)
     return Fetch(jobs, complete=False, incomplete_reason=INCOMPLETE_CAPPED)
