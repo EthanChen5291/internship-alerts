@@ -72,6 +72,7 @@
   "smartrecruiters:visa",
   "smartrecruiters:wayfair"
  ],
+ "recent": [],
  "seeded": true,
  "sent_ids": [
   "amazon:amazon:10517567",
@@ -157,5 +158,5 @@
   "smartrecruiters:ServiceNow:744000161594249",
   "smartrecruiters:ServiceNow:744000162827365"
  ],
- "updated_at": "2026-11-27T06:12:54Z"
+ "updated_at": "2026-11-27T06:18:00Z"
 }
