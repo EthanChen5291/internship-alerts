@@ -23,6 +23,7 @@ from intern_engine import (  # noqa: E402
     dashboard,
     db,
     discover,
+    fallback,
     harvester,
     mailer,
     notify,
@@ -148,6 +149,11 @@ def cmd_notify() -> None:
         done = send(store_data, pending)
         still = outbox.drain(done, channel)
         print(f"  {label:20} {len(done)} handled, {len(still)} still queued")
+
+    # While an ATS is a known outage (KNOWN_OUTAGE_SOURCES), the owner's own
+    # email gets that ATS's new roles via SimplifyJobs. Personal email only:
+    # the store and public list stay employer-sourced.
+    print(f"  outage fallback      {fallback.run(store_data)}")
 
     sent = mailer.send_digest(store_data)
     print(f"  email digest         {f'sent to {sent} subscribers' if sent else 'not due'}")

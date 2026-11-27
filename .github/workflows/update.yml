@@ -181,6 +181,8 @@ jobs:
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
           # Optional private, resume-derived facts used for truthful job-specific advice.
           APPLICANT_PROFILE_JSON: ${{ secrets.APPLICANT_PROFILE_JSON }}
+          # Owner-only email of blocked-ATS roles via SimplifyJobs (fallback.py).
+          KNOWN_OUTAGE_SOURCES: "workday"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: python run.py notify
@@ -190,7 +192,7 @@ jobs:
       # re-announces everything.
       - name: Commit alert state
         run: |
-          git add data/mail_state.json data/outbox.json
+          git add data/mail_state.json data/outbox.json data/fallback_state.json
           if git diff --staged --quiet; then
             echo "No alert state change."
             exit 0
@@ -206,7 +208,7 @@ jobs:
             git fetch --no-tags origin main
             REMOTE="$(git rev-parse origin/main)"
             if ! git diff --quiet "$ALERT_BASE" "$REMOTE" -- \
-                    data/mail_state.json data/outbox.json; then
+                    data/mail_state.json data/outbox.json data/fallback_state.json; then
               echo "::error::alert ledgers changed remotely; refusing an unsafe merge"
               exit 1
             fi
