@@ -2074,6 +2074,11 @@
     "ats": "greenhouse"
   },
   {
+    "name": "Apple",
+    "slug": "apple",
+    "ats": "apple"
+  },
+  {
     "name": "Apple Bank",
     "slug": "applebank",
     "ats": "workday",
@@ -2860,6 +2865,11 @@
     "name": "ATLAS SP",
     "slug": "atlassp",
     "ats": "greenhouse"
+  },
+  {
+    "name": "Atlassian",
+    "slug": "atlassian",
+    "ats": "atlassian"
   },
   {
     "name": "Atom Computing",

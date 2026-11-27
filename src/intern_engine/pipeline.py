@@ -40,7 +40,9 @@ from . import (
 )
 from .connectors import (
     amazon,
+    apple,
     ashby,
+    atlassian,
     breezy,
     eightfold,
     google,
@@ -65,6 +67,8 @@ CONNECTORS = {
     "workday": workday.fetch,
     "amazon": amazon.fetch,
     "google": google.fetch,
+    "apple": apple.fetch,
+    "atlassian": atlassian.fetch,
     "oracle": oracle.fetch,
     "rippling": rippling.fetch,
     "workable": workable.fetch,

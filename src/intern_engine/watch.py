@@ -26,7 +26,7 @@ STATE_PATH = os.path.join(paths.DATA_DIR, "watch_state.json")
 _MAX_PER_EMAIL = 25
 # Added to the watchlist after the first seed (2026-11-27), before per-board
 # learning existed: learned silently once.
-_ADDED_AFTER_FIRST_SEED = {"google"}
+_ADDED_AFTER_FIRST_SEED = {"google", "apple", "atlassian"}
 
 
 def _norm(text: str) -> str:

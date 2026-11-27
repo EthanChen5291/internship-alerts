@@ -223,11 +223,15 @@ def discover() -> tuple[list[dict], int]:
     # Amazon is one fixed search endpoint, not discovered per-URL.
     amazon = {"name": "Amazon", "slug": "amazon", "ats": "amazon"}
     merged.setdefault(registry.board_key(amazon), amazon)
-    # Google Careers is likewise one fixed endpoint (connectors/google.py).
-    google = {"name": "Google", "slug": "google", "ats": "google"}
-    merged.setdefault(registry.board_key(google), google)
+    # Google, Apple and Atlassian are likewise fixed endpoints (connectors/).
+    for fixed in (
+        {"name": "Google", "slug": "google", "ats": "google"},
+        {"name": "Apple", "slug": "apple", "ats": "apple"},
+        {"name": "Atlassian", "slug": "atlassian", "ats": "atlassian"},
+    ):
+        merged.setdefault(registry.board_key(fixed), fixed)
 
     companies = sorted(merged.values(), key=lambda c: c["name"].lower())
     registry.save(companies)
 
-    return companies, len(simple) + len(wd) + len(orc) + 2
+    return companies, len(simple) + len(wd) + len(orc) + 4

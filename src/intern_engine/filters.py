@@ -11,7 +11,7 @@ from datetime import UTC, datetime
 
 # --- internship detection (whole words, never substrings) --------------------
 _INTERN_RE = re.compile(
-    r"\b(intern|interns|internship|co[\s-]?op|cooperative\s+education)\b",
+    r"\b(intern|interns|internships?|co[\s-]?op|cooperative\s+education)\b",
     re.IGNORECASE,
 )
 _SENIOR_RE = re.compile(

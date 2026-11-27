@@ -8,7 +8,8 @@ claim. If something here doesn't match what the code does, that's a bug —
 
 Every role is read directly from the employer's own applicant tracking system
 (ATS) — Greenhouse, Lever, Ashby, Workday, Oracle, SmartRecruiters, Workable,
-Breezy, Recruitee, Rippling, Eightfold, Amazon's jobs API, and Google Careers.
+Breezy, Recruitee, Rippling, Eightfold, and the career sites of Amazon, Google,
+Apple and Atlassian.
 There are no aggregator links, no scraped third-party lists, and no roles copied
 from other GitHub repos. The **Apply** link is the employer's URL.
 
