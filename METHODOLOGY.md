@@ -8,9 +8,15 @@ claim. If something here doesn't match what the code does, that's a bug —
 
 Every role is read directly from the employer's own applicant tracking system
 (ATS) — Greenhouse, Lever, Ashby, Workday, Oracle, SmartRecruiters, Workable,
-Breezy, Recruitee, Rippling, Eightfold, and Amazon's jobs API. There are no
-aggregator links, no scraped third-party lists, and no roles copied from other
-GitHub repos. The **Apply** link is the employer's URL.
+Breezy, Recruitee, Rippling, Eightfold, Amazon's jobs API, and Google Careers.
+There are no aggregator links, no scraped third-party lists, and no roles copied
+from other GitHub repos. The **Apply** link is the employer's URL.
+
+One exception, outside the list: while an ATS blocks the engine (named in
+`KNOWN_OUTAGE_SOURCES`; Workday since 2026-11-16), the fork owner's own alert
+email also carries that ATS's roles from SimplifyJobs' public listings,
+labelled "via Simplify" (`fallback.py`). Those roles never enter the store,
+the README, the dashboard or the feeds.
 
 The registry of boards to poll (`data/companies.json`) is built by
 `run.py discover` + `run.py harvest`, which probe candidate ATS slugs and keep
