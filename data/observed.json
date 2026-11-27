@@ -1621,6 +1621,18 @@
     }
    }
   },
+  "compassion international": {
+   "name": "Compassion International",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-19",
+     "role_ids": [
+      "workday:compassion:/job/USA---Global-Ministry-Center/XMLNAME-2027-Summer-Internship---Data-and-Software-Engineering_R8840"
+     ],
+     "count": 1
+    }
+   }
+  },
   "conagra brands": {
    "name": "Conagra Brands",
    "cycles": {
@@ -6970,5 +6982,5 @@
    }
   }
  },
- "updated_at": "2026-11-27T04:15:49Z"
+ "updated_at": "2026-11-27T13:56:25Z"
 }

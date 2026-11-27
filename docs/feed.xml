@@ -5,23 +5,23 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-27T04:15:49Z</updated>
+  <updated>2026-11-27T13:56:25Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
   <entry>
-    <id>urn:intern-engine:atlassian:atlassian:26272</id>
-    <title>Atlassian: Data Engineer Intern, 2027 Summer U.S.</title>
-    <link href="https://campus-americas.icims.com/jobs/26272/data-engineer-intern%2c-2027-summer-u.s./job?mode=apply"/>
-    <updated>2026-11-27T04:15:49Z</updated>
+    <id>urn:intern-engine:workday:compassion:/job/USA---Global-Ministry-Center/XMLNAME-2027-Summer-Internship---Data-and-Software-Engineering_R8840</id>
+    <title>Compassion International: 2027 Summer Internship - Data and Software Engineering</title>
+    <link href="https://compassion.wd5.myworkdayjobs.com/compassioncareers/job/USA---Global-Ministry-Center/XMLNAME-2027-Summer-Internship---Data-and-Software-Engineering_R8840"/>
+    <updated>2026-11-27T13:56:25Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Seattle, United States; Remote, Remote · Python, SQL · H-1B track record: ~217 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Data &amp; ML/AI · USA - Global Ministry Center</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:atlassian:atlassian:26268</id>
-    <title>Atlassian: Machine Learning Intern, 2027 Summer U.S.</title>
-    <link href="https://campus-americas.icims.com/jobs/26268/machine-learning-intern%2c-2027-summer-u.s./job?mode=apply"/>
-    <updated>2026-11-27T04:15:49Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, United States; Seattle, United States · Python, LLMs · H-1B track record: ~217 approvals (FY2022–2023)</summary>
+    <id>urn:intern-engine:workday:swib:/job/Madison-Wisconsin/Information-Security-Intern_R-001332</id>
+    <title>State of Wisconsin Investment Board: Information Security Intern</title>
+    <link href="https://swib.wd12.myworkdayjobs.com/ext/job/Madison-Wisconsin/Information-Security-Intern_R-001332"/>
+    <updated>2026-11-27T13:56:25Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Madison Wisconsin · Python, Git</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:atlassian:atlassian:26267</id>
@@ -32,28 +32,28 @@
     <summary>Summer 2027 · Security · Seattle, United States; San Francisco, United States · Python, TypeScript, JavaScript, LLMs, Git · H-1B track record: ~217 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:atlassian:atlassian:26268</id>
+    <title>Atlassian: Machine Learning Intern, 2027 Summer U.S.</title>
+    <link href="https://campus-americas.icims.com/jobs/26268/machine-learning-intern%2c-2027-summer-u.s./job?mode=apply"/>
+    <updated>2026-11-27T04:15:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, United States; Seattle, United States · Python, LLMs · H-1B track record: ~217 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:atlassian:atlassian:26272</id>
+    <title>Atlassian: Data Engineer Intern, 2027 Summer U.S.</title>
+    <link href="https://campus-americas.icims.com/jobs/26272/data-engineer-intern%2c-2027-summer-u.s./job?mode=apply"/>
+    <updated>2026-11-27T04:15:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Seattle, United States; Remote, Remote · Python, SQL · H-1B track record: ~217 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:atlassian:atlassian:26843</id>
     <title>Atlassian: AI Demand Intelligence Intern, 2027 Summer U.S. 🛂</title>
     <link href="https://careers-americas.icims.com/jobs/26843/ai-demand-intelligence-intern%2c-2027-summer-u.s./job?mode=apply"/>
     <updated>2026-11-27T04:15:49Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · San Francisco, United States; Remote, Remote · $43/hr · SQL · sponsorship: no-sponsorship · H-1B track record: ~217 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:boseallaboutme:/job/US-MA---Framingham/Software-Engineer-Co-op_R29387</id>
-    <title>Bose: Software Engineer Co-op</title>
-    <link href="https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Software-Engineer-Co-op_R29387"/>
-    <updated>2026-11-27T04:15:49Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · US, MA - Framingham · $29–$37.25/hr · LLMs · H-1B track record: ~61 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:firstpremier:/job/Sioux-Falls-SD/PREMIER-Information-Security-Intern_R-549-1</id>
-    <title>First PREMIER Bank: PREMIER Information Security Intern</title>
-    <link href="https://firstpremier.wd503.myworkdayjobs.com/PREMIER_Careers/job/Sioux-Falls-SD/PREMIER-Information-Security-Intern_R-549-1"/>
-    <updated>2026-11-27T04:15:49Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Security · Sioux Falls, SD</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:greenhouse:hasbro:4439483009</id>
@@ -64,36 +64,20 @@
     <summary>Summer 2027 · Software · Renton, Washington, United States · Git · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000162407064</id>
-    <title>NBCUniversal: NBC Sports Programming Internships – Summer 2027 🛂</title>
-    <link href="https://jobs.smartrecruiters.com/NBCUniversal3/744000162407064"/>
-    <updated>2026-11-27T04:15:49Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · Stamford, CT, United States · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000161179529</id>
-    <title>NBCUniversal: Software Engineering Internships – Summer 2027 🛂</title>
-    <link href="https://jobs.smartrecruiters.com/NBCUniversal3/744000161179529"/>
+    <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000160639019</id>
+    <title>NBCUniversal: Universal Television Entertainment Production, Development &amp; Programming Internships – Summer 2027 🛂</title>
+    <link href="https://jobs.smartrecruiters.com/NBCUniversal3/744000160639019"/>
     <updated>2026-11-27T04:15:49Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Universal City, CA, United States · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000160659459</id>
-    <title>NBCUniversal: Software Engineering Internships – Summer 2027 🛂</title>
-    <link href="https://jobs.smartrecruiters.com/NBCUniversal3/744000160659459"/>
+    <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000160639069</id>
+    <title>NBCUniversal: Universal Television Entertainment Production, Development &amp; Programming Internships – Summer 2027 🛂</title>
+    <link href="https://jobs.smartrecruiters.com/NBCUniversal3/744000160639069"/>
     <updated>2026-11-27T04:15:49Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY, United States · Python, Java, Go, JavaScript, LLMs · sponsorship: no-sponsorship</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000160654878</id>
-    <title>NBCUniversal: Media Tech: Cybersecurity, Governance &amp; Security Engineering Internships – Summer 2027 🛂</title>
-    <link href="https://jobs.smartrecruiters.com/NBCUniversal3/744000160654878"/>
-    <updated>2026-11-27T04:15:49Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Security · New York, NY, United States · LLMs, AWS, GCP, Azure, Terraform · sponsorship: no-sponsorship</summary>
+    <summary>Summer 2027 · Software · New York, NY, United States · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000160649935</id>
@@ -112,28 +96,36 @@
     <summary>Summer 2027 · Data &amp; ML/AI · New York, NY, United States · Python, SQL, Pandas, Git, Snowflake · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000160639069</id>
-    <title>NBCUniversal: Universal Television Entertainment Production, Development &amp; Programming Internships – Summer 2027 🛂</title>
-    <link href="https://jobs.smartrecruiters.com/NBCUniversal3/744000160639069"/>
+    <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000160654878</id>
+    <title>NBCUniversal: Media Tech: Cybersecurity, Governance &amp; Security Engineering Internships – Summer 2027 🛂</title>
+    <link href="https://jobs.smartrecruiters.com/NBCUniversal3/744000160654878"/>
     <updated>2026-11-27T04:15:49Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · New York, NY, United States · sponsorship: no-sponsorship</summary>
+    <summary>Summer 2027 · Security · New York, NY, United States · LLMs, AWS, GCP, Azure, Terraform · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000160639019</id>
-    <title>NBCUniversal: Universal Television Entertainment Production, Development &amp; Programming Internships – Summer 2027 🛂</title>
-    <link href="https://jobs.smartrecruiters.com/NBCUniversal3/744000160639019"/>
+    <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000160659459</id>
+    <title>NBCUniversal: Software Engineering Internships – Summer 2027 🛂</title>
+    <link href="https://jobs.smartrecruiters.com/NBCUniversal3/744000160659459"/>
+    <updated>2026-11-27T04:15:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Software · New York, NY, United States · Python, Java, Go, JavaScript, LLMs · sponsorship: no-sponsorship</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000161179529</id>
+    <title>NBCUniversal: Software Engineering Internships – Summer 2027 🛂</title>
+    <link href="https://jobs.smartrecruiters.com/NBCUniversal3/744000161179529"/>
     <updated>2026-11-27T04:15:49Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Software · Universal City, CA, United States · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
-    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000155345889</id>
-    <title>ServiceNow: AI Engineering - Assoc Software Engineer Internships - Summer 2027 (Bachelors)</title>
-    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000155345889"/>
+    <id>urn:intern-engine:smartrecruiters:NBCUniversal3:744000162407064</id>
+    <title>NBCUniversal: NBC Sports Programming Internships – Summer 2027 🛂</title>
+    <link href="https://jobs.smartrecruiters.com/NBCUniversal3/744000162407064"/>
     <updated>2026-11-27T04:15:49Z</updated>
     <category term="Summer 2027"/>
-    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CALIFORNIA, United States (Hybrid) · $55.56/hr · Python, Java, LLMs, React, Node.js · H-1B track record: ~849 approvals (FY2022–2023)</summary>
+    <summary>Summer 2027 · Software · Stamford, CT, United States · sponsorship: no-sponsorship</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:smartrecruiters:ServiceNow:744000155345689</id>
@@ -144,12 +136,36 @@
     <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CALIFORNIA, United States (Hybrid) · $58.96/hr · Python, Java, LLMs, React, Node.js · H-1B track record: ~849 approvals (FY2022–2023)</summary>
   </entry>
   <entry>
+    <id>urn:intern-engine:smartrecruiters:ServiceNow:744000155345889</id>
+    <title>ServiceNow: AI Engineering - Assoc Software Engineer Internships - Summer 2027 (Bachelors)</title>
+    <link href="https://jobs.smartrecruiters.com/ServiceNow/744000155345889"/>
+    <updated>2026-11-27T04:15:49Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · Santa Clara, CALIFORNIA, United States (Hybrid) · $55.56/hr · Python, Java, LLMs, React, Node.js · H-1B track record: ~849 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
     <id>urn:intern-engine:smartrecruiters:Solidigm:744000147613769</id>
     <title>Solidigm: 2027 Graduate Software, Firmware &amp; AI Engineering Internships - US</title>
     <link href="https://jobs.smartrecruiters.com/Solidigm/744000147613769"/>
     <updated>2026-11-27T04:15:49Z</updated>
     <category term="Summer 2027"/>
     <summary>Summer 2027 · Data &amp; ML/AI · Rancho Cordova, CA, United States · Python, Java, C++, Bash, LLMs · H-1B track record: ~60 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:boseallaboutme:/job/US-MA---Framingham/Software-Engineer-Co-op_R29387</id>
+    <title>Bose: Software Engineer Co-op</title>
+    <link href="https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Software-Engineer-Co-op_R29387"/>
+    <updated>2026-11-27T04:15:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Software · US, MA - Framingham · $29–$37.25/hr · LLMs · H-1B track record: ~61 approvals (FY2022–2023)</summary>
+  </entry>
+  <entry>
+    <id>urn:intern-engine:workday:firstpremier:/job/Sioux-Falls-SD/PREMIER-Information-Security-Intern_R-549-1</id>
+    <title>First PREMIER Bank: PREMIER Information Security Intern</title>
+    <link href="https://firstpremier.wd503.myworkdayjobs.com/PREMIER_Careers/job/Sioux-Falls-SD/PREMIER-Information-Security-Intern_R-549-1"/>
+    <updated>2026-11-27T04:15:49Z</updated>
+    <category term="Not stated"/>
+    <summary>Not stated · Security · Sioux Falls, SD</summary>
   </entry>
   <entry>
     <id>urn:intern-engine:amazon:amazon:10606968</id>
@@ -789,22 +805,6 @@
     <link href="https://gorbel.wd501.myworkdayjobs.com/gorbelcareers/job/USA-New-York-Victor/Front-End-Web-Developer-Co-Op_REQ-2026-2375-1"/>
     <updated>2026-11-27T00:21:55Z</updated>
     <category term="Not stated"/>
-    <summary>Not stated · Software · USA, New York, Victor</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:viavisolutions:/job/Germantown-MD-USA/Software-Engineering-Co-op_260005308-1</id>
-    <title>Viavi Solutions: Software Engineering Co-op</title>
-    <link href="https://viavisolutions.wd1.myworkdayjobs.com/careers/job/Germantown-MD-USA/Software-Engineering-Co-op_260005308-1"/>
-    <updated>2026-11-16T00:37:23Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · Germantown, MD USA · Python, C++, Bash, Linux, Git · H-1B track record: ~29 approvals (FY2022–2023)</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:greenhouse:raft:6239819004</id>
-    <title>Raft: DevOps Engineering Intern - Summer 2027 🇺🇸</title>
-    <link href="https://job-boards.greenhouse.io/raft/jobs/6239819004"/>
-    <updated>2026-11-15T20:34:07Z</updated>
-    <category term="Summer 2027"/>
-    <summary>Summer 2027 · Software · McLean, Virginia · $20–$24/hr · Python, Bash, Linux, Git · sponsorship: citizens-only</summary>
+    <summary>Not stated · Software · USA, New York, Victor · $23–$25/hr · JavaScript, HTML/CSS, .NET</summary>
   </entry>
 </feed>

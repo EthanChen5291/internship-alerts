@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-27T04:15:49Z",
- "data_as_of": "2026-11-27T04:15:49Z",
- "rendered_at": "2026-11-27T04:15:49Z",
+ "generated_at": "2026-11-27T13:56:25Z",
+ "data_as_of": "2026-11-27T13:56:25Z",
+ "rendered_at": "2026-11-27T13:56:25Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -491,7 +491,7 @@
    "expected": "2026-08-01",
    "days_until": -118,
    "status": "open",
-   "url": "https://campus-americas.icims.com/jobs/26272/data-engineer-intern%2c-2027-summer-u.s./job?mode=apply",
+   "url": "https://campus-americas.icims.com/jobs/26267/security-engineer-intern%2c-2027-summer-u.s./job?mode=apply",
    "note": "opens late summer for next year",
    "provenance": {
     "type": "verified-window",
@@ -3797,7 +3797,7 @@
    "expected": "2026-10-13",
    "days_until": -45,
    "status": "open",
-   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000155345889",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000155345689",
    "note": "fall early-career opening",
    "provenance": {
     "type": "engine-observed",
@@ -5057,6 +5057,25 @@
     "type": "engine-observed",
     "cycle": "Summer 2027",
     "observed_on": "2026-11-18"
+   }
+  },
+  {
+   "company": "Compassion International",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-19",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-19",
+   "days_until": -8,
+   "status": "open",
+   "url": "https://compassion.wd5.myworkdayjobs.com/compassioncareers/job/USA---Global-Ministry-Center/XMLNAME-2027-Summer-Internship---Data-and-Software-Engineering_R8840",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-19"
    }
   },
   {
@@ -9959,5 +9978,5 @@
    }
   }
  ],
- "count": 524
+ "count": 525
 }
