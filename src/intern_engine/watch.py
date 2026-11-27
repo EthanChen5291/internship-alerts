@@ -24,6 +24,7 @@ from . import config, fallback, paths, personal_alerts, pipeline, quality, regis
 WATCHLIST_PATH = os.path.join(paths.DATA_DIR, "watchlist.json")
 STATE_PATH = os.path.join(paths.DATA_DIR, "watch_state.json")
 _MAX_PER_EMAIL = 25
+_KEEP_RECENT = 300  # newest emailed roles, with details, for the auto-apply queue
 # Added to the watchlist after the first seed (2026-11-27), before per-board
 # learning existed: learned silently once.
 _ADDED_AFTER_FIRST_SEED = {"google", "apple", "atlassian"}
@@ -85,6 +86,7 @@ def run() -> str:
 
     state = load_state()
     sent = set(state.get("sent_ids") or [])
+    recent = list(state.get("recent") or [])
     read_now = {registry.board_key(c) for c, _result, err in results if err is None}
     if not state.get("seeded"):
         known: set[str] = set()  # first run: learn every board
@@ -113,15 +115,23 @@ def run() -> str:
         html = html.replace("NEW INTERNSHIP ALERT", "JUST POSTED · BIG-COMPANY WATCH", 1)
         try:
             personal_alerts._post_email(f"[Just posted] {subject}", html)
-            sent |= {j.id for j in shown}
-            status += f", emailed {len(shown)}"
         except Exception as exc:  # noqa: BLE001 - not marked sent, retried next run
             status += f", email failed ({type(exc).__name__})"
+        else:
+            sent |= {j.id for j in shown}
+            status += f", emailed {len(shown)}"
+            # Kept for the owner's auto-apply queue, which reads this branch file.
+            recent = [_brief(j) for j in shown] + recent
     elif shown:
         status += f", {len(shown)} new but email not configured"
     _save_state({"seeded": True, "sent_ids": sorted(sent), "boards": sorted(boards),
-                 "updated_at": _now()})
+                 "recent": recent[:_KEEP_RECENT], "updated_at": _now()})
     return status
+
+
+def _brief(job) -> dict:
+    keys = ("id", "company", "title", "url", "location", "season", "category")
+    return {**{k: getattr(job, k, None) for k in keys}, "first_seen_at": _now()}
 
 
 def _now() -> str:

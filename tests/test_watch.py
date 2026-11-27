@@ -90,3 +90,13 @@ def test_legacy_state_learns_only_companies_added_since(monkeypatch, tmp_path):
                     state={"seeded": True, "sent_ids": ["s1"]})
     out = watch.run()
     assert "learned 1" in out and "emailed 1" in out  # g1 learned, s2 emailed
+
+
+def test_emailed_roles_are_recorded_with_details(monkeypatch, tmp_path):
+    mail, path = _wire(monkeypatch, tmp_path, {"stripe": ["s1", "s2"]},
+                       state={"seeded": True, "sent_ids": ["s1"], "boards": ["greenhouse:stripe"]})
+    for attr in ("company", "title", "url", "location", "season", "category"):
+        setattr(_Job, attr, attr)
+    assert "emailed 1" in watch.run()
+    recent = json.loads(path.read_text())["recent"]
+    assert [r["id"] for r in recent] == ["s2"] and recent[0]["url"] == "url"
