@@ -5,8 +5,16 @@
   <subtitle>Auto-detected internships, newest finds first.</subtitle>
   <link href="https://ethanchen5291.github.io/internship-alerts/feed.xml" rel="self"/>
   <link href="https://github.com/EthanChen5291/internship-alerts"/>
-  <updated>2026-11-27T13:56:25Z</updated>
+  <updated>2026-11-27T22:46:52Z</updated>
   <author><name>Internship Engine</name><uri>https://github.com/EthanChen5291/internship-alerts</uri></author>
+  <entry>
+    <id>urn:intern-engine:greenhouse:iconiqhandshake:8386455</id>
+    <title>ICONIQ Capital: 2027 AI Engineering Intern 🛂</title>
+    <link href="https://job-boards.greenhouse.io/iconiqhandshake/jobs/8386455"/>
+    <updated>2026-11-27T22:46:52Z</updated>
+    <category term="Summer 2027"/>
+    <summary>Summer 2027 · Data &amp; ML/AI · New York, New York · $50/hr · Python, LLMs · sponsorship: no-sponsorship · H-1B track record: ~14 approvals (FY2022–2023)</summary>
+  </entry>
   <entry>
     <id>urn:intern-engine:workday:compassion:/job/USA---Global-Ministry-Center/XMLNAME-2027-Summer-Internship---Data-and-Software-Engineering_R8840</id>
     <title>Compassion International: 2027 Summer Internship - Data and Software Engineering</title>
@@ -798,13 +806,5 @@
     <updated>2026-11-27T00:21:55Z</updated>
     <category term="Not stated"/>
     <summary>Not stated · Software · Plymouth, MN 55441</summary>
-  </entry>
-  <entry>
-    <id>urn:intern-engine:workday:gorbel:/job/USA-New-York-Victor/Front-End-Web-Developer-Co-Op_REQ-2026-2375-1</id>
-    <title>Gorbel: Front-End Web Developer Co-Op</title>
-    <link href="https://gorbel.wd501.myworkdayjobs.com/gorbelcareers/job/USA-New-York-Victor/Front-End-Web-Developer-Co-Op_REQ-2026-2375-1"/>
-    <updated>2026-11-27T00:21:55Z</updated>
-    <category term="Not stated"/>
-    <summary>Not stated · Software · USA, New York, Victor · $23–$25/hr · JavaScript, HTML/CSS, .NET</summary>
   </entry>
 </feed>

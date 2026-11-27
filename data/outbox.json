@@ -1,7 +1,13 @@
 {
   "pending": {
-    "discord": [],
-    "telegram": [],
-    "personal_email": []
+    "discord": [
+      "greenhouse:iconiqhandshake:8386455"
+    ],
+    "telegram": [
+      "greenhouse:iconiqhandshake:8386455"
+    ],
+    "personal_email": [
+      "greenhouse:iconiqhandshake:8386455"
+    ]
   }
 }

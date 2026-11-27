@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-27T13:56:25Z",
- "data_as_of": "2026-11-27T13:56:25Z",
- "rendered_at": "2026-11-27T13:56:25Z",
+ "generated_at": "2026-11-27T22:46:52Z",
+ "data_as_of": "2026-11-27T22:46:52Z",
+ "rendered_at": "2026-11-27T22:46:52Z",
  "cycle": "Summer 2027",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "companies": [
@@ -1062,25 +1062,6 @@
    "days_until": -94,
    "status": "open",
    "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---California---Santa-Clara/Software-Engineering-Intern--Cloud-Platform--Summer-2027-_JR-2604034",
-   "note": "",
-   "provenance": {
-    "type": "engine-observed",
-    "cycle": "Summer 2027",
-    "observed_on": "2026-08-25"
-   }
-  },
-  {
-   "company": "Grant Thornton",
-   "last_cycle_posted": "",
-   "posted_on": "2026-08-25",
-   "precision": "day",
-   "rolling": false,
-   "confidence": "verified",
-   "source": "engine",
-   "expected": "2026-08-25",
-   "days_until": -94,
-   "status": "open",
-   "url": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/115637",
    "note": "",
    "provenance": {
     "type": "engine-observed",
@@ -5003,6 +4984,25 @@
    }
   },
   {
+   "company": "ICONIQ Capital",
+   "last_cycle_posted": "",
+   "posted_on": "2026-11-13",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-11-13",
+   "days_until": -14,
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/iconiqhandshake/jobs/8386455",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-11-13"
+   }
+  },
+  {
    "company": "Reliable Robotics",
    "last_cycle_posted": "",
    "posted_on": "2026-11-13",
@@ -7888,6 +7888,25 @@
    }
   },
   {
+   "company": "Grant Thornton",
+   "last_cycle_posted": "",
+   "posted_on": "2026-08-25",
+   "precision": "day",
+   "rolling": false,
+   "confidence": "verified",
+   "source": "engine",
+   "expected": "2026-08-25",
+   "days_until": -94,
+   "status": "dropped",
+   "url": "",
+   "note": "",
+   "provenance": {
+    "type": "engine-observed",
+    "cycle": "Summer 2027",
+    "observed_on": "2026-08-25"
+   }
+  },
+  {
    "company": "Verisk",
    "last_cycle_posted": "",
    "posted_on": "2026-08-26",
@@ -9978,5 +9997,5 @@
    }
   }
  ],
- "count": 525
+ "count": 526
 }
