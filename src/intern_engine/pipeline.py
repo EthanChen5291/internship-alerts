@@ -904,6 +904,11 @@ def _build_stats(companies, benched, succeeded, complete_keys, errors, errors_by
         "fetched_ok": len(succeeded),
         "fetch_errors": errors,
         "errors_by_source": dict(errors_by_ats),
+        # Per-source board outcomes, so the publish gate can judge one ATS's
+        # outage (KNOWN_OUTAGE_SOURCES) apart from the rest of the registry.
+        "fetched_ok_by_source": dict(Counter(
+            c["ats"] for c in companies if registry.board_key(c) in succeeded
+        )),
         # Two rates, because they answer different questions and only quoting
         # the first one overstates coverage: "of the boards we attempted this
         # run" vs "of every board on the registry" (quarantined ones included).

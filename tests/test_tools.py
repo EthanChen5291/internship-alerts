@@ -127,6 +127,39 @@ class TestSnapshotGateCalibration:
         assert "INCOMPLETE_CAPPED" not in computation
 
 
+
+class TestKnownOutageRegistryGate:
+    """KNOWN_OUTAGE_SOURCES: one blocked ATS must not hold back the others."""
+
+    gate = importlib.import_module("tools.verify_accuracy")
+    # The 2026-11-26 run: Workday 160/1963 behind Cloudflare, the rest healthy.
+    stats = {
+        "fetch_success_rate_registry": 0.607,
+        "fetched_ok": 3374,
+        "companies_by_source": {"workday": 1963, "greenhouse": 1233, "other": 2359},
+        "fetched_ok_by_source": {"workday": 160, "greenhouse": 1150, "other": 2064},
+    }
+
+    def test_without_an_outage_the_whole_registry_is_judged(self):
+        gates, _ = self.gate.registry_gate(self.stats, set())
+        assert any("registry-decay" in g for g in gates)
+
+    def test_a_named_outage_is_judged_apart(self):
+        gates, notes = self.gate.registry_gate(self.stats, {"workday"})
+        assert gates == []
+        assert any("known-outage] workday: 160/1963" in n for n in notes)
+
+    def test_a_new_outage_elsewhere_still_trips(self):
+        broken = {**self.stats, "fetched_ok": 160 + 1150 + 900,
+                  "fetched_ok_by_source": {"workday": 160, "greenhouse": 1150, "other": 900}}
+        gates, _ = self.gate.registry_gate(broken, {"workday"})
+        assert any("registry-decay" in g for g in gates)
+
+    def test_inconsistent_per_source_counts_are_caught(self):
+        bad = {**self.stats, "fetched_ok": 9999}
+        gates, _ = self.gate.registry_gate(bad, {"workday"})
+        assert any("stats-arithmetic" in g for g in gates)
+
 class TestDatePrecisionContract:
     """models.date_source underpins the never-downgrade rule in the store."""
 

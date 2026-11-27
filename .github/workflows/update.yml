@@ -66,6 +66,10 @@ jobs:
         env:
           MIN_OPEN_ROLES: "70"
           MAX_STATS_AGE_HOURS: "2"
+          # Workday's Cloudflare has rejected the engine's client since
+          # 2026-11-16; judge it apart so it stops blocking every other source.
+          # Remove once Workday boards return again.
+          KNOWN_OUTAGE_SOURCES: "workday"
         run: python tools/verify_accuracy.py
 
       # Alerts are sent by a LATER step, on purpose: an alert promises the role

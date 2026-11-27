@@ -70,6 +70,44 @@ _REQUIRED_STATS = {
 }
 
 
+
+def registry_gate(stats: dict, outage: set[str]) -> tuple[list[str], list[str]]:
+    """The registry-decay gate. Returns (gates, warnings).
+
+    A source named in `outage` (KNOWN_OUTAGE_SOURCES, e.g. "workday" while that
+    ATS blocks us) is judged apart from the rest: one ATS going dark must not
+    hold back every other source's roles. Only explicitly named sources are
+    exempt, so a new outage anywhere else still trips the gate.
+    """
+    gates: list[str] = []
+    notes: list[str] = []
+    reg = stats.get("fetch_success_rate_registry")
+    by_src = stats.get("companies_by_source")
+    ok_by_src = stats.get("fetched_ok_by_source")
+    if outage and isinstance(by_src, dict) and isinstance(ok_by_src, dict):
+        if sum(ok_by_src.values()) != stats.get("fetched_ok"):
+            gates.append("  [stats-arithmetic] fetched_ok_by_source does not sum to fetched_ok")
+        rest_total = sum(n for src, n in by_src.items() if src not in outage)
+        rest_ok = sum(n for src, n in ok_by_src.items() if src not in outage)
+        rest = rest_ok / max(rest_total, 1)
+        if rest < _MIN_REGISTRY_RATE:
+            gates.append(
+                f"  [registry-decay] only {rest:.1%} of the registry outside "
+                f"{', '.join(sorted(outage))} returned (floor {_MIN_REGISTRY_RATE:.0%})"
+            )
+        for src in sorted(outage):
+            notes.append(
+                f"  [known-outage] {src}: {ok_by_src.get(src, 0)}/{by_src.get(src, 0)} boards "
+                f"returned; judged apart from the registry (KNOWN_OUTAGE_SOURCES)"
+            )
+    elif isinstance(reg, (int, float)) and reg < _MIN_REGISTRY_RATE:
+        gates.append(
+            f"  [registry-decay] only {reg:.1%} of the full registry returned "
+            f"(floor {_MIN_REGISTRY_RATE:.0%}) — quarantined boards are growing"
+        )
+    return gates, notes
+
+
 def main() -> None:
     cfg = config.load_config()
     cycles = config.cycles(cfg)
@@ -296,12 +334,14 @@ def main() -> None:
         # Attempted-board rate alone hides slow rot: quarantined endpoints are
         # never attempted, so that number stays high while the registry decays
         # underneath it. Gate on the registry-wide figure too.
-        reg = stats.get("fetch_success_rate_registry")
-        if isinstance(reg, (int, float)) and reg < _MIN_REGISTRY_RATE:
-            gates.append(
-                f"  [registry-decay] only {reg:.1%} of the full registry returned "
-                f"(floor {_MIN_REGISTRY_RATE:.0%}) — quarantined boards are growing"
-            )
+        outage = {
+            src.strip().lower()
+            for src in (os.environ.get("KNOWN_OUTAGE_SOURCES") or "").split(",")
+            if src.strip()
+        }
+        reg_gates, reg_notes = registry_gate(stats, outage)
+        gates.extend(reg_gates)
+        warnings.extend(reg_notes)
         # A run that read almost nothing completely is not a snapshot worth
         # publishing, even if the roles it did see look fine.
         complete = stats.get("snapshots_complete")
