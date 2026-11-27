@@ -212,6 +212,18 @@
     }
    }
   },
+  "airbnb": {
+   "name": "Airbnb",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-18",
+     "role_ids": [
+      "greenhouse:airbnb:8360478"
+     ],
+     "count": 1
+    }
+   }
+  },
   "akuna capital": {
    "name": "Akuna Capital",
    "cycles": {
@@ -328,7 +340,7 @@
     },
     "Summer 2027": {
      "first_posted": "2026-05-13",
-     "count": 21,
+     "count": 23,
      "role_ids": [
       "amazon:amazon:10418355",
       "amazon:amazon:10456239",
@@ -350,7 +362,9 @@
       "amazon:amazon:10593521",
       "amazon:amazon:10597379",
       "amazon:amazon:10605132",
-      "amazon:amazon:10605141"
+      "amazon:amazon:10605141",
+      "amazon:amazon:10606968",
+      "amazon:amazon:10609992"
      ]
     }
    }
@@ -520,11 +534,12 @@
    "cycles": {
     "Summer 2027": {
      "first_posted": "2026-06-10",
-     "count": 3,
+     "count": 4,
      "role_ids": [
       "greenhouse:andurilindustries:5148079007",
       "greenhouse:andurilindustries:5239083007",
-      "greenhouse:andurilindustries:5269977007"
+      "greenhouse:andurilindustries:5269977007",
+      "greenhouse:andurilindustries:5274037007"
      ]
     }
    }
@@ -696,9 +711,10 @@
      "first_posted": "2026-08-06",
      "role_ids": [
       "greenhouse:cssmerge:8687896002",
-      "greenhouse:cssmerge:8869106002"
+      "greenhouse:cssmerge:8869106002",
+      "greenhouse:cssmerge:8963704002"
      ],
-     "count": 2
+     "count": 3
     }
    }
   },
@@ -805,6 +821,24 @@
     }
    }
   },
+  "bandwidth": {
+   "name": "Bandwidth",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-24",
+     "role_ids": [
+      "greenhouse:bandwidth:8414426",
+      "greenhouse:bandwidth:8414430",
+      "greenhouse:bandwidth:8414436",
+      "greenhouse:bandwidth:8414440",
+      "greenhouse:bandwidth:8414444",
+      "greenhouse:bandwidth:8414448",
+      "greenhouse:bandwidth:8414452"
+     ],
+     "count": 7
+    }
+   }
+  },
   "bass pro shops": {
    "name": "Bass Pro Shops",
    "cycles": {
@@ -868,6 +902,18 @@
     }
    }
   },
+  "benchling": {
+   "name": "Benchling",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-23",
+     "role_ids": [
+      "ashby:benchling:96370d1b-d35e-446b-8e26-dce088860099"
+     ],
+     "count": 1
+    }
+   }
+  },
   "berkshire hathaway energy": {
    "name": "Berkshire Hathaway Energy",
    "cycles": {
@@ -887,6 +933,18 @@
      "first_posted": "2026-10-06",
      "role_ids": [
       "workday:biibhr:/job/Remote-USA/Co-op--Machine-Learning-Engineering_REQ24310"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "biohub": {
+   "name": "Biohub",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-20",
+     "role_ids": [
+      "greenhouse:biohub:8400682"
      ],
      "count": 1
     }
@@ -1208,6 +1266,19 @@
     }
    }
   },
+  "cantor fitzgerald": {
+   "name": "Cantor Fitzgerald",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-25",
+     "role_ids": [
+      "oracle:hdow.fa.us6.oraclecloud.com:250631",
+      "oracle:hdow.fa.us6.oraclecloud.com:250648"
+     ],
+     "count": 2
+    }
+   }
+  },
   "captech consulting": {
    "name": "CapTech Consulting",
    "cycles": {
@@ -1455,10 +1526,11 @@
     "Summer 2027": {
      "first_posted": "2026-10-09",
      "role_ids": [
+      "workday:cmu:/job/Pittsburgh-PA/AI-Engineer-Intern---Mission-Innovation-Lab--Summer-2027-_2025364-1",
       "workday:cmu:/job/Pittsburgh-PA/AI-Security-Research-Intern---Summer-2027_2025199-1",
       "workday:cmu:/job/Pittsburgh-PA/AI-Security-Software-Engineer-Intern---Summer-2027_2025200-1"
      ],
-     "count": 2
+     "count": 3
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -1505,9 +1577,10 @@
       "greenhouse:coinbase:8168315",
       "greenhouse:coinbase:8175441",
       "greenhouse:coinbase:8175459",
-      "greenhouse:coinbase:8175471"
+      "greenhouse:coinbase:8175471",
+      "greenhouse:coinbase:8415869"
      ],
-     "count": 4
+     "count": 5
     }
    }
   },
@@ -1801,6 +1874,18 @@
     }
    }
   },
+  "digital control": {
+   "name": "Digital Control",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-25",
+     "role_ids": [
+      "workable:digital-control:AB9A181560"
+     ],
+     "count": 1
+    }
+   }
+  },
   "dmainc": {
    "name": "Dmainc",
    "cycles": {
@@ -1883,6 +1968,21 @@
       "workday:drivetime:/job/1720-W-Rio-Salado-Pkwy-Tempe-AZ-85281/Software-Engineer-Intern--Summer-2027-_R16294"
      ],
      "count": 2
+    }
+   }
+  },
+  "drivewealth": {
+   "name": "DriveWealth",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-20",
+     "role_ids": [
+      "ashby:drivewealth:85147395-3dfa-4c16-880f-8c7522a538ec",
+      "ashby:drivewealth:a214dd6c-e3ac-481e-8308-bf74c2032b8a",
+      "ashby:drivewealth:b11409e6-a86d-4504-b4da-36636f888c16",
+      "ashby:drivewealth:ec17ef99-dea9-4150-b935-5f74750d7b87"
+     ],
+     "count": 4
     }
    }
   },
@@ -2003,6 +2103,19 @@
     }
    }
   },
+  "ep wealth advisors": {
+   "name": "EP Wealth Advisors",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-11",
+     "role_ids": [
+      "lever:epwealth:6f92e3ad-ab55-44bf-b2d6-395cdd4dc7a9",
+      "lever:epwealth:b9b8ce36-70e5-495e-8ec2-f06456b5851b"
+     ],
+     "count": 2
+    }
+   }
+  },
   "equifax": {
    "name": "Equifax",
    "cycles": {
@@ -2022,6 +2135,18 @@
      "first_posted": "2026-08-31",
      "role_ids": [
       "workday:ercot:/job/Taylor-TX/Summer-Intern----Cyber-Security_R2404"
+     ],
+     "count": 1
+    }
+   }
+  },
+  "esri": {
+   "name": "Esri",
+   "cycles": {
+    "Fall 2026": {
+     "first_posted": "2026-11-05",
+     "role_ids": [
+      "greenhouse:studentprogram:5286753007"
      ],
      "count": 1
     }
@@ -2318,9 +2443,10 @@
     "Summer 2027": {
      "first_posted": "2026-11-06",
      "role_ids": [
-      "greenhouse:galaxydigitalservices:6250002004"
+      "greenhouse:galaxydigitalservices:6250002004",
+      "greenhouse:galaxydigitalservices:6265138004"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -2672,6 +2798,18 @@
     }
    }
   },
+  "heartflow": {
+   "name": "HeartFlow",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-19",
+     "role_ids": [
+      "greenhouse:heartflowinc:6263395004"
+     ],
+     "count": 1
+    }
+   }
+  },
   "heliux": {
    "name": "Heliux",
    "cycles": {
@@ -2995,9 +3133,10 @@
     "Summer 2027": {
      "first_posted": "2026-11-09",
      "role_ids": [
-      "ashby:illumio:2bcba5c3-c6e7-407c-92b2-73027594789e"
+      "ashby:illumio:2bcba5c3-c6e7-407c-92b2-73027594789e",
+      "ashby:illumio:78a9e57d-c213-405b-9cf3-6e68109a4ce7"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -3366,9 +3505,11 @@
       "smartrecruiters:LLNL:3743990016610216",
       "smartrecruiters:LLNL:3743990016610426",
       "smartrecruiters:LLNL:3743990016610436",
-      "smartrecruiters:LLNL:3743990016610446"
+      "smartrecruiters:LLNL:3743990016610446",
+      "smartrecruiters:LLNL:3743990016984696",
+      "smartrecruiters:LLNL:3743990016985486"
      ],
-     "count": 13
+     "count": 15
     }
    }
   },
@@ -3434,9 +3575,11 @@
      "first_posted": "2026-10-20",
      "role_ids": [
       "smartrecruiters:LinkedIn3:744000156616169",
-      "smartrecruiters:LinkedIn3:744000158394370"
+      "smartrecruiters:LinkedIn3:744000158394370",
+      "smartrecruiters:LinkedIn3:744000161930950",
+      "smartrecruiters:LinkedIn3:744000162628808"
      ],
-     "count": 2
+     "count": 4
     }
    }
   },
@@ -3475,6 +3618,24 @@
       "workday:lseg:/job/New-York-City-United-States/Intern---Software-Engineer_R0124266-1"
      ],
      "count": 1
+    }
+   }
+  },
+  "lucid motors": {
+   "name": "Lucid Motors",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-19",
+     "role_ids": [
+      "greenhouse:lucidmotors:5290904007",
+      "greenhouse:lucidmotors:5290911007",
+      "greenhouse:lucidmotors:5290919007",
+      "greenhouse:lucidmotors:5290921007",
+      "greenhouse:lucidmotors:5290923007",
+      "greenhouse:lucidmotors:5290925007",
+      "greenhouse:lucidmotors:5290947007"
+     ],
+     "count": 7
     }
    }
   },
@@ -3832,9 +3993,10 @@
     "Summer 2027": {
      "first_posted": "2026-10-23",
      "role_ids": [
-      "greenhouse:mongodb:8209134"
+      "greenhouse:mongodb:8209134",
+      "greenhouse:mongodb:8346138"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4413,9 +4575,10 @@
     "Summer 2027": {
      "first_posted": "2026-09-09",
      "role_ids": [
-      "greenhouse:pacificfusion:4398373009"
+      "greenhouse:pacificfusion:4398373009",
+      "greenhouse:pacificfusion:4505668009"
      ],
-     "count": 1
+     "count": 2
     }
    }
   },
@@ -4490,6 +4653,18 @@
       "greenhouse:pdtpartners:8077685",
       "greenhouse:pdtpartners:8263031"
      ]
+    }
+   }
+  },
+  "pebl": {
+   "name": "Pebl",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-19",
+     "role_ids": [
+      "ashby:pebl:10c7b7d7-835c-46a9-b107-81577ed3c4a0"
+     ],
+     "count": 1
     }
    }
   },
@@ -4785,6 +4960,18 @@
     }
    }
   },
+  "quest analytics": {
+   "name": "Quest Analytics",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-10-15",
+     "role_ids": [
+      "lever:questanalytics:8e5758b7-6945-4c22-9f89-3d029ca9716f"
+     ],
+     "count": 1
+    }
+   }
+  },
   "raft": {
    "name": "Raft",
    "cycles": {
@@ -4796,6 +4983,23 @@
       "greenhouse:raft:6240555004"
      ],
      "count": 3
+    }
+   }
+  },
+  "ralliant": {
+   "name": "Ralliant",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-19",
+     "role_ids": [
+      "oracle:ibwujb.fa.ocs.oraclecloud.com:11153",
+      "oracle:ibwujb.fa.ocs.oraclecloud.com:11154",
+      "oracle:ibwujb.fa.ocs.oraclecloud.com:11167",
+      "oracle:ibwujb.fa.ocs.oraclecloud.com:11231",
+      "oracle:ibwujb.fa.ocs.oraclecloud.com:11266",
+      "oracle:ibwujb.fa.ocs.oraclecloud.com:11324"
+     ],
+     "count": 6
     }
    }
   },
@@ -5309,6 +5513,18 @@
     }
    }
   },
+  "scout space": {
+   "name": "Scout Space",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-11-19",
+     "role_ids": [
+      "greenhouse:scoutspace:5489231008"
+     ],
+     "count": 1
+    }
+   }
+  },
   "sentara health": {
    "name": "Sentara Health",
    "cycles": {
@@ -5355,6 +5571,13 @@
      "role_ids": [
       "greenhouse:sharkninjaoperatingllc:4669676006"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-11-23",
+     "role_ids": [
+      "greenhouse:sharkninjaoperatingllc:4725867006"
+     ],
+     "count": 1
     }
    }
   },
@@ -5365,13 +5588,15 @@
      "first_posted": "2026-09-08",
      "role_ids": [
       "ashby:f7d8749a-72d6-407c-bf98-292ea630c73a:661d7ac4-51df-454d-82c8-2a0d94852036",
+      "ashby:shield:2d4c1eef-2569-46e1-9924-23588d5c5e86",
       "ashby:shield:661d7ac4-51df-454d-82c8-2a0d94852036",
       "ashby:shield:a28e047a-ee12-452c-883b-ecd995d1b6b2",
       "ashby:shield:db04c516-d21a-449c-8bfd-1cf830eafb5a",
+      "ashby:shield:f96617c2-a120-4b3b-844d-790fcda42503",
       "lever:shieldai:8c850c75-081d-4d09-bebf-096379a93010",
       "lever:shieldai:db8fc063-8856-4404-991c-f287712de949"
      ],
-     "count": 6
+     "count": 8
     }
    }
   },
@@ -5625,9 +5850,10 @@
       "oracle:hdhl.fa.us6.oraclecloud.com:1008210",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008240",
       "oracle:hdhl.fa.us6.oraclecloud.com:1008446",
-      "oracle:hdhl.fa.us6.oraclecloud.com:1008448"
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008448",
+      "oracle:hdhl.fa.us6.oraclecloud.com:1008995"
      ],
-     "count": 19
+     "count": 20
     },
     "Fall 2026": {
      "first_posted": "2026-09-02",
@@ -6150,6 +6376,19 @@
       "greenhouse:vaticlabs:7205954"
      ],
      "count": 1
+    }
+   }
+  },
+  "veeva systems": {
+   "name": "Veeva Systems",
+   "cycles": {
+    "Summer 2027": {
+     "first_posted": "2026-08-13",
+     "role_ids": [
+      "lever:veeva:4738ae75-9f7b-4082-b129-69fb82f6d7b2",
+      "lever:veeva:f277bc52-1dd6-4447-ac3b-a6127e625ec7"
+     ],
+     "count": 2
     }
    }
   },
@@ -6686,5 +6925,5 @@
    }
   }
  },
- "updated_at": "2026-11-16T00:37:23Z"
+ "updated_at": "2026-11-27T00:21:55Z"
 }
