@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-28T14:12:04Z",
- "data_as_of": "2026-11-28T14:12:04Z",
- "rendered_at": "2026-11-28T14:12:04Z",
+ "generated_at": "2026-11-28T21:41:41Z",
+ "data_as_of": "2026-11-28T21:41:41Z",
+ "rendered_at": "2026-11-28T21:41:42Z",
  "source": "https://github.com/EthanChen5291/internship-alerts",
  "h1b_window": "FY2022–2023",
- "count": 1093,
+ "count": 1094,
  "jobs": [
   {
    "id": "greenhouse:cssmerge:8963704002",
@@ -28273,6 +28273,40 @@
    "source": "workday",
    "h1b_approvals": null,
    "program": "Internship",
+   "remote": false
+  },
+  {
+   "id": "workday:ancestry:/job/Draper-Utah/Software-Engineer---Observability--Co-op_R003434",
+   "company": "Ancestry",
+   "title": "Software Engineer – Observability, Co-op",
+   "season": "Not stated",
+   "seasons": null,
+   "season_inferred": true,
+   "category": "Software",
+   "location": "Draper, Utah",
+   "url": "https://ancestry.wd501.myworkdayjobs.com/Careers/job/Draper-Utah/Software-Engineer---Observability--Co-op_R003434",
+   "posted_at": "2026-08-26T00:00:00Z",
+   "posted_at_source": "date_only",
+   "first_seen_at": "2026-08-26T22:45:27Z",
+   "sponsorship": "unknown",
+   "salary": null,
+   "skills": [
+    "Python",
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "SQL",
+    "LLMs",
+    "React",
+    "Node.js"
+   ],
+   "class_year": null,
+   "underclass_program_key": null,
+   "underclass_program": null,
+   "underclass_audience": null,
+   "source": "workday",
+   "h1b_approvals": null,
+   "program": "Co-op",
    "remote": false
   },
   {
