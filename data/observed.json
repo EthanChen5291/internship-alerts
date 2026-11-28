@@ -6544,6 +6544,13 @@
      "role_ids": [
       "workday:vrtx:/job/Boston-MA/Vertex-Fall-Co-op-2026--AI-and-Governance_REQ-28615-1"
      ]
+    },
+    "Summer 2027": {
+     "first_posted": "2026-11-25",
+     "role_ids": [
+      "workday:vrtx:/job/Boston-MA/Summer-Intern-2027--Digital-Pathology-and-AI-Validation_REQ-31421"
+     ],
+     "count": 1
     }
    }
   },
@@ -6994,5 +7001,5 @@
    }
   }
  },
- "updated_at": "2026-11-27T22:46:52Z"
+ "updated_at": "2026-11-28T04:44:20Z"
 }
